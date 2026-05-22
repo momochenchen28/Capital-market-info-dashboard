@@ -75,9 +75,11 @@ function TimelineAndIntermediaries({ item }) {
           <p className="mb-3 text-sm font-medium text-slate-900">上市申请 / 备案时间线</p>
           <ul className="space-y-2 text-sm text-slate-600">
             {Object.entries({
-              首次递表: item.timeline.firstFilingDate,
-              再次递表: item.timeline.refilingDate,
-              聆讯: item.timeline.hearingDate,
+              首次递交上市申请: item.timeline.firstFilingDate,
+              最近一次提交上市申请: item.timeline.refilingDate,
+              证监会公示收到备案: item.timeline.csrcReceivedDate,
+              通过备案: item.timeline.csrcFilingApprovedDate,
+              最近一次通过聆讯: item.timeline.hearingDate,
               招股书日期: item.timeline.prospectusDate,
               配发结果日期: item.timeline.allotmentResultDate,
               上市日期: item.timeline.listingDate
