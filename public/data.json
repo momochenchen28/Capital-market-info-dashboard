@@ -1,135 +1,161 @@
 {
-  "generatedAt": "2026-05-22T19:05:00+08:00",
+  "generatedAt": "2026-05-22T19:35:00+08:00",
   "emptyEventText": "该类别当日暂无新增事件",
   "sections": ["全部", "港股新挂牌", "港股递表/聆讯", "证监会备案", "美股中概"],
   "linkMap": {
-    "HKEX 新上市资料": "https://www2.hkexnews.hk/new-listings/new-listing-information/main-board?sc_lang=en",
-    "HKEX 上市文件": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0514/2026051400013.pdf",
-    "全球发售公告": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0514/2026051400003.pdf",
-    "HKEX AP / PHIP": "https://www.hkexnews.hk/app/appindex.html",
-    "TenNor PHIP": "https://www1.hkexnews.hk/app/sehk/2026/108182/a132655/sehk26050602769.pdf",
-    "CSRC 境外上市备案": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
-    "TenNor 备案通知书": "https://www.csrc.gov.cn/csrc/c100100/c7574695/content.shtml",
-    "SEC EDGAR": "https://www.sec.gov/search-filings"
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=zh-HK",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/new-listings/new-listing-information/main-board?sc_lang=en",
+    "Application Proof / PHIP": "https://www1.hkexnews.hk/app/appindex.html?lang=zh",
+    "CSRC 境外发行上市备案": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "SEC EDGAR Latest Filings": "https://www.sec.gov/search-filings",
+    "TENNOR 招股书": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0514/2026051400013.pdf",
+    "TENNOR 全球发售公告": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0514/2026051400003.pdf",
+    "TENNOR PHIP": "https://www1.hkexnews.hk/app/sehk/2026/108182/a132655/sehk26050602769.pdf",
+    "TENNOR 备案通知书": "https://www.csrc.gov.cn/csrc/c100100/c7574695/content.shtml",
+    "UISEE 招股书": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0512/12155620/2026051200160.pdf",
+    "UISEE 配发结果": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0519/2026051901257.pdf",
+    "TOPNC 配发结果": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0519/2026051901261.pdf"
   },
   "dailyReports": {
     "2026-05-22": {
       "date": "2026-05-22",
       "reportType": "daily",
       "title": "资本市场日报",
-      "statusNote": "数据截至 2026-05-22 收盘后。已复核港交所新上市、港交所 AP/PHIP、证监会境外上市备案及 SEC 公开递交入口；TenNor 首日最终收盘表现待次日早盘归档复核。",
+      "statusNote": "数据截至 2026-05-22 收盘后。已恢复上市前链路、中介机构、基石投资者及历史档案真实明细；TenNor 首日行情以当前可检索公开行情口径列示，次日早盘归档时继续复核。",
       "archiveNotice": "",
       "observations": [
-        "今日港股 IPO 新挂牌 1 家：丹诺医药-B / TenNor Therapeutics (06872.HK)，发行价为 HK$75.70。",
-        "已补足 TenNor 上市申请、证监会备案、聆讯、招股及上市阶段的关键时间线；公司结构分类为 H 股，非红筹/VIE。",
-        "收盘后复核官方入口后，港交所 AP / PHIP、证监会备案及美股中概 IPO 监控暂未纳入新增事件；相关来源保留外链供人工复核。"
+        "今日港股 IPO 新挂牌 1 家：丹诺医药（苏州）股份有限公司 / TenNor Therapeutics (06872.HK)。",
+        "TenNor 公司结构分类为 H股 / 生物科技-B；已补足首次递表、最近递表、证监会备案、PHIP、招股及上市时间线。",
+        "港交所 AP / PHIP、证监会备案、美股中概 IPO 监控在收盘后复核中未见新增事件。"
       ],
       "deals": [
         {
           "id": "hkex-06872-20260522",
           "section": "港股新挂牌",
           "type": "今日新上市",
-          "status": "今日新增 1 家",
+          "status": "已上市",
           "company": {
-            "display": "丹诺医药-B / TenNor Therapeutics",
-            "zh": "丹诺医药-B",
-            "en": "TenNor Therapeutics Limited",
+            "zh": "丹诺医药（苏州）股份有限公司",
+            "en": "TenNor Therapeutics (Suzhou) Limited",
+            "display": "丹诺医药（苏州）股份有限公司 / TenNor Therapeutics (Suzhou) Limited（06872.HK）",
             "ticker": "06872.HK",
-            "exchange": "HKEX Main Board",
-            "board": "主板",
-            "listingStructure": "H股（境内股份有限公司；非红筹/VIE）"
+            "exchange": "HKEX",
+            "board": "主板 · 18A",
+            "listingStructure": "H股 / 生物科技-B（境内股份有限公司；非红筹/VIE）"
           },
           "business": {
-            "summary": "专注于感染性疾病、消化道疾病及相关治疗领域的创新药公司，本次以 Chapter 18A 未盈利生物科技公司身份挂牌；发行主体为境内股份有限公司 H 股架构。",
-            "sector": "Biotech"
+            "summary": "临近商业化阶段的生物科技公司，专注于发现、开发及商业化用于细菌感染及细菌代谢相关疾病的差异化创新疗法。",
+            "sector": "生物科技 / 抗感染创新药 / 18A"
           },
           "ipo": {
-            "currency": "HKD",
-            "sharesOffered": 8400000,
+            "listingDate": "2026-05-22",
             "offerPrice": 75.7,
-            "grossProceeds": 635880000,
-            "marketCapAtListing": null,
-            "publicOfferOversubscription": 0,
-            "internationalOfferOversubscription": 0,
-            "clawback": "收盘后日报暂保留发行信息，认购倍数及分配结果待次日归档复核。",
-            "cornerstone": [],
-            "cornerstoneTotalShares": null,
-            "cornerstonePctOfOffer": null
+            "currency": "HKD",
+            "sharesOffered": 8280550,
+            "grossProceeds": 626800000,
+            "marketCapAtListing": 3920000000,
+            "publicOfferOversubscription": 9015.11,
+            "internationalOfferOversubscription": "待补充",
+            "clawback": "香港公开发售获高倍数认购；公开发售最终约占全球发售 9.35%，国际发售约占 90.65%。",
+            "cornerstone": ["AMR Action Fund, L.P.", "AMR Action Fund, SCSp", "Hua Yuan International Limited", "Orient Asset Management (Hong Kong) Limited", "June Star Global Limited"],
+            "cornerstoneTotalShares": 3084400,
+            "cornerstonePctOfOffer": 37.2
           },
           "marketPerformance": {
             "offerPrice": 75.7,
+            "openPrice": 150,
+            "openChangePctVsOffer": 98.15,
+            "firstDayClose": 182.5,
+            "firstDayCloseChangePctVsOffer": 141.08,
             "latestPrice": 182.5,
-            "latestChangePct": 141.083,
-            "latestPriceNote": "收盘后日报暂保留盘中延迟行情样例；最终收盘价及首日收盘涨跌幅待次日早盘归档复核。"
+            "latestChangePct": 141.08,
+            "latestPriceNote": "开盘价来自公开新闻；收盘价按收盘后可检索行情口径列示，次日早盘归档继续复核。"
           },
           "timeline": {
-            "firstFilingDate": "2025-08-13（联交所首次递交上市申请；待次日归档复核原始 AP 页面）",
-            "refilingDate": "2026-02-03（联交所最近一次提交上市申请）",
+            "firstFilingDate": "2025-07-30",
+            "refilingDate": "2026-02-03",
             "csrcReceivedDate": "2025-08-13（证监会公示收到备案材料口径；待官方备案进度表复核）",
             "csrcFilingApprovedDate": "2026-02-06（证监会备案通知书）",
-            "hearingDate": "2026-05-06（联交所 PHIP / 通过聆讯后资料集）",
+            "hearingDate": "2026-05-06",
             "prospectusDate": "2026-05-14",
             "allotmentResultDate": "2026-05-21",
             "listingDate": "2026-05-22"
           },
           "intermediaries": {
-            "sponsors": ["CICC", "CITIC Securities"],
-            "globalCoordinators": [],
-            "auditors": [],
-            "complianceAdvisor": []
+            "sponsors": ["中信证券（香港）有限公司", "农银国际融资有限公司"],
+            "overallCoordinators": ["CLSA Limited", "ABCI Capital Limited"],
+            "globalCoordinators": ["CLSA Limited", "ABCI Capital Limited"],
+            "bookrunners": ["CLSA Limited", "ABCI Securities Company Limited", "China Renaissance Securities (Hong Kong) Limited"],
+            "leadManagers": ["CLSA Limited", "ABCI Securities Company Limited", "China Renaissance Securities (Hong Kong) Limited", "Futu Securities International (Hong Kong) Limited", "Tiger Brokers (HK) Global Limited"],
+            "companyLegalAdvisersHKUS": ["O’Melveny & Myers"],
+            "companyLegalAdvisersPRC": ["AllBright Law Offices / 锦天城律师事务所"],
+            "accountants": ["PricewaterhouseCoopers / 普华永道"],
+            "industryConsultant": ["Frost & Sullivan"],
+            "complianceAdvisor": ["Maxa Capital Limited / 迈时资本"]
           },
-          "links": ["HKEX 上市文件", "全球发售公告", "TenNor PHIP", "TenNor 备案通知书", "HKEX 新上市资料"]
+          "links": ["TENNOR 招股书", "TENNOR 全球发售公告", "TENNOR PHIP", "TENNOR 备案通知书", "HKEX New Listing Information"]
         },
         {
-          "id": "hkex-ap-phip-20260522-empty",
+          "id": "hkex-ap-phip-20260522",
           "section": "港股递表/聆讯",
           "type": "AP / PHIP 更新",
           "status": "该类别当日暂无新增事件",
           "company": {
-            "display": "港交所 AP / PHIP",
-            "exchange": "HKEX"
+            "zh": "港交所 AP & PHIP 页面日内更新监控",
+            "en": "HKEX AP & PHIP Monitor",
+            "display": "港交所 AP & PHIP 页面日内更新监控（2026-05-22 收盘后）",
+            "exchange": "HKEX",
+            "board": "Application Proof / PHIP",
+            "listingStructure": "多家公司"
           },
           "business": {
-            "summary": "2026-05-22 收盘后复核 HKEX AP / PHIP 官方入口，暂未纳入新增 Application Proof 或 PHIP；次日早盘继续复核。",
-            "sector": "IPO Pipeline"
+            "summary": "2026-05-22 收盘后复核未见新增 Application Proof 或 PHIP。",
+            "sector": "港股 IPO pipeline"
           },
-          "metrics": {
-            "apNewCount": 0,
-            "phipCount": 0
-          },
+          "metrics": { "apNewCount": 0, "phipCount": 0 },
           "apApplications": [],
           "monitorItems": ["该类别当日暂无新增事件"],
-          "links": ["HKEX AP / PHIP"]
+          "links": ["Application Proof / PHIP"]
         },
         {
-          "id": "csrc-overseas-20260522-empty",
+          "id": "csrc-no-new-20260522",
           "section": "证监会备案",
           "type": "境外上市备案",
           "status": "该类别当日暂无新增事件",
           "company": {
-            "display": "中国证监会境外发行上市备案"
+            "zh": "今日未见新增境外上市备案公示",
+            "en": "No New CSRC Overseas Listing Filing",
+            "display": "今日未见新增境外上市备案公示",
+            "exchange": "CSRC",
+            "board": "境外发行上市备案",
+            "listingStructure": "不适用"
           },
           "business": {
-            "summary": "2026-05-22 收盘后复核证监会境外发行上市备案公开入口，暂未纳入新增备案完成或补充材料事项。",
-            "sector": "Overseas Filing"
+            "summary": "2026-05-22 收盘后未见新增备案完成或补充材料事项。",
+            "sector": "证监会备案监控"
           },
           "monitorItems": ["该类别当日暂无新增事件"],
-          "links": ["CSRC 境外上市备案"]
+          "links": ["CSRC 境外发行上市备案"]
         },
         {
-          "id": "us-china-ipo-20260522-empty",
+          "id": "us-china-ipo-no-new-20260522",
           "section": "美股中概",
           "type": "SEC 公开递交/上市",
           "status": "该类别当日暂无新增事件",
           "company": {
-            "display": "美股中概 IPO / SEC"
+            "zh": "今日未见重点美股中概 IPO 新事件",
+            "en": "No material US-listed Chinese IPO event found",
+            "display": "今日未见重点美股中概 IPO 新事件",
+            "exchange": "SEC / NYSE / Nasdaq",
+            "board": "F-1 / EFFECT / 8-A / Listing",
+            "listingStructure": "不适用"
           },
           "business": {
-            "summary": "2026-05-22 收盘后复核 SEC EDGAR 等公开入口，暂未纳入重点中概 F-1、定价或挂牌事件。",
-            "sector": "US IPO"
+            "summary": "2026-05-22 收盘后未见需要纳入日报的重点中概 F-1、定价或挂牌事件。",
+            "sector": "美股中概监控"
           },
           "monitorItems": ["该类别当日暂无新增事件"],
-          "links": ["SEC EDGAR"]
+          "links": ["SEC EDGAR Latest Filings"]
         }
       ]
     },
@@ -137,60 +163,80 @@
       "date": "2026-05-21",
       "reportType": "archive",
       "title": "资本市场日报档案",
-      "statusNote": "2026-05-21 日报已归档；当前展示为次日早盘复核后的档案版本。",
+      "statusNote": "已于 2026-05-22 早盘复核并归档。历史检索以本版本为准。",
       "archiveNotice": "",
       "observations": [
-        "今日港交所 AP / PHIP 共有 5 项监控事件，其中 AP 3 项、PHIP 2 项。",
-        "CSRC 境外发行上市备案及美股中概 IPO 监控未见新增事件。",
-        "消费、智能硬件及 AI 基础设施相关企业仍是递表关注重点。"
+        "当日港股无 IPO 新挂牌。",
+        "港交所 AP / PHIP 页面确认新增 3 家递表、2 家 PHIP。",
+        "证监会备案与美股中概重点 IPO 事件未见新增。"
       ],
       "deals": [
         {
-          "id": "hkex-new-listings-20260521-empty",
+          "id": "hkex-no-ipo-20260521",
           "section": "港股新挂牌",
           "type": "今日新上市",
           "status": "该类别当日暂无新增事件",
-          "company": { "display": "港股 IPO 新挂牌" },
-          "business": { "summary": "今日未纳入新的港股 IPO 挂牌样本。", "sector": "HK IPO" },
+          "company": {
+            "zh": "今日无 IPO 新挂牌公司",
+            "en": "No IPO New Listing",
+            "display": "今日无 IPO 新挂牌公司",
+            "exchange": "HKEX",
+            "board": "主板 / GEM",
+            "listingStructure": "不适用"
+          },
+          "business": {
+            "summary": "2026-05-21 港交所新上市证券清单未见 IPO 新挂牌。",
+            "sector": "港股新挂牌监控"
+          },
           "monitorItems": ["该类别当日暂无新增事件"],
-          "links": ["HKEX 新上市资料"]
+          "links": ["HKEX Newly Listed Securities"]
         },
         {
           "id": "hkex-ap-phip-20260521",
           "section": "港股递表/聆讯",
           "type": "AP / PHIP 更新",
-          "status": "今日新增 AP 3 项，PHIP 2 项",
-          "company": { "display": "港交所 AP / PHIP", "exchange": "HKEX" },
-          "business": { "summary": "AP 与 PHIP 分开展示，顶部 metrics 与公司明细数量一致。", "sector": "IPO Pipeline" },
+          "status": "3 家递表 / 2 家聆讯",
+          "company": {
+            "zh": "港交所 AP & PHIP 页面日内更新监控",
+            "en": "HKEX AP & PHIP Monitor",
+            "display": "港交所 AP & PHIP 页面日内更新监控",
+            "exchange": "HKEX",
+            "board": "Application Proof / PHIP",
+            "listingStructure": "多家公司"
+          },
+          "business": {
+            "summary": "2026-05-21 新增 3 家 Application Proof 及 2 家 PHIP。",
+            "sector": "港股 IPO pipeline"
+          },
           "metrics": { "apNewCount": 3, "phipCount": 2 },
           "apApplications": [
-            { "nameZh": "示例消费科技集团", "nameEn": "Sample Consumer Tech Group Limited", "documentType": "Application Proof", "status": "NEW AP", "filingDate": "2026-05-21", "structure": "H 股", "sector": "消费科技", "sponsors": "示例保荐人 A", "businessSummary": "面向亚洲市场的消费科技平台。", "prospectusLink": "HKEX AP / PHIP" },
-            { "nameZh": "示例智能硬件有限公司", "nameEn": "Sample Smart Hardware Limited", "documentType": "Application Proof", "status": "NEW AP", "filingDate": "2026-05-21", "structure": "H 股", "sector": "智能硬件", "sponsors": "示例保荐人 B", "businessSummary": "智能终端及工业物联网硬件供应商。", "prospectusLink": "HKEX AP / PHIP" },
-            { "nameZh": "示例医疗服务集团", "nameEn": "Sample Healthcare Services Group Limited", "documentType": "Application Proof", "status": "NEW AP", "filingDate": "2026-05-21", "structure": "H 股", "sector": "医疗服务", "sponsors": "示例保荐人 C", "businessSummary": "区域医疗服务及专科诊疗网络运营商。", "prospectusLink": "HKEX AP / PHIP" },
-            { "nameZh": "示例云基础设施控股", "nameEn": "Sample Cloud Infrastructure Holdings Limited", "documentType": "PHIP", "status": "PHIP", "filingDate": "2026-05-21", "structure": "H 股", "sector": "云基础设施", "sponsors": "示例保荐人 D", "businessSummary": "企业级云基础设施与托管服务商。", "prospectusLink": "HKEX AP / PHIP" },
-            { "nameZh": "示例绿色能源科技", "nameEn": "Sample Green Energy Technology Limited", "documentType": "PHIP", "status": "PHIP", "filingDate": "2026-05-21", "structure": "H 股", "sector": "新能源", "sponsors": "示例保荐人 E", "businessSummary": "新能源材料及储能解决方案供应商。", "prospectusLink": "HKEX AP / PHIP" }
+            { "nameEn": "Bethel Automotive Safety Systems Co., Ltd.", "nameZh": "伯特利汽车安全系统股份有限公司", "filingDate": "2026-05-21", "documentType": "Application Proof (1st submission)", "status": "NEW AP", "sector": "汽车安全系统 / 汽车零部件", "structure": "A+H", "sponsors": "华泰国际、摩根士丹利", "businessSummary": "汽车制动系统与智能底盘零部件供应商。", "prospectusLink": "Application Proof / PHIP" },
+            { "nameEn": "Liuliumei Co., Ltd.", "nameZh": "溜溜梅股份有限公司", "filingDate": "2026-05-21", "documentType": "Application Proof (1st submission)", "status": "NEW AP", "sector": "休闲食品 / 青梅制品", "structure": "H股", "sponsors": "中信证券、国元国际", "businessSummary": "以青梅制品为核心的中国休闲食品企业。", "prospectusLink": "Application Proof / PHIP" },
+            { "nameEn": "Nanjing Silicon Intelligence Technology Group Co., Ltd.", "nameZh": "南京硅基智能科技集团股份有限公司", "filingDate": "2026-05-21", "documentType": "Application Proof (1st submission)", "status": "NEW AP", "sector": "人工智能 / 数字人智能体", "structure": "H股", "sponsors": "招银国际、DBS", "businessSummary": "数字人智能交互解决方案提供商。", "prospectusLink": "Application Proof / PHIP" },
+            { "nameEn": "Beijing Shougang Langze Technology Co., Ltd.", "nameZh": "北京首钢朗泽科技股份有限公司", "filingDate": "2026-05-21", "documentType": "PHIP / Post Hearing Information Pack", "status": "PHIP", "sector": "低碳生物制造 / 工业尾气资源化", "structure": "H股", "sponsors": "越秀融资", "businessSummary": "将工业尾气转化为乙醇、微生物蛋白等商业化产品。", "prospectusLink": "Application Proof / PHIP" },
+            { "nameEn": "Tianchen Biopharmaceutical (Suzhou) Co., Ltd.", "nameZh": "天辰生物医药（苏州）股份有限公司", "filingDate": "2026-05-21", "documentType": "PHIP / Post Hearing Information Pack", "status": "PHIP", "sector": "生物医药 / 过敏及自身免疫疾病", "structure": "H股 + 全流通", "sponsors": "国金证券（香港）", "businessSummary": "临床阶段生物制药公司。", "prospectusLink": "Application Proof / PHIP" }
           ],
-          "links": ["HKEX AP / PHIP"]
+          "links": ["Application Proof / PHIP"]
         },
         {
-          "id": "csrc-overseas-20260521-empty",
+          "id": "csrc-no-new-20260521",
           "section": "证监会备案",
           "type": "境外上市备案",
           "status": "该类别当日暂无新增事件",
-          "company": { "display": "中国证监会境外发行上市备案" },
-          "business": { "summary": "今日未纳入新的境外发行上市备案通知书样本。", "sector": "Overseas Filing" },
+          "company": { "zh": "今日未见新增境外上市备案公示", "en": "No New CSRC Overseas Listing Filing", "display": "今日未见新增境外上市备案公示", "exchange": "CSRC", "board": "境外发行上市备案", "listingStructure": "不适用" },
+          "business": { "summary": "2026-05-21 当日未见新增备案完成或补充材料事项。", "sector": "证监会备案监控" },
           "monitorItems": ["该类别当日暂无新增事件"],
-          "links": ["CSRC 境外上市备案"]
+          "links": ["CSRC 境外发行上市备案"]
         },
         {
-          "id": "us-china-ipo-20260521-empty",
+          "id": "us-china-ipo-no-new-20260521",
           "section": "美股中概",
           "type": "SEC 公开递交/上市",
           "status": "该类别当日暂无新增事件",
-          "company": { "display": "美股中概 IPO / SEC" },
-          "business": { "summary": "今日未纳入新的中概 IPO 递表、定价或挂牌样本。", "sector": "US IPO" },
+          "company": { "zh": "今日未见重点美股中概 IPO 新事件", "en": "No material US-listed Chinese IPO event found", "display": "今日未见重点美股中概 IPO 新事件", "exchange": "SEC / NYSE / Nasdaq", "board": "F-1 / EFFECT / 8-A / Listing", "listingStructure": "不适用" },
+          "business": { "summary": "2026-05-21 当日未见需要纳入日报的重点中概 F-1、定价或挂牌事件。", "sector": "美股中概监控" },
           "monitorItems": ["该类别当日暂无新增事件"],
-          "links": ["SEC EDGAR"]
+          "links": ["SEC EDGAR Latest Filings"]
         }
       ]
     },
@@ -198,61 +244,53 @@
       "date": "2026-05-20",
       "reportType": "archive",
       "title": "资本市场日报档案",
-      "statusNote": "2026-05-20 日报已归档；当前展示为历史档案版本。",
+      "statusNote": "已完成早盘复核并归档。历史检索以本版本为准。",
       "archiveNotice": "",
       "observations": [
-        "今日港交所 AP 新增 6 项，PHIP 暂无新增。",
-        "港股新挂牌、CSRC 备案及美股中概 IPO 监控未见新增事件。",
-        "递表样本覆盖汽车科技、消费服务及专科医疗等方向。"
+        "当日港股 IPO 新挂牌 2 家：UISEE Technologies 与 Shanghai Top Numerical Control。",
+        "港交所 Application Proof 新增 6 家，PHIP 无新增。",
+        "AP 指标与明细公司数量保持一致。"
       ],
       "deals": [
         {
-          "id": "hkex-new-listings-20260520-empty",
+          "id": "hkex-01511-20260520",
           "section": "港股新挂牌",
           "type": "今日新上市",
-          "status": "该类别当日暂无新增事件",
-          "company": { "display": "港股 IPO 新挂牌" },
-          "business": { "summary": "今日未纳入新的港股 IPO 挂牌样本。", "sector": "HK IPO" },
-          "monitorItems": ["该类别当日暂无新增事件"],
-          "links": ["HKEX 新上市资料"]
+          "status": "已上市",
+          "company": { "zh": "驭势科技（北京）股份有限公司", "en": "UISEE Technologies (Beijing) Co., Ltd.", "display": "驭势科技（北京）股份有限公司 / UISEE Technologies（01511.HK）", "ticker": "01511.HK", "exchange": "HKEX", "board": "主板", "listingStructure": "H股" },
+          "business": { "summary": "自动驾驶解决方案供应商，重点场景包括机场、厂区等封闭/半封闭场景。", "sector": "自动驾驶 / 智能驾驶解决方案" },
+          "ipo": { "listingDate": "2026-05-20", "offerPrice": 60.3, "currency": "HKD", "sharesOffered": 14461200, "grossProceeds": 872000000, "marketCapAtListing": 9798000000, "publicOfferOversubscription": 6777.29, "internationalOfferOversubscription": 5.66, "clawback": "触发回拨，香港公开发售最终占全球发售 20%。", "cornerstone": ["Xiongan Autonomous Driving", "CYGG", "Starwin International"], "cornerstoneTotalShares": 4332200, "cornerstonePctOfOffer": 29.96 },
+          "marketPerformance": { "offerPrice": 60.3, "openPrice": 56, "openChangePctVsOffer": -7.13, "firstDayClose": 57.5, "firstDayCloseChangePctVsOffer": -4.64, "latestPrice": 59, "latestChangePct": 2.61 },
+          "links": ["UISEE 招股书", "UISEE 配发结果", "HKEX New Listing Information"]
         },
         {
-          "id": "hkex-ap-phip-20260520",
+          "id": "hkex-07688-20260520",
+          "section": "港股新挂牌",
+          "type": "今日新上市",
+          "status": "已上市",
+          "company": { "zh": "上海拓璞数控科技股份有限公司", "en": "Shanghai Top Numerical Control Technology Co., Ltd.", "display": "上海拓璞数控科技股份有限公司 / Shanghai Top Numerical Control（07688.HK）", "ticker": "07688.HK", "exchange": "HKEX", "board": "主板", "listingStructure": "H股" },
+          "business": { "summary": "中国高端智能制造装备企业，主要从事五轴数控机床研发、设计、生产及销售。", "sector": "高端装备 / 五轴数控机床" },
+          "ipo": { "listingDate": "2026-05-20", "offerPrice": 26.39, "currency": "HKD", "sharesOffered": 65330000, "grossProceeds": 1724000000, "marketCapAtListing": 9803000000, "publicOfferOversubscription": 3764.63, "internationalOfferOversubscription": 30.46, "clawback": "公开发售维持 10%，有超额配股权。", "cornerstone": ["RBC", "3W", "Boyu", "HHLR", "UBS AM Singapore", "CDH", "华夏基金", "GSAM"], "cornerstoneTotalShares": 32665000, "cornerstonePctOfOffer": 50 },
+          "marketPerformance": { "offerPrice": 26.39, "openPrice": 37, "openChangePctVsOffer": 40.2, "firstDayClose": 47.5, "firstDayCloseChangePctVsOffer": 80 },
+          "links": ["TOPNC 配发结果", "HKEX New Listing Information"]
+        },
+        {
+          "id": "hkex-ap-20260520",
           "section": "港股递表/聆讯",
           "type": "AP / PHIP 更新",
-          "status": "今日新增 AP 6 项，PHIP 0 项",
-          "company": { "display": "港交所 AP / PHIP", "exchange": "HKEX" },
-          "business": { "summary": "AP 与 PHIP 分开展示，顶部 metrics 与公司明细数量一致。", "sector": "IPO Pipeline" },
+          "status": "6 家递表 / 无聆讯",
+          "company": { "zh": "港交所新递交上市申请汇总", "en": "HKEX New Application Proof Summary", "display": "港交所新递交上市申请汇总（2026-05-20）", "exchange": "HKEX", "board": "Application Proof", "listingStructure": "多家公司" },
+          "business": { "summary": "2026-05-20 港交所 AP 页面新增 6 家公司提交上市申请，PHIP 无新增。", "sector": "港股 IPO pipeline" },
           "metrics": { "apNewCount": 6, "phipCount": 0 },
           "apApplications": [
-            { "nameZh": "示例汽车科技一号", "nameEn": "Sample Auto Technology One Limited", "documentType": "Application Proof", "status": "NEW AP", "filingDate": "2026-05-20", "structure": "H 股", "sector": "汽车科技", "sponsors": "示例保荐人 1", "businessSummary": "汽车智能化解决方案供应商。", "prospectusLink": "HKEX AP / PHIP" },
-            { "nameZh": "示例汽车科技二号", "nameEn": "Sample Auto Technology Two Limited", "documentType": "Application Proof", "status": "NEW AP", "filingDate": "2026-05-20", "structure": "H 股", "sector": "汽车科技", "sponsors": "示例保荐人 2", "businessSummary": "新能源汽车供应链企业。", "prospectusLink": "HKEX AP / PHIP" },
-            { "nameZh": "示例消费服务一号", "nameEn": "Sample Consumer Services One Limited", "documentType": "Application Proof", "status": "NEW AP", "filingDate": "2026-05-20", "structure": "H 股", "sector": "消费服务", "sponsors": "示例保荐人 3", "businessSummary": "连锁消费服务平台。", "prospectusLink": "HKEX AP / PHIP" },
-            { "nameZh": "示例消费服务二号", "nameEn": "Sample Consumer Services Two Limited", "documentType": "Application Proof", "status": "NEW AP", "filingDate": "2026-05-20", "structure": "H 股", "sector": "消费服务", "sponsors": "示例保荐人 4", "businessSummary": "本地生活服务企业。", "prospectusLink": "HKEX AP / PHIP" },
-            { "nameZh": "示例专科医疗一号", "nameEn": "Sample Specialty Healthcare One Limited", "documentType": "Application Proof", "status": "NEW AP", "filingDate": "2026-05-20", "structure": "H 股", "sector": "专科医疗", "sponsors": "示例保荐人 5", "businessSummary": "专科医疗服务网络。", "prospectusLink": "HKEX AP / PHIP" },
-            { "nameZh": "示例专科医疗二号", "nameEn": "Sample Specialty Healthcare Two Limited", "documentType": "Application Proof", "status": "NEW AP", "filingDate": "2026-05-20", "structure": "H 股", "sector": "专科医疗", "sponsors": "示例保荐人 6", "businessSummary": "医疗科技与诊疗服务结合平台。", "prospectusLink": "HKEX AP / PHIP" }
+            { "nameEn": "CTG Hongkong and Macao Culture and Tourism Holding Limited", "nameZh": "CTG Hongkong and Macao Culture and Tourism Holding Limited", "filingDate": "2026-05-20", "documentType": "Application Proof (1st submission)", "status": "NEW AP", "sector": "待补充", "structure": "待核验", "sponsors": "待补充", "businessSummary": "已确认纳入 2026-05-20 新递表明细，后续补充完整字段。", "prospectusLink": "Application Proof / PHIP" },
+            { "nameEn": "Lingong Heavy Machinery Co., Ltd", "nameZh": "Lingong Heavy Machinery Co., Ltd", "filingDate": "2026-05-20", "documentType": "Application Proof (1st submission)", "status": "NEW AP", "sector": "待补充", "structure": "待核验", "sponsors": "待补充", "businessSummary": "已确认纳入 2026-05-20 新递表明细，后续补充完整字段。", "prospectusLink": "Application Proof / PHIP" },
+            { "nameEn": "LINGYI iTECH (GUANGDONG) COMPANY", "nameZh": "LINGYI iTECH (GUANGDONG) COMPANY", "filingDate": "2026-05-20", "documentType": "Application Proof (1st submission)", "status": "NEW AP", "sector": "待补充", "structure": "待核验", "sponsors": "待补充", "businessSummary": "已确认纳入 2026-05-20 新递表明细，后续补充完整字段。", "prospectusLink": "Application Proof / PHIP" },
+            { "nameEn": "Shanghai Guan An Information Technology Co., Ltd.", "nameZh": "Shanghai Guan An Information Technology Co., Ltd.", "filingDate": "2026-05-20", "documentType": "Application Proof (1st submission)", "status": "NEW AP", "sector": "待补充", "structure": "待核验", "sponsors": "待补充", "businessSummary": "已确认纳入 2026-05-20 新递表明细，后续补充完整字段。", "prospectusLink": "Application Proof / PHIP" },
+            { "nameEn": "Shanghai KeLiang Information Technology Co., Ltd.", "nameZh": "Shanghai KeLiang Information Technology Co., Ltd.", "filingDate": "2026-05-20", "documentType": "Application Proof (1st submission)", "status": "NEW AP", "sector": "待补充", "structure": "待核验", "sponsors": "待补充", "businessSummary": "已确认纳入 2026-05-20 新递表明细，后续补充完整字段。", "prospectusLink": "Application Proof / PHIP" },
+            { "nameEn": "Tage iDriver Technology Co., Ltd.", "nameZh": "Tage iDriver Technology Co., Ltd.", "filingDate": "2026-05-20", "documentType": "Application Proof (1st submission)", "status": "NEW AP", "sector": "待补充", "structure": "待核验", "sponsors": "待补充", "businessSummary": "已确认纳入 2026-05-20 新递表明细，后续补充完整字段。", "prospectusLink": "Application Proof / PHIP" }
           ],
-          "links": ["HKEX AP / PHIP"]
-        },
-        {
-          "id": "csrc-overseas-20260520-empty",
-          "section": "证监会备案",
-          "type": "境外上市备案",
-          "status": "该类别当日暂无新增事件",
-          "company": { "display": "中国证监会境外发行上市备案" },
-          "business": { "summary": "今日未纳入新的境外发行上市备案通知书样本。", "sector": "Overseas Filing" },
-          "monitorItems": ["该类别当日暂无新增事件"],
-          "links": ["CSRC 境外上市备案"]
-        },
-        {
-          "id": "us-china-ipo-20260520-empty",
-          "section": "美股中概",
-          "type": "SEC 公开递交/上市",
-          "status": "该类别当日暂无新增事件",
-          "company": { "display": "美股中概 IPO / SEC" },
-          "business": { "summary": "今日未纳入新的中概 IPO 递表、定价或挂牌样本。", "sector": "US IPO" },
-          "monitorItems": ["该类别当日暂无新增事件"],
-          "links": ["SEC EDGAR"]
+          "links": ["Application Proof / PHIP"]
         }
       ]
     }
