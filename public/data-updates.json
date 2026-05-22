@@ -1,0 +1,184 @@
+{
+  "generatedAt": "2026-05-22T21:10:00+08:00",
+  "linkMap": {
+    "CSRC 上海睿触机器人备案通知书": "https://www.csrc.gov.cn/csrc/c105984/c7634504/content.shtml",
+    "CSRC 广东领益智造备案通知书": "https://www.csrc.gov.cn/csrc/c105984/c7634506/content.shtml",
+    "CSRC 合肥晶合集成备案通知书": "https://www.csrc.gov.cn/csrc/c105984/c7634515/content.shtml",
+    "CSRC 千岛湖鲟龙科技备案通知书": "https://www.csrc.gov.cn/csrc/c105984/c7634519/content.shtml",
+    "CSRC 高明铁企业备案通知书": "https://www.csrc.gov.cn/csrc/c105984/c7634522/content.shtml"
+  },
+  "dailyReports": {
+    "2026-05-22": {
+      "statusNote": "数据截至 2026-05-22 晚间证监会备案更新后。已补充周五晚间证监会集中披露的 5 家境外发行上市备案通知书；TenNor 首日行情、上市前链路、中介机构及基石投资者信息维持收盘后口径，次日早盘归档时继续复核。",
+      "observations": [
+        "今日港股 IPO 新挂牌 1 家：丹诺医药（苏州）股份有限公司 / TenNor Therapeutics (06872.HK)。",
+        "证监会境外发行上市备案晚间新增 5 家：上海睿触机器人、广东领益智造、合肥晶合集成、杭州千岛湖鲟龙科技、高明铁企业。",
+        "每周五晚间为证监会备案披露高峰时段，后续周五日报需特别复核 18:00 后新增备案通知书。",
+        "港交所 AP / PHIP、美股中概 IPO 监控在收盘后复核中未见新增事件。"
+      ],
+      "removeDealIds": ["csrc-no-new-20260522"],
+      "deals": [
+        {
+          "id": "csrc-ruichu-robotics-20260522",
+          "section": "证监会备案",
+          "type": "境外上市备案通知书",
+          "status": "新增备案通知书",
+          "company": {
+            "zh": "上海睿触机器人股份有限公司",
+            "en": "Shanghai Ruichu Robotics Co., Ltd.",
+            "display": "上海睿触机器人股份有限公司 / Shanghai Ruichu Robotics Co., Ltd.",
+            "exchange": "CSRC / HKEX",
+            "board": "境外发行上市及境内未上市股份全流通",
+            "listingStructure": "H股 + 全流通"
+          },
+          "business": {
+            "summary": "机器人触觉感知及灵巧操作相关技术公司；具体主营业务以招股书原文进一步复核。",
+            "sector": "机器人 / 智能制造"
+          },
+          "csrc": {
+            "noticeNo": "国合函〔2026〕1101 号",
+            "targetMarket": "香港联合交易所",
+            "maxIssuance": "不超过45,941,000股境外上市普通股",
+            "domesticOperatingEntity": "上海睿触机器人股份有限公司",
+            "noticeDate": "2026-05-22",
+            "publishDate": "2026-05-22",
+            "postFilingObligations": [
+              "自备案通知书出具之日起至本次境外发行上市结束前，如发生重大事项，应根据境内企业境外发行上市有关规定报告。",
+              "完成境外发行上市后15个工作日内，应通过中国证监会备案管理信息系统报告发行上市情况。",
+              "自备案通知书出具之日起12个月内未完成境外发行上市，拟继续推进的，应当更新备案材料。"
+            ]
+          },
+          "links": ["CSRC 上海睿触机器人备案通知书"]
+        },
+        {
+          "id": "csrc-lingyi-itech-20260522",
+          "section": "证监会备案",
+          "type": "境外上市备案通知书",
+          "status": "新增备案通知书",
+          "company": {
+            "zh": "广东领益智造股份有限公司",
+            "en": "LINGYI iTECH (GUANGDONG) COMPANY",
+            "display": "广东领益智造股份有限公司 / LINGYI iTECH (GUANGDONG) COMPANY",
+            "exchange": "CSRC / HKEX",
+            "board": "境外发行上市备案",
+            "listingStructure": "A+H"
+          },
+          "business": {
+            "summary": "精密功能件、结构件、显示与触控模组等智能终端核心零部件制造商，已在深交所上市。",
+            "sector": "精密制造 / 消费电子 / AI终端零部件"
+          },
+          "csrc": {
+            "noticeNo": "国合函〔2026〕1132 号",
+            "targetMarket": "香港联合交易所",
+            "maxIssuance": "不超过933,583,200股境外上市普通股",
+            "domesticOperatingEntity": "广东领益智造股份有限公司",
+            "noticeDate": "2026-05-22",
+            "publishDate": "2026-05-22",
+            "postFilingObligations": [
+              "自备案通知书出具之日起至本次境外发行上市结束前，如发生重大事项，应根据境内企业境外发行上市有关规定报告。",
+              "完成境外发行上市后15个工作日内，应通过中国证监会备案管理信息系统报告发行上市情况。",
+              "自备案通知书出具之日起12个月内未完成境外发行上市，拟继续推进的，应当更新备案材料。"
+            ]
+          },
+          "links": ["CSRC 广东领益智造备案通知书"]
+        },
+        {
+          "id": "csrc-nexchip-20260522",
+          "section": "证监会备案",
+          "type": "境外上市备案通知书",
+          "status": "新增备案通知书",
+          "company": {
+            "zh": "合肥晶合集成电路股份有限公司",
+            "en": "Nexchip Semiconductor Corporation",
+            "display": "合肥晶合集成电路股份有限公司 / Nexchip Semiconductor Corporation",
+            "exchange": "CSRC / HKEX",
+            "board": "境外发行上市备案",
+            "listingStructure": "A+H"
+          },
+          "business": {
+            "summary": "12英寸晶圆代工企业，产品应用包括显示驱动芯片、CIS、PMIC、MCU及Logic等，已在科创板上市。",
+            "sector": "半导体 / 晶圆代工"
+          },
+          "csrc": {
+            "noticeNo": "国合函〔2026〕1134 号",
+            "targetMarket": "香港联合交易所",
+            "maxIssuance": "不超过248,592,000股境外上市普通股",
+            "domesticOperatingEntity": "合肥晶合集成电路股份有限公司",
+            "noticeDate": "2026-05-22",
+            "publishDate": "2026-05-22",
+            "postFilingObligations": [
+              "自备案通知书出具之日起至本次境外发行上市结束前，如发生重大事项，应根据境内企业境外发行上市有关规定报告。",
+              "完成境外发行上市后15个工作日内，应通过中国证监会备案管理信息系统报告发行上市情况。",
+              "自备案通知书出具之日起12个月内未完成境外发行上市，拟继续推进的，应当更新备案材料。"
+            ]
+          },
+          "links": ["CSRC 合肥晶合集成备案通知书"]
+        },
+        {
+          "id": "csrc-qiandaohu-sturgeon-20260522",
+          "section": "证监会备案",
+          "type": "境外上市备案通知书",
+          "status": "新增备案通知书",
+          "company": {
+            "zh": "杭州千岛湖鲟龙科技股份有限公司",
+            "en": "Hangzhou Qiandaohu Xunlong Sci-Tech Co., Ltd.",
+            "display": "杭州千岛湖鲟龙科技股份有限公司 / Hangzhou Qiandaohu Xunlong Sci-Tech Co., Ltd.",
+            "exchange": "CSRC / HKEX",
+            "board": "境外发行上市及境内未上市股份全流通",
+            "listingStructure": "H股 + 全流通"
+          },
+          "business": {
+            "summary": "鲟鱼养殖、鱼子酱及相关水产食品企业；具体业务结构以招股书原文进一步复核。",
+            "sector": "食品饮料 / 水产养殖 / 鱼子酱"
+          },
+          "csrc": {
+            "noticeNo": "国合函〔2026〕1135 号",
+            "targetMarket": "香港联合交易所",
+            "maxIssuance": "不超过18,782,800股境外上市普通股",
+            "domesticOperatingEntity": "杭州千岛湖鲟龙科技股份有限公司",
+            "noticeDate": "2026-05-22",
+            "publishDate": "2026-05-22",
+            "postFilingObligations": [
+              "自备案通知书出具之日起至本次境外发行上市结束前，如发生重大事项，应根据境内企业境外发行上市有关规定报告。",
+              "完成境外发行上市后15个工作日内，应通过中国证监会备案管理信息系统报告发行上市情况。",
+              "自备案通知书出具之日起12个月内未完成境外发行上市，拟继续推进的，应当更新备案材料。"
+            ]
+          },
+          "links": ["CSRC 千岛湖鲟龙科技备案通知书"]
+        },
+        {
+          "id": "csrc-gaoming-iron-20260522",
+          "section": "证监会备案",
+          "type": "境外上市备案通知书",
+          "status": "新增备案通知书",
+          "company": {
+            "zh": "高明铁企业股份有限公司",
+            "en": "KAO MING Machinery Industrial Co., Ltd.",
+            "display": "高明铁企业股份有限公司 / KAO MING Machinery Industrial Co., Ltd.",
+            "exchange": "CSRC / TWSE",
+            "board": "境外发行上市备案",
+            "listingStructure": "台湾上市公司 / 境外上市备案"
+          },
+          "business": {
+            "summary": "机床及相关机械设备企业；本次拟在台湾证券交易所上市。",
+            "sector": "工业机械 / 机床设备"
+          },
+          "csrc": {
+            "noticeNo": "国合函〔2026〕1142 号",
+            "targetMarket": "台湾证券交易所",
+            "maxIssuance": "不超过5,600,000股普通股",
+            "domesticOperatingEntity": "高明铁企业股份有限公司",
+            "noticeDate": "2026-05-22",
+            "publishDate": "2026-05-22",
+            "postFilingObligations": [
+              "自备案通知书出具之日起至本次境外发行上市结束前，如发生重大事项，应根据境内企业境外发行上市有关规定报告。",
+              "完成境外发行上市后15个工作日内，应通过中国证监会备案管理信息系统报告发行上市情况。",
+              "自备案通知书出具之日起12个月内未完成境外发行上市，拟继续推进的，应当更新备案材料。"
+            ]
+          },
+          "links": ["CSRC 高明铁企业备案通知书"]
+        }
+      ]
+    }
+  }
+}
