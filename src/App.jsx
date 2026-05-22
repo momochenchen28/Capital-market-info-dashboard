@@ -9,6 +9,9 @@ import SearchAndFilters from "./components/SearchAndFilters.jsx";
 import { DEFAULT_EMPTY_EVENT_TEXT, DEFAULT_SECTIONS, validateReports } from "./dashboardData.js";
 import { buildCounts, isNoNewEvent, itemSearchText } from "./utils/dashboard.js";
 
+const DATA_URL =
+  "https://raw.githubusercontent.com/momochenchen28/Capital-market-info-dashboard/main/public/data.json";
+
 export default function CapitalMarketsDailyDashboard() {
   const [dashboardData, setDashboardData] = useState(null);
   const [loadError, setLoadError] = useState("");
@@ -23,7 +26,7 @@ export default function CapitalMarketsDailyDashboard() {
     setLoadError("");
 
     try {
-      const response = await fetch(`/data.json?t=${Date.now()}`);
+      const response = await fetch(`${DATA_URL}?t=${Date.now()}`, { cache: "no-store" });
       if (!response.ok) throw new Error(`data.json 加载失败：${response.status}`);
 
       const data = await response.json();
