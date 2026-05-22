@@ -95,8 +95,15 @@ function TimelineAndIntermediaries({ item }) {
           <ul className="space-y-2 text-sm text-slate-600">
             {Object.entries({
               保荐人: item.intermediaries.sponsors,
+              整体协调人: item.intermediaries.overallCoordinators,
               全球协调人: item.intermediaries.globalCoordinators,
-              审计师: item.intermediaries.auditors,
+              账簿管理人: item.intermediaries.bookrunners,
+              牵头经办人: item.intermediaries.leadManagers,
+              "公司香港及美国法律顾问": item.intermediaries.companyLegalAdvisersHKUS,
+              公司中国法律顾问: item.intermediaries.companyLegalAdvisersPRC,
+              "承销商法律顾问": item.intermediaries.underwritersLegalAdvisers,
+              "申报会计师/审计师": item.intermediaries.accountants || item.intermediaries.auditors,
+              行业顾问: item.intermediaries.industryConsultant,
               合规顾问: item.intermediaries.complianceAdvisor
             }).map(([label, values]) =>
               values?.length ? <li key={label}>- {label}：{values.join("、")}</li> : null
