@@ -1,6 +1,21 @@
-import { Landmark } from "lucide-react";
+import { Landmark, RefreshCw } from "lucide-react";
 
-export default function Header({ activeReport, reportDates, selectedDate, onSelectDate }) {
+const reportTypeLabel = {
+  briefing: "资本市场快报",
+  daily: "资本市场日报",
+  archive: "资本市场日报档案"
+};
+
+export default function Header({
+  activeReport,
+  reportDates,
+  selectedDate,
+  onSelectDate,
+  onRefreshData,
+  isRefreshing
+}) {
+  const title = reportTypeLabel[activeReport.reportType] || activeReport.title;
+
   return (
     <header className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
       <div className="flex flex-col gap-5 lg:flex-row lg:items-start lg:justify-between">
@@ -9,26 +24,41 @@ export default function Header({ activeReport, reportDates, selectedDate, onSele
             <Landmark className="mr-2 h-3.5 w-3.5" />
             Capital Markets Daily Dashboard
           </div>
-          <h1 className="text-3xl font-semibold tracking-normal md:text-4xl">{activeReport.title}</h1>
-          <p className="mt-2 max-w-3xl text-sm leading-6 text-slate-600">
-            覆盖港股新挂牌、港交所 AP / PHIP、证监会备案、美股中概 IPO。当前版本为静态日报原型，暂不接自动抓取。
-          </p>
+          <h1 className="text-3xl font-semibold tracking-normal md:text-4xl">{title}</h1>
+
+          <div className="mt-3 max-w-3xl rounded-2xl border border-slate-200 bg-slate-50 p-4 text-sm leading-6 text-slate-600">
+            <p>
+              {activeReport.statusNote ||
+                "覆盖港股新挂牌、港交所 AP / PHIP、证监会备案、美股中概 IPO。当前版本为静态日报原型。"}
+            </p>
+            {activeReport.archiveNotice && (
+              <p className="mt-2 font-medium text-amber-700">{activeReport.archiveNotice}</p>
+            )}
+          </div>
         </div>
-        <div className="flex flex-wrap gap-2">
-          {reportDates.map((date) => (
-            <button
-              key={date}
-              type="button"
-              onClick={() => onSelectDate(date)}
-              className={`rounded-xl border px-3 py-2 text-sm ${
-                selectedDate === date
-                  ? "border-slate-900 bg-slate-900 text-white"
-                  : "border-slate-200 bg-white text-slate-600 hover:bg-slate-50"
-              }`}
-            >
-              {date}
-            </button>
-          ))}
+
+        <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
+          <select
+            value={selectedDate}
+            onChange={(event) => onSelectDate(event.target.value)}
+            className="rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-700 outline-none focus:border-slate-400"
+          >
+            {reportDates.map((date) => (
+              <option key={date} value={date}>
+                {date}
+              </option>
+            ))}
+          </select>
+
+          <button
+            type="button"
+            onClick={onRefreshData}
+            disabled={isRefreshing}
+            className="inline-flex items-center justify-center rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-700 hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-60"
+          >
+            <RefreshCw className={`mr-2 h-4 w-4 ${isRefreshing ? "animate-spin" : ""}`} />
+            刷新数据
+          </button>
         </div>
       </div>
     </header>

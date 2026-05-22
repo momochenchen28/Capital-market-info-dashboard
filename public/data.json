@@ -17,7 +17,9 @@
   "dailyReports": {
     "2026-05-22": {
       "date": "2026-05-22",
-      "title": "港股 IPO 新挂牌初版日报",
+      "reportType": "briefing",
+      "title":  "资本市场快报",
+      "statusNote": "数据截至 2026-05-22 早盘。收盘后将更新为资本市场日报。",
       "observations": [
         "今日港股 IPO 新挂牌 1 家：丹诺医药-B / TenNor Therapeutics (06872.HK)。",
         "港交所 AP / PHIP、证监会备案、美股中概 IPO 监控在初版中未见新增事件。",
@@ -144,7 +146,9 @@
     },
     "2026-05-21": {
       "date": "2026-05-21",
-      "title": "港股 IPO / 备案 / 美股中概空窗日报",
+       "reportType": "archive",
+      "title":"资本市场日报档案",
+      "statusNote": "已于 2026-05-22 早盘复核并归档。历史检索以本版本为准。",
       "observations": [
         "当日港股无 IPO 新挂牌。",
         "港交所 AP / PHIP 页面确认新增 3 家递表、2 家 PHIP。",
@@ -277,7 +281,9 @@
     },
     "2026-05-20": {
       "date": "2026-05-20",
-      "title": "港股 IPO 新挂牌样报",
+      "reportType": "archive",
+      "title":  "资本市场日报档案",
+      "statusNote": "已完成早盘复核并归档。历史检索以本版本为准。",
       "observations": [
         "当日港股 IPO 新挂牌 2 家：UISEE Technologies 与 Shanghai Top Numerical Control。",
         "港交所 Application Proof 新增 6 家，PHIP 无新增。",

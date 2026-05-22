@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { AlertCircle } from "lucide-react";
 import DealCard from "./components/DealCard.jsx";
 import EmptyState from "./components/EmptyState.jsx";
@@ -16,29 +16,34 @@ export default function CapitalMarketsDailyDashboard() {
   const [section, setSection] = useState("全部");
   const [query, setQuery] = useState("");
   const [searchScope, setSearchScope] = useState("current");
+  const [isRefreshing, setIsRefreshing] = useState(false);
+
+  const loadDashboardData = useCallback(async ({ keepSelectedDate = false } = {}) => {
+    setIsRefreshing(true);
+    setLoadError("");
+
+    try {
+      const response = await fetch(`/data.json?t=${Date.now()}`);
+      if (!response.ok) throw new Error(`data.json 加载失败：${response.status}`);
+
+      const data = await response.json();
+      const dates = Object.keys(data.dailyReports || {}).sort().reverse();
+
+      setDashboardData(data);
+      setSelectedDate((currentDate) => {
+        if (keepSelectedDate && dates.includes(currentDate)) return currentDate;
+        return dates[0] || "";
+      });
+    } catch (error) {
+      setLoadError(error.message);
+    } finally {
+      setIsRefreshing(false);
+    }
+  }, []);
 
   useEffect(() => {
-    let isMounted = true;
-
-    fetch("/data.json")
-      .then((response) => {
-        if (!response.ok) throw new Error(`data.json 加载失败：${response.status}`);
-        return response.json();
-      })
-      .then((data) => {
-        if (!isMounted) return;
-        const dates = Object.keys(data.dailyReports || {}).sort().reverse();
-        setDashboardData(data);
-        setSelectedDate(dates[0] || "");
-      })
-      .catch((error) => {
-        if (isMounted) setLoadError(error.message);
-      });
-
-    return () => {
-      isMounted = false;
-    };
-  }, []);
+    loadDashboardData();
+  }, [loadDashboardData]);
 
   const emptyEventText = dashboardData?.emptyEventText || DEFAULT_EMPTY_EVENT_TEXT;
   const sections = dashboardData?.sections || DEFAULT_SECTIONS;
@@ -79,7 +84,7 @@ export default function CapitalMarketsDailyDashboard() {
 
   const counts = useMemo(() => buildCounts(deals, emptyEventText), [deals, emptyEventText]);
 
-  if (loadError) {
+  if (loadError && !dashboardData) {
     return (
       <div className="min-h-screen bg-slate-50 p-6 text-slate-900">
         <div className="mx-auto max-w-3xl rounded-2xl border border-red-200 bg-red-50 p-6 text-red-700">
@@ -107,7 +112,15 @@ export default function CapitalMarketsDailyDashboard() {
           reportDates={reportDates}
           selectedDate={selectedDate}
           onSelectDate={setSelectedDate}
+          onRefreshData={() => loadDashboardData({ keepSelectedDate: true })}
+          isRefreshing={isRefreshing}
         />
+
+        {loadError && (
+          <div className="rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-800">
+            数据刷新失败：{loadError}
+          </div>
+        )}
 
         {validationErrors.length > 0 && (
           <div className="rounded-2xl border border-red-200 bg-red-50 p-4 text-sm text-red-700">

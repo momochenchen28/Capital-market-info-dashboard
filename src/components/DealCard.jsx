@@ -3,6 +3,7 @@ import { isNoNewEvent, sectionTheme, typeBadgeClass } from "../utils/dashboard.j
 import ApPhipDetails from "./ApPhipDetails.jsx";
 import CsrcDetails from "./CsrcDetails.jsx";
 import IpoDetails from "./IpoDetails.jsx";
+import SourceLinks from "./SourceLinks.jsx";
 
 function Badge({ children, className = "" }) {
   return (
@@ -91,6 +92,7 @@ export default function DealCard({ item, emptyEventText, linkMap }) {
         <DetailBlocks item={item} />
         {item.metrics && <ApPhipDetails item={item} emptyEventText={emptyEventText} linkMap={linkMap} />}
         <CsrcDetails item={item} />
+        {isNoNewEvent(item, emptyEventText) && <SourceLinks title="该类别暂无新增事件，可前往官方信息源复核" />}
 
         <div className="mt-5 rounded-2xl border border-slate-100 bg-white p-4">
           <p className="mb-3 text-sm font-medium text-slate-900">官方/行情文件链接</p>
