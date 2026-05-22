@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T18:45:00+08:00",
+  "generatedAt": "2026-05-22T19:05:00+08:00",
   "emptyEventText": "该类别当日暂无新增事件",
   "sections": ["全部", "港股新挂牌", "港股递表/聆讯", "证监会备案", "美股中概"],
   "linkMap": {
@@ -7,7 +7,9 @@
     "HKEX 上市文件": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0514/2026051400013.pdf",
     "全球发售公告": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0514/2026051400003.pdf",
     "HKEX AP / PHIP": "https://www.hkexnews.hk/app/appindex.html",
+    "TenNor PHIP": "https://www1.hkexnews.hk/app/sehk/2026/108182/a132655/sehk26050602769.pdf",
     "CSRC 境外上市备案": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "TenNor 备案通知书": "https://www.csrc.gov.cn/csrc/c100100/c7574695/content.shtml",
     "SEC EDGAR": "https://www.sec.gov/search-filings"
   },
   "dailyReports": {
@@ -19,8 +21,8 @@
       "archiveNotice": "",
       "observations": [
         "今日港股 IPO 新挂牌 1 家：丹诺医药-B / TenNor Therapeutics (06872.HK)，发行价为 HK$75.70。",
-        "收盘后复核官方入口后，港交所 AP / PHIP、证监会备案及美股中概 IPO 监控暂未纳入新增事件；相关来源保留外链供人工复核。",
-        "TenNor 首日盘中表现显著高于发行价；最终收盘价及首日收盘涨跌幅将在次日早盘归档时复核补齐。"
+        "已补足 TenNor 上市申请、证监会备案、聆讯、招股及上市阶段的关键时间线；公司结构分类为 H 股，非红筹/VIE。",
+        "收盘后复核官方入口后，港交所 AP / PHIP、证监会备案及美股中概 IPO 监控暂未纳入新增事件；相关来源保留外链供人工复核。"
       ],
       "deals": [
         {
@@ -35,10 +37,10 @@
             "ticker": "06872.HK",
             "exchange": "HKEX Main Board",
             "board": "主板",
-            "listingStructure": "Chapter 18A 未盈利生物科技公司"
+            "listingStructure": "H股（境内股份有限公司；非红筹/VIE）"
           },
           "business": {
-            "summary": "专注于感染性疾病、消化道疾病及相关治疗领域的创新药公司，本次以 Chapter 18A 未盈利生物科技公司身份挂牌。",
+            "summary": "专注于感染性疾病、消化道疾病及相关治疗领域的创新药公司，本次以 Chapter 18A 未盈利生物科技公司身份挂牌；发行主体为境内股份有限公司 H 股架构。",
             "sector": "Biotech"
           },
           "ipo": {
@@ -61,6 +63,11 @@
             "latestPriceNote": "收盘后日报暂保留盘中延迟行情样例；最终收盘价及首日收盘涨跌幅待次日早盘归档复核。"
           },
           "timeline": {
+            "firstFilingDate": "2025-08-13（联交所首次递交上市申请；待次日归档复核原始 AP 页面）",
+            "refilingDate": "2026-02-03（联交所最近一次提交上市申请）",
+            "csrcReceivedDate": "2025-08-13（证监会公示收到备案材料口径；待官方备案进度表复核）",
+            "csrcFilingApprovedDate": "2026-02-06（证监会备案通知书）",
+            "hearingDate": "2026-05-06（联交所 PHIP / 通过聆讯后资料集）",
             "prospectusDate": "2026-05-14",
             "allotmentResultDate": "2026-05-21",
             "listingDate": "2026-05-22"
@@ -71,7 +78,7 @@
             "auditors": [],
             "complianceAdvisor": []
           },
-          "links": ["HKEX 上市文件", "全球发售公告", "HKEX 新上市资料"]
+          "links": ["HKEX 上市文件", "全球发售公告", "TenNor PHIP", "TenNor 备案通知书", "HKEX 新上市资料"]
         },
         {
           "id": "hkex-ap-phip-20260522-empty",
