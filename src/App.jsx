@@ -11,6 +11,58 @@ import { buildCounts, isNoNewEvent, itemSearchText } from "./utils/dashboard.js"
 
 const DATA_URL =
   "https://raw.githubusercontent.com/momochenchen28/Capital-market-info-dashboard/main/public/data.json";
+const DATA_UPDATES_URL =
+  "https://raw.githubusercontent.com/momochenchen28/Capital-market-info-dashboard/main/public/data-updates.json";
+
+function mergeDealUpdates(baseDeals = [], updateDeals = [], removeDealIds = []) {
+  const removeSet = new Set(removeDealIds);
+  const merged = baseDeals.filter((deal) => !removeSet.has(deal.id));
+
+  updateDeals.forEach((deal) => {
+    const existingIndex = merged.findIndex((item) => item.id === deal.id);
+    if (existingIndex >= 0) {
+      merged[existingIndex] = { ...merged[existingIndex], ...deal };
+      return;
+    }
+    merged.push(deal);
+  });
+
+  return merged;
+}
+
+function mergeDashboardData(baseData, updates) {
+  if (!updates) return baseData;
+
+  const merged = {
+    ...baseData,
+    generatedAt: updates.generatedAt || baseData.generatedAt,
+    linkMap: { ...(baseData.linkMap || {}), ...(updates.linkMap || {}) },
+    dailyReports: { ...(baseData.dailyReports || {}) }
+  };
+
+  Object.entries(updates.dailyReports || {}).forEach(([date, reportUpdate]) => {
+    const currentReport = merged.dailyReports[date] || { date, deals: [] };
+    merged.dailyReports[date] = {
+      ...currentReport,
+      ...reportUpdate,
+      deals: mergeDealUpdates(
+        currentReport.deals,
+        reportUpdate.deals,
+        reportUpdate.removeDealIds
+      )
+    };
+    delete merged.dailyReports[date].removeDealIds;
+  });
+
+  return merged;
+}
+
+async function fetchJsonIfAvailable(url) {
+  const response = await fetch(`${url}?t=${Date.now()}`, { cache: "no-store" });
+  if (response.status === 404) return null;
+  if (!response.ok) throw new Error(`数据更新文件加载失败：${response.status}`);
+  return response.json();
+}
 
 export default function CapitalMarketsDailyDashboard() {
   const [dashboardData, setDashboardData] = useState(null);
@@ -29,7 +81,9 @@ export default function CapitalMarketsDailyDashboard() {
       const response = await fetch(`${DATA_URL}?t=${Date.now()}`, { cache: "no-store" });
       if (!response.ok) throw new Error(`data.json 加载失败：${response.status}`);
 
-      const data = await response.json();
+      const baseData = await response.json();
+      const updates = await fetchJsonIfAvailable(DATA_UPDATES_URL);
+      const data = mergeDashboardData(baseData, updates);
       const dates = Object.keys(data.dailyReports || {}).sort().reverse();
 
       setDashboardData(data);
