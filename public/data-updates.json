@@ -1,25 +1,28 @@
 {
-  "generatedAt": "2026-05-26T10:30:00+08:00",
+  "generatedAt": "2026-05-26T10:45:00+08:00",
   "linkMap": {
     "CSRC 上海睿触机器人备案通知书": "https://www.csrc.gov.cn/csrc/c105984/c7634504/content.shtml",
     "CSRC 广东领益智造备案通知书": "https://www.csrc.gov.cn/csrc/c105984/c7634506/content.shtml",
     "CSRC 合肥晶合集成备案通知书": "https://www.csrc.gov.cn/csrc/c105984/c7634515/content.shtml",
     "CSRC 千岛湖鲟龙科技备案通知书": "https://www.csrc.gov.cn/csrc/c105984/c7634519/content.shtml",
-    "CSRC 高明铁企业备案通知书": "https://www.csrc.gov.cn/csrc/c105984/c7634522/content.shtml"
+    "CSRC 高明铁企业备案通知书": "https://www.csrc.gov.cn/csrc/c105984/c7634522/content.shtml",
+    "HKEX 2026年交易日历": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2025/ce_SEHK_CT_075_2025.pdf",
+    "NYSE 2026年交易日历": "https://www.nyse.com/markets/hours-calendars"
   },
   "dailyReports": {
     "2026-05-26": {
       "date": "2026-05-26",
       "reportType": "morning",
       "title": "资本市场快报",
-      "statusNote": "数据截至 2026-05-26 早盘复核。今日暂未见港股 IPO 新挂牌、港交所 AP/PHIP、证监会境外发行上市备案或重点美股中概 IPO 新增事件；5 月 24 日为周日，5 月 25 日复核亦未见需要补充入库的新增事件。收盘后将继续复核并更新为日报口径。",
+      "statusNote": "数据截至 2026-05-26 早盘复核。今日港股及美股均已恢复正常交易；前一交易日 2026-05-25 为港股佛诞翌日休市、美股 Memorial Day 休市。今日早盘暂未见港股 IPO 新挂牌、港交所 AP/PHIP、证监会境外发行上市备案或重点美股中概 IPO 新增事件；收盘后将继续复核并更新为日报口径。",
       "archiveNotice": "",
       "observations": [
+        "交易日历提示：2026-05-25 港股因佛诞翌日休市，美股因 Memorial Day 休市；2026-05-26 港股及美股恢复正常交易。",
         "今日早盘暂未见港股 IPO 新挂牌事件；港交所新上市证券页面今日可见项目主要为买卖单位变更，并非 IPO 新上市。",
         "港交所 AP / PHIP 早盘复核暂未见新增；AP 与 PHIP 明细数量均为 0。",
         "证监会境外上市类官方列表早盘复核最新仍为 2026-05-22 披露事项，暂未见 5 月 25 日或 5 月 26 日新增备案通知书。",
         "美股中概 IPO 早盘监控暂未见需要纳入快报的 F-1、定价或挂牌事件。",
-        "前两天回看：5 月 24 日为周日，5 月 25 日未见需补充入库的新增事件；5 月 22 日晚间 5 家证监会备案补充仍保留在历史记录中。"
+        "前两天回看：5 月 24 日为周日，5 月 25 日为港股及美股休市日，未见需补充入库的新增事件；5 月 22 日晚间 5 家证监会备案补充仍保留在历史记录中。"
       ],
       "deals": [
         {
@@ -30,7 +33,7 @@
           "company": { "zh": "今日早盘未见 IPO 新挂牌公司", "en": "No IPO New Listing Found", "display": "今日早盘未见 IPO 新挂牌公司", "exchange": "HKEX", "board": "主板 / GEM", "listingStructure": "不适用" },
           "business": { "summary": "2026-05-26 早盘复核港交所新上市证券页面，未见 IPO 新挂牌事件。", "sector": "港股新挂牌监控" },
           "monitorItems": ["该类别当日暂无新增事件"],
-          "links": ["HKEX Newly Listed Securities", "HKEX New Listing Information"]
+          "links": ["HKEX 2026年交易日历", "HKEX Newly Listed Securities", "HKEX New Listing Information"]
         },
         {
           "id": "hkex-ap-phip-20260526-morning",
@@ -62,7 +65,7 @@
           "company": { "zh": "今日早盘未见重点美股中概 IPO 新事件", "en": "No Material US-listed Chinese IPO Event Found", "display": "今日早盘未见重点美股中概 IPO 新事件", "exchange": "SEC / NYSE / Nasdaq", "board": "F-1 / EFFECT / 8-A / Listing", "listingStructure": "不适用" },
           "business": { "summary": "2026-05-26 早盘暂未见需要纳入快报的重点中概 F-1、定价或挂牌事件。", "sector": "美股中概监控" },
           "monitorItems": ["该类别当日暂无新增事件"],
-          "links": ["SEC EDGAR Latest Filings"]
+          "links": ["NYSE 2026年交易日历", "SEC EDGAR Latest Filings"]
         }
       ]
     },
@@ -70,13 +73,13 @@
       "date": "2026-05-25",
       "reportType": "archive",
       "title": "资本市场日报档案",
-      "statusNote": "已于 2026-05-26 早盘回看复核并归档。5 月 25 日暂未见港股 IPO 新挂牌、港交所 AP/PHIP、证监会境外发行上市备案或重点美股中概 IPO 新增事件。",
+      "statusNote": "已于 2026-05-26 早盘回看复核并归档。2026-05-25 为特殊休市日：港股因佛诞翌日休市，美股因 Memorial Day 休市；当日未见需补充入库的港股 IPO 新挂牌、港交所 AP/PHIP、证监会境外发行上市备案或重点美股中概 IPO 新增事件。",
       "archiveNotice": "",
       "observations": [
-        "5 月 25 日回看复核未见港股 IPO 新挂牌事件。",
-        "5 月 25 日回看复核未见港交所 AP / PHIP 新增事件；AP 与 PHIP 明细数量均为 0。",
-        "5 月 25 日回看复核未见证监会境外发行上市备案新增公示。",
-        "5 月 25 日回看复核未见重点美股中概 IPO 新事件。"
+        "交易日历提示：2026-05-25 港股因佛诞翌日休市，美股因 Memorial Day 休市。",
+        "因港股休市，当日未见港股 IPO 新挂牌及港交所 AP / PHIP 新增事件；AP 与 PHIP 明细数量均为 0。",
+        "证监会境外上市类列表回看复核未见当日新增备案通知书或补充材料公示。",
+        "美股休市背景下，回看复核未见需要纳入日报的重点中概 F-1、定价或挂牌事件。"
       ],
       "deals": [
         {
@@ -87,7 +90,7 @@
           "company": { "zh": "当日未见 IPO 新挂牌公司", "en": "No IPO New Listing", "display": "当日未见 IPO 新挂牌公司", "exchange": "HKEX", "board": "主板 / GEM", "listingStructure": "不适用" },
           "business": { "summary": "2026-05-25 回看复核未见港股 IPO 新挂牌事件。", "sector": "港股新挂牌监控" },
           "monitorItems": ["该类别当日暂无新增事件"],
-          "links": ["HKEX Newly Listed Securities", "HKEX New Listing Information"]
+          "links": ["HKEX 2026年交易日历", "HKEX Newly Listed Securities", "HKEX New Listing Information"]
         },
         {
           "id": "hkex-ap-phip-20260525",
@@ -99,7 +102,7 @@
           "metrics": { "apNewCount": 0, "phipCount": 0 },
           "apApplications": [],
           "monitorItems": ["该类别当日暂无新增事件"],
-          "links": ["Application Proof / PHIP"]
+          "links": ["HKEX 2026年交易日历", "Application Proof / PHIP"]
         },
         {
           "id": "csrc-no-new-20260525",
@@ -119,7 +122,7 @@
           "company": { "zh": "当日未见重点美股中概 IPO 新事件", "en": "No Material US-listed Chinese IPO Event Found", "display": "当日未见重点美股中概 IPO 新事件", "exchange": "SEC / NYSE / Nasdaq", "board": "F-1 / EFFECT / 8-A / Listing", "listingStructure": "不适用" },
           "business": { "summary": "2026-05-25 回看复核未见需要纳入日报的重点中概 F-1、定价或挂牌事件。", "sector": "美股中概监控" },
           "monitorItems": ["该类别当日暂无新增事件"],
-          "links": ["SEC EDGAR Latest Filings"]
+          "links": ["NYSE 2026年交易日历", "SEC EDGAR Latest Filings"]
         }
       ]
     },
