@@ -149,6 +149,31 @@ IMPORTANT:
 - AP and PHIP MUST be displayed separately
 - counts must match detailed company entries
 
+### Mandatory HKEX AP / PHIP Verification Policy
+
+Do not rely on general web search, search snippets, or HKEX page visual inspection alone to conclude that there are no AP / PHIP updates.
+
+The authoritative first-pass source for AP / PHIP daily checks is HKEX's structured JSON under:
+- `https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json`
+- `https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json`
+- Chinese equivalents may be used for Chinese names:
+  - `appactive_app_sehk_c.json`
+  - `appactive_appphip_sehk_c.json`
+
+Daily AP / PHIP workflow:
+1. Fetch the structured HKEX AP-only JSON.
+2. Fetch the structured HKEX AP+PHIP JSON.
+3. Filter each applicant's document list by the target date.
+4. Count only actual `Application Proof` entries as AP.
+5. Count only actual `PHIP` / `Post Hearing Information Pack` entries as PHIP.
+6. Do not count OC announcements alone as a new AP unless the same applicant/date also has an Application Proof entry.
+7. De-duplicate the same applicant when both OC appointment and Application Proof appear on the same day.
+8. Reconcile metrics with `apApplications` detail rows before committing.
+9. If AP/PHIP is reported as zero, explicitly state that the structured HKEX JSON source was checked.
+
+Failure mode to avoid:
+- On 2026-05-26, general search missed two same-day AP filings because HKEX's newest AP entries were present in structured JSON but not surfaced reliably by search snippets. This caused AP to be incorrectly reported as 0 before correction. Future updates must use the JSON verification workflow first.
+
 Each AP / PHIP company should include:
 - Chinese name
 - English name
@@ -355,6 +380,10 @@ https://www.hkex.com.hk/
 HKEX AP/PHIP:
 https://www1.hkexnews.hk/app/appindex.html
 
+HKEX AP/PHIP structured JSON:
+https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json
+https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json
+
 CSRC:
 https://www.csrc.gov.cn/
 
@@ -383,6 +412,9 @@ When modifying the project:
 8. Metrics must match details
 9. Empty sections should use unified wording
 10. Historical search must remain functional
+11. For AP / PHIP checks, always query HKEX structured JSON before declaring zero updates
+12. When AP / PHIP is zero, mention that the structured JSON source was checked
+13. Do not use general search results as the sole basis for AP / PHIP no-new-event conclusions
 
 Priority order:
 1. correctness
