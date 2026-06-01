@@ -13,6 +13,10 @@ const DATA_URL =
   "https://raw.githubusercontent.com/momochenchen28/Capital-market-info-dashboard/main/public/data.json";
 const DATA_UPDATES_URL =
   "https://raw.githubusercontent.com/momochenchen28/Capital-market-info-dashboard/main/public/data-updates.json";
+const DATED_UPDATES_INDEX_URL =
+  "https://raw.githubusercontent.com/momochenchen28/Capital-market-info-dashboard/main/public/updates/index.json";
+const DATED_UPDATES_BASE_URL =
+  "https://raw.githubusercontent.com/momochenchen28/Capital-market-info-dashboard/main/public/updates";
 
 function mergeDealUpdates(baseDeals = [], updateDeals = [], removeDealIds = []) {
   const removeSet = new Set(removeDealIds);
@@ -64,6 +68,15 @@ async function fetchJsonIfAvailable(url) {
   return response.json();
 }
 
+async function fetchDatedUpdates() {
+  const index = await fetchJsonIfAvailable(DATED_UPDATES_INDEX_URL);
+  if (!index?.files?.length) return [];
+
+  return Promise.all(
+    index.files.map((file) => fetchJsonIfAvailable(`${DATED_UPDATES_BASE_URL}/${file}`))
+  );
+}
+
 export default function CapitalMarketsDailyDashboard() {
   const [dashboardData, setDashboardData] = useState(null);
   const [loadError, setLoadError] = useState("");
@@ -82,8 +95,12 @@ export default function CapitalMarketsDailyDashboard() {
       if (!response.ok) throw new Error(`data.json 加载失败：${response.status}`);
 
       const baseData = await response.json();
-      const updates = await fetchJsonIfAvailable(DATA_UPDATES_URL);
-      const data = mergeDashboardData(baseData, updates);
+      const legacyUpdates = await fetchJsonIfAvailable(DATA_UPDATES_URL);
+      const datedUpdates = await fetchDatedUpdates();
+      const data = [legacyUpdates, ...datedUpdates].reduce(
+        (currentData, updates) => mergeDashboardData(currentData, updates),
+        baseData
+      );
       const dates = Object.keys(data.dailyReports || {}).sort().reverse();
 
       setDashboardData(data);
