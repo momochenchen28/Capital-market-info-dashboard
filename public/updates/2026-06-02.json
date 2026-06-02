@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-02T11:30:00+08:00",
+  "generatedAt": "2026-06-02T14:20:00+08:00",
   "linkMap": {
     "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=zh-HK",
-    "HKEX New Listing Information": "https://www.hkexnews.hk/APP/SEHKAPPMainIndex.htm",
-    "Application Proof / PHIP": "https://www.hkexnews.hk/APP/SEHKAPPMainIndex.htm",
+    "HKEX New Listing Information": "https://www1.hkexnews.hk/app/appindex.html?lang=zh",
+    "Application Proof / PHIP": "https://www1.hkexnews.hk/app/appindex.html?lang=zh",
     "HKEX AP Structured JSON English": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
     "HKEX AP/PHIP Structured JSON English": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
     "CSRC 境外发行上市备案": "https://www.csrc.gov.cn/csrc/c105984/zfxxgk_zdgk.shtml",
