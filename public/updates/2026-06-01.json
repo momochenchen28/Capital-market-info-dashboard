@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-01T17:45:00+08:00",
+  "generatedAt": "2026-06-02T11:30:00+08:00",
   "linkMap": {
     "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=zh-HK",
     "HKEX New Listing Information": "https://www.hkexnews.hk/APP/SEHKAPPMainIndex.htm",
@@ -7,6 +7,7 @@
     "HKEX AP Structured JSON English": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
     "HKEX AP/PHIP Structured JSON English": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
     "CSRC 境外发行上市备案": "https://www.csrc.gov.cn/csrc/c105984/zfxxgk_zdgk.shtml",
+    "证券时报 海亮股份H股备案申请材料获证监会接收": "https://www.stcn.com/article/detail/3936966.html",
     "SEC EDGAR Latest Filings": "https://www.sec.gov/edgar/search/",
     "Nasdaq IPO Calendar": "https://www.nasdaq.com/market-activity/ipos",
     "NYSE 2026年交易日历": "https://www.nyse.com/markets/hours-calendars"
@@ -14,16 +15,18 @@
   "dailyReports": {
     "2026-06-01": {
       "date": "2026-06-01",
-      "reportType": "daily",
-      "title": "资本市场日报",
-      "statusNote": "数据截至 2026-06-01 收盘后官方源复核。今日港股及美股正常交易；港交所新上市证券页未见 IPO 新挂牌，仅见 NiuHoldings Ord Shs - Nil Paid (02971) 等非 IPO 项目。港交所 AP-only JSON 顶层 app 数组 422 条，按 01/06/2026 命中 AP 0；AP/PHIP JSON 顶层 app 数组 7 条，按 01/06/2026 命中 PHIP 0。证监会境外发行上市备案及重点美股中概 IPO 暂未见需纳入事项。上周五档案已补充证监会 5/29 备案进度及补充材料公示，请注意查看。",
-      "archiveNotice": "",
+      "reportType": "archive",
+      "title": "资本市场日报档案",
+      "statusNote": "已于 2026-06-02 早盘回看复核并归档。2026-06-01 港股及美股正常交易；港交所新上市证券页未见 IPO 新挂牌，仅见 NiuHoldings Ord Shs - Nil Paid (02971) 等非 IPO 项目。港交所 AP-only JSON 顶层 app 数组 422 条，按 01/06/2026 命中 AP 0；AP/PHIP JSON 顶层 app 数组 7 条，按 01/06/2026 命中 PHIP 0。回看补充：海亮股份公告称 H 股备案申请材料已获中国证监会接收；证监会官方进度表暂待后续更新复核。",
+      "archiveNotice": "2026-06-02 已补充昨日海亮股份 H 股备案申请材料获证监会接收事项。",
       "observations": [
         "港交所新上市证券页未见 IPO 新挂牌；NiuHoldings Ord Shs - Nil Paid (02971) 为 nil-paid rights，不计入 IPO 新上市。",
         "港交所 AP 结构化 JSON 复核：AP-only 顶层 app 数组 422 条，按 01/06/2026 过滤后 AP 命中 0；AP/PHIP 顶层 app 数组 7 条，PHIP 命中 0。",
-        "证监会境外发行上市备案栏目及重点美股中概 IPO 公开信息暂未见今日新增事项。",
+        "回看补充：海亮股份 6/1 公告称公司 H 股发行上市备案申请材料已获中国证监会接收；该事项先按上市公司公告口径纳入，待证监会备案进度表更新后再复核状态。",
+        "重点美股中概 IPO 公开信息暂未见 2026-06-01 需纳入事项。",
         "上周五 2026-05-29 档案已补充证监会备案进度表及 5/25-5/29 补充材料要求公示；创想三维首日收盘价也已补入。"
       ],
+      "removeDealIds": ["csrc-no-new-20260601"],
       "deals": [
         {
           "id": "hkex-no-ipo-20260601",
@@ -68,24 +71,31 @@
           "links": ["Application Proof / PHIP", "HKEX AP Structured JSON English", "HKEX AP/PHIP Structured JSON English"]
         },
         {
-          "id": "csrc-no-new-20260601",
+          "id": "csrc-hailiang-receipt-20260601",
           "section": "证监会备案",
-          "type": "境外上市备案",
-          "status": "该类别当日暂无新增事件",
+          "type": "备案申请材料获接收",
+          "status": "已接收（上市公司公告口径）",
           "company": {
-            "zh": "今日未见新增境外上市备案公示",
-            "en": "No New CSRC Overseas Listing Filing Found",
-            "display": "今日未见新增境外上市备案公示",
-            "exchange": "CSRC",
-            "board": "境外发行上市备案",
-            "listingStructure": "不适用"
+            "zh": "浙江海亮股份有限公司",
+            "en": "Zhejiang Hailiang Co., Ltd.",
+            "display": "浙江海亮股份有限公司 / Zhejiang Hailiang Co., Ltd.",
+            "exchange": "CSRC / HKEX / SZSE",
+            "board": "H股发行上市备案",
+            "listingStructure": "A+H"
           },
           "business": {
-            "summary": "复核证监会境外发行上市备案官方栏目，暂未见 2026-06-01 新增备案通知书、补充材料要求公示或备案进度表更新。",
-            "sector": "证监会备案监控"
+            "summary": "公司公告称已向中国证监会报送 H 股发行上市备案申请材料，并于近日获中国证监会接收；公司已于 2026-01-30 向香港联交所递交 H 股发行上市申请。该事项待证监会备案进度表后续更新复核。",
+            "sector": "有色金属 / 铜加工 / A+H"
           },
-          "monitorItems": ["该类别当日暂无新增事件"],
-          "links": ["CSRC 境外发行上市备案"]
+          "csrc": {
+            "noticeNo": "上市公司公告口径，待备案进度表复核",
+            "targetMarket": "香港联交所",
+            "maxIssuance": "待备案进度表及招股文件复核",
+            "domesticOperatingEntity": "浙江海亮股份有限公司",
+            "noticeDate": "2026-06-01",
+            "publishDate": "2026-06-01"
+          },
+          "links": ["证券时报 海亮股份H股备案申请材料获证监会接收", "CSRC 境外发行上市备案"]
         },
         {
           "id": "us-china-ipo-no-new-20260601",
