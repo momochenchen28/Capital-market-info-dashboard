@@ -1,0 +1,77 @@
+{
+  "date": "2026-06-04",
+  "reportType": "daily",
+  "title": "资本市场日报",
+  "subtitle": "数据截至 2026-06-04 收盘后官方源复核；联交所 PHIP 新增 1 家，AP 暂无新增。",
+  "statusNote": "6 月 4 日联交所 Application Proof/PHIP 官方结构化数据中，圣邦微电子披露 PHIP；AP 暂无新增。证监会境外上市备案通知/补充材料公开页暂未见 6 月 4 日新增。昨日资本市场日报档案已补充收盘后新增信息，请注意查看。",
+  "archiveNotice": "6 月 3 日档案已补充安克创新 AP、星源材质 PHIP 与首钢朗泽新挂牌信息。",
+  "marketStatus": "港股正常开市；美股正常开市。",
+  "metrics": {
+    "hkexNewListings": 0,
+    "apNewCount": 0,
+    "phipCount": 1,
+    "csrcCount": 0,
+    "usChinaIpoCount": 0
+  },
+  "sections": [
+    {
+      "title": "港股新挂牌",
+      "summary": "该类别当日暂无新增事件",
+      "items": [],
+      "sources": ["HKEX Newly Listed Securities", "HKEX New Listing Information"]
+    },
+    {
+      "title": "港股递表/聆讯",
+      "summary": "6 月 4 日联交所 PHIP 新增 1 家，为圣邦微电子；AP 暂无新增。",
+      "metrics": {
+        "apNewCount": 0,
+        "phipCount": 1
+      },
+      "apApplications": [
+        {
+          "company": "圣邦微电子（北京）股份有限公司",
+          "companyEn": "SG Micro Corp",
+          "eventType": "PHIP (1st submission)",
+          "status": "PHIP",
+          "filingDate": "2026-06-04",
+          "listingStructure": "A+H股",
+          "industry": "模拟芯片 / 半导体 / 集成电路设计",
+          "businessSummary": "A股上市公司，主要从事高性能、高品质模拟集成电路研发与销售；本次披露聆讯后资料集。",
+          "timeline": [
+            { "label": "首次递交上市申请", "value": "2026-04-01" },
+            { "label": "最近一次提交上市申请", "value": "2026-04-01" },
+            { "label": "最近一次通过聆讯", "value": "2026-06-04（PHIP 披露日）" }
+          ],
+          "sponsors": "待 PHIP 封面页及参与方章节复核",
+          "sources": ["HKEX SG Micro PHIP 全文", "HKEX SG Micro PHIP 多档案"]
+        }
+      ]
+    },
+    {
+      "title": "证监会备案",
+      "summary": "该类别当日暂无新增事件",
+      "items": [],
+      "sources": ["CSRC 境外发行上市备案通知书", "CSRC 境外上市类补充材料要求"]
+    },
+    {
+      "title": "美股中概 IPO",
+      "summary": "该类别当日暂无新增事件",
+      "items": [],
+      "sources": ["SEC EDGAR", "Nasdaq IPO Calendar", "NYSE IPO Center"]
+    }
+  ],
+  "sourceLinks": {
+    "HKEX New Listing Information": "https://www1.hkexnews.hk/app/appindex.html?lang=zh",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=zh-HK",
+    "Application Proof / PHIP": "https://www1.hkexnews.hk/app/appindex.html?lang=zh",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "HKEX SG Micro PHIP 全文": "https://www1.hkexnews.hk/app/sehk/2026/108394/documents/sehk26060400038.pdf",
+    "HKEX SG Micro PHIP 多档案": "https://www1.hkexnews.hk/app/sehk/2026/108394/2026060400033.htm",
+    "CSRC 境外发行上市备案通知书": "https://www.csrc.gov.cn/csrc/c105984/zfxxgk_zdgk.shtml",
+    "CSRC 境外上市类补充材料要求": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "SEC EDGAR": "https://www.sec.gov/edgar/search/",
+    "Nasdaq IPO Calendar": "https://www.nasdaq.com/market-activity/ipos",
+    "NYSE IPO Center": "https://www.nyse.com/ipo-center/filings"
+  }
+}
