@@ -28,23 +28,46 @@
           "industry": "低碳生物制造 / 工业尾气资源化",
           "businessSummary": "公司主要从事利用工业尾气生物发酵生产乙醇、微生物蛋白等产品，属于低碳生物制造及循环经济链条。",
           "timeline": [
-            { "label": "上市日期", "value": "2026-06-03" },
-            { "label": "招股书日期", "value": "待招股书原文复核" },
-            { "label": "配发结果日期", "value": "待配发结果公告复核" }
+            { "label": "首次递交上市申请", "value": "待 HKEX 首次 AP 记录复核" },
+            { "label": "最近一次提交上市申请", "value": "待 HKEX 最近 AP/PHIP 记录复核" },
+            { "label": "证监会公示收到备案", "value": "2024-02-22（证监会备案通知披露的受理/接收口径）" },
+            { "label": "通过备案", "value": "2024-08-30（证监会备案通知书）" },
+            { "label": "最近一次通过聆讯", "value": "待 HKEX PHIP/聆讯记录复核" },
+            { "label": "招股书日期", "value": "2026-05-26" },
+            { "label": "配发结果日期", "value": "2026-06-02" },
+            { "label": "上市日期", "value": "2026-06-03" }
           ],
           "ipoTerms": {
-            "offerPrice": "待招股书/配发结果公告复核",
-            "openingPrice": "待交易行情源复核",
-            "closingPrice": "待交易行情源复核"
+            "offerPrice": "HK$14.60",
+            "currency": "HKD",
+            "sharesOffered": "40,000,000 股 H 股",
+            "grossProceeds": "约 HK$584.0 百万（按发售价 HK$14.60 计算，未扣除费用）",
+            "publicOfferOversubscription": "约 31.08 倍（香港公开发售）",
+            "internationalOfferOversubscription": "约 1.30 倍（国际发售）",
+            "clawbackNote": "因香港公开发售超额认购，香港公开发售股份数目调整至 20,000,000 股，占全球发售股份约 50%；国际发售调整至 20,000,000 股，约 50%。",
+            "cornerstone": "Sinopec Capital Co., Ltd.、首钢基金相关主体等 4 名基石投资者；最终名单及金额以招股书及配发结果公告为准。",
+            "cornerstonePctOfOffer": "待配发结果公告逐项复核"
+          },
+          "marketPerformance": {
+            "offerPrice": 14.6,
+            "openPrice": 27.9,
+            "openChangePctVsOffer": 91.1,
+            "firstDayClose": 21.0,
+            "firstDayCloseChangePctVsOffer": 43.84,
+            "latestPrice": 21.0,
+            "latestPriceNote": "开盘价及首日收盘价按公开行情源回看补充，后续如取得 HKEX/持牌行情源 EOD 数据可再复核。"
           },
           "intermediaries": {
-            "sponsors": "待招股书封面/参与方章节复核",
-            "coordinators": "待招股书/配售公告复核",
-            "legalAdvisers": "待招股书参与方章节复核",
-            "auditor": "待招股书参与方章节复核"
+            "sponsors": "越秀融资有限公司",
+            "overallCoordinators": "越秀融资有限公司、越秀证券有限公司等（待招股书参与方章节逐项复核）",
+            "globalCoordinators": "待招股书/全球发售文件参与方章节复核",
+            "bookrunners": "待配发结果公告复核",
+            "leadManagers": "待配发结果公告复核",
+            "legalAdvisers": "待招股书董事及参与方章节复核",
+            "auditor": "待招股书董事及参与方章节复核"
           },
-          "cornerstoneInvestors": "待招股书及配售结果公告复核",
-          "sources": ["HKEX Newly Listed Securities", "HKEX New Listing Information"]
+          "cornerstoneInvestors": "招股书披露基石投资者安排；最终配售股份及占比应以 2026-06-02 配发结果公告复核为准。",
+          "sources": ["HKEX Newly Listed Securities", "HKEX Shougang Langze Prospectus", "HKEX Shougang Langze Allotment Results", "CSRC Shougang Langze Filing Notice", "HKEX New Listing Information"]
         }
       ]
     },
@@ -103,6 +126,9 @@
   "sourceLinks": {
     "HKEX New Listing Information": "https://www1.hkexnews.hk/app/appindex.html?lang=zh",
     "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=zh-HK",
+    "HKEX Shougang Langze Prospectus": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0526/2026052600048_c.pdf",
+    "HKEX Shougang Langze Allotment Results": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0602/2026060202645_c.pdf",
+    "CSRC Shougang Langze Filing Notice": "https://www.csrc.gov.cn/csrc/c105984/c7562882/content.shtml",
     "Application Proof / PHIP": "https://www1.hkexnews.hk/app/appindex.html?lang=zh",
     "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
     "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
