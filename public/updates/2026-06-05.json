@@ -1,0 +1,59 @@
+{
+  "date": "2026-06-05",
+  "reportType": "daily",
+  "title": "资本市场日报",
+  "subtitle": "数据截至 2026-06-05 官方源复核；联交所 AP/PHIP 暂无新增，证监会暂未见 6 月 5 日新增公开更新。",
+  "statusNote": "6 月 5 日复核 HKEX 新上市证券、Application Proof/PHIP 官方结构化数据、证监会境外发行上市备案通知/补充材料列表及美股中概 IPO 公开信息，暂未见需纳入日报的新增事件。昨日资本市场日报档案已补充广东鼎泰高科 AP 与陕西麦科奥特 PHIP，请注意查看。",
+  "archiveNotice": "昨日资本市场日报档案已补充收盘后新增信息，请注意查看。",
+  "marketStatus": "港股正常开市；美股正常开市。今天为周五，证监会境外上市备案相关栏目已按晚间高频更新口径复核；截至本次读取，备案通知列表页面生成时间仍为 2026-05-29 19:09:05，补充材料列表页面生成时间仍为 2026-05-29 19:00:10。",
+  "metrics": {
+    "hkexNewListings": 0,
+    "apNewCount": 0,
+    "phipCount": 0,
+    "csrcCount": 0,
+    "usChinaIpoCount": 0
+  },
+  "sections": [
+    {
+      "title": "港股新挂牌",
+      "summary": "该类别当日暂无新增事件",
+      "items": [],
+      "sources": ["HKEX Newly Listed Securities", "HKEX New Listing Information"]
+    },
+    {
+      "title": "港股递表/聆讯",
+      "summary": "该类别当日暂无新增事件。已复核 HKEX AP-only JSON：top-level app 数组 412 条，按 05/06/2026 命中 AP 0；AP/PHIP JSON：top-level app 数组 7 条，按 05/06/2026 命中 PHIP 0。",
+      "metrics": {
+        "apNewCount": 0,
+        "phipCount": 0
+      },
+      "apApplications": [],
+      "sources": ["Application Proof / PHIP", "HKEX AP structured JSON", "HKEX AP/PHIP structured JSON"]
+    },
+    {
+      "title": "证监会备案",
+      "summary": "该类别当日暂无新增事件",
+      "items": [],
+      "sources": ["CSRC 境外发行上市备案通知书", "CSRC 境外上市类补充材料要求", "CSRC 境外发行上市备案进度表"]
+    },
+    {
+      "title": "美股中概 IPO",
+      "summary": "该类别当日暂无新增事件",
+      "items": [],
+      "sources": ["SEC EDGAR", "Nasdaq IPO Calendar", "NYSE IPO Center"]
+    }
+  ],
+  "sourceLinks": {
+    "HKEX New Listing Information": "https://www1.hkexnews.hk/app/appindex.html?lang=zh",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=zh-HK",
+    "Application Proof / PHIP": "https://www1.hkexnews.hk/app/appindex.html?lang=zh",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC 境外发行上市备案通知书": "https://www.csrc.gov.cn/csrc/c105984/zfxxgk_zdgk.shtml",
+    "CSRC 境外上市类补充材料要求": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "CSRC 境外发行上市备案进度表": "https://www.csrc.gov.cn/csrc/c106251/c7635871/content.shtml",
+    "SEC EDGAR": "https://www.sec.gov/edgar/search/",
+    "Nasdaq IPO Calendar": "https://www.nasdaq.com/market-activity/ipos",
+    "NYSE IPO Center": "https://www.nyse.com/ipo-center/filings"
+  }
+}
