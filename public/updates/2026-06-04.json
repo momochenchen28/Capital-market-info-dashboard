@@ -1,15 +1,15 @@
 {
   "date": "2026-06-04",
-  "reportType": "daily",
-  "title": "资本市场日报",
-  "subtitle": "数据截至 2026-06-04 收盘后官方源复核；联交所 PHIP 新增 1 家，AP 暂无新增。",
-  "statusNote": "6 月 4 日联交所 Application Proof/PHIP 官方结构化数据中，圣邦微电子披露 PHIP；AP 暂无新增。证监会境外上市备案通知/补充材料公开页暂未见 6 月 4 日新增。昨日资本市场日报档案已补充收盘后新增信息，请注意查看。",
-  "archiveNotice": "6 月 3 日档案已补充安克创新 AP、星源材质 PHIP 与首钢朗泽新挂牌信息。",
+  "reportType": "archive",
+  "title": "资本市场日报档案",
+  "subtitle": "数据截至 2026-06-05 复核；联交所 AP 新增 1 家、PHIP 新增 2 家。",
+  "statusNote": "6 月 4 日联交所 Application Proof/PHIP 官方结构化数据复核后，广东鼎泰高科披露 Application Proof；圣邦微电子、陕西麦科奥特披露 PHIP。证监会境外上市备案通知/补充材料公开页暂未见 6 月 4 日新增。",
+  "archiveNotice": "2026-06-05 已补充 6 月 4 日遗漏的广东鼎泰高科 AP 与陕西麦科奥特 PHIP，请注意查看。",
   "marketStatus": "港股正常开市；美股正常开市。",
   "metrics": {
     "hkexNewListings": 0,
-    "apNewCount": 0,
-    "phipCount": 1,
+    "apNewCount": 1,
+    "phipCount": 2,
     "csrcCount": 0,
     "usChinaIpoCount": 0
   },
@@ -22,12 +22,24 @@
     },
     {
       "title": "港股递表/聆讯",
-      "summary": "6 月 4 日联交所 PHIP 新增 1 家，为圣邦微电子；AP 暂无新增。",
+      "summary": "6 月 4 日联交所 AP 新增 1 家、PHIP 新增 2 家；AP 与 PHIP 分开展示并与顶部 metrics 保持一致。",
       "metrics": {
-        "apNewCount": 0,
-        "phipCount": 1
+        "apNewCount": 1,
+        "phipCount": 2
       },
       "apApplications": [
+        {
+          "company": "广东鼎泰高科技术股份有限公司",
+          "companyEn": "Guangdong Dtech Technology Co., Ltd.",
+          "eventType": "Application Proof (1st submission)",
+          "status": "AP",
+          "filingDate": "2026-06-04",
+          "listingStructure": "A+H股",
+          "industry": "数控刀具 / PCB 钻针 / 精密制造",
+          "businessSummary": "A股上市公司，主要从事微型钻针、铣刀等 PCB 精密刀具及相关智能装备业务；本次为赴港上市首次递表。",
+          "sponsors": "待 Application Proof 封面页复核",
+          "sources": ["HKEX Dtech AP 全文", "HKEX Dtech AP 多档案"]
+        },
         {
           "company": "圣邦微电子（北京）股份有限公司",
           "companyEn": "SG Micro Corp",
@@ -44,6 +56,23 @@
           ],
           "sponsors": "待 PHIP 封面页及参与方章节复核",
           "sources": ["HKEX SG Micro PHIP 全文", "HKEX SG Micro PHIP 多档案"]
+        },
+        {
+          "company": "陕西麦科奥特制药技术股份有限公司 - B",
+          "companyEn": "Shaanxi Micot Pharmaceutical Technology Co., Ltd. - B",
+          "eventType": "PHIP (1st submission)",
+          "status": "PHIP",
+          "filingDate": "2026-06-04",
+          "listingStructure": "H股 / 18A-B",
+          "industry": "创新药 / 生物医药",
+          "businessSummary": "生物医药公司，本次披露聆讯后资料集；具体管线、适应症及商业化进展待 PHIP 原文进一步复核。",
+          "timeline": [
+            { "label": "首次递交上市申请", "value": "2026-03-31" },
+            { "label": "最近一次提交上市申请", "value": "2026-03-31" },
+            { "label": "最近一次通过聆讯", "value": "2026-06-04（PHIP 披露日）" }
+          ],
+          "sponsors": "待 PHIP 封面页及参与方章节复核",
+          "sources": ["HKEX Micot PHIP 全文", "HKEX Micot PHIP 多档案"]
         }
       ]
     },
@@ -66,8 +95,12 @@
     "Application Proof / PHIP": "https://www1.hkexnews.hk/app/appindex.html?lang=zh",
     "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
     "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "HKEX Dtech AP 全文": "https://www1.hkexnews.hk/app/sehk/2026/108613/documents/sehk26060403008.pdf",
+    "HKEX Dtech AP 多档案": "https://www1.hkexnews.hk/app/sehk/2026/108613/2026060402779.htm",
     "HKEX SG Micro PHIP 全文": "https://www1.hkexnews.hk/app/sehk/2026/108394/documents/sehk26060400038.pdf",
     "HKEX SG Micro PHIP 多档案": "https://www1.hkexnews.hk/app/sehk/2026/108394/2026060400033.htm",
+    "HKEX Micot PHIP 全文": "https://www1.hkexnews.hk/app/sehk/2026/108375/documents/sehk26060403116.pdf",
+    "HKEX Micot PHIP 多档案": "https://www1.hkexnews.hk/app/sehk/2026/108375/2026060403111.htm",
     "CSRC 境外发行上市备案通知书": "https://www.csrc.gov.cn/csrc/c105984/zfxxgk_zdgk.shtml",
     "CSRC 境外上市类补充材料要求": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
     "SEC EDGAR": "https://www.sec.gov/edgar/search/",
