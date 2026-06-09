@@ -1,23 +1,109 @@
 {
   "date": "2026-06-05",
-  "reportType": "daily",
-  "title": "资本市场日报",
-  "subtitle": "数据截至 2026-06-05 官方源复核；联交所 AP/PHIP 暂无新增，证监会暂未见 6 月 5 日新增公开更新。",
-  "statusNote": "6 月 5 日复核 HKEX 新上市证券、Application Proof/PHIP 官方结构化数据、证监会境外发行上市备案通知/补充材料列表及美股中概 IPO 公开信息，暂未见需纳入日报的新增事件。昨日资本市场日报档案已补充广东鼎泰高科 AP 与陕西麦科奥特 PHIP，请注意查看。",
-  "archiveNotice": "昨日资本市场日报档案已补充收盘后新增信息，请注意查看。",
-  "marketStatus": "港股正常开市；美股正常开市。今天为周五，证监会境外上市备案相关栏目已按晚间高频更新口径复核；截至本次读取，备案通知列表页面生成时间仍为 2026-05-29 19:09:05，补充材料列表页面生成时间仍为 2026-05-29 19:00:10。",
+  "reportType": "archive",
+  "title": "资本市场日报档案",
+  "subtitle": "2026-06-09 复核补正：6 月 5 日港股新挂牌 3 家；证监会发布 2026-06-01 至 2026-06-05 补充材料要求公示及截至 2026-06-05 备案进度表。",
+  "statusNote": "本次回补基于 HKEX Newly Listed Securities、HKEX 招股/配发结果公告及证监会官方栏目复核。6 月 5 日新增挂牌包括大金重工、天辰生物-B、龙丰集团；证监会国际司同日对 10 家企业出具补充材料要求，并更新境外发行上市备案进度表。",
+  "archiveNotice": "2026-06-09 已补正 6 月 5 日遗漏的新挂牌及证监会晚间更新，请注意查看。",
+  "marketStatus": "港股正常开市；美股正常开市。周五证监会栏目为高频更新日，本档案已纳入 6 月 5 日晚间官方更新。",
   "metrics": {
-    "hkexNewListings": 0,
+    "hkexNewListings": 3,
     "apNewCount": 0,
     "phipCount": 0,
-    "csrcCount": 0,
+    "csrcCount": 2,
     "usChinaIpoCount": 0
   },
   "sections": [
     {
       "title": "港股新挂牌",
-      "summary": "该类别当日暂无新增事件",
-      "items": [],
+      "summary": "6 月 5 日港股新挂牌 3 家：大金重工、天辰生物-B、龙丰集团。",
+      "items": [
+        {
+          "company": "大金重工股份有限公司",
+          "companyEn": "Dajin Heavy Industry Co., Ltd.",
+          "ticker": "01081.HK",
+          "eventType": "今日新上市",
+          "status": "新上市",
+          "listingDate": "2026-06-05",
+          "listingStructure": "A+H股",
+          "industry": "风电装备 / 海上风电塔筒",
+          "businessSummary": "公司主要从事风电装备制造，重点覆盖风电塔筒及相关海上风电装备；本次 H 股于港交所主板挂牌。",
+          "timeline": [
+            { "label": "招股书日期", "value": "2026-05-28" },
+            { "label": "配发结果日期", "value": "2026-06-04" },
+            { "label": "上市日期", "value": "2026-06-05" }
+          ],
+          "ipoTerms": {
+            "offerPrice": "HK$66.40",
+            "sharesOffered": "100,010,600 股H股（经发售规模调整后，超额配股权行使前）",
+            "publicOffer": "8,696,600 股H股",
+            "internationalOffer": "91,314,000 股H股"
+          },
+          "marketPerformance": {
+            "openPrice": "待行情源复核",
+            "closePrice": "待行情源复核"
+          },
+          "intermediaries": "待招股书封面页及参与方章节进一步复核",
+          "cornerstoneInvestors": "待招股书及配发结果公告进一步复核",
+          "sources": ["HKEX Newly Listed Securities", "HKEX Dajin Prospectus", "HKEX Dajin Allotment Results"]
+        },
+        {
+          "company": "天辰生物医药（苏州）股份有限公司 - B",
+          "companyEn": "LongBio Pharma (Suzhou) Co., Ltd. - B",
+          "ticker": "01779.HK",
+          "eventType": "今日新上市",
+          "status": "新上市",
+          "listingDate": "2026-06-05",
+          "listingStructure": "H股 / 18A-B",
+          "industry": "创新药 / 生物医药",
+          "businessSummary": "公司为生物医药企业，以创新药研发为核心；本次按港交所 18A 章上市，股份简称带 -B 标识。",
+          "timeline": [
+            { "label": "招股书日期", "value": "2026-05-28" },
+            { "label": "配发结果日期", "value": "2026-06-04" },
+            { "label": "上市日期", "value": "2026-06-05" }
+          ],
+          "ipoTerms": {
+            "offerPrice": "HK$96.06",
+            "sharesOffered": "14,193,150 股H股",
+            "publicOffer": "1,419,350 股H股",
+            "internationalOffer": "12,773,800 股H股",
+            "overAllocation": "2,128,950 股H股"
+          },
+          "marketPerformance": {
+            "openPrice": "待行情源复核",
+            "closePrice": "待行情源复核"
+          },
+          "intermediaries": "待招股书封面页及参与方章节进一步复核",
+          "cornerstoneInvestors": "待招股书及配发结果公告进一步复核",
+          "sources": ["HKEX Newly Listed Securities", "HKEX LongBio Prospectus", "HKEX LongBio Allotment Results"]
+        },
+        {
+          "company": "龙丰集团控股有限公司",
+          "companyEn": "Dragon Rise Group Holdings Limited",
+          "ticker": "02290.HK",
+          "eventType": "今日新上市",
+          "status": "新上市",
+          "listingDate": "2026-06-05",
+          "listingStructure": "境外主体（待招股书公司架构章节复核）",
+          "industry": "待招股书业务章节复核",
+          "businessSummary": "6 月 5 日在港交所新挂牌；业务、架构及中介信息待招股书全文进一步复核后补充。",
+          "timeline": [
+            { "label": "招股书日期", "value": "2026-05-28" },
+            { "label": "上市日期", "value": "2026-06-05" }
+          ],
+          "ipoTerms": {
+            "offerPrice": "待配发结果公告复核",
+            "sharesOffered": "待配发结果公告复核"
+          },
+          "marketPerformance": {
+            "openPrice": "待行情源复核",
+            "closePrice": "待行情源复核"
+          },
+          "intermediaries": "待招股书封面页及参与方章节进一步复核",
+          "cornerstoneInvestors": "待招股书及配发结果公告进一步复核",
+          "sources": ["HKEX Newly Listed Securities", "HKEX Dragon Rise Prospectus"]
+        }
+      ],
       "sources": ["HKEX Newly Listed Securities", "HKEX New Listing Information"]
     },
     {
@@ -32,9 +118,27 @@
     },
     {
       "title": "证监会备案",
-      "summary": "该类别当日暂无新增事件",
-      "items": [],
-      "sources": ["CSRC 境外发行上市备案通知书", "CSRC 境外上市类补充材料要求", "CSRC 境外发行上市备案进度表"]
+      "summary": "证监会 6 月 5 日发布 2026-06-01 至 2026-06-05 补充材料要求公示，并更新截至 2026-06-05 的境外发行上市备案进度表。",
+      "items": [
+        {
+          "company": "证监会补充材料要求公示（2026-06-01至2026-06-05）",
+          "eventType": "补充材料要求公示",
+          "status": "10 家企业被要求补充材料",
+          "publishDate": "2026-06-05",
+          "businessSummary": "国际司共对 10 家企业出具补充材料要求，关注点包括境外投资及外汇程序、国有股东标识、新增股东定价及利益输送、股权激励、全流通股份权利瑕疵、A股辅导/上市申请历史、员工持股及特殊股东权利等。",
+          "companies": ["广东丸美", "普莱医药", "华依科技", "清陶能源", "菲亚兰德", "文石信息", "惟远能源", "信得科技", "汇伦医药", "威兆半导体"],
+          "sources": ["CSRC 2026-06-01至2026-06-05补充材料公示"]
+        },
+        {
+          "company": "境内企业境外发行证券和上市备案情况表（截至2026-06-05）",
+          "eventType": "备案进度表更新",
+          "status": "截至 2026-06-05",
+          "publishDate": "2026-06-05",
+          "businessSummary": "证监会发布截至 2026-06-05 的境外发行上市备案进度表；本档案先纳入官方入口，后续如需可逐项对比新增或状态变化。",
+          "sources": ["CSRC 2026-06-05备案进度表"]
+        }
+      ],
+      "sources": ["CSRC 境外上市类补充材料要求", "CSRC 境外发行上市备案进度表"]
     },
     {
       "title": "美股中概 IPO",
@@ -49,9 +153,15 @@
     "Application Proof / PHIP": "https://www1.hkexnews.hk/app/appindex.html?lang=zh",
     "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
     "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
-    "CSRC 境外发行上市备案通知书": "https://www.csrc.gov.cn/csrc/c105984/zfxxgk_zdgk.shtml",
+    "HKEX Dajin Prospectus": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0528/2026052800159_c.htm",
+    "HKEX Dajin Allotment Results": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0604/2026060402920_c.pdf",
+    "HKEX LongBio Prospectus": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0528/2026052800103_c.htm",
+    "HKEX LongBio Allotment Results": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0604/2026060402924_c.pdf",
+    "HKEX Dragon Rise Prospectus": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0528/2026052800053_c.htm",
     "CSRC 境外上市类补充材料要求": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
-    "CSRC 境外发行上市备案进度表": "https://www.csrc.gov.cn/csrc/c106251/c7635871/content.shtml",
+    "CSRC 境外发行上市备案进度表": "https://www.csrc.gov.cn/csrc/c106251/c7637494/content.shtml",
+    "CSRC 2026-06-01至2026-06-05补充材料公示": "https://www.csrc.gov.cn/csrc/c105983/c7637475/content.shtml",
+    "CSRC 2026-06-05备案进度表": "https://www.csrc.gov.cn/csrc/c106251/c7637494/content.shtml",
     "SEC EDGAR": "https://www.sec.gov/edgar/search/",
     "Nasdaq IPO Calendar": "https://www.nasdaq.com/market-activity/ipos",
     "NYSE IPO Center": "https://www.nyse.com/ipo-center/filings"
