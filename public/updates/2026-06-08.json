@@ -1,0 +1,168 @@
+{
+  "date": "2026-06-08",
+  "reportType": "archive",
+  "title": "资本市场日报档案",
+  "subtitle": "数据截至 2026-06-08 收盘后复核；联交所 AP 新增 5 家、PHIP 新增 2 家，未见港股新挂牌。",
+  "statusNote": "6 月 8 日联交所 Application Proof/PHIP 官方结构化数据复核后，AP 新增 5 家，PHIP 新增 2 家。证监会及美股中概 IPO 官方入口暂未见需纳入当日档案的新事件。",
+  "archiveNotice": "2026-06-09 已将 6 月 8 日 AP/PHIP 新增事件归档。",
+  "marketStatus": "港股正常开市；美股正常开市。",
+  "metrics": {
+    "hkexNewListings": 0,
+    "apNewCount": 5,
+    "phipCount": 2,
+    "csrcCount": 0,
+    "usChinaIpoCount": 0
+  },
+  "sections": [
+    {
+      "title": "港股新挂牌",
+      "summary": "该类别当日暂无新增事件",
+      "items": [],
+      "sources": ["HKEX Newly Listed Securities", "HKEX New Listing Information"]
+    },
+    {
+      "title": "港股递表/聆讯",
+      "summary": "6 月 8 日联交所 AP 新增 5 家、PHIP 新增 2 家；AP 与 PHIP 分开展示并与顶部 metrics 保持一致。已复核 HKEX AP-only JSON：top-level app 数组 417 条，按 08/06/2026 命中 AP 5；AP/PHIP JSON：top-level app 数组 12 条，按 08/06/2026 命中 PHIP 2。",
+      "metrics": {
+        "apNewCount": 5,
+        "phipCount": 2
+      },
+      "apApplications": [
+        {
+          "company": "群策科技股份有限公司",
+          "companyEn": "Qunce Technology Co., Ltd.",
+          "eventType": "Application Proof (1st submission)",
+          "status": "AP",
+          "filingDate": "2026-06-08",
+          "listingStructure": "待 AP 公司架构章节复核",
+          "industry": "科技 / 电子产业链（待 AP 原文复核）",
+          "businessSummary": "6 月 8 日首次递交港股上市申请；业务简介待 AP 原文业务章节复核后补充。",
+          "sponsors": "待 Application Proof 封面页复核",
+          "sources": ["HKEX Qunce AP 全文", "HKEX Qunce AP 多档案"]
+        },
+        {
+          "company": "赣州和美药业股份有限公司 - B",
+          "companyEn": "Ganzhou Hemay Pharmaceutical Co., Ltd. - B",
+          "eventType": "Application Proof (1st submission)",
+          "status": "AP",
+          "filingDate": "2026-06-08",
+          "listingStructure": "H股 / 18A-B（待 AP 原文复核）",
+          "industry": "生物医药 / 创新药",
+          "businessSummary": "6 月 8 日首次递交港股上市申请；具体管线、适应症及商业化进展待 AP 原文复核后补充。",
+          "sponsors": "待 Application Proof 封面页复核",
+          "sources": ["HKEX Hemay AP 全文", "HKEX Hemay AP 多档案"]
+        },
+        {
+          "company": "广东正和医疗科技发展股份有限公司 - B",
+          "companyEn": "Guangdong True Health Medical Technology Development Co., Ltd. - B",
+          "eventType": "Application Proof (1st submission)",
+          "status": "AP",
+          "filingDate": "2026-06-08",
+          "listingStructure": "H股 / 18A-B（待 AP 原文复核）",
+          "industry": "医疗科技 / 生物医药",
+          "businessSummary": "6 月 8 日首次递交港股上市申请；核心产品及研发进展待 AP 原文复核后补充。",
+          "sponsors": "待 Application Proof 封面页复核",
+          "sources": ["HKEX True Health AP 全文", "HKEX True Health AP 多档案"]
+        },
+        {
+          "company": "杭州和励医药有限公司 - B",
+          "companyEn": "Hangzhou Highlightll Pharmaceutical Co., Ltd. - B",
+          "eventType": "Application Proof (1st submission)",
+          "status": "AP",
+          "filingDate": "2026-06-08",
+          "listingStructure": "待 AP 公司架构章节复核 / 18A-B",
+          "industry": "生物医药 / 创新药",
+          "businessSummary": "6 月 8 日首次递交港股上市申请；具体业务及管线信息待 AP 原文复核后补充。",
+          "sponsors": "待 Application Proof 封面页复核",
+          "sources": ["HKEX Highlightll AP 全文", "HKEX Highlightll AP 多档案"]
+        },
+        {
+          "company": "潮州三环（集团）股份有限公司",
+          "companyEn": "Chaozhou Three-Circle (Group) Co., Ltd.",
+          "eventType": "Application Proof (1st submission)",
+          "status": "AP",
+          "filingDate": "2026-06-08",
+          "listingStructure": "A+H股",
+          "industry": "电子陶瓷 / 电子元件 / 新材料",
+          "businessSummary": "A股上市公司，主要从事电子陶瓷、新型材料及电子元件相关业务；本次为赴港上市首次递表。",
+          "sponsors": "待 Application Proof 封面页复核",
+          "sources": ["HKEX Three-Circle AP 全文", "HKEX Three-Circle AP 多档案"]
+        },
+        {
+          "company": "合肥晶合集成电路股份有限公司",
+          "companyEn": "Nexchip Semiconductor Corporation",
+          "eventType": "PHIP (1st submission)",
+          "status": "PHIP",
+          "filingDate": "2026-06-08",
+          "listingStructure": "A+H股",
+          "industry": "晶圆代工 / 半导体制造",
+          "businessSummary": "A股上市晶圆代工企业，披露聆讯后资料集。",
+          "timeline": [
+            { "label": "首次递交上市申请", "value": "2026-03-31" },
+            { "label": "最近一次提交上市申请", "value": "2026-03-31" },
+            { "label": "最近一次通过聆讯", "value": "2026-06-08（PHIP 披露日）" }
+          ],
+          "sponsors": "待 PHIP 封面页及参与方章节复核",
+          "sources": ["HKEX Nexchip PHIP 全文", "HKEX Nexchip PHIP 多档案"]
+        },
+        {
+          "company": "科拓股份有限公司",
+          "companyEn": "Keytop Parking Inc.",
+          "eventType": "PHIP (1st submission)",
+          "status": "PHIP",
+          "filingDate": "2026-06-08",
+          "listingStructure": "待 PHIP 公司架构章节复核",
+          "industry": "智慧停车 / 城市停车数字化",
+          "businessSummary": "公司主要围绕智慧停车及停车场数字化运营相关业务；本次披露聆讯后资料集。",
+          "timeline": [
+            { "label": "首次递交上市申请", "value": "2026-05-05" },
+            { "label": "最近一次提交上市申请", "value": "2026-05-05" },
+            { "label": "最近一次通过聆讯", "value": "2026-06-08（PHIP 披露日）" }
+          ],
+          "sponsors": "待 PHIP 封面页及参与方章节复核",
+          "sources": ["HKEX Keytop PHIP 全文", "HKEX Keytop PHIP 多档案"]
+        }
+      ],
+      "sources": ["Application Proof / PHIP", "HKEX AP structured JSON", "HKEX AP/PHIP structured JSON"]
+    },
+    {
+      "title": "证监会备案",
+      "summary": "该类别当日暂无新增事件",
+      "items": [],
+      "sources": ["CSRC 境外发行上市备案通知书", "CSRC 境外上市类补充材料要求", "CSRC 境外发行上市备案进度表"]
+    },
+    {
+      "title": "美股中概 IPO",
+      "summary": "该类别当日暂无新增事件",
+      "items": [],
+      "sources": ["SEC EDGAR", "Nasdaq IPO Calendar", "NYSE IPO Center"]
+    }
+  ],
+  "sourceLinks": {
+    "HKEX New Listing Information": "https://www1.hkexnews.hk/app/appindex.html?lang=zh",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=zh-HK",
+    "Application Proof / PHIP": "https://www1.hkexnews.hk/app/appindex.html?lang=zh",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "HKEX Qunce AP 全文": "https://www1.hkexnews.hk/app/sehk/2026/108620/documents/sehk26060800899.pdf",
+    "HKEX Qunce AP 多档案": "https://www1.hkexnews.hk/app/sehk/2026/108620/2026060800894.htm",
+    "HKEX Hemay AP 全文": "https://www1.hkexnews.hk/app/sehk/2026/108622/documents/sehk26060801665.pdf",
+    "HKEX Hemay AP 多档案": "https://www1.hkexnews.hk/app/sehk/2026/108622/2026060801660.htm",
+    "HKEX True Health AP 全文": "https://www1.hkexnews.hk/app/sehk/2026/108624/documents/sehk26060801971.pdf",
+    "HKEX True Health AP 多档案": "https://www1.hkexnews.hk/app/sehk/2026/108624/2026060801966.htm",
+    "HKEX Highlightll AP 全文": "https://www1.hkexnews.hk/app/sehk/2026/108625/documents/sehk26060802151.pdf",
+    "HKEX Highlightll AP 多档案": "https://www1.hkexnews.hk/app/sehk/2026/108625/2026060802084.htm",
+    "HKEX Three-Circle AP 全文": "https://www1.hkexnews.hk/app/sehk/2026/108626/documents/sehk26060802221.pdf",
+    "HKEX Three-Circle AP 多档案": "https://www1.hkexnews.hk/app/sehk/2026/108626/2026060802216.htm",
+    "HKEX Nexchip PHIP 全文": "https://www1.hkexnews.hk/app/sehk/2026/108380/documents/sehk26060801172.pdf",
+    "HKEX Nexchip PHIP 多档案": "https://www1.hkexnews.hk/app/sehk/2026/108380/2026060801097.htm",
+    "HKEX Keytop PHIP 全文": "https://www1.hkexnews.hk/app/sehk/2026/108510/documents/sehk26060801847.pdf",
+    "HKEX Keytop PHIP 多档案": "https://www1.hkexnews.hk/app/sehk/2026/108510/2026060801842.htm",
+    "CSRC 境外发行上市备案通知书": "https://www.csrc.gov.cn/csrc/c105984/zfxxgk_zdgk.shtml",
+    "CSRC 境外上市类补充材料要求": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "CSRC 境外发行上市备案进度表": "https://www.csrc.gov.cn/csrc/c106251/c7637494/content.shtml",
+    "SEC EDGAR": "https://www.sec.gov/edgar/search/",
+    "Nasdaq IPO Calendar": "https://www.nasdaq.com/market-activity/ipos",
+    "NYSE IPO Center": "https://www.nyse.com/ipo-center/filings"
+  }
+}
