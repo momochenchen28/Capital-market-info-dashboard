@@ -1,0 +1,58 @@
+{
+  "date": "2026-06-09",
+  "reportType": "daily",
+  "title": "资本市场日报",
+  "subtitle": "数据截至 2026-06-09 收盘后官方源复核；联交所 AP/PHIP、港股新挂牌、证监会及美股中概 IPO 暂未见当日新增。",
+  "statusNote": "今日复核 HKEX 新上市证券、Application Proof/PHIP 官方结构化数据、证监会境外发行上市备案栏目及美股中概 IPO 公开入口，暂未见需纳入 6 月 9 日日报的新事件。昨日资本市场日报档案已补充 6 月 8 日 AP/PHIP 新增信息，请注意查看；6 月 5 日档案已补正新挂牌及证监会周五晚间更新。",
+  "marketStatus": "港股正常开市；美股正常开市。",
+  "metrics": {
+    "hkexNewListings": 0,
+    "apNewCount": 0,
+    "phipCount": 0,
+    "csrcCount": 0,
+    "usChinaIpoCount": 0
+  },
+  "sections": [
+    {
+      "title": "港股新挂牌",
+      "summary": "该类别当日暂无新增事件",
+      "items": [],
+      "sources": ["HKEX Newly Listed Securities", "HKEX New Listing Information"]
+    },
+    {
+      "title": "港股递表/聆讯",
+      "summary": "该类别当日暂无新增事件。已复核 HKEX AP-only JSON：top-level app 数组 417 条，按 09/06/2026 命中 AP 0；AP/PHIP JSON：top-level app 数组 12 条，按 09/06/2026 命中 PHIP 0。",
+      "metrics": {
+        "apNewCount": 0,
+        "phipCount": 0
+      },
+      "apApplications": [],
+      "sources": ["Application Proof / PHIP", "HKEX AP structured JSON", "HKEX AP/PHIP structured JSON"]
+    },
+    {
+      "title": "证监会备案",
+      "summary": "该类别当日暂无新增事件",
+      "items": [],
+      "sources": ["CSRC 境外发行上市备案通知书", "CSRC 境外上市类补充材料要求", "CSRC 境外发行上市备案进度表"]
+    },
+    {
+      "title": "美股中概 IPO",
+      "summary": "该类别当日暂无新增事件",
+      "items": [],
+      "sources": ["SEC EDGAR", "Nasdaq IPO Calendar", "NYSE IPO Center"]
+    }
+  ],
+  "sourceLinks": {
+    "HKEX New Listing Information": "https://www1.hkexnews.hk/app/appindex.html?lang=zh",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=zh-HK",
+    "Application Proof / PHIP": "https://www1.hkexnews.hk/app/appindex.html?lang=zh",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC 境外发行上市备案通知书": "https://www.csrc.gov.cn/csrc/c105984/zfxxgk_zdgk.shtml",
+    "CSRC 境外上市类补充材料要求": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "CSRC 境外发行上市备案进度表": "https://www.csrc.gov.cn/csrc/c106251/c7637494/content.shtml",
+    "SEC EDGAR": "https://www.sec.gov/edgar/search/",
+    "Nasdaq IPO Calendar": "https://www.nasdaq.com/market-activity/ipos",
+    "NYSE IPO Center": "https://www.nyse.com/ipo-center/filings"
+  }
+}
