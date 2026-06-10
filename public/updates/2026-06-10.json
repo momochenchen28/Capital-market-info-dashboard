@@ -1,0 +1,96 @@
+{
+  "date": "2026-06-10",
+  "reportType": "daily",
+  "title": "资本市场日报",
+  "subtitle": "数据截至 2026-06-10 收盘后官方源复核；联交所 AP 新增 2 家，PHIP 暂无新增，港股新挂牌、证监会及美股中概 IPO 暂未见当日新增。",
+  "statusNote": "6 月 10 日联交所 Application Proof 官方结构化数据复核后，AP 新增 2 家（派想未來集團、深圳市豐宜科技集團股份有限公司）；PHIP 当日暂无新增。证监会境外发行上市备案栏目最新补充材料要求公示截至 6 月 5 日，备案进度表截至 6 月 5 日，6 月 6 日至 10 日暂未见新增。美股中概 IPO 官方入口暂未见需纳入当日日报的新事件。上一交易日（6 月 9 日）资本市场日报档案未见新增或修正。",
+  "marketStatus": "港股正常开市；美股正常开市。",
+  "metrics": {
+    "hkexNewListings": 0,
+    "apNewCount": 2,
+    "phipCount": 0,
+    "csrcCount": 0,
+    "usChinaIpoCount": 0
+  },
+  "sections": [
+    {
+      "title": "港股新挂牌",
+      "summary": "该类别当日暂无新增事件",
+      "items": [],
+      "sources": ["HKEX Newly Listed Securities", "HKEX New Listing Information"]
+    },
+    {
+      "title": "港股递表/聆讯",
+      "summary": "6 月 10 日联交所 AP 新增 2 家、PHIP 暂无新增；AP 与 PHIP 分开展示并与顶部 metrics 保持一致。已复核 HKEX AP-only JSON：top-level app 数组 416 条，按 10/06/2026 命中 AP 2；AP/PHIP JSON：top-level app 数组 14 条，按 10/06/2026 命中 PHIP 0。",
+      "metrics": {
+        "apNewCount": 2,
+        "phipCount": 0
+      },
+      "apApplications": [
+        {
+          "company": "派想未來集團",
+          "companyEn": "PPLabs Technology Limited",
+          "eventType": "Application Proof (1st submission)",
+          "status": "AP",
+          "filingDate": "2026-06-10",
+          "listingStructure": "红筹 / VIE 架构（开曼群岛注册，AP 含合约安排章节）",
+          "industry": "科技 / Web3 / 移动健身（待 AP 原文业务章节复核）",
+          "businessSummary": "6 月 10 日首次递交港股上市申请；公司于开曼群岛注册，以 VIE 架构运营。业务简介待 AP 原文业务章节复核后补充。",
+          "intermediaries": {
+            "overallCoordinators": ["ICBC International Securities Limited（工银国际）", "Shenwan Hongyuan Securities (H.K.)（申万宏源）"],
+            "sponsors": "待 Application Proof 封面页复核"
+          },
+          "sources": ["HKEX PPLabs AP 全文", "HKEX PPLabs AP 多档案", "HKEX PPLabs OC 委任公告"]
+        },
+        {
+          "company": "深圳市豐宜科技集團股份有限公司",
+          "companyEn": "Shenzhen Fengyi Technology Group Co., Ltd.",
+          "eventType": "Application Proof (1st submission)",
+          "status": "AP",
+          "filingDate": "2026-06-10",
+          "listingStructure": "H 股（中国境内股份有限公司）",
+          "industry": "科技（待 AP 原文业务章节复核）",
+          "businessSummary": "6 月 10 日首次递交港股上市申请；公司为中国境内股份有限公司。业务简介待 AP 原文业务章节复核后补充。",
+          "intermediaries": {
+            "sponsorOverallCoordinator": "ABCI Capital Limited（建银国际）",
+            "overallCoordinators": ["China International Capital Corporation Hong Kong Securities Limited（中金）", "China Merchants Securities (HK)（招商证券）"],
+            "sponsors": "待 Application Proof 封面页复核"
+          },
+          "sources": ["HKEX Fengyi AP 全文", "HKEX Fengyi AP 多档案", "HKEX Fengyi OC 委任公告"]
+        }
+      ],
+      "sources": ["Application Proof / PHIP", "HKEX AP structured JSON", "HKEX AP/PHIP structured JSON"]
+    },
+    {
+      "title": "证监会备案",
+      "summary": "该类别当日暂无新增事件。最新补充材料要求公示截至 2026-06-05（涵盖 6 月 1 日—5 日），备案进度表截至 2026-06-05。",
+      "items": [],
+      "sources": ["CSRC 境外发行上市备案通知书", "CSRC 境外上市类补充材料要求", "CSRC 境外发行上市备案进度表"]
+    },
+    {
+      "title": "美股中概 IPO",
+      "summary": "该类别当日暂无新增事件。SEC EDGAR 6 月 8 日—10 日 F-1/A 境内关联公司包括 DSC Holdings Ltd.（北京，F-1/A 6 月 8 日）、Cansince Innovations Inc.（香港，F-1/A 6 月 9 日）、Web3Labs Global Inc.（九龙，F-1/A 6 月 9 日），均为注册声明修订，非首次定价或上市事件。Nasdaq IPO Calendar 当日无新增 IPO 公告。",
+      "items": [],
+      "sources": ["SEC EDGAR", "Nasdaq IPO Calendar", "NYSE IPO Center"]
+    }
+  ],
+  "sourceLinks": {
+    "HKEX New Listing Information": "https://www1.hkexnews.hk/app/appindex.html?lang=zh",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=zh-HK",
+    "Application Proof / PHIP": "https://www1.hkexnews.hk/app/appindex.html?lang=zh",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "HKEX PPLabs AP 全文": "https://www1.hkexnews.hk/app/sehk/2026/108628/documents/sehk26061000116.pdf",
+    "HKEX PPLabs AP 多档案": "https://www1.hkexnews.hk/app/sehk/2026/108628/2026061000045.htm",
+    "HKEX PPLabs OC 委任公告": "https://www1.hkexnews.hk/app/sehk/2026/108628/documents/sehk26061000118.pdf",
+    "HKEX Fengyi AP 全文": "https://www1.hkexnews.hk/app/sehk/2026/108629/documents/sehk26061000308.pdf",
+    "HKEX Fengyi AP 多档案": "https://www1.hkexnews.hk/app/sehk/2026/108629/2026061000303.htm",
+    "HKEX Fengyi OC 委任公告": "https://www1.hkexnews.hk/app/sehk/2026/108629/documents/sehk26061000372.pdf",
+    "CSRC 境外发行上市备案通知书": "https://www.csrc.gov.cn/csrc/c105984/zfxxgk_zdgk.shtml",
+    "CSRC 境外上市类补充材料要求": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "CSRC 境外发行上市备案进度表": "https://www.csrc.gov.cn/csrc/c106251/c7637494/content.shtml",
+    "SEC EDGAR": "https://www.sec.gov/edgar/search/",
+    "Nasdaq IPO Calendar": "https://www.nasdaq.com/market-activity/ipos",
+    "NYSE IPO Center": "https://www.nyse.com/ipo-center/filings"
+  }
+}
