@@ -2,13 +2,13 @@
   "date": "2026-06-10",
   "reportType": "daily",
   "title": "资本市场日报",
-  "subtitle": "数据截至 2026-06-10 收盘后官方源复核；联交所 AP 新增 2 家，PHIP 暂无新增，港股新挂牌、证监会及美股中概 IPO 暂未见当日新增。",
-  "statusNote": "6 月 10 日联交所 Application Proof 官方结构化数据复核后，AP 新增 2 家（派想未來集團、深圳市豐宜科技集團股份有限公司）；PHIP 当日暂无新增。证监会境外发行上市备案栏目最新补充材料要求公示截至 6 月 5 日，备案进度表截至 6 月 5 日，6 月 6 日至 10 日暂未见新增。美股中概 IPO 官方入口暂未见需纳入当日日报的新事件。上一交易日（6 月 9 日）资本市场日报档案未见新增或修正。",
+  "subtitle": "数据截至 2026-06-10 收盘后官方源复核；联交所 AP 新增 3 家，PHIP 新增 1 家，港股新挂牌、证监会及美股中概 IPO 暂未见当日新增。",
+  "statusNote": "6 月 10 日联交所 Application Proof 官方结构化数据复核后，AP 新增 3 家（派想未來集團、深圳市豐宜科技集團股份有限公司、福建森達電氣股份有限公司）；PHIP 新增 1 家（合肥芯碁微電子裝備股份有限公司）。证监会境外发行上市备案栏目最新补充材料要求公示截至 6 月 5 日，备案进度表截至 6 月 5 日，6 月 6 日至 10 日暂未见新增。美股中概 IPO 官方入口暂未见需纳入当日日报的新事件。上一交易日（6 月 9 日）资本市场日报档案未见新增或修正。【2026-06-11 早盘复核补充：原 6 月 10 日日报 AP 计数 2 家，经今早再次复核 HKEX 结构化 JSON，确认福建森達電氣股份有限公司（Fujian Senda Electric Co., Ltd.）AP 亦于 6 月 10 日递交（AP 全文 sehk26061001677.pdf），AP 计数修正为 3 家；原 PHIP 计数 0 家，经今早复核 AP+PHIP JSON，确认合肥芯碁微電子裝備股份有限公司（Circuit Fabology Microelectronics Equipment Co., Ltd.）PHIP 于 6 月 10 日递交（PHIP 全文 sehk26061001513.pdf），PHIP 计数修正为 1 家。】",
   "marketStatus": "港股正常开市；美股正常开市。",
   "metrics": {
     "hkexNewListings": 0,
-    "apNewCount": 2,
-    "phipCount": 0,
+    "apNewCount": 3,
+    "phipCount": 1,
     "csrcCount": 0,
     "usChinaIpoCount": 0
   },
@@ -21,10 +21,10 @@
     },
     {
       "title": "港股递表/聆讯",
-      "summary": "6 月 10 日联交所 AP 新增 2 家、PHIP 暂无新增；AP 与 PHIP 分开展示并与顶部 metrics 保持一致。已复核 HKEX AP-only JSON：top-level app 数组 416 条，按 10/06/2026 命中 AP 2；AP/PHIP JSON：top-level app 数组 14 条，按 10/06/2026 命中 PHIP 0。",
+      "summary": "6 月 10 日联交所 AP 新增 3 家、PHIP 新增 1 家；AP 与 PHIP 分开展示并与顶部 metrics 保持一致。已复核 HKEX AP-only JSON：top-level app 数组 413 条（今早复核值，原值 416 条因部分申请人已进入聆讯后阶段从 AP-only 列表移除），按 10/06/2026 文档日期命中 AP 3；AP/PHIP JSON：top-level app 数组 15 条（今早复核值，原值 14 条因新增芯碁微电子 PHIP 条目），按 10/06/2026 文档日期命中 PHIP 1。",
       "metrics": {
-        "apNewCount": 2,
-        "phipCount": 0
+        "apNewCount": 3,
+        "phipCount": 1
       },
       "apApplications": [
         {
@@ -57,6 +57,39 @@
             "sponsors": "待 Application Proof 封面页复核"
           },
           "sources": ["HKEX Fengyi AP 全文", "HKEX Fengyi AP 多档案", "HKEX Fengyi OC 委任公告"]
+        },
+        {
+          "company": "福建森達電氣股份有限公司",
+          "companyEn": "Fujian Senda Electric Co., Ltd.",
+          "eventType": "Application Proof (1st submission)",
+          "status": "AP",
+          "filingDate": "2026-06-10",
+          "listingStructure": "H 股（中国境内股份有限公司）",
+          "industry": "电气设备（待 AP 原文业务章节复核）",
+          "businessSummary": "6 月 10 日首次递交港股上市申请；公司为中国境内股份有限公司，主营电气设备。业务简介待 AP 原文业务章节复核后补充。",
+          "intermediaries": {
+            "overallCoordinators": "待 Application Proof 封面页及董事及参与方章节复核",
+            "sponsors": "待 Application Proof 封面页复核"
+          },
+          "sources": ["HKEX Senda AP 全文", "HKEX Senda AP 多档案", "HKEX Senda OC 委任公告"]
+        }
+      ],
+      "phipApplications": [
+        {
+          "company": "合肥芯碁微電子裝備股份有限公司",
+          "companyEn": "Circuit Fabology Microelectronics Equipment Co., Ltd.",
+          "eventType": "PHIP (1st submission)",
+          "status": "PHIP",
+          "filingDate": "2026-06-10",
+          "firstFilingDate": "2026-03-15",
+          "listingStructure": "H 股（中国境内股份有限公司）",
+          "industry": "半导体设备（待 PHIP 原文业务章节复核）",
+          "businessSummary": "6 月 10 日发布聆讯后资料集；公司为中国境内股份有限公司，主营微电子装备（直写光刻设备）。AP 首次递交日期为 2026-03-15。业务简介待 PHIP 原文业务章节复核后补充。",
+          "intermediaries": {
+            "overallCoordinators": "待 PHIP 董事及参与方章节复核",
+            "sponsors": "待 PHIP 封面页复核"
+          },
+          "sources": ["HKEX Circuit Fabology PHIP 全文", "HKEX Circuit Fabology PHIP 多档案"]
         }
       ],
       "sources": ["Application Proof / PHIP", "HKEX AP structured JSON", "HKEX AP/PHIP structured JSON"]
@@ -86,6 +119,11 @@
     "HKEX Fengyi AP 全文": "https://www1.hkexnews.hk/app/sehk/2026/108629/documents/sehk26061000308.pdf",
     "HKEX Fengyi AP 多档案": "https://www1.hkexnews.hk/app/sehk/2026/108629/2026061000303.htm",
     "HKEX Fengyi OC 委任公告": "https://www1.hkexnews.hk/app/sehk/2026/108629/documents/sehk26061000372.pdf",
+    "HKEX Senda AP 全文": "https://www1.hkexnews.hk/app/sehk/2026/108630/documents/sehk26061001677.pdf",
+    "HKEX Senda AP 多档案": "https://www1.hkexnews.hk/app/sehk/2026/108630/2026061001672.htm",
+    "HKEX Senda OC 委任公告": "https://www1.hkexnews.hk/app/sehk/2026/108630/documents/sehk26061001751.pdf",
+    "HKEX Circuit Fabology PHIP 全文": "https://www1.hkexnews.hk/app/sehk/2026/108309/documents/sehk26061001513.pdf",
+    "HKEX Circuit Fabology PHIP 多档案": "https://www1.hkexnews.hk/app/sehk/2026/108309/2026061001508.htm",
     "CSRC 境外发行上市备案通知书": "https://www.csrc.gov.cn/csrc/c105984/zfxxgk_zdgk.shtml",
     "CSRC 境外上市类补充材料要求": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
     "CSRC 境外发行上市备案进度表": "https://www.csrc.gov.cn/csrc/c106251/c7637494/content.shtml",
