@@ -17,7 +17,10 @@
       "title": "港股新挂牌",
       "summary": "该类别当日暂无新增事件",
       "items": [],
-      "sources": ["HKEX Newly Listed Securities", "HKEX New Listing Information"]
+      "sources": [
+        "HKEX Newly Listed Securities",
+        "HKEX New Listing Information"
+      ]
     },
     {
       "title": "港股递表/聆讯",
@@ -27,20 +30,31 @@
         "phipCount": 0
       },
       "apApplications": [],
-      "phipApplications": [],
-      "sources": ["Application Proof / PHIP", "HKEX AP structured JSON", "HKEX AP/PHIP structured JSON"]
+      "sources": [
+        "Application Proof / PHIP",
+        "HKEX AP structured JSON",
+        "HKEX AP/PHIP structured JSON"
+      ]
     },
     {
       "title": "证监会备案",
       "summary": "该类别当日暂无新增事件。最新补充材料要求公示截至 2026-06-05（涵盖 6 月 1 日—5 日），备案进度表截至 2026-06-05。",
       "items": [],
-      "sources": ["CSRC 境外发行上市备案通知书", "CSRC 境外上市类补充材料要求", "CSRC 境外发行上市备案进度表"]
+      "sources": [
+        "CSRC 境外发行上市备案通知书",
+        "CSRC 境外上市类补充材料要求",
+        "CSRC 境外发行上市备案进度表"
+      ]
     },
     {
       "title": "美股中概 IPO",
       "summary": "该类别当日暂无新增事件。SEC EDGAR 6 月 10 日—11 日 F-1/A 境内关联公司包括 MetaOptics Ltd（新加坡，F-1/A 6 月 10 日）、DSC Holdings Ltd.（北京，F-1/A 6 月 8 日）、Cansince Innovations Inc.（香港，F-1/A 6 月 9 日）、Web3Labs Global Inc.（九龙，F-1/A 6 月 9 日），均为注册声明修订，非首次定价或上市事件。SEC EDGAR 6 月 10 日—11 日无 EFFECT（注册生效）事件。Nasdaq IPO Calendar 当日无新增 IPO 公告。",
       "items": [],
-      "sources": ["SEC EDGAR", "Nasdaq IPO Calendar", "NYSE IPO Center"]
+      "sources": [
+        "SEC EDGAR",
+        "Nasdaq IPO Calendar",
+        "NYSE IPO Center"
+      ]
     }
   ],
   "sourceLinks": {

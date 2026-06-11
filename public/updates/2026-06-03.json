@@ -28,14 +28,38 @@
           "industry": "低碳生物制造 / 工业尾气资源化",
           "businessSummary": "公司主要从事利用工业尾气生物发酵生产乙醇、微生物蛋白等产品，属于低碳生物制造及循环经济链条。",
           "timeline": [
-            { "label": "首次递交上市申请", "value": "待 HKEX 首次 AP 记录复核" },
-            { "label": "最近一次提交上市申请", "value": "待 HKEX 最近 AP/PHIP 记录复核" },
-            { "label": "证监会公示收到备案", "value": "2024-02-22（证监会备案通知披露的受理/接收口径）" },
-            { "label": "通过备案", "value": "2024-08-30（证监会备案通知书）" },
-            { "label": "最近一次通过聆讯", "value": "待 HKEX PHIP/聆讯记录复核" },
-            { "label": "招股书日期", "value": "2026-05-26" },
-            { "label": "配发结果日期", "value": "2026-06-02" },
-            { "label": "上市日期", "value": "2026-06-03" }
+            {
+              "label": "首次递交上市申请",
+              "value": "待 HKEX 首次 AP 记录复核"
+            },
+            {
+              "label": "最近一次提交上市申请",
+              "value": "待 HKEX 最近 AP/PHIP 记录复核"
+            },
+            {
+              "label": "证监会公示收到备案",
+              "value": "2024-02-22（证监会备案通知披露的受理/接收口径）"
+            },
+            {
+              "label": "通过备案",
+              "value": "2024-08-30（证监会备案通知书）"
+            },
+            {
+              "label": "最近一次通过聆讯",
+              "value": "待 HKEX PHIP/聆讯记录复核"
+            },
+            {
+              "label": "招股书日期",
+              "value": "2026-05-26"
+            },
+            {
+              "label": "配发结果日期",
+              "value": "2026-06-02"
+            },
+            {
+              "label": "上市日期",
+              "value": "2026-06-03"
+            }
           ],
           "ipoTerms": {
             "offerPrice": "HK$14.60",
@@ -67,7 +91,13 @@
             "auditor": "待招股书董事及参与方章节复核"
           },
           "cornerstoneInvestors": "招股书披露基石投资者安排；最终配售股份及占比应以 2026-06-02 配发结果公告复核为准。",
-          "sources": ["HKEX Newly Listed Securities", "HKEX Shougang Langze Prospectus", "HKEX Shougang Langze Allotment Results", "CSRC Shougang Langze Filing Notice", "HKEX New Listing Information"]
+          "sources": [
+            "HKEX Newly Listed Securities",
+            "HKEX Shougang Langze Prospectus",
+            "HKEX Shougang Langze Allotment Results",
+            "CSRC Shougang Langze Filing Notice",
+            "HKEX New Listing Information"
+          ]
         }
       ]
     },
@@ -83,13 +113,16 @@
           "company": "安克创新科技股份有限公司",
           "companyEn": "Anker Innovations Technology Co., Ltd.",
           "eventType": "Application Proof (1st submission)",
-          "status": "AP",
+          "status": "NEW AP",
           "filingDate": "2026-06-03",
           "listingStructure": "A+H股",
           "industry": "消费电子 / 智能硬件 / 充电与储能设备",
           "businessSummary": "A股上市公司，主要经营智能充电、储能、智能家居及消费电子品牌产品；本次为赴港上市首次递表。",
           "sponsors": "待 Application Proof 封面页复核",
-          "sources": ["HKEX Anker AP 全文", "HKEX Anker AP 多档案"]
+          "sources": [
+            "HKEX Anker AP 全文",
+            "HKEX Anker AP 多档案"
+          ]
         },
         {
           "company": "深圳市星源材质科技股份有限公司",
@@ -101,12 +134,24 @@
           "industry": "锂电池隔膜 / 新能源材料",
           "businessSummary": "A股上市公司，主要从事锂离子电池隔膜研发、生产及销售；本次披露聆讯后资料集。",
           "timeline": [
-            { "label": "首次递交上市申请", "value": "2026-01-30" },
-            { "label": "最近一次提交上市申请", "value": "2026-01-30" },
-            { "label": "最近一次通过聆讯", "value": "2026-06-03（PHIP 披露日）" }
+            {
+              "label": "首次递交上市申请",
+              "value": "2026-01-30"
+            },
+            {
+              "label": "最近一次提交上市申请",
+              "value": "2026-01-30"
+            },
+            {
+              "label": "最近一次通过聆讯",
+              "value": "2026-06-03（PHIP 披露日）"
+            }
           ],
           "sponsors": "待 PHIP 封面页及参与方章节复核",
-          "sources": ["HKEX Senior PHIP 全文", "HKEX Senior PHIP 多档案"]
+          "sources": [
+            "HKEX Senior PHIP 全文",
+            "HKEX Senior PHIP 多档案"
+          ]
         }
       ]
     },
@@ -114,13 +159,20 @@
       "title": "证监会备案",
       "summary": "该类别当日暂无新增事件",
       "items": [],
-      "sources": ["CSRC 境外发行上市备案通知书", "CSRC 境外上市类补充材料要求"]
+      "sources": [
+        "CSRC 境外发行上市备案通知书",
+        "CSRC 境外上市类补充材料要求"
+      ]
     },
     {
       "title": "美股中概 IPO",
       "summary": "该类别当日暂无新增事件",
       "items": [],
-      "sources": ["SEC EDGAR", "Nasdaq IPO Calendar", "NYSE IPO Center"]
+      "sources": [
+        "SEC EDGAR",
+        "Nasdaq IPO Calendar",
+        "NYSE IPO Center"
+      ]
     }
   ],
   "sourceLinks": {

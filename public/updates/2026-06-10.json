@@ -17,7 +17,10 @@
       "title": "港股新挂牌",
       "summary": "该类别当日暂无新增事件",
       "items": [],
-      "sources": ["HKEX Newly Listed Securities", "HKEX New Listing Information"]
+      "sources": [
+        "HKEX Newly Listed Securities",
+        "HKEX New Listing Information"
+      ]
     },
     {
       "title": "港股递表/聆讯",
@@ -31,38 +34,52 @@
           "company": "派想未來集團",
           "companyEn": "PPLabs Technology Limited",
           "eventType": "Application Proof (1st submission)",
-          "status": "AP",
+          "status": "NEW AP",
           "filingDate": "2026-06-10",
           "listingStructure": "红筹 / VIE 架构（开曼群岛注册，AP 含合约安排章节）",
           "industry": "科技 / Web3 / 移动健身（待 AP 原文业务章节复核）",
           "businessSummary": "6 月 10 日首次递交港股上市申请；公司于开曼群岛注册，以 VIE 架构运营。业务简介待 AP 原文业务章节复核后补充。",
           "intermediaries": {
-            "overallCoordinators": ["ICBC International Securities Limited（工银国际）", "Shenwan Hongyuan Securities (H.K.)（申万宏源）"],
+            "overallCoordinators": [
+              "ICBC International Securities Limited（工银国际）",
+              "Shenwan Hongyuan Securities (H.K.)（申万宏源）"
+            ],
             "sponsors": "待 Application Proof 封面页复核"
           },
-          "sources": ["HKEX PPLabs AP 全文", "HKEX PPLabs AP 多档案", "HKEX PPLabs OC 委任公告"]
+          "sources": [
+            "HKEX PPLabs AP 全文",
+            "HKEX PPLabs AP 多档案",
+            "HKEX PPLabs OC 委任公告"
+          ]
         },
         {
           "company": "深圳市豐宜科技集團股份有限公司",
           "companyEn": "Shenzhen Fengyi Technology Group Co., Ltd.",
           "eventType": "Application Proof (1st submission)",
-          "status": "AP",
+          "status": "NEW AP",
           "filingDate": "2026-06-10",
           "listingStructure": "H 股（中国境内股份有限公司）",
           "industry": "科技（待 AP 原文业务章节复核）",
           "businessSummary": "6 月 10 日首次递交港股上市申请；公司为中国境内股份有限公司。业务简介待 AP 原文业务章节复核后补充。",
           "intermediaries": {
             "sponsorOverallCoordinator": "ABCI Capital Limited（建银国际）",
-            "overallCoordinators": ["China International Capital Corporation Hong Kong Securities Limited（中金）", "China Merchants Securities (HK)（招商证券）"],
+            "overallCoordinators": [
+              "China International Capital Corporation Hong Kong Securities Limited（中金）",
+              "China Merchants Securities (HK)（招商证券）"
+            ],
             "sponsors": "待 Application Proof 封面页复核"
           },
-          "sources": ["HKEX Fengyi AP 全文", "HKEX Fengyi AP 多档案", "HKEX Fengyi OC 委任公告"]
+          "sources": [
+            "HKEX Fengyi AP 全文",
+            "HKEX Fengyi AP 多档案",
+            "HKEX Fengyi OC 委任公告"
+          ]
         },
         {
           "company": "福建森達電氣股份有限公司",
           "companyEn": "Fujian Senda Electric Co., Ltd.",
           "eventType": "Application Proof (1st submission)",
-          "status": "AP",
+          "status": "NEW AP",
           "filingDate": "2026-06-10",
           "listingStructure": "H 股（中国境内股份有限公司）",
           "industry": "电气设备（待 AP 原文业务章节复核）",
@@ -71,40 +88,63 @@
             "overallCoordinators": "待 Application Proof 封面页及董事及参与方章节复核",
             "sponsors": "待 Application Proof 封面页复核"
           },
-          "sources": ["HKEX Senda AP 全文", "HKEX Senda AP 多档案", "HKEX Senda OC 委任公告"]
-        }
-      ],
-      "phipApplications": [
+          "sources": [
+            "HKEX Senda AP 全文",
+            "HKEX Senda AP 多档案",
+            "HKEX Senda OC 委任公告"
+          ]
+        },
         {
           "company": "合肥芯碁微電子裝備股份有限公司",
           "companyEn": "Circuit Fabology Microelectronics Equipment Co., Ltd.",
           "eventType": "PHIP (1st submission)",
           "status": "PHIP",
           "filingDate": "2026-06-10",
-          "firstFilingDate": "2026-03-15",
           "listingStructure": "H 股（中国境内股份有限公司）",
           "industry": "半导体设备（待 PHIP 原文业务章节复核）",
           "businessSummary": "6 月 10 日发布聆讯后资料集；公司为中国境内股份有限公司，主营微电子装备（直写光刻设备）。AP 首次递交日期为 2026-03-15。业务简介待 PHIP 原文业务章节复核后补充。",
-          "intermediaries": {
-            "overallCoordinators": "待 PHIP 董事及参与方章节复核",
-            "sponsors": "待 PHIP 封面页复核"
-          },
-          "sources": ["HKEX Circuit Fabology PHIP 全文", "HKEX Circuit Fabology PHIP 多档案"]
+          "timeline": [
+            {
+              "label": "首次递交上市申请",
+              "value": "2026-03-15"
+            },
+            {
+              "label": "最近一次通过聆讯",
+              "value": "2026-06-10（PHIP 披露日）"
+            }
+          ],
+          "sponsors": "待 PHIP 封面页及参与方章节复核",
+          "sources": [
+            "HKEX Circuit Fabology PHIP 全文",
+            "HKEX Circuit Fabology PHIP 多档案"
+          ]
         }
       ],
-      "sources": ["Application Proof / PHIP", "HKEX AP structured JSON", "HKEX AP/PHIP structured JSON"]
+      "sources": [
+        "Application Proof / PHIP",
+        "HKEX AP structured JSON",
+        "HKEX AP/PHIP structured JSON"
+      ]
     },
     {
       "title": "证监会备案",
       "summary": "该类别当日暂无新增事件。最新补充材料要求公示截至 2026-06-05（涵盖 6 月 1 日—5 日），备案进度表截至 2026-06-05。",
       "items": [],
-      "sources": ["CSRC 境外发行上市备案通知书", "CSRC 境外上市类补充材料要求", "CSRC 境外发行上市备案进度表"]
+      "sources": [
+        "CSRC 境外发行上市备案通知书",
+        "CSRC 境外上市类补充材料要求",
+        "CSRC 境外发行上市备案进度表"
+      ]
     },
     {
       "title": "美股中概 IPO",
       "summary": "该类别当日暂无新增事件。SEC EDGAR 6 月 8 日—10 日 F-1/A 境内关联公司包括 DSC Holdings Ltd.（北京，F-1/A 6 月 8 日）、Cansince Innovations Inc.（香港，F-1/A 6 月 9 日）、Web3Labs Global Inc.（九龙，F-1/A 6 月 9 日），均为注册声明修订，非首次定价或上市事件。Nasdaq IPO Calendar 当日无新增 IPO 公告。",
       "items": [],
-      "sources": ["SEC EDGAR", "Nasdaq IPO Calendar", "NYSE IPO Center"]
+      "sources": [
+        "SEC EDGAR",
+        "Nasdaq IPO Calendar",
+        "NYSE IPO Center"
+      ]
     }
   ],
   "sourceLinks": {

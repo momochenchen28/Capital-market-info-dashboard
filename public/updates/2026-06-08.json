@@ -18,7 +18,10 @@
       "title": "港股新挂牌",
       "summary": "该类别当日暂无新增事件",
       "items": [],
-      "sources": ["HKEX Newly Listed Securities", "HKEX New Listing Information"]
+      "sources": [
+        "HKEX Newly Listed Securities",
+        "HKEX New Listing Information"
+      ]
     },
     {
       "title": "港股递表/聆讯",
@@ -32,61 +35,76 @@
           "company": "群策科技股份有限公司",
           "companyEn": "Qunce Technology Co., Ltd.",
           "eventType": "Application Proof (1st submission)",
-          "status": "AP",
+          "status": "NEW AP",
           "filingDate": "2026-06-08",
           "listingStructure": "待 AP 公司架构章节复核",
           "industry": "科技 / 电子产业链（待 AP 原文复核）",
           "businessSummary": "6 月 8 日首次递交港股上市申请；业务简介待 AP 原文业务章节复核后补充。",
           "sponsors": "待 Application Proof 封面页复核",
-          "sources": ["HKEX Qunce AP 全文", "HKEX Qunce AP 多档案"]
+          "sources": [
+            "HKEX Qunce AP 全文",
+            "HKEX Qunce AP 多档案"
+          ]
         },
         {
           "company": "赣州和美药业股份有限公司 - B",
           "companyEn": "Ganzhou Hemay Pharmaceutical Co., Ltd. - B",
           "eventType": "Application Proof (1st submission)",
-          "status": "AP",
+          "status": "NEW AP",
           "filingDate": "2026-06-08",
           "listingStructure": "H股 / 18A-B（待 AP 原文复核）",
           "industry": "生物医药 / 创新药",
           "businessSummary": "6 月 8 日首次递交港股上市申请；具体管线、适应症及商业化进展待 AP 原文复核后补充。",
           "sponsors": "待 Application Proof 封面页复核",
-          "sources": ["HKEX Hemay AP 全文", "HKEX Hemay AP 多档案"]
+          "sources": [
+            "HKEX Hemay AP 全文",
+            "HKEX Hemay AP 多档案"
+          ]
         },
         {
           "company": "广东正和医疗科技发展股份有限公司 - B",
           "companyEn": "Guangdong True Health Medical Technology Development Co., Ltd. - B",
           "eventType": "Application Proof (1st submission)",
-          "status": "AP",
+          "status": "NEW AP",
           "filingDate": "2026-06-08",
           "listingStructure": "H股 / 18A-B（待 AP 原文复核）",
           "industry": "医疗科技 / 生物医药",
           "businessSummary": "6 月 8 日首次递交港股上市申请；核心产品及研发进展待 AP 原文复核后补充。",
           "sponsors": "待 Application Proof 封面页复核",
-          "sources": ["HKEX True Health AP 全文", "HKEX True Health AP 多档案"]
+          "sources": [
+            "HKEX True Health AP 全文",
+            "HKEX True Health AP 多档案"
+          ]
         },
         {
           "company": "杭州和励医药有限公司 - B",
           "companyEn": "Hangzhou Highlightll Pharmaceutical Co., Ltd. - B",
           "eventType": "Application Proof (1st submission)",
-          "status": "AP",
+          "status": "NEW AP",
           "filingDate": "2026-06-08",
           "listingStructure": "待 AP 公司架构章节复核 / 18A-B",
           "industry": "生物医药 / 创新药",
           "businessSummary": "6 月 8 日首次递交港股上市申请；具体业务及管线信息待 AP 原文复核后补充。",
           "sponsors": "待 Application Proof 封面页复核",
-          "sources": ["HKEX Highlightll AP 全文", "HKEX Highlightll AP 多档案"]
+          "sources": [
+            "HKEX Highlightll AP 全文",
+            "HKEX Highlightll AP 多档案"
+          ]
         },
         {
           "company": "潮州三环（集团）股份有限公司",
           "companyEn": "Chaozhou Three-Circle (Group) Co., Ltd.",
           "eventType": "Application Proof (1st submission)",
-          "status": "AP",
+          "status": "NEW AP",
           "filingDate": "2026-06-08",
           "listingStructure": "A+H股",
           "industry": "电子陶瓷 / 电子元件 / 新材料",
           "businessSummary": "A股上市公司，主要从事电子陶瓷、新型材料及电子元件相关业务；本次为赴港上市首次递表。",
           "sponsors": "待 Application Proof 封面页复核",
-          "sources": ["HKEX Three-Circle AP 全文", "HKEX Three-Circle AP 多档案"]
+          "sources": [
+            "HKEX Three-Circle AP 全文",
+            "HKEX Three-Circle AP 多档案"
+          ]
         },
         {
           "company": "合肥晶合集成电路股份有限公司",
@@ -98,12 +116,24 @@
           "industry": "晶圆代工 / 半导体制造",
           "businessSummary": "A股上市晶圆代工企业，披露聆讯后资料集。",
           "timeline": [
-            { "label": "首次递交上市申请", "value": "2026-03-31" },
-            { "label": "最近一次提交上市申请", "value": "2026-03-31" },
-            { "label": "最近一次通过聆讯", "value": "2026-06-08（PHIP 披露日）" }
+            {
+              "label": "首次递交上市申请",
+              "value": "2026-03-31"
+            },
+            {
+              "label": "最近一次提交上市申请",
+              "value": "2026-03-31"
+            },
+            {
+              "label": "最近一次通过聆讯",
+              "value": "2026-06-08（PHIP 披露日）"
+            }
           ],
           "sponsors": "待 PHIP 封面页及参与方章节复核",
-          "sources": ["HKEX Nexchip PHIP 全文", "HKEX Nexchip PHIP 多档案"]
+          "sources": [
+            "HKEX Nexchip PHIP 全文",
+            "HKEX Nexchip PHIP 多档案"
+          ]
         },
         {
           "company": "科拓股份有限公司",
@@ -115,27 +145,51 @@
           "industry": "智慧停车 / 城市停车数字化",
           "businessSummary": "公司主要围绕智慧停车及停车场数字化运营相关业务；本次披露聆讯后资料集。",
           "timeline": [
-            { "label": "首次递交上市申请", "value": "2026-05-05" },
-            { "label": "最近一次提交上市申请", "value": "2026-05-05" },
-            { "label": "最近一次通过聆讯", "value": "2026-06-08（PHIP 披露日）" }
+            {
+              "label": "首次递交上市申请",
+              "value": "2026-05-05"
+            },
+            {
+              "label": "最近一次提交上市申请",
+              "value": "2026-05-05"
+            },
+            {
+              "label": "最近一次通过聆讯",
+              "value": "2026-06-08（PHIP 披露日）"
+            }
           ],
           "sponsors": "待 PHIP 封面页及参与方章节复核",
-          "sources": ["HKEX Keytop PHIP 全文", "HKEX Keytop PHIP 多档案"]
+          "sources": [
+            "HKEX Keytop PHIP 全文",
+            "HKEX Keytop PHIP 多档案"
+          ]
         }
       ],
-      "sources": ["Application Proof / PHIP", "HKEX AP structured JSON", "HKEX AP/PHIP structured JSON"]
+      "sources": [
+        "Application Proof / PHIP",
+        "HKEX AP structured JSON",
+        "HKEX AP/PHIP structured JSON"
+      ]
     },
     {
       "title": "证监会备案",
       "summary": "该类别当日暂无新增事件",
       "items": [],
-      "sources": ["CSRC 境外发行上市备案通知书", "CSRC 境外上市类补充材料要求", "CSRC 境外发行上市备案进度表"]
+      "sources": [
+        "CSRC 境外发行上市备案通知书",
+        "CSRC 境外上市类补充材料要求",
+        "CSRC 境外发行上市备案进度表"
+      ]
     },
     {
       "title": "美股中概 IPO",
       "summary": "该类别当日暂无新增事件",
       "items": [],
-      "sources": ["SEC EDGAR", "Nasdaq IPO Calendar", "NYSE IPO Center"]
+      "sources": [
+        "SEC EDGAR",
+        "Nasdaq IPO Calendar",
+        "NYSE IPO Center"
+      ]
     }
   ],
   "sourceLinks": {

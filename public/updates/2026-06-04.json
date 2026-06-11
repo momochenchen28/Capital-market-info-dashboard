@@ -18,7 +18,10 @@
       "title": "港股新挂牌",
       "summary": "该类别当日暂无新增事件",
       "items": [],
-      "sources": ["HKEX Newly Listed Securities", "HKEX New Listing Information"]
+      "sources": [
+        "HKEX Newly Listed Securities",
+        "HKEX New Listing Information"
+      ]
     },
     {
       "title": "港股递表/聆讯",
@@ -32,13 +35,16 @@
           "company": "广东鼎泰高科技术股份有限公司",
           "companyEn": "Guangdong Dtech Technology Co., Ltd.",
           "eventType": "Application Proof (1st submission)",
-          "status": "AP",
+          "status": "NEW AP",
           "filingDate": "2026-06-04",
           "listingStructure": "A+H股",
           "industry": "数控刀具 / PCB 钻针 / 精密制造",
           "businessSummary": "A股上市公司，主要从事微型钻针、铣刀等 PCB 精密刀具及相关智能装备业务；本次为赴港上市首次递表。",
           "sponsors": "待 Application Proof 封面页复核",
-          "sources": ["HKEX Dtech AP 全文", "HKEX Dtech AP 多档案"]
+          "sources": [
+            "HKEX Dtech AP 全文",
+            "HKEX Dtech AP 多档案"
+          ]
         },
         {
           "company": "圣邦微电子（北京）股份有限公司",
@@ -50,12 +56,24 @@
           "industry": "模拟芯片 / 半导体 / 集成电路设计",
           "businessSummary": "A股上市公司，主要从事高性能、高品质模拟集成电路研发与销售；本次披露聆讯后资料集。",
           "timeline": [
-            { "label": "首次递交上市申请", "value": "2026-04-01" },
-            { "label": "最近一次提交上市申请", "value": "2026-04-01" },
-            { "label": "最近一次通过聆讯", "value": "2026-06-04（PHIP 披露日）" }
+            {
+              "label": "首次递交上市申请",
+              "value": "2026-04-01"
+            },
+            {
+              "label": "最近一次提交上市申请",
+              "value": "2026-04-01"
+            },
+            {
+              "label": "最近一次通过聆讯",
+              "value": "2026-06-04（PHIP 披露日）"
+            }
           ],
           "sponsors": "待 PHIP 封面页及参与方章节复核",
-          "sources": ["HKEX SG Micro PHIP 全文", "HKEX SG Micro PHIP 多档案"]
+          "sources": [
+            "HKEX SG Micro PHIP 全文",
+            "HKEX SG Micro PHIP 多档案"
+          ]
         },
         {
           "company": "陕西麦科奥特制药技术股份有限公司 - B",
@@ -67,12 +85,24 @@
           "industry": "创新药 / 生物医药",
           "businessSummary": "生物医药公司，本次披露聆讯后资料集；具体管线、适应症及商业化进展待 PHIP 原文进一步复核。",
           "timeline": [
-            { "label": "首次递交上市申请", "value": "2026-03-31" },
-            { "label": "最近一次提交上市申请", "value": "2026-03-31" },
-            { "label": "最近一次通过聆讯", "value": "2026-06-04（PHIP 披露日）" }
+            {
+              "label": "首次递交上市申请",
+              "value": "2026-03-31"
+            },
+            {
+              "label": "最近一次提交上市申请",
+              "value": "2026-03-31"
+            },
+            {
+              "label": "最近一次通过聆讯",
+              "value": "2026-06-04（PHIP 披露日）"
+            }
           ],
           "sponsors": "待 PHIP 封面页及参与方章节复核",
-          "sources": ["HKEX Micot PHIP 全文", "HKEX Micot PHIP 多档案"]
+          "sources": [
+            "HKEX Micot PHIP 全文",
+            "HKEX Micot PHIP 多档案"
+          ]
         }
       ]
     },
@@ -80,13 +110,20 @@
       "title": "证监会备案",
       "summary": "该类别当日暂无新增事件",
       "items": [],
-      "sources": ["CSRC 境外发行上市备案通知书", "CSRC 境外上市类补充材料要求"]
+      "sources": [
+        "CSRC 境外发行上市备案通知书",
+        "CSRC 境外上市类补充材料要求"
+      ]
     },
     {
       "title": "美股中概 IPO",
       "summary": "该类别当日暂无新增事件",
       "items": [],
-      "sources": ["SEC EDGAR", "Nasdaq IPO Calendar", "NYSE IPO Center"]
+      "sources": [
+        "SEC EDGAR",
+        "Nasdaq IPO Calendar",
+        "NYSE IPO Center"
+      ]
     }
   ],
   "sourceLinks": {
