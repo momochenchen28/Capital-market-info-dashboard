@@ -2,24 +2,80 @@
   "dailyReports": {
     "2026-06-12": {
       "date": "2026-06-12",
-      "title": "资本市场快报",
-      "subtitle": "6 月 12 日各栏目暂无新增事件",
-      "statusNote": "6 月 12 日联交所 Application Proof / PHIP 官方结构化数据复核后，AP 暂无新增、PHIP 暂无新增。已复核 HKEX AP-only JSON：top-level app 数组 413 条，按 12/06/2026 文档日期命中 1 行（Jiangsu BBL Home Technology Company Limited / 江蘇貝爾家居科技股份有限公司，文档类型为 OC Announcement - Appointment (Revised)，非 Application Proof，按规则不计为 AP）；AP+PHIP JSON：top-level app 数组 16 条，按 12/06/2026 文档日期命中 PHIP 0。港股新挂牌：今日无新股挂牌；多只新股处于招股期——溜溜梅（06658）招股已截止（6 月 10 日），预计 6 月 15 日挂牌；琻捷电子（06675）今日中午截止招股，预计 6 月 17 日挂牌；星源材质（06067）及华健未来-B（06132）今日开始招股（6 月 12 日至 17 日），预计 6 月 23 日挂牌；海清智元（01392）招股中（6 月 11 日至 16 日），预计 6 月 22 日挂牌。证监会境外发行上市备案栏目最新补充材料要求公示截至 6 月 5 日，备案进度表截至 6 月 5 日，6 月 6 日至 12 日暂未见新增；今日为周五，18:00 后为 CSRC 高频更新窗口，收盘后日报将再复核。美股中概 IPO：SEC EDGAR 6 月 12 日无 EFFECT 事件、无 F-1/F-1/A 境内关联公司新递交。",
+      "title": "资本市场日报",
+      "subtitle": "6 月 12 日收盘后复核：证监会新增 2 家境外发行上市备案通知书",
+      "statusNote": "数据截至 2026 年 6 月 12 日晚间复核。港股新挂牌：今日无新股挂牌；AP/PHIP：联交所官方结构化数据复核后无新增 AP 或 PHIP；证监会：晚间新增 2 家单家公司境外发行上市备案通知书（潮州三环、安克创新），另有 1 条 6 月 8 日至 6 月 12 日补充材料要求公示，补充材料公示不计入新增备案公司数量；美股中概 IPO：暂未见重点新增事件。",
       "archiveNotice": "",
       "observations": [
         "港股新挂牌：今日无新股挂牌。溜溜梅（06658）招股已截止（6 月 10 日），预计 6 月 15 日挂牌；琻捷电子（06675）今日中午截止招股，预计 6 月 17 日挂牌；星源材质（06067）及华健未来-B（06132）今日起招股（6 月 12 日至 17 日），预计 6 月 23 日挂牌；海清智元（01392）招股中（6 月 11 日至 16 日），预计 6 月 22 日挂牌。",
         "港股递表/聆讯：已复核 HKEX AP-only JSON（app.length=413）及 AP+PHIP JSON（app.length=16），6/12 无 AP 或 PHIP 新增。江蘇貝爾家居科技股份有限公司 6/12 发布 OC 委任修订公告（AP 于 5/29 递交），按规则不计为 AP。",
-        "证监会备案：最新补充材料要求公示截至 2026-06-05，备案进度表截至 2026-06-05。今日为周五，18:00 后为 CSRC 高频更新窗口，收盘后日报将再复核。",
+        "证监会备案：6/12 晚间新增 2 家单家公司境外发行上市备案通知书，分别为潮州三环（集团）股份有限公司、安克创新科技股份有限公司，计入当期新增备案公司数量。另发布《境外发行上市备案补充材料要求公示（2026年6月8日-2026年6月12日）》，作为监管更新展示，但不计入 csrcCount。",
         "美股中概 IPO：SEC EDGAR 6 月 12 日无 EFFECT 事件、无 F-1/F-1/A 境内关联公司新递交。"
       ],
       "metrics": {
         "hkexNewListings": 0,
         "apNewCount": 0,
         "phipCount": 0,
-        "csrcCount": 0,
+        "csrcCount": 2,
         "usChinaIpoCount": 0
       },
-      "deals": []
+      "deals": [
+        {
+          "id": "2026-06-12-csrc-filing-sanhuan",
+          "section": "证监会备案",
+          "type": "境外发行上市备案通知书",
+          "status": "备案通知书",
+          "eventType": "csrcFilingNotice",
+          "countInMetrics": true,
+          "noticeDate": "2026-06-12",
+          "company": {
+            "zh": "潮州三环（集团）股份有限公司",
+            "display": "潮州三环（集团）股份有限公司"
+          },
+          "monitorItems": [
+            "证监会出具国合函〔2026〕1287 号境外发行上市备案通知书。",
+            "拟发行不超过 149,190,500 股境外上市普通股并在香港联合交易所上市。",
+            "通知书其余重大事项报告、上市后 15 个工作日内报告、12 个月内未完成需更新备案材料等为惯例条款，未摘为特别事项。"
+          ],
+          "links": ["CSRC 潮州三环备案通知书"]
+        },
+        {
+          "id": "2026-06-12-csrc-filing-anker",
+          "section": "证监会备案",
+          "type": "境外发行上市备案通知书",
+          "status": "备案通知书",
+          "eventType": "csrcFilingNotice",
+          "countInMetrics": true,
+          "noticeDate": "2026-06-12",
+          "company": {
+            "zh": "安克创新科技股份有限公司",
+            "display": "安克创新科技股份有限公司"
+          },
+          "monitorItems": [
+            "证监会出具国合函〔2026〕1286 号境外发行上市备案通知书。",
+            "拟发行不超过 68,508,900 股境外上市普通股并在香港联合交易所上市。",
+            "通知书其余重大事项报告、上市后 15 个工作日内报告、12 个月内未完成需更新备案材料等为惯例条款，未摘为特别事项。"
+          ],
+          "links": ["CSRC 安克创新备案通知书"]
+        },
+        {
+          "id": "2026-06-12-csrc-supplement-material-weekly",
+          "section": "证监会备案",
+          "type": "补充材料要求公示",
+          "status": "监管更新（不计入新增备案公司数量）",
+          "eventType": "csrcSupplementMaterialNotice",
+          "countInMetrics": false,
+          "noticeDate": "2026-06-12",
+          "company": {
+            "display": "境外发行上市备案补充材料要求公示（2026年6月8日-2026年6月12日）"
+          },
+          "monitorItems": [
+            "证监会发布 2026 年 6 月 8 日至 6 月 12 日期间补充材料要求公示。",
+            "该类公示按既定规则作为监管更新展示，但不计入当期新增备案公司数量。"
+          ],
+          "links": ["CSRC 2026-06-12 补充材料要求公示"]
+        }
+      ]
     }
   },
   "linkMap": {
@@ -28,7 +84,10 @@
     "Application Proof / PHIP": "https://www1.hkexnews.hk/app/appindex.html?lang=zh",
     "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
     "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
-    "CSRC 境外发行上市备案通知书": "https://www.csrc.gov.cn/csrc/c105984/zfxxgk_zdgk.shtml",
+    "CSRC 境外发行上市备案通知书搜索": "https://www.csrc.gov.cn/guestweb4/s?searchWord=%E5%A2%83%E5%A4%96%E5%8F%91%E8%A1%8C%E4%B8%8A%E5%B8%82%E5%A4%87%E6%A1%88%E9%80%9A%E7%9F%A5%E4%B9%A6&column=%E5%85%A8%E9%83%A8&wordPlace=0&orderBy=0&startTime=&endTime=&pageSize=20&pageNum=0&siteCode=bm56000001&sonSiteCode=&checkHandle=1&strFileType=&govWorkBean=%7B%7D&areaSearchFlag=0&secondSearchWords=&countKey=0&left_right_index=0",
+    "CSRC 潮州三环备案通知书": "https://www.csrc.gov.cn/csrc/c105984/c7638864/content.shtml",
+    "CSRC 安克创新备案通知书": "https://www.csrc.gov.cn/csrc/c105984/c7638862/content.shtml",
+    "CSRC 2026-06-12 补充材料要求公示": "https://www.csrc.gov.cn/csrc/c100098/c7638948/content.shtml",
     "CSRC 境外上市类补充材料要求": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
     "CSRC 境外发行上市备案进度表": "https://www.csrc.gov.cn/csrc/c106251/c7637494/content.shtml",
     "SEC EDGAR": "https://www.sec.gov/edgar/search/",
