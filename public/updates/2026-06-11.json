@@ -21,27 +21,29 @@
       },
       "deals": [
         {
-          "id": "hkex-ap-huachuang-20260611",
+          "id": "hkex-ap-phip-20260611",
           "section": "港股递表/聆讯",
           "type": "AP / PHIP 更新",
-          "status": "NEW AP",
-          "eventType": "applicationProof",
+          "status": "2 家递表 / 1 家聆讯",
+          "eventType": "apPhipUpdate",
           "countInMetrics": true,
           "company": {
-            "zh": "安徽華創新材料股份有限公司",
-            "en": "Anhui Huachuang New Materials Co., Ltd.",
-            "display": "安徽華創新材料股份有限公司 / Anhui Huachuang New Materials Co., Ltd.",
+            "zh": "港交所 AP & PHIP 页面日内更新监控",
+            "en": "HKEX AP & PHIP Monitor",
+            "display": "港交所 AP & PHIP 页面日内更新监控（2026-06-11）",
             "exchange": "HKEX",
-            "listingStructure": "H 股（中国境内股份有限公司）"
+            "board": "Application Proof / PHIP",
+            "listingStructure": "多家公司"
           },
           "business": {
-            "sector": "industrials",
-            "subIndustry": "电解铜箔（新能源/电子电路用铜箔）",
-            "summary": "高性能电解铜箔产品研发、生产及销售的技术企业，主要产品为锂离子电池铜箔（2025年收入占比约94.2%）及电子电路铜箔（约5.8%）。据弗若斯特沙利文，公司为2025年全球电解铜箔出货量第三大生产商（约5.4%市场份额）。",
-            "source": "AP Business 章节（via 搜索结果摘要及 Frost & Sullivan 引用，待直接复核 AP 原文 Business 章节）"
+            "sector": "港股 IPO pipeline",
+            "summary": "6 月 11 日联交所 AP 新增 2 家（安徽華創新材料 + 广东奥迪威传感科技）、PHIP 新增 1 家（北京海光芯正科技）。已复核 HKEX AP-only JSON 及 AP+PHIP JSON。",
+            "source": "HKEX structured JSON"
           },
-          "filingDate": "2026-06-11",
-          "documentType": "Application Proof (1st submission)",
+          "metrics": {
+            "apNewCount": 2,
+            "phipCount": 1
+          },
           "apApplications": [
             {
               "nameZh": "安徽華創新材料股份有限公司",
@@ -53,41 +55,13 @@
               "structure": "H 股（中国境内股份有限公司）",
               "sponsors": "CITIC Securities (Hong Kong) Limited（中信证券）",
               "businessSummary": "高性能电解铜箔产品研发、生产及销售的技术企业，主要产品为锂离子电池铜箔（2025年收入占比约94.2%）及电子电路铜箔（约5.8%）。据弗若斯特沙利文，公司为2025年全球电解铜箔出货量第三大生产商（约5.4%市场份额）。",
+              "businessSource": "AP Business 章节（待直接复核 AP 原文）",
               "sourceLinks": [
                 "HKEX Huachuang AP 全文",
                 "HKEX Huachuang AP 多档案",
                 "HKEX Huachuang OC 委任公告"
               ]
-            }
-          ],
-          "links": [
-            "Application Proof / PHIP",
-            "HKEX AP structured JSON"
-          ]
-        },
-        {
-          "id": "hkex-ap-audiowell-20260611",
-          "section": "港股递表/聆讯",
-          "type": "AP / PHIP 更新",
-          "status": "NEW AP",
-          "eventType": "applicationProof",
-          "countInMetrics": true,
-          "company": {
-            "zh": "广东奥迪威传感科技股份有限公司",
-            "en": "Audiowell Electronics (Guangdong) Co., Ltd.",
-            "display": "广东奥迪威传感科技股份有限公司 / Audiowell Electronics (Guangdong) Co., Ltd.",
-            "exchange": "HKEX",
-            "listingStructure": "H 股（中国境内股份有限公司，A+H 双重上市；A股代码 920491.BJ）"
-          },
-          "business": {
-            "sector": "AI/software",
-            "subIndustry": "智能传感器与执行器（超声波/压电传感器及执行器）",
-            "summary": "全球智能传感器与执行器 IDM 厂商，产品涵盖超声波测距/流量/触觉传感器、ADAS 泊车传感器（AKII 系列为中国首个量产 ADAS 超声波传感器）、压电泵/雾化换能器/声学组件等，应用于智能家居、智能汽车、智能终端与智能制造四大领域。据弗若斯特沙利文，公司为2024年中国智能家居传感器收入排名第二、全球汽车超声波传感器/执行器出货量排名第三。",
-            "source": "AP Business 章节（via 搜索结果摘要及 Frost & Sullivan 引用，待直接复核 AP 原文 Business 章节）"
-          },
-          "filingDate": "2026-06-11",
-          "documentType": "Application Proof (1st submission)",
-          "apApplications": [
+            },
             {
               "nameZh": "广东奥迪威传感科技股份有限公司",
               "nameEn": "Audiowell Electronics (Guangdong) Co., Ltd.",
@@ -98,6 +72,7 @@
               "structure": "H 股（中国境内股份有限公司，A+H 双重上市；A股代码 920491.BJ）",
               "sponsors": "China Merchants Securities International（招商证券国际）",
               "businessSummary": "全球智能传感器与执行器 IDM 厂商，产品涵盖超声波测距/流量/触觉传感器、ADAS 泊车传感器（AKII 系列为中国首个量产 ADAS 超声波传感器）、压电泵/雾化换能器/声学组件等。>40% 收入来自海外，客户遍及 46+ 国家。",
+              "businessSource": "AP Business 章节（待直接复核 AP 原文）",
               "sourceLinks": [
                 "HKEX Audiowell AP 全文",
                 "HKEX Audiowell AP 多档案",
@@ -105,34 +80,7 @@
               ]
             }
           ],
-          "links": [
-            "Application Proof / PHIP",
-            "HKEX AP structured JSON"
-          ]
-        },
-        {
-          "id": "hkex-phip-crealights-20260611",
-          "section": "港股递表/聆讯",
-          "type": "AP / PHIP 更新",
-          "status": "PHIP",
-          "eventType": "postHearingInformationPack",
-          "countInMetrics": true,
-          "company": {
-            "zh": "北京海光芯正科技股份有限公司",
-            "en": "Crealights Technology Co., Ltd.",
-            "display": "北京海光芯正科技股份有限公司 / Crealights Technology Co., Ltd.",
-            "exchange": "HKEX",
-            "listingStructure": "H 股（中国境内股份有限公司）"
-          },
-          "business": {
-            "sector": "AI/software",
-            "subIndustry": "光模块 / 硅光芯片 / AI 数据中心互联",
-            "summary": "光电互联产品供应商，核心产品涵盖 100G/200G/400G/800G 光模块（400G+ 单模均采用硅光技术）、有源光缆（AOC）、有源电电缆（AEC），正在研发 1.6T/3.2T 及 NPO/CPO 产品。为国内首批实现 400G 及 800G AI 光模块量产交付的企业之一，全球少数同时具备硅光芯片设计与模块量产能力的厂商。",
-            "source": "PHIP Business 章节（via 搜索结果摘要及 Frost & Sullivan 引用，待直接复核 PHIP 原文 Business 章节）"
-          },
-          "filingDate": "2026-06-11",
-          "documentType": "PHIP (1st submission)",
-          "apApplications": [
+          "phipApplications": [
             {
               "nameZh": "北京海光芯正科技股份有限公司",
               "nameEn": "Crealights Technology Co., Ltd.",
@@ -143,6 +91,7 @@
               "structure": "H 股（中国境内股份有限公司）",
               "sponsors": "Huatai International（华泰国际）",
               "businessSummary": "光电互联产品供应商，核心产品涵盖 100G/200G/400G/800G 光模块、AOC、AEC，正在研发 1.6T/3.2T 及 NPO/CPO。为国内首批实现 400G 及 800G AI 光模块量产交付的企业之一。",
+              "businessSource": "PHIP Business 章节（待直接复核 PHIP 原文）",
               "sourceLinks": [
                 "HKEX Crealights PHIP 全文",
                 "HKEX Crealights PHIP 多档案",
@@ -152,6 +101,7 @@
           ],
           "links": [
             "Application Proof / PHIP",
+            "HKEX AP structured JSON",
             "HKEX AP/PHIP structured JSON"
           ]
         },
