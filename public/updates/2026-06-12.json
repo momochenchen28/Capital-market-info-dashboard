@@ -3,7 +3,7 @@
   "reportType": "morning",
   "title": "资本市场快报",
   "subtitle": "数据截至 2026-06-12 早盘；联交所 AP/PHIP 暂无新增，港股新挂牌暂无（多只新股招股进行中：溜溜梅 6658 预计 6/15 挂牌、琻捷电子 6675 预计 6/17 挂牌、星源材质 6067 及华健未来 6132 预计 6/23 挂牌），证监会暂无新增，美股中概 IPO 暂无新增。",
-  "statusNote": "6 月 12 日联交所 Application Proof / PHIP 官方结构化数据复核后，AP 暂无新增、PHIP 暂无新增。已复核 HKEX AP-only JSON：top-level app 数组 413 条，按 12/06/2026 文档日期命中 AP 0；AP/PHIP JSON：top-level app 数组 15 条，按 12/06/2026 文档日期命中 PHIP 0。港股新挂牌：今日无新股挂牌；多只新股处于招股期——溜溜梅（06658）招股已截止（6 月 10 日），预计 6 月 15 日挂牌；琻捷电子（06675）今日中午截止招股，预计 6 月 17 日挂牌；星源材质（06067）及华健未来-B（06132）今日开始招股（6 月 12 日至 17 日），预计 6 月 23 日挂牌；海清智元（01392）招股中（6 月 11 日至 16 日），预计 6 月 22 日挂牌。证监会境外发行上市备案栏目最新补充材料要求公示截至 6 月 5 日，备案进度表截至 6 月 5 日；今日为周五，18:00 后为 CSRC 高频更新窗口，收盘后日报将再复核。美股中概 IPO：SEC EDGAR 6 月 11 日—12 日无 EFFECT 事件，SAMFINE CREATION HOLDINGS GROUP Ltd（SFHG）F-1 为已上市公司（2024 年 9 月 IPO）增发注册，非新 IPO；QQJ Inc. F-1/A 为注册声明修订，非首次定价或上市事件。上一个交易日（6 月 11 日）资本市场日报档案已补充收盘后新增信息，请注意查看（AP 计数由 1 修正为 2，新增奥迪威 AP；PHIP 计数由 0 修正为 1，新增海光芯正 PHIP）。",
+  "statusNote": "6 月 12 日联交所 Application Proof / PHIP 官方结构化数据复核后，AP 暂无新增、PHIP 暂无新增。已复核 HKEX AP-only JSON：top-level app 数组 413 条，按 12/06/2026 文档日期命中 AP 0；AP/PHIP JSON：top-level app 数组 16 条，按 12/06/2026 文档日期命中 PHIP 0。港股新挂牌：今日无新股挂牌；多只新股处于招股期——溜溜梅（06658）招股已截止（6 月 10 日），预计 6 月 15 日挂牌；琻捷电子（06675）今日中午截止招股，预计 6 月 17 日挂牌；星源材质（06067）及华健未来-B（06132）今日开始招股（6 月 12 日至 17 日），预计 6 月 23 日挂牌；海清智元（01392）招股中（6 月 11 日至 16 日），预计 6 月 22 日挂牌。证监会境外发行上市备案栏目最新补充材料要求公示截至 6 月 5 日，备案进度表截至 6 月 5 日；今日为周五，18:00 后为 CSRC 高频更新窗口，收盘后日报将再复核。美股中概 IPO：SEC EDGAR 6 月 11 日—12 日无 EFFECT 事件，SAMFINE CREATION HOLDINGS GROUP Ltd（SFHG）F-1 为已上市公司（2024 年 9 月 IPO）增发注册，非新 IPO；QQJ Inc. F-1/A 为注册声明修订，非首次定价或上市事件。上一个交易日（6 月 11 日）资本市场日报档案已补充收盘后新增信息，请注意查看（AP 计数由 1 修正为 2，新增奥迪威 AP；PHIP 计数由 0 修正为 1，新增海光芯正 PHIP）。",
   "marketStatus": "港股正常开市；美股正常开市。",
   "metrics": {
     "hkexNewListings": 0,
@@ -23,6 +23,7 @@
           "stockCode": "06658",
           "eventType": "ipo_subscription_closed_awaiting_listing",
           "status": "招股已截止（待挂牌）",
+          "countInMetrics": false,
           "filingDate": "2026-05-26",
           "listingDate": "预计 2026-06-15",
           "listingStructure": "待招股书复核",
@@ -40,6 +41,7 @@
           "stockCode": "06675",
           "eventType": "ipo_subscription_deadline_today",
           "status": "招股截止日（6 月 12 日中午）",
+          "countInMetrics": false,
           "filingDate": "2026-05-10",
           "listingDate": "预计 2026-06-17",
           "listingStructure": "待招股书复核",
@@ -57,6 +59,7 @@
           "stockCode": "06067",
           "eventType": "ipo_subscription_opens",
           "status": "今日起招股（6 月 12 日至 17 日）",
+          "countInMetrics": false,
           "filingDate": "2026-01-30",
           "listingDate": "预计 2026-06-23",
           "listingStructure": "H 股（中国境内股份有限公司）",
@@ -74,6 +77,7 @@
           "stockCode": "06132",
           "eventType": "ipo_subscription_opens",
           "status": "今日起招股（6 月 12 日至 17 日）",
+          "countInMetrics": false,
           "filingDate": "2026-05-11",
           "listingDate": "预计 2026-06-23",
           "listingStructure": "H 股（中国境内股份有限公司，18B 生物科技公司）",
@@ -91,6 +95,7 @@
           "stockCode": "01392",
           "eventType": "ipo_subscription_ongoing",
           "status": "招股中（6 月 11 日至 16 日）",
+          "countInMetrics": false,
           "filingDate": "2026-03-16",
           "listingDate": "预计 2026-06-22",
           "listingStructure": "H 股（中国境内股份有限公司）",
@@ -111,7 +116,7 @@
     },
     {
       "title": "港股递表/聆讯",
-      "summary": "该类别当日暂无新增事件。已复核 HKEX AP-only JSON：top-level app 数组 413 条，按 12/06/2026 文档日期命中 AP 0；AP/PHIP JSON：top-level app 数组 15 条，按 12/06/2026 文档日期命中 PHIP 0。上一个交易日（6 月 11 日）AP 新增 2 家（安徽華創 + 广东奥迪威）、PHIP 新增 1 家（北京海光芯正）已在早报复核中补充进 6 月 11 日档案。",
+      "summary": "该类别当日暂无新增事件。已复核 HKEX AP-only JSON：top-level app 数组 413 条，按 12/06/2026 文档日期命中 AP 0；AP/PHIP JSON：top-level app 数组 16 条，按 12/06/2026 文档日期命中 PHIP 0。上一个交易日（6 月 11 日）AP 新增 2 家（安徽華創 + 广东奥迪威）、PHIP 新增 1 家（北京海光芯正）已在早报复核中补充进 6 月 11 日档案。",
       "metrics": {
         "apNewCount": 0,
         "phipCount": 0
