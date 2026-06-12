@@ -1,48 +1,124 @@
 {
-  "date": "2026-06-09",
-  "reportType": "daily",
-  "title": "资本市场日报",
-  "subtitle": "数据截至 2026-06-09 收盘后官方源复核；联交所 AP/PHIP、港股新挂牌、证监会及美股中概 IPO 暂未见当日新增。",
-  "statusNote": "今日复核 HKEX 新上市证券、Application Proof/PHIP 官方结构化数据、证监会境外发行上市备案栏目及美股中概 IPO 公开入口，暂未见需纳入 6 月 9 日日报的新事件。昨日资本市场日报档案已补充 6 月 8 日 AP/PHIP 新增信息，请注意查看；6 月 5 日档案已补正新挂牌及证监会周五晚间更新。",
-  "marketStatus": "港股正常开市；美股正常开市。",
-  "metrics": {
-    "hkexNewListings": 0,
-    "apNewCount": 0,
-    "phipCount": 0,
-    "csrcCount": 0,
-    "usChinaIpoCount": 0
-  },
-  "sections": [
-    {
-      "title": "港股新挂牌",
-      "summary": "该类别当日暂无新增事件",
-      "items": [],
-      "sources": ["HKEX Newly Listed Securities", "HKEX New Listing Information"]
-    },
-    {
-      "title": "港股递表/聆讯",
-      "summary": "该类别当日暂无新增事件。已复核 HKEX AP-only JSON：top-level app 数组 417 条，按 09/06/2026 命中 AP 0；AP/PHIP JSON：top-level app 数组 12 条，按 09/06/2026 命中 PHIP 0。",
-      "metrics": {
-        "apNewCount": 0,
-        "phipCount": 0
-      },
-      "apApplications": [],
-      "sources": ["Application Proof / PHIP", "HKEX AP structured JSON", "HKEX AP/PHIP structured JSON"]
-    },
-    {
-      "title": "证监会备案",
-      "summary": "该类别当日暂无新增事件",
-      "items": [],
-      "sources": ["CSRC 境外发行上市备案通知书", "CSRC 境外上市类补充材料要求", "CSRC 境外发行上市备案进度表"]
-    },
-    {
-      "title": "美股中概 IPO",
-      "summary": "该类别当日暂无新增事件",
-      "items": [],
-      "sources": ["SEC EDGAR", "Nasdaq IPO Calendar", "NYSE IPO Center"]
+  "dailyReports": {
+    "2026-06-09": {
+      "date": "2026-06-09",
+      "reportType": "daily",
+      "title": "资本市场日报",
+      "statusNote": "今日复核 HKEX 新上市证券、Application Proof/PHIP 官方结构化数据、证监会境外发行上市备案栏目及美股中概 IPO 公开入口，暂未见需纳入 6 月 9 日日报的新事件。昨日资本市场日报档案已补充 6 月 8 日 AP/PHIP 新增信息，请注意查看；6 月 5 日档案已补正新挂牌及证监会周五晚间更新。",
+      "observations": [],
+      "deals": [
+        {
+          "id": "hkex-no-ipo-20260609",
+          "section": "港股新挂牌",
+          "type": "今日新上市",
+          "status": "该类别当日暂无新增事件",
+          "company": {
+            "zh": "今日无 IPO 新挂牌公司",
+            "en": "No IPO New Listing",
+            "display": "今日无 IPO 新挂牌公司",
+            "exchange": "HKEX",
+            "board": "主板 / GEM",
+            "listingStructure": "不适用"
+          },
+          "business": {
+            "summary": "2026-06-09 港交所新上市证券清单未见 IPO 新挂牌。",
+            "sector": "港股新挂牌监控"
+          },
+          "monitorItems": [
+            "该类别当日暂无新增事件"
+          ],
+          "links": [
+            "HKEX Newly Listed Securities",
+            "HKEX New Listing Information"
+          ]
+        },
+        {
+          "id": "hkex-ap-phip-20260609",
+          "section": "港股递表/聆讯",
+          "type": "AP / PHIP 更新",
+          "status": "该类别当日暂无新增事件",
+          "company": {
+            "zh": "港交所 AP & PHIP 页面日内更新监控",
+            "en": "HKEX AP & PHIP Monitor",
+            "display": "港交所 AP & PHIP 页面日内更新监控（2026-06-09）",
+            "exchange": "HKEX",
+            "board": "Application Proof / PHIP",
+            "listingStructure": "多家公司"
+          },
+          "business": {
+            "summary": "该类别当日暂无新增事件。已复核 HKEX AP-only JSON：top-level app 数组 417 条，按 09/06/2026 命中 AP 0；AP/PHIP JSON：top-level app 数组 12 条，按 09/06/2026 命中 PHIP 0。",
+            "sector": "港股 IPO pipeline"
+          },
+          "metrics": {
+            "apNewCount": 0,
+            "phipCount": 0
+          },
+          "apApplications": [],
+          "phipApplications": [],
+          "monitorItems": [
+            "该类别当日暂无新增事件"
+          ],
+          "links": [
+            "Application Proof / PHIP",
+            "HKEX AP structured JSON",
+            "HKEX AP/PHIP structured JSON"
+          ]
+        },
+        {
+          "id": "csrc-no-new-20260609",
+          "section": "证监会备案",
+          "type": "境外上市备案",
+          "status": "该类别当日暂无新增事件",
+          "company": {
+            "zh": "今日未见新增境外上市备案公示",
+            "en": "No New CSRC Overseas Listing Filing",
+            "display": "今日未见新增境外上市备案公示",
+            "exchange": "CSRC",
+            "board": "境外发行上市备案",
+            "listingStructure": "不适用"
+          },
+          "business": {
+            "summary": "该类别当日暂无新增事件",
+            "sector": "证监会备案监控"
+          },
+          "monitorItems": [
+            "该类别当日暂无新增事件"
+          ],
+          "links": [
+            "CSRC 境外发行上市备案通知书",
+            "CSRC 境外上市类补充材料要求",
+            "CSRC 境外发行上市备案进度表"
+          ]
+        },
+        {
+          "id": "us-china-ipo-no-new-20260609",
+          "section": "美股中概",
+          "type": "SEC 公开递交/上市",
+          "status": "该类别当日暂无新增事件",
+          "company": {
+            "zh": "今日未见重点美股中概 IPO 新事件",
+            "en": "No material US-listed Chinese IPO event found",
+            "display": "今日未见重点美股中概 IPO 新事件",
+            "exchange": "SEC / NYSE / Nasdaq",
+            "board": "F-1 / EFFECT / 8-A / Listing",
+            "listingStructure": "不适用"
+          },
+          "business": {
+            "summary": "该类别当日暂无新增事件",
+            "sector": "美股中概监控"
+          },
+          "monitorItems": [
+            "该类别当日暂无新增事件"
+          ],
+          "links": [
+            "HKEX Newly Listed Securities",
+            "HKEX New Listing Information"
+          ]
+        }
+      ]
     }
-  ],
-  "sourceLinks": {
+  },
+  "linkMap": {
     "HKEX New Listing Information": "https://www1.hkexnews.hk/app/appindex.html?lang=zh",
     "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=zh-HK",
     "Application Proof / PHIP": "https://www1.hkexnews.hk/app/appindex.html?lang=zh",

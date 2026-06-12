@@ -1,153 +1,171 @@
 {
-  "date": "2026-06-10",
-  "reportType": "daily",
-  "title": "资本市场日报",
-  "subtitle": "数据截至 2026-06-10 收盘后官方源复核；联交所 AP 新增 3 家，PHIP 新增 1 家，港股新挂牌、证监会及美股中概 IPO 暂未见当日新增。",
-  "statusNote": "6 月 10 日联交所 Application Proof 官方结构化数据复核后，AP 新增 3 家（派想未來集團、深圳市豐宜科技集團股份有限公司、福建森達電氣股份有限公司）；PHIP 新增 1 家（合肥芯碁微電子裝備股份有限公司）。证监会境外发行上市备案栏目最新补充材料要求公示截至 6 月 5 日，备案进度表截至 6 月 5 日，6 月 6 日至 10 日暂未见新增。美股中概 IPO 官方入口暂未见需纳入当日日报的新事件。上一交易日（6 月 9 日）资本市场日报档案未见新增或修正。【2026-06-11 早盘复核补充：原 6 月 10 日日报 AP 计数 2 家，经今早再次复核 HKEX 结构化 JSON，确认福建森達電氣股份有限公司（Fujian Senda Electric Co., Ltd.）AP 亦于 6 月 10 日递交（AP 全文 sehk26061001677.pdf），AP 计数修正为 3 家；原 PHIP 计数 0 家，经今早复核 AP+PHIP JSON，确认合肥芯碁微電子裝備股份有限公司（Circuit Fabology Microelectronics Equipment Co., Ltd.）PHIP 于 6 月 10 日递交（PHIP 全文 sehk26061001513.pdf），PHIP 计数修正为 1 家。】",
-  "marketStatus": "港股正常开市；美股正常开市。",
-  "metrics": {
-    "hkexNewListings": 0,
-    "apNewCount": 3,
-    "phipCount": 1,
-    "csrcCount": 0,
-    "usChinaIpoCount": 0
-  },
-  "sections": [
-    {
-      "title": "港股新挂牌",
-      "summary": "该类别当日暂无新增事件",
-      "items": [],
-      "sources": [
-        "HKEX Newly Listed Securities",
-        "HKEX New Listing Information"
-      ]
-    },
-    {
-      "title": "港股递表/聆讯",
-      "summary": "6 月 10 日联交所 AP 新增 3 家、PHIP 新增 1 家；AP 与 PHIP 分开展示并与顶部 metrics 保持一致。已复核 HKEX AP-only JSON：top-level app 数组 413 条（今早复核值，原值 416 条因部分申请人已进入聆讯后阶段从 AP-only 列表移除），按 10/06/2026 文档日期命中 AP 3；AP/PHIP JSON：top-level app 数组 15 条（今早复核值，原值 14 条因新增芯碁微电子 PHIP 条目），按 10/06/2026 文档日期命中 PHIP 1。",
-      "metrics": {
-        "apNewCount": 3,
-        "phipCount": 1
-      },
-      "apApplications": [
+  "dailyReports": {
+    "2026-06-10": {
+      "date": "2026-06-10",
+      "reportType": "daily",
+      "title": "资本市场日报",
+      "statusNote": "6 月 10 日联交所 Application Proof 官方结构化数据复核后，AP 新增 3 家（派想未來集團、深圳市豐宜科技集團股份有限公司、福建森達電氣股份有限公司）；PHIP 新增 1 家（合肥芯碁微電子裝備股份有限公司）。证监会境外发行上市备案栏目最新补充材料要求公示截至 6 月 5 日，备案进度表截至 6 月 5 日，6 月 6 日至 10 日暂未见新增。美股中概 IPO 官方入口暂未见需纳入当日日报的新事件。上一交易日（6 月 9 日）资本市场日报档案未见新增或修正。【2026-06-11 早盘复核补充：原 6 月 10 日日报 AP 计数 2 家，经今早再次复核 HKEX 结构化 JSON，确认福建森達電氣股份有限公司（Fujian Senda Electric Co., Ltd.）AP 亦于 6 月 10 日递交（AP 全文 sehk26061001677.pdf），AP 计数修正为 3 家；原 PHIP 计数 0 家，经今早复核 AP+PHIP JSON，确认合肥芯碁微電子裝備股份有限公司（Circuit Fabology Microelectronics Equipment Co., Ltd.）PHIP 于 6 月 10 日递交（PHIP 全文 sehk26061001513.pdf），PHIP 计数修正为 1 家。】",
+      "observations": [],
+      "deals": [
         {
-          "company": "派想未來集團",
-          "companyEn": "PPLabs Technology Limited",
-          "eventType": "Application Proof (1st submission)",
-          "status": "NEW AP",
-          "filingDate": "2026-06-10",
-          "listingStructure": "红筹 / VIE 架构（开曼群岛注册，AP 含合约安排章节）",
-          "industry": "科技 / Web3 / 移动健身（待 AP 原文业务章节复核）",
-          "businessSummary": "6 月 10 日首次递交港股上市申请；公司于开曼群岛注册，以 VIE 架构运营。业务简介待 AP 原文业务章节复核后补充。",
-          "intermediaries": {
-            "overallCoordinators": [
-              "ICBC International Securities Limited（工银国际）",
-              "Shenwan Hongyuan Securities (H.K.)（申万宏源）"
-            ],
-            "sponsors": "待 Application Proof 封面页复核"
+          "id": "hkex-no-ipo-20260610",
+          "section": "港股新挂牌",
+          "type": "今日新上市",
+          "status": "该类别当日暂无新增事件",
+          "company": {
+            "zh": "今日无 IPO 新挂牌公司",
+            "en": "No IPO New Listing",
+            "display": "今日无 IPO 新挂牌公司",
+            "exchange": "HKEX",
+            "board": "主板 / GEM",
+            "listingStructure": "不适用"
           },
-          "sources": [
-            "HKEX PPLabs AP 全文",
-            "HKEX PPLabs AP 多档案",
-            "HKEX PPLabs OC 委任公告"
+          "business": {
+            "summary": "2026-06-10 港交所新上市证券清单未见 IPO 新挂牌。",
+            "sector": "港股新挂牌监控"
+          },
+          "monitorItems": [
+            "该类别当日暂无新增事件"
+          ],
+          "links": [
+            "HKEX Newly Listed Securities",
+            "HKEX New Listing Information"
           ]
         },
         {
-          "company": "深圳市豐宜科技集團股份有限公司",
-          "companyEn": "Shenzhen Fengyi Technology Group Co., Ltd.",
-          "eventType": "Application Proof (1st submission)",
-          "status": "NEW AP",
-          "filingDate": "2026-06-10",
-          "listingStructure": "H 股（中国境内股份有限公司）",
-          "industry": "科技（待 AP 原文业务章节复核）",
-          "businessSummary": "6 月 10 日首次递交港股上市申请；公司为中国境内股份有限公司。业务简介待 AP 原文业务章节复核后补充。",
-          "intermediaries": {
-            "sponsorOverallCoordinator": "ABCI Capital Limited（建银国际）",
-            "overallCoordinators": [
-              "China International Capital Corporation Hong Kong Securities Limited（中金）",
-              "China Merchants Securities (HK)（招商证券）"
-            ],
-            "sponsors": "待 Application Proof 封面页复核"
+          "id": "hkex-ap-phip-20260610",
+          "section": "港股递表/聆讯",
+          "type": "AP / PHIP 更新",
+          "status": "3 家递表 / 1 家聆讯",
+          "company": {
+            "zh": "港交所 AP & PHIP 页面日内更新监控",
+            "en": "HKEX AP & PHIP Monitor",
+            "display": "港交所 AP & PHIP 页面日内更新监控（2026-06-10）",
+            "exchange": "HKEX",
+            "board": "Application Proof / PHIP",
+            "listingStructure": "多家公司"
           },
-          "sources": [
-            "HKEX Fengyi AP 全文",
-            "HKEX Fengyi AP 多档案",
-            "HKEX Fengyi OC 委任公告"
-          ]
-        },
-        {
-          "company": "福建森達電氣股份有限公司",
-          "companyEn": "Fujian Senda Electric Co., Ltd.",
-          "eventType": "Application Proof (1st submission)",
-          "status": "NEW AP",
-          "filingDate": "2026-06-10",
-          "listingStructure": "H 股（中国境内股份有限公司）",
-          "industry": "电气设备（待 AP 原文业务章节复核）",
-          "businessSummary": "6 月 10 日首次递交港股上市申请；公司为中国境内股份有限公司，主营电气设备。业务简介待 AP 原文业务章节复核后补充。",
-          "intermediaries": {
-            "overallCoordinators": "待 Application Proof 封面页及董事及参与方章节复核",
-            "sponsors": "待 Application Proof 封面页复核"
+          "business": {
+            "summary": "6 月 10 日联交所 AP 新增 3 家、PHIP 新增 1 家；AP 与 PHIP 分开展示并与顶部 metrics 保持一致。已复核 HKEX AP-only JSON：top-level app 数组 413 条（今早复核值，原值 416 条因部分申请人已进入聆讯后阶段从 AP-only 列表移除），按 10/06/2026 文档日期命中 AP 3；AP/PHIP JSON：top-level app 数组 15 条（今早复核值，原值 14 条因新增芯碁微电子 PHIP 条目），按 10/06/2026 文档日期命中 PHIP 1。",
+            "sector": "港股 IPO pipeline"
           },
-          "sources": [
-            "HKEX Senda AP 全文",
-            "HKEX Senda AP 多档案",
-            "HKEX Senda OC 委任公告"
-          ]
-        },
-        {
-          "company": "合肥芯碁微電子裝備股份有限公司",
-          "companyEn": "Circuit Fabology Microelectronics Equipment Co., Ltd.",
-          "eventType": "PHIP (1st submission)",
-          "status": "PHIP",
-          "filingDate": "2026-06-10",
-          "listingStructure": "H 股（中国境内股份有限公司）",
-          "industry": "半导体设备（待 PHIP 原文业务章节复核）",
-          "businessSummary": "6 月 10 日发布聆讯后资料集；公司为中国境内股份有限公司，主营微电子装备（直写光刻设备）。AP 首次递交日期为 2026-03-15。业务简介待 PHIP 原文业务章节复核后补充。",
-          "timeline": [
+          "metrics": {
+            "apNewCount": 3,
+            "phipCount": 1
+          },
+          "apApplications": [
             {
-              "label": "首次递交上市申请",
-              "value": "2026-03-15"
+              "nameEn": "PPLabs Technology Limited",
+              "nameZh": "派想未來集團",
+              "filingDate": "2026-06-10",
+              "documentType": "Application Proof (1st submission)",
+              "status": "NEW AP",
+              "sector": "科技 / Web3 / 移动健身（待 AP 原文业务章节复核） / ",
+              "structure": "红筹 / VIE 架构（开曼群岛注册，AP 含合约安排章节）",
+              "sponsors": "待 Application Proof 封面页复核",
+              "businessSummary": "6 月 10 日首次递交港股上市申请；公司于开曼群岛注册，以 VIE 架构运营。业务简介待 AP 原文业务章节复核后补充。",
+              "prospectusLink": "Application Proof / PHIP"
             },
             {
-              "label": "最近一次通过聆讯",
-              "value": "2026-06-10（PHIP 披露日）"
+              "nameEn": "Shenzhen Fengyi Technology Group Co., Ltd.",
+              "nameZh": "深圳市豐宜科技集團股份有限公司",
+              "filingDate": "2026-06-10",
+              "documentType": "Application Proof (1st submission)",
+              "status": "NEW AP",
+              "sector": "科技（待 AP 原文业务章节复核） / ",
+              "structure": "H 股（中国境内股份有限公司）",
+              "sponsors": "待 Application Proof 封面页复核",
+              "businessSummary": "6 月 10 日首次递交港股上市申请；公司为中国境内股份有限公司。业务简介待 AP 原文业务章节复核后补充。",
+              "prospectusLink": "Application Proof / PHIP"
+            },
+            {
+              "nameEn": "Fujian Senda Electric Co., Ltd.",
+              "nameZh": "福建森達電氣股份有限公司",
+              "filingDate": "2026-06-10",
+              "documentType": "Application Proof (1st submission)",
+              "status": "NEW AP",
+              "sector": "电气设备（待 AP 原文业务章节复核） / ",
+              "structure": "H 股（中国境内股份有限公司）",
+              "sponsors": "待 Application Proof 封面页复核",
+              "businessSummary": "6 月 10 日首次递交港股上市申请；公司为中国境内股份有限公司，主营电气设备。业务简介待 AP 原文业务章节复核后补充。",
+              "prospectusLink": "Application Proof / PHIP"
+            },
+            {
+              "nameEn": "Circuit Fabology Microelectronics Equipment Co., Ltd.",
+              "nameZh": "合肥芯碁微電子裝備股份有限公司",
+              "filingDate": "2026-06-10",
+              "documentType": "PHIP (1st submission)",
+              "status": "PHIP",
+              "sector": "半导体设备（待 PHIP 原文业务章节复核） / ",
+              "structure": "H 股（中国境内股份有限公司）",
+              "sponsors": "",
+              "businessSummary": "6 月 10 日发布聆讯后资料集；公司为中国境内股份有限公司，主营微电子装备（直写光刻设备）。AP 首次递交日期为 2026-03-15。业务简介待 PHIP 原文业务章节复核后补充。",
+              "prospectusLink": "Application Proof / PHIP"
             }
           ],
-          "sponsors": "待 PHIP 封面页及参与方章节复核",
-          "sources": [
-            "HKEX Circuit Fabology PHIP 全文",
-            "HKEX Circuit Fabology PHIP 多档案"
+          "phipApplications": [],
+          "monitorItems": [],
+          "links": [
+            "Application Proof / PHIP",
+            "HKEX AP structured JSON",
+            "HKEX AP/PHIP structured JSON"
+          ]
+        },
+        {
+          "id": "csrc-no-new-20260610",
+          "section": "证监会备案",
+          "type": "境外上市备案",
+          "status": "该类别当日暂无新增事件",
+          "company": {
+            "zh": "今日未见新增境外上市备案公示",
+            "en": "No New CSRC Overseas Listing Filing",
+            "display": "今日未见新增境外上市备案公示",
+            "exchange": "CSRC",
+            "board": "境外发行上市备案",
+            "listingStructure": "不适用"
+          },
+          "business": {
+            "summary": "该类别当日暂无新增事件。最新补充材料要求公示截至 2026-06-05（涵盖 6 月 1 日—5 日），备案进度表截至 2026-06-05。",
+            "sector": "证监会备案监控"
+          },
+          "monitorItems": [
+            "该类别当日暂无新增事件"
+          ],
+          "links": [
+            "CSRC 境外发行上市备案通知书",
+            "CSRC 境外上市类补充材料要求",
+            "CSRC 境外发行上市备案进度表"
+          ]
+        },
+        {
+          "id": "us-china-ipo-no-new-20260610",
+          "section": "美股中概",
+          "type": "SEC 公开递交/上市",
+          "status": "该类别当日暂无新增事件",
+          "company": {
+            "zh": "今日未见重点美股中概 IPO 新事件",
+            "en": "No material US-listed Chinese IPO event found",
+            "display": "今日未见重点美股中概 IPO 新事件",
+            "exchange": "SEC / NYSE / Nasdaq",
+            "board": "F-1 / EFFECT / 8-A / Listing",
+            "listingStructure": "不适用"
+          },
+          "business": {
+            "summary": "该类别当日暂无新增事件",
+            "sector": "美股中概监控"
+          },
+          "monitorItems": [
+            "该类别当日暂无新增事件"
+          ],
+          "links": [
+            "HKEX Newly Listed Securities",
+            "HKEX New Listing Information"
           ]
         }
-      ],
-      "sources": [
-        "Application Proof / PHIP",
-        "HKEX AP structured JSON",
-        "HKEX AP/PHIP structured JSON"
-      ]
-    },
-    {
-      "title": "证监会备案",
-      "summary": "该类别当日暂无新增事件。最新补充材料要求公示截至 2026-06-05（涵盖 6 月 1 日—5 日），备案进度表截至 2026-06-05。",
-      "items": [],
-      "sources": [
-        "CSRC 境外发行上市备案通知书",
-        "CSRC 境外上市类补充材料要求",
-        "CSRC 境外发行上市备案进度表"
-      ]
-    },
-    {
-      "title": "美股中概 IPO",
-      "summary": "该类别当日暂无新增事件。SEC EDGAR 6 月 8 日—10 日 F-1/A 境内关联公司包括 DSC Holdings Ltd.（北京，F-1/A 6 月 8 日）、Cansince Innovations Inc.（香港，F-1/A 6 月 9 日）、Web3Labs Global Inc.（九龙，F-1/A 6 月 9 日），均为注册声明修订，非首次定价或上市事件。Nasdaq IPO Calendar 当日无新增 IPO 公告。",
-      "items": [],
-      "sources": [
-        "SEC EDGAR",
-        "Nasdaq IPO Calendar",
-        "NYSE IPO Center"
       ]
     }
-  ],
-  "sourceLinks": {
+  },
+  "linkMap": {
     "HKEX New Listing Information": "https://www1.hkexnews.hk/app/appindex.html?lang=zh",
     "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=zh-HK",
     "Application Proof / PHIP": "https://www1.hkexnews.hk/app/appindex.html?lang=zh",

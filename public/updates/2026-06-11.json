@@ -1,159 +1,182 @@
 {
-  "date": "2026-06-11",
-  "reportType": "daily",
-  "title": "资本市场日报",
-  "statusNote": "6 月 11 日联交所 Application Proof 官方结构化数据复核后，AP 新增 2 家（安徽華創新材料股份有限公司、广东奥迪威传感科技股份有限公司）；PHIP 新增 1 家（北京海光芯正科技股份有限公司）。【2026-06-12 早盘复核修正：原 6 月 11 日日报 AP 计数 1 家，经今早再次复核 HKEX AP-only JSON，确认广东奥迪威传感科技股份有限公司（Audiowell Electronics (Guangdong) Co., Ltd.）AP 亦于 6 月 11 日递交（AP 全文 sehk26061100585.pdf），AP 计数修正为 2 家；原 PHIP 计数 0 家，经今早复核 AP+PHIP JSON，确认北京海光芯正科技股份有限公司（Crealights Technology Co., Ltd.）PHIP 于 6 月 11 日递交（PHIP 全文 sehk26061101522.pdf），PHIP 计数修正为 1 家。】港股新挂牌：海清智元（01392）招股书已于 6 月 11 日发布、招股期 6 月 11 日至 16 日，预计 6 月 22 日挂牌，尚未开始交易，不计入新挂牌计数。证监会境外发行上市备案栏目最新补充材料要求公示截至 6 月 5 日，备案进度表截至 6 月 5 日，6 月 6 日至 11 日暂未见新增；6 月 12 日（周五）18:00 后为 CSRC 高频更新窗口，建议届时再复核。美股中概 IPO：Ocean Capital Acquisition Corp（BVI 注册、香港管理团队 SPAC）已于 NYSE 上市（EFFECT 6 月 8 日、424B4 定价招股书 6 月 10 日），OFA Group S-1 为已上市增发注册，非新 IPO。揚州納力新材料科技股份有限公司（Yangzhou Nanopore）于 6 月 11 日发布 OC 委任修订公告（AP 已于 5 月 28 日递交），不作为当日新增 AP。",
-  "observations": [
-    "海清智元（Shenzhen HQVT Technology Co., Ltd.，01392）招股书已于 6 月 11 日发布、招股期 6 月 11 日至 16 日、预计 6 月 22 日挂牌，尚未开始交易，不计入新挂牌计数。",
-    "OFA Group (OFAL) S-1 为已上市增发注册（原 F-1 上市 2025 年 5 月），非新 IPO。"
-  ],
-  "deals": [
-    {
-      "id": "hkex-no-ipo-20260611",
-      "section": "港股新挂牌",
-      "type": "今日新上市",
-      "status": "该类别当日暂无新增事件",
-      "company": {
-        "zh": "今日无 IPO 新挂牌公司",
-        "en": "No IPO New Listing",
-        "display": "今日无 IPO 新挂牌公司",
-        "exchange": "HKEX",
-        "board": "主板 / GEM",
-        "listingStructure": "不适用"
-      },
-      "business": {
-        "summary": "2026-06-11 港交所新上市证券清单未见 IPO 新挂牌。",
-        "sector": "港股新挂牌监控"
-      },
-      "monitorItems": ["该类别当日暂无新增事件"],
-      "links": ["HKEX Newly Listed Securities", "HKEX New Listing Information"]
-    },
-    {
-      "id": "hkex-ap-phip-20260611",
-      "section": "港股递表/聆讯",
-      "type": "AP / PHIP 更新",
-      "status": "2 家递表 / 1 家聆讯",
-      "company": {
-        "zh": "港交所 AP & PHIP 页面日内更新监控",
-        "en": "HKEX AP & PHIP Monitor",
-        "display": "港交所 AP & PHIP 页面日内更新监控（2026-06-11）",
-        "exchange": "HKEX",
-        "board": "Application Proof / PHIP",
-        "listingStructure": "多家公司"
-      },
-      "business": {
-        "summary": "6 月 11 日联交所 AP 新增 2 家、PHIP 新增 1 家；AP 与 PHIP 分开展示并与顶部 metrics 保持一致。已复核 HKEX AP-only JSON：top-level app 数组 413 条，按 11/06/2026 文档日期命中 AP 2（安徽華創 + 奥迪威各有 Application Proof 条目）；OC 公告不重复计为 AP（揚州納力仅 OC 修订公告，其 AP 于 5/28 递交）。AP+PHIP JSON：top-level app 数组 16 条，按 11/06/2026 文档日期命中 PHIP 1（北京海光芯正）。",
-        "sector": "港股 IPO pipeline"
-      },
-      "metrics": {
-        "apNewCount": 2,
-        "phipCount": 1
-      },
-      "apApplications": [
+  "dailyReports": {
+    "2026-06-11": {
+      "date": "2026-06-11",
+      "reportType": "daily",
+      "title": "资本市场日报",
+      "statusNote": "6 月 11 日联交所 Application Proof 官方结构化数据复核后，AP 新增 2 家（安徽華創新材料股份有限公司、广东奥迪威传感科技股份有限公司）；PHIP 新增 1 家（北京海光芯正科技股份有限公司）。【2026-06-12 早盘复核修正：原 6 月 11 日日报 AP 计数 1 家，经今早再次复核 HKEX AP-only JSON，确认广东奥迪威传感科技股份有限公司（Audiowell Electronics (Guangdong) Co., Ltd.）AP 亦于 6 月 11 日递交（AP 全文 sehk26061100585.pdf），AP 计数修正为 2 家；原 PHIP 计数 0 家，经今早复核 AP+PHIP JSON，确认北京海光芯正科技股份有限公司（Crealights Technology Co., Ltd.）PHIP 于 6 月 11 日递交（PHIP 全文 sehk26061101522.pdf），PHIP 计数修正为 1 家。】港股新挂牌：海清智元（01392）招股书已于 6 月 11 日发布、招股期 6 月 11 日至 16 日，预计 6 月 22 日挂牌，尚未开始交易，不计入新挂牌计数。证监会境外发行上市备案栏目最新补充材料要求公示截至 6 月 5 日，备案进度表截至 6 月 5 日，6 月 6 日至 11 日暂未见新增；6 月 12 日（周五）18:00 后为 CSRC 高频更新窗口，建议届时再复核。美股中概 IPO：Ocean Capital Acquisition Corp（BVI 注册、香港管理团队 SPAC）已于 NYSE 上市（EFFECT 6 月 8 日、424B4 定价招股书 6 月 10 日），OFA Group S-1 为已上市增发注册，非新 IPO。揚州納力新材料科技股份有限公司（Yangzhou Nanopore）于 6 月 11 日发布 OC 委任修订公告（AP 已于 5 月 28 日递交），不作为当日新增 AP。",
+      "observations": [
+        "海清智元（Shenzhen HQVT Technology Co., Ltd.，01392）招股书已于 6 月 11 日发布、招股期 6 月 11 日至 16 日、预计 6 月 22 日挂牌，尚未开始交易，不计入新挂牌计数。",
+        "OFA Group (OFAL) S-1 为已上市增发注册（原 F-1 上市 2025 年 5 月），非新 IPO。"
+      ],
+      "deals": [
         {
-          "nameEn": "Anhui Huachuang New Materials Co., Ltd.",
-          "nameZh": "安徽華創新材料股份有限公司",
-          "filingDate": "2026-06-11",
-          "documentType": "Application Proof (1st submission)",
-          "status": "NEW AP",
-          "sector": "工业 / 材料 / 电解铜箔（新能源/电子电路用铜箔）",
-          "structure": "H 股（中国境内股份有限公司）",
-          "sponsors": "CITIC Securities (Hong Kong) Limited（中信证券）",
-          "businessSummary": "公司为高性能电解铜箔产品研发、生产及销售的技术企业，主要产品为锂离子电池铜箔（2025年收入占比约94.2%）及电子电路铜箔（约5.8%）。据弗若斯特沙利文，公司为2025年全球电解铜箔出货量第三大生产商（约5.4%市场份额）。客户包括领先锂离子电池制造商及CCL/PCB制造商，前五大客户占2025年收入81.4%。",
-          "prospectusLink": "Application Proof / PHIP"
+          "id": "hkex-no-ipo-20260611",
+          "section": "港股新挂牌",
+          "type": "今日新上市",
+          "status": "该类别当日暂无新增事件",
+          "company": {
+            "zh": "今日无 IPO 新挂牌公司",
+            "en": "No IPO New Listing",
+            "display": "今日无 IPO 新挂牌公司",
+            "exchange": "HKEX",
+            "board": "主板 / GEM",
+            "listingStructure": "不适用"
+          },
+          "business": {
+            "summary": "2026-06-11 港交所新上市证券清单未见 IPO 新挂牌。",
+            "sector": "港股新挂牌监控"
+          },
+          "monitorItems": [
+            "该类别当日暂无新增事件"
+          ],
+          "links": [
+            "HKEX Newly Listed Securities",
+            "HKEX New Listing Information"
+          ]
         },
         {
-          "nameEn": "Audiowell Electronics (Guangdong) Co., Ltd.",
-          "nameZh": "广东奥迪威传感科技股份有限公司",
-          "filingDate": "2026-06-11",
-          "documentType": "Application Proof (1st submission)",
-          "status": "NEW AP",
-          "sector": "科技 / 电子元器件 / 智能传感器与执行器（超声波/压电传感器及执行器）",
-          "structure": "H 股（中国境内股份有限公司，A+H 双重上市；A股代码 920491.BJ）",
-          "sponsors": "China Merchants Securities International（招商证券国际）",
-          "businessSummary": "公司为全球智能传感器与执行器 IDM 厂商，产品涵盖超声波测距/流量/触觉传感器、ADAS 泊车传感器（AKII 系列为中国首个量产 ADAS 超声波传感器）、压电泵/雾化换能器/声学组件等，应用于智能家居、智能汽车、智能终端与智能制造四大领域。据弗若斯特沙利文，公司为2024年中国智能家居传感器收入排名第二、全球汽车超声波传感器/执行器出货量排名第三、中国汽车传感器出货量排名第三。>40% 收入来自海外，客户遍及 46+ 国家。",
-          "prospectusLink": "Application Proof / PHIP"
-        }
-      ],
-      "phipApplications": [
-        {
-          "nameEn": "Crealights Technology Co., Ltd.",
-          "nameZh": "北京海光芯正科技股份有限公司",
-          "filingDate": "2026-06-11",
-          "documentType": "PHIP (1st submission)",
-          "status": "PHIP",
-          "sector": "科技 / 光通信 / 光模块 / 硅光芯片 / AI 数据中心互联",
-          "structure": "H 股（中国境内股份有限公司）",
-          "sponsors": "Huatai International（华泰国际）",
-          "businessSummary": "公司为光电互联产品供应商，核心产品涵盖 100G/200G/400G/800G 光模块（400G+ 单模均采用硅光技术）、有源光缆（AOC）、有源电电缆（AEC），正在研发 1.6T/3.2T 及 NPO/CPO 产品。产品主要部署于 AI 数据中心，为国内首批实现 400G 及 800G AI 光模块量产交付的企业之一，也是全球少数同时具备硅光芯片设计与模块量产能力的厂商。据行业排名，2024 年在全球专业光模块厂商中收入排名第 10、全球 AI 光模块厂商排名第 6。主要客户包括中美头部互联网公司。收入从 2022 年 RMB 1.03 亿增长至 2024 年 RMB 8.62 亿，仍处于亏损收窄期。",
-          "prospectusLink": "Application Proof / PHIP"
-        }
-      ],
-      "links": ["Application Proof / PHIP", "HKEX AP structured JSON", "HKEX AP/PHIP structured JSON"]
-    },
-    {
-      "id": "csrc-no-new-20260611",
-      "section": "证监会备案",
-      "type": "境外上市备案",
-      "status": "该类别当日暂无新增事件",
-      "company": {
-        "zh": "今日未见新增境外上市备案公示",
-        "en": "No New CSRC Overseas Listing Filing",
-        "display": "今日未见新增境外上市备案公示",
-        "exchange": "CSRC",
-        "board": "境外发行上市备案",
-        "listingStructure": "不适用"
-      },
-      "business": {
-        "summary": "该类别当日暂无新增事件。最新补充材料要求公示截至 2026-06-05（涵盖 6 月 1 日—5 日），备案进度表截至 2026-06-05。6 月 12 日（周五）18:00 后为 CSRC 高频更新窗口，建议届时再复核。",
-        "sector": "证监会备案监控"
-      },
-      "monitorItems": ["该类别当日暂无新增事件"],
-      "links": ["CSRC 境外发行上市备案通知书", "CSRC 境外上市类补充材料要求", "CSRC 境外发行上市备案进度表"]
-    },
-    {
-      "id": "us-china-ipo-ocac-20260611",
-      "section": "美股中概",
-      "type": "SEC 公开递交/上市",
-      "status": "已上市",
-      "company": {
-        "zh": "Ocean Capital Acquisition Corporation",
-        "en": "Ocean Capital Acquisition Corporation",
-        "display": "Ocean Capital Acquisition Corporation（OCACU / OCAC / OCACW / OCACR · NYSE）",
-        "ticker": "OCACU",
-        "exchange": "NYSE",
-        "board": "SPAC / Blank Check",
-        "listingStructure": "BVI 注册（海外公司）"
-      },
-      "business": {
-        "summary": "一家 BVI 注册的特殊目的收购公司（SPAC），旨在与一个或多个业务进行合并、股份交换、资产收购等交易。不限于特定行业或地区。管理团队位于香港，与中国有重要联系。明确不会与采用 VIE 架构的中国实体合并。",
-        "sector": "金融 / SPAC / 特殊目的收购公司"
-      },
-      "ipo": {
-        "offeringType": "SPAC Units",
-        "unitsOffered": 10000000,
-        "unitPrice": "$10.00",
-        "grossProceeds": "$100,000,000",
-        "overAllotmentOption": "1,500,000 additional units (up to $115,000,000)",
-        "exchange": "NYSE Global Market",
-        "tickers": {
-          "units": "OCACU",
-          "ordinaryShares": "OCAC",
-          "warrants": "OCACW",
-          "rights": "OCACR"
+          "id": "hkex-ap-phip-20260611",
+          "section": "港股递表/聆讯",
+          "type": "AP / PHIP 更新",
+          "status": "2 家递表 / 1 家聆讯",
+          "company": {
+            "zh": "港交所 AP & PHIP 页面日内更新监控",
+            "en": "HKEX AP & PHIP Monitor",
+            "display": "港交所 AP & PHIP 页面日内更新监控（2026-06-11）",
+            "exchange": "HKEX",
+            "board": "Application Proof / PHIP",
+            "listingStructure": "多家公司"
+          },
+          "business": {
+            "summary": "6 月 11 日联交所 AP 新增 2 家、PHIP 新增 1 家；AP 与 PHIP 分开展示并与顶部 metrics 保持一致。已复核 HKEX AP-only JSON：top-level app 数组 413 条，按 11/06/2026 文档日期命中 AP 2（安徽華創 + 奥迪威各有 Application Proof 条目）；OC 公告不重复计为 AP（揚州納力仅 OC 修订公告，其 AP 于 5/28 递交）。AP+PHIP JSON：top-level app 数组 16 条，按 11/06/2026 文档日期命中 PHIP 1（北京海光芯正）。",
+            "sector": "港股 IPO pipeline"
+          },
+          "metrics": {
+            "apNewCount": 2,
+            "phipCount": 1
+          },
+          "apApplications": [
+            {
+              "nameEn": "Anhui Huachuang New Materials Co., Ltd.",
+              "nameZh": "安徽華創新材料股份有限公司",
+              "filingDate": "2026-06-11",
+              "documentType": "Application Proof (1st submission)",
+              "status": "NEW AP",
+              "sector": "工业 / 材料 / 电解铜箔（新能源/电子电路用铜箔）",
+              "structure": "H 股（中国境内股份有限公司）",
+              "sponsors": "CITIC Securities (Hong Kong) Limited（中信证券）",
+              "businessSummary": "公司为高性能电解铜箔产品研发、生产及销售的技术企业，主要产品为锂离子电池铜箔（2025年收入占比约94.2%）及电子电路铜箔（约5.8%）。据弗若斯特沙利文，公司为2025年全球电解铜箔出货量第三大生产商（约5.4%市场份额）。客户包括领先锂离子电池制造商及CCL/PCB制造商，前五大客户占2025年收入81.4%。",
+              "prospectusLink": "Application Proof / PHIP"
+            },
+            {
+              "nameEn": "Audiowell Electronics (Guangdong) Co., Ltd.",
+              "nameZh": "广东奥迪威传感科技股份有限公司",
+              "filingDate": "2026-06-11",
+              "documentType": "Application Proof (1st submission)",
+              "status": "NEW AP",
+              "sector": "科技 / 电子元器件 / 智能传感器与执行器（超声波/压电传感器及执行器）",
+              "structure": "H 股（中国境内股份有限公司，A+H 双重上市；A股代码 920491.BJ）",
+              "sponsors": "China Merchants Securities International（招商证券国际）",
+              "businessSummary": "公司为全球智能传感器与执行器 IDM 厂商，产品涵盖超声波测距/流量/触觉传感器、ADAS 泊车传感器（AKII 系列为中国首个量产 ADAS 超声波传感器）、压电泵/雾化换能器/声学组件等，应用于智能家居、智能汽车、智能终端与智能制造四大领域。据弗若斯特沙利文，公司为2024年中国智能家居传感器收入排名第二、全球汽车超声波传感器/执行器出货量排名第三、中国汽车传感器出货量排名第三。>40% 收入来自海外，客户遍及 46+ 国家。",
+              "prospectusLink": "Application Proof / PHIP"
+            }
+          ],
+          "phipApplications": [
+            {
+              "nameEn": "Crealights Technology Co., Ltd.",
+              "nameZh": "北京海光芯正科技股份有限公司",
+              "filingDate": "2026-06-11",
+              "documentType": "PHIP (1st submission)",
+              "status": "PHIP",
+              "sector": "科技 / 光通信 / 光模块 / 硅光芯片 / AI 数据中心互联",
+              "structure": "H 股（中国境内股份有限公司）",
+              "sponsors": "Huatai International（华泰国际）",
+              "businessSummary": "公司为光电互联产品供应商，核心产品涵盖 100G/200G/400G/800G 光模块（400G+ 单模均采用硅光技术）、有源光缆（AOC）、有源电电缆（AEC），正在研发 1.6T/3.2T 及 NPO/CPO 产品。产品主要部署于 AI 数据中心，为国内首批实现 400G 及 800G AI 光模块量产交付的企业之一，也是全球少数同时具备硅光芯片设计与模块量产能力的厂商。据行业排名，2024 年在全球专业光模块厂商中收入排名第 10、全球 AI 光模块厂商排名第 6。主要客户包括中美头部互联网公司。收入从 2022 年 RMB 1.03 亿增长至 2024 年 RMB 8.62 亿，仍处于亏损收窄期。",
+              "prospectusLink": "Application Proof / PHIP"
+            }
+          ],
+          "links": [
+            "Application Proof / PHIP",
+            "HKEX AP structured JSON",
+            "HKEX AP/PHIP structured JSON"
+          ]
         },
-        "unitStructure": "Each unit = 1 ordinary share + 1 redeemable warrant + 1 right",
-        "warrantTerms": "Exercise price $11.50/share; exercisable on later of business combination or 12 months after offering; expires 5 years after business combination",
-        "rightTerms": "Each right entitles holder to 1 ordinary share upon business combination",
-        "sponsor": "SB Capital Holding Corporation (BVI)",
-        "underwriter": "Alliance Global Partners (AGP) — book-runner; Brookline Capital Markets — co-manager",
-        "trustAccount": "$10.00/unit deposited with Odyssey Transfer and Trust Company",
-        "businessCombinationDeadline": "12 months from IPO closing"
-      },
-      "links": ["SEC EDGAR", "Nasdaq IPO Calendar", "NYSE IPO Center"]
+        {
+          "id": "csrc-no-new-20260611",
+          "section": "证监会备案",
+          "type": "境外上市备案",
+          "status": "该类别当日暂无新增事件",
+          "company": {
+            "zh": "今日未见新增境外上市备案公示",
+            "en": "No New CSRC Overseas Listing Filing",
+            "display": "今日未见新增境外上市备案公示",
+            "exchange": "CSRC",
+            "board": "境外发行上市备案",
+            "listingStructure": "不适用"
+          },
+          "business": {
+            "summary": "该类别当日暂无新增事件。最新补充材料要求公示截至 2026-06-05（涵盖 6 月 1 日—5 日），备案进度表截至 2026-06-05。6 月 12 日（周五）18:00 后为 CSRC 高频更新窗口，建议届时再复核。",
+            "sector": "证监会备案监控"
+          },
+          "monitorItems": [
+            "该类别当日暂无新增事件"
+          ],
+          "links": [
+            "CSRC 境外发行上市备案通知书",
+            "CSRC 境外上市类补充材料要求",
+            "CSRC 境外发行上市备案进度表"
+          ]
+        },
+        {
+          "id": "us-china-ipo-ocac-20260611",
+          "section": "美股中概",
+          "type": "SEC 公开递交/上市",
+          "status": "已上市",
+          "company": {
+            "zh": "Ocean Capital Acquisition Corporation",
+            "en": "Ocean Capital Acquisition Corporation",
+            "display": "Ocean Capital Acquisition Corporation（OCACU / OCAC / OCACW / OCACR · NYSE）",
+            "ticker": "OCACU",
+            "exchange": "NYSE",
+            "board": "SPAC / Blank Check",
+            "listingStructure": "BVI 注册（海外公司）"
+          },
+          "business": {
+            "summary": "一家 BVI 注册的特殊目的收购公司（SPAC），旨在与一个或多个业务进行合并、股份交换、资产收购等交易。不限于特定行业或地区。管理团队位于香港，与中国有重要联系。明确不会与采用 VIE 架构的中国实体合并。",
+            "sector": "金融 / SPAC / 特殊目的收购公司"
+          },
+          "ipo": {
+            "offeringType": "SPAC Units",
+            "unitsOffered": 10000000,
+            "unitPrice": "$10.00",
+            "grossProceeds": "$100,000,000",
+            "overAllotmentOption": "1,500,000 additional units (up to $115,000,000)",
+            "exchange": "NYSE Global Market",
+            "tickers": {
+              "units": "OCACU",
+              "ordinaryShares": "OCAC",
+              "warrants": "OCACW",
+              "rights": "OCACR"
+            },
+            "unitStructure": "Each unit = 1 ordinary share + 1 redeemable warrant + 1 right",
+            "warrantTerms": "Exercise price $11.50/share; exercisable on later of business combination or 12 months after offering; expires 5 years after business combination",
+            "rightTerms": "Each right entitles holder to 1 ordinary share upon business combination",
+            "sponsor": "SB Capital Holding Corporation (BVI)",
+            "underwriter": "Alliance Global Partners (AGP) — book-runner; Brookline Capital Markets — co-manager",
+            "trustAccount": "$10.00/unit deposited with Odyssey Transfer and Trust Company",
+            "businessCombinationDeadline": "12 months from IPO closing"
+          },
+          "links": [
+            "SEC EDGAR",
+            "Nasdaq IPO Calendar",
+            "NYSE IPO Center"
+          ]
+        }
+      ]
     }
-  ],
-  "sourceLinks": {
+  },
+  "linkMap": {
     "HKEX New Listing Information": "https://www1.hkexnews.hk/app/appindex.html?lang=zh",
     "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=zh-HK",
     "Application Proof / PHIP": "https://www1.hkexnews.hk/app/appindex.html?lang=zh",
