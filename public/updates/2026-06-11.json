@@ -2,13 +2,13 @@
   "date": "2026-06-11",
   "reportType": "daily",
   "title": "资本市场日报",
-  "subtitle": "数据截至 2026-06-11 收盘后官方源复核；联交所 AP 新增 1 家，港股新挂牌暂无（海清智元 01392 招股书已发、6 月 22 日挂牌），证监会及美股中概 IPO 新增 1 家（Ocean Capital Acquisition Corp SPAC 上市 NYSE）。",
-  "statusNote": "6 月 11 日联交所 Application Proof 官方结构化数据复核后，AP 新增 1 家（安徽華創新材料股份有限公司）；PHIP 当日暂无新增。港股新挂牌：海清智元（01392）招股书已于 6 月 11 日发布、招股期 6 月 11 日至 16 日，预计 6 月 22 日挂牌，尚未开始交易，不计入新挂牌计数。证监会境外发行上市备案栏目最新补充材料要求公示截至 6 月 5 日，备案进度表截至 6 月 5 日，6 月 6 日至 11 日暂未见新增；6 月 12 日（周五）18:00 后为 CSRC 高频更新窗口，建议届时再复核。美股中概 IPO：Ocean Capital Acquisition Corp（BVI 注册、香港管理团队 SPAC）已于 NYSE 上市（EFFECT 6 月 8 日、424B4 定价招股书 6 月 10 日），OFA Group S-1 为已上市公司增发注册，非新 IPO。上一交易日（6 月 10 日）资本市场日报档案已有修正已在早报中体现，收盘后复核无新增修正。",
+  "subtitle": "数据截至 2026-06-11 收盘后官方源复核；联交所 AP 新增 2 家，PHIP 新增 1 家，港股新挂牌暂无（海清智元 01392 招股书已发、6 月 22 日挂牌），证监会暂无新增，美股中概 IPO 新增 1 家（Ocean Capital Acquisition Corp SPAC 上市 NYSE）。",
+  "statusNote": "6 月 11 日联交所 Application Proof 官方结构化数据复核后，AP 新增 2 家（安徽華創新材料股份有限公司、广东奥迪威传感科技股份有限公司）；PHIP 新增 1 家（北京海光芯正科技股份有限公司）。【2026-06-12 早盘复核修正：原 6 月 11 日日报 AP 计数 1 家，经今早再次复核 HKEX AP-only JSON，确认广东奥迪威传感科技股份有限公司（Audiowell Electronics (Guangdong) Co., Ltd.）AP 亦于 6 月 11 日递交（AP 全文 sehk26061100585.pdf），AP 计数修正为 2 家；原 PHIP 计数 0 家，经今早复核 AP+PHIP JSON，确认北京海光芯正科技股份有限公司（Crealights Technology Co., Ltd.）PHIP 于 6 月 11 日递交（PHIP 全文 sehk26061101522.pdf），PHIP 计数修正为 1 家。】港股新挂牌：海清智元（01392）招股书已于 6 月 11 日发布、招股期 6 月 11 日至 16 日，预计 6 月 22 日挂牌，尚未开始交易，不计入新挂牌计数。证监会境外发行上市备案栏目最新补充材料要求公示截至 6 月 5 日，备案进度表截至 6 月 5 日，6 月 6 日至 11 日暂未见新增；6 月 12 日（周五）18:00 后为 CSRC 高频更新窗口，建议届时再复核。美股中概 IPO：Ocean Capital Acquisition Corp（BVI 注册、香港管理团队 SPAC）已于 NYSE 上市（EFFECT 6 月 8 日、424B4 定价招股书 6 月 10 日），OFA Group S-1 为已上市增发注册，非新 IPO。",
   "marketStatus": "港股正常开市；美股正常开市。",
   "metrics": {
     "hkexNewListings": 0,
-    "apNewCount": 1,
-    "phipCount": 0,
+    "apNewCount": 2,
+    "phipCount": 1,
     "csrcCount": 0,
     "usChinaIpoCount": 1
   },
@@ -85,10 +85,10 @@
     },
     {
       "title": "港股递表/聆讯",
-      "summary": "6 月 11 日联交所 AP 新增 1 家、PHIP 暂无新增；AP 与 PHIP 分开展示并与顶部 metrics 保持一致。已复核 HKEX AP-only JSON：top-level app 数组 414 条（较早报 413 条新增安徽華創条目），按 11/06/2026 文档日期命中 AP 1；AP/PHIP JSON：top-level app 数组 15 条，按 11/06/2026 文档日期命中 PHIP 0。",
+      "summary": "6 月 11 日联交所 AP 新增 2 家、PHIP 新增 1 家；AP 与 PHIP 分开展示并与顶部 metrics 保持一致。已复核 HKEX AP-only JSON：top-level app 数组 414 条（较早报 413 条新增安徽華創及奥迪威条目），按 11/06/2026 文档日期命中 AP 2；AP/PHIP JSON：top-level app 数组 15 条，按 11/06/2026 文档日期命中 PHIP 1（北京海光芯正）。",
       "metrics": {
-        "apNewCount": 1,
-        "phipCount": 0
+        "apNewCount": 2,
+        "phipCount": 1
       },
       "apApplications": [
         {
@@ -119,9 +119,71 @@
             "HKEX Huachuang AP 多档案",
             "HKEX Huachuang OC 委任公告"
           ]
+        },
+        {
+          "company": "广东奥迪威传感科技股份有限公司",
+          "companyEn": "Audiowell Electronics (Guangdong) Co., Ltd.",
+          "eventType": "Application Proof (1st submission)",
+          "status": "NEW AP",
+          "filingDate": "2026-06-11",
+          "listingStructure": "H 股（中国境内股份有限公司，A+H 双重上市；A股代码 920491.BJ）",
+          "industry": "科技 / 电子元器件",
+          "subIndustry": "智能传感器与执行器（超声波/压电传感器及执行器）",
+          "businessSummary": "公司为全球智能传感器与执行器 IDM 厂商，产品涵盖超声波测距/流量/触觉传感器、ADAS 泊车传感器（AKII 系列为中国首个量产 ADAS 超声波传感器）、压电泵/雾化换能器/声学组件等，应用于智能家居、智能汽车、智能终端与智能制造四大领域。据弗若斯特沙利文，公司为2024年中国智能家居传感器收入排名第二、全球汽车超声波传感器/执行器出货量排名第三、中国汽车传感器出货量排名第三。>40% 收入来自海外，客户遍及 46+ 国家。",
+          "businessSource": "AP Summary/Business 章节（via 搜索结果摘要及 Frost & Sullivan 引用，待直接复核 AP 原文 Business 章节）",
+          "intermediaries": {
+            "sponsors": "China Merchants Securities International（招商证券国际）",
+            "overallCoordinators": "待 AP 封面页及董事及参与方章节复核",
+            "reportingAccountants": "BDO Shu Lun Pan（立信德豪）",
+            "companyPRCLegalAdviser": "JunHe（君合）",
+            "companyHKLegalAdviser": "JunHe HK（君合香港）",
+            "sponsorPRCLegalAdviser": "King & Wood Mallesons（金杜）",
+            "sponsorHKLegalAdviser": "KWM Hong Kong（金杜香港）",
+            "complianceAdviser": "Chuang Sheng Capital（创升融资）",
+            "industryConsultant": "Frost & Sullivan（弗若斯特沙利文）"
+          },
+          "sources": [
+            "HKEX Audiowell AP 全文",
+            "HKEX Audiowell AP 多档案",
+            "HKEX Audiowell OC 委任公告"
+          ]
         }
       ],
-      "phipApplications": [],
+      "phipApplications": [
+        {
+          "company": "北京海光芯正科技股份有限公司",
+          "companyEn": "Crealights Technology Co., Ltd.",
+          "eventType": "PHIP (1st submission)",
+          "status": "PHIP",
+          "filingDate": "2026-06-11",
+          "listingStructure": "H 股（中国境内股份有限公司）",
+          "industry": "科技 / 光通信",
+          "subIndustry": "光模块 / 硅光芯片 / AI 数据中心互联",
+          "businessSummary": "公司为光电互联产品供应商，核心产品涵盖 100G/200G/400G/800G 光模块（400G+ 单模均采用硅光技术）、有源光缆（AOC）、有源电电缆（AEC），正在研发 1.6T/3.2T 及 NPO/CPO 产品。产品主要部署于 AI 数据中心，为国内首批实现 400G 及 800G AI 光模块量产交付的企业之一，也是全球少数同时具备硅光芯片设计与模块量产能力的厂商。据行业排名，2024 年在全球专业光模块厂商中收入排名第 10、全球 AI 光模块厂商排名第 6。主要客户包括中美头部互联网公司。收入从 2022 年 RMB 1.03 亿增长至 2024 年 RMB 8.62 亿，仍处于亏损收窄期。",
+          "businessSource": "PHIP Summary/Business 章节（via 搜索结果摘要及 Frost & Sullivan 引用，待直接复核 PHIP 原文 Business 章节）",
+          "timeline": [
+            { "label": "首次递交上市申请", "value": "2025-10-31（申请编号 SEHK/2025/107839）" },
+            { "label": "更新招股书", "value": "2026-05-07（申请编号 SEHK/2026/108513）" },
+            { "label": "通过聆讯（PHIP 发布）", "value": "2026-06-11" }
+          ],
+          "intermediaries": {
+            "sponsors": "Huatai International（华泰国际）",
+            "overallCoordinators": "待 PHIP 封面页及董事及参与方章节复核",
+            "reportingAccountants": "Ernst & Young（安永）",
+            "companyPRCLegalAdviser": "Guohao（国浩）",
+            "companyHKUSLegalAdviser": "Paul Hastings（普衡）",
+            "underwritersPRCLegalAdviser": "Jingtian & Gongcheng（竞天公诚）",
+            "underwritersHKUSLegalAdviser": "Latham & Watkins（瑞生）",
+            "complianceAdviser": "Jialin Capital（嘉林资本）",
+            "industryConsultant": "Frost & Sullivan（弗若斯特沙利文）"
+          },
+          "sources": [
+            "HKEX Crealights PHIP 全文",
+            "HKEX Crealights PHIP 多档案",
+            "HKEX Crealights OC 委任公告"
+          ]
+        }
+      ],
       "sources": [
         "Application Proof / PHIP",
         "HKEX AP structured JSON",
@@ -206,6 +268,12 @@
     "HKEX Huachuang AP 全文": "https://www1.hkexnews.hk/app/sehk/2026/108632/documents/sehk26061100226.pdf",
     "HKEX Huachuang AP 多档案": "https://www1.hkexnews.hk/app/sehk/2026/108632/2026061100155.htm",
     "HKEX Huachuang OC 委任公告": "https://www1.hkexnews.hk/app/sehk/2026/108632/documents/sehk26061100228.pdf",
+    "HKEX Audiowell AP 全文": "https://www1.hkexnews.hk/app/sehk/2026/108633/documents/sehk26061100585.pdf",
+    "HKEX Audiowell AP 多档案": "https://www1.hkexnews.hk/app/sehk/2026/108633/2026061100454.htm",
+    "HKEX Audiowell OC 委任公告": "https://www1.hkexnews.hk/app/sehk/2026/108633/documents/sehk26061100587.pdf",
+    "HKEX Crealights PHIP 全文": "https://www1.hkexnews.hk/app/sehk/2026/108513/documents/sehk26061101522.pdf",
+    "HKEX Crealights PHIP 多档案": "https://www1.hkexnews.hk/app/sehk/2026/108513/2026061101517.htm",
+    "HKEX Crealights OC 委任公告": "https://www1.hkexnews.hk/app/sehk/2026/108513/documents/sehk26061101590.pdf",
     "HKEX HQVT Prospectus": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0611/2026061100015.pdf",
     "HKEX HQVT New Listing Announcement": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0611/2026061100005.pdf",
     "CSRC 境外发行上市备案通知书": "https://www.csrc.gov.cn/csrc/c105984/zfxxgk_zdgk.shtml",

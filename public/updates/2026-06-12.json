@@ -1,0 +1,177 @@
+{
+  "date": "2026-06-12",
+  "reportType": "morning",
+  "title": "资本市场快报",
+  "subtitle": "数据截至 2026-06-12 早盘；联交所 AP/PHIP 暂无新增，港股新挂牌暂无（多只新股招股进行中：溜溜梅 6658 预计 6/15 挂牌、琻捷电子 6675 预计 6/17 挂牌、星源材质 6067 及华健未来 6132 预计 6/23 挂牌），证监会暂无新增，美股中概 IPO 暂无新增。",
+  "statusNote": "6 月 12 日联交所 Application Proof / PHIP 官方结构化数据复核后，AP 暂无新增、PHIP 暂无新增。已复核 HKEX AP-only JSON：top-level app 数组 413 条，按 12/06/2026 文档日期命中 AP 0；AP/PHIP JSON：top-level app 数组 15 条，按 12/06/2026 文档日期命中 PHIP 0。港股新挂牌：今日无新股挂牌；多只新股处于招股期——溜溜梅（06658）招股已截止（6 月 10 日），预计 6 月 15 日挂牌；琻捷电子（06675）今日中午截止招股，预计 6 月 17 日挂牌；星源材质（06067）及华健未来-B（06132）今日开始招股（6 月 12 日至 17 日），预计 6 月 23 日挂牌；海清智元（01392）招股中（6 月 11 日至 16 日），预计 6 月 22 日挂牌。证监会境外发行上市备案栏目最新补充材料要求公示截至 6 月 5 日，备案进度表截至 6 月 5 日；今日为周五，18:00 后为 CSRC 高频更新窗口，收盘后日报将再复核。美股中概 IPO：SEC EDGAR 6 月 11 日—12 日无 EFFECT 事件，SAMFINE CREATION HOLDINGS GROUP Ltd（SFHG）F-1 为已上市公司（2024 年 9 月 IPO）增发注册，非新 IPO；QQJ Inc. F-1/A 为注册声明修订，非首次定价或上市事件。上一个交易日（6 月 11 日）资本市场日报档案已补充收盘后新增信息，请注意查看（AP 计数由 1 修正为 2，新增奥迪威 AP；PHIP 计数由 0 修正为 1，新增海光芯正 PHIP）。",
+  "marketStatus": "港股正常开市；美股正常开市。",
+  "metrics": {
+    "hkexNewListings": 0,
+    "apNewCount": 0,
+    "phipCount": 0,
+    "csrcCount": 0,
+    "usChinaIpoCount": 0
+  },
+  "sections": [
+    {
+      "title": "港股新挂牌",
+      "summary": "该类别当日暂无新增事件。多只新股处于招股期：溜溜梅（06658）预计 6 月 15 日挂牌；琻捷电子（06675）预计 6 月 17 日挂牌；星源材质（06067）及华健未来-B（06132）今日起招股，预计 6 月 23 日挂牌；海清智元（01392）招股中，预计 6 月 22 日挂牌。",
+      "items": [
+        {
+          "company": "溜溜梅",
+          "companyEn": "Liuliumei Co., Ltd.",
+          "stockCode": "06658",
+          "eventType": "ipo_subscription_closed_awaiting_listing",
+          "status": "招股已截止（待挂牌）",
+          "filingDate": "2026-05-26",
+          "listingDate": "预计 2026-06-15",
+          "listingStructure": "待招股书复核",
+          "industry": "消费",
+          "subIndustry": "休闲零食",
+          "businessSummary": "溜溜梅为休闲零食企业，主营梅类休闲食品。待招股书业务章节复核后补充详细业务简介。",
+          "businessSource": "待招股书 Business/Summary 章节复核",
+          "sources": [
+            "HKEX New Listing Information"
+          ]
+        },
+        {
+          "company": "琻捷电子",
+          "companyEn": "SENASIC Electronics Technology Co., Ltd.",
+          "stockCode": "06675",
+          "eventType": "ipo_subscription_deadline_today",
+          "status": "招股截止日（6 月 12 日中午）",
+          "filingDate": "2026-05-10",
+          "listingDate": "预计 2026-06-17",
+          "listingStructure": "待招股书复核",
+          "industry": "科技 / 半导体",
+          "subIndustry": "传感器芯片",
+          "businessSummary": "琻捷电子为传感器芯片设计企业。待招股书业务章节复核后补充详细业务简介。",
+          "businessSource": "待招股书 Business/Summary 章节复核",
+          "sources": [
+            "HKEX New Listing Information"
+          ]
+        },
+        {
+          "company": "星源材质",
+          "companyEn": "Shenzhen Senior Technology Material Co., Ltd.",
+          "stockCode": "06067",
+          "eventType": "ipo_subscription_opens",
+          "status": "今日起招股（6 月 12 日至 17 日）",
+          "filingDate": "2026-01-30",
+          "listingDate": "预计 2026-06-23",
+          "listingStructure": "H 股（中国境内股份有限公司）",
+          "industry": "工业 / 材料",
+          "subIndustry": "锂电池隔膜",
+          "businessSummary": "星源材质为锂电池隔膜制造商。待招股书业务章节复核后补充详细业务简介。",
+          "businessSource": "待招股书 Business/Summary 章节复核",
+          "sources": [
+            "HKEX New Listing Information"
+          ]
+        },
+        {
+          "company": "华健未来-B",
+          "companyEn": "HJ Science Co., Ltd. - B",
+          "stockCode": "06132",
+          "eventType": "ipo_subscription_opens",
+          "status": "今日起招股（6 月 12 日至 17 日）",
+          "filingDate": "2026-05-11",
+          "listingDate": "预计 2026-06-23",
+          "listingStructure": "H 股（中国境内股份有限公司，18B 生物科技公司）",
+          "industry": "医疗健康",
+          "subIndustry": "创新药",
+          "businessSummary": "华健未来为创新药研发企业（18B 生物科技公司）。待招股书业务章节复核后补充详细业务简介。",
+          "businessSource": "待招股书 Business/Summary 章节复核",
+          "sources": [
+            "HKEX New Listing Information"
+          ]
+        },
+        {
+          "company": "海清智元",
+          "companyEn": "Shenzhen HQVT Technology Co., Ltd.",
+          "stockCode": "01392",
+          "eventType": "ipo_subscription_ongoing",
+          "status": "招股中（6 月 11 日至 16 日）",
+          "filingDate": "2026-03-16",
+          "listingDate": "预计 2026-06-22",
+          "listingStructure": "H 股（中国境内股份有限公司）",
+          "industry": "AI / 科技",
+          "subIndustry": "多光谱AI（multi-spectral AI）",
+          "businessSummary": "公司为中国多光谱AI技术企业，专注于多特定光谱波段光学信息的获取、处理与分析。据弗若斯特沙利文，公司为中国多光谱AI公司收入排名第一（2025年，3.3%市场份额）。",
+          "businessSource": "招股书概要章节（via AASTOCKS 新闻摘要及 Frost & Sullivan 引用，待直接复核招股书 Business/Summary 章节）",
+          "sources": [
+            "HKEX New Listing Information",
+            "HKEX HQVT Prospectus"
+          ]
+        }
+      ],
+      "sources": [
+        "HKEX Newly Listed Securities",
+        "HKEX New Listing Information"
+      ]
+    },
+    {
+      "title": "港股递表/聆讯",
+      "summary": "该类别当日暂无新增事件。已复核 HKEX AP-only JSON：top-level app 数组 413 条，按 12/06/2026 文档日期命中 AP 0；AP/PHIP JSON：top-level app 数组 15 条，按 12/06/2026 文档日期命中 PHIP 0。上一个交易日（6 月 11 日）AP 新增 2 家（安徽華創 + 广东奥迪威）、PHIP 新增 1 家（北京海光芯正）已在早报复核中补充进 6 月 11 日档案。",
+      "metrics": {
+        "apNewCount": 0,
+        "phipCount": 0
+      },
+      "apApplications": [],
+      "phipApplications": [],
+      "sources": [
+        "Application Proof / PHIP",
+        "HKEX AP structured JSON",
+        "HKEX AP/PHIP structured JSON"
+      ]
+    },
+    {
+      "title": "证监会备案",
+      "summary": "该类别当日暂无新增事件。最新补充材料要求公示截至 2026-06-05（涵盖 6 月 1 日—5 日），备案进度表截至 2026-06-05。今日为周五，18:00 后为 CSRC 高频更新窗口，收盘后日报将再复核。",
+      "items": [],
+      "sources": [
+        "CSRC 境外发行上市备案通知书",
+        "CSRC 境外上市类补充材料要求",
+        "CSRC 境外发行上市备案进度表"
+      ]
+    },
+    {
+      "title": "美股中概 IPO",
+      "summary": "该类别当日暂无新增事件。SEC EDGAR 6 月 11 日—12 日无 EFFECT 事件。SAMFINE CREATION HOLDINGS GROUP Ltd（SFHG，香港商业印刷公司）F-1 为已上市公司（2024 年 9 月 IPO，NASDAQ: SFHG）增发注册（best-efforts 发售最多 $5.5M A 类普通股），非新 IPO。QQJ Inc.（杭州）F-1/A 为注册声明修订，非首次定价或上市事件。",
+      "items": [],
+      "notCounted": [
+        {
+          "company": "SAMFINE CREATION HOLDINGS GROUP Ltd (SFHG)",
+          "eventType": "F-1 (follow-on offering, NOT new IPO)",
+          "note": "公司已于 2024 年 9 月 30 日通过 F-1 上市（NASDAQ: SFHG），本次 F-1 为 best-efforts 增发最多 $5.5M A 类普通股，非首次上市。",
+          "sources": ["SEC EDGAR F-1 2026-06-11"]
+        },
+        {
+          "company": "QQJ Inc.",
+          "eventType": "F-1/A (amendment, NOT new IPO)",
+          "note": "杭州注册公司 F-1/A 注册声明修订，非首次定价或上市事件。",
+          "sources": ["SEC EDGAR F-1/A 2026-06-11"]
+        }
+      ],
+      "sources": [
+        "SEC EDGAR",
+        "Nasdaq IPO Calendar",
+        "NYSE IPO Center"
+      ]
+    }
+  ],
+  "sourceLinks": {
+    "HKEX New Listing Information": "https://www1.hkexnews.hk/app/appindex.html?lang=zh",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=zh-HK",
+    "Application Proof / PHIP": "https://www1.hkexnews.hk/app/appindex.html?lang=zh",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC 境外发行上市备案通知书": "https://www.csrc.gov.cn/csrc/c105984/zfxxgk_zdgk.shtml",
+    "CSRC 境外上市类补充材料要求": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "CSRC 境外发行上市备案进度表": "https://www.csrc.gov.cn/csrc/c106251/c7637494/content.shtml",
+    "SEC EDGAR": "https://www.sec.gov/edgar/search/",
+    "SEC EDGAR SAMFINE CREATION F-1": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001926792",
+    "SEC EDGAR QQJ Inc. F-1/A": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001907197",
+    "Nasdaq IPO Calendar": "https://www.nasdaq.com/market-activity/ipos",
+    "NYSE IPO Center": "https://www.nyse.com/ipo-center/filings"
+  }
+}
