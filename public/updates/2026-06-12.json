@@ -2,131 +2,28 @@
   "dailyReports": {
     "2026-06-12": {
       "date": "2026-06-12",
-      "reportType": "morning",
       "title": "资本市场快报",
-      "statusNote": "6 月 12 日联交所 Application Proof / PHIP 官方结构化数据复核后，AP 暂无新增、PHIP 暂无新增。已复核 HKEX AP-only JSON：top-level app 数组 413 条，按 12/06/2026 文档日期命中 AP 0；AP/PHIP JSON：top-level app 数组 16 条，按 12/06/2026 文档日期命中 PHIP 0。港股新挂牌：今日无新股挂牌；多只新股处于招股期——溜溜梅（06658）招股已截止（6 月 10 日），预计 6 月 15 日挂牌；琻捷电子（06675）今日中午截止招股，预计 6 月 17 日挂牌；星源材质（06067）及华健未来-B（06132）今日开始招股（6 月 12 日至 17 日），预计 6 月 23 日挂牌；海清智元（01392）招股中（6 月 11 日至 16 日），预计 6 月 22 日挂牌。证监会境外发行上市备案栏目最新补充材料要求公示截至 6 月 5 日，备案进度表截至 6 月 5 日；今日为周五，18:00 后为 CSRC 高频更新窗口，收盘后日报将再复核。美股中概 IPO：SEC EDGAR 6 月 12 日无 EFFECT 事件、无 F-1/F-1/A 境内关联公司新递交。上一个交易日（6 月 11 日）资本市场日报档案已补充收盘后新增信息，请注意查看（AP 计数由 1 修正为 2，新增奥迪威 AP；PHIP 计数由 0 修正为 1，新增海光芯正 PHIP）。",
+      "subtitle": "6 月 12 日各栏目暂无新增事件",
+      "statusNote": "6 月 12 日联交所 Application Proof / PHIP 官方结构化数据复核后，AP 暂无新增、PHIP 暂无新增。已复核 HKEX AP-only JSON：top-level app 数组 413 条，按 12/06/2026 文档日期命中 1 行（Jiangsu BBL Home Technology Company Limited / 江蘇貝爾家居科技股份有限公司，文档类型为 OC Announcement - Appointment (Revised)，非 Application Proof，按规则不计为 AP）；AP+PHIP JSON：top-level app 数组 16 条，按 12/06/2026 文档日期命中 PHIP 0。港股新挂牌：今日无新股挂牌；多只新股处于招股期——溜溜梅（06658）招股已截止（6 月 10 日），预计 6 月 15 日挂牌；琻捷电子（06675）今日中午截止招股，预计 6 月 17 日挂牌；星源材质（06067）及华健未来-B（06132）今日开始招股（6 月 12 日至 17 日），预计 6 月 23 日挂牌；海清智元（01392）招股中（6 月 11 日至 16 日），预计 6 月 22 日挂牌。证监会境外发行上市备案栏目最新补充材料要求公示截至 6 月 5 日，备案进度表截至 6 月 5 日，6 月 6 日至 12 日暂未见新增；今日为周五，18:00 后为 CSRC 高频更新窗口，收盘后日报将再复核。美股中概 IPO：SEC EDGAR 6 月 12 日无 EFFECT 事件、无 F-1/F-1/A 境内关联公司新递交。",
+      "archiveNotice": "",
       "observations": [
-        "溜溜梅（06658）招股已截止（6 月 10 日），预计 6 月 15 日挂牌。",
-        "琻捷电子（06675）今日中午截止招股，预计 6 月 17 日挂牌。",
-        "星源材质（06067）及华健未来-B（06132）今日起招股（6 月 12 日至 17 日），预计 6 月 23 日挂牌。",
-        "海清智元（01392）招股中（6 月 11 日至 16 日），预计 6 月 22 日挂牌。",
-        "今日为周五，CSRC 18:00 后为高频更新窗口，收盘后日报将再复核。"
+        "港股新挂牌：今日无新股挂牌。溜溜梅（06658）招股已截止（6 月 10 日），预计 6 月 15 日挂牌；琻捷电子（06675）今日中午截止招股，预计 6 月 17 日挂牌；星源材质（06067）及华健未来-B（06132）今日起招股（6 月 12 日至 17 日），预计 6 月 23 日挂牌；海清智元（01392）招股中（6 月 11 日至 16 日），预计 6 月 22 日挂牌。",
+        "港股递表/聆讯：已复核 HKEX AP-only JSON（app.length=413）及 AP+PHIP JSON（app.length=16），6/12 无 AP 或 PHIP 新增。江蘇貝爾家居科技股份有限公司 6/12 发布 OC 委任修订公告（AP 于 5/29 递交），按规则不计为 AP。",
+        "证监会备案：最新补充材料要求公示截至 2026-06-05，备案进度表截至 2026-06-05。今日为周五，18:00 后为 CSRC 高频更新窗口，收盘后日报将再复核。",
+        "美股中概 IPO：SEC EDGAR 6 月 12 日无 EFFECT 事件、无 F-1/F-1/A 境内关联公司新递交。"
       ],
-      "deals": [
-        {
-          "id": "hkex-no-ipo-20260612",
-          "section": "港股新挂牌",
-          "type": "今日新上市",
-          "status": "该类别当日暂无新增事件",
-          "company": {
-            "zh": "今日无 IPO 新挂牌公司",
-            "en": "No IPO New Listing",
-            "display": "今日无 IPO 新挂牌公司",
-            "exchange": "HKEX",
-            "board": "主板 / GEM",
-            "listingStructure": "不适用"
-          },
-          "business": {
-            "summary": "2026-06-12 港交所新上市证券清单未见 IPO 新挂牌。",
-            "sector": "港股新挂牌监控"
-          },
-          "monitorItems": [
-            "该类别当日暂无新增事件"
-          ],
-          "links": [
-            "HKEX Newly Listed Securities",
-            "HKEX New Listing Information"
-          ]
-        },
-        {
-          "id": "hkex-ap-phip-20260612",
-          "section": "港股递表/聆讯",
-          "type": "AP / PHIP 更新",
-          "status": "该类别当日暂无新增事件",
-          "company": {
-            "zh": "港交所 AP & PHIP 页面日内更新监控",
-            "en": "HKEX AP & PHIP Monitor",
-            "display": "港交所 AP & PHIP 页面日内更新监控（2026-06-12）",
-            "exchange": "HKEX",
-            "board": "Application Proof / PHIP",
-            "listingStructure": "多家公司"
-          },
-          "business": {
-            "summary": "该类别当日暂无新增事件。已复核 HKEX AP-only JSON：top-level app 数组 413 条，按 12/06/2026 文档日期命中 AP 0；AP/PHIP JSON：top-level app 数组 16 条，按 12/06/2026 文档日期命中 PHIP 0。上一个交易日（6 月 11 日）AP 新增 2 家（安徽華創 + 广东奥迪威）、PHIP 新增 1 家（北京海光芯正）已在早报复核中补充进 6 月 11 日档案。",
-            "sector": "港股 IPO pipeline"
-          },
-          "metrics": {
-            "apNewCount": 0,
-            "phipCount": 0
-          },
-          "apApplications": [],
-          "phipApplications": [],
-          "monitorItems": [
-            "该类别当日暂无新增事件"
-          ],
-          "links": [
-            "Application Proof / PHIP",
-            "HKEX AP structured JSON",
-            "HKEX AP/PHIP structured JSON"
-          ]
-        },
-        {
-          "id": "csrc-no-new-20260612",
-          "section": "证监会备案",
-          "type": "境外上市备案",
-          "status": "该类别当日暂无新增事件",
-          "company": {
-            "zh": "今日未见新增境外上市备案公示",
-            "en": "No New CSRC Overseas Listing Filing",
-            "display": "今日未见新增境外上市备案公示",
-            "exchange": "CSRC",
-            "board": "境外发行上市备案",
-            "listingStructure": "不适用"
-          },
-          "business": {
-            "summary": "该类别当日暂无新增事件。最新补充材料要求公示截至 2026-06-05（涵盖 6 月 1 日—5 日），备案进度表截至 2026-06-05。今日为周五，18:00 后为 CSRC 高频更新窗口，收盘后日报将再复核。",
-            "sector": "证监会备案监控"
-          },
-          "monitorItems": [
-            "该类别当日暂无新增事件"
-          ],
-          "links": [
-            "CSRC 境外发行上市备案通知书",
-            "CSRC 境外上市类补充材料要求",
-            "CSRC 境外发行上市备案进度表"
-          ]
-        },
-        {
-          "id": "us-china-ipo-no-new-20260612",
-          "section": "美股中概",
-          "type": "SEC 公开递交/上市",
-          "status": "该类别当日暂无新增事件",
-          "company": {
-            "zh": "今日未见重点美股中概 IPO 新事件",
-            "en": "No material US-listed Chinese IPO event found",
-            "display": "今日未见重点美股中概 IPO 新事件",
-            "exchange": "SEC / NYSE / Nasdaq",
-            "board": "F-1 / EFFECT / 8-A / Listing",
-            "listingStructure": "不适用"
-          },
-          "business": {
-            "summary": "该类别当日暂无新增事件。SEC EDGAR 6 月 12 日无 EFFECT 事件、无 F-1/F-1/A 境内关联公司新递交。",
-            "sector": "美股中概监控"
-          },
-          "monitorItems": [
-            "该类别当日暂无新增事件"
-          ],
-          "links": [
-            "SEC EDGAR",
-            "Nasdaq IPO Calendar",
-            "NYSE IPO Center"
-          ]
-        }
-      ]
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "deals": []
     }
   },
   "linkMap": {
-    "HKEX New Listing Information": "https://www1.hkexnews.hk/app/appindex.html?lang=zh",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/new-listings/new-listing-information/main-board?sc_lang=en",
     "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=zh-HK",
     "Application Proof / PHIP": "https://www1.hkexnews.hk/app/appindex.html?lang=zh",
     "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
