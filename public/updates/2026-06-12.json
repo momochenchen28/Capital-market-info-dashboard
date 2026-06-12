@@ -4,14 +4,13 @@
       "date": "2026-06-12",
       "reportType": "morning",
       "title": "资本市场快报",
-      "statusNote": "6 月 12 日联交所 Application Proof / PHIP 官方结构化数据复核后，AP 暂无新增、PHIP 暂无新增。已复核 HKEX AP-only JSON：top-level app 数组 413 条，按 12/06/2026 文档日期命中 AP 0；AP/PHIP JSON：top-level app 数组 16 条，按 12/06/2026 文档日期命中 PHIP 0。港股新挂牌：今日无新股挂牌；多只新股处于招股期——溜溜梅（06658）招股已截止（6 月 10 日），预计 6 月 15 日挂牌；琻捷电子（06675）今日中午截止招股，预计 6 月 17 日挂牌；星源材质（06067）及华健未来-B（06132）今日开始招股（6 月 12 日至 17 日），预计 6 月 23 日挂牌；海清智元（01392）招股中（6 月 11 日至 16 日），预计 6 月 22 日挂牌。证监会境外发行上市备案栏目最新补充材料要求公示截至 6 月 5 日，备案进度表截至 6 月 5 日；今日为周五，18:00 后为 CSRC 高频更新窗口，收盘后日报将再复核。美股中概 IPO：SEC EDGAR 6 月 11 日—12 日无 EFFECT 事件，SAMFINE CREATION HOLDINGS GROUP Ltd（SFHG）F-1 为已上市公司（2024 年 9 月 IPO）增发注册，非新 IPO；QQJ Inc. F-1/A 为注册声明修订，非首次定价或上市事件。上一个交易日（6 月 11 日）资本市场日报档案已补充收盘后新增信息，请注意查看（AP 计数由 1 修正为 2，新增奥迪威 AP；PHIP 计数由 0 修正为 1，新增海光芯正 PHIP）。",
+      "statusNote": "6 月 12 日联交所 Application Proof / PHIP 官方结构化数据复核后，AP 暂无新增、PHIP 暂无新增。已复核 HKEX AP-only JSON：top-level app 数组 413 条，按 12/06/2026 文档日期命中 AP 0；AP/PHIP JSON：top-level app 数组 16 条，按 12/06/2026 文档日期命中 PHIP 0。港股新挂牌：今日无新股挂牌；多只新股处于招股期——溜溜梅（06658）招股已截止（6 月 10 日），预计 6 月 15 日挂牌；琻捷电子（06675）今日中午截止招股，预计 6 月 17 日挂牌；星源材质（06067）及华健未来-B（06132）今日开始招股（6 月 12 日至 17 日），预计 6 月 23 日挂牌；海清智元（01392）招股中（6 月 11 日至 16 日），预计 6 月 22 日挂牌。证监会境外发行上市备案栏目最新补充材料要求公示截至 6 月 5 日，备案进度表截至 6 月 5 日；今日为周五，18:00 后为 CSRC 高频更新窗口，收盘后日报将再复核。美股中概 IPO：SEC EDGAR 6 月 12 日无 EFFECT 事件、无 F-1/F-1/A 境内关联公司新递交。上一个交易日（6 月 11 日）资本市场日报档案已补充收盘后新增信息，请注意查看（AP 计数由 1 修正为 2，新增奥迪威 AP；PHIP 计数由 0 修正为 1，新增海光芯正 PHIP）。",
       "observations": [
-        "溜溜梅（06658）招股已截止，预计 6 月 15 日挂牌。",
+        "溜溜梅（06658）招股已截止（6 月 10 日），预计 6 月 15 日挂牌。",
         "琻捷电子（06675）今日中午截止招股，预计 6 月 17 日挂牌。",
         "星源材质（06067）及华健未来-B（06132）今日起招股（6 月 12 日至 17 日），预计 6 月 23 日挂牌。",
         "海清智元（01392）招股中（6 月 11 日至 16 日），预计 6 月 22 日挂牌。",
-        "SAMFINE CREATION HOLDINGS GROUP Ltd (SFHG) F-1 为已上市公司（2024 年 9 月 IPO，NASDAQ: SFHG）增发注册，非新 IPO。",
-        "QQJ Inc. F-1/A 为注册声明修订，非首次定价或上市事件。"
+        "今日为周五，CSRC 18:00 后为高频更新窗口，收盘后日报将再复核。"
       ],
       "deals": [
         {
@@ -111,7 +110,7 @@
             "listingStructure": "不适用"
           },
           "business": {
-            "summary": "该类别当日暂无新增事件。SEC EDGAR 6 月 11 日—12 日无 EFFECT 事件。SAMFINE CREATION HOLDINGS GROUP Ltd（SFHG，香港商业印刷公司）F-1 为已上市公司（2024 年 9 月 IPO，NASDAQ: SFHG）增发注册（best-efforts 发售最多 $5.5M A 类普通股），非新 IPO。QQJ Inc.（杭州）F-1/A 为注册声明修订，非首次定价或上市事件。",
+            "summary": "该类别当日暂无新增事件。SEC EDGAR 6 月 12 日无 EFFECT 事件、无 F-1/F-1/A 境内关联公司新递交。",
             "sector": "美股中概监控"
           },
           "monitorItems": [
@@ -136,8 +135,6 @@
     "CSRC 境外上市类补充材料要求": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
     "CSRC 境外发行上市备案进度表": "https://www.csrc.gov.cn/csrc/c106251/c7637494/content.shtml",
     "SEC EDGAR": "https://www.sec.gov/edgar/search/",
-    "SEC EDGAR SAMFINE CREATION F-1": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001926792",
-    "SEC EDGAR QQJ Inc. F-1/A": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001907197",
     "Nasdaq IPO Calendar": "https://www.nasdaq.com/market-activity/ipos",
     "NYSE IPO Center": "https://www.nyse.com/ipo-center/filings"
   }
