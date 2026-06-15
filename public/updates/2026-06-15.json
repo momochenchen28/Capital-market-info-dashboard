@@ -4,13 +4,14 @@
       "date": "2026-06-15",
       "title": "资本市场快报",
       "subtitle": "港股正常交易日；早盘已见 1 家新挂牌、1 家新递表，PHIP 暂无新增，证监会上午暂无单家公司新增备案通知。",
-      "statusNote": "数据截至 2026-06-15 上午复核。今日为港股交易日：HKEX Newly Listed Securities 显示溜溜梅（06658）于 15/06/2026 开始买卖；HKEX AP-only JSON app.length=415，按 15/06/2026 文档日期命中 1 家 Application Proof（Kaifeng Millennium City Park Inc. / 开封清明上河园股份有限公司）；HKEX AP+PHIP JSON app.length=20，按 15/06/2026 暂无 PHIP 命中。证监会官网公司专项备案通知检索未见 2026-06-15 新增；上一个交易日 2026-06-12 已复核到潮州三环、安克创新两家备案通知及 6/8-6/12 补充材料公示，今日上午未见较既有归档新增差异。",
-      "archiveNotice": "",
+      "statusNote": "数据截至 2026-06-15 上午复核。今日为港股交易日：HKEX Newly Listed Securities 显示溜溜梅（06658）于 15/06/2026 开始买卖；HKEX AP-only JSON app.length=415，按 15/06/2026 文档日期命中 1 家 Application Proof（Kaifeng Millennium City Park Inc. / 开封清明上河园股份有限公司）；HKEX AP+PHIP JSON app.length=20，按 15/06/2026 暂无 PHIP 命中。证监会官网公司专项备案通知检索未见 2026-06-15 新增；中间非交易日 2026-06-14 已单独补建档案，记录 AP 2 家、PHIP 4 家。",
+      "archiveNotice": "上一个交易日至今日之间的非交易日档案已补充：2026-06-14 港交所 AP/PHIP 文件系统有更新，请注意查看。",
       "observations": [
         "交易日判断：2026-06-15 为港股正常交易日；今日新挂牌公司按 HKEX Newly Listed Securities 的 15/06/2026 实际开始买卖日期确认。",
-        "港股新挂牌：溜溜梅（06658 / LIULIUMEI）今日挂牌。快报阶段已确认港交所新上市清单和新上市信息页；发行、基石、中介及首日行情字段保留为待官方招股书/配发结果/行情源进一步复核。",
-        "港股递表/聆讯：AP 新增 1 家，为开封清明上河园股份有限公司 / Kaifeng Millennium City Park Inc.；PHIP 暂无新增。已核对 AP-only JSON app.length=415、AP+PHIP JSON app.length=20。",
-        "证监会备案：2026-06-15 上午未见单家公司新增《境外发行上市备案通知书》。上一个交易日 2026-06-12 已有潮州三环（集团）股份有限公司、安克创新科技股份有限公司两家备案通知，以及 2026年6月8日—2026年6月12日补充材料要求公示；本次复查未见新增差异，因此不触发昨日/上一个交易日档案补充提醒。",
+        "港股新挂牌：溜溜梅（06658 / LIULIUMEI）今日挂牌。配发结果公告已补充发行价、发售股份数、认购倍数、募资额、基石投资人和上市日期；开盘价/收盘价留待行情源和收盘后复核。",
+        "港股递表/聆讯：AP 新增 1 家，为开封清明上河园股份有限公司 / Kaifeng Millennium City Park Inc.；PHIP 暂无新增。",
+        "非交易日回扫：2026-06-14 虽为周日，但 HKEX AP/PHIP 文件系统有 AP 2 家、PHIP 4 家更新，已单独生成 2026-06-14 档案。",
+        "证监会备案：2026-06-15 上午未见单家公司新增《境外发行上市备案通知书》。",
         "美股中概 IPO：早盘阶段未见需要计入本期的中国相关美股 IPO 新事件；晚间日报阶段继续复核 SEC EDGAR。"
       ],
       "metrics": {
@@ -35,13 +36,13 @@
             "ticker": "06658",
             "exchange": "HKEX",
             "board": "Main Board",
-            "listingStructure": "待招股书公司架构章节复核"
+            "listingStructure": "H 股（中国境内股份有限公司）"
           },
           "business": {
             "sector": "消费品 / 休闲食品",
-            "subIndustry": "蜜饯果干及梅类零食",
-            "summary": "公司以“溜溜梅”品牌为市场认知核心，主营梅类及相关休闲食品；快报阶段行业与业务摘要待招股书 Summary/Business 章节逐项复核后在日报补全。",
-            "source": "待招股书 Summary/Business 章节复核"
+            "subIndustry": "梅类及相关休闲食品",
+            "summary": "公司以“溜溜梅”品牌为核心，主营梅类及相关休闲食品；具体产品组合和收入结构待招股书 Summary/Business 章节进一步细化。",
+            "source": "招股书及配发结果公告"
           },
           "timeline": {
             "firstFilingDate": "待 HKEX 历史递表记录复核",
@@ -49,32 +50,38 @@
             "csrcReceivedDate": "待证监会备案进度页复核",
             "csrcFilingApprovedDate": "待证监会备案通知书复核",
             "latestHearingDate": "待 HKEX PHIP/聆讯记录复核",
-            "prospectusDate": "待招股书链接复核",
-            "allotmentResultDate": "2026-06-12（HKEX 新上市信息页列示配发结果文件）",
+            "prospectusDate": "2026-06-05",
+            "allotmentResultDate": "2026-06-12",
             "listingDate": "2026-06-15"
           },
           "ipo": {
-            "offerPrice": "待配发结果/招股书复核",
-            "sharesOffered": "待配发结果/招股书复核",
-            "grossProceeds": "待配发结果/招股书复核",
-            "marketCapAtListing": "待招股书复核",
-            "publicOfferSubscription": "待配发结果复核",
-            "internationalOfferSubscription": "待配发结果复核",
-            "cornerstoneInvestors": "待招股书及配发结果复核",
-            "cornerstonePercentage": "待配发结果复核"
+            "offerPrice": "HK$43.58",
+            "sharesOffered": "11,464,100 H Shares",
+            "hongKongOfferShares": "1,146,500 H Shares（10%）",
+            "internationalOfferShares": "10,317,600 H Shares（90%）",
+            "grossProceeds": "约 HK$499.6 million",
+            "netProceeds": "约 HK$440.1 million",
+            "issuedSharesUponListing": "78,811,208 Shares",
+            "publicOfferSubscription": "约 6,586.73 倍；有效申请 180,507 份，成功申请 11,465 份",
+            "internationalOfferSubscription": "约 2.64 倍；承配人 64 名",
+            "overAllotment": "无超额配股；超额配股权不会获行使",
+            "cornerstoneInvestors": "Fanchang Revitalization：1,610,000 股（约占发售股份 14.04%）；Top New：1,777,100 股（约占发售股份 15.50%）",
+            "cornerstoneTotalShares": "3,387,100 H Shares",
+            "cornerstonePercentage": "约占发售股份 29.55%，约占上市后总股本 4.30%"
           },
           "marketPerformance": {
-            "offerPrice": "待配发结果/招股书复核",
+            "offerPrice": "HK$43.58",
             "openPrice": "待行情源复核",
             "firstDayClose": "待收盘后复核",
             "openChangePctVsOffer": "待行情源复核",
             "firstDayCloseChangePctVsOffer": "待收盘后复核"
           },
           "intermediaries": {
-            "sponsors": "待招股书封面页复核",
-            "overallCoordinators": "待招股书/配发结果复核",
-            "legalAdvisers": "待招股书董事及参与方章节复核",
-            "reportingAccountants": "待招股书董事及参与方章节复核"
+            "sponsors": "配发结果公告封面以图像/logo 呈现，文本抽取未能稳定识别；待封面视觉/OCR 复核",
+            "overallCoordinators": "待招股书封面及 Underwriting 章节视觉/OCR 复核",
+            "globalCoordinatorsBookrunnersLeadManagers": "待招股书封面及配发结果公告 Underwriting 章节复核",
+            "legalAdvisers": "待招股书 Directors and Parties / 公司资料章节复核",
+            "reportingAccountants": "待招股书 Directors and Parties / 公司资料章节复核"
           },
           "links": [
             "HKEX Newly Listed Securities",
@@ -115,9 +122,9 @@
               "documentType": "Application Proof (1st submission)",
               "status": "AP",
               "sector": "文旅 / 景区运营",
-              "structure": "H 股（中国境内股份有限公司，待 AP 公司架构章节复核）",
+              "structure": "H 股（中国境内股份有限公司）",
               "sponsors": "待 AP 封面页及董事及参与方章节复核",
-              "businessSummary": "公司名称及 AP 记录显示其与开封清明上河园景区运营相关；正式业务简介待 AP 的 Summary/Business 章节复核后补全。",
+              "businessSummary": "公司与开封清明上河园景区运营相关；正式业务简介待 AP 的 Summary/Business 章节复核后补全。",
               "businessSource": "待 AP Business 章节复核",
               "sourceLinks": [
                 "Kaifeng Millennium AP English Full",
@@ -128,11 +135,7 @@
             }
           ],
           "phipApplications": [],
-          "links": [
-            "Application Proof / PHIP",
-            "HKEX AP structured JSON",
-            "HKEX AP/PHIP structured JSON"
-          ]
+          "links": ["Application Proof / PHIP", "HKEX AP structured JSON", "HKEX AP/PHIP structured JSON"]
         }
       ]
     }
@@ -150,12 +153,6 @@
     "Kaifeng Millennium AP Chinese Full": "https://www1.hkexnews.hk/app/sehk/2026/108641/documents/sehk26061500393.pdf",
     "Kaifeng Millennium AP Chinese Pack": "https://www1.hkexnews.hk/app/sehk/2026/108641/2026061500322_c.htm",
     "CSRC Overseas Filing Notice Search": "https://www.csrc.gov.cn/guestweb4/s?searchWord=%E5%A2%83%E5%A4%96%E5%8F%91%E8%A1%8C%E4%B8%8A%E5%B8%82%E5%A4%87%E6%A1%88%E9%80%9A%E7%9F%A5%E4%B9%A6&column=%E5%85%A8%E9%83%A8&wordPlace=0&orderBy=0&startTime=&endTime=&pageSize=20&pageNum=0&siteCode=bm56000001&checkHandle=1",
-    "CSRC Supplement Materials List": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
-    "CSRC Chaozhou Three-Circle Filing Notice": "https://www.csrc.gov.cn/csrc/c105984/c7638864/content.shtml",
-    "CSRC Anker Filing Notice": "https://www.csrc.gov.cn/csrc/c105984/c7638862/content.shtml",
-    "CSRC Supplement Materials 2026-06-08 to 2026-06-12": "https://www.csrc.gov.cn/csrc/c100098/c7638948/content.shtml",
-    "SEC EDGAR": "https://www.sec.gov/edgar/search/",
-    "Nasdaq IPO Calendar": "https://www.nasdaq.com/market-activity/ipos",
-    "NYSE IPO Center": "https://www.nyse.com/ipo-center/filings"
+    "SEC EDGAR": "https://www.sec.gov/edgar/search/"
   }
 }
