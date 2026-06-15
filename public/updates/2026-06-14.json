@@ -1,0 +1,162 @@
+{
+  "dailyReports": {
+    "2026-06-14": {
+      "date": "2026-06-14",
+      "title": "资本市场日报档案",
+      "subtitle": "周日港股休市，但港交所文件系统更新：AP 新增 2 家，PHIP 新增 4 家。",
+      "statusNote": "2026-06-14 为周日，港股二级市场休市，无新挂牌交易；但 HKEX Application Proof / PHIP 官方结构化 JSON 在该自然日有文件发布。已按 14/06/2026 文档日期复核：AP-only JSON app.length=415，命中 2 家 Application Proof；AP+PHIP JSON app.length=20，命中 4 家 PHIP。非交易日仍单独生成档案，避免周一快报吞并周末文件更新。",
+      "archiveNotice": "",
+      "observations": [
+        "交易日判断：2026-06-14 为周日，港股休市，因此港股新挂牌为 0。",
+        "港交所文件更新：虽然休市，但 AP/PHIP 文件系统有自然日更新，AP 2 家、PHIP 4 家，已单独归档。",
+        "证监会备案：该类别当日暂无新增事件。",
+        "美股中概 IPO：该类别当日暂无新增事件。"
+      ],
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 2,
+        "phipCount": 4,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "deals": [
+        {
+          "id": "hkex-ap-phip-20260614",
+          "section": "港股递表/聆讯",
+          "type": "AP / PHIP 更新",
+          "status": "AP 2 家；PHIP 4 家",
+          "eventType": "apPhipUpdate",
+          "countInMetrics": true,
+          "company": {
+            "zh": "港交所 AP & PHIP 页面非交易日更新监控",
+            "en": "HKEX AP & PHIP Weekend Monitor",
+            "display": "港交所 AP & PHIP 页面非交易日更新监控（2026-06-14）",
+            "exchange": "HKEX",
+            "board": "Application Proof / PHIP",
+            "listingStructure": "多家公司"
+          },
+          "business": {
+            "sector": "港股 IPO pipeline",
+            "summary": "6 月 14 日为周日，港股休市，但联交所 AP 新增 2 家、PHIP 新增 4 家；已复核 HKEX AP-only JSON（app.length=415）及 AP+PHIP JSON（app.length=20）。",
+            "source": "HKEX structured JSON"
+          },
+          "metrics": {
+            "apNewCount": 2,
+            "phipCount": 4
+          },
+          "apApplications": [
+            {
+              "nameZh": "视觉（中国）文化发展股份有限公司",
+              "nameEn": "VISUAL CHINA GROUP CO., LTD.",
+              "filingDate": "2026-06-14",
+              "documentType": "Application Proof (1st submission)",
+              "status": "AP",
+              "sector": "数字内容 / 视觉素材版权",
+              "structure": "A+H 股（中国境内股份有限公司，A 股上市公司）",
+              "sponsors": "待 AP 封面页复核",
+              "businessSummary": "公司与视觉内容版权、图片/视频素材及数字内容服务相关；具体业务与收入结构待 AP Summary/Business 章节复核补充。",
+              "businessSource": "AP Business 章节待复核",
+              "sourceLinks": ["HKEX Visual China AP English Full", "HKEX Visual China AP Chinese Full", "HKEX Visual China AP English Pack", "HKEX Visual China AP Chinese Pack"]
+            },
+            {
+              "nameZh": "华院计算技术(上海)股份有限公司",
+              "nameEn": "UniDT Co., Ltd.",
+              "filingDate": "2026-06-14",
+              "documentType": "Application Proof (1st submission)",
+              "status": "AP",
+              "sector": "AI/software / 数据智能",
+              "structure": "H 股（中国境内股份有限公司）",
+              "sponsors": "待 AP 封面页复核",
+              "businessSummary": "公司从事数据智能/计算技术相关业务，具体产品、客户及收入结构待 AP Summary/Business 章节复核补充。",
+              "businessSource": "AP Business 章节待复核",
+              "sourceLinks": ["HKEX UniDT AP English Full", "HKEX UniDT AP Chinese Full", "HKEX UniDT AP English Pack", "HKEX UniDT AP Chinese Pack"]
+            },
+            {
+              "nameZh": "杭州千岛湖鲟龙科技股份有限公司",
+              "nameEn": "Hangzhou Qiandaohu Xunlong Sci-tech Co., Ltd.",
+              "filingDate": "2026-06-14",
+              "documentType": "PHIP (1st submission)",
+              "status": "PHIP",
+              "sector": "消费品 / 水产养殖与鱼子酱",
+              "structure": "H 股（中国境内股份有限公司）",
+              "sponsors": "待 PHIP 封面页复核",
+              "businessSummary": "公司与鲟鱼养殖及相关水产食品业务相关，具体产品结构和收入占比待 PHIP Summary/Business 章节复核补充。",
+              "businessSource": "PHIP Business 章节待复核",
+              "sourceLinks": ["HKEX Xunlong PHIP English Full", "HKEX Xunlong PHIP Chinese Full", "HKEX Xunlong PHIP English Pack", "HKEX Xunlong PHIP Chinese Pack"]
+            },
+            {
+              "nameZh": "安克创新科技股份有限公司",
+              "nameEn": "Anker Innovations Technology Co., Ltd.",
+              "filingDate": "2026-06-14",
+              "documentType": "PHIP (1st submission)",
+              "status": "PHIP",
+              "sector": "消费电子",
+              "structure": "A+H 股（中国境内股份有限公司，A 股上市公司）",
+              "sponsors": "待 PHIP 封面页复核",
+              "businessSummary": "公司为消费电子品牌企业，产品覆盖充电、储能、智能硬件等品类；具体分部和上市口径待 PHIP Summary/Business 章节复核补充。",
+              "businessSource": "PHIP Business 章节待复核",
+              "sourceLinks": ["HKEX Anker PHIP English Full", "HKEX Anker PHIP Chinese Full", "HKEX Anker PHIP English Pack", "HKEX Anker PHIP Chinese Pack"]
+            },
+            {
+              "nameZh": "浙江来福谐波传动股份有限公司",
+              "nameEn": "Zhejiang Laifual Drive Co., Ltd.",
+              "filingDate": "2026-06-14",
+              "documentType": "PHIP (1st submission)",
+              "status": "PHIP",
+              "sector": "工业 / 精密传动与机器人零部件",
+              "structure": "H 股（中国境内股份有限公司）",
+              "sponsors": "待 PHIP 封面页复核",
+              "businessSummary": "公司从事谐波传动及精密传动相关产品，应用于机器人、自动化等场景；具体产品与客户结构待 PHIP Summary/Business 章节复核补充。",
+              "businessSource": "PHIP Business 章节待复核",
+              "sourceLinks": ["HKEX Laifual PHIP English Full", "HKEX Laifual PHIP Chinese Full", "HKEX Laifual PHIP English Pack", "HKEX Laifual PHIP Chinese Pack"]
+            },
+            {
+              "nameZh": "礼邦医药（江苏）股份有限公司 - B",
+              "nameEn": "Alebund Pharmaceuticals (Jiangsu) Limited - B",
+              "filingDate": "2026-06-14",
+              "documentType": "PHIP (1st submission)",
+              "status": "PHIP",
+              "sector": "医疗健康 / 生物科技",
+              "structure": "H 股（中国境内股份有限公司，18A/18B 生物科技公司待复核）",
+              "sponsors": "待 PHIP 封面页复核",
+              "businessSummary": "公司为生物医药企业，具体药物管线、适应症及临床阶段待 PHIP Summary/Business 章节复核补充。",
+              "businessSource": "PHIP Business 章节待复核",
+              "sourceLinks": ["HKEX Alebund PHIP English Full", "HKEX Alebund PHIP Chinese Full", "HKEX Alebund PHIP English Pack", "HKEX Alebund PHIP Chinese Pack"]
+            }
+          ],
+          "phipApplications": [],
+          "links": ["Application Proof / PHIP", "HKEX AP structured JSON", "HKEX AP/PHIP structured JSON"]
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "Application Proof / PHIP": "https://www1.hkexnews.hk/app/appindex.html?lang=zh",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "HKEX Visual China AP English Full": "https://www1.hkexnews.hk/app/sehk/2026/108639/documents/sehk26061400174.pdf",
+    "HKEX Visual China AP Chinese Full": "https://www1.hkexnews.hk/app/sehk/2026/108639/documents/sehk26061400173_c.pdf",
+    "HKEX Visual China AP English Pack": "https://www1.hkexnews.hk/app/sehk/2026/108639/2026061400169.htm",
+    "HKEX Visual China AP Chinese Pack": "https://www1.hkexnews.hk/app/sehk/2026/108639/2026061400170_c.htm",
+    "HKEX UniDT AP English Full": "https://www1.hkexnews.hk/app/sehk/2026/108640/documents/sehk26061400250.pdf",
+    "HKEX UniDT AP Chinese Full": "https://www1.hkexnews.hk/app/sehk/2026/108640/documents/sehk26061400249_c.pdf",
+    "HKEX UniDT AP English Pack": "https://www1.hkexnews.hk/app/sehk/2026/108640/2026061400245.htm",
+    "HKEX UniDT AP Chinese Pack": "https://www1.hkexnews.hk/app/sehk/2026/108640/2026061400246_c.htm",
+    "HKEX Xunlong PHIP English Full": "https://www1.hkexnews.hk/app/sehk/2026/108507/documents/sehk26061400086.pdf",
+    "HKEX Xunlong PHIP Chinese Full": "https://www1.hkexnews.hk/app/sehk/2026/108507/documents/sehk26061400085.pdf",
+    "HKEX Xunlong PHIP English Pack": "https://www1.hkexnews.hk/app/sehk/2026/108507/2026061400005.htm",
+    "HKEX Xunlong PHIP Chinese Pack": "https://www1.hkexnews.hk/app/sehk/2026/108507/2026061400006_c.htm",
+    "HKEX Anker PHIP English Full": "https://www1.hkexnews.hk/app/sehk/2026/108612/documents/sehk26061400100.pdf",
+    "HKEX Anker PHIP Chinese Full": "https://www1.hkexnews.hk/app/sehk/2026/108612/documents/sehk26061400099_c.pdf",
+    "HKEX Anker PHIP English Pack": "https://www1.hkexnews.hk/app/sehk/2026/108612/2026061400095.htm",
+    "HKEX Anker PHIP Chinese Pack": "https://www1.hkexnews.hk/app/sehk/2026/108612/2026061400096_c.htm",
+    "HKEX Laifual PHIP English Full": "https://www1.hkexnews.hk/app/sehk/2026/108602/documents/sehk26061400318.pdf",
+    "HKEX Laifual PHIP Chinese Full": "https://www1.hkexnews.hk/app/sehk/2026/108602/documents/sehk26061400317_c.pdf",
+    "HKEX Laifual PHIP English Pack": "https://www1.hkexnews.hk/app/sehk/2026/108602/2026061400313.htm",
+    "HKEX Laifual PHIP Chinese Pack": "https://www1.hkexnews.hk/app/sehk/2026/108602/2026061400314_c.htm",
+    "HKEX Alebund PHIP English Full": "https://www1.hkexnews.hk/app/sehk/2026/108509/documents/sehk26061400394.pdf",
+    "HKEX Alebund PHIP Chinese Full": "https://www1.hkexnews.hk/app/sehk/2026/108509/documents/sehk26061400393_c.pdf",
+    "HKEX Alebund PHIP English Pack": "https://www1.hkexnews.hk/app/sehk/2026/108509/2026061400389.htm",
+    "HKEX Alebund PHIP Chinese Pack": "https://www1.hkexnews.hk/app/sehk/2026/108509/2026061400390_c.htm"
+  }
+}
