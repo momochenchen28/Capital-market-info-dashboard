@@ -2,21 +2,21 @@
   "dailyReports": {
     "2026-06-12": {
       "date": "2026-06-12",
-      "title": "资本市场快报",
-      "subtitle": "PHIP 新增 1 家（廣東真健康醫療科技開發股份有限公司-B），其余栏目暂无新增",
-      "statusNote": "6 月 12 日联交所 Application Proof / PHIP 官方结构化数据复核后，AP 暂无新增、PHIP 新增 1 家。已复核 HKEX AP-only JSON：top-level app 数组 412 条，按 12/06/2026 文档日期命中 6 行，均为 OC Announcement - Appointment (Revised) 或 OC Announcement - Appointment（Jiangsu BBL Home Technology、Zhejiang China Commodities City Group、Shanghai GoNa Semiconductor Technology、Leo Group、Shenzhen Longsys Electronics、DST Sustainable Technology），无 Application Proof 条目，AP 计数 = 0。AP+PHIP JSON：top-level app 数组 17 条，按 12/06/2026 文档日期命中 PHIP 1（Guangdong True Health Medical Technology Development Co., Ltd. - B / 廣東真健康醫療科技開發股份有限公司-B，PHIP 1st submission）。港股新挂牌：今日无新股挂牌；多只新股处于招股期——溜溜梅（06658）招股已截止（6 月 10 日），预计 6 月 15 日挂牌；琻捷电子（06675）今日中午截止招股，预计 6 月 17 日挂牌；星源材质（06067）及华健未来-B（06132）今日开始招股（6 月 12 日至 17 日），预计 6 月 23 日挂牌；海清智元（01392）招股中（6 月 11 日至 16 日），预计 6 月 22 日挂牌。证监会：6 月 12 日新发布「境外发行上市备案补充材料要求公示（2026年6月8日—2026年6月12日）」，为补充材料要求公示，非单家公司备案通知书，按规则 countInMetrics=false，csrcCount=0；备案通知书页面暂无新增。美股中概 IPO：SEC EDGAR 6 月 12 日无 EFFECT 事件、无 F-1/F-1/A 境内关联公司新递交。",
+      "title": "资本市场日报",
+      "subtitle": "AP 新增 5 家，PHIP 新增 1 家；证监会新增 2 家备案通知及 1 项补充材料公示。",
+      "statusNote": "已按 HKEX 官方结构化 JSON 重新复核：AP-only JSON app.length=415，按 12/06/2026 命中 5 家 Application Proof；AP+PHIP JSON app.length=20，按 12/06/2026 命中 1 家 PHIP。证监会 6 月 12 日新增潮州三环、安克创新两家单家公司备案通知，补充材料要求公示仅作为监管更新展示，不重复计数。",
       "archiveNotice": "",
       "observations": [
-        "港股新挂牌：今日无新股挂牌。溜溜梅（06658）招股已截止（6 月 10 日），预计 6 月 15 日挂牌；琻捷电子（06675）今日中午截止招股，预计 6 月 17 日挂牌；星源材质（06067）及华健未来-B（06132）今日起招股（6 月 12 日至 17 日），预计 6 月 23 日挂牌；海清智元（01392）招股中（6 月 11 日至 16 日），预计 6 月 22 日挂牌。",
-        "港股递表/聆讯：已复核 HKEX AP-only JSON（app.length=412）及 AP+PHIP JSON（app.length=17）。6/12 AP=0（6 行 OC 公告修订/委任均不计为 AP）；PHIP=1（廣東真健康醫療科技開發股份有限公司-B）。",
-        "证监会备案：6 月 12 日新发布「境外发行上市备案补充材料要求公示（2026年6月8日—2026年6月12日）」，为补充材料要求公示，非单家公司备案通知书，csrcCount=0。备案通知书页面暂无新增。",
-        "美股中概 IPO：SEC EDGAR 6 月 12 日无 EFFECT 事件、无 F-1/F-1/A 境内关联公司新递交。"
+        "港股新挂牌：该类别当日暂无新增事件。溜溜梅（06658）为预计 6 月 15 日挂牌，6 月 12 日不计入新挂牌。",
+        "港股递表/聆讯：AP 5 家，PHIP 1 家。AP/PHIP metrics 已和明细一致。",
+        "证监会备案：单家公司备案通知 2 家，分别为潮州三环（集团）股份有限公司、安克创新科技股份有限公司；补充材料要求公示（2026年6月8日—2026年6月12日）作为监管更新展示，不计入 csrcCount。",
+        "美股中概 IPO：该类别当日暂无新增事件。"
       ],
       "metrics": {
         "hkexNewListings": 0,
-        "apNewCount": 0,
+        "apNewCount": 5,
         "phipCount": 1,
-        "csrcCount": 0,
+        "csrcCount": 2,
         "usChinaIpoCount": 0
       },
       "deals": [
@@ -24,7 +24,7 @@
           "id": "hkex-ap-phip-20260612",
           "section": "港股递表/聆讯",
           "type": "AP / PHIP 更新",
-          "status": "1 家聆讯（AP=0, PHIP=1）",
+          "status": "AP 5 家；PHIP 1 家",
           "eventType": "apPhipUpdate",
           "countInMetrics": true,
           "company": {
@@ -37,57 +37,188 @@
           },
           "business": {
             "sector": "港股 IPO pipeline",
-            "summary": "6 月 12 日联交所 AP 暂无新增（6 行 OC 公告修订/委任均不计为 AP），PHIP 新增 1 家（廣東真健康醫療科技開發股份有限公司-B）。已复核 HKEX AP-only JSON（app.length=412）及 AP+PHIP JSON（app.length=17）。",
+            "summary": "6 月 12 日联交所 AP 新增 5 家、PHIP 新增 1 家；已复核 HKEX AP-only JSON（app.length=415）及 AP+PHIP JSON（app.length=20）。",
             "source": "HKEX structured JSON"
           },
           "metrics": {
-            "apNewCount": 0,
+            "apNewCount": 5,
             "phipCount": 1
           },
-          "apApplications": [],
-          "phipApplications": [
+          "apApplications": [
             {
-              "nameZh": "廣東真健康醫療科技開發股份有限公司-B",
+              "nameZh": "安得智联供应链科技股份有限公司",
+              "nameEn": "Annto Supply Chain Technology Co., Ltd.",
+              "filingDate": "2026-06-12",
+              "documentType": "Application Proof (1st submission)",
+              "status": "AP",
+              "sector": "物流 / 供应链科技",
+              "structure": "H 股（中国境内股份有限公司）",
+              "sponsors": "待 AP 封面页复核",
+              "businessSummary": "公司从事供应链科技及物流服务，具体业务边界待 AP Summary/Business 章节复核补充。",
+              "businessSource": "AP Business 章节待复核",
+              "sourceLinks": ["HKEX Annto AP English Full", "HKEX Annto AP Chinese Full", "HKEX Annto AP English Pack", "HKEX Annto AP Chinese Pack"]
+            },
+            {
+              "nameZh": "主线科技（北京）股份有限公司",
+              "nameEn": "Trunk Technology (Beijing) Co., Ltd.",
+              "filingDate": "2026-06-12",
+              "documentType": "Application Proof (1st submission)",
+              "status": "AP",
+              "sector": "自动驾驶 / 商用车智能驾驶",
+              "structure": "H 股（中国境内股份有限公司）",
+              "sponsors": "待 AP 封面页复核",
+              "businessSummary": "公司从事商用车/物流场景自动驾驶技术与产品，具体收入结构待 AP Summary/Business 章节复核补充。",
+              "businessSource": "AP Business 章节待复核",
+              "sourceLinks": ["HKEX Trunk AP English Full", "HKEX Trunk AP Chinese Full", "HKEX Trunk AP English Pack", "HKEX Trunk AP Chinese Pack"]
+            },
+            {
+              "nameZh": "米多多集团股份有限公司",
+              "nameEn": "Miduoduo Group Inc.",
+              "filingDate": "2026-06-12",
+              "documentType": "Application Proof (1st submission)",
+              "status": "AP",
+              "sector": "消费/互联网服务",
+              "structure": "待 AP 公司架构章节复核",
+              "sponsors": "待 AP 封面页复核",
+              "businessSummary": "公司具体业务与行业归属待 AP Summary/Business 章节复核，避免仅凭公司名称推断。",
+              "businessSource": "AP Business 章节待复核",
+              "sourceLinks": ["HKEX Miduoduo AP English Full", "HKEX Miduoduo AP Chinese Full", "HKEX Miduoduo AP English Pack", "HKEX Miduoduo AP Chinese Pack"]
+            },
+            {
+              "nameZh": "宁波三星医疗电气股份有限公司",
+              "nameEn": "Ningbo Sanxing Medical Electric Co., Ltd.",
+              "filingDate": "2026-06-12",
+              "documentType": "Application Proof (1st submission)",
+              "status": "AP",
+              "sector": "医疗服务/电气设备",
+              "structure": "A+H 股（中国境内股份有限公司，A 股上市公司）",
+              "sponsors": "待 AP 封面页复核",
+              "businessSummary": "公司为 A 股上市公司，业务涉及医疗服务及电气相关板块；上市主体口径与分部收入待 AP Summary/Business 章节复核补充。",
+              "businessSource": "AP Business 章节待复核",
+              "sourceLinks": ["HKEX Sanxing AP English Full", "HKEX Sanxing AP Chinese Full", "HKEX Sanxing AP English Pack", "HKEX Sanxing AP Chinese Pack"]
+            },
+            {
+              "nameZh": "烟台蓝纳成生物技术股份有限公司 - B",
+              "nameEn": "Yantai Lannacheng Biotechnology Co., Ltd. - B",
+              "filingDate": "2026-06-12",
+              "documentType": "Application Proof (1st submission)",
+              "status": "AP",
+              "sector": "医疗健康 / 生物科技",
+              "structure": "H 股（中国境内股份有限公司，18A/18B 生物科技公司待复核）",
+              "sponsors": "待 AP 封面页复核",
+              "businessSummary": "公司为生物科技公司，具体管线、适应症和临床阶段待 AP Summary/Business 章节复核补充。",
+              "businessSource": "AP Business 章节待复核",
+              "sourceLinks": ["HKEX Lannacheng AP English Full", "HKEX Lannacheng AP Chinese Full", "HKEX Lannacheng AP English Pack", "HKEX Lannacheng AP Chinese Pack"]
+            },
+            {
+              "nameZh": "广东真健康医疗科技开发股份有限公司-B",
               "nameEn": "Guangdong True Health Medical Technology Development Co., Ltd. - B",
               "filingDate": "2026-06-12",
               "documentType": "PHIP (1st submission)",
               "status": "PHIP",
-              "sector": "healthcare / 创新药/医疗器械",
-              "structure": "H 股（中国境内股份有限公司，18B 生物科技公司）",
+              "sector": "医疗健康 / 生物科技",
+              "structure": "H 股（中国境内股份有限公司，18A/18B 生物科技公司待复核）",
               "sponsors": "待 PHIP 封面页及董事及参与方章节复核",
-              "businessSummary": "廣東真健康醫療科技開發股份有限公司为 18B 生物科技公司，PHIP 于 2026-06-12 发布。AP 于 2026-06-08 递交。待 PHIP 原文 Business/Summary 章节复核后补充详细业务简介。",
-              "businessSource": "待 PHIP Business 章节复核",
-              "sourceLinks": [
-                "HKEX True Health PHIP 全文",
-                "HKEX True Health PHIP 多档案",
-                "HKEX True Health OC 委任公告"
-              ]
+              "businessSummary": "公司为生物科技/医疗科技公司，PHIP 于 2026-06-12 发布，具体管线及商业化阶段待 PHIP Summary/Business 章节复核补充。",
+              "businessSource": "PHIP Business 章节待复核",
+              "sourceLinks": ["HKEX True Health PHIP English Full", "HKEX True Health PHIP Chinese Full", "HKEX True Health PHIP English Pack", "HKEX True Health PHIP Chinese Pack"]
             }
           ],
-          "links": [
-            "Application Proof / PHIP",
-            "HKEX AP structured JSON",
-            "HKEX AP/PHIP structured JSON"
-          ]
+          "phipApplications": [],
+          "links": ["Application Proof / PHIP", "HKEX AP structured JSON", "HKEX AP/PHIP structured JSON"]
+        },
+        {
+          "id": "csrc-filing-chaozhou-threecircle-20260612",
+          "section": "证监会备案",
+          "type": "境外发行上市备案通知书",
+          "status": "新增备案通知",
+          "eventType": "csrcFilingNotice",
+          "countInMetrics": true,
+          "company": {
+            "zh": "潮州三环（集团）股份有限公司",
+            "en": "Chaozhou Three-Circle (Group) Co., Ltd.",
+            "display": "潮州三环（集团）股份有限公司",
+            "exchange": "拟香港联交所上市"
+          },
+          "business": {
+            "sector": "工业/电子材料",
+            "summary": "证监会备案通知书确认公司拟发行不超过 149,190,500 股境外上市普通股并在香港联交所上市；常规备案后义务不作为特殊事项摘录。",
+            "source": "证监会备案通知书"
+          },
+          "links": ["CSRC Chaozhou Three-Circle Filing Notice"]
+        },
+        {
+          "id": "csrc-filing-anker-20260612",
+          "section": "证监会备案",
+          "type": "境外发行上市备案通知书",
+          "status": "新增备案通知",
+          "eventType": "csrcFilingNotice",
+          "countInMetrics": true,
+          "company": {
+            "zh": "安克创新科技股份有限公司",
+            "en": "Anker Innovations Technology Co., Ltd.",
+            "display": "安克创新科技股份有限公司",
+            "exchange": "拟香港联交所上市"
+          },
+          "business": {
+            "sector": "消费电子",
+            "summary": "证监会备案通知书确认公司拟发行不超过 68,508,900 股境外上市普通股并在香港联交所上市；常规备案后义务不作为特殊事项摘录。",
+            "source": "证监会备案通知书"
+          },
+          "links": ["CSRC Anker Filing Notice"]
+        },
+        {
+          "id": "csrc-supplement-20260608-20260612",
+          "section": "证监会备案",
+          "type": "补充材料要求公示",
+          "status": "监管更新（不计入新增公司数量）",
+          "eventType": "csrcSupplementMaterialNotice",
+          "countInMetrics": false,
+          "company": {
+            "zh": "境外发行上市备案补充材料要求公示（2026年6月8日—2026年6月12日）",
+            "en": "CSRC supplementary-material notice",
+            "display": "境外发行上市备案补充材料要求公示（2026年6月8日—2026年6月12日）"
+          },
+          "business": {
+            "sector": "监管更新",
+            "summary": "该公示为补充材料要求汇总，不是单家公司备案通知书，因此展示但不计入 csrcCount。",
+            "source": "证监会补充材料要求公示"
+          },
+          "links": ["CSRC Supplement Materials 2026-06-08 to 2026-06-12"]
         }
       ]
     }
   },
   "linkMap": {
-    "HKEX New Listing Information": "https://www2.hkexnews.hk/new-listings/new-listing-information/main-board?sc_lang=en",
-    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=zh-HK",
     "Application Proof / PHIP": "https://www1.hkexnews.hk/app/appindex.html?lang=zh",
     "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
     "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
-    "HKEX True Health PHIP 全文": "https://www1.hkexnews.hk/app/sehk/2026/108624/documents/sehk26061201521.pdf",
-    "HKEX True Health PHIP 多档案": "https://www1.hkexnews.hk/app/sehk/2026/108624/2026061201516.htm",
-    "HKEX True Health OC 委任公告": "https://www1.hkexnews.hk/app/sehk/2026/108624/documents/sehk26060802049.pdf",
-    "CSRC 境外发行上市备案通知书": "https://www.csrc.gov.cn/csrc/c105984/zfxxgk_zdgk.shtml",
-    "CSRC 境外上市类补充材料要求": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
-    "CSRC 境外发行上市备案进度表": "https://www.csrc.gov.cn/csrc/c106251/c7637494/content.shtml",
-    "CSRC 补充材料要求公示(6.8-6.12)": "https://www.csrc.gov.cn/csrc/c100098/c7638948/content.shtml",
-    "SEC EDGAR": "https://www.sec.gov/edgar/search/",
-    "Nasdaq IPO Calendar": "https://www.nasdaq.com/market-activity/ipos",
-    "NYSE IPO Center": "https://www.nyse.com/ipo-center/filings"
+    "HKEX Annto AP English Full": "https://www1.hkexnews.hk/app/sehk/2026/108634/documents/sehk26061201749.pdf",
+    "HKEX Annto AP Chinese Full": "https://www1.hkexnews.hk/app/sehk/2026/108634/documents/sehk26061201748_c.pdf",
+    "HKEX Annto AP English Pack": "https://www1.hkexnews.hk/app/sehk/2026/108634/2026061201744.htm",
+    "HKEX Annto AP Chinese Pack": "https://www1.hkexnews.hk/app/sehk/2026/108634/2026061201745_c.htm",
+    "HKEX Trunk AP English Full": "https://www1.hkexnews.hk/app/sehk/2026/108635/documents/sehk26061201929.pdf",
+    "HKEX Trunk AP Chinese Full": "https://www1.hkexnews.hk/app/sehk/2026/108635/documents/sehk26061201928_c.pdf",
+    "HKEX Trunk AP English Pack": "https://www1.hkexnews.hk/app/sehk/2026/108635/2026061201862.htm",
+    "HKEX Trunk AP Chinese Pack": "https://www1.hkexnews.hk/app/sehk/2026/108635/2026061201863_c.htm",
+    "HKEX Miduoduo AP English Full": "https://www1.hkexnews.hk/app/sehk/2026/108636/documents/sehk26061201939.pdf",
+    "HKEX Miduoduo AP Chinese Full": "https://www1.hkexnews.hk/app/sehk/2026/108636/documents/sehk26061201938_c.pdf",
+    "HKEX Miduoduo AP English Pack": "https://www1.hkexnews.hk/app/sehk/2026/108636/2026061201934.htm",
+    "HKEX Miduoduo AP Chinese Pack": "https://www1.hkexnews.hk/app/sehk/2026/108636/2026061201935_c.htm",
+    "HKEX Sanxing AP English Full": "https://www1.hkexnews.hk/app/sehk/2026/108637/documents/sehk26061202115.pdf",
+    "HKEX Sanxing AP Chinese Full": "https://www1.hkexnews.hk/app/sehk/2026/108637/documents/sehk26061202114_c.pdf",
+    "HKEX Sanxing AP English Pack": "https://www1.hkexnews.hk/app/sehk/2026/108637/2026061202110.htm",
+    "HKEX Sanxing AP Chinese Pack": "https://www1.hkexnews.hk/app/sehk/2026/108637/2026061202111_c.htm",
+    "HKEX Lannacheng AP English Full": "https://www1.hkexnews.hk/app/sehk/2026/108638/documents/sehk26061202231.pdf",
+    "HKEX Lannacheng AP Chinese Full": "https://www1.hkexnews.hk/app/sehk/2026/108638/documents/sehk26061202230_c.pdf",
+    "HKEX Lannacheng AP English Pack": "https://www1.hkexnews.hk/app/sehk/2026/108638/2026061202226.htm",
+    "HKEX Lannacheng AP Chinese Pack": "https://www1.hkexnews.hk/app/sehk/2026/108638/2026061202227_c.htm",
+    "HKEX True Health PHIP English Full": "https://www1.hkexnews.hk/app/sehk/2026/108624/documents/sehk26061201521.pdf",
+    "HKEX True Health PHIP Chinese Full": "https://www1.hkexnews.hk/app/sehk/2026/108624/documents/sehk26061201520_c.pdf",
+    "HKEX True Health PHIP English Pack": "https://www1.hkexnews.hk/app/sehk/2026/108624/2026061201516.htm",
+    "HKEX True Health PHIP Chinese Pack": "https://www1.hkexnews.hk/app/sehk/2026/108624/2026061201517_c.htm",
+    "CSRC Chaozhou Three-Circle Filing Notice": "https://www.csrc.gov.cn/csrc/c105984/c7638864/content.shtml",
+    "CSRC Anker Filing Notice": "https://www.csrc.gov.cn/csrc/c105984/c7638862/content.shtml",
+    "CSRC Supplement Materials 2026-06-08 to 2026-06-12": "https://www.csrc.gov.cn/csrc/c100098/c7638948/content.shtml"
   }
 }
