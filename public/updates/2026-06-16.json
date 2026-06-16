@@ -1,0 +1,35 @@
+{
+  "dailyReports": {
+    "2026-06-16": {
+      "date": "2026-06-16",
+      "title": "资本市场快报",
+      "subtitle": "港股正常交易日；早盘复核未见港股实际新挂牌、AP、PHIP、证监会单家公司新增备案通知或美股中概 IPO 新事件。",
+      "statusNote": "数据截至 2026-06-16 早盘复核。HKEX AP-only JSON app.length=418，按 16/06/2026 命中 0 家 Application Proof；HKEX AP+PHIP JSON app.length=20，按 16/06/2026 命中 0 家 PHIP。HKEX Newly Listed Securities 显示 SENASIC（06675）为 17/06/2026* 暂定上市/开始交易，故不计入 6/16 新挂牌；6/16 页面项目主要为债券/票据及股份并行买卖等非 IPO 项目。证监会官网未见 2026-06-16 单家公司新增《境外发行上市备案通知书》。",
+      "archiveNotice": "",
+      "observations": [
+        "港股新挂牌：HKEX Newly Listed Securities 未见 2026-06-16 实际开始买卖的 equity IPO；SENASIC（06675）显示为 17/06/2026* 暂定上市，不计入今日新挂牌。",
+        "港股递表/聆讯：已复核 HKEX AP-only 与 AP+PHIP 官方 JSON，16/06/2026 文档日期命中 0 家 AP、0 家 PHIP。",
+        "证监会备案：早盘复核未见 2026-06-16 单家公司新增《境外发行上市备案通知书》；补充材料公示和备案情况表如有更新，仅作为监管动态展示，不计入 csrcCount。",
+        "美股中概 IPO：早盘阶段未见需要计入本期的中国相关美股 IPO 新事件；晚间日报继续复核 SEC EDGAR。"
+      ],
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "deals": []
+    }
+  },
+  "linkMap": {
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=zh-HK",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/new-listings/new-listing-information/main-board?sc_lang=en",
+    "HKEX New Listing Report 2026": "https://www2.hkexnews.hk/-/media/HKEXnews/Homepage/New-Listings/New-Listing-Information/New-Listing-Report/Main/NLR2026_Eng.xlsx",
+    "Application Proof / PHIP": "https://www1.hkexnews.hk/app/appindex.html?lang=zh",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing Notice Search": "https://www.csrc.gov.cn/guestweb4/s?searchWord=%E5%A2%83%E5%A4%96%E5%8F%91%E8%A1%8C%E4%B8%8A%E5%B8%82%E5%A4%87%E6%A1%88%E9%80%9A%E7%9F%A5%E4%B9%A6&column=%E5%85%A8%E9%83%A8&wordPlace=0&orderBy=0&startTime=&endTime=&pageSize=20&pageNum=0&siteCode=bm56000001&checkHandle=1",
+    "SEC EDGAR": "https://www.sec.gov/edgar/search/"
+  }
+}
