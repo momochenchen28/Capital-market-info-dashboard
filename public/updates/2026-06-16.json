@@ -2,34 +2,179 @@
   "dailyReports": {
     "2026-06-16": {
       "date": "2026-06-16",
-      "title": "资本市场快报",
-      "subtitle": "港股正常交易日；早盘复核未见港股实际新挂牌、AP、PHIP、证监会单家公司新增备案通知或美股中概 IPO 新事件。",
-      "statusNote": "数据截至 2026-06-16 早盘复核。HKEX AP-only JSON app.length=418，按 16/06/2026 命中 0 家 Application Proof；HKEX AP+PHIP JSON app.length=20，按 16/06/2026 命中 0 家 PHIP。HKEX Newly Listed Securities 显示 SENASIC（06675）为 17/06/2026* 暂定上市/开始交易，故不计入 6/16 新挂牌；6/16 页面项目主要为债券/票据及股份并行买卖等非 IPO 项目。证监会官网未见 2026-06-16 单家公司新增《境外发行上市备案通知书》。",
-      "archiveNotice": "",
+      "title": "资本市场日报档案",
+      "subtitle": "已更正：6 月 16 日港交所 AP 新增 6 家、PHIP 新增 1 家；未见港股实际新挂牌、证监会单家公司新增备案通知或美股中概 IPO 新事件。",
+      "statusNote": "数据经 2026-06-17 复查更正。HKEX AP-only JSON app.length=419，按 16/06/2026 文档日期命中 6 家 Application Proof；HKEX AP+PHIP JSON app.length=20，按 16/06/2026 文档日期命中 1 家 PHIP。HKEX Newly Listed Securities 未见 2026-06-16 实际开始买卖的 equity IPO；SENASIC（06675）为 17/06/2026* 暂定上市/开始交易，不计入 6/16。证监会境外上市类列表最新公开项仍为 2026-06-12 补充材料公示，未见 6/16 单家公司新增备案通知。",
+      "archiveNotice": "本档案已补充 6 月 16 日港交所 AP/PHIP 新增信息，请以本版本为准。",
       "observations": [
-        "港股新挂牌：HKEX Newly Listed Securities 未见 2026-06-16 实际开始买卖的 equity IPO；SENASIC（06675）显示为 17/06/2026* 暂定上市，不计入今日新挂牌。",
-        "港股递表/聆讯：已复核 HKEX AP-only 与 AP+PHIP 官方 JSON，16/06/2026 文档日期命中 0 家 AP、0 家 PHIP。",
-        "证监会备案：早盘复核未见 2026-06-16 单家公司新增《境外发行上市备案通知书》；补充材料公示和备案情况表如有更新，仅作为监管动态展示，不计入 csrcCount。",
-        "美股中概 IPO：早盘阶段未见需要计入本期的中国相关美股 IPO 新事件；晚间日报继续复核 SEC EDGAR。"
+        "港股递表/聆讯：6 月 16 日 AP 新增 6 家，PHIP 新增 1 家；此前快报将 AP/PHIP 误判为 0，本次已按 HKEX structured JSON 更正。",
+        "港股新挂牌：HKEX Newly Listed Securities 未见 2026-06-16 实际开始买卖的 equity IPO；SENASIC（06675）显示为 17/06/2026* 暂定上市，不计入 6/16。",
+        "证监会备案：未见 2026-06-16 单家公司新增《境外发行上市备案通知书》。",
+        "美股中概 IPO：未见需要计入本期的中国相关美股 IPO 新事件。"
       ],
       "metrics": {
         "hkexNewListings": 0,
-        "apNewCount": 0,
-        "phipCount": 0,
+        "apNewCount": 6,
+        "phipCount": 1,
         "csrcCount": 0,
         "usChinaIpoCount": 0
       },
-      "deals": []
+      "deals": [
+        {
+          "id": "hkex-ap-phip-20260616",
+          "section": "港股递表/聆讯",
+          "type": "AP / PHIP 更新",
+          "status": "AP 6 家；PHIP 1 家",
+          "eventType": "apPhipUpdate",
+          "countInMetrics": true,
+          "company": {
+            "zh": "港交所 AP & PHIP 页面日内更新监控",
+            "en": "HKEX AP & PHIP Monitor",
+            "display": "港交所 AP & PHIP 页面日内更新监控（2026-06-16）",
+            "exchange": "HKEX",
+            "board": "Application Proof / PHIP",
+            "listingStructure": "多家公司"
+          },
+          "business": {
+            "sector": "港股 IPO pipeline",
+            "summary": "6 月 16 日联交所 AP 新增 6 家、PHIP 新增 1 家；已复核 HKEX AP-only JSON（app.length=419）及 AP+PHIP JSON（app.length=20）。",
+            "source": "HKEX structured JSON"
+          },
+          "metrics": {
+            "apNewCount": 6,
+            "phipCount": 1
+          },
+          "apApplications": [
+            {
+              "nameZh": "上海君赛生物股份有限公司 - B",
+              "nameEn": "Shanghai Juncell Therapeutics Co., Ltd. - B",
+              "filingDate": "2026-06-16",
+              "documentType": "Application Proof (1st submission)",
+              "status": "AP",
+              "sector": "医疗健康 / 生物医药",
+              "structure": "H 股（中国境内股份有限公司）",
+              "sponsors": "待 AP 封面页及董事及参与方章节复核",
+              "businessSummary": "待 AP Summary/Business 章节复核后补全。",
+              "businessSource": "HKEX Application Proof",
+              "sourceLinks": ["Juncell AP Chinese Full", "Juncell AP Chinese Pack", "Juncell AP English Full", "Juncell AP English Pack"]
+            },
+            {
+              "nameZh": "北京四方继保自动化股份有限公司",
+              "nameEn": "Beijing Sifang Automation Co., Ltd.",
+              "filingDate": "2026-06-16",
+              "documentType": "Application Proof (1st submission)",
+              "status": "AP",
+              "sector": "工业 / 电力自动化",
+              "structure": "H 股（中国境内股份有限公司）",
+              "sponsors": "待 AP 封面页及董事及参与方章节复核",
+              "businessSummary": "待 AP Summary/Business 章节复核后补全。",
+              "businessSource": "HKEX Application Proof",
+              "sourceLinks": ["Sifang AP Chinese Full", "Sifang AP Chinese Pack", "Sifang AP English Full", "Sifang AP English Pack"]
+            },
+            {
+              "nameZh": "浙江涛涛车业股份有限公司",
+              "nameEn": "Zhejiang Taotao Vehicles Co., Ltd.",
+              "filingDate": "2026-06-16",
+              "documentType": "Application Proof (1st submission)",
+              "status": "AP",
+              "sector": "消费/制造 / 车辆及动力运动产品",
+              "structure": "H 股（中国境内股份有限公司）",
+              "sponsors": "待 AP 封面页及董事及参与方章节复核",
+              "businessSummary": "待 AP Summary/Business 章节复核后补全。",
+              "businessSource": "HKEX Application Proof",
+              "sourceLinks": ["Taotao AP Chinese Full", "Taotao AP Chinese Pack", "Taotao AP English Full", "Taotao AP English Pack"]
+            },
+            {
+              "nameZh": "深圳库博能源股份有限公司",
+              "nameEn": "Shenzhen Cubenergy Co., Ltd.",
+              "filingDate": "2026-06-16",
+              "documentType": "Application Proof (1st submission)",
+              "status": "AP",
+              "sector": "新能源 / 储能",
+              "structure": "H 股（中国境内股份有限公司）",
+              "sponsors": "待 AP 封面页及董事及参与方章节复核",
+              "businessSummary": "待 AP Summary/Business 章节复核后补全。",
+              "businessSource": "HKEX Application Proof",
+              "sourceLinks": ["Cubenergy AP Chinese Full", "Cubenergy AP Chinese Pack", "Cubenergy AP English Full", "Cubenergy AP English Pack"]
+            },
+            {
+              "nameZh": "Growatt Technology Co., Ltd",
+              "nameEn": "Growatt Technology Co., Ltd",
+              "filingDate": "2026-06-16",
+              "documentType": "Application Proof (1st submission)",
+              "status": "AP",
+              "sector": "新能源 / 光伏及储能",
+              "structure": "境外主体，上市架构待招股书公司结构章节复核",
+              "sponsors": "待 AP 封面页及董事及参与方章节复核",
+              "businessSummary": "待 AP Summary/Business 章节复核后补全。",
+              "businessSource": "HKEX Application Proof",
+              "sourceLinks": ["Growatt AP Chinese Full", "Growatt AP Chinese Pack", "Growatt AP English Full", "Growatt AP English Pack"]
+            },
+            {
+              "nameZh": "北京云中融信网络科技股份有限公司",
+              "nameEn": "Beijing RC Tech Co., Ltd.",
+              "filingDate": "2026-06-16",
+              "documentType": "Application Proof (1st submission)",
+              "status": "AP",
+              "sector": "软件/科技服务",
+              "structure": "H 股（中国境内股份有限公司）",
+              "sponsors": "待 AP 封面页及董事及参与方章节复核",
+              "businessSummary": "待 AP Summary/Business 章节复核后补全。",
+              "businessSource": "HKEX Application Proof",
+              "sourceLinks": ["RC Tech AP Chinese Full", "RC Tech AP Chinese Pack", "RC Tech AP English Full", "RC Tech AP English Pack"]
+            },
+            {
+              "nameZh": "白鸽在线（厦门）数字科技股份有限公司",
+              "nameEn": "Baige Online Digital Technology Co., Ltd.",
+              "filingDate": "2026-06-16",
+              "documentType": "PHIP (1st submission)",
+              "status": "PHIP",
+              "sector": "数字科技 / 在线服务",
+              "structure": "H 股（中国境内股份有限公司）",
+              "sponsors": "待 PHIP 封面页及董事及参与方章节复核",
+              "businessSummary": "待 PHIP Summary/Business 章节复核后补全。",
+              "businessSource": "HKEX PHIP",
+              "sourceLinks": ["Baige PHIP Chinese Full", "Baige PHIP Chinese Pack", "Baige PHIP English Full", "Baige PHIP English Pack"]
+            }
+          ],
+          "links": ["Application Proof / PHIP", "HKEX AP structured JSON", "HKEX AP/PHIP structured JSON"]
+        }
+      ]
     }
   },
   "linkMap": {
-    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=zh-HK",
-    "HKEX New Listing Information": "https://www2.hkexnews.hk/new-listings/new-listing-information/main-board?sc_lang=en",
-    "HKEX New Listing Report 2026": "https://www2.hkexnews.hk/-/media/HKEXnews/Homepage/New-Listings/New-Listing-Information/New-Listing-Report/Main/NLR2026_Eng.xlsx",
     "Application Proof / PHIP": "https://www1.hkexnews.hk/app/appindex.html?lang=zh",
     "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
     "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
-    "CSRC Overseas Filing Notice Search": "https://www.csrc.gov.cn/guestweb4/s?searchWord=%E5%A2%83%E5%A4%96%E5%8F%91%E8%A1%8C%E4%B8%8A%E5%B8%82%E5%A4%87%E6%A1%88%E9%80%9A%E7%9F%A5%E4%B9%A6&column=%E5%85%A8%E9%83%A8&wordPlace=0&orderBy=0&startTime=&endTime=&pageSize=20&pageNum=0&siteCode=bm56000001&checkHandle=1",
-    "SEC EDGAR": "https://www.sec.gov/edgar/search/"
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=zh-HK",
+    "CSRC Overseas Filing List": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "Juncell AP Chinese Full": "https://www1.hkexnews.hk/app/sehk/2026/108646/documents/sehk26061600393_c.pdf",
+    "Juncell AP Chinese Pack": "https://www1.hkexnews.hk/app/sehk/2026/108646/2026061600390_c.htm",
+    "Juncell AP English Full": "https://www1.hkexnews.hk/app/sehk/2026/108646/documents/sehk26061600394.pdf",
+    "Juncell AP English Pack": "https://www1.hkexnews.hk/app/sehk/2026/108646/2026061600389.htm",
+    "Sifang AP Chinese Full": "https://www1.hkexnews.hk/app/sehk/2026/108647/documents/sehk26061600483_c.pdf",
+    "Sifang AP Chinese Pack": "https://www1.hkexnews.hk/app/sehk/2026/108647/2026061600480_c.htm",
+    "Sifang AP English Full": "https://www1.hkexnews.hk/app/sehk/2026/108647/documents/sehk26061600484.pdf",
+    "Sifang AP English Pack": "https://www1.hkexnews.hk/app/sehk/2026/108647/2026061600479.htm",
+    "Taotao AP Chinese Full": "https://www1.hkexnews.hk/app/sehk/2026/108575/documents/sehk26061600794_c.pdf",
+    "Taotao AP Chinese Pack": "https://www1.hkexnews.hk/app/sehk/2026/108575/2026061600791_c.htm",
+    "Taotao AP English Full": "https://www1.hkexnews.hk/app/sehk/2026/108575/documents/sehk26061600795.pdf",
+    "Taotao AP English Pack": "https://www1.hkexnews.hk/app/sehk/2026/108575/2026061600790.htm",
+    "Cubenergy AP Chinese Full": "https://www1.hkexnews.hk/app/sehk/2026/108648/documents/sehk26061601690_c.pdf",
+    "Cubenergy AP Chinese Pack": "https://www1.hkexnews.hk/app/sehk/2026/108648/2026061601687_c.htm",
+    "Cubenergy AP English Full": "https://www1.hkexnews.hk/app/sehk/2026/108648/documents/sehk26061601691.pdf",
+    "Cubenergy AP English Pack": "https://www1.hkexnews.hk/app/sehk/2026/108648/2026061601686.htm",
+    "Growatt AP Chinese Full": "https://www1.hkexnews.hk/app/sehk/2026/108649/documents/sehk26061601770_c.pdf",
+    "Growatt AP Chinese Pack": "https://www1.hkexnews.hk/app/sehk/2026/108649/2026061601767_c.htm",
+    "Growatt AP English Full": "https://www1.hkexnews.hk/app/sehk/2026/108649/documents/sehk26061601771.pdf",
+    "Growatt AP English Pack": "https://www1.hkexnews.hk/app/sehk/2026/108649/2026061601766.htm",
+    "RC Tech AP Chinese Full": "https://www1.hkexnews.hk/app/sehk/2026/108650/documents/sehk26061601964_c.pdf",
+    "RC Tech AP Chinese Pack": "https://www1.hkexnews.hk/app/sehk/2026/108650/2026061601961_c.htm",
+    "RC Tech AP English Full": "https://www1.hkexnews.hk/app/sehk/2026/108650/documents/sehk26061601965.pdf",
+    "RC Tech AP English Pack": "https://www1.hkexnews.hk/app/sehk/2026/108650/2026061601960.htm",
+    "Baige PHIP Chinese Full": "https://www1.hkexnews.hk/app/sehk/2026/108317/documents/sehk26061600313_c.pdf",
+    "Baige PHIP Chinese Pack": "https://www1.hkexnews.hk/app/sehk/2026/108317/2026061600310_c.htm",
+    "Baige PHIP English Full": "https://www1.hkexnews.hk/app/sehk/2026/108317/documents/sehk26061600314.pdf",
+    "Baige PHIP English Pack": "https://www1.hkexnews.hk/app/sehk/2026/108317/2026061600309.htm"
   }
 }
