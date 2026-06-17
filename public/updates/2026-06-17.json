@@ -1,0 +1,100 @@
+{
+  "dailyReports": {
+    "2026-06-17": {
+      "date": "2026-06-17",
+      "title": "资本市场快报",
+      "subtitle": "港股正常交易日；早盘复核见 1 家新挂牌，AP/PHIP 暂无新增，证监会暂无单家公司新增备案通知。",
+      "statusNote": "数据截至 2026-06-17 早盘复核。HKEX Newly Listed Securities 显示 SENASIC（06675）于 17/06/2026* 新上市；HKEX AP-only JSON app.length=419，按 17/06/2026 文档日期命中 0 家 Application Proof；HKEX AP+PHIP JSON app.length=20，按 17/06/2026 文档日期命中 0 家 PHIP。证监会境外上市类列表最新公开项仍为 2026-06-12 补充材料公示，未见 6/17 单家公司新增备案通知。",
+      "archiveNotice": "上一个交易日资本市场日报档案已补充 6 月 16 日 AP/PHIP 新增信息，请注意查看。",
+      "observations": [
+        "港股新挂牌：SENASIC（06675，琻捷电子科技（江苏）股份有限公司 / SENASIC Electronics Technology Co., Ltd.）今日新上市。",
+        "港股递表/聆讯：已复核 HKEX AP-only 与 AP+PHIP 官方 JSON，17/06/2026 文档日期命中 0 家 AP、0 家 PHIP。",
+        "证监会备案：未见 2026-06-17 单家公司新增《境外发行上市备案通知书》。",
+        "昨日档案更正：6 月 16 日 AP/PHIP 经复核应为 AP 6 家、PHIP 1 家，已单独更正 2026-06-16 档案。"
+      ],
+      "metrics": {
+        "hkexNewListings": 1,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "deals": [
+        {
+          "id": "hkex-listing-06675-20260617",
+          "section": "港股新挂牌",
+          "type": "港股 IPO 新挂牌",
+          "status": "今日挂牌",
+          "eventType": "hkexIpoListing",
+          "countInMetrics": true,
+          "company": {
+            "zh": "琻捷电子科技（江苏）股份有限公司",
+            "en": "SENASIC Electronics Technology Co., Ltd.",
+            "display": "琻捷电子科技（江苏）股份有限公司 / SENASIC Electronics Technology Co., Ltd.（06675）",
+            "ticker": "06675",
+            "exchange": "HKEX",
+            "board": "Main Board",
+            "listingStructure": "H 股（中国境内股份有限公司）"
+          },
+          "business": {
+            "sector": "半导体 / 传感器芯片",
+            "subIndustry": "待招股书业务章节复核",
+            "summary": "公司业务简介待招股书 Summary/Business 章节复核后补全；本快报先按 HKEX 新挂牌事实入库。",
+            "source": "HKEX Newly Listed Securities / HKEX New Listing Information"
+          },
+          "timeline": {
+            "firstFilingDate": "待 HKEX 历史递表记录复核",
+            "latestFilingDate": "待 HKEX 历史递表记录复核",
+            "csrcReceivedDate": "待证监会备案进度页复核",
+            "csrcFilingApprovedDate": "待证监会备案通知书复核",
+            "latestHearingDate": "待 HKEX PHIP/聆讯记录复核",
+            "prospectusDate": "待招股书复核",
+            "allotmentResultDate": "2026-06-16",
+            "listingDate": "2026-06-17"
+          },
+          "ipo": {
+            "offerPrice": "待配发结果公告复核",
+            "sharesOffered": "待配发结果公告复核",
+            "publicOfferSubscription": "待配发结果公告复核",
+            "internationalOfferSubscription": "待配发结果公告复核",
+            "cornerstoneInvestors": "待招股书及配发结果公告复核"
+          },
+          "marketPerformance": {
+            "offerPrice": "待配发结果公告复核",
+            "openPrice": "待行情源复核",
+            "firstDayClose": "待收盘后复核",
+            "openChangePctVsOffer": "待行情源复核",
+            "firstDayCloseChangePctVsOffer": "待收盘后复核"
+          },
+          "intermediaries": {
+            "sponsors": "待招股书封面页复核",
+            "overallCoordinators": "待招股书封面及 Underwriting 章节复核",
+            "globalCoordinatorsBookrunnersLeadManagers": "待招股书及配发结果公告复核",
+            "legalAdvisers": "待招股书 Directors and Parties / 公司资料章节复核",
+            "reportingAccountants": "待招股书 Directors and Parties / 公司资料章节复核"
+          },
+          "links": [
+            "HKEX Newly Listed Securities",
+            "HKEX New Listing Information",
+            "SENASIC Allotment Results English",
+            "SENASIC Allotment Results Chinese",
+            "SENASIC Listing Document English",
+            "SENASIC Listing Document Chinese"
+          ]
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=zh-HK",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=zh-HK",
+    "Application Proof / PHIP": "https://www1.hkexnews.hk/app/appindex.html?lang=zh",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing List": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "SENASIC Allotment Results English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0616/2026061601760.pdf",
+    "SENASIC Allotment Results Chinese": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0616/2026061601761_c.pdf",
+    "SENASIC Listing Document English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0320/2026032000009.pdf",
+    "SENASIC Listing Document Chinese": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0320/2026032000010_c.pdf"
+  }
+}
