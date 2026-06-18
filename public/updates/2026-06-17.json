@@ -2,19 +2,19 @@
   "dailyReports": {
     "2026-06-17": {
       "date": "2026-06-17",
-      "title": "资本市场快报",
-      "subtitle": "港股正常交易日；早盘复核见 1 家新挂牌，AP/PHIP 暂无新增，证监会暂无单家公司新增备案通知。",
-      "statusNote": "数据截至 2026-06-17 早盘复核。HKEX Newly Listed Securities 显示 SENASIC（06675）于 17/06/2026* 新上市；HKEX AP-only JSON app.length=419，按 17/06/2026 文档日期命中 0 家 Application Proof；HKEX AP+PHIP JSON app.length=20，按 17/06/2026 文档日期命中 0 家 PHIP。证监会境外上市类列表最新公开项仍为 2026-06-12 补充材料公示，未见 6/17 单家公司新增备案通知。",
-      "archiveNotice": "上一个交易日资本市场日报档案已补充 6 月 16 日 AP/PHIP 新增信息，请注意查看。",
+      "title": "资本市场日报",
+      "subtitle": "港股正常交易日；已补充收盘后复核：1 家新挂牌、4 家 AP，PHIP 暂无新增，证监会暂无单家公司新增备案通知。",
+      "statusNote": "数据截至 2026-06-17 收盘后复核。HKEX Newly Listed Securities 显示 SENASIC（06675）于 17/06/2026 新上市；HKEX AP-only JSON app.length=420，按 17/06/2026 文档日期命中 4 家 Application Proof；HKEX AP+PHIP JSON app.length=21，按 17/06/2026 文档日期命中 0 家 PHIP。证监会境外上市类列表最新公开项仍为 2026-06-12 补充材料公示，未见 6/17 单家公司新增备案通知。",
+      "archiveNotice": "",
       "observations": [
-        "港股新挂牌：SENASIC（06675，琻捷电子科技（江苏）股份有限公司 / SENASIC Electronics Technology Co., Ltd.）今日新上市。",
-        "港股递表/聆讯：已复核 HKEX AP-only 与 AP+PHIP 官方 JSON，17/06/2026 文档日期命中 0 家 AP、0 家 PHIP。",
+        "港股新挂牌：SENASIC（06675，琻捷电子科技（江苏）股份有限公司 / SENASIC Electronics Technology Co., Ltd.）6 月 17 日新上市。",
+        "港股递表/聆讯：6 月 17 日 AP 新增 4 家，PHIP 暂无新增；已按 HKEX structured JSON 补充公司级明细和中英文官方文件链接。",
         "证监会备案：未见 2026-06-17 单家公司新增《境外发行上市备案通知书》。",
-        "昨日档案更正：6 月 16 日 AP/PHIP 经复核应为 AP 6 家、PHIP 1 家，已单独更正 2026-06-16 档案。"
+        "美股中概 IPO：未见需要计入本期的中国相关美股 IPO 新事件。"
       ],
       "metrics": {
         "hkexNewListings": 1,
-        "apNewCount": 0,
+        "apNewCount": 4,
         "phipCount": 0,
         "csrcCount": 0,
         "usChinaIpoCount": 0
@@ -39,7 +39,7 @@
           "business": {
             "sector": "半导体 / 传感器芯片",
             "subIndustry": "待招股书业务章节复核",
-            "summary": "公司业务简介待招股书 Summary/Business 章节复核后补全；本快报先按 HKEX 新挂牌事实入库。",
+            "summary": "公司业务简介待招股书 Summary/Business 章节复核后补全；本日报先按 HKEX 新挂牌事实入库。",
             "source": "HKEX Newly Listed Securities / HKEX New Listing Information"
           },
           "timeline": {
@@ -62,9 +62,9 @@
           "marketPerformance": {
             "offerPrice": "待配发结果公告复核",
             "openPrice": "待行情源复核",
-            "firstDayClose": "待收盘后复核",
+            "firstDayClose": "待行情源复核",
             "openChangePctVsOffer": "待行情源复核",
-            "firstDayCloseChangePctVsOffer": "待收盘后复核"
+            "firstDayCloseChangePctVsOffer": "待行情源复核"
           },
           "intermediaries": {
             "sponsors": "待招股书封面页复核",
@@ -81,6 +81,86 @@
             "SENASIC Listing Document English",
             "SENASIC Listing Document Chinese"
           ]
+        },
+        {
+          "id": "hkex-ap-phip-20260617",
+          "section": "港股递表/聆讯",
+          "type": "AP / PHIP 更新",
+          "status": "AP 4 家；PHIP 0 家",
+          "eventType": "apPhipUpdate",
+          "countInMetrics": true,
+          "company": {
+            "zh": "港交所 AP & PHIP 页面日内更新监控",
+            "en": "HKEX AP & PHIP Monitor",
+            "display": "港交所 AP & PHIP 页面日内更新监控（2026-06-17）",
+            "exchange": "HKEX",
+            "board": "Application Proof / PHIP",
+            "listingStructure": "多家公司"
+          },
+          "business": {
+            "sector": "港股 IPO pipeline",
+            "summary": "6 月 17 日联交所 AP 新增 4 家、PHIP 暂无新增；已复核 HKEX AP-only JSON（app.length=420）及 AP+PHIP JSON（app.length=21）。",
+            "source": "HKEX structured JSON"
+          },
+          "metrics": {
+            "apNewCount": 4,
+            "phipCount": 0
+          },
+          "apApplications": [
+            {
+              "nameZh": "聚慧食品科技有限公司",
+              "nameEn": "Juhui Food Technology Co., Ltd",
+              "filingDate": "2026-06-17",
+              "documentType": "Application Proof (1st submission)",
+              "status": "AP",
+              "sector": "食品科技 / 消费品",
+              "structure": "境外主体，上市架构待招股书公司结构章节复核",
+              "sponsors": "待 AP 封面页及董事及参与方章节复核",
+              "businessSummary": "待 AP Summary/Business 章节复核后补全。",
+              "businessSource": "HKEX Application Proof",
+              "sourceLinks": ["Juhui AP Chinese Full", "Juhui AP Chinese Pack", "Juhui AP English Full", "Juhui AP English Pack"]
+            },
+            {
+              "nameZh": "北京融信数联科技股份有限公司",
+              "nameEn": "Beijing Rongxin Datainfo Science and Technology Co., Ltd.",
+              "filingDate": "2026-06-17",
+              "documentType": "Application Proof (1st submission)",
+              "status": "AP",
+              "sector": "软件/数据科技服务",
+              "structure": "H 股（中国境内股份有限公司）",
+              "sponsors": "待 AP 封面页及董事及参与方章节复核",
+              "businessSummary": "待 AP Summary/Business 章节复核后补全。",
+              "businessSource": "HKEX Application Proof",
+              "sourceLinks": ["Rongxin AP Chinese Full", "Rongxin AP Chinese Pack", "Rongxin AP English Full", "Rongxin AP English Pack"]
+            },
+            {
+              "nameZh": "江苏博迁新材料股份有限公司",
+              "nameEn": "Jiangsu Boqian New Materials Stock Co., Ltd.",
+              "filingDate": "2026-06-17",
+              "documentType": "Application Proof (1st submission)",
+              "status": "AP",
+              "sector": "新材料 / 金属粉体材料",
+              "structure": "A+H 股（境内 A 股上市公司拟 H 股上市）",
+              "sponsors": "待 AP 封面页及董事及参与方章节复核",
+              "businessSummary": "待 AP Summary/Business 章节复核后补全。",
+              "businessSource": "HKEX Application Proof",
+              "sourceLinks": ["Boqian AP Chinese Full", "Boqian AP Chinese Pack", "Boqian AP English Full", "Boqian AP English Pack"]
+            },
+            {
+              "nameZh": "巴奴国际控股有限公司",
+              "nameEn": "BANU INTERNATIONAL HOLDING LTD",
+              "filingDate": "2026-06-17",
+              "documentType": "Application Proof (1st submission)",
+              "status": "AP",
+              "sector": "餐饮 / 连锁火锅",
+              "structure": "境外主体，上市架构待招股书公司结构章节复核",
+              "sponsors": "待 AP 封面页及董事及参与方章节复核",
+              "businessSummary": "待 AP Summary/Business 章节复核后补全。",
+              "businessSource": "HKEX Application Proof",
+              "sourceLinks": ["Banu AP Chinese Full", "Banu AP Chinese Pack", "Banu AP English Full", "Banu AP English Pack"]
+            }
+          ],
+          "links": ["Application Proof / PHIP", "HKEX AP structured JSON", "HKEX AP/PHIP structured JSON"]
         }
       ]
     }
@@ -95,6 +175,22 @@
     "SENASIC Allotment Results English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0616/2026061601760.pdf",
     "SENASIC Allotment Results Chinese": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0616/2026061601761_c.pdf",
     "SENASIC Listing Document English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0320/2026032000009.pdf",
-    "SENASIC Listing Document Chinese": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0320/2026032000010_c.pdf"
+    "SENASIC Listing Document Chinese": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0320/2026032000010_c.pdf",
+    "Juhui AP Chinese Full": "https://www1.hkexnews.hk/app/sehk/2026/108651/documents/sehk26061700700_c.pdf",
+    "Juhui AP Chinese Pack": "https://www1.hkexnews.hk/app/sehk/2026/108651/2026061700697_c.htm",
+    "Juhui AP English Full": "https://www1.hkexnews.hk/app/sehk/2026/108651/documents/sehk26061700701.pdf",
+    "Juhui AP English Pack": "https://www1.hkexnews.hk/app/sehk/2026/108651/2026061700696.htm",
+    "Rongxin AP Chinese Full": "https://www1.hkexnews.hk/app/sehk/2026/108652/documents/sehk26061701130.pdf",
+    "Rongxin AP Chinese Pack": "https://www1.hkexnews.hk/app/sehk/2026/108652/2026061701061_c.htm",
+    "Rongxin AP English Full": "https://www1.hkexnews.hk/app/sehk/2026/108652/documents/sehk26061701131.pdf",
+    "Rongxin AP English Pack": "https://www1.hkexnews.hk/app/sehk/2026/108652/2026061701060.htm",
+    "Boqian AP Chinese Full": "https://www1.hkexnews.hk/app/sehk/2026/108653/documents/sehk26061701456.pdf",
+    "Boqian AP Chinese Pack": "https://www1.hkexnews.hk/app/sehk/2026/108653/2026061701389_c.htm",
+    "Boqian AP English Full": "https://www1.hkexnews.hk/app/sehk/2026/108653/documents/sehk26061701457.pdf",
+    "Boqian AP English Pack": "https://www1.hkexnews.hk/app/sehk/2026/108653/2026061701388.htm",
+    "Banu AP Chinese Full": "https://www1.hkexnews.hk/app/sehk/2026/108654/documents/sehk26061701846_c.pdf",
+    "Banu AP Chinese Pack": "https://www1.hkexnews.hk/app/sehk/2026/108654/2026061701843_c.htm",
+    "Banu AP English Full": "https://www1.hkexnews.hk/app/sehk/2026/108654/documents/sehk26061701847.pdf",
+    "Banu AP English Pack": "https://www1.hkexnews.hk/app/sehk/2026/108654/2026061701842.htm"
   }
 }
