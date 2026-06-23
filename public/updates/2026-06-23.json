@@ -1,0 +1,192 @@
+{
+  "dailyReports": {
+    "2026-06-23": {
+      "date": "2026-06-23",
+      "title": "资本市场日报",
+      "subtitle": "港股正常交易日；星源材质（06067）和华健未来-B（06132）挂牌，证监会暂无单家公司新增备案通知。",
+      "statusNote": "数据截至 2026-06-23 17:00 收盘后复核。今日为港股正常交易日。HKEX Newly Listed Securities 列示 23/06/2026 新上市证券，其中公司类 IPO 计入星源材质（06067）和华健未来-B（06132）2 家；同日 ETF、供股权和股份合并不计入 hkexNewListings。HKEX New Listing Information 更新至 2026-06-23，已读取星源材质澄清公告、华健未来-B 配发结果公告及相关招股文件固定信息。证监会境外上市类页面最新可见公开项仍为 2026-06-12 补充材料公示，未见 6/23 单家公司新增《境外发行上市备案通知书》，csrcCount=0。行情页面为动态页，本次未取得可引用的官方开收盘价，相关字段标注待官方行情源复核。",
+      "archiveNotice": "上一个交易日或中间自然日资本市场日报档案已补充新增信息，请注意查看。",
+      "observations": [
+        "港股新挂牌：星源材质（06067 / Shenzhen Senior Technology Material Co., Ltd.）和华健未来-B（06132 / HJ Science Co., Ltd. - B）于 2026-06-23 挂牌。",
+        "星源材质：招股书列示全球发售 149,523,500 股 H 股、最高发售价 HK$8.98；2026-06-23 中文澄清公告修订其 2026-06-22 配发结果公告部分内容，最终发售价和认购倍数仍待配发结果原公告复核。",
+        "华健未来-B：配发结果公告列示发售价 HK$81.80，全球发售 13,600,000 股 H 股；香港公开发售认购水平约 2,007.60 倍，所得款项净额约 HK$1,018.7 million。",
+        "证监会备案：未见 2026-06-23 单家公司新增《境外发行上市备案通知书》；补充材料公示和备案情况表不计入 csrcCount。",
+        "美股中概 IPO：本次复核未识别需计入本期的中国相关 SEC EDGAR IPO 新事件。"
+      ],
+      "metrics": {
+        "hkexNewListings": 2,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "officialSourceChecks": [
+        {
+          "source": "HKEX Newly Listed Securities",
+          "dateRange": "2026-06-23",
+          "result": "公司类 IPO 新挂牌 2 家：星源材质（06067）、华健未来-B（06132）；ETF、供股权和股份合并未计入。"
+        },
+        {
+          "source": "HKEX New Listing Information",
+          "dateRange": "2026-06-23",
+          "result": "页面更新至 2026-06-23；已读取 6067、6132、1392 相关下载文件，其中 6132 配发结果公告含完整发行固定信息。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-06-23",
+          "result": "本次环境未能直接导出结构化 JSON 明细；未创建 AP/PHIP 假卡，待下次可读时回补复核。"
+        },
+        {
+          "source": "CSRC Overseas Filing List",
+          "dateRange": "2026-06-23",
+          "result": "最新可见公开项为 2026-06-12 补充材料公示；未计入 csrcCount。"
+        },
+        {
+          "source": "SEC EDGAR",
+          "dateRange": "2026-06-23",
+          "result": "未识别需计入的中国相关 IPO 新事件。"
+        }
+      ],
+      "deals": [
+        {
+          "id": "hkex-listing-06067-20260623",
+          "section": "港股新挂牌",
+          "type": "港股 IPO 新挂牌",
+          "status": "今日挂牌",
+          "eventType": "hkexIpoListing",
+          "countInMetrics": true,
+          "company": {
+            "zh": "深圳市星源材质科技股份有限公司",
+            "en": "Shenzhen Senior Technology Material Co., Ltd.",
+            "display": "深圳市星源材质科技股份有限公司 / Shenzhen Senior Technology Material Co., Ltd.（06067）",
+            "ticker": "06067",
+            "exchange": "HKEX",
+            "board": "Main Board",
+            "listingStructure": "A+H 股（境内 A 股上市公司 H 股上市）"
+          },
+          "business": {
+            "sector": "新能源材料 / 锂离子电池隔膜",
+            "subIndustry": "锂离子电池隔膜、涂覆隔膜及功能膜材料",
+            "summary": "公司是锂离子电池隔膜供应商，招股书称其为中国首家及少数兼备干法、湿法及涂覆隔膜三种锂离子电池隔膜生产技术的企业；过去六年锂离子电池隔膜出货量全球排名第二，并服务宁德时代、比亚迪、LG 新能源、三星 SDI 等客户。",
+            "source": "HKEX Prospectus / Business section"
+          },
+          "timeline": {
+            "prospectusDate": "2026-06-12",
+            "allotmentResultDate": "2026-06-22（原公告；2026-06-23 中文澄清公告修订部分配发信息）",
+            "listingDate": "2026-06-23"
+          },
+          "ipo": {
+            "offerPrice": "HK$8.98（招股书最高发售价；最终发售价待配发结果原公告复核）",
+            "sharesOffered": "149,523,500 H Shares",
+            "hongKongOfferShares": "14,952,500 H Shares（可予重新分配）",
+            "internationalOfferShares": "134,571,000 H Shares（可予重新分配）",
+            "grossProceeds": "待配发结果原公告复核",
+            "netProceeds": "待配发结果原公告复核",
+            "publicOfferSubscription": "待配发结果原公告复核",
+            "internationalOfferSubscription": "待配发结果原公告复核",
+            "cornerstoneInvestors": "待招股书及配发结果公告复核",
+            "allotmentCorrection": "2026-06-23 中文澄清公告修订 2026-06-22 配发结果公告中文版若干译文及额外资料，不影响英文版资料及内容。"
+          },
+          "marketPerformance": {
+            "offerPrice": "HK$8.98（待配发结果原公告最终价复核）",
+            "openPrice": "待官方行情源复核",
+            "firstDayClose": "待官方行情源复核",
+            "openChangePctVsOffer": "待官方行情源复核",
+            "firstDayCloseChangePctVsOffer": "待官方行情源复核",
+            "priceDataStatus": "pendingOfficialMarketDataReview",
+            "note": "已定位 HKEX 官方行情页，但本次连接器未能导出可引用的历史开盘价和收盘价；未采用非官方报价。"
+          },
+          "intermediaries": {
+            "sponsors": "招股书封面以机构 logo 呈现，待视觉/OCR 复核",
+            "overallCoordinators": "待招股书封面及 Underwriting 章节视觉/OCR 复核",
+            "bookrunnersLeadManagers": "待招股书及配发结果公告复核"
+          },
+          "links": [
+            "HKEX Newly Listed Securities",
+            "HKEX New Listing Information",
+            "Senior Technology Prospectus Chinese",
+            "Senior Technology Clarification Announcement Chinese",
+            "Senior Technology HKEX Quote"
+          ]
+        },
+        {
+          "id": "hkex-listing-06132-20260623",
+          "section": "港股新挂牌",
+          "type": "港股 IPO 新挂牌",
+          "status": "今日挂牌",
+          "eventType": "hkexIpoListing",
+          "countInMetrics": true,
+          "company": {
+            "zh": "华健未来（成都）科技股份有限公司",
+            "en": "HJ Science Co., Ltd.",
+            "display": "华健未来（成都）科技股份有限公司 / HJ Science Co., Ltd.（06132）",
+            "ticker": "06132",
+            "exchange": "HKEX",
+            "board": "Main Board",
+            "listingStructure": "H 股；第十八A章生物科技公司"
+          },
+          "business": {
+            "sector": "生物科技 / 创新药",
+            "subIndustry": "自身免疫、代谢及肿瘤小分子药物",
+            "summary": "公司为临床阶段生物科技公司，由专注自身免疫、代谢及肿瘤疾病疗法研发的团队于 2017 年创立；核心产品包括 HJ787、HJ178 及 HJ891，均为自行开发的小分子国家药监局 1 类创新药。",
+            "source": "HKEX Prospectus / Summary section"
+          },
+          "timeline": {
+            "prospectusDate": "2026-06-12",
+            "allotmentResultDate": "2026-06-22",
+            "listingDate": "2026-06-23"
+          },
+          "ipo": {
+            "offerPrice": "HK$81.80",
+            "sharesOffered": "13,600,000 H Shares（行使超额配股权前）",
+            "hongKongOfferShares": "1,360,000 H Shares",
+            "internationalOfferShares": "12,240,000 H Shares（行使超额配股权前）",
+            "overAllotment": "2,040,000 H Shares",
+            "grossProceeds": "约 HK$1,112.5 million",
+            "netProceeds": "约 HK$1,018.7 million",
+            "issuedSharesUponListing": "73,599,605 Shares（行使超额配股权前）",
+            "publicOfferSubscription": "约 2,007.60 倍；有效申请 173,284 份，获接纳申请 13,418 份",
+            "internationalOfferSubscription": "待配发结果公告国际发售章节进一步复核",
+            "cornerstoneInvestors": "招股书披露凯博未来有限公司及睿远基金等基石投资协议；具体获配股数待配发结果公告基石投资者章节复核"
+          },
+          "marketPerformance": {
+            "offerPrice": "HK$81.80",
+            "openPrice": "待官方行情源复核",
+            "firstDayClose": "待官方行情源复核",
+            "openChangePctVsOffer": "待官方行情源复核",
+            "firstDayCloseChangePctVsOffer": "待官方行情源复核",
+            "priceDataStatus": "pendingOfficialMarketDataReview",
+            "note": "已定位 HKEX 官方行情页，但本次连接器未能导出可引用的历史开盘价和收盘价；未采用非官方报价。"
+          },
+          "intermediaries": {
+            "sponsors": "招股书封面以机构 logo 呈现，待视觉/OCR 复核",
+            "overallCoordinators": "招股书全球发售章节列示中信里昂证券有限公司为独家整体协调人；其余角色待封面/OCR 复核",
+            "bookrunnersLeadManagers": "待招股书及配发结果公告复核"
+          },
+          "links": [
+            "HKEX Newly Listed Securities",
+            "HKEX New Listing Information",
+            "HJ Science Prospectus Chinese",
+            "HJ Science Allotment Results Chinese",
+            "HJ Science HKEX Quote"
+          ]
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=zh-HK",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=zh-HK",
+    "Application Proof / PHIP": "https://www1.hkexnews.hk/app/appindex.html?lang=zh",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing List": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "SEC EDGAR": "https://www.sec.gov/edgar/search/",
+    "Senior Technology Prospectus Chinese": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0612/2026061200032_c.pdf",
+    "Senior Technology Clarification Announcement Chinese": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0623/2026062300142_c.pdf",
+    "Senior Technology HKEX Quote": "https://www.hkex.com.hk/Market-Data/Securities-Prices/Equities/Equities-Quote?sc_lang=zh-HK&sym=6067",
+    "HJ Science Prospectus Chinese": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0612/2026061200084_c.pdf",
+    "HJ Science Allotment Results Chinese": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0622/2026062201628_c.pdf",
+    "HJ Science HKEX Quote": "https://www.hkex.com.hk/Market-Data/Securities-Prices/Equities/Equities-Quote?sc_lang=zh-HK&sym=6132"
+  }
+}
