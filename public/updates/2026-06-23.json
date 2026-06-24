@@ -2,21 +2,23 @@
   "dailyReports": {
     "2026-06-23": {
       "date": "2026-06-23",
+      "reportType": "briefing",
       "title": "资本市场快报",
-      "subtitle": "港股正常交易日；星源材质（06067）和华健未来-B（06132）早盘挂牌，证监会暂无单家公司新增备案通知。",
-      "statusNote": "数据截至 2026-06-23 09:30 早盘复核。今日为港股正常交易日。HKEX Newly Listed Securities 列示 23/06/2026 新上市证券，其中公司类 IPO 计入星源材质（06067）和华健未来-B（06132）2 家；同日 ETF、供股权和股份合并不计入 hkexNewListings。HKEX New Listing Information 更新至 2026-06-23，已读取星源材质招股书及中文澄清公告、华健未来-B 招股书及配发结果公告固定信息。证监会境外上市类页面最新可见公开项仍为 2026-06-12 补充材料公示，未见 6/23 单家公司新增《境外发行上市备案通知书》，csrcCount=0。早盘阶段仅开盘价、收盘价、涨跌幅等交易进程字段保留待官方行情源复核。",
-      "archiveNotice": "上一个交易日或中间自然日资本市场日报档案已补充新增信息，请注意查看。",
+      "subtitle": "港股正常交易日；星源材质（06067）和华健未来-B（06132）早盘挂牌，回扫补充 AP 2 家、PHIP 6 家。",
+      "statusNote": "数据截至 2026-06-24 09:30 早盘回扫更新。2026-06-23 为港股正常交易日。HKEX Newly Listed Securities 列示 23/06/2026 新上市证券，其中公司类 IPO 计入星源材质（06067）和华健未来-B（06132）2 家；同日 ETF、供股权和股份合并不计入 hkexNewListings。HKEX AP-only JSON uDate=24/06/2026、app.length=406，按 23/06/2026 文档日期命中 2 家 Application Proof；HKEX AP+PHIP JSON app.length=26，按 23/06/2026 文档日期命中 6 家 PHIP。证监会补充材料公示列表最新仍为 2026-06-12，未见 6/23 单家公司新增《境外发行上市备案通知书》，csrcCount=0。SEC EDGAR 官方搜索 6/23 IPO 相关表格返回 0 条。",
+      "archiveNotice": "本文件由 2026-06-24 09:30 早盘流程回扫补充 AP/PHIP 结构化 JSON 明细；AP 与 PHIP 均放入同一 apApplications[] 并以 status/documentType 区分。",
       "observations": [
         "港股新挂牌：星源材质（06067 / Shenzhen Senior Technology Material Co., Ltd.）和华健未来-B（06132 / HJ Science Co., Ltd. - B）于 2026-06-23 挂牌。",
-        "星源材质：招股书列示全球发售 149,523,500 股 H 股、最高发售价 HK$8.98；2026-06-23 中文澄清公告修订其 2026-06-22 配发结果公告中文版部分内容，当前 HKEX 新上市资料页入口以澄清公告为主，最终发售价和认购倍数待原配发结果公告全量复核。",
+        "港股递表/聆讯回补：6 月 23 日 AP 新增 2 家，分别为无锡东恒新能源科技股份有限公司、孩子王儿童用品股份有限公司；PHIP 新增 6 家，分别为 MOMENTA GLOBAL LIMITED - W、滨化集团股份有限公司、上海哥瑞利软件股份有限公司、立讯精密工业股份有限公司、广东鼎泰高科技术股份有限公司、普源精电科技股份有限公司。",
         "华健未来-B：配发结果公告列示发售价 HK$81.80，全球发售 13,600,000 股 H 股；香港公开发售认购水平约 2,007.60 倍，国际发售认购水平约 7.00 倍，所得款项净额约 HK$1,018.7 million。",
+        "星源材质：招股书列示全球发售 149,523,500 股 H 股、最高发售价 HK$8.98；2026-06-23 中文澄清公告修订其 2026-06-22 配发结果公告中文版部分内容，最终发售价和认购倍数待原配发结果公告全量复核。",
         "证监会备案：未见 2026-06-23 单家公司新增《境外发行上市备案通知书》；补充材料公示和备案情况表不计入 csrcCount。",
-        "美股中概 IPO：早盘复核未识别需计入本期的中国相关 SEC EDGAR IPO 新事件。"
+        "美股中概 IPO：SEC EDGAR 官方搜索 2026-06-23 的 F-1、F-1/A、424B、FWP、EFFECT、8-A12B 等 IPO 相关表格返回 0 条。"
       ],
       "metrics": {
         "hkexNewListings": 2,
-        "apNewCount": 0,
-        "phipCount": 0,
+        "apNewCount": 2,
+        "phipCount": 6,
         "csrcCount": 0,
         "usChinaIpoCount": 0
       },
@@ -29,22 +31,22 @@
         {
           "source": "HKEX New Listing Information",
           "dateRange": "2026-06-23",
-          "result": "页面更新至 2026-06-23；已读取 6067、6132、1392 相关下载文件，其中 6132 配发结果公告含完整发行固定信息。"
+          "result": "页面更新至 2026-06-23；已读取 6067、6132 相关下载文件，其中 6132 配发结果公告含完整发行固定信息。"
         },
         {
           "source": "HKEX AP-only / AP+PHIP structured JSON",
           "dateRange": "2026-06-23",
-          "result": "本次环境未能直接导出结构化 JSON 明细；未创建 AP/PHIP 假卡，待下次可读时回补复核。"
+          "result": "AP-only JSON app.length=406 命中 AP 2 家；AP+PHIP JSON app.length=26 命中 PHIP 6 家。"
         },
         {
-          "source": "CSRC Overseas Filing List",
+          "source": "CSRC Overseas Filing / Supplement Materials",
           "dateRange": "2026-06-23",
-          "result": "最新可见公开项为 2026-06-12 补充材料公示；未计入 csrcCount。"
+          "result": "补充材料公示列表最新仍为 2026-06-12；未见 6/23 单家公司新增备案通知书，csrcCount=0。"
         },
         {
-          "source": "SEC EDGAR",
+          "source": "SEC EDGAR search-index",
           "dateRange": "2026-06-23",
-          "result": "早盘复核未识别需计入的中国相关 IPO 新事件。"
+          "result": "F-1、F-1/A、424B、FWP、EFFECT、8-A12B 等 IPO 相关表格返回 0 条。"
         }
       ],
       "deals": [
@@ -67,7 +69,7 @@
           "business": {
             "sector": "新能源材料 / 锂离子电池隔膜",
             "subIndustry": "锂离子电池隔膜、涂覆隔膜及功能膜材料",
-            "summary": "公司是锂离子电池隔膜供应商，招股书称其为中国首家及少数兼备干法、湿法及涂覆隔膜三种锂离子电池隔膜生产技术的企业；过去六年锂离子电池隔膜出货量全球排名第二，并服务宁德时代、比亚迪、LG 新能源、三星 SDI 等客户。",
+            "summary": "公司是锂离子电池隔膜供应商，招股书称其为中国首家及少数兼备干法、湿法及涂覆隔膜三种锂离子电池隔膜生产技术的企业；过去六年锂离子电池隔膜出货量全球排名第二。",
             "source": "HKEX Prospectus / Business section"
           },
           "timeline": {
@@ -80,12 +82,9 @@
             "sharesOffered": "149,523,500 H Shares",
             "hongKongOfferShares": "14,952,500 H Shares（可予重新分配）",
             "internationalOfferShares": "134,571,000 H Shares（可予重新分配）",
-            "grossProceeds": "待配发结果原公告复核",
-            "netProceeds": "待配发结果原公告复核",
             "publicOfferSubscription": "待配发结果原公告复核",
             "internationalOfferSubscription": "待配发结果原公告复核",
-            "cornerstoneInvestors": "待招股书及配发结果公告复核；中文澄清公告列示并修订广发基金、泰康人寿、Harvest Synergy SP、Bona Star、富国、ICBCUBSI 等承配/相关方披露。",
-            "allotmentCorrection": "2026-06-23 中文澄清公告修订 2026-06-22 配发结果公告中文版若干译文及额外资料，不影响英文版资料及内容。"
+            "cornerstoneInvestors": "待招股书及配发结果公告复核；中文澄清公告列示并修订广发基金、泰康人寿、Harvest Synergy SP、Bona Star、富国、ICBCUBSI 等承配/相关方披露。"
           },
           "marketPerformance": {
             "offerPrice": "HK$8.98（待配发结果原公告最终价复核）",
@@ -93,21 +92,14 @@
             "firstDayClose": "待官方行情源复核",
             "openChangePctVsOffer": "待官方行情源复核",
             "firstDayCloseChangePctVsOffer": "待官方行情源复核",
-            "priceDataStatus": "pendingOfficialMarketDataReview",
-            "note": "早盘只保留可由官方新上市资料页核验的发行固定字段；开盘价、收盘价及涨跌幅待官方行情源复核后补。"
+            "priceDataStatus": "pendingOfficialMarketDataReview"
           },
           "intermediaries": {
             "sponsors": "招股书封面以机构 logo 呈现，待视觉/OCR 复核",
             "overallCoordinators": "待招股书封面及 Underwriting 章节视觉/OCR 复核",
             "bookrunnersLeadManagers": "待招股书及配发结果公告复核"
           },
-          "links": [
-            "HKEX Newly Listed Securities",
-            "HKEX New Listing Information",
-            "Senior Technology Prospectus Chinese",
-            "Senior Technology Clarification Announcement Chinese",
-            "Senior Technology HKEX Quote"
-          ]
+          "links": ["HKEX Newly Listed Securities", "HKEX New Listing Information", "Senior Technology Prospectus Chinese", "Senior Technology Clarification Announcement Chinese", "Senior Technology HKEX Quote"]
         },
         {
           "id": "hkex-listing-06132-20260623",
@@ -155,21 +147,154 @@
             "firstDayClose": "待官方行情源复核",
             "openChangePctVsOffer": "待官方行情源复核",
             "firstDayCloseChangePctVsOffer": "待官方行情源复核",
-            "priceDataStatus": "pendingOfficialMarketDataReview",
-            "note": "早盘只保留可由官方新上市资料页核验的发行固定字段；开盘价、收盘价及涨跌幅待官方行情源复核后补。"
+            "priceDataStatus": "pendingOfficialMarketDataReview"
           },
           "intermediaries": {
             "sponsors": "招股书封面以机构 logo 呈现，待视觉/OCR 复核；配发结果公告披露稳定价格经办人为 CLSA Limited。",
             "overallCoordinators": "招股书全球发售章节列示中信里昂证券有限公司为独家整体协调人；其余角色待封面/OCR 复核",
             "bookrunnersLeadManagers": "待招股书及配发结果公告复核"
           },
-          "links": [
-            "HKEX Newly Listed Securities",
-            "HKEX New Listing Information",
-            "HJ Science Prospectus Chinese",
-            "HJ Science Allotment Results Chinese",
-            "HJ Science HKEX Quote"
-          ]
+          "links": ["HKEX Newly Listed Securities", "HKEX New Listing Information", "HJ Science Prospectus Chinese", "HJ Science Allotment Results Chinese", "HJ Science HKEX Quote"]
+        },
+        {
+          "id": "hkex-ap-phip-20260623",
+          "section": "港股递表/聆讯",
+          "type": "AP / PHIP 更新",
+          "status": "AP 2 家；PHIP 6 家",
+          "eventType": "apPhipUpdate",
+          "countInMetrics": true,
+          "company": {
+            "zh": "港交所 AP & PHIP 页面日内更新监控",
+            "en": "HKEX AP & PHIP Monitor",
+            "display": "港交所 AP & PHIP 页面日内更新监控（2026-06-23）",
+            "exchange": "HKEX",
+            "board": "Application Proof / PHIP",
+            "listingStructure": "多家公司"
+          },
+          "business": {
+            "sector": "港股 IPO pipeline",
+            "summary": "6 月 23 日联交所 AP 新增 2 家、PHIP 新增 6 家；已复核 HKEX AP-only JSON（app.length=406）及 AP+PHIP JSON（app.length=26）。",
+            "source": "HKEX structured JSON"
+          },
+          "metrics": {
+            "apNewCount": 2,
+            "phipCount": 6
+          },
+          "apApplications": [
+            {
+              "nameZh": "无锡东恒新能源科技股份有限公司",
+              "nameEn": "Wuxi Dongheng New Energy Technology Co., Ltd.",
+              "filingDate": "2026-06-23",
+              "documentType": "Application Proof (1st submission)",
+              "status": "AP",
+              "sector": "新能源科技 / 制造",
+              "structure": "H 股（中国境内股份有限公司，待 AP 公司架构章节复核）",
+              "sponsors": "待 AP 封面页及董事及参与方章节复核",
+              "businessSummary": "待 AP Summary/Business 章节复核后补全。",
+              "businessSource": "HKEX Application Proof",
+              "prospectusLink": "Dongheng AP English Full",
+              "sourceLinks": ["Dongheng AP English Full", "Dongheng AP English Pack", "Dongheng AP Chinese Full", "Dongheng AP Chinese Pack"]
+            },
+            {
+              "nameZh": "孩子王儿童用品股份有限公司",
+              "nameEn": "Kidswant Children Products Co., Ltd.",
+              "filingDate": "2026-06-23",
+              "documentType": "Application Proof (1st submission)",
+              "status": "AP",
+              "sector": "母婴童零售 / 消费服务",
+              "structure": "A+H 股（境内 A 股上市公司拟 H 股上市，待 AP 公司架构章节复核）",
+              "sponsors": "待 AP 封面页及董事及参与方章节复核",
+              "businessSummary": "待 AP Summary/Business 章节复核后补全。",
+              "businessSource": "HKEX Application Proof",
+              "prospectusLink": "Kidswant AP English Full",
+              "sourceLinks": ["Kidswant AP English Full", "Kidswant AP English Pack", "Kidswant AP Chinese Full", "Kidswant AP Chinese Pack"]
+            },
+            {
+              "nameZh": "MOMENTA GLOBAL LIMITED - W",
+              "nameEn": "MOMENTA GLOBAL LIMITED - W",
+              "filingDate": "2026-06-23",
+              "documentType": "PHIP (1st submission)",
+              "status": "PHIP",
+              "sector": "自动驾驶 / 智能驾驶",
+              "structure": "境外主体；-W 加权投票权结构待 PHIP 复核",
+              "sponsors": "待 PHIP 封面页及董事及参与方章节复核",
+              "businessSummary": "待 PHIP Summary/Business 章节复核后补全。",
+              "businessSource": "HKEX PHIP",
+              "prospectusLink": "Momenta PHIP English Full",
+              "sourceLinks": ["Momenta PHIP English Full", "Momenta PHIP English Pack", "Momenta PHIP Chinese Full", "Momenta PHIP Chinese Pack"]
+            },
+            {
+              "nameZh": "滨化集团股份有限公司",
+              "nameEn": "Befar Group Co., Ltd.",
+              "filingDate": "2026-06-23",
+              "documentType": "PHIP (1st submission)",
+              "status": "PHIP",
+              "sector": "化工 / 化工新材料",
+              "structure": "A+H 股（境内 A 股上市公司拟 H 股上市）",
+              "sponsors": "待 PHIP 封面页及董事及参与方章节复核",
+              "businessSummary": "待 PHIP Summary/Business 章节复核后补全。",
+              "businessSource": "HKEX PHIP",
+              "prospectusLink": "Befar PHIP English Full",
+              "sourceLinks": ["Befar PHIP English Full", "Befar PHIP English Pack", "Befar PHIP Chinese Full", "Befar PHIP Chinese Pack"]
+            },
+            {
+              "nameZh": "上海哥瑞利软件股份有限公司",
+              "nameEn": "Glorysoft (Shanghai) Co., Ltd.",
+              "filingDate": "2026-06-23",
+              "documentType": "PHIP (1st submission)",
+              "status": "PHIP",
+              "sector": "软件 / 工业软件",
+              "structure": "H 股（中国境内股份有限公司）",
+              "sponsors": "待 PHIP 封面页及董事及参与方章节复核",
+              "businessSummary": "待 PHIP Summary/Business 章节复核后补全。",
+              "businessSource": "HKEX PHIP",
+              "prospectusLink": "Glorysoft PHIP English Full",
+              "sourceLinks": ["Glorysoft PHIP English Full", "Glorysoft PHIP English Pack", "Glorysoft PHIP Chinese Full", "Glorysoft PHIP Chinese Pack"]
+            },
+            {
+              "nameZh": "立讯精密工业股份有限公司",
+              "nameEn": "Luxshare Precision Industry Co., Ltd.",
+              "filingDate": "2026-06-23",
+              "documentType": "PHIP (1st submission)",
+              "status": "PHIP",
+              "sector": "消费电子 / 精密制造",
+              "structure": "A+H 股（境内 A 股上市公司拟 H 股上市）",
+              "sponsors": "待 PHIP 封面页及董事及参与方章节复核",
+              "businessSummary": "待 PHIP Summary/Business 章节复核后补全。",
+              "businessSource": "HKEX PHIP",
+              "prospectusLink": "Luxshare PHIP English Full",
+              "sourceLinks": ["Luxshare PHIP English Full", "Luxshare PHIP English Pack", "Luxshare PHIP Chinese Full", "Luxshare PHIP Chinese Pack"]
+            },
+            {
+              "nameZh": "广东鼎泰高科技术股份有限公司",
+              "nameEn": "Guangdong Dtech Technology Co., Ltd.",
+              "filingDate": "2026-06-23",
+              "documentType": "PHIP (1st submission)",
+              "status": "PHIP",
+              "sector": "电子制造设备 / PCB 及数控刀具",
+              "structure": "A+H 股（境内 A 股上市公司拟 H 股上市）",
+              "sponsors": "待 PHIP 封面页及董事及参与方章节复核",
+              "businessSummary": "待 PHIP Summary/Business 章节复核后补全。",
+              "businessSource": "HKEX PHIP",
+              "prospectusLink": "Dtech PHIP English Full",
+              "sourceLinks": ["Dtech PHIP English Full", "Dtech PHIP English Pack", "Dtech PHIP Chinese Full", "Dtech PHIP Chinese Pack"]
+            },
+            {
+              "nameZh": "普源精电科技股份有限公司",
+              "nameEn": "RIGOL Technologies Co., Ltd.",
+              "filingDate": "2026-06-23",
+              "documentType": "PHIP (1st submission)",
+              "status": "PHIP",
+              "sector": "电子测量仪器 / 科学仪器",
+              "structure": "A+H 股（境内 A 股上市公司拟 H 股上市）",
+              "sponsors": "待 PHIP 封面页及董事及参与方章节复核",
+              "businessSummary": "待 PHIP Summary/Business 章节复核后补全。",
+              "businessSource": "HKEX PHIP",
+              "prospectusLink": "RIGOL PHIP English Full",
+              "sourceLinks": ["RIGOL PHIP English Full", "RIGOL PHIP English Pack", "RIGOL PHIP Chinese Full", "RIGOL PHIP Chinese Pack"]
+            }
+          ],
+          "links": ["Application Proof / PHIP", "HKEX AP structured JSON", "HKEX AP/PHIP structured JSON"]
         }
       ]
     }
@@ -187,6 +312,38 @@
     "Senior Technology HKEX Quote": "https://www.hkex.com.hk/Market-Data/Securities-Prices/Equities/Equities-Quote?sc_lang=zh-HK&sym=6067",
     "HJ Science Prospectus Chinese": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0612/2026061200084_c.pdf",
     "HJ Science Allotment Results Chinese": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0622/2026062201628_c.pdf",
-    "HJ Science HKEX Quote": "https://www.hkex.com.hk/Market-Data/Securities-Prices/Equities/Equities-Quote?sc_lang=zh-HK&sym=6132"
+    "HJ Science HKEX Quote": "https://www.hkex.com.hk/Market-Data/Securities-Prices/Equities/Equities-Quote?sc_lang=zh-HK&sym=6132",
+    "Dongheng AP English Full": "https://www1.hkexnews.hk/app/sehk/2026/108671/documents/sehk26062301349.pdf",
+    "Dongheng AP English Pack": "https://www1.hkexnews.hk/app/sehk/2026/108671/2026062301344.htm",
+    "Dongheng AP Chinese Full": "https://www1.hkexnews.hk/app/sehk/2026/108671/documents/sehk26062301348_c.pdf",
+    "Dongheng AP Chinese Pack": "https://www1.hkexnews.hk/app/sehk/2026/108671/2026062301345_c.htm",
+    "Kidswant AP English Full": "https://www1.hkexnews.hk/app/sehk/2026/108672/documents/sehk26062301872.pdf",
+    "Kidswant AP English Pack": "https://www1.hkexnews.hk/app/sehk/2026/108672/2026062301799.htm",
+    "Kidswant AP Chinese Full": "https://www1.hkexnews.hk/app/sehk/2026/108672/documents/sehk26062301871.pdf",
+    "Kidswant AP Chinese Pack": "https://www1.hkexnews.hk/app/sehk/2026/108672/2026062301800_c.htm",
+    "Momenta PHIP English Full": "https://www1.hkexnews.hk/app/sehk/2026/108670/documents/sehk26062300176.pdf",
+    "Momenta PHIP English Pack": "https://www1.hkexnews.hk/app/sehk/2026/108670/2026062300171.htm",
+    "Momenta PHIP Chinese Full": "https://www1.hkexnews.hk/app/sehk/2026/108670/documents/sehk26062300175_c.pdf",
+    "Momenta PHIP Chinese Pack": "https://www1.hkexnews.hk/app/sehk/2026/108670/2026062300172_c.htm",
+    "Befar PHIP English Full": "https://www1.hkexnews.hk/app/sehk/2026/108467/documents/sehk26062301570.pdf",
+    "Befar PHIP English Pack": "https://www1.hkexnews.hk/app/sehk/2026/108467/2026062301565.htm",
+    "Befar PHIP Chinese Full": "https://www1.hkexnews.hk/app/sehk/2026/108467/documents/sehk26062301569_c.pdf",
+    "Befar PHIP Chinese Pack": "https://www1.hkexnews.hk/app/sehk/2026/108467/2026062301566_c.htm",
+    "Glorysoft PHIP English Full": "https://www1.hkexnews.hk/app/sehk/2026/108262/documents/sehk26062301714.pdf",
+    "Glorysoft PHIP English Pack": "https://www1.hkexnews.hk/app/sehk/2026/108262/2026062301709.htm",
+    "Glorysoft PHIP Chinese Full": "https://www1.hkexnews.hk/app/sehk/2026/108262/documents/sehk26062301713_c.pdf",
+    "Glorysoft PHIP Chinese Pack": "https://www1.hkexnews.hk/app/sehk/2026/108262/2026062301710_c.htm",
+    "Luxshare PHIP English Full": "https://www1.hkexnews.hk/app/sehk/2026/108261/documents/sehk26062301882.pdf",
+    "Luxshare PHIP English Pack": "https://www1.hkexnews.hk/app/sehk/2026/108261/2026062301877.htm",
+    "Luxshare PHIP Chinese Full": "https://www1.hkexnews.hk/app/sehk/2026/108261/documents/sehk26062301881_c.pdf",
+    "Luxshare PHIP Chinese Pack": "https://www1.hkexnews.hk/app/sehk/2026/108261/2026062301878_c.htm",
+    "Dtech PHIP English Full": "https://www1.hkexnews.hk/app/sehk/2026/108613/documents/sehk26062302048.pdf",
+    "Dtech PHIP English Pack": "https://www1.hkexnews.hk/app/sehk/2026/108613/2026062301971.htm",
+    "Dtech PHIP Chinese Full": "https://www1.hkexnews.hk/app/sehk/2026/108613/documents/sehk26062302047.pdf",
+    "Dtech PHIP Chinese Pack": "https://www1.hkexnews.hk/app/sehk/2026/108613/2026062301972_c.htm",
+    "RIGOL PHIP English Full": "https://www1.hkexnews.hk/app/sehk/2026/108402/documents/sehk26062302126.pdf",
+    "RIGOL PHIP English Pack": "https://www1.hkexnews.hk/app/sehk/2026/108402/2026062302053.htm",
+    "RIGOL PHIP Chinese Full": "https://www1.hkexnews.hk/app/sehk/2026/108402/documents/sehk26062302125_c.pdf",
+    "RIGOL PHIP Chinese Pack": "https://www1.hkexnews.hk/app/sehk/2026/108402/2026062302054_c.htm"
   }
 }
