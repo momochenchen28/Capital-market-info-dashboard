@@ -4,13 +4,13 @@
       "date": "2026-06-24",
       "reportType": "briefing",
       "title": "资本市场快报",
-      "subtitle": "港股正常交易日；MICOT PHARMA-B（02335）和 SEER TECH（06106）早盘挂牌，AP/PHIP、证监会和 SEC 暂无当日新增可计数事件。",
-      "statusNote": "数据截至 2026-06-24 09:30 早盘官方源复核。今日为港股正常交易日。HKEX Newly Listed Securities 列示 24/06/2026* 新上市证券，其中公司类 IPO 计入 MICOT PHARMA-B（02335）和 SEER TECH（06106）2 家；同日股份合并及非公司 IPO 项目不计入 hkexNewListings。HKEX New Listing Information 与 HKEX Title Search 已读取两家公司招股书、配发结果公告及 AP/PHIP 历史文件，固定发行信息已补齐。HKEX AP-only JSON 与 AP+PHIP JSON 的 uDate 均为 24/06/2026，按 24/06/2026 文档日期筛选 AP=0、PHIP=0。证监会补充材料公示列表最新仍为 2026-06-12，未见 6/24 单家公司新增《境外发行上市备案通知书》，csrcCount=0。SEC EDGAR 官方搜索 6/24 IPO 相关表格返回 0 条。开盘价、收盘价和涨跌幅等交易进程字段待官方行情源复核。",
+      "subtitle": "港股正常交易日；麦科医药-B（02335）和仙工智能（06106）早盘挂牌，AP/PHIP、证监会和 SEC 暂无当日新增可计数事件。",
+      "statusNote": "数据截至 2026-06-24 09:30 早盘官方源复核。今日为港股正常交易日。HKEX Newly Listed Securities 列示 24/06/2026* 新上市证券，其中公司类 IPO 计入麦科医药-B（02335）和仙工智能（06106）2 家；同日股份合并及非公司 IPO 项目不计入 hkexNewListings。HKEX New Listing Information 与 HKEX Title Search 已读取两家公司招股书、配发结果公告及 AP/PHIP 历史文件，固定发行信息已补齐。HKEX AP-only JSON 与 AP+PHIP JSON 的 uDate 均为 24/06/2026，按 24/06/2026 文档日期筛选 AP=0、PHIP=0。证监会补充材料公示列表最新仍为 2026-06-12，未见 6/24 单家公司新增《境外发行上市备案通知书》，csrcCount=0。SEC EDGAR 官方搜索 6/24 IPO 相关表格返回 0 条。开盘价、收盘价和涨跌幅等交易进程字段待官方行情源复核。",
       "archiveNotice": "上一个交易日 2026-06-23 档案已按本次早盘回扫补充 AP 2 家、PHIP 6 家，请注意查看。",
       "observations": [
-        "交易日判断：2026-06-24 为港股正常交易日；HKEX Newly Listed Securities 显示 2 家公司类 IPO 今日开始买卖。",
-        "港股新挂牌：Shaanxi Micot Pharmaceutical Technology Co., Ltd. - B（02335）最终发售价 HK$18.20，全球发售 58,054,400 股 H 股；香港公开发售认购 1,181.46 倍，国际发售认购 2.52 倍。",
-        "港股新挂牌：Shanghai Seer Intelligent Technology Co., Ltd.（06106）最终发售价 HK$101.60，全球发售 10,497,300 股 H 股；香港公开发售认购 5,934.56 倍，国际发售认购 21.29 倍。",
+        "港股新挂牌：陕西麦科奥特医药科技股份有限公司 - B（02335 / Shaanxi Micot Pharmaceutical Technology Co., Ltd. - B）和上海仙工智能科技股份有限公司（06106 / Shanghai Seer Intelligent Technology Co., Ltd.）于 2026-06-24 挂牌。",
+        "麦科医药-B：最终发售价 HK$18.20，全球发售 58,054,400 股 H 股；香港公开发售认购 1,181.46 倍，国际发售认购 2.52 倍，所得款项净额约 HK$989.3 million。",
+        "仙工智能：最终发售价 HK$101.60，全球发售 10,497,300 股 H 股；香港公开发售认购 5,934.56 倍，国际发售认购 21.29 倍，所得款项净额约 HK$995.4 million。",
         "港股递表/聆讯：HKEX AP-only JSON app.length=406、AP+PHIP JSON app.length=26；按 24/06/2026 文档日期命中 AP 0 家、PHIP 0 家。",
         "证监会备案：未见 2026-06-24 单家公司新增《境外发行上市备案通知书》；补充材料公示和备案情况表不计入 csrcCount。",
         "美股中概 IPO：SEC EDGAR 官方搜索 2026-06-24 的 F-1、F-1/A、424B、FWP、EFFECT、8-A12B 等 IPO 相关表格返回 0 条。"
@@ -26,12 +26,12 @@
         {
           "source": "HKEX Newly Listed Securities",
           "dateRange": "2026-06-24",
-          "result": "公司类 IPO 新挂牌 2 家：MICOT PHARMA-B（02335）、SEER TECH（06106）；股份合并和非公司 IPO 项目未计入。"
+          "result": "公司类 IPO 新挂牌 2 家：麦科医药-B（02335）、仙工智能（06106）；股份合并和非公司 IPO 项目未计入。"
         },
         {
           "source": "HKEX New Listing Information / HKEX Title Search",
           "dateRange": "2026-06-24",
-          "result": "已读取 02335、06106 的招股书、配发结果公告、AP 和 PHIP 历史文件；发行固定信息已入库。"
+          "result": "已读取 02335、06106 的中英文招股书、配发结果公告、AP 和 PHIP 历史文件；发行固定信息已入库。"
         },
         {
           "source": "HKEX AP-only / AP+PHIP structured JSON",
@@ -58,9 +58,9 @@
           "eventType": "hkexIpoListing",
           "countInMetrics": true,
           "company": {
-            "zh": "陕西麦科奥特科技股份有限公司",
+            "zh": "陕西麦科奥特医药科技股份有限公司",
             "en": "Shaanxi Micot Pharmaceutical Technology Co., Ltd.",
-            "display": "陕西麦科奥特科技股份有限公司 / Shaanxi Micot Pharmaceutical Technology Co., Ltd. - B（02335）",
+            "display": "陕西麦科奥特医药科技股份有限公司 / Shaanxi Micot Pharmaceutical Technology Co., Ltd. - B（02335）",
             "ticker": "02335",
             "exchange": "HKEX",
             "board": "Main Board",
@@ -119,7 +119,7 @@
             "companyLegalAdvisersPRC": ["JunHe LLP"],
             "underwritersLegalAdvisers": ["Eric Chow & Co. in association with Commerce & Finance Law Offices", "Commerce & Finance Law Offices"]
           },
-          "links": ["HKEX Newly Listed Securities", "HKEX New Listing Information", "MICOT Prospectus", "MICOT Formal Notice", "MICOT Allotment Results", "MICOT Application Proof", "MICOT PHIP", "MICOT HKEX Quote"]
+          "links": ["HKEX Newly Listed Securities", "HKEX New Listing Information", "MICOT Prospectus Chinese", "MICOT Prospectus English", "MICOT Allotment Results Chinese", "MICOT Allotment Results English", "MICOT Application Proof", "MICOT PHIP", "MICOT HKEX Quote"]
         },
         {
           "id": "hkex-listing-06106-20260624",
@@ -193,7 +193,7 @@
             "industryConsultant": ["China Insights Industry Consultancy Limited"],
             "complianceAdvisor": ["Gram Capital Limited"]
           },
-          "links": ["HKEX Newly Listed Securities", "HKEX New Listing Information", "SEER Prospectus", "SEER Formal Notice", "SEER Allotment Results", "SEER Application Proof", "SEER PHIP", "SEER HKEX Quote"]
+          "links": ["HKEX Newly Listed Securities", "HKEX New Listing Information", "SEER Prospectus Chinese", "SEER Prospectus English", "SEER Allotment Results Chinese", "SEER Allotment Results English", "SEER Application Proof", "SEER PHIP", "SEER HKEX Quote"]
         }
       ]
     }
@@ -206,15 +206,17 @@
     "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
     "CSRC Overseas Filing List": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
     "SEC EDGAR": "https://www.sec.gov/edgar/search/",
-    "MICOT Prospectus": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0615/2026061500009.pdf",
-    "MICOT Formal Notice": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0615/2026061500007.pdf",
-    "MICOT Allotment Results": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0623/2026062301227.pdf",
+    "MICOT Prospectus Chinese": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0615/2026061500010_c.pdf",
+    "MICOT Prospectus English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0615/2026061500009.pdf",
+    "MICOT Allotment Results Chinese": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0623/2026062301228_c.pdf",
+    "MICOT Allotment Results English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0623/2026062301227.pdf",
     "MICOT Application Proof": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0624/sehk26033100614.pdf",
     "MICOT PHIP": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0624/sehk26060403116.pdf",
     "MICOT HKEX Quote": "https://www.hkex.com.hk/Market-Data/Securities-Prices/Equities/Equities-Quote?sc_lang=zh-HK&sym=2335",
-    "SEER Prospectus": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0615/2026061500013.pdf",
-    "SEER Formal Notice": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0615/2026061500011.pdf",
-    "SEER Allotment Results": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0623/2026062302143.pdf",
+    "SEER Prospectus Chinese": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0615/2026061500014_c.pdf",
+    "SEER Prospectus English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0615/2026061500013.pdf",
+    "SEER Allotment Results Chinese": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0623/2026062302144_c.pdf",
+    "SEER Allotment Results English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0623/2026062302143.pdf",
     "SEER Application Proof": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0624/sehk26052802656.pdf",
     "SEER PHIP": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0624/sehk26060700020.pdf",
     "SEER HKEX Quote": "https://www.hkex.com.hk/Market-Data/Securities-Prices/Equities/Equities-Quote?sc_lang=zh-HK&sym=6106"
