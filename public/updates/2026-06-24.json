@@ -2,23 +2,23 @@
   "dailyReports": {
     "2026-06-24": {
       "date": "2026-06-24",
-      "reportType": "briefing",
-      "title": "资本市场快报",
-      "subtitle": "港股正常交易日；麦科医药-B（02335）和仙工智能（06106）早盘挂牌，AP/PHIP、证监会和 SEC 暂无当日新增可计数事件。",
-      "statusNote": "数据截至 2026-06-24 09:30 早盘官方源复核。今日为港股正常交易日。HKEX Newly Listed Securities 列示 24/06/2026* 新上市证券，其中公司类 IPO 计入麦科医药-B（02335）和仙工智能（06106）2 家；同日股份合并及非公司 IPO 项目不计入 hkexNewListings。HKEX New Listing Information 与 HKEX Title Search 已读取两家公司招股书、配发结果公告及 AP/PHIP 历史文件，固定发行信息已补齐。HKEX AP-only JSON 与 AP+PHIP JSON 的 uDate 均为 24/06/2026，按 24/06/2026 文档日期筛选 AP=0、PHIP=0。证监会补充材料公示列表最新仍为 2026-06-12，未见 6/24 单家公司新增《境外发行上市备案通知书》，csrcCount=0。SEC EDGAR 官方搜索 6/24 IPO 相关表格返回 0 条。开盘价、收盘价和涨跌幅等交易进程字段待官方行情源复核。",
-      "archiveNotice": "上一个交易日 2026-06-23 档案已按本次早盘回扫补充 AP 2 家、PHIP 6 家，请注意查看。",
+      "reportType": "daily",
+      "title": "资本市场日报",
+      "subtitle": "港股正常交易日；麦科医药-B（02335）和仙工智能（06106）挂牌首日收盘均高于发行价，AP/PHIP 收盘后新增安徽华恒生物科技 PHIP 修订版 1 家。",
+      "statusNote": "数据截至 2026-06-24 17:00 收盘后官方源及行情源复核。今日为港股正常交易日。HKEX Newly Listed Securities 列示 24/06/2026* 新上市证券，其中公司类 IPO 计入麦科医药-B（02335）和仙工智能（06106）2 家；同日股份合并及非公司 IPO 项目不计入 hkexNewListings。HKEX New Listing Information 与 HKEX Title Search 已读取两家公司招股书、配发结果公告及 AP/PHIP 历史文件，固定发行信息已补齐。HKEX AP-only JSON 与 AP+PHIP JSON 的 uDate 均为 24/06/2026，按 24/06/2026 文档日期筛选 AP=0、PHIP=1，PHIP 为安徽华恒生物科技股份有限公司第一次修订版聆讯后资料集。证监会补充材料公示列表最新仍为 2026-06-12，未见 6/24 单家公司新增《境外发行上市备案通知书》，csrcCount=0。SEC EDGAR 官方搜索 6/24 IPO 相关表格及 China/Hong Kong/Cayman 关键词返回 0 条。02335、06106 开盘价、收盘价和较发行价涨跌幅来自 Yahoo Finance HKSE 日线行情，已标注待 HKEX 官方行情源复核。",
+      "archiveNotice": "",
       "observations": [
-        "港股新挂牌：陕西麦科奥特医药科技股份有限公司 - B（02335 / Shaanxi Micot Pharmaceutical Technology Co., Ltd. - B）和上海仙工智能科技股份有限公司（06106 / Shanghai Seer Intelligent Technology Co., Ltd.）于 2026-06-24 挂牌。",
-        "麦科医药-B：最终发售价 HK$18.20，全球发售 58,054,400 股 H 股；香港公开发售认购 1,181.46 倍，国际发售认购 2.52 倍，所得款项净额约 HK$989.3 million。",
-        "仙工智能：最终发售价 HK$101.60，全球发售 10,497,300 股 H 股；香港公开发售认购 5,934.56 倍，国际发售认购 21.29 倍，所得款项净额约 HK$995.4 million。",
-        "港股递表/聆讯：HKEX AP-only JSON app.length=406、AP+PHIP JSON app.length=26；按 24/06/2026 文档日期命中 AP 0 家、PHIP 0 家。",
+        "港股新挂牌：陕西麦科奥特医药科技股份有限公司 - B（02335 / Shaanxi Micot Pharmaceutical Technology Co., Ltd. - B）和上海仙工智能科技股份有限公司（06106 / Shanghai Seer Intelligent Technology Co., Ltd.）于 2026-06-24 挂牌，首日收盘均高于发行价。",
+        "麦科医药-B：最终发售价 HK$18.20，全球发售 58,054,400 股 H 股；香港公开发售认购 1,181.46 倍，国际发售认购 2.52 倍，所得款项净额约 HK$989.3 million；非官方 HKSE 日线行情显示开盘价 HK$34.02、收盘价 HK$36.90，较发行价分别 +86.92%、+102.75%，待 HKEX 官方行情源复核。",
+        "仙工智能：最终发售价 HK$101.60，全球发售 10,497,300 股 H 股；香港公开发售认购 5,934.56 倍，国际发售认购 21.29 倍，所得款项净额约 HK$995.4 million；非官方 HKSE 日线行情显示开盘价 HK$101.60、收盘价 HK$106.00，较发行价分别 +0.00%、+4.33%，待 HKEX 官方行情源复核。",
+        "港股递表/聆讯：HKEX AP-only JSON app.length=406、AP+PHIP JSON app.length=26；按 24/06/2026 文档日期命中 AP 0 家、PHIP 1 家，PHIP 为安徽华恒生物科技股份有限公司第一次修订版聆讯后资料集。",
         "证监会备案：未见 2026-06-24 单家公司新增《境外发行上市备案通知书》；补充材料公示和备案情况表不计入 csrcCount。",
-        "美股中概 IPO：SEC EDGAR 官方搜索 2026-06-24 的 F-1、F-1/A、424B、FWP、EFFECT、8-A12B 等 IPO 相关表格返回 0 条。"
+        "美股中概 IPO：SEC EDGAR 官方搜索 2026-06-24 的 F-1、F-1/A、424B、FWP、EFFECT、8-A12B 等 IPO 相关表格及 China/Hong Kong/Cayman 关键词返回 0 条。"
       ],
       "metrics": {
         "hkexNewListings": 2,
         "apNewCount": 0,
-        "phipCount": 0,
+        "phipCount": 1,
         "csrcCount": 0,
         "usChinaIpoCount": 0
       },
@@ -36,7 +36,7 @@
         {
           "source": "HKEX AP-only / AP+PHIP structured JSON",
           "dateRange": "2026-06-24",
-          "result": "AP-only JSON app.length=406、AP+PHIP JSON app.length=26，按 24/06/2026 文档日期筛选 AP=0、PHIP=0。"
+          "result": "AP-only JSON app.length=406、AP+PHIP JSON app.length=26，按 24/06/2026 文档日期筛选 AP=0、PHIP=1；PHIP 为安徽华恒生物科技股份有限公司第一次修订版。"
         },
         {
           "source": "CSRC Overseas Filing / Supplement Materials",
@@ -46,7 +46,12 @@
         {
           "source": "SEC EDGAR search-index",
           "dateRange": "2026-06-24",
-          "result": "F-1、F-1/A、424B、FWP、EFFECT、8-A12B 等 IPO 相关表格返回 0 条。"
+          "result": "F-1、F-1/A、424B、FWP、EFFECT、8-A12B 等 IPO 相关表格及 China/Hong Kong/Cayman 关键词返回 0 条。"
+        },
+        {
+          "source": "Yahoo Finance HKSE chart API (non-official market data)",
+          "dateRange": "2026-06-24",
+          "result": "02335.HK 日线开盘 HK$34.02、收盘 HK$36.90；6106.HK 日线开盘 HK$101.60、收盘 HK$106.00。该行情源非官方，待 HKEX 官方行情源复核。"
         }
       ],
       "deals": [
@@ -95,31 +100,90 @@
             "successfulPublicOfferApplications": 22665,
             "clawback": "未触发回拨；香港公开发售最终 5,805,600 股，占全球发售 10%。",
             "overAllotment": "无超额分配；超额配股权不会获行使并将于上市时失效。",
-            "cornerstone": ["Qiyuan Hong Kong", "Everest Medicine", "Summit Capital"],
+            "cornerstone": [
+              "Qiyuan Hong Kong",
+              "Everest Medicine",
+              "Summit Capital"
+            ],
             "cornerstoneTotalShares": 24681000,
             "cornerstonePctOfOffer": 42.51,
             "cornerstoneDetails": "Qiyuan Hong Kong 获配 18,756,200 股、Everest Medicine 获配 5,494,400 股、Summit Capital 获配 430,400 股；合计 24,681,000 股，占全球发售股份约 42.51%。"
           },
           "marketPerformance": {
             "offerPrice": 18.2,
-            "openPrice": null,
-            "firstDayClose": null,
-            "openChangePctVsOffer": null,
-            "firstDayCloseChangePctVsOffer": null,
-            "latestPriceNote": "早盘待官方行情源复核；仅开盘价、收盘价、涨跌幅等交易进程字段待补。",
-            "priceDataStatus": "pendingOfficialMarketDataReview"
+            "openPrice": 34.02,
+            "firstDayClose": 36.9,
+            "openChangePctVsOffer": 86.92,
+            "firstDayCloseChangePctVsOffer": 102.75,
+            "latestPriceNote": "Yahoo Finance HKSE 日线行情显示开盘价 HK$34.02、首日收盘价 HK$36.90；该行情源非官方，待 HKEX 官方行情源复核。",
+            "priceDataStatus": "nonOfficialMarketDataPendingHKEXReview",
+            "priceDataSource": "Yahoo Finance HKSE chart API (non-official)",
+            "priceDataTimestamp": "2026-06-24 16:08 HKT"
           },
           "intermediaries": {
-            "sponsors": ["CCB International Capital Limited", "China Merchants Securities (HK) Co., Limited"],
-            "overallCoordinators": ["CCB International Capital Limited", "China Merchants Securities (HK) Co., Limited"],
-            "globalCoordinators": ["CCB International Capital Limited", "China Merchants Securities (HK) Co., Limited"],
-            "bookrunners": ["CCB International Capital Limited", "China Merchants Securities (HK) Co., Limited", "Jakota Securities Group Limited", "Ruibang Securities Limited", "Sinolink Securities (Hong Kong) Company Limited", "Skyvast Securities Limited", "Somerley Capital Limited", "Tiger Brokers (HK) Global Limited", "uSmart Securities Limited", "Webull Securities Limited", "Zhongtai International Securities Limited", "ZMF Asset Management Limited"],
-            "leadManagers": ["CCB International Capital Limited", "China Merchants Securities (HK) Co., Limited", "Jakota Securities Group Limited", "Ruibang Securities Limited", "Sinolink Securities (Hong Kong) Company Limited", "Skyvast Securities Limited", "Somerley Capital Limited", "Tiger Brokers (HK) Global Limited", "uSmart Securities Limited", "Webull Securities Limited", "Zhongtai International Securities Limited", "ZMF Asset Management Limited"],
-            "companyLegalAdvisersHKUS": ["Tian Yuan Law Firm LLP", "King and Wood LLP"],
-            "companyLegalAdvisersPRC": ["JunHe LLP"],
-            "underwritersLegalAdvisers": ["Eric Chow & Co. in association with Commerce & Finance Law Offices", "Commerce & Finance Law Offices"]
+            "sponsors": [
+              "CCB International Capital Limited",
+              "China Merchants Securities (HK) Co., Limited"
+            ],
+            "overallCoordinators": [
+              "CCB International Capital Limited",
+              "China Merchants Securities (HK) Co., Limited"
+            ],
+            "globalCoordinators": [
+              "CCB International Capital Limited",
+              "China Merchants Securities (HK) Co., Limited"
+            ],
+            "bookrunners": [
+              "CCB International Capital Limited",
+              "China Merchants Securities (HK) Co., Limited",
+              "Jakota Securities Group Limited",
+              "Ruibang Securities Limited",
+              "Sinolink Securities (Hong Kong) Company Limited",
+              "Skyvast Securities Limited",
+              "Somerley Capital Limited",
+              "Tiger Brokers (HK) Global Limited",
+              "uSmart Securities Limited",
+              "Webull Securities Limited",
+              "Zhongtai International Securities Limited",
+              "ZMF Asset Management Limited"
+            ],
+            "leadManagers": [
+              "CCB International Capital Limited",
+              "China Merchants Securities (HK) Co., Limited",
+              "Jakota Securities Group Limited",
+              "Ruibang Securities Limited",
+              "Sinolink Securities (Hong Kong) Company Limited",
+              "Skyvast Securities Limited",
+              "Somerley Capital Limited",
+              "Tiger Brokers (HK) Global Limited",
+              "uSmart Securities Limited",
+              "Webull Securities Limited",
+              "Zhongtai International Securities Limited",
+              "ZMF Asset Management Limited"
+            ],
+            "companyLegalAdvisersHKUS": [
+              "Tian Yuan Law Firm LLP",
+              "King and Wood LLP"
+            ],
+            "companyLegalAdvisersPRC": [
+              "JunHe LLP"
+            ],
+            "underwritersLegalAdvisers": [
+              "Eric Chow & Co. in association with Commerce & Finance Law Offices",
+              "Commerce & Finance Law Offices"
+            ]
           },
-          "links": ["HKEX Newly Listed Securities", "HKEX New Listing Information", "MICOT Prospectus Chinese", "MICOT Prospectus English", "MICOT Allotment Results Chinese", "MICOT Allotment Results English", "MICOT Application Proof", "MICOT PHIP", "MICOT HKEX Quote"]
+          "links": [
+            "HKEX Newly Listed Securities",
+            "HKEX New Listing Information",
+            "MICOT Prospectus Chinese",
+            "MICOT Prospectus English",
+            "MICOT Allotment Results Chinese",
+            "MICOT Allotment Results English",
+            "MICOT Application Proof",
+            "MICOT PHIP",
+            "MICOT HKEX Quote"
+          ]
         },
         {
           "id": "hkex-listing-06106-20260624",
@@ -166,34 +230,148 @@
             "successfulPublicOfferApplications": 38687,
             "clawback": "香港公开发售经重新分配后最终 2,099,500 股；国际发售最终 8,397,800 股（超额配股权行使前）。",
             "overAllotment": "国际发售超额分配 1,574,550 股，可由超额配股权或二级市场购买等方式补足。",
-            "cornerstone": ["HHLR Advisors", "Yuanbao Family Office", "3W Fund", "GF Fund", "Ruihua Investment", "Zhonghe Capital", "Yishao Capital", "Nova Kerry"],
+            "cornerstone": [
+              "HHLR Advisors",
+              "Yuanbao Family Office",
+              "3W Fund",
+              "GF Fund",
+              "Ruihua Investment",
+              "Zhonghe Capital",
+              "Yishao Capital",
+              "Nova Kerry"
+            ],
             "cornerstoneTotalShares": 4549400,
             "cornerstonePctOfOffer": 43.34,
             "cornerstoneDetails": "8 名基石投资人合计获配 4,549,400 股，占全球发售股份约 43.34%。"
           },
           "marketPerformance": {
             "offerPrice": 101.6,
-            "openPrice": null,
-            "firstDayClose": null,
-            "openChangePctVsOffer": null,
-            "firstDayCloseChangePctVsOffer": null,
-            "latestPriceNote": "早盘待官方行情源复核；仅开盘价、收盘价、涨跌幅等交易进程字段待补。",
-            "priceDataStatus": "pendingOfficialMarketDataReview"
+            "openPrice": 101.6,
+            "firstDayClose": 106,
+            "openChangePctVsOffer": 0,
+            "firstDayCloseChangePctVsOffer": 4.33,
+            "latestPriceNote": "Yahoo Finance HKSE 日线行情显示开盘价 HK$101.60、首日收盘价 HK$106.00；该行情源非官方，待 HKEX 官方行情源复核。",
+            "priceDataStatus": "nonOfficialMarketDataPendingHKEXReview",
+            "priceDataSource": "Yahoo Finance HKSE chart API (non-official)",
+            "priceDataTimestamp": "2026-06-24 16:08 HKT"
           },
           "intermediaries": {
-            "sponsors": ["China International Capital Corporation Hong Kong Securities Limited"],
-            "overallCoordinators": ["China International Capital Corporation Hong Kong Securities Limited", "CMB International Capital Limited"],
-            "globalCoordinators": ["China International Capital Corporation Hong Kong Securities Limited", "CMB International Capital Limited", "Soochow Securities International Brokerage Limited"],
-            "bookrunners": ["China International Capital Corporation Hong Kong Securities Limited", "CMB International Capital Limited", "Soochow Securities International Brokerage Limited", "BOCI Asia Limited", "Futu Securities International (Hong Kong) Limited", "Tiger Brokers (HK) Global Limited", "Zheshang International Financial Holdings Co., Limited", "ABCI Capital Limited"],
-            "leadManagers": ["China International Capital Corporation Hong Kong Securities Limited", "CMB International Capital Limited", "Soochow Securities International Brokerage Limited", "BOCI Asia Limited", "Futu Securities International (Hong Kong) Limited", "Tiger Brokers (HK) Global Limited", "Zheshang International Financial Holdings Co., Limited", "ABCI Securities Company Limited"],
-            "companyLegalAdvisersHKUS": ["Cooley HK"],
-            "companyLegalAdvisersPRC": ["AllBright Law Offices"],
-            "underwritersLegalAdvisers": ["DLA Piper Hong Kong", "Fangda Partners"],
-            "accountants": ["Ernst & Young"],
-            "industryConsultant": ["China Insights Industry Consultancy Limited"],
-            "complianceAdvisor": ["Gram Capital Limited"]
+            "sponsors": [
+              "China International Capital Corporation Hong Kong Securities Limited"
+            ],
+            "overallCoordinators": [
+              "China International Capital Corporation Hong Kong Securities Limited",
+              "CMB International Capital Limited"
+            ],
+            "globalCoordinators": [
+              "China International Capital Corporation Hong Kong Securities Limited",
+              "CMB International Capital Limited",
+              "Soochow Securities International Brokerage Limited"
+            ],
+            "bookrunners": [
+              "China International Capital Corporation Hong Kong Securities Limited",
+              "CMB International Capital Limited",
+              "Soochow Securities International Brokerage Limited",
+              "BOCI Asia Limited",
+              "Futu Securities International (Hong Kong) Limited",
+              "Tiger Brokers (HK) Global Limited",
+              "Zheshang International Financial Holdings Co., Limited",
+              "ABCI Capital Limited"
+            ],
+            "leadManagers": [
+              "China International Capital Corporation Hong Kong Securities Limited",
+              "CMB International Capital Limited",
+              "Soochow Securities International Brokerage Limited",
+              "BOCI Asia Limited",
+              "Futu Securities International (Hong Kong) Limited",
+              "Tiger Brokers (HK) Global Limited",
+              "Zheshang International Financial Holdings Co., Limited",
+              "ABCI Securities Company Limited"
+            ],
+            "companyLegalAdvisersHKUS": [
+              "Cooley HK"
+            ],
+            "companyLegalAdvisersPRC": [
+              "AllBright Law Offices"
+            ],
+            "underwritersLegalAdvisers": [
+              "DLA Piper Hong Kong",
+              "Fangda Partners"
+            ],
+            "accountants": [
+              "Ernst & Young"
+            ],
+            "industryConsultant": [
+              "China Insights Industry Consultancy Limited"
+            ],
+            "complianceAdvisor": [
+              "Gram Capital Limited"
+            ]
           },
-          "links": ["HKEX Newly Listed Securities", "HKEX New Listing Information", "SEER Prospectus Chinese", "SEER Prospectus English", "SEER Allotment Results Chinese", "SEER Allotment Results English", "SEER Application Proof", "SEER PHIP", "SEER HKEX Quote"]
+          "links": [
+            "HKEX Newly Listed Securities",
+            "HKEX New Listing Information",
+            "SEER Prospectus Chinese",
+            "SEER Prospectus English",
+            "SEER Allotment Results Chinese",
+            "SEER Allotment Results English",
+            "SEER Application Proof",
+            "SEER PHIP",
+            "SEER HKEX Quote"
+          ]
+        },
+        {
+          "id": "hkex-ap-phip-20260624",
+          "section": "港股递表/聆讯",
+          "type": "AP / PHIP 更新",
+          "status": "AP 0 家；PHIP 1 家",
+          "eventType": "apPhipUpdate",
+          "countInMetrics": true,
+          "company": {
+            "zh": "港交所 AP & PHIP 页面日内更新监控",
+            "en": "HKEX AP & PHIP Monitor",
+            "display": "港交所 AP & PHIP 页面日内更新监控（2026-06-24）",
+            "exchange": "HKEX",
+            "board": "Application Proof / PHIP",
+            "listingStructure": "多家公司"
+          },
+          "business": {
+            "sector": "港股 IPO pipeline",
+            "summary": "6 月 24 日联交所 AP 新增 0 家、PHIP 新增 1 家；已复核 HKEX AP-only JSON（app.length=406）及 AP+PHIP JSON（app.length=26）。",
+            "source": "HKEX structured JSON"
+          },
+          "metrics": {
+            "apNewCount": 0,
+            "phipCount": 1
+          },
+          "apApplications": [
+            {
+              "nameZh": "安徽华恒生物科技股份有限公司",
+              "nameEn": "Anhui Huaheng Biotechnology Co., Ltd.",
+              "filingDate": "2026-06-24",
+              "documentType": "PHIP (1st revised proof)",
+              "status": "PHIP",
+              "sector": "合成生物学 / 生物基产品",
+              "structure": "H 股（中国境内股份有限公司）",
+              "sponsors": "Huatai Financial Holdings (Hong Kong) Limited",
+              "businessSummary": "公司专注生物制造技术下生物基产品的研发、规模化生产及商业化，主要产品包括氨基酸系列、维生素系列及其他生物基产品，应用于动物营养、个人及家居护理、食品饮料、材料和植物营养等领域。",
+              "businessSource": "HKEX PHIP Summary / Business section",
+              "prospectusLink": "Huaheng PHIP English Full",
+              "sourceLinks": [
+                "Huaheng PHIP English Full",
+                "Huaheng PHIP English Pack",
+                "Huaheng PHIP Chinese Full",
+                "Huaheng PHIP Chinese Pack"
+              ]
+            }
+          ],
+          "links": [
+            "Application Proof / PHIP",
+            "HKEX AP structured JSON",
+            "HKEX AP/PHIP structured JSON",
+            "Huaheng PHIP English Full",
+            "Huaheng PHIP Chinese Full"
+          ]
         }
       ]
     }
@@ -219,6 +397,12 @@
     "SEER Allotment Results English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0623/2026062302143.pdf",
     "SEER Application Proof": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0624/sehk26052802656.pdf",
     "SEER PHIP": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0624/sehk26060700020.pdf",
-    "SEER HKEX Quote": "https://www.hkex.com.hk/Market-Data/Securities-Prices/Equities/Equities-Quote?sc_lang=zh-HK&sym=6106"
+    "SEER HKEX Quote": "https://www.hkex.com.hk/Market-Data/Securities-Prices/Equities/Equities-Quote?sc_lang=zh-HK&sym=6106",
+    "Huaheng PHIP English Full": "https://www1.hkexnews.hk/app/sehk/2026/108493/documents/sehk26062400304.pdf",
+    "Huaheng PHIP English Pack": "https://www1.hkexnews.hk/app/sehk/2026/108493/2026062400299.htm",
+    "Huaheng PHIP Chinese Full": "https://www1.hkexnews.hk/app/sehk/2026/108493/documents/sehk26062400303_c.pdf",
+    "Huaheng PHIP Chinese Pack": "https://www1.hkexnews.hk/app/sehk/2026/108493/2026062400300_c.htm",
+    "Yahoo Finance 02335.HK Chart": "https://query1.finance.yahoo.com/v8/finance/chart/2335.HK",
+    "Yahoo Finance 6106.HK Chart": "https://query1.finance.yahoo.com/v8/finance/chart/6106.HK"
   }
 }
