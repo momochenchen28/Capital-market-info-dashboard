@@ -1,0 +1,487 @@
+{
+  "dailyReports": {
+    "2026-06-26": {
+      "date": "2026-06-26",
+      "reportType": "briefing",
+      "title": "资本市场快报",
+      "subtitle": "港股正常交易日；领益智造（01688）、中科闻歌（01956）、科拓股份（02272）、圣邦微电子（03661）、MERDEKAGOLD-DRS（06228）及芯碁微装（09630）早盘挂牌。",
+      "statusNote": "数据截至 2026-06-26 09:30 早盘官方源回扫。2026-06-26 为港股正常交易日。HKEX Newly Listed Securities 列示 26/06/2026* 新上市证券，其中公司类 IPO/DRS 计入 LINGYI ITECH（01688）、WENGE AI（01956）、KEYTOP PARKING（02272）、SG MICRO（03661）、MERDEKAGOLD-DRS（06228）及 CFMEE（09630）6 家；ETF、债券及股份合并不计入 hkexNewListings。HKEX Title Search 已读取 6 家的 AP、PHIP、招股书、配发结果公告和上市前公告，固定发行信息已补齐；开盘价、收盘价、涨跌幅等交易进程字段待官方行情源复核。HKEX AP-only JSON uDate=26/06/2026、app.length=409，按 26/06/2026 文档日期命中 AP 0 家；HKEX AP+PHIP JSON app.length=23，按 26/06/2026 文档日期命中 PHIP 0 家。证监会境外上市类页面最新公开项仍为 2026-06-12 补充材料公示，未见 6/26 单家公司新增《境外发行上市备案通知书》，csrcCount=0。SEC EDGAR 官方检索 6/26 的 IPO 相关表格及 China/Hong Kong/Cayman 关键词返回 0 条。",
+      "archiveNotice": "本文件由 2026-06-26 09:30 早盘流程创建；新挂牌公司固定发行信息来自 HKEX 招股书、配发结果公告及 Title Search 历史文件。",
+      "observations": [
+        "港股新挂牌：2026-06-26 公司类新挂牌 6 家，分别为广东领益智造股份有限公司（01688）、北京中科闻歌科技股份有限公司（01956）、厦门科拓通讯技术股份有限公司（02272）、圣邦微电子（北京）股份有限公司（03661）、PT Merdeka Gold Resources Tbk（06228）及合肥芯碁微电子装备股份有限公司（09630）。",
+        "发行固定信息：6 家均已从 2026-06-25 配发结果公告补齐最终发行价、发售股份数、公开发售和国际配售认购情况、基石投资人和上市时间线；其中 06228 为 HDR/DRS 形式上市。",
+        "港股递表/聆讯：HKEX AP-only JSON 与 AP+PHIP JSON 均按 26/06/2026 文档日期筛选为 AP 0 家、PHIP 0 家；未创建 AP/PHIP 空卡。",
+        "证监会备案：未见 2026-06-26 单家公司新增《境外发行上市备案通知书》；补充材料公示和备案情况表不计入 csrcCount。",
+        "美股中概 IPO：SEC EDGAR 官方搜索 2026-06-26 的 F-1、F-1/A、424B、FWP、EFFECT、8-A12B 等 IPO 相关表格及 China/Hong Kong/Cayman 关键词返回 0 条。"
+      ],
+      "metrics": {
+        "hkexNewListings": 6,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "officialSourceChecks": [
+        {
+          "source": "HKEX Newly Listed Securities",
+          "dateRange": "2026-06-26",
+          "result": "公司类 IPO/DRS 新挂牌 6 家：LINGYI ITECH（01688）、WENGE AI（01956）、KEYTOP PARKING（02272）、SG MICRO（03661）、MERDEKAGOLD-DRS（06228）、CFMEE（09630）；ETF、债券及股份合并未计入。"
+        },
+        {
+          "source": "HKEX New Listing Information / HKEX Title Search",
+          "dateRange": "2026-06-26",
+          "result": "已读取 6 家公司的招股书、配发结果公告、AP 和 PHIP 历史文件；发行固定信息与时间线已入库。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-06-26",
+          "result": "AP-only JSON uDate=26/06/2026、app.length=409；AP+PHIP JSON app.length=23；按 26/06/2026 文档日期筛选 AP=0、PHIP=0。"
+        },
+        {
+          "source": "CSRC Overseas Filing / Supplement Materials",
+          "dateRange": "2026-06-26",
+          "result": "境外上市类页面最新可见公开项仍为 2026-06-12 补充材料公示；未见单家公司新增备案通知书，csrcCount=0。"
+        },
+        {
+          "source": "SEC EDGAR search-index",
+          "dateRange": "2026-06-26",
+          "result": "F-1、F-1/A、424B、FWP、EFFECT、8-A12B 等 IPO 相关表格及 China/Hong Kong/Cayman 关键词返回 0 条。"
+        }
+      ],
+      "deals": [
+        {
+          "id": "hkex-listing-01688-20260626",
+          "section": "港股新挂牌",
+          "type": "今日新上市",
+          "status": "今日挂牌",
+          "eventType": "hkexIpoListing",
+          "countInMetrics": true,
+          "company": {
+            "zh": "广东领益智造股份有限公司",
+            "en": "LINGYI iTECH (GUANGDONG) COMPANY",
+            "display": "广东领益智造股份有限公司 / LINGYI iTECH (GUANGDONG) COMPANY（01688）",
+            "ticker": "01688",
+            "exchange": "HKEX",
+            "board": "Main Board",
+            "listingStructure": "A+H 股（中国境内股份有限公司 H 股上市）"
+          },
+          "business": {
+            "sector": "精密制造 / 消费电子与新能源零部件",
+            "subIndustry": "精密功能件、结构件、材料与智能制造解决方案",
+            "summary": "公司为精密制造企业，服务消费电子、新能源、汽车、AI 终端等领域，提供精密功能件、结构件、材料及智能制造相关产品。",
+            "source": "HKEX Prospectus / Summary and Business sections"
+          },
+          "timeline": {
+            "firstFilingDate": "2026-05-20（Application Proof 1st submission）",
+            "hearingDate": "2026-06-07（PHIP 1st submission）",
+            "prospectusDate": "2026-06-17",
+            "offerPriceAnnouncementDate": "2026-06-24",
+            "allotmentResultDate": "2026-06-25",
+            "listingDate": "2026-06-26"
+          },
+          "ipo": {
+            "currency": "HKD",
+            "offerPrice": 10.18,
+            "sharesOffered": 811811880,
+            "hongKongOfferShares": 81181320,
+            "internationalOfferShares": 730630560,
+            "grossProceeds": 8264200000,
+            "netProceeds": 8151700000,
+            "issuedSharesUponListing": 8120010560,
+            "publicOfferOversubscription": 96.16,
+            "internationalOfferOversubscription": 10.27,
+            "publicOfferApplications": 162822,
+            "successfulPublicOfferApplications": 33279,
+            "clawback": "未触发回拨；香港公开发售最终 81,181,320 股，占全球发售 10%。",
+            "overAllotment": "配发结果摘要未列示超额分配；待稳定价格公告复核。",
+            "cornerstone": ["GF Fund", "Kaide Global Investment", "Qube", "Ti-Capital Funds", "Value Partners", "Hongxing International", "Morgan Stanley & Co. International plc", "HK Greenwoods", "3W Fund", "Deliante", "Sunny Optical Capital", "Honor", "Jain Global", "Seven Grand", "Taikang Life", "Da Cheng International", "Everbright Wealth Management", "GRANITE ASIA", "Verition"],
+            "cornerstoneTotalShares": 313241280,
+            "cornerstonePctOfOffer": 38.59,
+            "cornerstoneDetails": "基石及相关投资人合计获配 313,241,280 股，占全球发售 H 股约 38.59%，占发行后总股本约 3.86%。"
+          },
+          "marketPerformance": {
+            "offerPrice": 10.18,
+            "openPrice": "待开盘后官方行情源复核",
+            "firstDayClose": "待收盘后官方行情源复核",
+            "openChangePctVsOffer": "待官方行情源复核",
+            "firstDayCloseChangePctVsOffer": "待官方行情源复核",
+            "priceDataStatus": "pendingOfficialMarketDataReview"
+          },
+          "intermediaries": {
+            "sponsors": ["Guotai Junan Capital Limited"],
+            "overallCoordinators": ["Guotai Junan Securities (Hong Kong) Limited", "CLSA Limited", "J.P. Morgan Securities (Asia Pacific) Limited", "Citigroup Global Markets Asia Limited"],
+            "bookrunnersLeadManagers": ["Guotai Junan Securities (Hong Kong) Limited", "CLSA Limited", "J.P. Morgan Securities (Asia Pacific) Limited", "Citigroup Global Markets Asia Limited", "Futu Securities International (Hong Kong) Limited", "Tiger Brokers (HK) Global Limited"],
+            "companyLegalAdvisers": ["Cooley HK", "Jia Yuan Law Offices", "King & Wood", "Borenius Attorneys Ltd", "Drew & Napier LLC", "Dua Associates"],
+            "underwritersLegalAdvisers": ["Li & Partners", "Zhong Lun Law Firm LLP", "Zhong Lun Law Firm"],
+            "reportingAccountants": ["Rongcheng (Hong Kong) CPA Limited"],
+            "industryConsultant": ["Frost & Sullivan (Beijing) Inc., Shanghai Branch Co."],
+            "complianceAdvisor": ["Guotai Junan Capital Limited"]
+          },
+          "links": ["HKEX Newly Listed Securities", "HKEX New Listing Information", "Lingyi Prospectus English", "Lingyi Allotment Results English", "Lingyi Application Proof", "Lingyi PHIP"]
+        },
+        {
+          "id": "hkex-listing-01956-20260626",
+          "section": "港股新挂牌",
+          "type": "今日新上市",
+          "status": "今日挂牌",
+          "eventType": "hkexIpoListing",
+          "countInMetrics": true,
+          "company": {
+            "zh": "北京中科闻歌科技股份有限公司",
+            "en": "Beijing Zhongke WengeAI Science and Technology Co., Ltd.",
+            "display": "北京中科闻歌科技股份有限公司 / Beijing Zhongke WengeAI Science and Technology Co., Ltd.（01956）",
+            "ticker": "01956",
+            "exchange": "HKEX",
+            "board": "Main Board",
+            "listingStructure": "H 股；第十八C章特专科技公司"
+          },
+          "business": {
+            "sector": "人工智能 / 决策智能",
+            "subIndustry": "大模型、数据智能、认知智能及行业 AI 解决方案",
+            "summary": "公司提供面向政企和行业客户的人工智能及数据智能解决方案，招股书按特专科技公司披露关键人员锁定安排。",
+            "source": "HKEX Prospectus / Summary and Business sections"
+          },
+          "timeline": {
+            "firstFilingDate": "2026-04-12（Application Proof 1st submission）",
+            "hearingDate": "2026-06-09（PHIP 1st submission）",
+            "prospectusDate": "2026-06-17",
+            "allotmentResultDate": "2026-06-25",
+            "listingDate": "2026-06-26"
+          },
+          "ipo": {
+            "currency": "HKD",
+            "offerPrice": 60.7,
+            "sharesOffered": 14834600,
+            "hongKongOfferShares": 2967000,
+            "internationalOfferShares": 11867600,
+            "grossProceeds": 900500000,
+            "netProceeds": 826900000,
+            "issuedSharesUponListing": 173101207,
+            "overAllocatedShares": 1335000,
+            "publicOfferOversubscription": 5966.78,
+            "internationalOfferOversubscription": 20.7,
+            "publicOfferApplications": 195072,
+            "successfulPublicOfferApplications": 14835,
+            "clawback": "触发回拨；香港公开发售最终 2,967,000 股，占全球发售 20.00%。",
+            "overAllotment": "国际发售超额分配 1,335,000 股，可由超额配股权或二级市场购买等方式补足。",
+            "cornerstone": ["China Orient Enhanced Income Fund", "Harvest Global Investments Limited", "First Seafront Asset Management Limited", "Guohui (HK) Holdings Co., Limited", "Huatai Capital Investment Limited", "CMBC International Investment (HK) Limited"],
+            "cornerstoneTotalShares": 4000600,
+            "cornerstonePctOfOffer": 26.97,
+            "cornerstoneDetails": "6 名基石投资人合计获配 4,000,600 股，占全球发售股份约 26.97%，占发行后总股本约 2.31%。"
+          },
+          "marketPerformance": {
+            "offerPrice": 60.7,
+            "openPrice": "待开盘后官方行情源复核",
+            "firstDayClose": "待收盘后官方行情源复核",
+            "openChangePctVsOffer": "待官方行情源复核",
+            "firstDayCloseChangePctVsOffer": "待官方行情源复核",
+            "priceDataStatus": "pendingOfficialMarketDataReview"
+          },
+          "intermediaries": {
+            "sponsors": ["China International Capital Corporation Hong Kong Securities Limited"],
+            "overallCoordinators": ["China International Capital Corporation Hong Kong Securities Limited", "ABCI Capital Limited", "China Galaxy International Securities (Hong Kong) Co., Limited"],
+            "globalCoordinators": ["China International Capital Corporation Hong Kong Securities Limited", "ABCI Capital Limited", "China Galaxy International Securities (Hong Kong) Co., Limited", "TFI Securities and Futures Limited", "SPDB International Capital Limited", "CCB International Capital Limited", "Futu Securities International (Hong Kong) Limited", "CMB International Capital Limited"],
+            "bookrunners": ["China International Capital Corporation Hong Kong Securities Limited", "ABCI Capital Limited", "China Galaxy International Securities (Hong Kong) Co., Limited", "TFI Securities and Futures Limited", "SPDB International Capital Limited", "CCB International Capital Limited", "Futu Securities International (Hong Kong) Limited", "CMB International Capital Limited", "Tiger Brokers (HK) Global Limited", "Livermore Holdings Limited"],
+            "leadManagers": ["China International Capital Corporation Hong Kong Securities Limited", "ABCI Securities Company Limited", "China Galaxy International Securities (Hong Kong) Co., Limited", "TFI Securities and Futures Limited", "SPDB International Capital Limited", "CCB International Capital Limited", "Futu Securities International (Hong Kong) Limited", "CMB International Capital Limited"],
+            "legalAndReportingAdvisers": "招股书中介章节后续页待 OCR/文本复核；本次已优先写入保荐人、协调人、账簿管理人及牵头经办人。"
+          },
+          "links": ["HKEX Newly Listed Securities", "HKEX New Listing Information", "Wenge Prospectus English", "Wenge Allotment Results English", "Wenge Application Proof", "Wenge PHIP"]
+        },
+        {
+          "id": "hkex-listing-02272-20260626",
+          "section": "港股新挂牌",
+          "type": "今日新上市",
+          "status": "今日挂牌",
+          "eventType": "hkexIpoListing",
+          "countInMetrics": true,
+          "company": {
+            "zh": "厦门科拓通讯技术股份有限公司",
+            "en": "Keytop Parking Inc.",
+            "display": "厦门科拓通讯技术股份有限公司 / Keytop Parking Inc.（02272）",
+            "ticker": "02272",
+            "exchange": "HKEX",
+            "board": "Main Board",
+            "listingStructure": "H 股（中国境内股份有限公司）"
+          },
+          "business": {
+            "sector": "智慧停车 / 城市交通数字化",
+            "subIndustry": "停车场管理系统、智能停车解决方案及运营服务",
+            "summary": "公司提供智慧停车及停车场数字化解决方案，覆盖停车设备、系统平台和运营管理服务。",
+            "source": "HKEX Prospectus / Summary and Business sections"
+          },
+          "timeline": {
+            "firstFilingDate": "2026-05-05（Application Proof 1st submission）",
+            "ocAppointmentRevisedDate": "2026-05-19",
+            "hearingDate": "2026-06-08（PHIP 1st submission）",
+            "prospectusDate": "2026-06-17",
+            "allotmentResultDate": "2026-06-25",
+            "listingDate": "2026-06-26"
+          },
+          "ipo": {
+            "currency": "HKD",
+            "offerPrice": 39.55,
+            "sharesOffered": 10112280,
+            "hongKongOfferShares": 1011240,
+            "internationalOfferShares": 9101040,
+            "grossProceeds": 399900000,
+            "netProceeds": 339900000,
+            "issuedSharesUponListing": 101122609,
+            "publicOfferOversubscription": 2115.21,
+            "internationalOfferOversubscription": 5.56,
+            "publicOfferApplications": 165737,
+            "successfulPublicOfferApplications": 15301,
+            "clawback": "未触发回拨；香港公开发售最终 1,011,240 股，占全球发售 10%。",
+            "overAllotment": "无超额分配；超额配股权不会获行使。",
+            "cornerstone": [],
+            "cornerstoneDetails": "配发结果页未列示基石投资人。"
+          },
+          "marketPerformance": {
+            "offerPrice": 39.55,
+            "openPrice": "待开盘后官方行情源复核",
+            "firstDayClose": "待收盘后官方行情源复核",
+            "openChangePctVsOffer": "待官方行情源复核",
+            "firstDayCloseChangePctVsOffer": "待官方行情源复核",
+            "priceDataStatus": "pendingOfficialMarketDataReview"
+          },
+          "intermediaries": {
+            "sponsorsAndCoordinators": "招股书封面列示 Joint Sponsors / Overall Coordinators / Joint Global Coordinators / Joint Bookrunners / Joint Lead Managers；机构名称待封面 logo OCR 或中介章节文本复核。",
+            "reviewStatus": "本次已补齐发行与认购固定信息；主要中介名称待 OCR 复核后继续补全。"
+          },
+          "links": ["HKEX Newly Listed Securities", "HKEX New Listing Information", "Keytop Prospectus English", "Keytop Allotment Results English", "Keytop Application Proof", "Keytop PHIP"]
+        },
+        {
+          "id": "hkex-listing-03661-20260626",
+          "section": "港股新挂牌",
+          "type": "今日新上市",
+          "status": "今日挂牌",
+          "eventType": "hkexIpoListing",
+          "countInMetrics": true,
+          "company": {
+            "zh": "圣邦微电子（北京）股份有限公司",
+            "en": "SG Micro Corp",
+            "display": "圣邦微电子（北京）股份有限公司 / SG Micro Corp（03661）",
+            "ticker": "03661",
+            "exchange": "HKEX",
+            "board": "Main Board",
+            "listingStructure": "A+H 股（中国境内股份有限公司 H 股上市）"
+          },
+          "business": {
+            "sector": "半导体 / 模拟芯片",
+            "subIndustry": "信号链与电源管理模拟集成电路",
+            "summary": "公司为模拟集成电路设计企业，产品覆盖信号链和电源管理等模拟芯片，应用于消费电子、通信、工业、汽车及新能源等领域。",
+            "source": "HKEX Prospectus / Summary and Business sections"
+          },
+          "timeline": {
+            "firstFilingDate": "2026-04-01（Application Proof 1st submission）",
+            "hearingDate": "2026-06-04（PHIP 1st submission）",
+            "prospectusDate": "2026-06-17",
+            "offerPriceAnnouncementDate": "2026-06-24",
+            "allotmentResultDate": "2026-06-25",
+            "listingDate": "2026-06-26"
+          },
+          "ipo": {
+            "currency": "HKD",
+            "offerPrice": 85.2,
+            "sharesOffered": 54001200,
+            "hongKongOfferShares": 5400200,
+            "internationalOfferShares": 48601000,
+            "grossProceeds": 4600900000,
+            "netProceeds": 4499900000,
+            "issuedSharesUponListing": 675015824,
+            "overAllocatedShares": 8100100,
+            "publicOfferOversubscription": 251.73,
+            "internationalOfferOversubscription": 23.5,
+            "publicOfferApplications": 153878,
+            "successfulPublicOfferApplications": 34304,
+            "clawback": "未触发回拨；香港公开发售最终 5,400,200 股，占全球发售 10%。",
+            "overAllotment": "国际发售超额分配 8,100,100 股，可由超额配股权或二级市场购买等方式补足。",
+            "cornerstone": ["GIC Private Limited", "JPMorgan Asset Management (Asia Pacific) Limited", "CPE Ginkgo", "Da Cheng International", "Dajia Life", "Dymon Asia Multi-Strategy Investment Master Fund", "First Sentier Investors", "GF Fund", "Golden Continent", "Harvest Global Investments", "HHLR Advisors", "Huadeng Technology", "Huaqin Singapore", "Sungrow Power", "ICBC Wealth", "iSoftStone HK", "LMR Master Fund", "Millennium Capital", "Ninety One Asia", "Ocean Fine Industrial", "PSBC Wealth", "Taikang Life", "Value Partners"],
+            "cornerstoneTotalShares": 26941300,
+            "cornerstonePctOfOffer": 49.89,
+            "cornerstoneDetails": "基石投资人合计获配 26,941,300 股，占全球发售股份约 49.89%，占发行后总股本约 3.99%。"
+          },
+          "marketPerformance": {
+            "offerPrice": 85.2,
+            "openPrice": "待开盘后官方行情源复核",
+            "firstDayClose": "待收盘后官方行情源复核",
+            "openChangePctVsOffer": "待官方行情源复核",
+            "firstDayCloseChangePctVsOffer": "待官方行情源复核",
+            "priceDataStatus": "pendingOfficialMarketDataReview"
+          },
+          "intermediaries": {
+            "sponsorsAndCoordinators": "招股书封面列示 Joint Sponsors / Overall Coordinators / Joint Global Coordinators / Joint Bookrunners / Joint Lead Managers；机构名称待封面 logo OCR 或中介章节文本复核。",
+            "reviewStatus": "本次已补齐发行与认购固定信息；主要中介名称待 OCR 复核后继续补全。"
+          },
+          "links": ["HKEX Newly Listed Securities", "HKEX New Listing Information", "SG Micro Prospectus English", "SG Micro Allotment Results English", "SG Micro Application Proof", "SG Micro PHIP"]
+        },
+        {
+          "id": "hkex-listing-06228-20260626",
+          "section": "港股新挂牌",
+          "type": "今日新上市",
+          "status": "今日挂牌",
+          "eventType": "hkexIpoListing",
+          "countInMetrics": true,
+          "company": {
+            "zh": "PT Merdeka Gold Resources Tbk",
+            "en": "PT Merdeka Gold Resources Tbk",
+            "display": "PT Merdeka Gold Resources Tbk（06228 / MERDEKAGOLD-DRS）",
+            "ticker": "06228",
+            "exchange": "HKEX",
+            "board": "Main Board",
+            "listingStructure": "香港预托证券 / HDR / DRS；印尼公司"
+          },
+          "business": {
+            "sector": "矿业 / 黄金资源",
+            "subIndustry": "黄金矿产资源开发",
+            "summary": "公司为印尼黄金资源公司，以香港预托证券形式在港上市；本次全球发售为销售股东出售 HDR。",
+            "source": "HKEX Prospectus / Allotment Results"
+          },
+          "timeline": {
+            "firstFilingDate": "2026-03-20（Application Proof 1st submission）",
+            "ocAppointmentRevisedDate": "2026-04-02",
+            "hearingDate": "2026-06-01（PHIP 1st submission）",
+            "prospectusDate": "2026-06-17",
+            "offerPriceAnnouncementDate": "2026-06-24",
+            "allotmentResultDate": "2026-06-25",
+            "listingDate": "2026-06-26"
+          },
+          "ipo": {
+            "currency": "HKD",
+            "offerPrice": 26.6,
+            "securityType": "HDR / DRS",
+            "hdrsOffered": 89668600,
+            "hongKongOfferHdrs": 8966900,
+            "internationalOfferHdrs": 80701700,
+            "grossProceeds": 2385180000,
+            "netProceeds": 2268710000,
+            "issuedHdrsUponListing": 89668600,
+            "issuedSharesUponListing": 14731366060,
+            "overAllocatedHdrs": 13450200,
+            "publicOfferOversubscription": 4.42,
+            "internationalOfferOversubscription": 7.67,
+            "publicOfferApplications": 22329,
+            "successfulPublicOfferApplications": 22329,
+            "clawback": "未触发回拨；香港公开发售最终 8,966,900 份 HDR，占全球发售 10.00%。",
+            "overAllotment": "国际发售超额分配 13,450,200 份 HDR，可由超额配股权或二级市场购买等方式补足。",
+            "cornerstone": ["Ping An AM", "Wanguo Gold Group", "Glencore International AG", "Mercuria", "Trafigura Group", "Intera Mining", "GF Fund", "CNGR", "ORIX", "Wind Sabre", "Dymon Asia Multi-Strategy Investment Master Fund"],
+            "cornerstoneTotalHdrs": 44779800,
+            "cornerstonePctOfOffer": 49.94,
+            "cornerstoneDetails": "基石投资人合计获配 44,779,800 份 HDR，占全球发售 HDR 约 49.94%。"
+          },
+          "marketPerformance": {
+            "offerPrice": 26.6,
+            "openPrice": "待开盘后官方行情源复核",
+            "firstDayClose": "待收盘后官方行情源复核",
+            "openChangePctVsOffer": "待官方行情源复核",
+            "firstDayCloseChangePctVsOffer": "待官方行情源复核",
+            "priceDataStatus": "pendingOfficialMarketDataReview"
+          },
+          "intermediaries": {
+            "sponsorsAndCoordinators": "招股书封面列示 Joint Sponsors / Overall Coordinators / Joint Global Coordinators / Joint Bookrunners / Joint Lead Managers；机构名称待封面 logo OCR 或中介章节文本复核。",
+            "reviewStatus": "本次已补齐发行与认购固定信息；主要中介名称待 OCR 复核后继续补全。"
+          },
+          "links": ["HKEX Newly Listed Securities", "HKEX New Listing Information", "Merdeka Prospectus English", "Merdeka Allotment Results English", "Merdeka Application Proof", "Merdeka PHIP"]
+        },
+        {
+          "id": "hkex-listing-09630-20260626",
+          "section": "港股新挂牌",
+          "type": "今日新上市",
+          "status": "今日挂牌",
+          "eventType": "hkexIpoListing",
+          "countInMetrics": true,
+          "company": {
+            "zh": "合肥芯碁微电子装备股份有限公司",
+            "en": "Circuit Fabology Microelectronics Equipment Co., Ltd.",
+            "display": "合肥芯碁微电子装备股份有限公司 / Circuit Fabology Microelectronics Equipment Co., Ltd.（09630）",
+            "ticker": "09630",
+            "exchange": "HKEX",
+            "board": "Main Board",
+            "listingStructure": "A+H 股（中国境内股份有限公司 H 股上市）"
+          },
+          "business": {
+            "sector": "半导体设备 / 微电子装备",
+            "subIndustry": "直接成像、微纳制造及 PCB/泛半导体装备",
+            "summary": "公司为微电子装备供应商，产品服务 PCB、半导体与泛半导体制造环节，核心方向包括直接成像和相关曝光设备。",
+            "source": "HKEX Prospectus / Summary and Business sections"
+          },
+          "timeline": {
+            "firstFilingDate": "2026-03-15（Application Proof 1st submission）",
+            "hearingDate": "2026-06-10（PHIP 1st submission）",
+            "prospectusDate": "2026-06-17",
+            "offerPriceAnnouncementDate": "2026-06-24",
+            "allotmentResultDate": "2026-06-25",
+            "listingDate": "2026-06-26"
+          },
+          "ipo": {
+            "currency": "HKD",
+            "offerPrice": 252.73,
+            "sharesOffered": 12838650,
+            "hongKongOfferShares": 1283900,
+            "internationalOfferShares": 11241150,
+            "employeeReservedShares": 313600,
+            "grossProceeds": 3244700000,
+            "netProceeds": 3153100000,
+            "issuedSharesUponListing": 144579366,
+            "overAllocatedShares": 1925750,
+            "publicOfferOversubscription": 1007.22,
+            "internationalOfferOversubscription": 27.22,
+            "publicOfferApplications": 207986,
+            "successfulPublicOfferApplications": 24412,
+            "clawback": "未触发回拨；香港公开发售最终 1,283,900 股，占全球发售 10%。另有员工优先发售 313,600 股。",
+            "overAllotment": "国际发售超额分配 1,925,750 股，可由超额配股权或二级市场购买等方式补足。",
+            "cornerstone": ["Hefei Jianhui", "Xinyao Investment", "Nexchip Semiconductor HK", "JPMorgan Asset Management (Asia Pacific) Limited", "Victory Giant HK", "CPE Chestnut", "Lion Global", "CICC FT (Greenwoods OTC Swaps)", "HHLR", "Montage HK", "Yonglian Investment", "Monterey Park", "Bosera International", "China Universal (HK)", "Fullgoal HK and Fullgoal Fund", "GF Fund", "Ocean Fine Industrial", "Sungrow Power HK"],
+            "cornerstoneTotalShares": 6416350,
+            "cornerstonePctOfOffer": 49.98,
+            "cornerstoneDetails": "基石投资人合计获配 6,416,350 股，占全球发售 H 股约 49.98%，占发行后总股本约 4.44%。"
+          },
+          "marketPerformance": {
+            "offerPrice": 252.73,
+            "openPrice": "待开盘后官方行情源复核",
+            "firstDayClose": "待收盘后官方行情源复核",
+            "openChangePctVsOffer": "待官方行情源复核",
+            "firstDayCloseChangePctVsOffer": "待官方行情源复核",
+            "priceDataStatus": "pendingOfficialMarketDataReview"
+          },
+          "intermediaries": {
+            "sponsorsAndCoordinators": "招股书封面列示 Joint Sponsors / Overall Coordinators / Joint Global Coordinators / Joint Bookrunners / Joint Lead Managers；机构名称待封面 logo OCR 或中介章节文本复核。",
+            "reviewStatus": "本次已补齐发行与认购固定信息；主要中介名称待 OCR 复核后继续补全。"
+          },
+          "links": ["HKEX Newly Listed Securities", "HKEX New Listing Information", "CFMEE Prospectus English", "CFMEE Allotment Results English", "CFMEE Application Proof", "CFMEE PHIP"]
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=zh-HK",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=zh-HK",
+    "Application Proof / PHIP": "https://www1.hkexnews.hk/app/appindex.html?lang=zh",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing List": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "SEC EDGAR": "https://www.sec.gov/edgar/search/",
+    "Lingyi Prospectus English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0617/2026061700029.pdf",
+    "Lingyi Allotment Results English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0625/2026062502292.pdf",
+    "Lingyi Application Proof": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0626/sehk26052001469.pdf",
+    "Lingyi PHIP": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0626/sehk26060700096.pdf",
+    "Wenge Prospectus English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0617/2026061700025.pdf",
+    "Wenge Allotment Results English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0625/2026062501938.pdf",
+    "Wenge Application Proof": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0626/sehk26041200026.pdf",
+    "Wenge PHIP": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0626/sehk26060900829.pdf",
+    "Keytop Prospectus English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0617/2026061700071.pdf",
+    "Keytop Allotment Results English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0625/2026062501916.pdf",
+    "Keytop Application Proof": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0626/sehk26050501857.pdf",
+    "Keytop PHIP": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0626/sehk26060801847.pdf",
+    "SG Micro Prospectus English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0617/2026061700041.pdf",
+    "SG Micro Allotment Results English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0625/2026062502076.pdf",
+    "SG Micro Application Proof": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0626/sehk26040104299.pdf",
+    "SG Micro PHIP": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0626/sehk26060400038.pdf",
+    "Merdeka Prospectus English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0617/2026061700075.pdf",
+    "Merdeka Allotment Results English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0625/2026062502338.pdf",
+    "Merdeka Application Proof": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0626/sehk26032002117.pdf",
+    "Merdeka PHIP": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0626/sehk26060104177.pdf",
+    "CFMEE Prospectus English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0617/2026061700039.pdf",
+    "CFMEE Allotment Results English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0625/2026062502296.pdf",
+    "CFMEE Application Proof": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0626/sehk26031500202.pdf",
+    "CFMEE PHIP": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0626/sehk26061001513.pdf"
+  }
+}
