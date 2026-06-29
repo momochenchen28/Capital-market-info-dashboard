@@ -4,21 +4,23 @@
       "date": "2026-06-26",
       "reportType": "briefing",
       "title": "资本市场快报",
-      "subtitle": "港股正常交易日；领益智造（01688）、中科闻歌（01956）、科拓股份（02272）、圣邦微电子（03661）、MERDEKAGOLD-DRS（06228）及芯碁微装（09630）早盘挂牌。",
-      "statusNote": "数据截至 2026-06-26 09:30 早盘官方源回扫。2026-06-26 为港股正常交易日。HKEX Newly Listed Securities 列示 26/06/2026* 新上市证券，其中公司类 IPO/DRS 计入 LINGYI ITECH（01688）、WENGE AI（01956）、KEYTOP PARKING（02272）、SG MICRO（03661）、MERDEKAGOLD-DRS（06228）及 CFMEE（09630）6 家；ETF、债券及股份合并不计入 hkexNewListings。HKEX Title Search 已读取 6 家的 AP、PHIP、招股书、配发结果公告和上市前公告，固定发行信息已补齐；开盘价、收盘价、涨跌幅等交易进程字段待官方行情源复核。HKEX AP-only JSON uDate=26/06/2026、app.length=409，按 26/06/2026 文档日期命中 AP 0 家；HKEX AP+PHIP JSON app.length=23，按 26/06/2026 文档日期命中 PHIP 0 家。证监会境外上市类页面最新公开项仍为 2026-06-12 补充材料公示，未见 6/26 单家公司新增《境外发行上市备案通知书》，csrcCount=0。SEC EDGAR 官方检索 6/26 的 IPO 相关表格及 China/Hong Kong/Cayman 关键词返回 0 条。",
-      "archiveNotice": "本文件由 2026-06-26 09:30 早盘流程创建；新挂牌公司固定发行信息来自 HKEX 招股书、配发结果公告及 Title Search 历史文件。",
+      "subtitle": "港股正常交易日；领益智造（01688）、中科闻歌（01956）、科拓股份（02272）、圣邦微电子（03661）、MERDEKAGOLD-DRS（06228）及芯碁微装（09630）早盘挂牌；证监会晚间补入 2 条境外上市备案通知。",
+      "statusNote": "数据截至 2026-06-26 09:30 早盘官方源回扫，并按 2026-06-26 晚间证监会官方公开项补录。2026-06-26 为港股正常交易日。HKEX Newly Listed Securities 列示 26/06/2026* 新上市证券，其中公司类 IPO/DRS 计入 LINGYI ITECH（01688）、WENGE AI（01956）、KEYTOP PARKING（02272）、SG MICRO（03661）、MERDEKAGOLD-DRS（06228）及 CFMEE（09630）6 家；ETF、债券及股份合并不计入 hkexNewListings。HKEX Title Search 已读取 6 家的 AP、PHIP、招股书、配发结果公告和上市前公告，固定发行信息已补齐；开盘价、收盘价、涨跌幅等交易进程字段待官方行情源复核。HKEX AP-only JSON uDate=26/06/2026、app.length=409，按 26/06/2026 文档日期命中 AP 0 家；HKEX AP+PHIP JSON app.length=23，按 26/06/2026 文档日期命中 PHIP 0 家。证监会 2026-06-26 晚间发布《境外发行上市备案补充材料要求公示（2026年6月15日—2026年6月26日）》（页面元数据 PubDate=2026-06-26 19:35:58），并可见 2026-06-26 官网披露的单家公司《境外发行上市备案通知书》2 条：深圳市景旺电子股份有限公司、罗博特科智能科技股份有限公司；两份通知书正文日期均为 2026年6月22日，官网披露日期按 2026-06-26 入库，csrcCount=2。证监会可见页面及站内检索未追到发行人为“上美/上海上美”或“上港/上港集团”的确认命中。SEC EDGAR 官方检索 6/26 的 IPO 相关表格及 China/Hong Kong/Cayman 关键词返回 0 条。",
+      "archiveNotice": "本文件由 2026-06-26 09:30 早盘流程创建；新挂牌公司固定发行信息来自 HKEX 招股书、配发结果公告及 Title Search 历史文件。2026-06-29 回补 2026-06-26 晚间证监会官方公开项。",
       "observations": [
         "港股新挂牌：2026-06-26 公司类新挂牌 6 家，分别为广东领益智造股份有限公司（01688）、北京中科闻歌科技股份有限公司（01956）、厦门科拓通讯技术股份有限公司（02272）、圣邦微电子（北京）股份有限公司（03661）、PT Merdeka Gold Resources Tbk（06228）及合肥芯碁微电子装备股份有限公司（09630）。",
         "发行固定信息：6 家均已从 2026-06-25 配发结果公告补齐最终发行价、发售股份数、公开发售和国际配售认购情况、基石投资人和上市时间线；其中 06228 为 HDR/DRS 形式上市。",
         "港股递表/聆讯：HKEX AP-only JSON 与 AP+PHIP JSON 均按 26/06/2026 文档日期筛选为 AP 0 家、PHIP 0 家；未创建 AP/PHIP 空卡。",
-        "证监会备案：未见 2026-06-26 单家公司新增《境外发行上市备案通知书》；补充材料公示和备案情况表不计入 csrcCount。",
+        "证监会备案：6/26 晚间补入两条单家公司《境外发行上市备案通知书》：深圳市景旺电子股份有限公司（国合函〔2026〕1475号，拟发行不超过 125,837,100 股并在港交所上市）及罗博特科智能科技股份有限公司（国合函〔2026〕1466号，拟发行不超过 34,014,550 股并在港交所上市）；csrcCount=2。",
+        "证监会补充材料：6/26 19:35:58 发布 2026年6月15日—6月26日补充材料要求公示；仅作监管更新记录，不计入 csrcCount。",
+        "上美/上港核查：证监会可见页面及站内按上美、上海上美、上港、上海港、上港集团与备案通知书/补充材料组合检索，未见可确认发行人为上美或上港的结果；搜索结果中的相关字样未构成结果标题或正文确认命中。",
         "美股中概 IPO：SEC EDGAR 官方搜索 2026-06-26 的 F-1、F-1/A、424B、FWP、EFFECT、8-A12B 等 IPO 相关表格及 China/Hong Kong/Cayman 关键词返回 0 条。"
       ],
       "metrics": {
         "hkexNewListings": 6,
         "apNewCount": 0,
         "phipCount": 0,
-        "csrcCount": 0,
+        "csrcCount": 2,
         "usChinaIpoCount": 0
       },
       "officialSourceChecks": [
@@ -38,9 +40,9 @@
           "result": "AP-only JSON uDate=26/06/2026、app.length=409；AP+PHIP JSON app.length=23；按 26/06/2026 文档日期筛选 AP=0、PHIP=0。"
         },
         {
-          "source": "CSRC Overseas Filing / Supplement Materials",
+          "source": "CSRC Overseas Filing / Supplement Materials / Site Search",
           "dateRange": "2026-06-26",
-          "result": "境外上市类页面最新可见公开项仍为 2026-06-12 补充材料公示；未见单家公司新增备案通知书，csrcCount=0。"
+          "result": "2026-06-26 官网披露单家公司备案通知书 2 条：深圳市景旺电子股份有限公司、罗博特科智能科技股份有限公司；同日晚间（页面元数据 PubDate=2026-06-26 19:35:58）发布 2026年6月15日—6月26日补充材料要求公示，补充材料仅作监管更新展示、不计入 csrcCount。按上美、上海上美、上港、上海港、上港集团检索，未见可确认发行人为上美或上港的命中。"
         },
         {
           "source": "SEC EDGAR search-index",
@@ -447,6 +449,66 @@
             "reviewStatus": "本次已补齐发行与认购固定信息；主要中介名称待 OCR 复核后继续补全。"
           },
           "links": ["HKEX Newly Listed Securities", "HKEX New Listing Information", "CFMEE Prospectus English", "CFMEE Allotment Results English", "CFMEE Application Proof", "CFMEE PHIP"]
+        },
+        {
+          "id": "csrc-filing-jingwang-20260626",
+          "section": "证监会备案",
+          "type": "境外上市备案",
+          "status": "官网披露",
+          "eventType": "csrcOverseasFilingNotice",
+          "countInMetrics": true,
+          "company": {
+            "zh": "深圳市景旺电子股份有限公司",
+            "display": "深圳市景旺电子股份有限公司"
+          },
+          "business": {
+            "summary": "证监会境外发行上市备案通知书显示，公司拟发行境外上市普通股并在香港联合交易所上市。",
+            "source": "CSRC Overseas Filing Notice"
+          },
+          "csrc": {
+            "noticeNo": "国合函〔2026〕1475号",
+            "targetMarket": "香港联合交易所",
+            "maxIssuance": "不超过 125,837,100 股境外上市普通股",
+            "domesticOperatingEntity": "深圳市景旺电子股份有限公司",
+            "noticeDate": "2026-06-22",
+            "publishDate": "2026-06-26",
+            "postFilingObligations": [
+              "重大事项需通过中国证监会备案管理信息系统报告。",
+              "完成境外发行上市后 15 个工作日内报告发行上市情况。",
+              "通知书出具之日起 12 个月内未完成境外发行上市且继续推进的，应当更新备案材料。"
+            ]
+          },
+          "links": ["CSRC Jingwang Filing Notice", "CSRC Overseas Filing List"]
+        },
+        {
+          "id": "csrc-filing-robotechnik-20260626",
+          "section": "证监会备案",
+          "type": "境外上市备案",
+          "status": "官网披露",
+          "eventType": "csrcOverseasFilingNotice",
+          "countInMetrics": true,
+          "company": {
+            "zh": "罗博特科智能科技股份有限公司",
+            "display": "罗博特科智能科技股份有限公司"
+          },
+          "business": {
+            "summary": "证监会境外发行上市备案通知书显示，公司拟发行境外上市普通股并在香港联合交易所上市。",
+            "source": "CSRC Overseas Filing Notice"
+          },
+          "csrc": {
+            "noticeNo": "国合函〔2026〕1466号",
+            "targetMarket": "香港联合交易所",
+            "maxIssuance": "不超过 34,014,550 股境外上市普通股",
+            "domesticOperatingEntity": "罗博特科智能科技股份有限公司",
+            "noticeDate": "2026-06-22",
+            "publishDate": "2026-06-26",
+            "postFilingObligations": [
+              "重大事项需通过中国证监会备案管理信息系统报告。",
+              "完成境外发行上市后 15 个工作日内报告发行上市情况。",
+              "通知书出具之日起 12 个月内未完成境外发行上市且继续推进的，应当更新备案材料。"
+            ]
+          },
+          "links": ["CSRC Robotechnik Filing Notice", "CSRC Overseas Filing List"]
         }
       ]
     }
@@ -458,6 +520,10 @@
     "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
     "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
     "CSRC Overseas Filing List": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "CSRC Overseas Filing Result Search": "https://www.csrc.gov.cn/guestweb4/s",
+    "CSRC 2026-06-26 Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/c7641795/content.shtml",
+    "CSRC Jingwang Filing Notice": "https://www.csrc.gov.cn/csrc/c105984/c7641697/content.shtml",
+    "CSRC Robotechnik Filing Notice": "https://www.csrc.gov.cn/csrc/c105984/c7641615/content.shtml",
     "SEC EDGAR": "https://www.sec.gov/edgar/search/",
     "Lingyi Prospectus English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0617/2026061700029.pdf",
     "Lingyi Allotment Results English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0625/2026062502292.pdf",
