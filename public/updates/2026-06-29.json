@@ -1,0 +1,297 @@
+{
+  "dailyReports": {
+    "2026-06-29": {
+      "date": "2026-06-29",
+      "reportType": "briefing",
+      "title": "资本市场快报",
+      "subtitle": "港股正常交易日；创亮科技（01191）与百格在线（02672）挂牌，盛威时代科技递交 AP。",
+      "statusNote": "数据截至 2026-06-29 09:30 早盘官方源回扫。2026-06-29 为港股正常交易日，HKEX Newly Listed Securities 列示 29/06/2026* 公司类新上市 CREALIGHTS（01191）与 BAIGE DIGITAL（02672）2 家；CITYCHAMP RTS、MTT GROUP RTS、CHINA ECOTOUR、GAODI HOLD RTS、GAODI HOLD-4000、V&V TECH RTS 属供股权/并股/买卖单位或并行买卖安排，未计入 hkexNewListings。HKEX AP-only JSON uDate=29/06/2026、app.length=411，按文档日期命中 NEW AP 1 家：Shengwei Times Technology Co., Ltd.；HKEX AP+PHIP JSON uDate=29/06/2026、app.length=20，按文档日期命中 PHIP 0 家。回扫 2026-06-27 至 2026-06-29 自然日，6/27、6/28 未见 HKEX AP/PHIP、证监会或 SEC 官方新增；证监会站内搜索《境外发行上市备案通知书》最新结果仍为 2026-06-26，6/27-6/29 未见单家公司新增备案通知书，csrcCount=0；SEC EDGAR daily-index 2026/QTR2 目录最新 master 文件至 2026-06-26，未见 20260627、20260628、20260629 master index 文件，usChinaIpoCount=0。",
+      "archiveNotice": "本文件由 2026-06-29 09:30 早盘流程创建；新挂牌公司固定发行信息来自 HKEX 招股书、配发结果公告、新上市证券页、新上市资料页及 AP/PHIP 档案 JSON。",
+      "observations": [
+        "港股新挂牌：HKEX Newly Listed Securities 显示 2026-06-29 公司类新挂牌 2 家，分别为创亮科技（01191）与百格在线（02672）。",
+        "新挂牌固定信息：两家公司均已从 2026-06-18 招股书与 2026-06-26 配发结果公告补齐发行价、发售股份数、公开发售和国际配售认购情况、基石投资人、主要中介和上市时间线；开盘价、收盘价、涨跌幅等待官方行情源复核。",
+        "港股递表/聆讯：HKEX AP-only JSON 按 29/06/2026 文档日期筛出盛威时代科技股份有限公司 NEW AP 1 家；HKEX AP+PHIP JSON 同日 PHIP 0 家；AP 与 PHIP 均放入 apApplications[] 并用 status/documentType 区分。",
+        "周末/假日回扫：2026-06-27、2026-06-28 未见 HKEX AP/PHIP、证监会备案通知书或 SEC daily-index 新增文件，因此未单独创建空更新文件。",
+        "证监会备案：站内检索《境外发行上市备案通知书》最新结果为 2026-06-26 的景旺电子、罗博特科等；6/27-6/29 未见单家公司新增备案通知书，补充材料公示不计入 csrcCount。",
+        "美股中概 IPO：SEC EDGAR official daily-index 目录 2026/QTR2 最新 master 文件至 2026-06-26，未见 20260627、20260628、20260629 自然日索引文件；本轮 usChinaIpoCount=0。"
+      ],
+      "metrics": {
+        "hkexNewListings": 2,
+        "apNewCount": 1,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "officialSourceChecks": [
+        {
+          "source": "HKEX Newly Listed Securities",
+          "dateRange": "2026-06-29",
+          "result": "公司类新挂牌 2 家：CREALIGHTS（01191）与 BAIGE DIGITAL（02672）；供股权、并股、买卖单位调整及并行买卖安排未计入。"
+        },
+        {
+          "source": "HKEX New Listing Information / Prospectus / Allotment Results",
+          "dateRange": "2026-06-18 至 2026-06-29",
+          "result": "已读取创亮科技与百格在线招股书、配发结果公告及新上市资料页，固定发行信息、认购分配、基石投资人、主要中介和上市时间线已入库。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-06-27 至 2026-06-29",
+          "result": "AP-only JSON uDate=29/06/2026、app.length=411；AP+PHIP JSON uDate=29/06/2026、app.length=20。按文档日期筛选：6/27 AP=0/PHIP=0，6/28 AP=0/PHIP=0，6/29 AP=1/PHIP=0。"
+        },
+        {
+          "source": "HKEX AP yearly/listed archive JSON",
+          "dateRange": "2026-06-29",
+          "result": "app_2026_sehk_e.json 与 applisted_sehk_e.json 显示百格在线首次 posting 2026-03-18、listed 最新 posting 2026-06-16；创亮科技首次 posting 2026-05-07、listed 最新 posting 2026-06-11。"
+        },
+        {
+          "source": "CSRC site search / Overseas filing supplement page",
+          "dateRange": "2026-06-27 至 2026-06-29",
+          "result": "站内检索《境外发行上市备案通知书》未见 6/27-6/29 新结果；许可反馈意见公开页最新为 2026-06-26 的补充材料公示，补充材料不计入 csrcCount。"
+        },
+        {
+          "source": "SEC EDGAR official daily-index directory",
+          "dateRange": "2026-06-27 至 2026-06-29",
+          "result": "2026/QTR2 目录最新 master 文件为 master.20260626.idx，未见 master.20260627.idx、master.20260628.idx、master.20260629.idx；F-1/F-1A/424B/FWP/EFFECT/8-A 等 IPO 相关计数为 0。"
+        }
+      ],
+      "deals": [
+        {
+          "id": "hkex-listing-01191-20260629",
+          "section": "港股新挂牌",
+          "type": "今日新上市",
+          "status": "今日挂牌",
+          "eventType": "hkexIpoListing",
+          "countInMetrics": true,
+          "company": {
+            "zh": "北京海光芯正科技股份有限公司",
+            "en": "Crealights Technology Co., Ltd.",
+            "display": "北京海光芯正科技股份有限公司 / Crealights Technology Co., Ltd.（01191）",
+            "ticker": "01191",
+            "exchange": "HKEX",
+            "board": "Main Board",
+            "listingStructure": "H 股（中国境内股份有限公司）"
+          },
+          "business": {
+            "sector": "光通信 / AI 数据中心 / 硅光光模块",
+            "subIndustry": "光收发模块、AOC 及高速光电互连产品",
+            "summary": "公司提供光电互连产品，覆盖光收发模块、主动光缆（AOC）及其他高速互连产品，产品主要部署于 AI 数据中心，并以硅光技术为重点能力。",
+            "source": "HKEX Prospectus / Summary and Business sections"
+          },
+          "timeline": {
+            "firstFilingDate": "2026-05-07（HKEX app_2026_sehk_e.json 首次 posting）",
+            "csrcReceivedDate": "2025-11-04（向证监会提交境外上市备案）",
+            "csrcFilingApprovedDate": "2026-06-01（证监会备案通知书完成）",
+            "hearingDate": "2026-06-11（HKEX applisted_sehk_e.json 最新 posting，PHIP/聆讯后资料集阶段）",
+            "prospectusDate": "2026-06-18",
+            "allotmentResultDate": "2026-06-26",
+            "listingDate": "2026-06-29"
+          },
+          "ipo": {
+            "currency": "HKD",
+            "offerPrice": 114.0,
+            "sharesOffered": 13431500,
+            "hongKongOfferShares": 1343150,
+            "internationalOfferShares": 12088350,
+            "grossProceeds": 1531190000,
+            "netProceeds": 1415320000,
+            "marketCapAtListing": 10207793130,
+            "issuedSharesUponListing": 89542045,
+            "overAllocatedShares": 2014700,
+            "publicOfferOversubscription": 1296.89,
+            "internationalOfferOversubscription": 15.51,
+            "publicOfferApplications": 185373,
+            "successfulPublicOfferApplications": 23975,
+            "clawback": "未触发回拨；香港公开发售最终 1,343,150 股，占全球发售 10.00%。",
+            "overAllotment": "国际发售超额分配 2,014,700 股，可由超额配股权或二级市场购买等方式补足。",
+            "cornerstone": [
+              "JSC International Investment Fund SPC (for and on behalf of Jingxin SP)",
+              "Winwin Technology Investment Co., Limited",
+              "Kingsoft Cloud Network Corporation Limited",
+              "UBS Asset Management (Singapore) Ltd.",
+              "Perseverance Asset Management International (Singapore) Pte. Ltd.",
+              "E Fund"
+            ],
+            "cornerstoneTotalShares": 6696150,
+            "cornerstonePctOfOffer": 49.85,
+            "cornerstoneDetails": "基石投资人合计获配 6,696,150 股，占全球发售股份约 49.85%，占发行后总股本约 7.48%。"
+          },
+          "marketPerformance": {
+            "offerPrice": 114.0,
+            "openPrice": null,
+            "firstDayClose": null,
+            "openChangePctVsOffer": null,
+            "firstDayCloseChangePctVsOffer": null,
+            "latestPrice": null,
+            "latestPriceNote": "待开盘/收盘后官方行情源复核",
+            "priceDataStatus": "pendingOfficialMarketDataReview"
+          },
+          "intermediaries": {
+            "sponsors": ["Huatai Financial Holdings (Hong Kong) Limited"],
+            "overallCoordinators": ["Huatai Financial Holdings (Hong Kong) Limited"],
+            "globalCoordinators": ["Huatai Financial Holdings (Hong Kong) Limited"],
+            "bookrunners": ["Huatai Financial Holdings (Hong Kong) Limited"],
+            "leadManagers": ["Huatai Financial Holdings (Hong Kong) Limited"],
+            "companyLegalAdvisersHKUS": ["Paul Hastings (Hong Kong) LLP"],
+            "companyLegalAdvisersPRC": ["Grandall Law Firm (Nanjing)"],
+            "underwritersLegalAdvisers": ["Latham & Watkins LLP", "Jingtian & Gongcheng"],
+            "auditors": ["Ernst & Young"],
+            "industryConsultant": ["Frost & Sullivan (Beijing) Inc., Shanghai Branch Co."],
+            "complianceAdvisor": ["Gram Capital Limited"]
+          },
+          "links": [
+            "HKEX Newly Listed Securities",
+            "HKEX New Listing Information",
+            "Crealights Prospectus English",
+            "Crealights Allotment Results English",
+            "HKEX AP yearly archive",
+            "HKEX AP listed archive"
+          ]
+        },
+        {
+          "id": "hkex-listing-02672-20260629",
+          "section": "港股新挂牌",
+          "type": "今日新上市",
+          "status": "今日挂牌",
+          "eventType": "hkexIpoListing",
+          "countInMetrics": true,
+          "company": {
+            "zh": "白鸽在线（厦门）数字科技股份有限公司",
+            "en": "Baige Online Digital Technology Co., Ltd.",
+            "display": "白鸽在线（厦门）数字科技股份有限公司 / Baige Online Digital Technology Co., Ltd.（02672）",
+            "ticker": "02672",
+            "exchange": "HKEX",
+            "board": "Main Board",
+            "listingStructure": "H 股（中国境内股份有限公司）"
+          },
+          "business": {
+            "sector": "保险科技 / 互联网保险中介",
+            "subIndustry": "场景化保险交易服务、精准营销、数字化解决方案及 TPA 服务",
+            "summary": "公司为保险科技公司，主要向场景化合作伙伴和保险公司提供技术赋能的保险中介服务，收入来自保险交易服务、精准营销和数字化解决方案及第三方管理服务。",
+            "source": "HKEX Prospectus / Summary and Business sections"
+          },
+          "timeline": {
+            "firstFilingDate": "2026-03-18（HKEX app_2026_sehk_e.json 首次 posting）",
+            "csrcReceivedDate": "2025-03-04（向证监会提交备案；2025-03-13 受理）",
+            "csrcFilingApprovedDate": "2025-11-28（证监会备案通知书完成）",
+            "hearingDate": "2026-06-16（HKEX applisted_sehk_e.json 最新 posting，PHIP/聆讯后资料集阶段）",
+            "prospectusDate": "2026-06-18",
+            "allotmentResultDate": "2026-06-26",
+            "listingDate": "2026-06-29"
+          },
+          "ipo": {
+            "currency": "HKD",
+            "offerPrice": 15.6,
+            "sharesOffered": 33344400,
+            "hongKongOfferShares": 3334600,
+            "internationalOfferShares": 30009800,
+            "grossProceeds": 520172640,
+            "netProceeds": 465790457,
+            "marketCapAtListing": 5001681859,
+            "issuedSharesUponListing": 320620632,
+            "publicOfferOversubscription": 242.05,
+            "internationalOfferOversubscription": 2.44,
+            "publicOfferApplications": 44599,
+            "successfulPublicOfferApplications": 8936,
+            "clawback": "未触发回拨；香港公开发售最终 3,334,600 股，占全球发售 10.00%。",
+            "overAllotment": "国际发售无超额分配；超额配股权不会获行使并于上市时失效。",
+            "cornerstone": ["GLY New Mobility", "Mr. Ke"],
+            "cornerstoneTotalShares": 1282000,
+            "cornerstonePctOfOffer": 3.85,
+            "cornerstoneDetails": "两名基石投资人合计获配 1,282,000 股，占全球发售股份约 3.85%，占发行后总股本约 0.40%。"
+          },
+          "marketPerformance": {
+            "offerPrice": 15.6,
+            "openPrice": null,
+            "firstDayClose": null,
+            "openChangePctVsOffer": null,
+            "firstDayCloseChangePctVsOffer": null,
+            "latestPrice": null,
+            "latestPriceNote": "待开盘/收盘后官方行情源复核",
+            "priceDataStatus": "pendingOfficialMarketDataReview"
+          },
+          "intermediaries": {
+            "sponsors": ["CMBC International Capital Limited", "BOCI Asia Limited"],
+            "overallCoordinators": ["CMBC Securities Company Limited", "BOCI Asia Limited", "Huafu International Securities Limited"],
+            "globalCoordinators": ["CMBC Securities Company Limited", "BOCI Asia Limited", "Huafu International Securities Limited"],
+            "bookrunners": ["CMBC Securities Company Limited", "BOCI Asia Limited", "Huafu International Securities Limited", "ICBC International Securities Limited", "ABCI Capital Limited", "CMB International Capital Limited", "SPDB International Capital Limited", "Futu Securities International (Hong Kong) Limited", "Tiger Brokers (HK) Global Limited", "Fortune (HK) Securities Limited", "uSmart Securities Limited", "Hua Liang Securities Limited", "Harmonia Capital Limited", "Guoyuan Securities Brokerage (Hong Kong) Limited"],
+            "leadManagers": ["CMBC Securities Company Limited", "BOCI Asia Limited", "Huafu International Securities Limited", "ABCI Securities Company Limited", "CMB International Capital Limited", "SPDB International Capital Limited", "Futu Securities International (Hong Kong) Limited", "Tiger Brokers (HK) Global Limited", "Zircon Securities (HK) Limited"],
+            "companyLegalAdvisersHKUS": ["Zhong Lun Law Firm LLP"],
+            "companyLegalAdvisersPRC": ["Zhong Lun Law Firm"],
+            "underwritersLegalAdvisers": ["Linklaters", "Jingtian & Gongcheng"],
+            "auditors": ["RSM Hong Kong"],
+            "industryConsultant": ["China Insights Industry Consultancy Limited"]
+          },
+          "links": [
+            "HKEX Newly Listed Securities",
+            "HKEX New Listing Information",
+            "Baige Prospectus English",
+            "Baige Allotment Results English",
+            "HKEX AP yearly archive",
+            "HKEX AP listed archive"
+          ]
+        },
+        {
+          "id": "hkex-ap-phip-20260629",
+          "section": "港股递表/聆讯",
+          "type": "AP / PHIP 更新",
+          "status": "有新增 AP",
+          "eventType": "hkexApPhip",
+          "countInMetrics": true,
+          "company": {
+            "zh": "HKEX AP/PHIP 官方文件更新",
+            "en": "HKEX AP/PHIP official filing updates",
+            "display": "HKEX AP/PHIP 官方文件更新（2026-06-29）",
+            "exchange": "HKEX",
+            "board": "Main Board"
+          },
+          "business": {
+            "sector": "新上市申请文件",
+            "summary": "HKEX AP-only JSON 按 29/06/2026 文档日期筛出 Shengwei Times Technology Co., Ltd. 1 家 NEW AP；AP+PHIP JSON 同日 PHIP 0 家。"
+          },
+          "metrics": {
+            "apNewCount": 1,
+            "phipCount": 0
+          },
+          "apApplications": [
+            {
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "盛威时代科技股份有限公司",
+              "nameEn": "Shengwei Times Technology Co., Ltd.",
+              "filingDate": "2026-06-29",
+              "structure": "H 股 / 中国境内股份有限公司",
+              "sector": "出行服务 / 网约车 / 公路客运数字化",
+              "sponsors": "ICBC International Capital Limited",
+              "businessSummary": "公司为中国综合出行服务提供商，主要从事网约车服务、公路客运服务，以及相关行业数字化服务；截至 2026-04-30 持有 207 个网约车经营许可证。",
+              "prospectusLink": "Shengwei Application Proof English"
+            }
+          ],
+          "links": [
+            "HKEX AP structured JSON",
+            "HKEX AP/PHIP structured JSON",
+            "Shengwei Application Proof English",
+            "Shengwei OC Announcement English"
+          ]
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "HKEX AP yearly archive": "https://www1.hkexnews.hk/ncms/json/eds/app_2026_sehk_e.json",
+    "HKEX AP listed archive": "https://www1.hkexnews.hk/ncms/json/eds/applisted_sehk_e.json",
+    "CSRC Overseas Filing Search": "https://www.csrc.gov.cn/guestweb4/s",
+    "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "SEC EDGAR daily-index 2026 QTR2": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR2/",
+    "SEC EDGAR Search": "https://www.sec.gov/edgar/search/",
+    "Crealights Prospectus English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0618/2026061800079.pdf",
+    "Crealights Allotment Results English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0626/2026062602599.pdf",
+    "Baige Prospectus English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0618/2026061800045.pdf",
+    "Baige Allotment Results English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0626/2026062602363.pdf",
+    "Shengwei Application Proof English": "https://www1.hkexnews.hk/app/sehk/2026/108690/documents/sehk26062900564.pdf",
+    "Shengwei OC Announcement English": "https://www1.hkexnews.hk/app/sehk/2026/108690/documents/sehk26062900636.pdf"
+  }
+}
