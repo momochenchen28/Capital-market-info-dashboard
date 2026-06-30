@@ -1,0 +1,388 @@
+{
+  "dailyReports": {
+    "2026-06-30": {
+      "date": "2026-06-30",
+      "reportType": "briefing",
+      "title": "资本市场快报",
+      "subtitle": "港股正常交易日；TH MEDICAL-B、JIANGXI BIO、LAIFUAL、XUNLONG SCITECH 挂牌，COREE 递交 AP。",
+      "statusNote": "数据截至 2026-06-30 09:30 早盘官方源回扫。2026-06-30 为港股正常交易日；HKEX Newly Listed Securities 列示 30/06/2026* 公司类 IPO 新挂牌 4 家：TH MEDICAL-B（02697）、LAIFUAL（03952）、XUNLONG SCITECH（06715）、JIANGXI BIO（06915）。FAMEGLOW（03774）为 GEM 转主板，TASTY CON RTS、CH NETCOMTECH、债券及人民币柜台等非 IPO 新挂牌不计入 hkexNewListings。HKEX AP-only JSON uDate=30/06/2026、app.length=408，按 30/06/2026 文档日期命中 NEW AP 1 家：COREE Company Limited；HKEX AP+PHIP JSON uDate=30/06/2026、app.length=17，按 30/06/2026 文档日期命中 PHIP 0 家。证监会境外上市类许可反馈页最新为 2026-06-26 补充材料公示；本自然日未见单家公司新增《境外发行上市备案通知书》，csrcCount=0。SEC EDGAR 2026/QTR2 daily-index 目录最新索引仍至 2026-06-26，未见 20260629/20260630 index；QTR3 目录尚不可用，usChinaIpoCount=0。",
+      "archiveNotice": "本文件由 2026-06-30 09:30 早盘流程创建；新挂牌公司固定发行信息来自 HKEX 新挂牌证券页、新上市资料页、配发结果公告 PDF、HKEX AP/listed archive JSON。开盘价、收盘价、涨跌幅等待盘中或收盘后官方行情源复核。",
+      "observations": [
+        "港股新挂牌：HKEX Newly Listed Securities 显示 2026-06-30 公司类 IPO 新挂牌 4 家：TH MEDICAL-B（02697）、JIANGXI BIO（06915）、LAIFUAL（03952）、XUNLONG SCITECH（06715）。",
+        "固定发行信息：4 家新挂牌公司的发行价、发售股份数、公开发售/国际配售认购情况、基石投资人、主要中介角色和上市时间线已从 HKEX 配发结果公告、新上市资料页及 archive JSON 补齐；交易进程字段暂不填开盘/收盘。",
+        "港股递表/聆讯：HKEX AP-only JSON 按 30/06/2026 文档日期筛出 COREE Company Limited NEW AP 1 家；AP+PHIP JSON 同日 PHIP 0 家。",
+        "自然日回扫：2026-06-29 早盘后新增 AP/PHIP 已单独回写 2026-06-29.json，未并入今日文件。",
+        "证监会备案：本自然日未见单家公司新增备案通知书；补充材料公示只作为监管更新展示，不计入 csrcCount。",
+        "美股中概 IPO：SEC EDGAR 2026/QTR2 daily-index 未见 20260629/20260630 索引文件，QTR3 目录尚不可用，本轮 usChinaIpoCount=0。"
+      ],
+      "metrics": {
+        "hkexNewListings": 4,
+        "apNewCount": 1,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "officialSourceChecks": [
+        {
+          "source": "HKEX Newly Listed Securities",
+          "dateRange": "2026-06-30",
+          "result": "公司类 IPO 新挂牌 4 家：TH MEDICAL-B（02697）、LAIFUAL（03952）、XUNLONG SCITECH（06715）、JIANGXI BIO（06915）；FAMEGLOW 转板、供股权、并股、债券及人民币柜台项目未计入。"
+        },
+        {
+          "source": "HKEX New Listing Information / Allotment Results PDFs",
+          "dateRange": "2026-06-29 至 2026-06-30",
+          "result": "4 家新挂牌公司的配发结果公告 PDF 均可读取；发行价、发售股份、认购倍数、基石投资人和主要中介角色已入库。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-06-30",
+          "result": "AP-only JSON uDate=30/06/2026、app.length=408；AP+PHIP JSON uDate=30/06/2026、app.length=17。按 30/06/2026 文档日期筛选：NEW AP=1（COREE Company Limited），PHIP=0。"
+        },
+        {
+          "source": "HKEX AP yearly/listed archive JSON",
+          "dateRange": "2026-06-30",
+          "result": "app_2026_sehk_e.json 与 applisted_sehk_e.json 用于补齐 4 家新股的首次 posting 与上市/聆讯资料 posting 日期；COREE AP 由 active AP JSON 与多文件目录确认。"
+        },
+        {
+          "source": "CSRC overseas listing supplement page / filing notice check",
+          "dateRange": "2026-06-30",
+          "result": "境外上市类许可反馈页最新为 2026-06-26 补充材料公示；未见 2026-06-30 单家公司新增《境外发行上市备案通知书》，csrcCount=0。"
+        },
+        {
+          "source": "SEC EDGAR official daily-index directory",
+          "dateRange": "2026-06-30",
+          "result": "2026/QTR2 目录仅见 20260626 及以前索引，未见 20260629/20260630；QTR3 目录尚不可用，usChinaIpoCount=0。"
+        }
+      ],
+      "deals": [
+        {
+          "id": "hkex-listing-02697-20260630",
+          "section": "港股新挂牌",
+          "type": "今日新上市",
+          "status": "今日挂牌",
+          "eventType": "hkexIpoListing",
+          "countInMetrics": true,
+          "company": {
+            "zh": "待官方中文名复核",
+            "en": "Guangdong True Health Medical Technology Development Co., Ltd.",
+            "display": "Guangdong True Health Medical Technology Development Co., Ltd.（02697 / TH MEDICAL-B）",
+            "ticker": "02697",
+            "exchange": "HKEX",
+            "board": "Main Board · Chapter 18A",
+            "listingStructure": "H股 / 生物科技-B"
+          },
+          "business": {
+            "sector": "医疗科技 / 生物科技-B",
+            "summary": "18A 生物科技/医疗科技发行人；本轮早盘固定发行信息来自配发结果公告，业务细分待招股书正文进一步复核。"
+          },
+          "timeline": {
+            "firstFilingDate": "2026-05-31（HKEX app_2026_sehk_e.json 首次 Application Proof posting）",
+            "hearingDate": "2026-06-12（HKEX applisted_sehk_e.json listed posting）",
+            "prospectusDate": "2026-06-22",
+            "allotmentResultDate": "2026-06-29",
+            "listingDate": "2026-06-30"
+          },
+          "ipo": {
+            "currency": "HKD",
+            "offerPrice": 126.2,
+            "sharesOffered": 3564700,
+            "hongKongOfferShares": 356480,
+            "internationalOfferShares": 3208220,
+            "grossProceeds": 449900000,
+            "netProceeds": 384000000,
+            "issuedSharesUponListing": 35647003,
+            "overAllocatedShares": 0,
+            "publicOfferOversubscription": 1790.4,
+            "internationalOfferOversubscription": 2.2,
+            "internationalPlacees": 107,
+            "publicOfferApplications": 128208,
+            "successfulPublicOfferApplications": 15453,
+            "clawback": "未回拨；香港公开发售最终 356,480 股，占全球发售约 10.00%。",
+            "overAllotment": "国际发售无超额分配；配发公告披露上市后不会进行稳定价格行动。",
+            "cornerstone": [],
+            "cornerstoneDetails": "配发结果公告未列示基石投资人表。"
+          },
+          "marketPerformance": {
+            "offerPrice": 126.2,
+            "openPrice": null,
+            "firstDayClose": null,
+            "latestPriceNote": "待开盘/收盘后官方行情源复核",
+            "priceDataStatus": "pendingOfficialMarketDataReview"
+          },
+          "intermediaries": {
+            "principalRoleLabels": ["Joint Sponsors", "Overall Coordinators", "Joint Global Coordinators", "Joint Bookrunners", "Joint Lead Managers"],
+            "stabilizingManager": ["China International Capital Corporation Hong Kong Securities Limited"],
+            "sourceNote": "配发结果公告文本可抽取角色标签和稳定价格经办人；页眉机构名称部分需后续用招股书正文/图片层复核。"
+          },
+          "links": ["HKEX Newly Listed Securities", "HKEX New Listing Information", "TH Medical Allotment Results English", "HKEX AP yearly archive", "HKEX AP listed archive"]
+        },
+        {
+          "id": "hkex-listing-06915-20260630",
+          "section": "港股新挂牌",
+          "type": "今日新上市",
+          "status": "今日挂牌",
+          "eventType": "hkexIpoListing",
+          "countInMetrics": true,
+          "company": {
+            "zh": "江西生物制品研究所股份有限公司",
+            "en": "Jiangxi Institute of Biological Products Inc.",
+            "display": "江西生物制品研究所股份有限公司 / Jiangxi Institute of Biological Products Inc.（06915）",
+            "ticker": "06915",
+            "exchange": "HKEX",
+            "board": "Main Board",
+            "listingStructure": "H股"
+          },
+          "business": {
+            "sector": "生物制品 / 疫苗及相关制品",
+            "summary": "生物制品发行人；早盘固定发行信息来自配发结果公告，业务细分待招股书正文进一步复核。"
+          },
+          "timeline": {
+            "firstFilingDate": "2026-05-04（HKEX app_2026_sehk_e.json 首次 posting）",
+            "hearingDate": "2026-06-07（HKEX applisted_sehk_e.json listed posting）",
+            "prospectusDate": "2026-06-22",
+            "allotmentResultDate": "2026-06-29",
+            "listingDate": "2026-06-30"
+          },
+          "ipo": {
+            "currency": "HKD",
+            "offerPrice": 11.2,
+            "sharesOffered": 36234500,
+            "hongKongOfferShares": 3623500,
+            "internationalOfferShares": 32611000,
+            "grossProceeds": 405830000,
+            "netProceeds": 338800000,
+            "issuedSharesUponListing": 308377319,
+            "overAllocatedShares": 5435000,
+            "publicOfferOversubscription": 476.56,
+            "internationalOfferOversubscription": 4.25,
+            "internationalPlacees": 63,
+            "publicOfferApplications": 78433,
+            "successfulPublicOfferApplications": 5152,
+            "clawback": "未触发回拨；香港公开发售最终 3,623,500 股，占全球发售 10%。",
+            "overAllotment": "国际发售超额分配 5,435,000 股，可由超额配股权、二级市场购买或递延交付安排覆盖。",
+            "cornerstone": ["Wealth Strategy Holding Limited"],
+            "cornerstoneTotalShares": 4464000,
+            "cornerstonePctOfOffer": 12.32,
+            "cornerstoneDetails": "Wealth Strategy Holding Limited 获配 4,464,000 股，占全球发售约 12.32%，占发行后总股本约 1.45%。"
+          },
+          "marketPerformance": {
+            "offerPrice": 11.2,
+            "openPrice": null,
+            "firstDayClose": null,
+            "latestPriceNote": "待开盘/收盘后官方行情源复核",
+            "priceDataStatus": "pendingOfficialMarketDataReview"
+          },
+          "intermediaries": {
+            "principalRoleLabels": ["Joint Sponsors", "Sponsor-Overall Coordinators", "Joint Overall Coordinators", "Joint Global Coordinators", "Joint Bookrunners", "Joint Lead Managers"],
+            "stabilizingManager": ["China International Capital Corporation Hong Kong Securities Limited"],
+            "sourceNote": "配发结果公告文本可抽取角色标签和稳定价格经办人；页眉机构名称部分需后续用招股书正文/图片层复核。"
+          },
+          "links": ["HKEX Newly Listed Securities", "HKEX New Listing Information", "Jiangxi Bio Allotment Results English", "HKEX AP yearly archive", "HKEX AP listed archive"]
+        },
+        {
+          "id": "hkex-listing-03952-20260630",
+          "section": "港股新挂牌",
+          "type": "今日新上市",
+          "status": "今日挂牌",
+          "eventType": "hkexIpoListing",
+          "countInMetrics": true,
+          "company": {
+            "zh": "待官方中文名复核",
+            "en": "Zhejiang Laifual Drive Co., Ltd.",
+            "display": "Zhejiang Laifual Drive Co., Ltd.（03952 / LAIFUAL）",
+            "ticker": "03952",
+            "exchange": "HKEX",
+            "board": "Main Board",
+            "listingStructure": "H股"
+          },
+          "business": {
+            "sector": "精密传动 / 谐波减速器",
+            "summary": "精密传动部件发行人，名称显示为 Laifual Drive；早盘固定发行信息来自配发结果公告，业务细分待招股书正文进一步复核。"
+          },
+          "timeline": {
+            "firstFilingDate": "2026-05-29（HKEX app_2026_sehk_e.json 首次 posting）",
+            "hearingDate": "2026-06-14（HKEX applisted_sehk_e.json listed posting）",
+            "prospectusDate": "2026-06-22",
+            "allotmentResultDate": "2026-06-29",
+            "listingDate": "2026-06-30"
+          },
+          "ipo": {
+            "currency": "HKD",
+            "offerPrice": 85.5,
+            "sharesOffered": 13441900,
+            "hongKongOfferShares": 2688400,
+            "internationalOfferShares": 10753500,
+            "grossProceeds": 1149300000,
+            "netProceeds": 1073100000,
+            "issuedSharesUponListing": 103398787,
+            "overAllocatedShares": 2016200,
+            "publicOfferOversubscription": 4571.99,
+            "internationalOfferOversubscription": 7.89,
+            "internationalPlacees": 93,
+            "publicOfferApplications": 182737,
+            "successfulPublicOfferApplications": 26884,
+            "clawback": "触发回拨；香港公开发售由 672,100 股增至 2,688,400 股，占全球发售 20%。",
+            "overAllotment": "国际发售超额分配 2,016,200 股。",
+            "cornerstone": [
+              "OAKTREE CAPITAL MANAGEMENT, L.P.",
+              "Alphahill Capital Limited",
+              "HARVEST GLOBAL INVESTMENTS LIMITED",
+              "CDH Global Frontier Ventures Limited",
+              "E Fund Management Co., Ltd / E Fund Management (Hong Kong) Co., Limited",
+              "Eurus Holdings SPC acting for and on behalf of OAAM Diversified Opportunities IV S.P.",
+              "LBC HK Opportunity Fund Limited",
+              "Dream'ee (Hong Kong) Open-ended Fund Company",
+              "Factorial Master Fund",
+              "Oasis Investments II Master Fund Ltd."
+            ],
+            "cornerstoneTotalShares": 5040000,
+            "cornerstonePctOfOffer": 37.52,
+            "cornerstoneDetails": "10 名基石投资人合计获配 5,040,000 股，占全球发售约 37.52%，占发行后总股本约 4.90%。"
+          },
+          "marketPerformance": {
+            "offerPrice": 85.5,
+            "openPrice": null,
+            "firstDayClose": null,
+            "latestPriceNote": "待开盘/收盘后官方行情源复核",
+            "priceDataStatus": "pendingOfficialMarketDataReview"
+          },
+          "intermediaries": {
+            "sponsors": ["CMB International Securities Limited"],
+            "overallCoordinators": ["CMB International Securities Limited"],
+            "globalCoordinators": ["CMB International Securities Limited"],
+            "bookrunners": ["CMB International Securities Limited"],
+            "leadManagers": ["CMB International Securities Limited"],
+            "stabilizingManager": ["CMB International Securities Limited"]
+          },
+          "links": ["HKEX Newly Listed Securities", "HKEX New Listing Information", "Laifual Allotment Results English", "HKEX AP yearly archive", "HKEX AP listed archive"]
+        },
+        {
+          "id": "hkex-listing-06715-20260630",
+          "section": "港股新挂牌",
+          "type": "今日新上市",
+          "status": "今日挂牌",
+          "eventType": "hkexIpoListing",
+          "countInMetrics": true,
+          "company": {
+            "zh": "杭州千岛湖鲟龙科技股份有限公司",
+            "en": "Hangzhou Qiandaohu Xunlong Sci-tech Co., Ltd.",
+            "display": "杭州千岛湖鲟龙科技股份有限公司 / Hangzhou Qiandaohu Xunlong Sci-tech Co., Ltd.（06715）",
+            "ticker": "06715",
+            "exchange": "HKEX",
+            "board": "Main Board",
+            "listingStructure": "H股"
+          },
+          "business": {
+            "sector": "水产养殖 / 鲟鱼及鱼子酱",
+            "summary": "鲟鱼养殖及鱼子酱相关发行人；早盘固定发行信息来自配发结果公告，业务细分待招股书正文进一步复核。"
+          },
+          "timeline": {
+            "firstFilingDate": "2026-05-04（HKEX app_2026_sehk_e.json 首次 posting）",
+            "hearingDate": "2026-06-14（HKEX applisted_sehk_e.json listed posting）",
+            "prospectusDate": "2026-06-22",
+            "allotmentResultDate": "2026-06-29",
+            "listingDate": "2026-06-30"
+          },
+          "ipo": {
+            "currency": "HKD",
+            "offerPrice": 75.5,
+            "sharesOffered": 16332900,
+            "hongKongOfferShares": 1633300,
+            "internationalOfferShares": 14699600,
+            "grossProceeds": 1233100000,
+            "netProceeds": 1146300000,
+            "issuedSharesUponListing": 108885600,
+            "overAllocatedShares": 2449900,
+            "publicOfferOversubscription": 2134.81,
+            "internationalOfferOversubscription": 19.87,
+            "internationalPlacees": 145,
+            "publicOfferApplications": 179723,
+            "successfulPublicOfferApplications": 16265,
+            "clawback": "未触发回拨；香港公开发售最终 1,633,300 股，占全球发售 10.00%。",
+            "overAllotment": "国际发售超额分配 2,449,900 股。",
+            "cornerstone": [
+              "BlackRock Funds",
+              "Barings",
+              "Taikang Life",
+              "Shanghai Greenwoods and GTINV (in connection with Greenwoods OTC Swaps)",
+              "Dacheng Investors",
+              "ICBC Wealth",
+              "Nova Kerry Inc.",
+              "Mirae Asset Securities HK"
+            ],
+            "cornerstoneTotalShares": 8146100,
+            "cornerstonePctOfOffer": 49.88,
+            "cornerstoneDetails": "8 组基石投资人合计获配 8,146,100 股，占全球发售约 49.88%，占发行后总股本约 7.48%。"
+          },
+          "marketPerformance": {
+            "offerPrice": 75.5,
+            "openPrice": null,
+            "firstDayClose": null,
+            "latestPriceNote": "待开盘/收盘后官方行情源复核",
+            "priceDataStatus": "pendingOfficialMarketDataReview"
+          },
+          "intermediaries": {
+            "principalRoleLabels": ["Joint Sponsors", "Sponsor-Overall Coordinators", "Joint Global Coordinators", "Joint Bookrunners", "Joint Lead Managers", "Overall Coordinators"],
+            "stabilizingManager": ["CLSA Limited"],
+            "sourceNote": "配发结果公告文本可抽取角色标签和稳定价格经办人；页眉机构名称部分需后续用招股书正文/图片层复核。"
+          },
+          "links": ["HKEX Newly Listed Securities", "HKEX New Listing Information", "Xunlong Allotment Results English", "HKEX AP yearly archive", "HKEX AP listed archive"]
+        },
+        {
+          "id": "hkex-ap-phip-20260630",
+          "section": "港股递表/聆讯",
+          "type": "AP / PHIP 更新",
+          "status": "1家递表 / 无新增聆讯",
+          "eventType": "hkexApPhip",
+          "countInMetrics": true,
+          "company": {
+            "zh": "HKEX AP/PHIP 官方文件更新",
+            "en": "HKEX AP/PHIP official filing updates",
+            "display": "HKEX AP/PHIP 官方文件更新（2026-06-30）",
+            "exchange": "HKEX",
+            "board": "Main Board"
+          },
+          "business": {
+            "sector": "新上市申请文件",
+            "summary": "HKEX AP-only JSON 按 30/06/2026 文档日期筛出 COREE Company Limited 1 家 NEW AP；AP+PHIP JSON 同日 PHIP 0 家。"
+          },
+          "metrics": {
+            "apNewCount": 1,
+            "phipCount": 0
+          },
+          "apApplications": [
+            {
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "待官方中文名复核",
+              "nameEn": "COREE Company Limited",
+              "filingDate": "2026-06-30",
+              "structure": "待招股书复核",
+              "sector": "待招股书复核",
+              "sponsors": "待招股书复核",
+              "businessSummary": "HKEX 官方 AP JSON 与多文件目录确认 2026-06-30 首次递表；细分业务待招股书正文复核。",
+              "prospectusLink": "COREE Application Proof English"
+            }
+          ],
+          "links": ["HKEX AP structured JSON", "HKEX AP/PHIP structured JSON", "COREE Application Proof English", "COREE OC Announcement English"]
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "HKEX AP yearly archive": "https://www1.hkexnews.hk/ncms/json/eds/app_2026_sehk_e.json",
+    "HKEX AP listed archive": "https://www1.hkexnews.hk/ncms/json/eds/applisted_sehk_e.json",
+    "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "SEC EDGAR daily-index 2026 QTR2": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR2/",
+    "TH Medical Allotment Results English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062901959.pdf",
+    "Jiangxi Bio Allotment Results English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062902075.pdf",
+    "Laifual Allotment Results English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062902089.pdf",
+    "Xunlong Allotment Results English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062902679.pdf",
+    "COREE Application Proof English": "https://www1.hkexnews.hk/app/sehk/2026/108696/documents/sehk26063000536.pdf",
+    "COREE OC Announcement English": "https://www1.hkexnews.hk/app/sehk/2026/108696/documents/sehk26063000538.pdf"
+  }
+}
