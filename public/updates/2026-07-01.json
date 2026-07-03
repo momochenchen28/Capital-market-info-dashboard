@@ -1,0 +1,102 @@
+{
+  "dailyReports": {
+    "2026-07-01": {
+      "date": "2026-07-01",
+      "reportType": "briefing",
+      "title": "资本市场快报",
+      "subtitle": "香港公众假期；SEC 录得 GreenVector Holdings 424B4，HKEX AP/PHIP 与 CSRC 未见新增。",
+      "statusNote": "数据截至 2026-07-03 09:30 早盘官方源回扫。2026-07-01 为香港公众假期，HKEX Newly Listed Securities 未列示公司类 IPO 新挂牌；HKEX AP-only JSON uDate=03/07/2026、app.length=411，AP+PHIP JSON uDate=03/07/2026、app.length=16，按 01/07/2026 文档日期筛选 NEW AP=0、PHIP=0。证监会境外上市类页面在本自然日未见单家公司新增《境外发行上市备案通知书》，csrcCount=0。SEC EDGAR 2026/QTR3 official daily-index 已发布 20260701 索引；GreenVector Holdings Ltd 于当日索引出现 424B4，并有 EFFECT 记录，因此 usChinaIpoCount=1。",
+      "archiveNotice": "本文件由 2026-07-03 09:30 早盘流程回扫创建；因官方 SEC EDGAR 在 2026-07-01 自然日有更新，即使港股非交易日亦单独建档，未并入 2026-07-02。",
+      "observations": [
+        "交易日判断：2026-07-01 为香港公众假期，HKEX Newly Listed Securities 未见公司类 IPO 新挂牌记录。",
+        "港股递表/聆讯：HKEX AP-only 与 AP+PHIP structured JSON 按 01/07/2026 文档日期筛选均为 0；未创建空白公司卡。",
+        "证监会备案：境外上市类许可反馈和备案通知书列表未见本自然日单家公司新增备案通知书；补充材料公示不计入 csrcCount。",
+        "美股中概 IPO：SEC EDGAR 2026/QTR3 daily-index 录得 GreenVector Holdings Ltd 424B4；发行人为 Cayman holding company，经营主体为香港子公司 Laputa Eco-Construction Material Company Limited。"
+      ],
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 1
+      },
+      "officialSourceChecks": [
+        {
+          "source": "HKEX Newly Listed Securities",
+          "dateRange": "2026-07-01",
+          "result": "未见公司类 IPO 新挂牌；2026-07-01 为香港公众假期。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-07-01",
+          "result": "AP-only JSON uDate=03/07/2026、app.length=411；AP+PHIP JSON uDate=03/07/2026、app.length=16。按 01/07/2026 文档日期筛选：NEW AP=0，PHIP=0。"
+        },
+        {
+          "source": "CSRC overseas listing supplement page / filing notice check",
+          "dateRange": "2026-07-01",
+          "result": "未见 2026-07-01 单家公司新增《境外发行上市备案通知书》；补充材料公示不计入 csrcCount。"
+        },
+        {
+          "source": "SEC EDGAR official daily-index directory",
+          "dateRange": "2026-07-01",
+          "result": "2026/QTR3 目录存在 company/crawler/form/master.20260701.idx；GreenVector Holdings Ltd 424B4 与 EFFECT 记录已按官方 daily-index 命中。"
+        }
+      ],
+      "deals": [
+        {
+          "id": "sec-greenvector-20260701",
+          "section": "美股中概",
+          "type": "SEC IPO 文件更新",
+          "status": "424B4 / EFFECT",
+          "eventType": "secChinaIpoFiling",
+          "countInMetrics": true,
+          "company": {
+            "zh": "待官方中文名复核",
+            "en": "GreenVector Holdings Ltd",
+            "display": "GreenVector Holdings Ltd（CIK 2078037）",
+            "ticker": "待上市代码复核",
+            "exchange": "SEC EDGAR",
+            "board": "U.S. IPO registration",
+            "listingStructure": "Cayman holding company；香港经营子公司；424B4 未披露 VIE 结构"
+          },
+          "business": {
+            "sector": "环保建材 / 建筑材料",
+            "summary": "SEC 424B4 显示发行人为 Cayman holding company，主要经营主体为香港注册的 Laputa Eco-Construction Material Company Limited，经营地址位于香港九龙红磡 Harbour Centre；本轮作为香港经营主体赴美 IPO 文件更新计入 usChinaIpoCount。"
+          },
+          "sec": {
+            "cik": "0002078037",
+            "filingDate": "2026-07-01",
+            "forms": [
+              {
+                "form": "424B4",
+                "accessionPath": "edgar/data/2078037/0001493152-26-031463.txt"
+              },
+              {
+                "form": "EFFECT",
+                "accessionPath": "edgar/data/2078037/9999999995-26-002159.txt"
+              }
+            ],
+            "offering": "Company IPO of 2,000,000 Class A ordinary shares plus resale prospectus for 1,018,469 Class A ordinary shares by selling shareholders.",
+            "offerPrice": "US$1.00 per share",
+            "operatingSubsidiary": "Laputa Eco-Construction Material Company Limited（Hong Kong）",
+            "riskNote": "424B4 包含 Cayman holding company、香港/中国监管及跨境经营相关风险披露。"
+          },
+          "links": ["SEC GreenVector 424B4", "SEC GreenVector EFFECT", "SEC EDGAR daily-index 2026 QTR3"]
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "HKEX AP yearly archive": "https://www1.hkexnews.hk/ncms/json/eds/app_2026_sehk_e.json",
+    "HKEX AP listed archive": "https://www1.hkexnews.hk/ncms/json/eds/applisted_sehk_e.json",
+    "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "CSRC Overseas Filing Notice List": "https://www.csrc.gov.cn/csrc/c105984/common_list.shtml",
+    "SEC EDGAR daily-index 2026 QTR3": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/",
+    "SEC GreenVector 424B4": "https://www.sec.gov/Archives/edgar/data/2078037/0001493152-26-031463.txt",
+    "SEC GreenVector EFFECT": "https://www.sec.gov/Archives/edgar/data/2078037/9999999995-26-002159.txt"
+  }
+}
