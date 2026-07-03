@@ -1,0 +1,235 @@
+{
+  "dailyReports": {
+    "2026-07-02": {
+      "date": "2026-07-02",
+      "reportType": "briefing",
+      "title": "资本市场快报",
+      "subtitle": "港股正常交易日；ANKER（00668）挂牌，Leading Interconnect Semiconductor 递交 AP。",
+      "statusNote": "数据截至 2026-07-03 09:30 早盘官方源回扫。2026-07-02 为港股正常交易日；HKEX Newly Listed Securities 列示 ANKER（00668）公司类 IPO 新挂牌 1 家，ARTGO HOLDINGS（02974）为并股后交易安排未计入 hkexNewListings。HKEX AP-only JSON uDate=03/07/2026、app.length=411，按 02/07/2026 文档日期命中 NEW AP 1 家：Leading Interconnect Semiconductor Technology (Shenzhen) Co., Ltd.；HKEX AP+PHIP JSON uDate=03/07/2026、app.length=16，按同日筛选 PHIP=0。证监会本自然日未见单家公司新增《境外发行上市备案通知书》，csrcCount=0。SEC EDGAR 2026/QTR3 20260702 索引可用，抽查 F-1/F-1A 候选项未命中中国或香港经营主体 IPO，usChinaIpoCount=0。",
+      "archiveNotice": "本文件由 2026-07-03 09:30 早盘流程回扫创建；ANKER 固定发行信息来自 HKEX Newly Listed Securities、HKEX Title Search、新上市资料页、招股书、发售价公告与配发结果公告。开盘价、收盘价、涨跌幅等待盘中或收盘后官方行情源复核。",
+      "observations": [
+        "港股新挂牌：HKEX Newly Listed Securities 显示 ANKER（00668）于 2026-07-02 新挂牌；ARTGO HOLDINGS（02974）为 Share Consolidation，不计入公司类 IPO 新挂牌。",
+        "ANKER 固定发行信息已补齐：发行价 HK$99.32，全球发售 46,632,800 股 H 股，香港公开发售认购约 27.57 倍，国际发售认购约 10.24 倍，基石投资人合计获配 23,271,700 股。",
+        "港股递表/聆讯：HKEX AP-only structured JSON 按 02/07/2026 文档日期筛出 Leading Interconnect Semiconductor Technology (Shenzhen) Co., Ltd. NEW AP 1 家；AP+PHIP JSON 同日 PHIP 0 家。",
+        "证监会备案：本自然日未见单家公司新增备案通知书；补充材料公示和备案情况表不计入 csrcCount。",
+        "美股中概 IPO：SEC EDGAR 20260702 索引可用；Pulsenmore、SunScout、Ticketplus、Cumberland Farms 等 IPO 表格候选项未命中中国或香港经营主体。"
+      ],
+      "metrics": {
+        "hkexNewListings": 1,
+        "apNewCount": 1,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "officialSourceChecks": [
+        {
+          "source": "HKEX Newly Listed Securities",
+          "dateRange": "2026-07-02",
+          "result": "公司类 IPO 新挂牌 1 家：ANKER（00668）；ARTGO HOLDINGS（02974）为 Share Consolidation，未计入 hkexNewListings。"
+        },
+        {
+          "source": "HKEX New Listing Information / Title Search / Allotment Results PDFs",
+          "dateRange": "2026-06-03 至 2026-07-02",
+          "result": "ANKER 的 Application Proof、PHIP、招股书、发售价公告、配发结果公告和上市记录均由 HKEX 官方标题搜索及 archive JSON 确认；固定发行信息已入库。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-07-02",
+          "result": "AP-only JSON uDate=03/07/2026、app.length=411；AP+PHIP JSON uDate=03/07/2026、app.length=16。按 02/07/2026 文档日期筛选：NEW AP=1（Leading Interconnect Semiconductor Technology (Shenzhen) Co., Ltd.），PHIP=0。"
+        },
+        {
+          "source": "CSRC overseas listing supplement page / filing notice check",
+          "dateRange": "2026-07-02",
+          "result": "未见 2026-07-02 单家公司新增《境外发行上市备案通知书》；补充材料公示和备案情况表仅作监管更新展示，不计数。"
+        },
+        {
+          "source": "SEC EDGAR official daily-index directory",
+          "dateRange": "2026-07-02",
+          "result": "2026/QTR3 目录存在 20260702 索引；抽查 IPO/F-1/F-1A 候选项未命中中国或香港经营主体 IPO。"
+        }
+      ],
+      "deals": [
+        {
+          "id": "hkex-listing-00668-20260702",
+          "section": "港股新挂牌",
+          "type": "今日新上市",
+          "status": "今日挂牌",
+          "eventType": "hkexIpoListing",
+          "countInMetrics": true,
+          "company": {
+            "zh": "安克创新科技股份有限公司",
+            "en": "Anker Innovations Technology Co., Ltd.",
+            "display": "安克创新科技股份有限公司 / Anker Innovations Technology Co., Ltd.（00668 / ANKER）",
+            "ticker": "00668",
+            "exchange": "HKEX",
+            "board": "Main Board",
+            "listingStructure": "A+H；PRC joint stock company H-share listing；A 股已于深交所创业板上市（300866）"
+          },
+          "business": {
+            "sector": "消费电子 / 全球智能设备",
+            "summary": "招股书披露公司从事全球智能设备设计、开发与销售，核心产品线包括智能充电及储能、智能家居、智能音视频等，采用轻资产 fabless 模式，品牌包括 Anker、eufy、soundcore 以及 Anker SOLIX、eufyMake 等子品牌。"
+          },
+          "timeline": {
+            "firstFilingDate": "2026-06-03（Application Proof posting）",
+            "phipDate": "2026-06-14（Post Hearing Information Pack posting）",
+            "prospectusDate": "2026-06-23",
+            "offerPriceAnnouncementDate": "2026-06-28",
+            "allotmentResultDate": "2026-06-30",
+            "listingDate": "2026-07-02"
+          },
+          "ipo": {
+            "currency": "HKD",
+            "offerPrice": 99.32,
+            "sharesOffered": 46632800,
+            "hongKongOfferShares": 4663300,
+            "internationalOfferShares": 41969500,
+            "grossProceeds": 4631600000,
+            "netProceeds": 4522700000,
+            "listingExpenses": 108900000,
+            "issuedSharesUponListing": 582909162,
+            "overAllocatedShares": 6994900,
+            "publicOfferOversubscription": 27.57,
+            "internationalOfferOversubscription": 10.24,
+            "internationalPlacees": 137,
+            "publicOfferApplications": 36424,
+            "successfulPublicOfferApplications": 18453,
+            "clawback": "未回拨；香港公开发售最终 4,663,300 股，占全球发售 10.00%。",
+            "overAllotment": "国际发售超额分配 6,994,900 股；稳定价格经办人为 China International Capital Corporation Hong Kong Securities Limited。",
+            "cornerstone": [
+              "Schroder Investment Management (Singapore) Ltd and Schroder Investment Management (Hong Kong) Limited",
+              "Aspex Master Fund",
+              "Principal Asset Management Company (Asia) Limited",
+              "Greenwoods Asset Management Hong Kong Limited",
+              "Guotai Junan Investments (Hong Kong) Limited and Shanghai Greenwoods Asset Management Co., Ltd.",
+              "HACF, L.P.",
+              "UBS Asset Management (Singapore) Ltd.",
+              "Franklin Templeton Sealand Fund Management Co., Ltd.",
+              "Jane Street Asia Trading Limited",
+              "Taikang Life Insurance Co., Ltd.",
+              "WT Asset Management Limited",
+              "Value Partners Hong Kong Limited and Value Partners Limited"
+            ],
+            "cornerstoneTotalShares": 23271700,
+            "cornerstonePctOfOffer": 49.9,
+            "cornerstoneDetails": "12 组基石投资人合计获配 23,271,700 股，占全球发售约 49.90%，占发行后总股本约 3.99%。"
+          },
+          "marketPerformance": {
+            "offerPrice": 99.32,
+            "openPrice": null,
+            "firstDayClose": null,
+            "latestPriceNote": "待开盘/收盘后官方行情源复核",
+            "priceDataStatus": "pendingOfficialMarketDataReview"
+          },
+          "intermediaries": {
+            "sponsors": [
+              "China International Capital Corporation Hong Kong Securities Limited",
+              "Goldman Sachs (Asia) L.L.C.",
+              "J.P. Morgan Securities (Far East) Limited"
+            ],
+            "overallCoordinators": [
+              "China International Capital Corporation Hong Kong Securities Limited",
+              "Goldman Sachs (Asia) L.L.C.",
+              "J.P. Morgan Securities (Asia Pacific) Limited"
+            ],
+            "globalCoordinators": [
+              "China International Capital Corporation Hong Kong Securities Limited",
+              "Goldman Sachs (Asia) L.L.C.",
+              "J.P. Morgan Securities (Asia Pacific) Limited"
+            ],
+            "legalAdvisersCompany": [
+              "Davis Polk & Wardwell",
+              "Haiwen & Partners",
+              "Winson Partners and Legal Consultants",
+              "Shanze Partners PLLC",
+              "Addleshaw Goddard LLP",
+              "TMI Associates",
+              "Li & Partners",
+              "Jacobson Burton Kelley PLLC"
+            ],
+            "legalAdvisersSponsorsUnderwriters": ["Linklaters", "Commerce & Finance Law Offices"],
+            "reportingAccountants": ["KPMG"],
+            "industryConsultant": ["Frost & Sullivan (Beijing) Inc., Shanghai Branch Co."],
+            "complianceAdviser": ["Rainbow Capital (HK) Limited"],
+            "receivingBank": ["Industrial and Commercial Bank of China (Asia) Limited"],
+            "stabilizingManager": ["China International Capital Corporation Hong Kong Securities Limited"]
+          },
+          "links": [
+            "HKEX Newly Listed Securities",
+            "HKEX New Listing Information",
+            "HKEX Title Search",
+            "ANKER Prospectus English",
+            "ANKER Offer Price Announcement English",
+            "ANKER Allotment Results English",
+            "ANKER Application Proof English",
+            "ANKER PHIP English",
+            "ANKER OC Announcement English",
+            "HKEX AP listed archive"
+          ]
+        },
+        {
+          "id": "hkex-ap-phip-20260702",
+          "section": "港股递表/聆讯",
+          "type": "AP / PHIP 更新",
+          "status": "1家递表 / 无新增聆讯",
+          "eventType": "hkexApPhip",
+          "countInMetrics": true,
+          "company": {
+            "zh": "HKEX AP/PHIP 官方文件更新",
+            "en": "HKEX AP/PHIP official filing updates",
+            "display": "HKEX AP/PHIP 官方文件更新（2026-07-02）",
+            "exchange": "HKEX",
+            "board": "Main Board"
+          },
+          "business": {
+            "sector": "新上市申请文件",
+            "summary": "HKEX AP-only JSON 按 02/07/2026 文档日期筛出 Leading Interconnect Semiconductor Technology (Shenzhen) Co., Ltd. 1 家 NEW AP；AP+PHIP JSON 同日 PHIP 0 家。"
+          },
+          "metrics": {
+            "apNewCount": 1,
+            "phipCount": 0
+          },
+          "apApplications": [
+            {
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "待官方中文名复核",
+              "nameEn": "Leading Interconnect Semiconductor Technology (Shenzhen) Co., Ltd.",
+              "filingDate": "2026-07-02",
+              "structure": "待招股书复核",
+              "sector": "半导体互连 / 待招股书正文复核",
+              "sponsors": "待招股书复核",
+              "businessSummary": "HKEX 官方 AP JSON 与多文件目录确认 2026-07-02 首次递表；业务细分、股权结构和中介名单待招股书正文复核。",
+              "prospectusLink": "Leading Interconnect Application Proof English"
+            }
+          ],
+          "links": [
+            "HKEX AP structured JSON",
+            "HKEX AP/PHIP structured JSON",
+            "Leading Interconnect Application Proof English",
+            "Leading Interconnect OC Announcement English"
+          ]
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en",
+    "HKEX Title Search": "https://www1.hkexnews.hk/search/titlesearch.xhtml?lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "HKEX AP yearly archive": "https://www1.hkexnews.hk/ncms/json/eds/app_2026_sehk_e.json",
+    "HKEX AP listed archive": "https://www1.hkexnews.hk/ncms/json/eds/applisted_sehk_e.json",
+    "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "CSRC Overseas Filing Notice List": "https://www.csrc.gov.cn/csrc/c105984/common_list.shtml",
+    "SEC EDGAR daily-index 2026 QTR3": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/",
+    "ANKER Prospectus English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0623/2026062300037.pdf",
+    "ANKER Offer Price Announcement English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0628/2026062800011.pdf",
+    "ANKER Allotment Results English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0630/2026063003481.pdf",
+    "ANKER Application Proof English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0702/sehk26060302857.pdf",
+    "ANKER PHIP English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0702/sehk26061400100.pdf",
+    "ANKER OC Announcement English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0702/sehk26060302927.pdf",
+    "Leading Interconnect Application Proof English": "https://www1.hkexnews.hk/app/sehk/2026/108711/documents/sehk26070201322.pdf",
+    "Leading Interconnect OC Announcement English": "https://www1.hkexnews.hk/app/sehk/2026/108711/documents/sehk26070201340.pdf"
+  }
+}
