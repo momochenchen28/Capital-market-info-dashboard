@@ -1,0 +1,122 @@
+{
+  "generatedAt": "2026-07-06T09:30:00+08:00",
+  "dailyReports": {
+    "2026-07-05": {
+      "date": "2026-07-05",
+      "reportType": "official-update",
+      "title": "资本市场官方文件更新",
+      "subtitle": "非港股交易日；HKEX AP-only JSON 新增 2 家递表。",
+      "statusNote": "数据截至 2026-07-06 09:30 早盘官方源回扫。2026-07-05 为周日，非港股交易日；但 HKEX AP-only JSON uDate=06/07/2026、app.length=409，按 05/07/2026 文档日期命中 NEW AP 2 家：New Shicoh Motor Co., Ltd.、Shenzhen Forms Syntron Information Co., Ltd.。HKEX AP+PHIP JSON uDate=06/07/2026、app.length=16，按同日筛选 PHIP=0。证监会本自然日未见单家公司新增《境外发行上市备案通知书》，csrcCount=0；SEC EDGAR 2026/QTR3 目录未出现 20260705 daily-index，usChinaIpoCount=0。",
+      "archiveNotice": "本文件由 2026-07-06 09:30 回扫流程创建；周末官方文件按实际自然日单独归档。AP 与 PHIP 均纳入 apApplications[] 前端读取结构，并以 status/documentType 区分。无新增事件类别不创建假公司卡。",
+      "observations": [
+        "港股交易日判断：2026-07-05 为周日，非港股交易日；不生成交易日新挂牌快报，但官方文件系统仍需按自然日回扫。",
+        "HKEX AP/PHIP：HKEX AP-only structured JSON 按 05/07/2026 文档日期筛出 2 家 NEW AP；AP+PHIP JSON 同日 PHIP 0 家。",
+        "证监会备案：本自然日未见单家公司新增《境外发行上市备案通知书》；补充材料公示和备案情况表不计入 csrcCount。",
+        "SEC EDGAR：2026/QTR3 目录未见 20260705 daily-index；本轮不计美股中概 IPO 新增。"
+      ],
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 2,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "officialSourceChecks": [
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-07-05",
+          "result": "AP-only JSON uDate=06/07/2026、app.length=409；AP+PHIP JSON uDate=06/07/2026、app.length=16。按 05/07/2026 文档日期筛选：NEW AP=2（New Shicoh Motor Co., Ltd.；Shenzhen Forms Syntron Information Co., Ltd.），PHIP=0。"
+        },
+        {
+          "source": "CSRC overseas filing supplement page / filing notice check",
+          "dateRange": "2026-07-05",
+          "result": "未见 2026-07-05 单家公司新增《境外发行上市备案通知书》；补充材料公示和备案情况表仅作监管更新展示，不计数。"
+        },
+        {
+          "source": "SEC EDGAR official daily-index directory",
+          "dateRange": "2026-07-05",
+          "result": "2026/QTR3 目录未出现 20260705 daily-index；usChinaIpoCount=0。"
+        }
+      ],
+      "deals": [
+        {
+          "id": "hkex-ap-phip-20260705",
+          "section": "港股递表/聆讯",
+          "type": "AP / PHIP 更新",
+          "status": "2家递表 / 无新增聆讯",
+          "eventType": "hkexApPhip",
+          "countInMetrics": true,
+          "company": {
+            "zh": "HKEX AP/PHIP 官方文件更新",
+            "en": "HKEX AP/PHIP official filing updates",
+            "display": "HKEX AP/PHIP 官方文件更新（2026-07-05）",
+            "exchange": "HKEX",
+            "board": "Main Board"
+          },
+          "business": {
+            "sector": "新上市申请文件",
+            "summary": "HKEX AP-only JSON 按 05/07/2026 文档日期筛出新思考电机、深圳四方精创资讯 2 家 NEW AP；AP+PHIP JSON 同日 PHIP 0 家。"
+          },
+          "metrics": {
+            "apNewCount": 2,
+            "phipCount": 0
+          },
+          "apApplications": [
+            {
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "新思考電機股份有限公司",
+              "nameEn": "New Shicoh Motor Co., Ltd.",
+              "filingDate": "2026-07-05",
+              "structure": "境内股份有限公司 / 待招股书复核",
+              "sector": "电机及精密部件 / 待招股书复核",
+              "sponsors": "待招股书复核；OC 公告披露整体协调人为中金香港证券、华泰金融控股（香港）",
+              "businessSummary": "HKEX 官方中英文 AP JSON 确认 2026-07-05 首次递表；公司中文名来自 HKEX 中文 JSON，业务细分和保荐人名单待招股书正文复核。",
+              "prospectusLink": "New Shicoh Application Proof English"
+            },
+            {
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "深圳四方精創資訊股份有限公司",
+              "nameEn": "Shenzhen Forms Syntron Information Co., Ltd.",
+              "filingDate": "2026-07-05",
+              "structure": "境内股份有限公司 / 待招股书复核",
+              "sector": "金融科技 / 信息技术服务 / 待招股书复核",
+              "sponsors": "待招股书复核",
+              "businessSummary": "HKEX 官方中英文 AP JSON 确认 2026-07-05 首次递表；公司中文名来自 HKEX 中文 JSON，业务细分、上市架构和中介名单待招股书正文复核。",
+              "prospectusLink": "Forms Syntron Application Proof English"
+            }
+          ],
+          "links": [
+            "HKEX AP structured JSON",
+            "HKEX AP/PHIP structured JSON",
+            "HKEX AP structured JSON Chinese",
+            "New Shicoh Application Proof English",
+            "New Shicoh Application Proof Chinese",
+            "New Shicoh OC Announcement English",
+            "Forms Syntron Application Proof English",
+            "Forms Syntron Application Proof Chinese",
+            "Forms Syntron OC Announcement English"
+          ]
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "GovHK 2026 General Holidays": "https://www.gov.hk/en/about/abouthk/holiday/2026.htm",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "HKEX AP structured JSON Chinese": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_c.json",
+    "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "CSRC Overseas Filing Notice List": "https://www.csrc.gov.cn/csrc/c105984/common_list.shtml",
+    "SEC EDGAR daily-index 2026 QTR3": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/",
+    "New Shicoh Application Proof English": "https://www1.hkexnews.hk/app/sehk/2026/108726/documents/sehk26070500036.pdf",
+    "New Shicoh Application Proof Chinese": "https://www1.hkexnews.hk/app/sehk/2026/108726/documents/sehk26070500035_c.pdf",
+    "New Shicoh OC Announcement English": "https://www1.hkexnews.hk/app/sehk/2026/108726/documents/sehk26070500102.pdf",
+    "Forms Syntron Application Proof English": "https://www1.hkexnews.hk/app/sehk/2026/108727/documents/sehk26070500112.pdf",
+    "Forms Syntron Application Proof Chinese": "https://www1.hkexnews.hk/app/sehk/2026/108727/documents/sehk26070500111_c.pdf",
+    "Forms Syntron OC Announcement English": "https://www1.hkexnews.hk/app/sehk/2026/108727/documents/sehk26070500184.pdf"
+  }
+}
