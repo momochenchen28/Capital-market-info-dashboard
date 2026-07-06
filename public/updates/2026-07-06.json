@@ -1,0 +1,66 @@
+{
+  "generatedAt": "2026-07-06T09:30:00+08:00",
+  "dailyReports": {
+    "2026-07-06": {
+      "date": "2026-07-06",
+      "reportType": "briefing",
+      "title": "资本市场快报",
+      "subtitle": "港股正常交易日；早盘未见公司类 IPO 新挂牌、AP/PHIP、证监会备案或 SEC 中概 IPO 新增。",
+      "statusNote": "数据截至 2026-07-06 09:30 早盘官方源。2026-07-06 为周一，GovHK 2026 general holidays 未列为香港公众假期，按港股正常交易日处理。HKEX Newly Listed Securities 页面更新时间为 03 Jul 2026，列示 06/07/2026 的 MEXAN、YUANHENG GAS 股份合并及 PRC B3107/B3407/B3807 债项新上市，未见公司类 IPO 新挂牌，hkexNewListings=0。HKEX AP-only JSON uDate=06/07/2026、app.length=409，按 06/07/2026 文档日期筛选 NEW AP=0；HKEX AP+PHIP JSON uDate=06/07/2026、app.length=16，按同日筛选 PHIP=0。证监会本自然日未见单家公司新增《境外发行上市备案通知书》，csrcCount=0。SEC EDGAR 2026/QTR3 目录截至本轮检查未出现 20260706 daily-index，usChinaIpoCount=0。",
+      "archiveNotice": "本文件由 2026-07-06 09:30 早盘流程创建。无新增事件类别不创建假公司卡，交由前端展示当日暂无新增。",
+      "observations": [
+        "港股交易日判断：2026-07-06 为周一，且 GovHK 2026 general holidays 未列为香港公众假期，按港股正常交易日处理。",
+        "港股新挂牌：HKEX Newly Listed Securities 的 06/07/2026 条目为 MEXAN、YUANHENG GAS 股份合并及 PRC B3107/B3407/B3807 债项新上市，未见公司类 IPO 新挂牌。",
+        "港股递表/聆讯：HKEX AP-only 与 AP+PHIP structured JSON 均未命中 06/07/2026 NEW AP 或 PHIP。",
+        "证监会备案：本自然日未见单家公司新增《境外发行上市备案通知书》；补充材料公示和备案情况表不计入 csrcCount。",
+        "美股中概 IPO：SEC EDGAR 2026/QTR3 目录未出现 20260706 daily-index；本轮不计新增。"
+      ],
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "officialSourceChecks": [
+        {
+          "source": "GovHK 2026 General Holidays",
+          "dateRange": "2026-07-06",
+          "result": "2026-07-06 为周一，且不在 GovHK 2026 general holidays 列表内；按港股正常交易日处理。"
+        },
+        {
+          "source": "HKEX Newly Listed Securities",
+          "dateRange": "2026-07-06",
+          "result": "页面更新时间为 03 Jul 2026；06/07/2026 条目包括 MEXAN、YUANHENG GAS 股份合并及 PRC B3107/B3407/B3807 债项新上市，未见公司类 IPO 新挂牌。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-07-06",
+          "result": "AP-only JSON uDate=06/07/2026、app.length=409；AP+PHIP JSON uDate=06/07/2026、app.length=16。按 06/07/2026 文档日期筛选：NEW AP=0，PHIP=0。"
+        },
+        {
+          "source": "CSRC overseas filing supplement page / filing notice check",
+          "dateRange": "2026-07-06",
+          "result": "未见 2026-07-06 单家公司新增《境外发行上市备案通知书》；补充材料公示和备案情况表仅作监管更新展示，不计数。"
+        },
+        {
+          "source": "SEC EDGAR official daily-index directory",
+          "dateRange": "2026-07-06",
+          "result": "2026/QTR3 目录截至本轮检查未出现 20260706 daily-index；usChinaIpoCount=0。"
+        }
+      ],
+      "deals": []
+    }
+  },
+  "linkMap": {
+    "GovHK 2026 General Holidays": "https://www.gov.hk/en/about/abouthk/holiday/2026.htm",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "HKEX AP structured JSON Chinese": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_c.json",
+    "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "CSRC Overseas Filing Notice List": "https://www.csrc.gov.cn/csrc/c105984/common_list.shtml",
+    "SEC EDGAR daily-index 2026 QTR3": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/"
+  }
+}
