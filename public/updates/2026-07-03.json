@@ -5,13 +5,14 @@
       "reportType": "briefing",
       "title": "资本市场快报",
       "subtitle": "港股正常交易日；HOSIN Global Electronics 递交 AP，HKEX 未见公司类 IPO 新挂牌。",
-      "statusNote": "数据截至 2026-07-03 09:30 早盘官方源。2026-07-03 为港股正常交易日；HKEX Newly Listed Securities 页面更新至 03 Jul 2026，列示 YOUZAN（02975）为 Share Consolidation，非公司类 IPO 新挂牌，hkexNewListings=0。HKEX AP-only JSON uDate=03/07/2026、app.length=411，按 03/07/2026 文档日期命中 NEW AP 1 家：HOSIN Global Electronics Co., Ltd.；HKEX AP+PHIP JSON uDate=03/07/2026、app.length=16，按同日筛选 PHIP=0。证监会本自然日未见单家公司新增《境外发行上市备案通知书》，csrcCount=0。SEC EDGAR 2026/QTR3 目录截至本轮检查尚未出现 20260703 daily-index，usChinaIpoCount=0。",
+      "statusNote": "数据截至 2026-07-03 09:30 早盘官方源。2026-07-03 为港股正常交易日；HKEX Newly Listed Securities 页面更新至 03 Jul 2026，列示 YOUZAN（02975）为 Share Consolidation，非公司类 IPO 新挂牌，hkexNewListings=0。HKEX AP-only JSON uDate=03/07/2026、app.length=411，按 03/07/2026 文档日期命中 NEW AP 1 家：HOSIN Global Electronics Co., Ltd.；HKEX AP+PHIP JSON uDate=03/07/2026、app.length=16，按同日筛选 PHIP=0。证监会本自然日未见单家公司新增《境外发行上市备案通知书》，csrcCount=0。SEC EDGAR 2026/QTR3 目录截至本轮检查尚未出现 20260703 daily-index，usChinaIpoCount=0。 回扫补充：证监会 2026-07-03 20:30 后公开补充材料要求公示，按监管更新展示，csrcCount 仍为 0。",
       "archiveNotice": "本文件由 2026-07-03 09:30 早盘流程创建；AP 与 PHIP 均纳入 apApplications[] 前端读取结构，并以 status/documentType 区分。无新增事件类别不创建假公司卡，交由前端展示当日暂无新增。",
       "observations": [
         "港股新挂牌：HKEX Newly Listed Securities 于 03/07/2026 仅列示 YOUZAN（02975）Share Consolidation，非公司类 IPO 新挂牌，未计入 hkexNewListings。",
         "港股递表/聆讯：HKEX AP-only structured JSON 按 03/07/2026 文档日期筛出 HOSIN Global Electronics Co., Ltd. NEW AP 1 家；AP+PHIP JSON 同日 PHIP 0 家。",
         "证监会备案：本自然日未见单家公司新增备案通知书；补充材料公示和备案情况表不计入 csrcCount。",
-        "美股中概 IPO：SEC EDGAR 2026/QTR3 目录尚未出现 20260703 daily-index；本轮不计新增。"
+        "美股中概 IPO：SEC EDGAR 2026/QTR3 目录尚未出现 20260703 daily-index；本轮不计新增。",
+        "证监会监管更新：2026-07-03 晚间补挂《境外发行上市备案补充材料要求公示（2026年6月29日—2026年7月3日）》DOCX，涉及玛冀电子、数聚智连、甘之草、帝尔激光、绿米联创、赛诺医疗、拓必达 7 家；该事项为补充材料公示，不计入 csrcCount。"
       ],
       "metrics": {
         "hkexNewListings": 0,
@@ -40,6 +41,11 @@
           "source": "SEC EDGAR official daily-index directory",
           "dateRange": "2026-07-03",
           "result": "2026/QTR3 目录截至本轮检查尚未出现 20260703 daily-index；usChinaIpoCount=0。"
+        },
+        {
+          "source": "CSRC overseas filing supplement DOCX",
+          "dateRange": "2026-07-03",
+          "result": "证监会境外上市类页面披露《境外发行上市备案补充材料要求公示（2026年6月29日—2026年7月3日）》；DOCX 显示国际司对 7 家企业出具补充材料要求。该类事项不计入 csrcCount。"
         }
       ],
       "deals": [
@@ -85,6 +91,103 @@
             "HOSIN Application Proof English",
             "HOSIN OC Announcement English"
           ]
+        },
+        {
+          "id": "csrc-supplement-20260703",
+          "section": "监管更新",
+          "type": "补充材料要求公示",
+          "status": "监管更新 / 不计入备案通知书新增",
+          "eventType": "csrcSupplement",
+          "countInMetrics": false,
+          "company": {
+            "zh": "证监会境外发行上市备案补充材料要求公示",
+            "en": "CSRC overseas listing filing supplementary materials request",
+            "display": "证监会补充材料要求公示（2026-06-29 至 2026-07-03）",
+            "exchange": "CSRC",
+            "board": "境外发行上市备案",
+            "listingStructure": "监管更新"
+          },
+          "business": {
+            "sector": "境外上市备案监管更新",
+            "summary": "证监会 2026-07-03 公开周度补充材料要求公示 DOCX，列明国际司对 7 家企业出具补充材料要求；该事项为监管更新，不属于单家公司《境外发行上市备案通知书》。"
+          },
+          "csrcSupplement": {
+            "period": "2026年6月29日—2026年7月3日",
+            "publishDate": "2026-07-03",
+            "companies": [
+              {
+                "name": "玛冀电子",
+                "likelyMarket": "待备案材料确认",
+                "coreIssues": [
+                  "历次增资和股权转让价格及出资合规性",
+                  "股权代持形成、演变、解除及权属纠纷核查",
+                  "员工股权激励、外资准入、境外投资及全流通股份权利瑕疵核查"
+                ]
+              },
+              {
+                "name": "数聚智连",
+                "likelyMarket": "待备案材料确认",
+                "coreIssues": [
+                  "历次增资和股权转让价格及主体资格核查",
+                  "股权代持合规性及潜在纠纷核查",
+                  "外资准入及全流通股份质押冻结等权利瑕疵核查"
+                ]
+              },
+              {
+                "name": "甘之草",
+                "likelyMarket": "待备案材料确认",
+                "coreIssues": [
+                  "历史沿革、股份代持及近 12 个月新增股东定价核查",
+                  "员工股权激励及利益输送核查",
+                  "中医诊所、互联网医院相关外资准入及全流通安排核查"
+                ]
+              },
+              {
+                "name": "帝尔激光",
+                "likelyMarket": "待备案材料确认",
+                "coreIssues": [
+                  "境外子公司境外投资及外汇管理程序核查",
+                  "未决诉讼最新进展及对发行上市影响核查"
+                ]
+              },
+              {
+                "name": "绿米联创",
+                "likelyMarket": "待备案材料确认",
+                "coreIssues": [
+                  "红筹架构、37 号文外汇登记、返程并购及税费合规核查",
+                  "特别表决权、控制权稳定性及特殊股东权利安排核查",
+                  "AI、小程序/APP、个人信息收集及外资准入核查"
+                ]
+              },
+              {
+                "name": "赛诺医疗",
+                "likelyMarket": "待备案材料确认",
+                "coreIssues": [
+                  "设立以来股本和股东变化及利益输送核查",
+                  "境外子公司监管程序、员工股权激励及实控人认定核查",
+                  "外资准入、先进脑机接口技术相关业务核查"
+                ]
+              },
+              {
+                "name": "拓必达",
+                "likelyMarket": "待备案材料确认",
+                "coreIssues": [
+                  "红筹架构、37 号文登记、返程并购、减资及税务合规核查",
+                  "股东关联关系及股权激励合规核查",
+                  "AI 大模型业务、境内运营实体分工及发行数量一致性核查"
+                ]
+              }
+            ]
+          },
+          "monitorItems": [
+            "补充材料公示仅作为监管更新展示",
+            "不计入 csrcCount",
+            "不创建单家公司备案通知书新增卡片"
+          ],
+          "links": [
+            "CSRC Overseas Filing Supplement Materials",
+            "CSRC Supplement DOCX 2026-07-03"
+          ]
         }
       ]
     }
@@ -101,6 +204,8 @@
     "CSRC Overseas Filing Notice List": "https://www.csrc.gov.cn/csrc/c105984/common_list.shtml",
     "SEC EDGAR daily-index 2026 QTR3": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/",
     "HOSIN Application Proof English": "https://www1.hkexnews.hk/app/sehk/2026/108712/documents/sehk26070300014.pdf",
-    "HOSIN OC Announcement English": "https://www1.hkexnews.hk/app/sehk/2026/108712/documents/sehk26070300084.pdf"
-  }
+    "HOSIN OC Announcement English": "https://www1.hkexnews.hk/app/sehk/2026/108712/documents/sehk26070300084.pdf",
+    "CSRC Supplement DOCX 2026-07-03": "https://www.csrc.gov.cn/csrc/c100098/c7643371/7643371/files/%E5%A2%83%E5%A4%96%E5%8F%91%E8%A1%8C%E4%B8%8A%E5%B8%82%E5%A4%87%E6%A1%88%E8%A1%A5%E5%85%85%E6%9D%90%E6%96%99%E8%A6%81%E6%B1%82%E5%85%AC%E7%A4%BA%EF%BC%882026%E5%B9%B46%E6%9C%8829%E6%97%A5%E2%80%942026%E5%B9%B47%E6%9C%883%E6%97%A5%EF%BC%89.docx"
+  },
+  "generatedAt": "2026-07-06T09:30:00+08:00"
 }
