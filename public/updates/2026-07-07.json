@@ -1,0 +1,222 @@
+{
+  "generatedAt": "2026-07-07T09:30:00+08:00",
+  "dailyReports": {
+    "2026-07-07": {
+      "date": "2026-07-07",
+      "reportType": "briefing",
+      "title": "资本市场快报",
+      "subtitle": "港股正常交易日；同仁堂医养（02667）今日挂牌，HKEX AP/PHIP 未见同日新增。",
+      "statusNote": "数据截至 2026-07-07 09:30 早盘官方源。2026-07-07 为周二，GovHK 2026 general holidays 未列为香港公众假期，按港股正常交易日处理。HKEX Newly Listed Securities 列示 TONGRENTANGCARE（02667）于 07/07/2026 新挂牌，HAOSEN FINTECH（02979）为 Share Subdivision，CDB N2707/N2907 为债项新上市，故公司类 IPO 新挂牌 hkexNewListings=1。HKEX AP-only JSON uDate=07/07/2026、app.length=408，按 07/07/2026 文档日期筛选 NEW AP=0；HKEX AP+PHIP JSON uDate=07/07/2026、app.length=16，按同日筛选 PHIP=0。证监会站内搜索和境外上市类页面未见本自然日单家公司新增《境外发行上市备案通知书》，csrcCount=0；补充材料公示和备案情况表仅作为监管更新展示且不计数。SEC EDGAR 2026/QTR3 20260707 daily-index 于本轮早盘检查尚未发布，回扫可读的 20260706 daily-index 未命中中国或香港经营主体 IPO，usChinaIpoCount=0。",
+      "archiveNotice": "本文件由 2026-07-07 09:30 早盘流程创建。同仁堂医养固定发行信息来自 HKEX Newly Listed Securities、新上市资料页、招股书、配发结果公告、HKEX listing archive 及证监会备案通知书；开盘价、收盘价、涨跌幅等待盘中或收盘后官方行情源复核。AP 与 PHIP 均纳入 apApplications[] 前端读取结构，并以 status/documentType 区分；本日无 AP/PHIP 新增时不创建假公司卡。",
+      "observations": [
+        "港股交易日判断：2026-07-07 为周二，且不在 GovHK 2026 general holidays 列表内，按港股正常交易日处理。",
+        "港股新挂牌：HKEX Newly Listed Securities 显示 TONGRENTANGCARE（02667）于 2026-07-07 新挂牌；HAOSEN FINTECH（02979）为股份拆细后交易安排，CDB N2707/N2907 为债项新上市，未计入公司类 IPO 新挂牌。",
+        "同仁堂医养固定发行信息已补齐：最终发售价 HK$5.50，全球发售 108,153,500 股 H 股，香港公开发售认购 251.74 倍，国际发售认购 2.84 倍，基石投资人合计获配 53,828,500 股。",
+        "港股递表/聆讯：HKEX AP-only structured JSON 与 AP+PHIP structured JSON 按 07/07/2026 文档日期筛选均无 NEW AP 或 PHIP。",
+        "证监会备案：本自然日未见单家公司新增《境外发行上市备案通知书》；同仁堂医养历史备案通知书为 2025-08-29 发布，非本日新增，不计入 csrcCount。",
+        "美股中概 IPO：SEC EDGAR 20260707 daily-index 早盘尚未发布；回扫 20260706 IPO/F-1/S-1/424B4 候选项未命中中国或香港经营主体。"
+      ],
+      "metrics": {
+        "hkexNewListings": 1,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "officialSourceChecks": [
+        {
+          "source": "GovHK 2026 General Holidays",
+          "dateRange": "2026-07-07",
+          "result": "2026-07-07 为周二，且不在 GovHK 2026 general holidays 列表内；按港股正常交易日处理。"
+        },
+        {
+          "source": "HKEX Newly Listed Securities",
+          "dateRange": "2026-07-07",
+          "result": "公司类 IPO 新挂牌 1 家：TONGRENTANGCARE（02667）。HAOSEN FINTECH（02979）为 Share Subdivision，CDB N2707/N2907 为债项新上市，未计入 hkexNewListings。"
+        },
+        {
+          "source": "HKEX New Listing Information / Prospectus / Allotment Results PDFs",
+          "dateRange": "2026-06-26 至 2026-07-07",
+          "result": "同仁堂医养招股书、配发结果公告及新上市资料页确认最终发售价、发售股份数、认购倍数、基石投资人、主要中介和上市时间线；早盘交易进程字段留待后续行情源复核。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-07-07",
+          "result": "AP-only JSON uDate=07/07/2026、app.length=408；AP+PHIP JSON uDate=07/07/2026、app.length=16。按 07/07/2026 文档日期筛选：NEW AP=0，PHIP=0。"
+        },
+        {
+          "source": "CSRC overseas filing notice / supplement page check",
+          "dateRange": "2026-07-07",
+          "result": "站内搜索和境外上市类页面未见 2026-07-07 单家公司新增《境外发行上市备案通知书》；同仁堂医养备案通知书发布日期为 2025-08-29，非本日新增。"
+        },
+        {
+          "source": "SEC EDGAR official daily-index directory",
+          "dateRange": "2026-07-07",
+          "result": "20260707 daily-index 于本轮早盘检查尚未发布；回扫 20260706 master/company/form indexes，IPO/F-1/S-1/424B4 候选项未命中中国或香港经营主体 IPO。"
+        }
+      ],
+      "deals": [
+        {
+          "id": "hkex-listing-02667-20260707",
+          "section": "港股新挂牌",
+          "type": "今日新上市",
+          "status": "今日挂牌",
+          "eventType": "hkexIpoListing",
+          "countInMetrics": true,
+          "company": {
+            "zh": "北京同仁堂醫養投資股份有限公司",
+            "en": "Beijing Tong Ren Tang Healthcare Investment Co., Ltd.",
+            "display": "北京同仁堂醫養投資股份有限公司 / Beijing Tong Ren Tang Healthcare Investment Co., Ltd.（02667 / TONGRENTANGCARE）",
+            "ticker": "02667",
+            "stockShortName": "TONGRENTANGCARE",
+            "exchange": "HKEX",
+            "board": "Main Board",
+            "listingStructure": "PRC joint stock company H-share listing；证监会境外发行上市及境内未上市股份全流通备案已于 2025-08-29 发布"
+          },
+          "business": {
+            "sector": "中医医疗服务 / 医疗机构管理 / 健康产品销售",
+            "summary": "招股书披露，公司为同仁堂集团旗下聚焦中国中医医疗服务的子公司，提供中医医疗服务、管理服务以及健康产品和其他产品销售；截至最后实际可行日期拥有 13 家自有线下医疗机构和一家互联网医院，并管理 13 家线下医疗机构。按 2025 年门诊及住院总人次计，公司为中国非公立中医医院医疗服务行业最大的中医医院集团。"
+          },
+          "timeline": {
+            "csrcFilingNoticeDate": "2025-08-29（证监会境外发行上市及境内未上市股份全流通备案通知书）",
+            "firstFilingDate": "2026-01-26（HKEX listing archive posting）",
+            "phipOrHearingDate": "待 HKEX Title Search 逐项复核；本轮新上市资料页仅直接列示招股书与配发结果入口",
+            "prospectusDate": "2026-06-26",
+            "priceDeterminationDate": "2026-07-03（招股书预计；配发结果确认最终发售价）",
+            "allotmentResultDate": "2026-07-06",
+            "listingDate": "2026-07-07"
+          },
+          "ipo": {
+            "currency": "HKD",
+            "offerPrice": 5.5,
+            "offerPriceRange": "HK$5.48 - HK$6.21",
+            "sharesOffered": 108153500,
+            "hongKongOfferShares": 10815500,
+            "internationalOfferShares": 97338000,
+            "grossProceeds": 594800000,
+            "netProceeds": 532400000,
+            "listingExpenses": 62400000,
+            "issuedSharesUponListing": 465362049,
+            "overAllocatedShares": 5407500,
+            "publicOfferOversubscription": 251.74,
+            "internationalOfferOversubscription": 2.84,
+            "internationalPlacees": 75,
+            "publicOfferApplications": 66390,
+            "successfulPublicOfferApplications": 11293,
+            "clawback": "未回拨；香港公开发售最终 10,815,500 股，占全球发售 10%。",
+            "overAllotment": "国际发售超额分配 5,407,500 股；稳定价格经办人为 China International Capital Corporation Hong Kong Securities Limited。",
+            "cornerstone": [
+              "Airport Technology Capital",
+              "Aurora SF",
+              "CICCFT (in connection with OTC Swaps)"
+            ],
+            "cornerstoneTotalShares": 53828500,
+            "cornerstonePctOfOffer": 49.77,
+            "cornerstoneDetails": "3 名基石投资人合计获配 53,828,500 股，占全球发售约 49.77%，占发行后 H 股约 24.66%，占发行后总股本约 11.57%。"
+          },
+          "marketPerformance": {
+            "offerPrice": 5.5,
+            "openPrice": null,
+            "firstDayClose": null,
+            "changePct": null,
+            "latestPriceNote": "待开盘/收盘后官方行情源复核",
+            "priceDataStatus": "pendingOfficialMarketDataReview"
+          },
+          "intermediaries": {
+            "sponsors": [
+              "China International Capital Corporation Hong Kong Securities Limited"
+            ],
+            "overallCoordinators": [
+              "China International Capital Corporation Hong Kong Securities Limited"
+            ],
+            "globalCoordinators": [
+              "China International Capital Corporation Hong Kong Securities Limited",
+              "ICBC International Securities Limited",
+              "GF Securities (Hong Kong) Brokerage Limited"
+            ],
+            "bookrunners": [
+              "China International Capital Corporation Hong Kong Securities Limited",
+              "ICBC International Securities Limited",
+              "GF Securities (Hong Kong) Brokerage Limited",
+              "ABCI Capital Limited",
+              "West Bull Securities Limited",
+              "Patrons Securities Limited"
+            ],
+            "leadManagers": [
+              "China International Capital Corporation Hong Kong Securities Limited",
+              "ICBC International Securities Limited",
+              "GF Securities (Hong Kong) Brokerage Limited",
+              "ABCI Securities Company Limited",
+              "West Bull Securities Limited",
+              "Patrons Securities Limited",
+              "Futu Securities International (Hong Kong) Limited",
+              "Livermore Holdings Limited",
+              "Tiger Brokers (HK) Global Limited"
+            ],
+            "legalAdvisersCompany": [
+              "Tian Yuan Law Firm LLP",
+              "Tian Yuan Law Firm",
+              "Commerce & Finance Law Offices"
+            ],
+            "legalAdvisersSponsorsUnderwriters": [
+              "Haiwen & Partners LLP",
+              "Han Kun Law Offices"
+            ],
+            "reportingAccountants": [
+              "Ernst & Young"
+            ],
+            "industryConsultant": [
+              "Frost & Sullivan (Beijing) Inc."
+            ],
+            "propertyValuer": [
+              "Jones Lang LaSalle Corporate Appraisal and Advisory Limited"
+            ],
+            "complianceAdviser": [
+              "Rainbow Capital (HK) Limited"
+            ],
+            "receivingBanks": [
+              "Bank of China (Hong Kong) Limited",
+              "Industrial and Commercial Bank of China (Asia) Limited"
+            ],
+            "stabilizingManager": [
+              "China International Capital Corporation Hong Kong Securities Limited"
+            ]
+          },
+          "regulatoryFiling": {
+            "csrcNoticeTitle": "关于北京同仁堂医养投资股份有限公司境外发行上市及境内未上市股份“全流通”备案通知书",
+            "csrcNoticeDate": "2025-08-29",
+            "csrcNoticeRef": "国合函〔2025〕1471号",
+            "maxOverseasSharesFiled": 136930500,
+            "fullCirculationSharesFiled": 110139024,
+            "countInCsrcToday": false
+          },
+          "links": [
+            "HKEX Newly Listed Securities",
+            "HKEX New Listing Information",
+            "HKEX AP listed archive",
+            "TONGRENTANGCARE Prospectus English",
+            "TONGRENTANGCARE Allotment Results English",
+            "TONGRENTANGCARE CSRC Filing Notice",
+            "SEC EDGAR daily-index 2026 QTR3"
+          ]
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "GovHK 2026 General Holidays": "https://www.gov.hk/en/about/abouthk/holiday/2026.htm",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "HKEX AP listed archive": "https://www1.hkexnews.hk/ncms/json/eds/applisted_sehk_e.json",
+    "HKEX AP yearly archive": "https://www1.hkexnews.hk/ncms/json/eds/app_2026_sehk_e.json",
+    "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "CSRC Overseas Filing Notice Search": "https://www.csrc.gov.cn/guestweb4/s",
+    "TONGRENTANGCARE CSRC Filing Notice": "https://www.csrc.gov.cn/csrc/c105984/c7580428/content.shtml",
+    "SEC EDGAR daily-index 2026 QTR3": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/",
+    "SEC EDGAR master 20260706": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/master.20260706.idx",
+    "TONGRENTANGCARE Prospectus English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0626/2026062600021.pdf",
+    "TONGRENTANGCARE Allotment Results English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0706/2026070602117.pdf"
+  }
+}
