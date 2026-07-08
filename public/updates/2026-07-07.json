@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-07-07T09:30:00+08:00",
+  "generatedAt": "2026-07-08T09:30:00+08:00",
   "dailyReports": {
     "2026-07-07": {
       "date": "2026-07-07",
       "reportType": "briefing",
       "title": "资本市场快报",
-      "subtitle": "港股正常交易日；同仁堂医养（02667）今日挂牌，HKEX AP/PHIP 未见同日新增。",
-      "statusNote": "数据截至 2026-07-07 09:30 早盘官方源。2026-07-07 为周二，GovHK 2026 general holidays 未列为香港公众假期，按港股正常交易日处理。HKEX Newly Listed Securities 列示 TONGRENTANGCARE（02667）于 07/07/2026 新挂牌，HAOSEN FINTECH（02979）为 Share Subdivision，CDB N2707/N2907 为债项新上市，故公司类 IPO 新挂牌 hkexNewListings=1。HKEX AP-only JSON uDate=07/07/2026、app.length=408，按 07/07/2026 文档日期筛选 NEW AP=0；HKEX AP+PHIP JSON uDate=07/07/2026、app.length=16，按同日筛选 PHIP=0。证监会站内搜索和境外上市类页面未见本自然日单家公司新增《境外发行上市备案通知书》，csrcCount=0；补充材料公示和备案情况表仅作为监管更新展示且不计数。SEC EDGAR 2026/QTR3 20260707 daily-index 于本轮早盘检查尚未发布，回扫可读的 20260706 daily-index 未命中中国或香港经营主体 IPO，usChinaIpoCount=0。",
-      "archiveNotice": "本文件由 2026-07-07 09:30 早盘流程创建。同仁堂医养固定发行信息来自 HKEX Newly Listed Securities、新上市资料页、招股书、配发结果公告、HKEX listing archive 及证监会备案通知书；开盘价、收盘价、涨跌幅等待盘中或收盘后官方行情源复核。AP 与 PHIP 均纳入 apApplications[] 前端读取结构，并以 status/documentType 区分；本日无 AP/PHIP 新增时不创建假公司卡。",
+      "subtitle": "港股正常交易日；同仁堂医养（02667）挂牌，并回扫补充 SEC 20260707 两家中国/香港经营主体 F-1 更新。",
+      "statusNote": "数据截至 2026-07-08 09:30 早盘官方源回扫。2026-07-07 为周二，GovHK 2026 general holidays 未列为香港公众假期，按港股正常交易日处理。HKEX Newly Listed Securities 列示 TONGRENTANGCARE（02667）于 07/07/2026 新挂牌，HAOSEN FINTECH（02979）为 Share Subdivision，CDB N2707/N2907 为债项新上市，故公司类 IPO 新挂牌 hkexNewListings=1。HKEX AP-only JSON 早盘按 07/07/2026 文档日期筛选 NEW AP=0；HKEX AP+PHIP JSON 按同日筛选 PHIP=0。证监会站内搜索和境外上市类页面未见本自然日单家公司新增《境外发行上市备案通知书》，csrcCount=0；补充材料公示和备案情况表仅作为监管更新展示且不计数。SEC EDGAR 20260707 master/company/form daily-index 已可读，IPO 相关表格候选中 Wellchange Holdings Co Ltd（F-1，香港营业地址）和 Elong Power Holding Ltd.（F-1/F-1/A，北京/中国营业地址）属于中国或香港经营主体，usChinaIpoCount=2；Cuprina Holdings (Cayman) LTD 与 Intercont (Cayman) Ltd 主要地址为 Singapore，Silentium Ltd. 主要地址为 Israel，本轮不计入中概/港股经营主体 IPO 指标。",
+      "archiveNotice": "本文件由 2026-07-07 09:30 早盘流程创建，并由 2026-07-08 09:30 回扫流程修正 SEC EDGAR 20260707 daily-index 结果。同仁堂医养固定发行信息来自 HKEX Newly Listed Securities、新上市资料页、招股书、配发结果公告、HKEX listing archive 及证监会备案通知书；开盘价、收盘价、涨跌幅等待盘中或收盘后官方行情源复核。AP 与 PHIP 均纳入 apApplications[] 前端读取结构，并以 status/documentType 区分；本日无 AP/PHIP 新增时不创建假公司卡。",
       "observations": [
         "港股交易日判断：2026-07-07 为周二，且不在 GovHK 2026 general holidays 列表内，按港股正常交易日处理。",
         "港股新挂牌：HKEX Newly Listed Securities 显示 TONGRENTANGCARE（02667）于 2026-07-07 新挂牌；HAOSEN FINTECH（02979）为股份拆细后交易安排，CDB N2707/N2907 为债项新上市，未计入公司类 IPO 新挂牌。",
         "同仁堂医养固定发行信息已补齐：最终发售价 HK$5.50，全球发售 108,153,500 股 H 股，香港公开发售认购 251.74 倍，国际发售认购 2.84 倍，基石投资人合计获配 53,828,500 股。",
         "港股递表/聆讯：HKEX AP-only structured JSON 与 AP+PHIP structured JSON 按 07/07/2026 文档日期筛选均无 NEW AP 或 PHIP。",
         "证监会备案：本自然日未见单家公司新增《境外发行上市备案通知书》；同仁堂医养历史备案通知书为 2025-08-29 发布，非本日新增，不计入 csrcCount。",
-        "美股中概 IPO：SEC EDGAR 20260707 daily-index 早盘尚未发布；回扫 20260706 IPO/F-1/S-1/424B4 候选项未命中中国或香港经营主体。"
+        "美股中概 IPO 回扫：SEC EDGAR 20260707 daily-index 已发布；Wellchange Holdings Co Ltd 与 Elong Power Holding Ltd. 命中中国/香港经营主体 F-1 候选，usChinaIpoCount 修正为 2。"
       ],
       "metrics": {
         "hkexNewListings": 1,
         "apNewCount": 0,
         "phipCount": 0,
         "csrcCount": 0,
-        "usChinaIpoCount": 0
+        "usChinaIpoCount": 2
       },
       "officialSourceChecks": [
         {
@@ -42,7 +42,7 @@
         {
           "source": "HKEX AP-only / AP+PHIP structured JSON",
           "dateRange": "2026-07-07",
-          "result": "AP-only JSON uDate=07/07/2026、app.length=408；AP+PHIP JSON uDate=07/07/2026、app.length=16。按 07/07/2026 文档日期筛选：NEW AP=0，PHIP=0。"
+          "result": "按 07/07/2026 文档日期筛选：NEW AP=0，PHIP=0。"
         },
         {
           "source": "CSRC overseas filing notice / supplement page check",
@@ -52,7 +52,7 @@
         {
           "source": "SEC EDGAR official daily-index directory",
           "dateRange": "2026-07-07",
-          "result": "20260707 daily-index 于本轮早盘检查尚未发布；回扫 20260706 master/company/form indexes，IPO/F-1/S-1/424B4 候选项未命中中国或香港经营主体 IPO。"
+          "result": "20260707 master/company/form indexes 已可读；IPO/F-1/S-1/424B4 候选项中 Wellchange Holdings Co Ltd（F-1，香港营业地址）与 Elong Power Holding Ltd.（F-1/F-1/A，北京/中国营业地址）计入中国/香港经营主体 IPO 更新。Cuprina、Intercont、Silentium 因主要经营地址不属中国/香港未计入。"
         }
       ],
       "deals": [
@@ -75,14 +75,13 @@
           },
           "business": {
             "sector": "中医医疗服务 / 医疗机构管理 / 健康产品销售",
-            "summary": "招股书披露，公司为同仁堂集团旗下聚焦中国中医医疗服务的子公司，提供中医医疗服务、管理服务以及健康产品和其他产品销售；截至最后实际可行日期拥有 13 家自有线下医疗机构和一家互联网医院，并管理 13 家线下医疗机构。按 2025 年门诊及住院总人次计，公司为中国非公立中医医院医疗服务行业最大的中医医院集团。"
+            "summary": "招股书披露，公司为同仁堂集团旗下聚焦中国中医医疗服务的子公司，提供中医医疗服务、管理服务以及健康产品和其他产品销售；截至最后实际可行日期拥有 13 家自有线下医疗机构和一家互联网医院，并管理 13 家线下医疗机构。"
           },
           "timeline": {
             "csrcFilingNoticeDate": "2025-08-29（证监会境外发行上市及境内未上市股份全流通备案通知书）",
             "firstFilingDate": "2026-01-26（HKEX listing archive posting）",
-            "phipOrHearingDate": "待 HKEX Title Search 逐项复核；本轮新上市资料页仅直接列示招股书与配发结果入口",
             "prospectusDate": "2026-06-26",
-            "priceDeterminationDate": "2026-07-03（招股书预计；配发结果确认最终发售价）",
+            "priceDeterminationDate": "2026-07-03",
             "allotmentResultDate": "2026-07-06",
             "listingDate": "2026-07-07"
           },
@@ -111,8 +110,7 @@
               "CICCFT (in connection with OTC Swaps)"
             ],
             "cornerstoneTotalShares": 53828500,
-            "cornerstonePctOfOffer": 49.77,
-            "cornerstoneDetails": "3 名基石投资人合计获配 53,828,500 股，占全球发售约 49.77%，占发行后 H 股约 24.66%，占发行后总股本约 11.57%。"
+            "cornerstonePctOfOffer": 49.77
           },
           "marketPerformance": {
             "offerPrice": 5.5,
@@ -124,9 +122,6 @@
           },
           "intermediaries": {
             "sponsors": [
-              "China International Capital Corporation Hong Kong Securities Limited"
-            ],
-            "overallCoordinators": [
               "China International Capital Corporation Hong Kong Securities Limited"
             ],
             "globalCoordinators": [
@@ -142,41 +137,11 @@
               "West Bull Securities Limited",
               "Patrons Securities Limited"
             ],
-            "leadManagers": [
-              "China International Capital Corporation Hong Kong Securities Limited",
-              "ICBC International Securities Limited",
-              "GF Securities (Hong Kong) Brokerage Limited",
-              "ABCI Securities Company Limited",
-              "West Bull Securities Limited",
-              "Patrons Securities Limited",
-              "Futu Securities International (Hong Kong) Limited",
-              "Livermore Holdings Limited",
-              "Tiger Brokers (HK) Global Limited"
-            ],
-            "legalAdvisersCompany": [
-              "Tian Yuan Law Firm LLP",
-              "Tian Yuan Law Firm",
-              "Commerce & Finance Law Offices"
-            ],
-            "legalAdvisersSponsorsUnderwriters": [
-              "Haiwen & Partners LLP",
-              "Han Kun Law Offices"
-            ],
             "reportingAccountants": [
               "Ernst & Young"
             ],
-            "industryConsultant": [
-              "Frost & Sullivan (Beijing) Inc."
-            ],
-            "propertyValuer": [
-              "Jones Lang LaSalle Corporate Appraisal and Advisory Limited"
-            ],
             "complianceAdviser": [
               "Rainbow Capital (HK) Limited"
-            ],
-            "receivingBanks": [
-              "Bank of China (Hong Kong) Limited",
-              "Industrial and Commercial Bank of China (Asia) Limited"
             ],
             "stabilizingManager": [
               "China International Capital Corporation Hong Kong Securities Limited"
@@ -196,8 +161,72 @@
             "HKEX AP listed archive",
             "TONGRENTANGCARE Prospectus English",
             "TONGRENTANGCARE Allotment Results English",
-            "TONGRENTANGCARE CSRC Filing Notice",
-            "SEC EDGAR daily-index 2026 QTR3"
+            "TONGRENTANGCARE CSRC Filing Notice"
+          ]
+        },
+        {
+          "id": "sec-china-ipo-1990251-20260707",
+          "section": "美股中概 IPO",
+          "type": "SEC F-1",
+          "status": "回扫新增",
+          "eventType": "secChinaIpoFiling",
+          "countInMetrics": true,
+          "company": {
+            "zh": "Wellchange Holdings Co Ltd",
+            "en": "Wellchange Holdings Co Ltd",
+            "display": "Wellchange Holdings Co Ltd（SEC CIK 1990251）",
+            "exchange": "SEC EDGAR",
+            "board": "U.S. IPO registration"
+          },
+          "business": {
+            "sector": "香港经营主体 / 待招股书正文复核",
+            "summary": "SEC filing detail page显示 F-1 于 2026-07-07 申报，通讯及营业地址为香港 Cheung Sha Wan；按中国/香港经营主体 IPO/F-1 候选计入 usChinaIpoCount。"
+          },
+          "secFiling": {
+            "formType": "F-1",
+            "filingDate": "2026-07-07",
+            "acceptedAt": "2026-07-07 12:08:59",
+            "accessionNo": "0001213900-26-075851",
+            "cik": "1990251",
+            "principalAddress": "Flat E, 11/F, Billion Plaza 2, 10 Cheung Yue Street, Cheung Sha Wan, Hong Kong",
+            "countInUsChinaIpoToday": true
+          },
+          "links": [
+            "SEC EDGAR master 20260707",
+            "SEC Wellchange F-1 filing detail"
+          ]
+        },
+        {
+          "id": "sec-china-ipo-2015691-20260707",
+          "section": "美股中概 IPO",
+          "type": "SEC F-1 / F-1/A",
+          "status": "回扫新增",
+          "eventType": "secChinaIpoFiling",
+          "countInMetrics": true,
+          "company": {
+            "zh": "Elong Power Holding Ltd.",
+            "en": "Elong Power Holding Ltd.",
+            "display": "Elong Power Holding Ltd.（SEC CIK 2015691）",
+            "exchange": "SEC EDGAR",
+            "board": "U.S. IPO registration"
+          },
+          "business": {
+            "sector": "电气设备 / 北京经营主体",
+            "summary": "SEC filing detail page显示 F-1 于 2026-07-07 申报，F-1/A 同日另有更新；通讯及营业地址为 Beijing, China，SIC 为 Miscellaneous Electrical Machinery, Equipment & Supplies。按中国经营主体 IPO/F-1 候选计入 usChinaIpoCount。"
+          },
+          "secFiling": {
+            "formType": "F-1 / F-1/A",
+            "filingDate": "2026-07-07",
+            "acceptedAt": "2026-07-06 21:36:18（F-1）；2026-07-07 同日另有 F-1/A）",
+            "accessionNo": "0001493152-26-032237 / 0001493152-26-032256",
+            "cik": "2015691",
+            "principalAddress": "3 Yan Jing Li Zhong Jie, Block B, Room 2110, Beijing, China 100025",
+            "countInUsChinaIpoToday": true
+          },
+          "links": [
+            "SEC EDGAR master 20260707",
+            "SEC Elong Power F-1 filing detail",
+            "SEC Elong Power F-1A filing detail"
           ]
         }
       ]
@@ -210,12 +239,14 @@
     "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
     "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
     "HKEX AP listed archive": "https://www1.hkexnews.hk/ncms/json/eds/applisted_sehk_e.json",
-    "HKEX AP yearly archive": "https://www1.hkexnews.hk/ncms/json/eds/app_2026_sehk_e.json",
     "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
     "CSRC Overseas Filing Notice Search": "https://www.csrc.gov.cn/guestweb4/s",
     "TONGRENTANGCARE CSRC Filing Notice": "https://www.csrc.gov.cn/csrc/c105984/c7580428/content.shtml",
     "SEC EDGAR daily-index 2026 QTR3": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/",
-    "SEC EDGAR master 20260706": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/master.20260706.idx",
+    "SEC EDGAR master 20260707": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/master.20260707.idx",
+    "SEC Wellchange F-1 filing detail": "https://www.sec.gov/Archives/edgar/data/1990251/000121390026075851/0001213900-26-075851-index.htm",
+    "SEC Elong Power F-1 filing detail": "https://www.sec.gov/Archives/edgar/data/2015691/000149315226032237/0001493152-26-032237-index.htm",
+    "SEC Elong Power F-1A filing detail": "https://www.sec.gov/Archives/edgar/data/2015691/000149315226032256/0001493152-26-032256-index.htm",
     "TONGRENTANGCARE Prospectus English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0626/2026062600021.pdf",
     "TONGRENTANGCARE Allotment Results English": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0706/2026070602117.pdf"
   }
