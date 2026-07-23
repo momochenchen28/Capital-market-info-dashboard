@@ -1,0 +1,68 @@
+{
+  "generatedAt": "2026-07-23T09:30:00+08:00",
+  "dailyReports": {
+    "2026-07-23": {
+      "date": "2026-07-23",
+      "reportType": "briefing",
+      "title": "资本市场快报",
+      "subtitle": "港股正常交易日；截至 09:30，港股公司类 IPO 新挂牌、HKEX AP/PHIP、证监会境外备案及美股中概 IPO 未见当日新增。",
+      "statusNote": "数据截至 2026-07-23 09:30 早盘官方源。2026-07-23 为周四，且不在香港 2026 年公众假期列表内，按港股正常交易日处理。HKEX Newly Listed Securities 的 23/07/2026 条目为 CNCB IT UCS E、ANHUI THG B2907、CNCB IT UCS F-R 债券/债务证券新上市，不属于公司类 IPO，hkexNewListings=0。HKEX AP-only 中英文 JSON 均更新至 23/07/2026、app.length=378；AP+PHIP 中英文 JSON 均更新至 23/07/2026、app.length=5；按 23/07/2026 文档日期筛选 NEW AP=0、PHIP=0。证监会境外上市类、备案通知书及备案情况表官方页未见本自然日更新，csrcCount=0。SEC EDGAR 20260723 master daily-index 于香港时间 09:30 尚未发布/官方端点未可用，早盘 usChinaIpoCount=0，后续流程应回扫。",
+      "archiveNotice": "本文件由 2026-07-23 09:30 早盘流程创建。AP 与 PHIP 分开统计，并统一使用前端可读取的 apApplications[]；本日两者均为 0，因此不创建 AP/PHIP 容器或假公司卡。证监会 csrcCount 仅统计单家公司新增《境外发行上市备案通知书》，补充材料公示和备案情况表仅作监管更新且不计数。",
+      "observations": [
+        "港股交易日判断：2026-07-23 为周四，且不在香港 2026 年公众假期列表内，按正常交易日处理。",
+        "港股新挂牌：HKEX Newly Listed Securities 的 23/07/2026 条目均为债券/债务证券，不属于公司类 IPO，hkexNewListings=0。",
+        "港股递表/聆讯：HKEX AP-only 中英文 JSON（uDate=23/07/2026，app.length=378）及 AP+PHIP 中英文 JSON（uDate=23/07/2026，app.length=5）已核对；本日 NEW AP=0、PHIP=0。",
+        "证监会备案：未见本自然日新增单家公司《境外发行上市备案通知书》；未见补充材料公示或备案情况表当日更新，csrcCount=0。",
+        "SEC EDGAR 20260723 master daily-index 于香港时间 09:30 尚未发布/官方端点未可用，早盘 usChinaIpoCount=0，后续流程应回扫。"
+      ],
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "officialSourceChecks": [
+        {
+          "source": "GovHK 2026 General Holidays",
+          "dateRange": "2026-07-23",
+          "result": "2026-07-23 为周四，且未列为香港公众假期；按港股正常交易日处理。"
+        },
+        {
+          "source": "HKEX Newly Listed Securities / New Listing Information",
+          "dateRange": "2026-07-23",
+          "result": "当日条目为 CNCB IT UCS E、ANHUI THG B2907、CNCB IT UCS F-R 债券/债务证券新上市，不计公司类 IPO，hkexNewListings=0。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-07-23",
+          "result": "四个中英文结构化 JSON 均更新至 23/07/2026；AP-only app.length=378，AP+PHIP app.length=5。按本日文档日期筛选：NEW AP=0、PHIP=0。"
+        },
+        {
+          "source": "CSRC overseas filing notice / supplement / filing progress pages",
+          "dateRange": "2026-07-23",
+          "result": "未见本自然日新增单家公司备案通知书、补充材料公示或备案情况表更新；csrcCount=0。"
+        },
+        {
+          "source": "SEC EDGAR official daily-index",
+          "dateRange": "2026-07-23",
+          "result": "SEC EDGAR 20260723 master daily-index 于香港时间 09:30 尚未发布/官方端点未可用，早盘 usChinaIpoCount=0，后续流程应回扫。"
+        }
+      ],
+      "deals": []
+    }
+  },
+  "linkMap": {
+    "GovHK 2026 General Holidays": "https://www.gov.hk/en/about/abouthk/holiday/2026.htm",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "HKEX AP structured JSON Chinese": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_c.json",
+    "HKEX AP/PHIP structured JSON Chinese": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_c.json",
+    "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "CSRC Overseas Filing Notice List": "https://www.csrc.gov.cn/csrc/c105984/common_list.shtml",
+    "CSRC Overseas Filing Progress": "https://www.csrc.gov.cn/csrc/c106251/common_list.shtml",
+    "SEC EDGAR master 20260723": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/master.20260723.idx"
+  }
+}
