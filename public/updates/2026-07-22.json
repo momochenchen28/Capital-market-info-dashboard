@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-07-22T09:30:00+08:00",
+  "generatedAt": "2026-07-23T09:30:00+08:00",
   "dailyReports": {
     "2026-07-22": {
       "date": "2026-07-22",
       "reportType": "briefing",
       "title": "资本市场快报",
-      "subtitle": "港股正常交易日；截至 09:30，港股新挂牌、HKEX AP/PHIP、证监会境外备案及美股中概 IPO 未见当日新增。",
-      "statusNote": "数据截至 2026-07-22 09:30 早盘官方源。2026-07-22 为周三，且不在香港 2026 年公众假期列表内，按港股正常交易日处理。HKEX Newly Listed Securities 截至早盘未列出 22/07/2026 公司类 IPO 新挂牌，hkexNewListings=0。 HKEX AP-only 中英文 JSON 与 AP+PHIP 中英文 JSON 均已回扫，按 22/07/2026 文档日期筛选 NEW AP=0、PHIP=0。证监会境外上市类、备案通知书及备案情况表官方页未见本自然日更新，csrcCount=0。SEC EDGAR 20260722 master daily-index 于香港时间 09:30 检查尚未发布（官方端点返回 403/未可用），早盘 usChinaIpoCount=0，后续流程应回扫。",
-      "archiveNotice": "本文件由 2026-07-22 09:30 早盘流程创建。AP 与 PHIP 分开统计，并统一使用前端可读取的 apApplications[]；本日两者均为 0，因此不创建 AP/PHIP 容器或假公司卡。证监会 csrcCount 仅统计单家公司新增《境外发行上市备案通知书》，补充材料公示和备案情况表仅作监管更新且不计数。",
+      "subtitle": "港股正常交易日；回扫补录广西百菲乳业、臻驱科技（上海）、上海生生医药冷链科技 3 家 HKEX 首次递表。",
+      "statusNote": "数据由 2026-07-23 09:30 流程回扫更新。2026-07-22 为港股正常交易日；HKEX Newly Listed Securities 当日仅列 SD COM B2907-R 债券新上市，不属于公司类 IPO，hkexNewListings=0。HKEX AP-only 中英文 JSON 已更新至 23/07/2026（app.length=378），按 22/07/2026 首次 Application Proof 文档日期确认 NEW AP 3 家：Guangxi Baifei Dairy Co., Ltd.、Leadrive Technology (SHANGHAI) Co., Ltd.、Shanghai Shengsheng Pharmaceutical Cold Chain Technology Co., Ltd.；AP+PHIP 中英文 JSON app.length=5，PHIP=0。POCO 的整体协调人修订公告及 NASN 的整体协调人退任公告属于既有申请后续文件，不计 NEW AP。证监会未见本自然日新增备案通知书、补充材料公示或备案情况表更新，csrcCount=0。SEC EDGAR 20260722 master daily-index 于香港时间 09:30 尚未发布/官方端点未可用，早盘 usChinaIpoCount=0，后续流程继续回扫。",
+      "archiveNotice": "本文件由 2026-07-23 09:30 流程回扫更新，补录 2026-07-22 晚于上次早盘快照出现的 3 家首次递表。AP 与 PHIP 分开统计，并统一使用前端可读取的 apApplications[]，以 status/documentType 区分；无新增类别不创建假公司卡。证监会 csrcCount 仅统计单家公司新增《境外发行上市备案通知书》。",
       "observations": [
-        "港股交易日判断：2026-07-22 为周三，且不在香港 2026 年公众假期列表内，按正常交易日处理。",
-        "HKEX Newly Listed Securities 截至早盘未列出 22/07/2026 公司类 IPO 新挂牌，hkexNewListings=0。",
-        "港股递表/聆讯：HKEX AP-only 中英文 JSON（uDate=22/07/2026，app.length=378）及 AP+PHIP 中英文 JSON（uDate=22/07/2026，app.length=5）已核对；本日 AP=0、PHIP=0。",
-        "证监会备案：未见本自然日新增单家公司《境外发行上市备案通知书》；未见本自然日补充材料公示或备案情况表更新，csrcCount=0。",
-        "SEC EDGAR 20260722 master daily-index 于香港时间 09:30 检查尚未发布（官方端点返回 403/未可用），早盘 usChinaIpoCount=0，后续流程应回扫。"
+        "港股交易日判断：2026-07-22 为周三，且不在香港公众假期列表内，按正常交易日处理。",
+        "港股新挂牌：HKEX Newly Listed Securities 的 22/07/2026 条目仅为 SD COM B2907-R 债券，不属于公司类 IPO，hkexNewListings=0。",
+        "港股递表/聆讯：23/07/2026 版 HKEX AP-only JSON 回溯确认 22/07/2026 NEW AP=3；AP+PHIP JSON 同日 PHIP=0。POCO 修订 OC 公告及 NASN OC 退任公告不计 NEW AP。",
+        "证监会备案：未见本自然日新增单家公司《境外发行上市备案通知书》；未见补充材料公示或备案情况表当日更新，csrcCount=0。",
+        "SEC EDGAR 20260722 master daily-index 于香港时间 09:30 尚未发布/官方端点未可用，早盘 usChinaIpoCount=0，后续流程应继续回扫。"
       ],
       "metrics": {
         "hkexNewListings": 0,
-        "apNewCount": 0,
+        "apNewCount": 3,
         "phipCount": 0,
         "csrcCount": 0,
         "usChinaIpoCount": 0
@@ -36,7 +36,7 @@
         {
           "source": "HKEX AP-only / AP+PHIP structured JSON",
           "dateRange": "2026-07-22",
-          "result": "四个中英文结构化 JSON 均更新至 22/07/2026；AP-only app.length=378，AP+PHIP app.length=5。按本日文档日期筛选 NEW AP=0、PHIP=0。"
+          "result": "23/07/2026 版 AP-only 中英文 JSON app.length=378，按 22/07/2026 首次 Application Proof 文档日期确认 NEW AP=3（广西百菲乳业、臻驱科技（上海）、上海生生医药冷链科技）；AP+PHIP 中英文 JSON app.length=5，PHIP=0。POCO 修订 OC 公告及 NASN OC 退任公告不计 NEW AP。"
         },
         {
           "source": "CSRC overseas filing notice / supplement / filing progress pages",
@@ -49,7 +49,77 @@
           "result": "SEC EDGAR 20260722 master daily-index 于香港时间 09:30 检查尚未发布（官方端点返回 403/未可用），早盘 usChinaIpoCount=0，后续流程应回扫。"
         }
       ],
-      "deals": []
+      "deals": [
+        {
+          "id": "hkex-ap-phip-20260722",
+          "section": "港股递表/聆讯",
+          "type": "AP / PHIP 更新",
+          "status": "3家递表 / 无新增聆讯",
+          "eventType": "hkexApPhip",
+          "countInMetrics": true,
+          "company": {
+            "zh": "HKEX AP/PHIP 官方文件更新",
+            "en": "HKEX AP/PHIP official filing updates",
+            "display": "HKEX AP/PHIP 官方文件更新（2026-07-22）",
+            "exchange": "HKEX",
+            "board": "Main Board"
+          },
+          "business": {
+            "sector": "新上市申请文件",
+            "summary": "HKEX AP-only JSON 按 22/07/2026 首次 Application Proof 文档日期筛出 3 家 NEW AP；AP+PHIP JSON 同日 PHIP 0 家。"
+          },
+          "metrics": {
+            "apNewCount": 3,
+            "phipCount": 0
+          },
+          "apApplications": [
+            {
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "广西百菲乳业股份有限公司",
+              "nameEn": "Guangxi Baifei Dairy Co., Ltd.",
+              "filingDate": "2026-07-22",
+              "structure": "境内股份有限公司 / H股申请",
+              "sector": "乳制品 / 待招股书正文复核",
+              "sponsors": "待招股书正文复核",
+              "businessSummary": "HKEX 官方 AP JSON 确认 2026-07-22 首次递表；公司从事乳制品相关业务，细分业务及中介名单待招股书正文复核。",
+              "prospectusLink": "Baifei Dairy Application Proof English"
+            },
+            {
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "臻驱科技（上海）股份有限公司",
+              "nameEn": "Leadrive Technology (SHANGHAI) Co., Ltd.",
+              "filingDate": "2026-07-22",
+              "structure": "境内股份有限公司 / H股申请",
+              "sector": "新能源汽车电驱动 / 待招股书正文复核",
+              "sponsors": "待招股书正文复核",
+              "businessSummary": "HKEX 官方 AP JSON 确认 2026-07-22 首次递表；公司聚焦新能源汽车电驱动相关技术，细分业务及中介名单待招股书正文复核。",
+              "prospectusLink": "Leadrive Application Proof English"
+            },
+            {
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "上海生生医药冷链科技股份有限公司",
+              "nameEn": "Shanghai Shengsheng Pharmaceutical Cold Chain Technology Co., Ltd.",
+              "filingDate": "2026-07-22",
+              "structure": "境内股份有限公司 / H股申请",
+              "sector": "医药冷链物流 / 待招股书正文复核",
+              "sponsors": "待招股书正文复核",
+              "businessSummary": "HKEX 官方 AP JSON 确认 2026-07-22 首次递表；公司从事医药冷链相关服务，细分业务及中介名单待招股书正文复核。",
+              "prospectusLink": "Shengsheng Pharma Cold Chain Application Proof English"
+            }
+          ],
+          "links": [
+            "HKEX AP structured JSON",
+            "HKEX AP/PHIP structured JSON",
+            "HKEX AP structured JSON Chinese",
+            "Baifei Dairy Application Proof English",
+            "Leadrive Application Proof English",
+            "Shengsheng Pharma Cold Chain Application Proof English"
+          ]
+        }
+      ]
     }
   },
   "linkMap": {
@@ -61,6 +131,10 @@
     "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
     "CSRC Overseas Filing Results": "https://www.csrc.gov.cn/csrc/c105984/common_list.shtml",
     "CSRC Overseas Filing Progress": "https://www.csrc.gov.cn/csrc/c106251/common_list.shtml",
-    "SEC EDGAR master 20260722": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/master.20260722.idx"
+    "SEC EDGAR master 20260722": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/master.20260722.idx",
+    "HKEX AP structured JSON Chinese": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_c.json",
+    "Baifei Dairy Application Proof English": "https://www1.hkexnews.hk/app/sehk/2026/108749/documents/sehk26072200212.pdf",
+    "Leadrive Application Proof English": "https://www1.hkexnews.hk/app/sehk/2026/108750/documents/sehk26072201076.pdf",
+    "Shengsheng Pharma Cold Chain Application Proof English": "https://www1.hkexnews.hk/app/sehk/2026/108751/documents/sehk26072201244.pdf"
   }
 }
