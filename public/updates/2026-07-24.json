@@ -1,0 +1,150 @@
+{
+  "generatedAt": "2026-07-28T09:30:00+08:00",
+  "dailyReports": {
+    "2026-07-24": {
+      "date": "2026-07-24",
+      "reportType": "briefing",
+      "title": "资本市场快报",
+      "subtitle": "港股正常交易日；回扫补录 3 家 HKEX 首次递表及 2 项证监会监管更新。",
+      "statusNote": "由 2026-07-28 09:30 流程回扫更新。HKEX AP-only 28/07/2026 版 JSON 按 24/07/2026 首次 Application Proof 筛出众安信科（深圳）、北京普祺医药科技-B、广州新济医药-B 3 家 NEW AP；PHIP=0。HKEX Newly Listed Securities 当日仅含公司行动及债券，不计公司类 IPO。证监会于本日发布境外发行上市备案补充材料要求公示（2026年7月13日—7月24日）及截至7月24日备案情况表，两项仅作监管更新且不计 csrcCount；未见单家公司新增备案通知书。SEC EDGAR 20260724 daily-index 未见 F-1/F-1/A。",
+      "archiveNotice": "AP 与 PHIP 分开统计并统一放入 apApplications[]；证监会补充材料公示和备案情况表 countInMetrics=false，csrcCount=0。",
+      "observations": [
+        "港股交易日：2026-07-24 为周五正常交易日。",
+        "HKEX：NEW AP=3、PHIP=0；修订 OC 公告不计首次递表。",
+        "证监会：补充材料公示及备案情况表各更新 1 项，均不计 csrcCount。",
+        "SEC EDGAR：20260724 daily-index 未见 F-1/F-1/A。"
+      ],
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 3,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "officialSourceChecks": [
+        {
+          "source": "HKEX Newly Listed Securities",
+          "dateRange": "2026-07-24",
+          "result": "仅见公司行动及债券新上市，无公司类 IPO。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-07-24",
+          "result": "28/07/2026 版 JSON 回扫确认 NEW AP=3、PHIP=0。"
+        },
+        {
+          "source": "CSRC official filing pages",
+          "dateRange": "2026-07-24",
+          "result": "补充材料公示和截至7月24日备案情况表更新；无单家公司新增备案通知书，csrcCount=0。"
+        },
+        {
+          "source": "SEC EDGAR official daily-index",
+          "dateRange": "2026-07-24",
+          "result": "master.20260724.idx 未见 F-1/F-1/A。"
+        }
+      ],
+      "deals": [
+        {
+          "id": "hkex-ap-20260724",
+          "section": "港股递表/聆讯",
+          "type": "AP / PHIP 更新",
+          "status": "3家递表 / 无新增聆讯",
+          "eventType": "hkexApPhip",
+          "countInMetrics": true,
+          "company": {
+            "zh": "HKEX AP/PHIP 官方文件更新",
+            "en": "HKEX AP/PHIP official filing updates",
+            "display": "HKEX AP/PHIP 官方文件更新（2026-07-24）",
+            "exchange": "HKEX",
+            "board": "Main Board"
+          },
+          "business": {
+            "sector": "新上市申请文件",
+            "summary": "3 家首次递表；无 PHIP。"
+          },
+          "metrics": {
+            "apNewCount": 3,
+            "phipCount": 0
+          },
+          "apApplications": [
+            {
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "众安信科（深圳）股份有限公司",
+              "nameEn": "ZhongAn Information Technology (Shenzhen) Co., Ltd.",
+              "filingDate": "2026-07-24",
+              "structure": "境内股份有限公司 / H股申请",
+              "sector": "保险科技 / 企业数字化",
+              "sponsors": "以招股书为准",
+              "businessSummary": "HKEX 官方 AP JSON 确认 2026-07-24 首次递表。",
+              "prospectusLink": "ZhongAn Information Technology AP"
+            },
+            {
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "北京普祺医药科技股份有限公司-B",
+              "nameEn": "PrimeGenX Therapeutics Co., Ltd. - B",
+              "filingDate": "2026-07-24",
+              "structure": "境内股份有限公司 / H股申请 / 18A",
+              "sector": "创新药",
+              "sponsors": "以招股书为准",
+              "businessSummary": "HKEX 官方 AP JSON 确认 2026-07-24 首次递表。",
+              "prospectusLink": "PrimeGenX Therapeutics AP"
+            },
+            {
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "广州新济医药股份有限公司-B",
+              "nameEn": "Guangzhou Novaken Pharm Co., Ltd. - B",
+              "filingDate": "2026-07-24",
+              "structure": "境内股份有限公司 / H股申请 / 18A",
+              "sector": "创新药",
+              "sponsors": "以招股书为准",
+              "businessSummary": "HKEX 官方 AP JSON 确认 2026-07-24 首次递表。",
+              "prospectusLink": "Guangzhou Novaken Pharm AP"
+            }
+          ],
+          "links": [
+            "HKEX AP structured JSON",
+            "HKEX AP/PHIP structured JSON",
+            "ZhongAn Information Technology AP",
+            "PrimeGenX Therapeutics AP",
+            "Guangzhou Novaken Pharm AP"
+          ]
+        },
+        {
+          "id": "csrc-regulatory-20260724",
+          "section": "监管更新",
+          "type": "证监会境外上市监管更新",
+          "status": "2项公示更新（不计备案通知书）",
+          "eventType": "csrcRegulatory",
+          "countInMetrics": false,
+          "company": {
+            "zh": "中国证监会境外发行上市监管更新",
+            "en": "CSRC overseas listing regulatory updates",
+            "display": "证监会监管更新（2026-07-24）"
+          },
+          "business": {
+            "sector": "境外上市备案监管",
+            "summary": "发布补充材料要求公示及截至7月24日备案情况表；均不计 csrcCount。"
+          },
+          "links": [
+            "CSRC Supplement Materials 20260724",
+            "CSRC Filing Progress 20260724"
+          ]
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "ZhongAn Information Technology AP": "https://www1.hkexnews.hk/app/sehk/2026/108752/documents/sehk26072401795.pdf",
+    "PrimeGenX Therapeutics AP": "https://www1.hkexnews.hk/app/sehk/2026/108754/documents/sehk26072401933.pdf",
+    "Guangzhou Novaken Pharm AP": "https://www1.hkexnews.hk/app/sehk/2026/108755/documents/sehk26072402029.pdf",
+    "CSRC Supplement Materials 20260724": "https://www.csrc.gov.cn/csrc/c100098/c7647514/content.shtml",
+    "CSRC Filing Progress 20260724": "https://www.csrc.gov.cn/csrc/c106251/c7647524/content.shtml",
+    "SEC EDGAR master 20260724": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/master.20260724.idx"
+  }
+}
