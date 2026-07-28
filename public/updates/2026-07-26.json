@@ -1,0 +1,93 @@
+{
+  "generatedAt": "2026-07-28T09:30:00+08:00",
+  "dailyReports": {
+    "2026-07-26": {
+      "date": "2026-07-26",
+      "reportType": "official-update",
+      "title": "资本市场官方文件更新",
+      "subtitle": "港股非交易日；HKEX 于周日发布拿森智能科技（浙江）及 SHEIN 两家 PHIP。",
+      "statusNote": "2026-07-26 为周日、非港股交易日。HKEX AP+PHIP 28/07/2026 版结构化 JSON 按实际文档日期确认 2 家 PHIP：拿森智能科技（浙江）股份有限公司、SHEIN Global Holdings Limited；NEW AP=0。依自然日单独归档，不并入 7 月 27 日。",
+      "archiveNotice": "非交易日仅因官方 PHIP 更新建档；AP 与 PHIP 分开统计并统一放入 apApplications[]。",
+      "observations": [
+        "港股交易日：周日，非交易日。",
+        "HKEX：PHIP=2、NEW AP=0。",
+        "证监会与 SEC 未见本自然日目标类别更新。"
+      ],
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 0,
+        "phipCount": 2,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "officialSourceChecks": [
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-07-26",
+          "result": "PHIP=2、NEW AP=0。"
+        }
+      ],
+      "deals": [
+        {
+          "id": "hkex-phip-20260726",
+          "section": "港股递表/聆讯",
+          "type": "AP / PHIP 更新",
+          "status": "无新增递表 / 2家聆讯后资料集",
+          "eventType": "hkexApPhip",
+          "countInMetrics": true,
+          "company": {
+            "zh": "HKEX AP/PHIP 官方文件更新",
+            "en": "HKEX AP/PHIP official filing updates",
+            "display": "HKEX AP/PHIP 官方文件更新（2026-07-26）",
+            "exchange": "HKEX",
+            "board": "Main Board"
+          },
+          "business": {
+            "sector": "聆讯后资料集",
+            "summary": "周日发布 2 家 PHIP。"
+          },
+          "metrics": {
+            "apNewCount": 0,
+            "phipCount": 2
+          },
+          "apApplications": [
+            {
+              "status": "PHIP",
+              "documentType": "PHIP (1st submission)",
+              "nameZh": "拿森智能科技（浙江）股份有限公司",
+              "nameEn": "NASN Intelligent Tech (Zhejiang) Co., Ltd.",
+              "filingDate": "2026-07-26",
+              "structure": "境内股份有限公司 / H股申请",
+              "sector": "汽车智能底盘",
+              "sponsors": "以 PHIP 为准",
+              "businessSummary": "HKEX 官方 AP+PHIP JSON 确认 2026-07-26 发布聆讯后资料集。",
+              "prospectusLink": "NASN PHIP"
+            },
+            {
+              "status": "PHIP",
+              "documentType": "PHIP (1st submission)",
+              "nameZh": "希音国际控股有限公司",
+              "nameEn": "SHEIN Global Holdings Limited",
+              "filingDate": "2026-07-26",
+              "structure": "境外注册 / 同股不同权",
+              "sector": "全球时尚电商",
+              "sponsors": "以 PHIP 为准",
+              "businessSummary": "HKEX 官方 AP+PHIP JSON 确认 2026-07-26 发布聆讯后资料集。",
+              "prospectusLink": "SHEIN PHIP"
+            }
+          ],
+          "links": [
+            "HKEX AP/PHIP structured JSON",
+            "NASN PHIP",
+            "SHEIN PHIP"
+          ]
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "NASN PHIP": "https://www1.hkexnews.hk/app/sehk/2026/108480/documents/sehk26072600038.pdf",
+    "SHEIN PHIP": "https://www1.hkexnews.hk/app/sehk/2026/108766/documents/sehk26072600126.pdf"
+  }
+}
