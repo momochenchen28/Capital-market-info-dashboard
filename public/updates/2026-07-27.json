@@ -1,0 +1,85 @@
+{
+  "generatedAt": "2026-07-28T09:30:00+08:00",
+  "dailyReports": {
+    "2026-07-27": {
+      "date": "2026-07-27",
+      "reportType": "briefing",
+      "title": "资本市场快报",
+      "subtitle": "港股正常交易日；回扫补录斯坦德机器人（无锡）1 家 HKEX 首次递表。",
+      "statusNote": "由 2026-07-28 09:30 流程回扫。HKEX AP-only JSON 确认斯坦德机器人（无锡）于 27/07/2026 首次递表；用友网络当日仅修订 OC 公告，不计 NEW AP。PHIP=0；未见公司类 IPO 新挂牌或证监会单家公司备案通知书。SEC 20260727 daily-index 截至香港时间 7 月 28 日 09:30 尚未可用。",
+      "archiveNotice": "AP 与 PHIP 分开展示并统一使用 apApplications[]；无新增类别不创建假公司卡。",
+      "observations": [
+        "港股交易日：2026-07-27 为周一正常交易日。",
+        "HKEX：NEW AP=1、PHIP=0；用友网络修订 OC 公告不计首次递表。",
+        "SEC 20260727 daily-index 早盘尚未可用，后续继续回扫。"
+      ],
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 1,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "officialSourceChecks": [
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-07-27",
+          "result": "NEW AP=1、PHIP=0。用友网络仅修订 OC 公告。"
+        },
+        {
+          "source": "SEC EDGAR official daily-index",
+          "dateRange": "2026-07-27",
+          "result": "截至 2026-07-28 09:30（香港时间）官方 daily-index 尚未可用。"
+        }
+      ],
+      "deals": [
+        {
+          "id": "hkex-ap-20260727",
+          "section": "港股递表/聆讯",
+          "type": "AP / PHIP 更新",
+          "status": "1家递表 / 无新增聆讯",
+          "eventType": "hkexApPhip",
+          "countInMetrics": true,
+          "company": {
+            "zh": "HKEX AP/PHIP 官方文件更新",
+            "en": "HKEX AP/PHIP official filing updates",
+            "display": "HKEX AP/PHIP 官方文件更新（2026-07-27）",
+            "exchange": "HKEX",
+            "board": "Main Board"
+          },
+          "business": {
+            "sector": "新上市申请文件",
+            "summary": "斯坦德机器人（无锡）首次递表。"
+          },
+          "metrics": {
+            "apNewCount": 1,
+            "phipCount": 0
+          },
+          "apApplications": [
+            {
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "斯坦德机器人（无锡）股份有限公司",
+              "nameEn": "Standard Robots (Wuxi) Co., Ltd.",
+              "filingDate": "2026-07-27",
+              "structure": "境内股份有限公司 / H股申请",
+              "sector": "工业移动机器人",
+              "sponsors": "以招股书为准",
+              "businessSummary": "HKEX 官方 AP JSON 确认 2026-07-27 首次递表。",
+              "prospectusLink": "Standard Robots AP"
+            }
+          ],
+          "links": [
+            "HKEX AP structured JSON",
+            "Standard Robots AP"
+          ]
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "Standard Robots AP": "https://www1.hkexnews.hk/app/sehk/2026/108767/documents/sehk26072701068.pdf",
+    "SEC EDGAR master 20260727": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/master.20260727.idx"
+  }
+}
