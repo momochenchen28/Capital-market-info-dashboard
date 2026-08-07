@@ -149,6 +149,9 @@
           },
           "intermediaries": "联席保荐人：高盛、中金公司、摩根士丹利、广发证券",
           "timeline": [
+            "2026-04：向 HKEX 递交秘密上市申请",
+            "2026-07-08：中国证监会备案通知书（国合函〔2026〕1646号）日期",
+            "2026-07-17：HKEX 刊发聆讯后资料集（PHIP）",
             "2026-07-22：刊发招股书并启动全球发售",
             "2026-07-29：刊发配发结果公告",
             "2026-07-30：H 股于港交所主板挂牌（股份代号 03308）"
@@ -160,8 +163,12 @@
           },
           "links": [
             {
-              "label": "HKEX 招股书/多档案页面",
-              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0722/2026072200023_c.htm"
+              "label": "HKEX 招股书",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0722/2026072200014_c.pdf"
+            },
+            {
+              "label": "证监会备案通知书",
+              "url": "https://www.csrc.gov.cn/csrc/c105984/c7646095/content.shtml"
             },
             {
               "label": "HKEX Newly Listed Securities",
