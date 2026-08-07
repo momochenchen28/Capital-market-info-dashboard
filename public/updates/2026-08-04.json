@@ -1,0 +1,94 @@
+{
+  "generatedAt": "2026-08-07T12:24:02+08:00",
+  "dailyReports": {
+    "2026-08-04": {
+      "date": "2026-08-04",
+      "reportType": "briefing",
+      "title": "资本市场快报",
+      "subtitle": "港股正常交易日；公司类 IPO 新挂牌 0 家，NEW AP 1 家，PHIP 0 家。",
+      "statusNote": "2026-08-04 为港股正常交易日。本次 09:30 流程于 2026-08-07T12:24:02+08:00 补跑并按官方自然日归档。HKEX AP-only 中英文 JSON 更新至 07/08/2026，按文档日期筛选 NEW AP=1；AP+PHIP 中文 JSON 共 5 条且目标区间无新 PHIP。Newly Listed Securities 当日未见公司类 IPO 新挂牌。 证监会 csrcCount 严格只计单家公司备案通知书，本日为 0。SEC 官方 daily-index 访问受 403 限制，未作未经官方核验的计数。",
+      "archiveNotice": "仅展示真实官方事件；未为无事件类别创建占位公司卡。",
+      "observations": [
+        "港股交易日：2026-08-04 为周二正常交易日。",
+        "HKEX：公司类 IPO 新挂牌=0、NEW AP=1、PHIP=0。",
+        "证监会：目标类别未见当日单家公司《境外发行上市备案通知书》新增，csrcCount=0；补充材料公示及备案情况表亦未见可确认的当日更新。",
+        "SEC：官方 daily-index 在本次运行环境返回 403，未据非官方结果计入事件；下次运行继续回扫。"
+      ],
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 1,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "officialSourceChecks": [
+        {
+          "source": "HKEX Newly Listed Securities",
+          "dateRange": "2026-08-04",
+          "result": "未见公司类 IPO 新挂牌。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-08-04",
+          "result": "按文件日期筛选 NEW AP=1、PHIP=0。"
+        },
+        {
+          "source": "CSRC official filing pages",
+          "dateRange": "2026-08-04",
+          "result": "未见可确认的单家公司备案通知书、补充材料公示或备案情况表当日更新；csrcCount=0。"
+        },
+        {
+          "source": "SEC EDGAR official daily-index",
+          "dateRange": "2026-08-04",
+          "result": "本次运行环境访问返回 403；未将非官方线索计入，保留下次自然日回扫。"
+        }
+      ],
+      "deals": [
+        {
+          "id": "hkex-ap-20260804",
+          "section": "港股递表/聆讯",
+          "eventType": "hkexApplication",
+          "countInMetrics": false,
+          "company": "HKEX 当日新增上市申请（1 家）",
+          "status": "NEW AP",
+          "documentType": "AP",
+          "summary": "HKEX AP-only 结构化数据按文件日期筛选，共 1 家；AP 与 PHIP 分开统计。",
+          "apApplications": [
+            {
+              "id": "ap-20260804-1",
+              "nameZh": "杭州雲動智能汽車技術股份有限公司",
+              "nameEn": "Hangzhou Yodosmart Automotive Technology Co., Ltd.",
+              "filingDate": "2026-08-04",
+              "documentType": "AP",
+              "status": "NEW AP",
+              "sector": "汽车科技 / 智能驾驶",
+              "structure": "主板上市申请",
+              "sponsors": "以申请版本封面及参与方章节为准",
+              "businessSummary": "提供智能汽车相关技术、产品与解决方案；具体业务结构以申请版本为准。",
+              "prospectusLink": "https://www1.hkexnews.hk/app/sehk/2026/108786/documents/sehk26080402104.pdf",
+              "prospectusLinkZh": "https://www1.hkexnews.hk/app/sehk/2026/108786/documents/sehk26080402103_c.pdf",
+              "links": [
+                {
+                  "label": "英文申请版本",
+                  "url": "https://www1.hkexnews.hk/app/sehk/2026/108786/documents/sehk26080402104.pdf"
+                },
+                {
+                  "label": "中文申请版本",
+                  "url": "https://www1.hkexnews.hk/app/sehk/2026/108786/documents/sehk26080402103_c.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_c.json",
+    "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "CSRC Overseas Filing Progress": "https://www.csrc.gov.cn/csrc/c106251/common_list.shtml",
+    "SEC EDGAR master 20260804": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/master.20260804.idx"
+  }
+}
