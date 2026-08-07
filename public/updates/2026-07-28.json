@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-07-28T09:30:00+08:00",
+  "generatedAt": "2026-08-07T12:24:02+08:00",
   "dailyReports": {
     "2026-07-28": {
       "date": "2026-07-28",
       "reportType": "briefing",
       "title": "资本市场快报",
-      "subtitle": "港股正常交易日；截至 09:30，目标官方类别未见当日新增。",
-      "statusNote": "2026-07-28 为周二正常交易日。HKEX AP-only 中英文 JSON uDate=28/07/2026、app.length=358；AP+PHIP 中英文 JSON uDate=28/07/2026、app.length=7；按 28/07/2026 文档日期筛选 NEW AP=0、PHIP=0。Newly Listed Securities 当日仅见 TZ URBAN B2907 债券拟新上市，无公司类 IPO。证监会未见当日单家公司备案通知书、补充材料公示或备案情况表更新。SEC 20260728 daily-index 于香港时间 09:30 尚未发布。",
-      "archiveNotice": "当日无新增事件，deals=[]，不创建假公司卡。",
+      "subtitle": "港股正常交易日；公司类 IPO 新挂牌 0 家，NEW AP 2 家，PHIP 0 家。",
+      "statusNote": "2026-07-28 为港股正常交易日。本次 09:30 流程于 2026-08-07T12:24:02+08:00 补跑并按官方自然日归档。HKEX AP-only 中英文 JSON 更新至 07/08/2026，按文档日期筛选 NEW AP=2；AP+PHIP 中文 JSON 共 5 条且目标区间无新 PHIP。Newly Listed Securities 当日未见公司类 IPO 新挂牌。 证监会 csrcCount 严格只计单家公司备案通知书，本日为 0。SEC 官方 daily-index 访问受 403 限制，未作未经官方核验的计数。",
+      "archiveNotice": "仅展示真实官方事件；未为无事件类别创建占位公司卡。",
       "observations": [
         "港股交易日：2026-07-28 为周二正常交易日。",
-        "HKEX：公司类 IPO 新挂牌=0、NEW AP=0、PHIP=0。",
-        "证监会：目标类别无当日新增。",
-        "SEC：20260728 daily-index 早盘尚未发布。"
+        "HKEX：公司类 IPO 新挂牌=0、NEW AP=2、PHIP=0。",
+        "证监会：目标类别未见当日单家公司《境外发行上市备案通知书》新增，csrcCount=0；补充材料公示及备案情况表亦未见可确认的当日更新。",
+        "SEC：官方 daily-index 在本次运行环境返回 403，未据非官方结果计入事件；下次运行继续回扫。"
       ],
       "metrics": {
         "hkexNewListings": 0,
-        "apNewCount": 0,
+        "apNewCount": 2,
         "phipCount": 0,
         "csrcCount": 0,
         "usChinaIpoCount": 0
@@ -25,31 +25,92 @@
         {
           "source": "HKEX Newly Listed Securities",
           "dateRange": "2026-07-28",
-          "result": "仅见债券拟新上市，无公司类 IPO。"
+          "result": "未见公司类 IPO 新挂牌。"
         },
         {
           "source": "HKEX AP-only / AP+PHIP structured JSON",
           "dateRange": "2026-07-28",
-          "result": "AP-only app.length=358，AP+PHIP app.length=7；当日 NEW AP=0、PHIP=0。"
+          "result": "按文件日期筛选 NEW AP=2、PHIP=0。"
         },
         {
           "source": "CSRC official filing pages",
           "dateRange": "2026-07-28",
-          "result": "未见目标类别当日更新。"
+          "result": "未见可确认的单家公司备案通知书、补充材料公示或备案情况表当日更新；csrcCount=0。"
         },
         {
           "source": "SEC EDGAR official daily-index",
           "dateRange": "2026-07-28",
-          "result": "香港时间 09:30 尚未发布。"
+          "result": "本次运行环境访问返回 403；未将非官方线索计入，保留下次自然日回扫。"
         }
       ],
-      "deals": []
+      "deals": [
+        {
+          "id": "hkex-ap-20260728",
+          "section": "港股递表/聆讯",
+          "eventType": "hkexApplication",
+          "countInMetrics": false,
+          "company": "HKEX 当日新增上市申请（2 家）",
+          "status": "NEW AP",
+          "documentType": "AP",
+          "summary": "HKEX AP-only 结构化数据按文件日期筛选，共 2 家；AP 与 PHIP 分开统计。",
+          "apApplications": [
+            {
+              "id": "ap-20260728-1",
+              "nameZh": "寧波德業科技股份有限公司",
+              "nameEn": "Ningbo Deye Technology Corporation",
+              "filingDate": "2026-07-28",
+              "documentType": "AP",
+              "status": "NEW AP",
+              "sector": "新能源 / 光储",
+              "structure": "主板上市申请",
+              "sponsors": "中金公司、中信证券、民银资本",
+              "businessSummary": "光伏逆变器、储能及相关能源解决方案提供商。",
+              "prospectusLink": "https://www1.hkexnews.hk/app/sehk/2026/108768/documents/sehk26072800883.pdf",
+              "prospectusLinkZh": "https://www1.hkexnews.hk/app/sehk/2026/108768/documents/sehk26072800882_c.pdf",
+              "links": [
+                {
+                  "label": "英文申请版本",
+                  "url": "https://www1.hkexnews.hk/app/sehk/2026/108768/documents/sehk26072800883.pdf"
+                },
+                {
+                  "label": "中文申请版本",
+                  "url": "https://www1.hkexnews.hk/app/sehk/2026/108768/documents/sehk26072800882_c.pdf"
+                }
+              ]
+            },
+            {
+              "id": "ap-20260728-2",
+              "nameZh": "聚辰半導體股份有限公司",
+              "nameEn": "Giantec Semiconductor Corporation",
+              "filingDate": "2026-07-28",
+              "documentType": "AP",
+              "status": "NEW AP",
+              "sector": "半导体 / 存储芯片",
+              "structure": "主板上市申请",
+              "sponsors": "以申请版本封面及参与方章节为准",
+              "businessSummary": "无晶圆厂集成电路设计企业，产品覆盖 EEPROM、智能卡芯片及音圈马达驱动芯片等。",
+              "prospectusLink": "https://www1.hkexnews.hk/app/sehk/2026/108769/documents/sehk26072800992.pdf",
+              "prospectusLinkZh": "https://www1.hkexnews.hk/app/sehk/2026/108769/documents/sehk26072800991_c.pdf",
+              "links": [
+                {
+                  "label": "英文申请版本",
+                  "url": "https://www1.hkexnews.hk/app/sehk/2026/108769/documents/sehk26072800992.pdf"
+                },
+                {
+                  "label": "中文申请版本",
+                  "url": "https://www1.hkexnews.hk/app/sehk/2026/108769/documents/sehk26072800991_c.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   },
   "linkMap": {
     "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
     "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
-    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_c.json",
     "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
     "CSRC Overseas Filing Progress": "https://www.csrc.gov.cn/csrc/c106251/common_list.shtml",
     "SEC EDGAR master 20260728": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/master.20260728.idx"
