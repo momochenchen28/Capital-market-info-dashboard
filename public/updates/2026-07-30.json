@@ -1,0 +1,183 @@
+{
+  "generatedAt": "2026-08-07T12:24:02+08:00",
+  "dailyReports": {
+    "2026-07-30": {
+      "date": "2026-07-30",
+      "reportType": "briefing",
+      "title": "资本市场快报",
+      "subtitle": "港股正常交易日；公司类 IPO 新挂牌 1 家，NEW AP 3 家，PHIP 0 家。",
+      "statusNote": "2026-07-30 为港股正常交易日。本次 09:30 流程于 2026-08-07T12:24:02+08:00 补跑并按官方自然日归档。HKEX AP-only 中英文 JSON 更新至 07/08/2026，按文档日期筛选 NEW AP=3；AP+PHIP 中文 JSON 共 5 条且目标区间无新 PHIP。Newly Listed Securities 显示 中际旭创股份有限公司（03308） 当日公司类 IPO 新挂牌。 证监会 csrcCount 严格只计单家公司备案通知书，本日为 0。SEC 官方 daily-index 访问受 403 限制，未作未经官方核验的计数。",
+      "archiveNotice": "仅展示真实官方事件；未为无事件类别创建占位公司卡。",
+      "observations": [
+        "港股交易日：2026-07-30 为周四正常交易日。",
+        "HKEX：公司类 IPO 新挂牌=1、NEW AP=3、PHIP=0。",
+        "证监会：目标类别未见当日单家公司《境外发行上市备案通知书》新增，csrcCount=0；补充材料公示及备案情况表亦未见可确认的当日更新。",
+        "SEC：官方 daily-index 在本次运行环境返回 403，未据非官方结果计入事件；下次运行继续回扫。"
+      ],
+      "metrics": {
+        "hkexNewListings": 1,
+        "apNewCount": 3,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "officialSourceChecks": [
+        {
+          "source": "HKEX Newly Listed Securities",
+          "dateRange": "2026-07-30",
+          "result": "公司类 IPO 新挂牌 1 家：中际旭创股份有限公司（03308）。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-07-30",
+          "result": "按文件日期筛选 NEW AP=3、PHIP=0。"
+        },
+        {
+          "source": "CSRC official filing pages",
+          "dateRange": "2026-07-30",
+          "result": "未见可确认的单家公司备案通知书、补充材料公示或备案情况表当日更新；csrcCount=0。"
+        },
+        {
+          "source": "SEC EDGAR official daily-index",
+          "dateRange": "2026-07-30",
+          "result": "本次运行环境访问返回 403；未将非官方线索计入，保留下次自然日回扫。"
+        }
+      ],
+      "deals": [
+        {
+          "id": "hkex-ap-20260730",
+          "section": "港股递表/聆讯",
+          "eventType": "hkexApplication",
+          "countInMetrics": false,
+          "company": "HKEX 当日新增上市申请（3 家）",
+          "status": "NEW AP",
+          "documentType": "AP",
+          "summary": "HKEX AP-only 结构化数据按文件日期筛选，共 3 家；AP 与 PHIP 分开统计。",
+          "apApplications": [
+            {
+              "id": "ap-20260730-1",
+              "nameZh": "哈爾濱譽研堂中醫門診集團股份有限公司",
+              "nameEn": "Harbin Yuyantang Traditional Chinese Medicine Outpatient Group Co., Ltd.",
+              "filingDate": "2026-07-30",
+              "documentType": "AP",
+              "status": "NEW AP",
+              "sector": "医疗服务 / 中医门诊",
+              "structure": "主板上市申请",
+              "sponsors": "以申请版本封面及参与方章节为准",
+              "businessSummary": "运营中医门诊网络并提供中医诊疗及相关健康服务。",
+              "prospectusLink": "https://www1.hkexnews.hk/app/sehk/2026/108770/documents/sehk26073000330.pdf",
+              "prospectusLinkZh": "https://www1.hkexnews.hk/app/sehk/2026/108770/documents/sehk26073000329.pdf",
+              "links": [
+                {
+                  "label": "英文申请版本",
+                  "url": "https://www1.hkexnews.hk/app/sehk/2026/108770/documents/sehk26073000330.pdf"
+                },
+                {
+                  "label": "中文申请版本",
+                  "url": "https://www1.hkexnews.hk/app/sehk/2026/108770/documents/sehk26073000329.pdf"
+                }
+              ]
+            },
+            {
+              "id": "ap-20260730-2",
+              "nameZh": "卡奧斯物聯科技股份有限公司",
+              "nameEn": "COSMOPlat IoT Technology Co., Ltd.",
+              "filingDate": "2026-07-30",
+              "documentType": "AP",
+              "status": "NEW AP",
+              "sector": "工业互联网",
+              "structure": "主板上市申请",
+              "sponsors": "中金公司、汇丰",
+              "businessSummary": "运营工业互联网平台，为企业提供数字化转型产品与解决方案。",
+              "prospectusLink": "https://www1.hkexnews.hk/app/sehk/2026/108774/documents/sehk26073002134.pdf",
+              "prospectusLinkZh": "https://www1.hkexnews.hk/app/sehk/2026/108774/documents/sehk26073002133_c.pdf",
+              "links": [
+                {
+                  "label": "英文申请版本",
+                  "url": "https://www1.hkexnews.hk/app/sehk/2026/108774/documents/sehk26073002134.pdf"
+                },
+                {
+                  "label": "中文申请版本",
+                  "url": "https://www1.hkexnews.hk/app/sehk/2026/108774/documents/sehk26073002133_c.pdf"
+                }
+              ]
+            },
+            {
+              "id": "ap-20260730-3",
+              "nameZh": "袁記食品集團股份有限公司",
+              "nameEn": "YUEN KEE FOOD GROUP CO., LTD.",
+              "filingDate": "2026-07-30",
+              "documentType": "AP",
+              "status": "NEW AP",
+              "sector": "餐饮 / 中式快餐",
+              "structure": "主板上市申请",
+              "sponsors": "华泰金融控股（香港）、广发融资（香港）",
+              "businessSummary": "经营袁记云饺等中式快餐品牌及相关食品供应链。",
+              "prospectusLink": "https://www1.hkexnews.hk/app/sehk/2026/108775/documents/sehk26073002144.pdf",
+              "prospectusLinkZh": "https://www1.hkexnews.hk/app/sehk/2026/108775/documents/sehk26073002143_c.pdf",
+              "links": [
+                {
+                  "label": "英文申请版本",
+                  "url": "https://www1.hkexnews.hk/app/sehk/2026/108775/documents/sehk26073002144.pdf"
+                },
+                {
+                  "label": "中文申请版本",
+                  "url": "https://www1.hkexnews.hk/app/sehk/2026/108775/documents/sehk26073002143_c.pdf"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hkex-listing-03308-20260730",
+          "section": "港股新股",
+          "eventType": "hkexIpoListing",
+          "countInMetrics": true,
+          "company": "中际旭创股份有限公司",
+          "companyEn": "Zhongji Innolight Co., Ltd.",
+          "stockCode": "03308",
+          "status": "新挂牌",
+          "documentType": "New Listing",
+          "sector": "光通信 / AI基础设施",
+          "businessSummary": "面向 AI 与云数据中心的高速光模块及光互连产品提供商。",
+          "ipo": {
+            "offerPrice": "HK$980.00",
+            "sharesOffered": "54,500,000 股 H 股",
+            "publicOffer": "5,450,000 股；香港公开发售约 15.84 倍认购",
+            "internationalOffer": "49,050,000 股；国际配售约 8.73 倍认购",
+            "cornerstoneInvestors": "33 名基石投资者；获配 27,249,400 股，约占全球发售基础规模 50%"
+          },
+          "intermediaries": "联席保荐人：高盛、中金公司、摩根士丹利、广发证券",
+          "timeline": [
+            "2026-07-22：刊发招股书并启动全球发售",
+            "2026-07-29：刊发配发结果公告",
+            "2026-07-30：H 股于港交所主板挂牌（股份代号 03308）"
+          ],
+          "marketPerformance": {
+            "openPrice": "待开盘/官方行情源补充",
+            "closePrice": "待收盘/官方行情源补充",
+            "changePct": "待收盘/官方行情源补充"
+          },
+          "links": [
+            {
+              "label": "HKEX 招股书/多档案页面",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0722/2026072200023_c.htm"
+            },
+            {
+              "label": "HKEX Newly Listed Securities",
+              "url": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_c.json",
+    "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "CSRC Overseas Filing Progress": "https://www.csrc.gov.cn/csrc/c106251/common_list.shtml",
+    "SEC EDGAR master 20260730": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/master.20260730.idx"
+  }
+}
