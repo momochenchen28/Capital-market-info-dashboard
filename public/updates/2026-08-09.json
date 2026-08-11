@@ -1,0 +1,110 @@
+{
+  "generatedAt": "2026-08-11T09:30:00+08:00",
+  "dailyReports": {
+    "2026-08-09": {
+      "date": "2026-08-09",
+      "reportType": "official-update",
+      "title": "资本市场官方文件更新",
+      "subtitle": "港股非交易日；HKEX 于周日发布 1 家 NEW AP 和 1 家 PHIP。",
+      "statusNote": "2026-08-09 为周日、非港股交易日。HKEX AP-only 11/08/2026 版确认深圳市远信储能技术股份有限公司首次递表；AP+PHIP 版确认北京君正集成电路股份有限公司发布 PHIP。两项均按实际自然日独立归档，不并入 8 月 10 日。证监会与 SEC 本自然日未见可验证的目标更新。",
+      "archiveNotice": "仅展示真实官方事件；未为无事件类别创建占位公司卡。",
+      "observations": [
+        "港股交易日：周日，非交易日。",
+        "HKEX：NEW AP=1、PHIP=1；AP 与 PHIP 以 status/documentType 区分并统一置于 apApplications[]。",
+        "证监会：未见本自然日单家公司备案通知书或监管列表更新。",
+        "SEC：周日无 official daily-index；未计事件。"
+      ],
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 1,
+        "phipCount": 1,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "officialSourceChecks": [
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-08-09",
+          "result": "NEW AP=1、PHIP=1。"
+        },
+        {
+          "source": "CSRC official filing pages",
+          "dateRange": "2026-08-09",
+          "result": "未见本自然日目标类别更新；csrcCount=0。"
+        },
+        {
+          "source": "SEC EDGAR official daily-index",
+          "dateRange": "2026-08-09",
+          "result": "周日无 official daily-index。"
+        }
+      ],
+      "deals": [
+        {
+          "id": "hkex-ap-phip-20260809",
+          "section": "港股递表/聆讯",
+          "type": "AP / PHIP 更新",
+          "status": "1家递表 / 1家聆讯后资料集",
+          "eventType": "hkexApPhip",
+          "countInMetrics": true,
+          "company": {
+            "zh": "HKEX AP/PHIP 官方文件更新",
+            "en": "HKEX AP/PHIP official filing updates",
+            "display": "HKEX AP/PHIP 官方文件更新（2026-08-09）",
+            "exchange": "HKEX",
+            "board": "Main Board"
+          },
+          "business": {
+            "sector": "上市申请及聆讯后资料集",
+            "summary": "周日发布 1 家 NEW AP、1 家 PHIP；按实际自然日独立归档。"
+          },
+          "metrics": {
+            "apNewCount": 1,
+            "phipCount": 1
+          },
+          "apApplications": [
+            {
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "深圳市远信储能技术股份有限公司",
+              "nameEn": "RelyEZ Energy Storage Technology Co., Ltd.",
+              "filingDate": "2026-08-09",
+              "structure": "境内股份有限公司 / H股申请",
+              "sector": "储能系统 / 新能源",
+              "sponsors": "以申请版本为准",
+              "businessSummary": "HKEX 官方 AP-only JSON 确认 2026-08-09 首次递表。",
+              "prospectusLink": "RelyEZ Energy Storage AP"
+            },
+            {
+              "status": "PHIP",
+              "documentType": "PHIP (1st submission)",
+              "nameZh": "北京君正集成电路股份有限公司",
+              "nameEn": "Ingenic Semiconductor Co., Ltd.",
+              "filingDate": "2026-08-09",
+              "structure": "境内股份有限公司 / H股申请",
+              "sector": "集成电路 / 芯片设计",
+              "sponsors": "以 PHIP 为准",
+              "businessSummary": "HKEX 官方 AP+PHIP JSON 确认 2026-08-09 发布首次聆讯后资料集。",
+              "prospectusLink": "Ingenic Semiconductor PHIP"
+            }
+          ],
+          "links": [
+            "HKEX AP structured JSON",
+            "HKEX AP/PHIP structured JSON",
+            "RelyEZ Energy Storage AP",
+            "Ingenic Semiconductor PHIP"
+          ]
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "CSRC Overseas Filing Progress": "https://www.csrc.gov.cn/csrc/c106251/common_list.shtml",
+    "SEC EDGAR master 20260809": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/master.20260809.idx",
+    "RelyEZ Energy Storage AP": "https://www1.hkexnews.hk/app/sehk/2026/108790/documents/sehk26080900120.pdf",
+    "Ingenic Semiconductor PHIP": "https://www1.hkexnews.hk/app/sehk/2026/108571/documents/sehk26080900032.pdf"
+  }
+}
