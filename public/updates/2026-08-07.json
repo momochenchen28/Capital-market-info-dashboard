@@ -1,23 +1,22 @@
 {
-  "generatedAt": "2026-08-07T12:24:02+08:00",
+  "generatedAt": "2026-08-11T09:30:00+08:00",
   "dailyReports": {
     "2026-08-07": {
       "date": "2026-08-07",
       "reportType": "briefing",
       "title": "资本市场快报",
-      "subtitle": "港股正常交易日；公司类 IPO 新挂牌 1 家，NEW AP 0 家，PHIP 0 家。",
-      "statusNote": "2026-08-07 为港股正常交易日。本次 09:30 流程于 2026-08-07T12:24:02+08:00 补跑并按官方自然日归档。HKEX AP-only 中英文 JSON 更新至 07/08/2026，按文档日期筛选 NEW AP=0；AP+PHIP 中文 JSON 共 5 条且目标区间无新 PHIP。Newly Listed Securities 显示 拿森智能科技（浙江）股份有限公司（02261） 当日公司类 IPO 新挂牌。 证监会 csrcCount 严格只计单家公司备案通知书，本日为 0。SEC 官方 daily-index 访问受 403 限制，未作未经官方核验的计数。",
+      "subtitle": "港股正常交易日；公司类 IPO 新挂牌 1 家，NEW AP 2 家，PHIP 0 家。",
+      "statusNote": "2026-08-07 为港股正常交易日。本次 09:30 流程于 2026-08-11 回扫补录：HKEX AP-only 11/08/2026 版按首次申请版本日期确认当日 NEW AP=2；AP+PHIP 当日 PHIP=0。Newly Listed Securities 显示拿森智能科技（浙江）（02261）公司类 IPO 新挂牌。证监会当日发布境外发行上市备案补充材料要求公示，仅作监管更新且不计 csrcCount；未见单家公司新增《境外发行上市备案通知书》。SEC 20260807 official daily-index 已回读，未见 F-1/F-1/A。",
       "archiveNotice": "仅展示真实官方事件；未为无事件类别创建占位公司卡。",
       "observations": [
         "港股交易日：2026-08-07 为周五正常交易日。",
-        "HKEX：公司类 IPO 新挂牌=1、NEW AP=0、PHIP=0。",
-        "证监会：目标类别未见当日单家公司《境外发行上市备案通知书》新增，csrcCount=0；补充材料公示及备案情况表亦未见可确认的当日更新。",
-        "SEC：官方 daily-index 在本次运行环境返回 403，未据非官方结果计入事件；下次运行继续回扫。",
-        "新挂牌固定字段：发行价 HK$11.18、全球发售 57,594,500 股；公司身份已按 HKEX 申请档案交叉核验。配发结果正文当前不可访问，认购倍数及基石最终获配明确标记为待官方回读。"
+        "HKEX：公司类 IPO 新挂牌=1、NEW AP=2、PHIP=0；迟到 AP 已按实际文件日回补。",
+        "证监会：发布境外发行上市备案补充材料要求公示（2026年7月27日—2026年8月7日），仅作监管更新、countInMetrics=false；单家公司备案通知书=0。",
+        "SEC：20260807 official daily-index 已回读，未见 F-1/F-1/A。"
       ],
       "metrics": {
         "hkexNewListings": 1,
-        "apNewCount": 0,
+        "apNewCount": 2,
         "phipCount": 0,
         "csrcCount": 0,
         "usChinaIpoCount": 0
@@ -31,17 +30,17 @@
         {
           "source": "HKEX AP-only / AP+PHIP structured JSON",
           "dateRange": "2026-08-07",
-          "result": "按文件日期筛选 NEW AP=0、PHIP=0。"
+          "result": "按首次申请版本日期筛选 NEW AP=2、PHIP=0。"
         },
         {
           "source": "CSRC official filing pages",
           "dateRange": "2026-08-07",
-          "result": "未见可确认的单家公司备案通知书、补充材料公示或备案情况表当日更新；csrcCount=0。"
+          "result": "补充材料要求公示 1 项（不计 csrcCount）；单家公司备案通知书=0。"
         },
         {
           "source": "SEC EDGAR official daily-index",
           "dateRange": "2026-08-07",
-          "result": "本次运行环境访问返回 403；未将非官方线索计入，保留下次自然日回扫。"
+          "result": "official daily-index 可回读，未见 F-1/F-1/A。"
         }
       ],
       "deals": [
@@ -92,6 +91,81 @@
               "url": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en"
             }
           ]
+        },
+        {
+          "id": "hkex-ap-20260807",
+          "section": "港股递表/聆讯",
+          "type": "AP / PHIP 更新",
+          "status": "2家递表 / 无新增聆讯",
+          "eventType": "hkexApPhip",
+          "countInMetrics": true,
+          "company": {
+            "zh": "HKEX AP/PHIP 官方文件更新",
+            "en": "HKEX AP/PHIP official filing updates",
+            "display": "HKEX AP/PHIP 官方文件更新（2026-08-07）",
+            "exchange": "HKEX",
+            "board": "Main Board"
+          },
+          "business": {
+            "sector": "新上市申请文件",
+            "summary": "2 家首次递表；无 PHIP。"
+          },
+          "metrics": {
+            "apNewCount": 2,
+            "phipCount": 0
+          },
+          "apApplications": [
+            {
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "浙江浙能迈领绿航科技股份有限公司",
+              "nameEn": "ZHEJIANG ENERGY MARINE ENVIRONMENTAL TECHNOLOGY CO., LTD",
+              "filingDate": "2026-08-07",
+              "structure": "境内股份有限公司 / H股申请",
+              "sector": "船舶环保 / 绿色航运",
+              "sponsors": "以申请版本为准",
+              "businessSummary": "HKEX 官方 AP-only JSON 确认 2026-08-07 首次递表。",
+              "prospectusLink": "Zhejiang Energy Marine Environmental Technology AP"
+            },
+            {
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "勤浩医药（苏州）股份有限公司-B",
+              "nameEn": "Suzhou GenHouse Bio Co., Ltd. - B",
+              "filingDate": "2026-08-07",
+              "structure": "境内股份有限公司 / H股申请 / 18A",
+              "sector": "创新药 / 生物医药",
+              "sponsors": "以申请版本为准",
+              "businessSummary": "HKEX 官方 AP-only JSON 确认 2026-08-07 首次递表。",
+              "prospectusLink": "Suzhou GenHouse Bio AP"
+            }
+          ],
+          "links": [
+            "HKEX AP structured JSON",
+            "HKEX AP/PHIP structured JSON",
+            "Zhejiang Energy Marine Environmental Technology AP",
+            "Suzhou GenHouse Bio AP"
+          ]
+        },
+        {
+          "id": "csrc-regulatory-20260807",
+          "section": "监管更新",
+          "type": "证监会境外上市监管更新",
+          "status": "补充材料公示更新（不计备案通知书）",
+          "eventType": "csrcRegulatory",
+          "countInMetrics": false,
+          "company": {
+            "zh": "中国证监会境外发行上市监管更新",
+            "en": "CSRC overseas listing regulatory update",
+            "display": "证监会监管更新（2026-08-07）"
+          },
+          "business": {
+            "sector": "境外上市备案监管",
+            "summary": "发布境外发行上市备案补充材料要求公示（2026年7月27日—2026年8月7日）；不计 csrcCount。"
+          },
+          "links": [
+            "CSRC Supplement Materials 20260807"
+          ]
         }
       ]
     }
@@ -102,6 +176,9 @@
     "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_c.json",
     "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
     "CSRC Overseas Filing Progress": "https://www.csrc.gov.cn/csrc/c106251/common_list.shtml",
-    "SEC EDGAR master 20260807": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/master.20260807.idx"
+    "SEC EDGAR master 20260807": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/master.20260807.idx",
+    "Zhejiang Energy Marine Environmental Technology AP": "https://www1.hkexnews.hk/app/sehk/2026/108788/documents/sehk26080701054.pdf",
+    "Suzhou GenHouse Bio AP": "https://www1.hkexnews.hk/app/sehk/2026/108789/documents/sehk26080701538.pdf",
+    "CSRC Supplement Materials 20260807": "https://www.csrc.gov.cn/csrc/c100098/c7650799/content.shtml"
   }
 }
