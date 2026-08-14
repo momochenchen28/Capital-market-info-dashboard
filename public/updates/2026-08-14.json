@@ -1,0 +1,65 @@
+{
+  "generatedAt": "2026-08-14T10:38:00+08:00",
+  "dailyReports": {
+    "2026-08-14": {
+      "date": "2026-08-14",
+      "reportType": "briefing",
+      "title": "资本市场快报",
+      "subtitle": "港股正常交易日早盘；公司类 IPO 新挂牌、NEW AP、PHIP 均为 0。",
+      "statusNote": "2026-08-14 为港股正常交易日。本次 09:30 早盘流程补跑截至 10:38：Newly Listed Securities 当日仅列 FANTASIA 股份合并、HKGB FRN 2708 债券及两项 PIONREW 债务证券，不计公司类 IPO 新挂牌。HKEX AP-only 与 AP+PHIP structured JSON 当前均仍更新至 13/08/2026，未见文件日期为 14/08/2026 的 NEW AP 或 PHIP。证监会相关官方列表未见 8 月 14 日目标更新；SEC 2026 Q3 官方目录已发布至 20260813，20260814 daily-index 尚未发布。deals=[]，由前端统一显示各类别当日暂无新增事件。",
+      "archiveNotice": "仅展示真实官方事件；无新增类别不创建占位公司卡。",
+      "observations": [
+        "港股交易日：2026-08-14 为周五正常交易日。",
+        "HKEX：公司类 IPO 新挂牌=0、NEW AP=0、PHIP=0；股份合并、债券及债务证券不计公司类 IPO。",
+        "证监会：截至本次回扫未见本日单家公司新增《境外发行上市备案通知书》或监管列表更新，csrcCount=0。",
+        "SEC：2026 Q3 官方目录已发布至 20260813；20260813 master index 无 F-1/F-1/A，20260814 daily-index 尚未发布。"
+      ],
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "officialSourceChecks": [
+        {
+          "source": "HKEX Securities Market Holiday Schedule 2026",
+          "dateRange": "2026-08-14",
+          "result": "8 月 14 日不在休市日期内，为正常交易日。"
+        },
+        {
+          "source": "HKEX Newly Listed Securities",
+          "dateRange": "2026-08-14",
+          "result": "仅列 1 项股份合并、1 项债券及 2 项债务证券；公司类 IPO 新挂牌=0。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-08-14",
+          "result": "两份 JSON 当前均更新至 13/08/2026；未见 14/08/2026 NEW AP 或 PHIP。"
+        },
+        {
+          "source": "CSRC official filing pages",
+          "dateRange": "2026-08-14",
+          "result": "未见可确认的本日单家公司备案通知书、补充材料公示或备案情况表更新；csrcCount=0。"
+        },
+        {
+          "source": "SEC EDGAR official daily-index",
+          "dateRange": "2026-08-14",
+          "result": "2026 Q3 官方目录已发布至 20260813；20260814 daily-index 尚未发布。"
+        }
+      ],
+      "deals": []
+    }
+  },
+  "linkMap": {
+    "HKEX Securities Market Holiday Schedule 2026": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2025/ce_SEHK_CT_075_2025.pdf",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "CSRC Overseas Filing Progress": "https://www.csrc.gov.cn/csrc/c106251/common_list.shtml",
+    "SEC EDGAR Q3 2026 index": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/index.json",
+    "SEC EDGAR master 20260813": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/master.20260813.idx",
+    "SEC EDGAR master 20260814": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/master.20260814.idx"
+  }
+}
