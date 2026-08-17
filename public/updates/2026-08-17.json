@@ -1,0 +1,108 @@
+{
+  "generatedAt": "2026-08-17T09:30:00+08:00",
+  "dailyReports": {
+    "2026-08-17": {
+      "date": "2026-08-17",
+      "reportType": "briefing",
+      "title": "资本市场快报",
+      "subtitle": "港股正常交易日早盘；公司类 IPO 新挂牌 0 家，NEW AP 1 家，PHIP 0 家。",
+      "statusNote": "2026-08-17 为港股正常交易日。09:30 早盘：HKEX AP-only structured JSON（uDate=17/08/2026）确认湖南裕能新能源电池材料股份有限公司首次递表，NEW AP=1；当日 PHIP=0。Newly Listed Securities 未确认公司类 IPO 新挂牌；证监会未见本日目标更新；SEC 20260817 daily-index 尚未发布。交易进程字段无新挂牌公司需要补录。",
+      "archiveNotice": "仅展示真实官方事件；无新增类别不创建占位公司卡。",
+      "observations": [
+        "港股交易日：2026-08-17 为周一正常交易日。",
+        "HKEX：公司类 IPO 新挂牌=0；湖南裕能新能源电池材料股份有限公司 NEW AP=1，PHIP=0。",
+        "证监会：早盘未见本日目标更新，csrcCount=0。",
+        "SEC：20260817 daily-index 早盘尚未发布，usChinaIpoCount=0。"
+      ],
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 1,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "officialSourceChecks": [
+        {
+          "source": "HKEX Securities Market Holiday Schedule 2026",
+          "dateRange": "2026-08-17",
+          "result": "8 月 17 日不在休市日期内，为正常交易日。"
+        },
+        {
+          "source": "HKEX Newly Listed Securities",
+          "dateRange": "2026-08-17",
+          "result": "早盘未确认公司类 IPO 新挂牌。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-08-17",
+          "result": "两份 JSON uDate=17/08/2026；当日 NEW AP=1、PHIP=0。"
+        },
+        {
+          "source": "CSRC official filing pages",
+          "dateRange": "2026-08-17",
+          "result": "早盘未见本日单家公司备案通知书或监管列表更新。"
+        },
+        {
+          "source": "SEC EDGAR official daily-index",
+          "dateRange": "2026-08-17",
+          "result": "当日 daily-index 早盘尚未发布。"
+        }
+      ],
+      "deals": [
+        {
+          "id": "hkex-ap-20260817",
+          "section": "港股递表/聆讯",
+          "type": "AP / PHIP 更新",
+          "status": "1家递表 / 无新增聆讯",
+          "eventType": "hkexApPhip",
+          "countInMetrics": true,
+          "company": {
+            "zh": "HKEX AP/PHIP 官方文件更新",
+            "en": "HKEX AP/PHIP official filing updates",
+            "display": "HKEX AP/PHIP 官方文件更新（2026-08-17）",
+            "exchange": "HKEX",
+            "board": "Main Board"
+          },
+          "business": {
+            "sector": "新上市申请文件",
+            "summary": "1 家首次递表；无 PHIP。"
+          },
+          "metrics": {
+            "apNewCount": 1,
+            "phipCount": 0
+          },
+          "apApplications": [
+            {
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "湖南裕能新能源电池材料股份有限公司",
+              "nameEn": "Hunan Yuneng New Energy Battery Material Co., Ltd.",
+              "filingDate": "2026-08-17",
+              "structure": "中国境内注册 / A+H / 主板上市申请",
+              "sector": "锂离子电池正极材料",
+              "sponsors": "以申请版本为准",
+              "businessSummary": "公司主要从事锂离子电池正极材料研发、生产与销售；HKEX 官方 AP-only JSON 确认 2026-08-17 首次递表。",
+              "prospectusLink": "Hunan Yuneng AP"
+            }
+          ],
+          "links": [
+            "HKEX AP structured JSON",
+            "HKEX AP/PHIP structured JSON",
+            "Hunan Yuneng AP"
+          ]
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Securities Market Holiday Schedule 2026": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2025/ce_SEHK_CT_075_2025.pdf",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "CSRC Overseas Filing Progress": "https://www.csrc.gov.cn/csrc/c106251/common_list.shtml",
+    "SEC EDGAR Q3 2026 index": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/index.json",
+    "SEC EDGAR master 20260817": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/master.20260817.idx",
+    "Hunan Yuneng AP": "https://www1.hkexnews.hk/app/sehk/2026/108797/documents/sehk26081700010.pdf"
+  }
+}
