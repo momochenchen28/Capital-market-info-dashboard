@@ -1,0 +1,91 @@
+{
+  "generatedAt": "2026-08-17T09:30:00+08:00",
+  "dailyReports": {
+    "2026-08-16": {
+      "date": "2026-08-16",
+      "reportType": "briefing",
+      "title": "资本市场快报",
+      "subtitle": "港股周末休市；HKEX 于自然日新增 PHIP 1 家。",
+      "statusNote": "2026-08-16 为周日、港股休市，但 HKEX AP+PHIP structured JSON 确认梅卡曼德（雄安）机器人科技股份有限公司于当日发布首次 PHIP，故按实际自然日单独建档，不并入 8 月 17 日。NEW AP=0、PHIP=1；证监会及 SEC 目标类别未见可确认周日更新。",
+      "archiveNotice": "仅展示真实官方事件；无新增类别不创建占位公司卡。",
+      "observations": [
+        "港股交易日状态：2026-08-16 为周日休市。",
+        "HKEX：梅卡曼德（雄安）机器人科技股份有限公司 PHIP=1；NEW AP=0。",
+        "证监会、SEC：未见可确认的本日目标更新。"
+      ],
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 0,
+        "phipCount": 1,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "officialSourceChecks": [
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-08-16",
+          "result": "AP+PHIP 17/08/2026 版确认 PHIP=1；AP=0。公司为梅卡曼德（雄安）机器人科技股份有限公司。"
+        },
+        {
+          "source": "CSRC / SEC official systems",
+          "dateRange": "2026-08-16",
+          "result": "未见可确认的周日目标更新。"
+        }
+      ],
+      "deals": [
+        {
+          "id": "hkex-phip-20260816",
+          "section": "港股递表/聆讯",
+          "type": "AP / PHIP 更新",
+          "status": "无新增递表 / 1家聆讯后资料集",
+          "eventType": "hkexApPhip",
+          "countInMetrics": true,
+          "company": {
+            "zh": "HKEX AP/PHIP 官方文件更新",
+            "en": "HKEX AP/PHIP official filing updates",
+            "display": "HKEX AP/PHIP 官方文件更新（2026-08-16）",
+            "exchange": "HKEX",
+            "board": "Main Board"
+          },
+          "business": {
+            "sector": "聆讯后资料集",
+            "summary": "周日发布 1 家 PHIP；无 NEW AP。"
+          },
+          "metrics": {
+            "apNewCount": 0,
+            "phipCount": 1
+          },
+          "apApplications": [
+            {
+              "status": "PHIP",
+              "documentType": "PHIP (1st submission)",
+              "nameZh": "梅卡曼德（雄安）机器人科技股份有限公司",
+              "nameEn": "Mech-Mind Robotics Technologies Co., Ltd.",
+              "filingDate": "2026-08-16",
+              "structure": "中国境内注册 / 主板上市申请",
+              "sector": "工业机器人与机器视觉",
+              "sponsors": "以 PHIP 为准",
+              "businessSummary": "公司提供工业机器人智能化相关的 3D 视觉、机器人软件及解决方案；HKEX 官方 AP+PHIP JSON 确认 2026-08-16 发布首次 PHIP。",
+              "prospectusLink": "Mech-Mind Robotics PHIP"
+            }
+          ],
+          "links": [
+            "HKEX AP structured JSON",
+            "HKEX AP/PHIP structured JSON",
+            "Mech-Mind Robotics PHIP"
+          ]
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Securities Market Holiday Schedule 2026": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2025/ce_SEHK_CT_075_2025.pdf",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "CSRC Overseas Filing Progress": "https://www.csrc.gov.cn/csrc/c106251/common_list.shtml",
+    "SEC EDGAR Q3 2026 index": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/index.json",
+    "Mech-Mind Robotics PHIP": "https://www1.hkexnews.hk/app/sehk/2026/108796/documents/sehk26081600030.pdf"
+  }
+}
