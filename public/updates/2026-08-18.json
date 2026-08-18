@@ -1,0 +1,114 @@
+{
+  "generatedAt": "2026-08-18T11:51:18+08:00",
+  "dailyReports": {
+    "2026-08-18": {
+      "date": "2026-08-18",
+      "reportType": "briefing",
+      "title": "资本市场快报",
+      "subtitle": "港股正常交易日早盘；公司类 IPO 新挂牌 0 家，NEW AP 1 家，PHIP 0 家。",
+      "statusNote": "2026-08-18 为港股正常交易日。HKEX AP-only 与 AP+PHIP structured JSON 均更新至 18/08/2026；深圳易慕峰生物科技股份有限公司 - B 再次首次递表，NEW AP=1、PHIP=0。HKEX New Listing Information 显示当前招股项目的上市日均非 8 月 18 日，未确认当日公司类 IPO 新挂牌。证监会目标栏目未见 8 月 17–18 日新增；SEC EDGAR 官方检索截至本次运行当日 F-1/F-1/A=0。无新挂牌公司，发行价、配发及交易进程字段无需创建占位卡。",
+      "archiveNotice": "仅展示真实官方事件；无新增类别不创建占位公司卡。",
+      "observations": [
+        "港股交易日：2026-08-18 为周二正常交易日。",
+        "HKEX：公司类 IPO 新挂牌=0；深圳易慕峰生物科技股份有限公司 - B 再次首次递表，NEW AP=1，PHIP=0。",
+        "证监会：未见本日单家公司新增《境外发行上市备案通知书》、补充材料公示或备案情况表更新，csrcCount=0。",
+        "SEC：官方 EDGAR 检索截至本次运行 20260818 F-1/F-1/A=0；usChinaIpoCount=0。"
+      ],
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 1,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "officialSourceChecks": [
+        {
+          "source": "HKEX Securities Market Holiday Schedule 2026",
+          "dateRange": "2026-08-18",
+          "result": "8 月 18 日不在休市日期内，为正常交易日。"
+        },
+        {
+          "source": "HKEX Newly Listed Securities / New Listing Information",
+          "dateRange": "2026-08-18",
+          "result": "未确认当日公司类 IPO 新挂牌；当前新股资料页所列项目的预计上市日均非 8 月 18 日。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-08-17 to 2026-08-18",
+          "result": "两份 JSON uDate=18/08/2026；8 月 18 日 NEW AP=1、PHIP=0；8 月 17 日 AP/PHIP 明细无新增修正。"
+        },
+        {
+          "source": "CSRC official filing pages",
+          "dateRange": "2026-08-17 to 2026-08-18",
+          "result": "补充材料公示最新仍为 8 月 14 日；未见 8 月 17–18 日单家公司备案通知书或备案情况表更新。"
+        },
+        {
+          "source": "SEC EDGAR official search",
+          "dateRange": "2026-08-17 to 2026-08-18",
+          "result": "8 月 17 日 3 份 F-1 系列文件均非中国境内经营发行人；8 月 18 日截至本次运行 F-1/F-1/A=0。"
+        }
+      ],
+      "deals": [
+        {
+          "id": "hkex-ap-20260818",
+          "section": "港股递表/聆讯",
+          "type": "AP / PHIP 更新",
+          "status": "1家递表 / 无新增聆讯",
+          "eventType": "hkexApPhip",
+          "countInMetrics": true,
+          "company": {
+            "zh": "HKEX AP/PHIP 官方文件更新",
+            "en": "HKEX AP/PHIP official filing updates",
+            "display": "HKEX AP/PHIP 官方文件更新（2026-08-18）",
+            "exchange": "HKEX",
+            "board": "Main Board"
+          },
+          "business": {
+            "sector": "新上市申请文件",
+            "summary": "1 家再次首次递表；无 PHIP。"
+          },
+          "metrics": {
+            "apNewCount": 1,
+            "phipCount": 0
+          },
+          "apApplications": [
+            {
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "深圳易慕峰生物科技股份有限公司 - B",
+              "nameEn": "Shenzhen Immunofoco Biotechnology Co., Ltd. - B",
+              "filingDate": "2026-08-18",
+              "structure": "中国境内注册 / 18A 生物科技公司 / 主板上市申请（再次递表）",
+              "sector": "临床阶段细胞治疗 / CAR-T",
+              "sponsors": "华泰金融控股（香港）有限公司（保荐人兼整体协调人）",
+              "businessSummary": "临床阶段生物科技公司，专注创新药物发现及开发，核心方向包括面向实体瘤的自体 CAR-T 与体内 CAR-T 平台；曾于 2026-02-13 首次递表，本次于 2026-08-18 再次首次递表。",
+              "prospectusLink": "Immunofoco AP 20260818"
+            }
+          ],
+          "links": [
+            "HKEX AP structured JSON",
+            "HKEX AP/PHIP structured JSON",
+            "Immunofoco AP 20260818",
+            "Immunofoco OC 20260818",
+            "Immunofoco prior AP and sponsor disclosure"
+          ]
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Securities Market Holiday Schedule 2026": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2025/ce_SEHK_CT_075_2025.pdf",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/new-listings/new-listing-information/main-board?sc_lang=e",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "CSRC Overseas Filing Progress": "https://www.csrc.gov.cn/csrc/c106251/common_list.shtml",
+    "SEC EDGAR F-1 search 20260817": "https://efts.sec.gov/LATEST/search-index?forms=F-1&startdt=2026-08-17&enddt=2026-08-17&from=0&size=100",
+    "SEC EDGAR F-1 search 20260818": "https://efts.sec.gov/LATEST/search-index?forms=F-1&startdt=2026-08-18&enddt=2026-08-18&from=0&size=100",
+    "SEC BANG MAI FANG F-1": "https://www.sec.gov/Archives/edgar/data/2104827/000121390026090335/ea0302259-f1_bang.htm",
+    "Immunofoco AP 20260818": "https://www1.hkexnews.hk/app/sehk/2026/108798/documents/sehk26081800036.pdf",
+    "Immunofoco OC 20260818": "https://www1.hkexnews.hk/app/sehk/2026/108798/documents/sehk26081800106.pdf",
+    "Immunofoco prior AP and sponsor disclosure": "https://www1.hkexnews.hk/app/sehk/2026/108200/documents/sehk26021300100.pdf"
+  }
+}
