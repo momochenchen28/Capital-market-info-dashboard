@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-08-17T09:30:00+08:00",
+  "generatedAt": "2026-08-18T11:51:18+08:00",
   "dailyReports": {
     "2026-08-17": {
       "date": "2026-08-17",
       "reportType": "briefing",
       "title": "资本市场快报",
       "subtitle": "港股正常交易日早盘；公司类 IPO 新挂牌 0 家，NEW AP 1 家，PHIP 0 家。",
-      "statusNote": "2026-08-17 为港股正常交易日。09:30 早盘：HKEX AP-only structured JSON（uDate=17/08/2026）确认湖南裕能新能源电池材料股份有限公司首次递表，NEW AP=1；当日 PHIP=0。Newly Listed Securities 未确认公司类 IPO 新挂牌；证监会未见本日目标更新；SEC 20260817 daily-index 尚未发布。交易进程字段无新挂牌公司需要补录。",
+      "statusNote": "2026-08-17 为港股正常交易日。回扫确认：HKEX AP-only structured JSON（uDate=18/08/2026）仍显示湖南裕能新能源电池材料股份有限公司于 2026-08-17 首次递表，NEW AP=1、PHIP=0；公司类 IPO 新挂牌=0。SEC EDGAR 官方检索显示当日共有 3 份 F-1 系列文件，发行人分别为 Check-Cap、BANG MAI FANG HOLDINGS、Optimi Health；其中 BANG MAI FANG 的 F-1 明确全部运营位于新加坡，其余亦非中国发行人，因此 usChinaIpoCount=0。证监会未见本日目标更新。",
       "archiveNotice": "仅展示真实官方事件；无新增类别不创建占位公司卡。",
       "observations": [
         "港股交易日：2026-08-17 为周一正常交易日。",
         "HKEX：公司类 IPO 新挂牌=0；湖南裕能新能源电池材料股份有限公司 NEW AP=1，PHIP=0。",
-        "证监会：早盘未见本日目标更新，csrcCount=0。",
-        "SEC：20260817 daily-index 早盘尚未发布，usChinaIpoCount=0。"
+        "证监会：未见本日单家公司新增《境外发行上市备案通知书》或目标监管列表更新，csrcCount=0。",
+        "SEC：官方 EDGAR 检索回扫到 3 份 F-1 系列文件，均非中国境内经营发行人；usChinaIpoCount=0。"
       ],
       "metrics": {
         "hkexNewListings": 0,
@@ -45,7 +45,7 @@
         {
           "source": "SEC EDGAR official daily-index",
           "dateRange": "2026-08-17",
-          "result": "当日 daily-index 早盘尚未发布。"
+          "result": "官方 EDGAR 检索确认 3 份 F-1 系列文件；BANG MAI FANG F-1 明确全部运营位于新加坡，另两家为以色列/加拿大发行人，故中资 IPO=0。"
         }
       ],
       "deals": [
@@ -103,6 +103,9 @@
     "CSRC Overseas Filing Progress": "https://www.csrc.gov.cn/csrc/c106251/common_list.shtml",
     "SEC EDGAR Q3 2026 index": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/index.json",
     "SEC EDGAR master 20260817": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/master.20260817.idx",
-    "Hunan Yuneng AP": "https://www1.hkexnews.hk/app/sehk/2026/108797/documents/sehk26081700010.pdf"
+    "Hunan Yuneng AP": "https://www1.hkexnews.hk/app/sehk/2026/108797/documents/sehk26081700010.pdf",
+    "SEC EDGAR F-1 search 20260817": "https://efts.sec.gov/LATEST/search-index?forms=F-1&startdt=2026-08-17&enddt=2026-08-17&from=0&size=100",
+    "SEC BANG MAI FANG submissions": "https://data.sec.gov/submissions/CIK0002104827.json",
+    "SEC BANG MAI FANG F-1": "https://www.sec.gov/Archives/edgar/data/2104827/000121390026090335/ea0302259-f1_bang.htm"
   }
 }
