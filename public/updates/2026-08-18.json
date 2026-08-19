@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-08-18T11:51:18+08:00",
+  "generatedAt": "2026-08-19T09:30:00+08:00",
   "dailyReports": {
     "2026-08-18": {
       "date": "2026-08-18",
       "reportType": "briefing",
       "title": "资本市场快报",
-      "subtitle": "港股正常交易日早盘；公司类 IPO 新挂牌 0 家，NEW AP 1 家，PHIP 0 家。",
-      "statusNote": "2026-08-18 为港股正常交易日。HKEX AP-only 与 AP+PHIP structured JSON 均更新至 18/08/2026；深圳易慕峰生物科技股份有限公司 - B 再次首次递表，NEW AP=1、PHIP=0。HKEX New Listing Information 显示当前招股项目的上市日均非 8 月 18 日，未确认当日公司类 IPO 新挂牌。证监会目标栏目未见 8 月 17–18 日新增；SEC EDGAR 官方检索截至本次运行当日 F-1/F-1/A=0。无新挂牌公司，发行价、配发及交易进程字段无需创建占位卡。",
+      "subtitle": "港股正常交易日回扫；公司类 IPO 新挂牌 0 家，NEW AP 2 家，PHIP 0 家，SEC 中概 F-1 系列 4 家。",
+      "statusNote": "2026-08-18 为港股正常交易日。HKEX 19/08/2026 版结构化 JSON 回扫确认深圳易慕峰生物科技股份有限公司 - B、天津辰星技术股份有限公司两家首次递表，NEW AP=2、PHIP=0。HKEX Newly Listed Securities 当日仅列供股权及债务证券，无公司类 IPO 新挂牌。证监会未见当日目标更新。SEC EDGAR 20260818 official daily-index 命中 6 家 F-1/F-1/A，其中 NFT Ltd、3 E Network Technology Group Ltd、POCHE TECHNOLOGY CO., Ltd、Ray Maple Inc. 为香港经营发行人，按中概 IPO pipeline 去重计 4 家；IQM Quantum Computers Oyj 与 HUALINK TECH INC 不计。",
       "archiveNotice": "仅展示真实官方事件；无新增类别不创建占位公司卡。",
       "observations": [
         "港股交易日：2026-08-18 为周二正常交易日。",
-        "HKEX：公司类 IPO 新挂牌=0；深圳易慕峰生物科技股份有限公司 - B 再次首次递表，NEW AP=1，PHIP=0。",
+        "HKEX：公司类 IPO 新挂牌=0；NEW AP 回扫修正为 2 家（深圳易慕峰生物科技、天津辰星技术），PHIP=0。",
         "证监会：未见本日单家公司新增《境外发行上市备案通知书》、补充材料公示或备案情况表更新，csrcCount=0。",
-        "SEC：官方 EDGAR 检索截至本次运行 20260818 F-1/F-1/A=0；usChinaIpoCount=0。"
+        "SEC：official daily-index 命中 6 家 F-1/F-1/A，按香港/中国经营地筛选并按发行人去重计入 4 家，usChinaIpoCount=4。"
       ],
       "metrics": {
         "hkexNewListings": 0,
-        "apNewCount": 1,
+        "apNewCount": 2,
         "phipCount": 0,
         "csrcCount": 0,
-        "usChinaIpoCount": 0
+        "usChinaIpoCount": 4
       },
       "officialSourceChecks": [
         {
@@ -35,7 +35,7 @@
         {
           "source": "HKEX AP-only / AP+PHIP structured JSON",
           "dateRange": "2026-08-17 to 2026-08-18",
-          "result": "两份 JSON uDate=18/08/2026；8 月 18 日 NEW AP=1、PHIP=0；8 月 17 日 AP/PHIP 明细无新增修正。"
+          "result": "中英文 AP-only uDate=19/08/2026、app.length=335；8 月 18 日 AP=2、PHIP=0，补录天津辰星技术。"
         },
         {
           "source": "CSRC official filing pages",
@@ -45,7 +45,7 @@
         {
           "source": "SEC EDGAR official search",
           "dateRange": "2026-08-17 to 2026-08-18",
-          "result": "8 月 17 日 3 份 F-1 系列文件均非中国境内经营发行人；8 月 18 日截至本次运行 F-1/F-1/A=0。"
+          "result": "20260818 official daily-index 命中 6 家 F-1/F-1/A；其中 4 家为香港经营发行人并计入中概 IPO pipeline。"
         }
       ],
       "deals": [
@@ -53,7 +53,7 @@
           "id": "hkex-ap-20260818",
           "section": "港股递表/聆讯",
           "type": "AP / PHIP 更新",
-          "status": "1家递表 / 无新增聆讯",
+          "status": "2家递表 / 无新增聆讯",
           "eventType": "hkexApPhip",
           "countInMetrics": true,
           "company": {
@@ -65,10 +65,10 @@
           },
           "business": {
             "sector": "新上市申请文件",
-            "summary": "1 家再次首次递表；无 PHIP。"
+            "summary": "2 家首次递表；无 PHIP。"
           },
           "metrics": {
-            "apNewCount": 1,
+            "apNewCount": 2,
             "phipCount": 0
           },
           "apApplications": [
@@ -83,6 +83,26 @@
               "sponsors": "华泰金融控股（香港）有限公司（保荐人兼整体协调人）",
               "businessSummary": "临床阶段生物科技公司，专注创新药物发现及开发，核心方向包括面向实体瘤的自体 CAR-T 与体内 CAR-T 平台；曾于 2026-02-13 首次递表，本次于 2026-08-18 再次首次递表。",
               "prospectusLink": "Immunofoco AP 20260818"
+            },
+            {
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "天津辰星技术股份有限公司（前称天津阿童木机器人股份有限公司）",
+              "nameEn": "Tianjin Chenxing Technology Co., Ltd. (formerly known as Tianjin Atomrobot Co., Ltd.)",
+              "filingDate": "2026-08-18",
+              "structure": "中国境内注册 / 主板上市申请",
+              "sector": "待 AP 业务章节复核",
+              "sponsors": "待 AP 封面页及董事及参与方章节复核",
+              "businessSummary": "AP 官方全文已取得；当前环境 PDF 文本抽取不可用，待 Summary/Business 章节复核后补全。",
+              "businessSource": "HKEX Application Proof",
+              "prospectusLink": "Chenxing AP English Full",
+              "sourceLinks": [
+                "Chenxing AP English Full",
+                "Chenxing AP English Pack",
+                "Chenxing AP Chinese Full",
+                "Chenxing AP Chinese Pack",
+                "Chenxing OC English"
+              ]
             }
           ],
           "links": [
@@ -90,7 +110,86 @@
             "HKEX AP/PHIP structured JSON",
             "Immunofoco AP 20260818",
             "Immunofoco OC 20260818",
-            "Immunofoco prior AP and sponsor disclosure"
+            "Immunofoco prior AP and sponsor disclosure",
+            "Chenxing AP English Full",
+            "Chenxing AP Chinese Full"
+          ]
+        },
+        {
+          "id": "sec-china-ipo-filings-20260818",
+          "section": "美股中概 IPO",
+          "type": "SEC EDGAR IPO 文件更新",
+          "status": "F-1/F-1/A 4 家",
+          "eventType": "usChinaIpoFiling",
+          "countInMetrics": true,
+          "company": {
+            "zh": "SEC EDGAR 中国相关 IPO 文件监控",
+            "en": "SEC EDGAR China-related IPO Monitor",
+            "display": "SEC EDGAR 中国相关 IPO 文件监控（2026-08-18）",
+            "exchange": "SEC EDGAR",
+            "board": "F-1 / IPO related filings",
+            "listingStructure": "多家公司"
+          },
+          "business": {
+            "sector": "美股 IPO pipeline",
+            "summary": "SEC EDGAR official daily-index 命中 4 家香港经营发行人的 F-1/F-1/A，按发行人去重计数。",
+            "source": "SEC EDGAR daily-index / submissions API"
+          },
+          "metrics": {
+            "usChinaIpoCount": 4
+          },
+          "secFilings": [
+            {
+              "company": "NFT Ltd",
+              "cik": "0001958713",
+              "form": "F-1",
+              "filingDate": "2026-08-18",
+              "accessionNumber": "0001213900-26-090925",
+              "businessLocation": "Hong Kong",
+              "sourceLinks": [
+                "SEC NFT F-1 index"
+              ]
+            },
+            {
+              "company": "3 E Network Technology Group Ltd",
+              "cik": "0001993097",
+              "form": "F-1/A",
+              "filingDate": "2026-08-18",
+              "accessionNumber": "0001185185-26-003599",
+              "businessLocation": "Hong Kong, China",
+              "sourceLinks": [
+                "SEC 3E F-1/A index"
+              ]
+            },
+            {
+              "company": "POCHE TECHNOLOGY CO., Ltd",
+              "cik": "0002085836",
+              "form": "F-1/A",
+              "filingDate": "2026-08-18",
+              "accessionNumber": "0001493152-26-038929",
+              "businessLocation": "Hong Kong, China",
+              "sourceLinks": [
+                "SEC POCHE F-1/A index"
+              ]
+            },
+            {
+              "company": "Ray Maple Inc.",
+              "cik": "0002098969",
+              "form": "F-1",
+              "filingDate": "2026-08-18",
+              "accessionNumber": "0001213900-26-090907",
+              "businessLocation": "Kwun Tong, Hong Kong",
+              "sourceLinks": [
+                "SEC Ray Maple F-1 index"
+              ]
+            }
+          ],
+          "links": [
+            "SEC EDGAR",
+            "SEC NFT F-1 index",
+            "SEC 3E F-1/A index",
+            "SEC POCHE F-1/A index",
+            "SEC Ray Maple F-1 index"
           ]
         }
       ]
@@ -109,6 +208,16 @@
     "SEC BANG MAI FANG F-1": "https://www.sec.gov/Archives/edgar/data/2104827/000121390026090335/ea0302259-f1_bang.htm",
     "Immunofoco AP 20260818": "https://www1.hkexnews.hk/app/sehk/2026/108798/documents/sehk26081800036.pdf",
     "Immunofoco OC 20260818": "https://www1.hkexnews.hk/app/sehk/2026/108798/documents/sehk26081800106.pdf",
-    "Immunofoco prior AP and sponsor disclosure": "https://www1.hkexnews.hk/app/sehk/2026/108200/documents/sehk26021300100.pdf"
+    "Immunofoco prior AP and sponsor disclosure": "https://www1.hkexnews.hk/app/sehk/2026/108200/documents/sehk26021300100.pdf",
+    "Chenxing AP English Full": "https://www1.hkexnews.hk/app/sehk/2026/108799/documents/sehk26081801658.pdf",
+    "Chenxing AP English Pack": "https://www1.hkexnews.hk/app/sehk/2026/108799/2026081801653.htm",
+    "Chenxing AP Chinese Full": "https://www1.hkexnews.hk/app/sehk/2026/108799/documents/sehk26081801657_c.pdf",
+    "Chenxing AP Chinese Pack": "https://www1.hkexnews.hk/app/sehk/2026/108799/2026081801654_c.htm",
+    "Chenxing OC English": "https://www1.hkexnews.hk/app/sehk/2026/108799/documents/sehk26081801742.pdf",
+    "SEC EDGAR": "https://www.sec.gov/edgar/search/",
+    "SEC NFT F-1 index": "https://www.sec.gov/Archives/edgar/data/1958713/000121390026090925/0001213900-26-090925-index.htm",
+    "SEC 3E F-1/A index": "https://www.sec.gov/Archives/edgar/data/1993097/000118518526003599/0001185185-26-003599-index.htm",
+    "SEC POCHE F-1/A index": "https://www.sec.gov/Archives/edgar/data/2085836/000149315226038929/0001493152-26-038929-index.htm",
+    "SEC Ray Maple F-1 index": "https://www.sec.gov/Archives/edgar/data/2098969/000121390026090907/0001213900-26-090907-index.htm"
   }
 }
