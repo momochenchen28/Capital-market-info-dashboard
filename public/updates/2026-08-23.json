@@ -1,0 +1,102 @@
+{
+  "generatedAt": "2026-08-27T15:33:34+08:00",
+  "dailyReports": {
+    "2026-08-23": {
+      "date": "2026-08-23",
+      "reportType": "officialUpdate",
+      "title": "资本市场快报",
+      "subtitle": "港股周日休市；HKEX PHIP 1 家，按实际自然日单独归档。",
+      "statusNote": "2026-08-23 为周日，港股休市；但 HKEX AP+PHIP structured JSON 显示深圳市江波龙电子股份有限公司于该自然日刊发首次 PHIP，故单独建档，不并入 8 月 24 日。未见 NEW AP、证监会目标更新或 SEC F-1/F-1/A。",
+      "archiveNotice": "仅展示真实官方事件；无新增类别不创建占位公司卡。",
+      "observations": [
+        "非交易日：2026-08-23 为周日，港股休市。",
+        "HKEX：深圳江波龙电子刊发首次 PHIP，NEW AP=0、PHIP=1。",
+        "证监会及 SEC：未见目标类别自然日更新。"
+      ],
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 0,
+        "phipCount": 1,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "officialSourceChecks": [
+        {
+          "source": "HKEX Securities Market Holiday Schedule 2026",
+          "dateRange": "2026-08-23",
+          "result": "周日，港股休市。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-08-23",
+          "result": "PHIP=1（深圳市江波龙电子股份有限公司），NEW AP=0。"
+        },
+        {
+          "source": "CSRC official filing pages",
+          "dateRange": "2026-08-23",
+          "result": "未见单家公司备案通知书、补充材料公示或备案情况表更新。"
+        },
+        {
+          "source": "SEC EDGAR official systems",
+          "dateRange": "2026-08-23",
+          "result": "周日未见 F-1/F-1/A 更新。"
+        }
+      ],
+      "deals": [
+        {
+          "id": "hkex-phip-20260823",
+          "section": "港股递表/聆讯",
+          "type": "AP / PHIP 更新",
+          "status": "无新增递表 / 1家聆讯后资料集",
+          "eventType": "hkexApPhip",
+          "countInMetrics": true,
+          "company": {
+            "zh": "HKEX AP/PHIP 官方文件更新",
+            "en": "HKEX AP/PHIP official filing updates",
+            "display": "HKEX AP/PHIP 官方文件更新（2026-08-23）",
+            "exchange": "HKEX",
+            "board": "Main Board"
+          },
+          "business": {
+            "sector": "新上市申请文件",
+            "summary": "深圳市江波龙电子股份有限公司刊发首次 PHIP。",
+            "source": "HKEX AP+PHIP structured JSON"
+          },
+          "metrics": {
+            "apNewCount": 0,
+            "phipCount": 1
+          },
+          "apApplications": [
+            {
+              "status": "PHIP",
+              "documentType": "Post Hearing Information Pack (1st submission)",
+              "nameZh": "深圳市江波龍電子股份有限公司",
+              "nameEn": "Shenzhen Longsys Electronics Co., Ltd.",
+              "filingDate": "2026-08-23",
+              "structure": "中国境内注册 / 主板上市申请",
+              "sector": "存储芯片与存储产品",
+              "sponsors": "以 PHIP 封面页及参与方章节为准",
+              "businessSummary": "2026-05-29 首次递表，2026-08-23 刊发首次 PHIP。",
+              "prospectusLink": "Longsys PHIP 20260823"
+            }
+          ],
+          "links": [
+            "HKEX AP/PHIP structured JSON",
+            "Longsys PHIP 20260823"
+          ]
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Securities Market Holiday Schedule 2026": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2025/ce_SEHK_CT_075_2025.pdf",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/new-listings/new-listing-information/main-board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "CSRC Overseas Filing Progress": "https://www.csrc.gov.cn/csrc/c106251/common_list.shtml",
+    "SEC EDGAR Daily Index Directory": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/",
+    "Longsys PHIP 20260823": "https://www1.hkexnews.hk/app/sehk/2026/108594/documents/sehk26082300062.pdf"
+  }
+}
