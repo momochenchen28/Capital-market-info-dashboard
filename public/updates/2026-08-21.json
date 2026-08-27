@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-08-21T09:30:00+08:00",
+  "generatedAt": "2026-08-27T15:33:34+08:00",
   "dailyReports": {
     "2026-08-21": {
       "date": "2026-08-21",
       "reportType": "briefing",
       "title": "资本市场快报",
-      "subtitle": "港股正常交易日早盘；公司类 IPO 新挂牌 0 家，NEW AP 0 家，PHIP 0 家。",
-      "statusNote": "2026-08-21 为港股正常交易日。09:30 核验时，HKEX 中英文 AP-only 与 AP+PHIP structured JSON 均仍更新至 20/08/2026（app.length 分别为 336、8），未见 8 月 21 日 NEW AP 或 PHIP。Newly Listed Securities 当日仅列三项带 * 的人民币债务证券拟上市记录，无公司类 IPO 新挂牌。证监会补充材料公示最新仍为 8 月 14 日、备案情况表最新截至 8 月 7 日，未见本日单家公司备案通知书。SEC 官方 Q3 daily-index 目录仍仅发布到 8 月 19 日，8 月 20–21 日索引留待后续回扫。",
+      "subtitle": "港股正常交易日回扫；公司类 IPO 新挂牌 0 家，NEW AP 8 家，PHIP 0 家，SEC 中概 F-1/A 1 家。",
+      "statusNote": "2026-08-21 为港股正常交易日。HKEX 27/08/2026 版 structured JSON 回扫确认 8 家首次递表：镇江贝斯特新材料、钱大妈国际控股、益方生物科技-B、Tyligand Bioscience-B、昆仑新能源材料、珠海金智维人工智能、彤程新材料集团、伊戈尔电气；深圳远信储能仅为整体协调人公告修订，不计 NEW AP。公司类 IPO 新挂牌=0，PHIP=0。证监会当日发布 8 月 17–21 日补充材料要求公示，并更新截至 8 月 21 日备案情况表，两项仅作监管更新且不计 csrcCount；未见当日单家公司新增备案通知书。SEC EDGAR 回扫确认 UDynamics Ltd 的 F-1/A，按香港经营地计入中概 IPO pipeline。",
       "archiveNotice": "仅展示真实官方事件；无新增类别不创建占位公司卡。",
       "observations": [
         "港股交易日：2026-08-21 为周五正常交易日。",
-        "HKEX：公司类 IPO 新挂牌=0；09:30 时 NEW AP=0、PHIP=0。",
-        "证监会：未见本日单家公司备案通知书、补充材料公示或备案情况表更新，csrcCount=0。",
-        "SEC：20260820 与 20260821 official daily-index 尚未发布，后续逐自然日回扫。"
+        "HKEX：公司类 IPO 新挂牌=0；回扫确认 NEW AP=8、PHIP=0；深圳远信储能的修订 OC 公告不计首次递表。",
+        "证监会：补充材料公示与备案情况表各更新 1 项，均 countInMetrics=false；单家公司新增《境外发行上市备案通知书》=0。",
+        "SEC：UDynamics Ltd（香港）F-1/A 计入中概 IPO pipeline，usChinaIpoCount=1。"
       ],
       "metrics": {
         "hkexNewListings": 0,
-        "apNewCount": 0,
+        "apNewCount": 8,
         "phipCount": 0,
         "csrcCount": 0,
-        "usChinaIpoCount": 0
+        "usChinaIpoCount": 1
       },
       "officialSourceChecks": [
         {
@@ -30,25 +30,229 @@
         {
           "source": "HKEX Newly Listed Securities / New Listing Information",
           "dateRange": "2026-08-21",
-          "result": "当日仅列三项带 * 的人民币债务证券拟上市记录，无公司类 IPO 新挂牌。"
+          "result": "仅债务证券新上市，无公司类 IPO 新挂牌。"
         },
         {
           "source": "HKEX AP-only / AP+PHIP structured JSON",
           "dateRange": "2026-08-21",
-          "result": "09:30 时中英文 JSON uDate 仍为 20/08/2026；AP-only app.length=336、AP+PHIP app.length=8；8 月 21 日 NEW AP=0、PHIP=0。"
+          "result": "27/08/2026 版 JSON 回扫确认首次递表 8 家、PHIP 0 家；修订 OC 公告不计 NEW AP。"
         },
         {
           "source": "CSRC official filing pages",
           "dateRange": "2026-08-21",
-          "result": "补充材料公示最新为 8 月 14 日；备案情况表最新截至 8 月 7 日；未见本日单家公司备案通知书。"
+          "result": "补充材料要求公示与截至 8 月 21 日备案情况表各更新 1 项，均不计 csrcCount；未见单家公司新增备案通知书。"
         },
         {
-          "source": "SEC EDGAR official daily-index",
-          "dateRange": "2026-08-20 to 2026-08-21",
-          "result": "Q3 目录 09:30 时仍仅发布到 8 月 19 日，两日索引留待后续回扫。"
+          "source": "SEC EDGAR official full-text search",
+          "dateRange": "2026-08-21",
+          "result": "命中 4 家 F-1/A；仅 UDynamics Ltd（香港）计入中概 IPO pipeline，Trinity Biotech、Turbogen、ROZE AI 不计。"
         }
       ],
-      "deals": []
+      "deals": [
+        {
+          "id": "hkex-ap-20260821",
+          "section": "港股递表/聆讯",
+          "type": "AP / PHIP 更新",
+          "status": "8家递表 / 无新增聆讯",
+          "eventType": "hkexApPhip",
+          "countInMetrics": true,
+          "company": {
+            "zh": "HKEX AP/PHIP 官方文件更新",
+            "en": "HKEX AP/PHIP official filing updates",
+            "display": "HKEX AP/PHIP 官方文件更新（2026-08-21）",
+            "exchange": "HKEX",
+            "board": "Main Board"
+          },
+          "business": {
+            "sector": "新上市申请文件",
+            "summary": "8 家首次递表；无 PHIP。",
+            "source": "HKEX structured JSON / Application Proof"
+          },
+          "metrics": {
+            "apNewCount": 8,
+            "phipCount": 0
+          },
+          "apApplications": [
+            {
+              "id": "ap-20260821-1",
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "鎮江貝斯特新材料股份有限公司",
+              "nameEn": "SSI New Material (Zhenjiang) Co., Ltd.",
+              "filingDate": "2026-08-21",
+              "structure": "主板上市申请",
+              "sector": "新材料",
+              "sponsors": "以 HKEX 申请版本封面及参与方章节为准",
+              "businessSummary": "HKEX AP-only structured JSON 确认 2026-08-21 首次递表。",
+              "prospectusLink": "HKEX AP 108805"
+            },
+            {
+              "id": "ap-20260821-2",
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "錢大媽國際控股有限公司",
+              "nameEn": "Qdama International Holding Ltd.",
+              "filingDate": "2026-08-21",
+              "structure": "主板上市申请",
+              "sector": "生鲜食品零售",
+              "sponsors": "以 HKEX 申请版本封面及参与方章节为准",
+              "businessSummary": "HKEX AP-only structured JSON 确认 2026-08-21 首次递表。",
+              "prospectusLink": "HKEX AP 108804"
+            },
+            {
+              "id": "ap-20260821-3",
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "益方生物科技（上海）股份有限公司 - B",
+              "nameEn": "InventisBio Co., Limited - B",
+              "filingDate": "2026-08-21",
+              "structure": "主板上市申请",
+              "sector": "创新药 / 生物科技",
+              "sponsors": "以 HKEX 申请版本封面及参与方章节为准",
+              "businessSummary": "HKEX AP-only structured JSON 确认 2026-08-21 首次递表。",
+              "prospectusLink": "HKEX AP 108806"
+            },
+            {
+              "id": "ap-20260821-4",
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "Tyligand Bioscience Ltd. - B",
+              "nameEn": "Tyligand Bioscience Ltd. - B",
+              "filingDate": "2026-08-21",
+              "structure": "主板上市申请",
+              "sector": "创新药 / 生物科技",
+              "sponsors": "以 HKEX 申请版本封面及参与方章节为准",
+              "businessSummary": "HKEX AP-only structured JSON 确认 2026-08-21 首次递表。",
+              "prospectusLink": "HKEX AP 108809"
+            },
+            {
+              "id": "ap-20260821-5",
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "昆侖新能源材料技術（宜昌）股份有限公司",
+              "nameEn": "Kunlun New Energy Materials Technology (Yichang) Co., Ltd.",
+              "filingDate": "2026-08-21",
+              "structure": "主板上市申请",
+              "sector": "新能源电池材料",
+              "sponsors": "以 HKEX 申请版本封面及参与方章节为准",
+              "businessSummary": "HKEX AP-only structured JSON 确认 2026-08-21 首次递表。",
+              "prospectusLink": "HKEX AP 108811"
+            },
+            {
+              "id": "ap-20260821-6",
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "珠海金智維人工智能股份有限公司",
+              "nameEn": "Zhuhai Kingsware Artificial Intelligence Co., Ltd.",
+              "filingDate": "2026-08-21",
+              "structure": "主板上市申请",
+              "sector": "企业软件 / 人工智能",
+              "sponsors": "以 HKEX 申请版本封面及参与方章节为准",
+              "businessSummary": "HKEX AP-only structured JSON 确认 2026-08-21 首次递表。",
+              "prospectusLink": "HKEX AP 108812"
+            },
+            {
+              "id": "ap-20260821-7",
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "彤程新材料集團股份有限公司",
+              "nameEn": "Red Avenue New Materials Group Co., Ltd.",
+              "filingDate": "2026-08-21",
+              "structure": "主板上市申请",
+              "sector": "化工新材料",
+              "sponsors": "以 HKEX 申请版本封面及参与方章节为准",
+              "businessSummary": "HKEX AP-only structured JSON 确认 2026-08-21 首次递表。",
+              "prospectusLink": "HKEX AP 108810"
+            },
+            {
+              "id": "ap-20260821-8",
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "伊戈爾電氣股份有限公司",
+              "nameEn": "Eaglerise Electric & Electronic (CHINA) Co., Ltd.",
+              "filingDate": "2026-08-21",
+              "structure": "主板上市申请",
+              "sector": "电力电子设备",
+              "sponsors": "以 HKEX 申请版本封面及参与方章节为准",
+              "businessSummary": "HKEX AP-only structured JSON 确认 2026-08-21 首次递表。",
+              "prospectusLink": "HKEX AP 108813"
+            }
+          ],
+          "links": [
+            "HKEX AP structured JSON",
+            "HKEX AP/PHIP structured JSON",
+            "HKEX AP 108805",
+            "HKEX AP 108804",
+            "HKEX AP 108806",
+            "HKEX AP 108809",
+            "HKEX AP 108811",
+            "HKEX AP 108812",
+            "HKEX AP 108810",
+            "HKEX AP 108813"
+          ]
+        },
+        {
+          "id": "csrc-regulatory-20260821",
+          "section": "监管更新",
+          "type": "证监会境外上市监管更新",
+          "status": "补充材料公示及备案情况表更新（均不计备案通知书）",
+          "eventType": "csrcRegulatory",
+          "countInMetrics": false,
+          "company": {
+            "zh": "中国证监会境外发行上市监管更新",
+            "en": "CSRC overseas listing regulatory update",
+            "display": "证监会监管更新（2026-08-21）"
+          },
+          "business": {
+            "sector": "境外上市备案监管",
+            "summary": "发布 8 月 17–21 日补充材料要求公示，并更新截至 8 月 21 日备案情况表；两项均不计 csrcCount。"
+          },
+          "links": [
+            "CSRC Supplement Materials 20260821",
+            "CSRC Overseas Filing Table 20260821"
+          ]
+        },
+        {
+          "id": "sec-china-ipo-filings-20260821",
+          "section": "美股中概 IPO",
+          "type": "SEC EDGAR IPO 文件更新",
+          "status": "F-1/A 1 家",
+          "eventType": "usChinaIpoFiling",
+          "countInMetrics": true,
+          "company": {
+            "zh": "SEC EDGAR 中国相关 IPO 文件监控",
+            "en": "SEC EDGAR China-related IPO Monitor",
+            "display": "SEC EDGAR 中国相关 IPO 文件监控（2026-08-21）",
+            "exchange": "SEC EDGAR",
+            "board": "F-1 / IPO related filings"
+          },
+          "business": {
+            "sector": "美股 IPO pipeline",
+            "summary": "UDynamics Ltd（香港）F-1/A，按发行人去重计数。",
+            "source": "SEC EDGAR official full-text search"
+          },
+          "metrics": {
+            "usChinaIpoCount": 1
+          },
+          "secFilings": [
+            {
+              "company": "UDynamics Ltd",
+              "cik": "0002097903",
+              "form": "F-1/A",
+              "filingDate": "2026-08-21",
+              "accessionNumber": "0001213900-26-092454",
+              "businessLocation": "Hong Kong",
+              "sourceLinks": [
+                "SEC UDynamics F-1/A index"
+              ]
+            }
+          ],
+          "links": [
+            "SEC EDGAR search 20260821",
+            "SEC UDynamics F-1/A index"
+          ]
+        }
+      ]
     }
   },
   "linkMap": {
@@ -60,6 +264,18 @@
     "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
     "CSRC Overseas Filing Progress": "https://www.csrc.gov.cn/csrc/c106251/common_list.shtml",
     "CSRC Overseas Filing Table (2026-08-07)": "https://www.csrc.gov.cn/csrc/c106251/c7650801/content.shtml",
-    "SEC EDGAR Daily Index Directory": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/"
+    "SEC EDGAR Daily Index Directory": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/",
+    "HKEX AP 108805": "https://www1.hkexnews.hk/app/sehk/2026/108805/documents/sehk26082101576.pdf",
+    "HKEX AP 108804": "https://www1.hkexnews.hk/app/sehk/2026/108804/documents/sehk26082101862.pdf",
+    "HKEX AP 108806": "https://www1.hkexnews.hk/app/sehk/2026/108806/documents/sehk26082101888.pdf",
+    "HKEX AP 108809": "https://www1.hkexnews.hk/app/sehk/2026/108809/documents/sehk26082102082.pdf",
+    "HKEX AP 108811": "https://www1.hkexnews.hk/app/sehk/2026/108811/documents/sehk26082102278.pdf",
+    "HKEX AP 108812": "https://www1.hkexnews.hk/app/sehk/2026/108812/documents/sehk26082102364.pdf",
+    "HKEX AP 108810": "https://www1.hkexnews.hk/app/sehk/2026/108810/documents/sehk26082102510.pdf",
+    "HKEX AP 108813": "https://www1.hkexnews.hk/app/sehk/2026/108813/documents/sehk26082102534.pdf",
+    "CSRC Supplement Materials 20260821": "https://www.csrc.gov.cn/csrc/c105983/c7653830/content.shtml",
+    "CSRC Overseas Filing Table 20260821": "https://neris.csrc.gov.cn/portal/portalHome/index?channelid=77394f3748314ca29a2aa2795e9bb88e",
+    "SEC EDGAR search 20260821": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-08-21&enddt=2026-08-21&forms=F-1%2CF-1%2FA&from=0&size=100",
+    "SEC UDynamics F-1/A index": "https://www.sec.gov/Archives/edgar/data/2097903/000121390026092454/0001213900-26-092454-index.htm"
   }
 }
