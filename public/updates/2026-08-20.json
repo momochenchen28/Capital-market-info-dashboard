@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-08-20T09:30:00+08:00",
+  "generatedAt": "2026-08-27T15:33:34+08:00",
   "dailyReports": {
     "2026-08-20": {
       "date": "2026-08-20",
       "reportType": "briefing",
       "title": "资本市场快报",
-      "subtitle": "港股正常交易日；公司类 IPO 新挂牌 0 家，NEW AP 2 家，PHIP 1 家。",
-      "statusNote": "2026-08-20 为港股正常交易日。HKEX 中英文 AP-only JSON 更新至 20/08/2026（app.length=336）：君乐宝乳业集团、博纳西亚（杭州）医药科技首次递表，NEW AP=2；百利天恒仅为整体协调人公告修订，不计 NEW AP。AP+PHIP JSON（app.length=8）显示深圳麦科田生物医疗技术刊发首次 PHIP，PHIP=1。Newly Listed Securities 当日为 ETF 多币种柜台及债务证券，无公司类 IPO 新挂牌。证监会补充材料公示最新仍为 8 月 14 日、备案情况表最新截至 8 月 7 日，未见单家公司新增备案通知书，csrcCount=0。SEC 官方 Q3 daily-index 目录截至 8 月 21 日 09:30 仍仅发布到 8 月 19 日，8 月 20 日索引留待后续回扫。",
+      "subtitle": "港股正常交易日回扫；公司类 IPO 新挂牌 0 家，NEW AP 2 家，PHIP 1 家，SEC 中概 F-1/A 2 家。",
+      "statusNote": "2026-08-20 为港股正常交易日。HKEX NEW AP=2（君乐宝乳业集团、博纳西亚（杭州）医药科技），PHIP=1（深圳麦科田生物医疗技术），公司类 IPO 新挂牌=0。SEC EDGAR official full-text search 回扫命中 CL Workshop Group Ltd、Chilwa Minerals Ltd、Timwood Holdings Ltd 三家 F-1/A；按香港/澳门/中国经营地筛选，CL Workshop（澳门）及 Timwood（香港）计入中概 IPO pipeline，Chilwa（澳大利亚）不计。证监会未见当日单家公司新增《境外发行上市备案通知书》。",
       "archiveNotice": "仅展示真实官方事件；无新增类别不创建占位公司卡。",
       "observations": [
         "港股交易日：2026-08-20 为周四正常交易日。",
         "HKEX：公司类 IPO 新挂牌=0；君乐宝、博纳西亚 NEW AP=2；麦科田 PHIP=1。",
         "证监会：未见本日单家公司备案通知书；补充材料公示与备案情况表均无本日更新，csrcCount=0。",
-        "SEC：20260820 official daily-index 尚未发布，后续按自然日回扫。"
+        "SEC：official full-text search 命中 3 家 F-1/A；按经营地筛选并按发行人去重，CL Workshop Group Ltd、Timwood Holdings Ltd 计入，usChinaIpoCount=2。"
       ],
       "metrics": {
         "hkexNewListings": 0,
         "apNewCount": 2,
         "phipCount": 1,
         "csrcCount": 0,
-        "usChinaIpoCount": 0
+        "usChinaIpoCount": 2
       },
       "officialSourceChecks": [
         {
@@ -43,9 +43,9 @@
           "result": "补充材料公示最新为 8 月 14 日；备案情况表最新截至 8 月 7 日；未见本日单家公司备案通知书。"
         },
         {
-          "source": "SEC EDGAR official daily-index",
+          "source": "SEC EDGAR official full-text search",
           "dateRange": "2026-08-20",
-          "result": "Q3 目录截至 8 月 21 日 09:30 仍未出现 20260820 索引，留待后续回扫。"
+          "result": "命中 3 家 F-1/A；其中 CL Workshop Group Ltd（澳门）及 Timwood Holdings Ltd（香港）计入中概 IPO pipeline，Chilwa Minerals Ltd（澳大利亚）不计。"
         }
       ],
       "deals": [
@@ -138,6 +138,59 @@
             "PANACRO AP English Full",
             "Medcaptain PHIP English Full"
           ]
+        },
+        {
+          "id": "sec-china-ipo-filings-20260820",
+          "section": "美股中概 IPO",
+          "type": "SEC EDGAR IPO 文件更新",
+          "status": "F-1/A 2 家",
+          "eventType": "usChinaIpoFiling",
+          "countInMetrics": true,
+          "company": {
+            "zh": "SEC EDGAR 中国相关 IPO 文件监控",
+            "en": "SEC EDGAR China-related IPO Monitor",
+            "display": "SEC EDGAR 中国相关 IPO 文件监控（2026-08-20）",
+            "exchange": "SEC EDGAR",
+            "board": "F-1 / IPO related filings",
+            "listingStructure": "多家公司"
+          },
+          "business": {
+            "sector": "美股 IPO pipeline",
+            "summary": "按发行人去重计入 2 家香港/澳门经营发行人的 F-1/A。",
+            "source": "SEC EDGAR official full-text search"
+          },
+          "metrics": {
+            "usChinaIpoCount": 2
+          },
+          "secFilings": [
+            {
+              "company": "CL Workshop Group Ltd",
+              "cik": "0001948294",
+              "form": "F-1/A",
+              "filingDate": "2026-08-20",
+              "accessionNumber": "0001493152-26-039403",
+              "businessLocation": "Macau S.A.R.",
+              "sourceLinks": [
+                "SEC CL Workshop F-1/A index"
+              ]
+            },
+            {
+              "company": "Timwood Holdings Ltd",
+              "cik": "0002092291",
+              "form": "F-1/A",
+              "filingDate": "2026-08-20",
+              "accessionNumber": "0001185185-26-003639",
+              "businessLocation": "Cheung Sha Wan, Kowloon, Hong Kong",
+              "sourceLinks": [
+                "SEC Timwood F-1/A index"
+              ]
+            }
+          ],
+          "links": [
+            "SEC EDGAR search 20260820",
+            "SEC CL Workshop F-1/A index",
+            "SEC Timwood F-1/A index"
+          ]
         }
       ]
     }
@@ -163,6 +216,9 @@
     "Medcaptain PHIP English Full": "https://www1.hkexnews.hk/app/sehk/2026/108289/documents/sehk26082001648.pdf",
     "Medcaptain PHIP English Pack": "https://www1.hkexnews.hk/app/sehk/2026/108289/2026082001643.htm",
     "Medcaptain PHIP Chinese Full": "https://www1.hkexnews.hk/app/sehk/2026/108289/documents/sehk26082001647_c.pdf",
-    "Medcaptain PHIP Chinese Pack": "https://www1.hkexnews.hk/app/sehk/2026/108289/2026082001644_c.htm"
+    "Medcaptain PHIP Chinese Pack": "https://www1.hkexnews.hk/app/sehk/2026/108289/2026082001644_c.htm",
+    "SEC EDGAR search 20260820": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-08-20&enddt=2026-08-20&forms=F-1%2CF-1%2FA&from=0&size=100",
+    "SEC CL Workshop F-1/A index": "https://www.sec.gov/Archives/edgar/data/1948294/000149315226039403/0001493152-26-039403-index.htm",
+    "SEC Timwood F-1/A index": "https://www.sec.gov/Archives/edgar/data/2092291/000118518526003639/0001185185-26-003639-index.htm"
   }
 }
