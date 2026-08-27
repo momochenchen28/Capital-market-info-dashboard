@@ -1,0 +1,151 @@
+{
+  "generatedAt": "2026-08-27T15:33:34+08:00",
+  "dailyReports": {
+    "2026-08-26": {
+      "date": "2026-08-26",
+      "reportType": "briefing",
+      "title": "资本市场快报",
+      "subtitle": "港股正常交易日回扫；公司类 IPO 新挂牌 0 家，NEW AP 1 家，PHIP 0 家，SEC 中概 F-1/A 1 家。",
+      "statusNote": "2026-08-26 为港股正常交易日。HKEX AP-only structured JSON 确认征祥医药（南京）集团-B 首次递表，PHIP=0；Newly Listed Securities 当日为 ETF、多币种柜台及债务证券，无公司类 IPO 新挂牌。SEC EDGAR 命中 CALM Chain International Ltd 与 CCH Holdings Ltd 两家 F-1/A；前者经营地为香港，计入中概 IPO pipeline，后者经营地为马来西亚，不计。证监会未见当日目标更新。",
+      "archiveNotice": "仅展示真实官方事件；无新增类别不创建占位公司卡。",
+      "observations": [
+        "港股交易日：2026-08-26 为周三正常交易日。",
+        "HKEX：公司类 IPO 新挂牌=0；征祥医药（南京）集团-B NEW AP=1，PHIP=0。",
+        "证监会：csrcCount=0，未见其他目标监管更新。",
+        "SEC：CALM Chain International Ltd（香港）F-1/A 计入中概 IPO pipeline。"
+      ],
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 1,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 1
+      },
+      "officialSourceChecks": [
+        {
+          "source": "HKEX Securities Market Holiday Schedule 2026",
+          "dateRange": "2026-08-26",
+          "result": "不在休市日期内，为正常交易日。"
+        },
+        {
+          "source": "HKEX Newly Listed Securities / New Listing Information",
+          "dateRange": "2026-08-26",
+          "result": "ETF、多币种柜台及债务证券新上市，无公司类 IPO 新挂牌。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-08-26",
+          "result": "NEW AP=1（征祥医药（南京）集团-B），PHIP=0。"
+        },
+        {
+          "source": "CSRC official filing pages",
+          "dateRange": "2026-08-26",
+          "result": "未见单家公司备案通知书、补充材料公示或备案情况表更新。"
+        },
+        {
+          "source": "SEC EDGAR official full-text search",
+          "dateRange": "2026-08-26",
+          "result": "CALM Chain（香港）计入；CCH Holdings（马来西亚）不计。"
+        }
+      ],
+      "deals": [
+        {
+          "id": "hkex-ap-20260826",
+          "section": "港股递表/聆讯",
+          "type": "AP / PHIP 更新",
+          "status": "1家递表 / 无新增聆讯",
+          "eventType": "hkexApPhip",
+          "countInMetrics": true,
+          "company": {
+            "zh": "HKEX AP/PHIP 官方文件更新",
+            "en": "HKEX AP/PHIP official filing updates",
+            "display": "HKEX AP/PHIP 官方文件更新（2026-08-26）",
+            "exchange": "HKEX",
+            "board": "Main Board"
+          },
+          "business": {
+            "sector": "新上市申请文件",
+            "summary": "1 家首次递表；无 PHIP。",
+            "source": "HKEX structured JSON"
+          },
+          "metrics": {
+            "apNewCount": 1,
+            "phipCount": 0
+          },
+          "apApplications": [
+            {
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "征祥醫藥（南京）集團股份有限公司 - B",
+              "nameEn": "Zenshine Pharmaceuticals (Nanjing) Group Co., Ltd. - B",
+              "filingDate": "2026-08-26",
+              "structure": "中国境内注册 / 18A 生物科技公司 / 主板上市申请",
+              "sector": "创新药 / 生物医药",
+              "sponsors": "以申请版本封面及参与方章节为准",
+              "businessSummary": "HKEX AP-only structured JSON 确认首次递表。",
+              "prospectusLink": "Zenshine AP 20260826"
+            }
+          ],
+          "links": [
+            "HKEX AP structured JSON",
+            "HKEX AP/PHIP structured JSON",
+            "Zenshine AP 20260826"
+          ]
+        },
+        {
+          "id": "sec-china-ipo-filings-20260826",
+          "section": "美股中概 IPO",
+          "type": "SEC EDGAR IPO 文件更新",
+          "status": "F-1/A 1 家",
+          "eventType": "usChinaIpoFiling",
+          "countInMetrics": true,
+          "company": {
+            "zh": "SEC EDGAR 中国相关 IPO 文件监控",
+            "en": "SEC EDGAR China-related IPO Monitor",
+            "display": "SEC EDGAR 中国相关 IPO 文件监控（2026-08-26）",
+            "exchange": "SEC EDGAR",
+            "board": "F-1 / IPO related filings"
+          },
+          "business": {
+            "sector": "美股 IPO pipeline",
+            "summary": "CALM Chain International Ltd（香港）F-1/A。",
+            "source": "SEC EDGAR official full-text search"
+          },
+          "metrics": {
+            "usChinaIpoCount": 1
+          },
+          "secFilings": [
+            {
+              "company": "CALM Chain International Ltd",
+              "cik": "0002083945",
+              "form": "F-1/A",
+              "filingDate": "2026-08-26",
+              "accessionNumber": "0001213900-26-093861",
+              "businessLocation": "Hong Kong",
+              "sourceLinks": [
+                "SEC CALM Chain F-1/A index"
+              ]
+            }
+          ],
+          "links": [
+            "SEC EDGAR search 20260826",
+            "SEC CALM Chain F-1/A index"
+          ]
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Securities Market Holiday Schedule 2026": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2025/ce_SEHK_CT_075_2025.pdf",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/new-listings/new-listing-information/main-board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "CSRC Overseas Filing Progress": "https://www.csrc.gov.cn/csrc/c106251/common_list.shtml",
+    "SEC EDGAR Daily Index Directory": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/",
+    "Zenshine AP 20260826": "https://www1.hkexnews.hk/app/sehk/2026/108821/documents/sehk26082601974.pdf",
+    "SEC EDGAR search 20260826": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-08-26&enddt=2026-08-26&forms=F-1%2CF-1%2FA&from=0&size=100",
+    "SEC CALM Chain F-1/A index": "https://www.sec.gov/Archives/edgar/data/2083945/000121390026093861/0001213900-26-093861-index.htm"
+  }
+}
