@@ -1,0 +1,182 @@
+{
+  "generatedAt": "2026-08-27T15:33:34+08:00",
+  "dailyReports": {
+    "2026-08-25": {
+      "date": "2026-08-25",
+      "reportType": "briefing",
+      "title": "资本市场快报",
+      "subtitle": "港股正常交易日回扫；北京君正（03223）新挂牌，NEW AP 2 家，PHIP 0 家。",
+      "statusNote": "2026-08-25 为港股正常交易日。北京君正集成电路股份有限公司（03223）于主板新挂牌；已按 HKEX 配发结果与公开上市资料补齐发行价、发售股数、公开发售和国际配售认购、基石投资人、主要中介及完整时间线。HKEX AP-only structured JSON 同日确认深圳市绿联科技、山东卓创资讯首次递表，PHIP=0。证监会未见当日目标更新。SEC EDGAR 命中加拿大经营发行人 SIYATA PTT 的 F-1/A，不计中概 IPO。",
+      "archiveNotice": "仅展示真实官方事件；无新增类别不创建占位公司卡。",
+      "observations": [
+        "港股交易日：2026-08-25 为周二正常交易日。",
+        "HKEX：北京君正（03223）公司类 IPO 新挂牌=1；NEW AP=2、PHIP=0。",
+        "证监会：未见单家公司备案通知书、补充材料公示或备案情况表当日更新，csrcCount=0。",
+        "SEC：SIYATA PTT 为加拿大经营发行人，不计中概 IPO，usChinaIpoCount=0。"
+      ],
+      "metrics": {
+        "hkexNewListings": 1,
+        "apNewCount": 2,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "officialSourceChecks": [
+        {
+          "source": "HKEX Securities Market Holiday Schedule 2026",
+          "dateRange": "2026-08-25",
+          "result": "不在休市日期内，为正常交易日。"
+        },
+        {
+          "source": "HKEX Newly Listed Securities / New Listing Information",
+          "dateRange": "2026-08-25",
+          "result": "公司类 IPO 新挂牌 1 家：北京君正集成电路股份有限公司（03223）。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-08-25",
+          "result": "NEW AP=2（深圳绿联科技、山东卓创资讯），PHIP=0。"
+        },
+        {
+          "source": "CSRC official filing pages",
+          "dateRange": "2026-08-25",
+          "result": "未见单家公司备案通知书、补充材料公示或备案情况表更新。"
+        },
+        {
+          "source": "SEC EDGAR official full-text search",
+          "dateRange": "2026-08-25",
+          "result": "仅 SIYATA PTT F-1/A，经营地为加拿大，不计中概 IPO。"
+        }
+      ],
+      "deals": [
+        {
+          "id": "hkex-listing-03223-20260825",
+          "section": "港股新股",
+          "eventType": "hkexIpoListing",
+          "countInMetrics": true,
+          "company": "北京君正集成电路股份有限公司",
+          "companyEn": "Ingenic Semiconductor Co., Ltd.",
+          "stockCode": "03223",
+          "status": "新挂牌",
+          "documentType": "New Listing",
+          "sector": "集成电路 / 半导体",
+          "businessSummary": "提供计算芯片、存储芯片及模拟与互联芯片，产品覆盖汽车电子、工业及消费电子等应用。",
+          "ipo": {
+            "offerPrice": "HK$100.00",
+            "sharesOffered": "31,287,300 股 H 股（超额配股权行使前）",
+            "publicOffer": "3,128,800 股；香港公开发售 927.37 倍认购，有效申请 141,851 份",
+            "internationalOffer": "28,158,500 股；国际发售 8.43 倍认购，承配人 101 名",
+            "cornerstoneInvestors": "11 名基石投资者，合计获配 15,034,000 股，占全球发售基础规模 48.05%；包括 Emerald Prime、广发基金、Perseverance Asset Management、上海高毅与华泰资本投资、新加坡华勤、工银理财、Arrow Target、汇添富（香港）、奇点资产、Heading Pioneer 10 Fund LPF、Dream’ee HK基金"
+          },
+          "intermediaries": "独家保荐人、保荐人兼整体协调人：国泰君安证券（香港）；整体协调人：华泰金融控股（香港）、平安证券（香港）。",
+          "timeline": [
+            "2025-09-15：公告委任国泰君安证券（香港）为整体协调人",
+            "2025-09-26：公告增聘华泰金融控股（香港）、平安证券（香港）为整体协调人",
+            "2026-05-26：HKEX 刊发本轮申请版本及整体协调人公告",
+            "2026-06-22：中国证监会出具境外发行上市备案通知书（国合函〔2026〕1481号）",
+            "2026-08-09：HKEX 刊发聆讯后资料集（PHIP）",
+            "2026-08-17：刊发招股章程并启动全球发售",
+            "2026-08-24：刊发最终发售价及配发结果公告",
+            "2026-08-25：H 股于港交所主板开始买卖（股份代号 03223）"
+          ],
+          "marketPerformance": {
+            "openPrice": "待官方行情源补充",
+            "closePrice": "待收盘/官方行情源补充",
+            "changePct": "待收盘/官方行情源补充"
+          },
+          "links": [
+            {
+              "label": "HKEX 配发结果公告",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0824/2026082401908_c.pdf"
+            },
+            {
+              "label": "HKEX 本轮申请版本",
+              "url": "https://www.hkexnews.hk/app/sehk/2026/108571/2026052601123_c.htm"
+            },
+            {
+              "label": "HKEX PHIP",
+              "url": "https://www1.hkexnews.hk/app/sehk/2026/108571/2026080900028_c.htm"
+            },
+            {
+              "label": "证监会备案通知书",
+              "url": "https://www.csrc.gov.cn/csrc/c105984/c7643279/content.shtml"
+            },
+            {
+              "label": "HKEX Newly Listed Securities",
+              "url": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en"
+            }
+          ]
+        },
+        {
+          "id": "hkex-ap-20260825",
+          "section": "港股递表/聆讯",
+          "type": "AP / PHIP 更新",
+          "status": "2家递表 / 无新增聆讯",
+          "eventType": "hkexApPhip",
+          "countInMetrics": true,
+          "company": {
+            "zh": "HKEX AP/PHIP 官方文件更新",
+            "en": "HKEX AP/PHIP official filing updates",
+            "display": "HKEX AP/PHIP 官方文件更新（2026-08-25）",
+            "exchange": "HKEX",
+            "board": "Main Board"
+          },
+          "business": {
+            "sector": "新上市申请文件",
+            "summary": "2 家首次递表；无 PHIP。",
+            "source": "HKEX structured JSON"
+          },
+          "metrics": {
+            "apNewCount": 2,
+            "phipCount": 0
+          },
+          "apApplications": [
+            {
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "深圳市綠聯科技股份有限公司",
+              "nameEn": "Ugreen Group Limited",
+              "filingDate": "2026-08-25",
+              "structure": "中国境内注册 / 主板上市申请",
+              "sector": "消费电子配件与智能硬件",
+              "sponsors": "以申请版本封面及参与方章节为准",
+              "businessSummary": "HKEX AP-only structured JSON 确认首次递表。",
+              "prospectusLink": "Ugreen AP 20260825"
+            },
+            {
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "山東卓創資訊股份有限公司",
+              "nameEn": "Sublime China Information Co., Ltd.",
+              "filingDate": "2026-08-25",
+              "structure": "中国境内注册 / 主板上市申请",
+              "sector": "大宗商品信息服务",
+              "sponsors": "以申请版本封面及参与方章节为准",
+              "businessSummary": "HKEX AP-only structured JSON 确认首次递表。",
+              "prospectusLink": "Sublime China AP 20260825"
+            }
+          ],
+          "links": [
+            "HKEX AP structured JSON",
+            "HKEX AP/PHIP structured JSON",
+            "Ugreen AP 20260825",
+            "Sublime China AP 20260825"
+          ]
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Securities Market Holiday Schedule 2026": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2025/ce_SEHK_CT_075_2025.pdf",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/new-listings/new-listing-information/main-board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "CSRC Overseas Filing Progress": "https://www.csrc.gov.cn/csrc/c106251/common_list.shtml",
+    "SEC EDGAR Daily Index Directory": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/",
+    "Ugreen AP 20260825": "https://www1.hkexnews.hk/app/sehk/2026/108818/documents/sehk26082500276.pdf",
+    "Sublime China AP 20260825": "https://www1.hkexnews.hk/app/sehk/2026/108820/documents/sehk26082502062.pdf",
+    "SEC EDGAR search 20260825": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-08-25&enddt=2026-08-25&forms=F-1%2CF-1%2FA&from=0&size=100"
+  }
+}
