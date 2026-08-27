@@ -1,0 +1,192 @@
+{
+  "generatedAt": "2026-08-27T15:33:34+08:00",
+  "dailyReports": {
+    "2026-08-24": {
+      "date": "2026-08-24",
+      "reportType": "briefing",
+      "title": "资本市场快报",
+      "subtitle": "港股正常交易日回扫；公司类 IPO 新挂牌 0 家，NEW AP 2 家，PHIP 1 家，SEC 中概 F-1/A 2 家。",
+      "statusNote": "2026-08-24 为港股正常交易日。HKEX 回扫确认浙江荣泰电工器材、上海移芯通信科技首次递表，优地机器人（无锡）刊发首次 PHIP；公司类 IPO 新挂牌=0。SEC EDGAR official full-text search 命中 Kepler Group Ltd 与 BTC Digital Ltd 两家香港/深圳经营发行人的 F-1/A，均计入中概 IPO pipeline。证监会未见当日目标更新。",
+      "archiveNotice": "仅展示真实官方事件；无新增类别不创建占位公司卡。",
+      "observations": [
+        "港股交易日：2026-08-24 为周一正常交易日。",
+        "HKEX：公司类 IPO 新挂牌=0；NEW AP=2、PHIP=1。",
+        "证监会：csrcCount=0，未见补充材料公示或备案情况表当日更新。",
+        "SEC：Kepler Group Ltd、BTC Digital Ltd 两家 F-1/A 计入中概 IPO pipeline。"
+      ],
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 2,
+        "phipCount": 1,
+        "csrcCount": 0,
+        "usChinaIpoCount": 2
+      },
+      "officialSourceChecks": [
+        {
+          "source": "HKEX Securities Market Holiday Schedule 2026",
+          "dateRange": "2026-08-24",
+          "result": "不在休市日期内，为正常交易日。"
+        },
+        {
+          "source": "HKEX Newly Listed Securities / New Listing Information",
+          "dateRange": "2026-08-24",
+          "result": "仅股份合并、每手股数变更及并行交易，无公司类 IPO 新挂牌。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-08-24",
+          "result": "NEW AP=2，PHIP=1。"
+        },
+        {
+          "source": "CSRC official filing pages",
+          "dateRange": "2026-08-24",
+          "result": "未见单家公司备案通知书、补充材料公示或备案情况表更新。"
+        },
+        {
+          "source": "SEC EDGAR official full-text search",
+          "dateRange": "2026-08-24",
+          "result": "Kepler Group Ltd、BTC Digital Ltd 两家 F-1/A 按香港/深圳经营地计入。"
+        }
+      ],
+      "deals": [
+        {
+          "id": "hkex-ap-20260824",
+          "section": "港股递表/聆讯",
+          "type": "AP / PHIP 更新",
+          "status": "2家递表 / 1家聆讯后资料集",
+          "eventType": "hkexApPhip",
+          "countInMetrics": true,
+          "company": {
+            "zh": "HKEX AP/PHIP 官方文件更新",
+            "en": "HKEX AP/PHIP official filing updates",
+            "display": "HKEX AP/PHIP 官方文件更新（2026-08-24）",
+            "exchange": "HKEX",
+            "board": "Main Board"
+          },
+          "business": {
+            "sector": "新上市申请文件",
+            "summary": "2 家首次递表；1 家刊发 PHIP。",
+            "source": "HKEX structured JSON"
+          },
+          "metrics": {
+            "apNewCount": 2,
+            "phipCount": 1
+          },
+          "apApplications": [
+            {
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "浙江榮泰電工器材股份有限公司",
+              "nameEn": "Zhejiang Rongtai Electric Material Co., Ltd.",
+              "filingDate": "2026-08-24",
+              "structure": "中国境内注册 / 主板上市申请",
+              "sector": "电工绝缘材料",
+              "sponsors": "以申请版本封面及参与方章节为准",
+              "businessSummary": "HKEX AP-only structured JSON 确认首次递表。",
+              "prospectusLink": "Rongtai AP 20260824"
+            },
+            {
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "上海移芯通信科技股份有限公司",
+              "nameEn": "Shanghai Eigencomm Technologies Co., Ltd.",
+              "filingDate": "2026-08-24",
+              "structure": "中国境内注册 / 主板上市申请",
+              "sector": "蜂窝物联网通信芯片",
+              "sponsors": "以申请版本封面及参与方章节为准",
+              "businessSummary": "HKEX AP-only structured JSON 确认首次递表。",
+              "prospectusLink": "Eigencomm AP 20260824"
+            },
+            {
+              "status": "PHIP",
+              "documentType": "Post Hearing Information Pack (1st submission)",
+              "nameZh": "優地機器人（無錫）股份有限公司",
+              "nameEn": "Excelland Robotics (Wuxi) Co. Ltd.",
+              "filingDate": "2026-08-24",
+              "structure": "中国境内注册 / 主板上市申请",
+              "sector": "服务机器人",
+              "sponsors": "以 PHIP 封面页及参与方章节为准",
+              "businessSummary": "HKEX AP+PHIP structured JSON 确认刊发首次 PHIP。",
+              "prospectusLink": "Excelland PHIP 20260824"
+            }
+          ],
+          "links": [
+            "HKEX AP structured JSON",
+            "HKEX AP/PHIP structured JSON",
+            "Rongtai AP 20260824",
+            "Eigencomm AP 20260824",
+            "Excelland PHIP 20260824"
+          ]
+        },
+        {
+          "id": "sec-china-ipo-filings-20260824",
+          "section": "美股中概 IPO",
+          "type": "SEC EDGAR IPO 文件更新",
+          "status": "F-1/A 2 家",
+          "eventType": "usChinaIpoFiling",
+          "countInMetrics": true,
+          "company": {
+            "zh": "SEC EDGAR 中国相关 IPO 文件监控",
+            "en": "SEC EDGAR China-related IPO Monitor",
+            "display": "SEC EDGAR 中国相关 IPO 文件监控（2026-08-24）",
+            "exchange": "SEC EDGAR",
+            "board": "F-1 / IPO related filings"
+          },
+          "business": {
+            "sector": "美股 IPO pipeline",
+            "summary": "Kepler Group Ltd、BTC Digital Ltd 两家 F-1/A。",
+            "source": "SEC EDGAR official full-text search"
+          },
+          "metrics": {
+            "usChinaIpoCount": 2
+          },
+          "secFilings": [
+            {
+              "company": "Kepler Group Ltd",
+              "cik": "0002000208",
+              "form": "F-1/A",
+              "filingDate": "2026-08-24",
+              "accessionNumber": "0001493152-26-039800",
+              "businessLocation": "Harbour City, Tsim Sha Tsui, Hong Kong",
+              "sourceLinks": [
+                "SEC Kepler F-1/A index"
+              ]
+            },
+            {
+              "company": "BTC Digital Ltd.",
+              "cik": "0001796514",
+              "form": "F-1/A",
+              "filingDate": "2026-08-24",
+              "accessionNumber": "0001213900-26-092955",
+              "businessLocation": "Shenzhen, China",
+              "sourceLinks": [
+                "SEC BTC Digital F-1/A index"
+              ]
+            }
+          ],
+          "links": [
+            "SEC EDGAR search 20260824",
+            "SEC Kepler F-1/A index",
+            "SEC BTC Digital F-1/A index"
+          ]
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Securities Market Holiday Schedule 2026": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2025/ce_SEHK_CT_075_2025.pdf",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/new-listings/new-listing-information/main-board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "CSRC Overseas Filing Progress": "https://www.csrc.gov.cn/csrc/c106251/common_list.shtml",
+    "SEC EDGAR Daily Index Directory": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/",
+    "Rongtai AP 20260824": "https://www1.hkexnews.hk/app/sehk/2026/108815/documents/sehk26082401772.pdf",
+    "Eigencomm AP 20260824": "https://www1.hkexnews.hk/app/sehk/2026/108816/documents/sehk26082402034.pdf",
+    "Excelland PHIP 20260824": "https://www1.hkexnews.hk/app/sehk/2026/108814/documents/sehk26082401690.pdf",
+    "SEC EDGAR search 20260824": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-08-24&enddt=2026-08-24&forms=F-1%2CF-1%2FA&from=0&size=100",
+    "SEC Kepler F-1/A index": "https://www.sec.gov/Archives/edgar/data/2000208/000149315226039800/0001493152-26-039800-index.htm",
+    "SEC BTC Digital F-1/A index": "https://www.sec.gov/Archives/edgar/data/1796514/000121390026092955/0001213900-26-092955-index.htm"
+  }
+}
