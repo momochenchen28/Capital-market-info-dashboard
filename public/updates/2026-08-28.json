@@ -1,0 +1,246 @@
+{
+  "generatedAt": "2026-09-07T09:30:00+08:00",
+  "dailyReports": {
+    "2026-08-28": {
+      "date": "2026-08-28",
+      "reportType": "briefing",
+      "title": "资本市场快报",
+      "subtitle": "港股正常交易日；公司类 IPO 新挂牌 0 家，NEW AP 9 家，PHIP 0 家，SEC 中概 F-1 系列 0 家。",
+      "statusNote": "2026-08-28 为港股正常交易日。HKEX structured JSON 已更新至 07/09/2026（AP-only app.length=362、AP+PHIP app.length=9）；按文件实际日期回扫，本日 公司类 IPO 新挂牌 0 家，NEW AP 9 家，PHIP 0 家，SEC 中概 F-1 系列 0 家。证监会未见本日单家公司新增《境外发行上市备案通知书》，csrcCount=0；补充材料公示/备案情况表仅作监管更新展示，不计数。SEC 以 EDGAR 官方全文检索按申报日筛选并按发行人去重。",
+      "archiveNotice": "仅展示真实官方事件；无新增类别不创建占位公司卡。",
+      "observations": [
+        "港股交易日：2026-08-28 为周五正常交易日。",
+        "HKEX：公司类 IPO 新挂牌=0；NEW AP=9、PHIP=0。",
+        "证监会：单家公司备案通知书=0；监管列表更新 1 项，且均不计入 csrcCount。",
+        "SEC：中概 F-1/F-1/A 发行人=0。"
+      ],
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 9,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "officialSourceChecks": [
+        {
+          "source": "HKEX Securities Market Holiday Schedule 2026",
+          "dateRange": "2026-08-28",
+          "result": "不在休市日期内，为正常交易日。"
+        },
+        {
+          "source": "HKEX Newly Listed Securities / New Listing Information",
+          "dateRange": "2026-08-28",
+          "result": "无公司类 IPO 新挂牌。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-08-28",
+          "result": "uDate=07/09/2026；按文档日期筛选 NEW AP=9、PHIP=0。"
+        },
+        {
+          "source": "CSRC official filing pages",
+          "dateRange": "2026-08-28",
+          "result": "单家公司新增《境外发行上市备案通知书》=0；监管列表更新 1 项，仅展示不计数。"
+        },
+        {
+          "source": "SEC EDGAR official full-text search / daily-index",
+          "dateRange": "2026-08-28",
+          "result": "筛得中国内地/香港经营发行人 0 家。"
+        }
+      ],
+      "deals": [
+        {
+          "id": "hkex-ap-phip-20260828",
+          "section": "港股递表/聆讯",
+          "type": "AP / PHIP 更新",
+          "status": "9家递表 / 无新增聆讯",
+          "eventType": "hkexApPhip",
+          "countInMetrics": true,
+          "company": {
+            "zh": "HKEX AP/PHIP 官方文件更新",
+            "en": "HKEX AP/PHIP official filing updates",
+            "display": "HKEX AP/PHIP 官方文件更新（2026-08-28）",
+            "exchange": "HKEX",
+            "board": "Main Board"
+          },
+          "business": {
+            "sector": "新上市申请文件",
+            "summary": "9 家首次递表；0 家刊发 PHIP。",
+            "source": "HKEX structured JSON"
+          },
+          "metrics": {
+            "apNewCount": 9,
+            "phipCount": 0
+          },
+          "apApplications": [
+            {
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "深圳新宙邦科技股份有限公司",
+              "nameEn": "SHENZHEN CAPCHEM TECHNOLOGY CO., LTD.",
+              "filingDate": "2026-08-28",
+              "structure": "主板上市申请",
+              "sector": "以申请版本/PHIP业务章节为准",
+              "sponsors": "以申请版本封面及参与方章节为准",
+              "businessSummary": "HKEX AP-only structured JSON 确认首次递表。",
+              "prospectusLink": "HKEX NEW AP 2026-08-28 1"
+            },
+            {
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "維眸生物科技（浙江）股份有限公司 - B",
+              "nameEn": "VivaVision Biotech (Zhejiang) Co., Ltd. - B",
+              "filingDate": "2026-08-28",
+              "structure": "主板上市申请",
+              "sector": "以申请版本/PHIP业务章节为准",
+              "sponsors": "以申请版本封面及参与方章节为准",
+              "businessSummary": "HKEX AP-only structured JSON 确认首次递表。",
+              "prospectusLink": "HKEX NEW AP 2026-08-28 2"
+            },
+            {
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "浙江正泰電器股份有限公司",
+              "nameEn": "Zhejiang Chint Electrics Co., Ltd.",
+              "filingDate": "2026-08-28",
+              "structure": "主板上市申请",
+              "sector": "以申请版本/PHIP业务章节为准",
+              "sponsors": "以申请版本封面及参与方章节为准",
+              "businessSummary": "HKEX AP-only structured JSON 确认首次递表。",
+              "prospectusLink": "HKEX NEW AP 2026-08-28 3"
+            },
+            {
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "杭州糖吉醫療科技股份有限公司 - B",
+              "nameEn": "Hangzhou Tangji Medical Technology Co., Ltd. - B",
+              "filingDate": "2026-08-28",
+              "structure": "主板上市申请",
+              "sector": "以申请版本/PHIP业务章节为准",
+              "sponsors": "以申请版本封面及参与方章节为准",
+              "businessSummary": "HKEX AP-only structured JSON 确认首次递表。",
+              "prospectusLink": "HKEX NEW AP 2026-08-28 4"
+            },
+            {
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "Frontera Therapeutics - B",
+              "nameEn": "Frontera Therapeutics - B",
+              "filingDate": "2026-08-28",
+              "structure": "主板上市申请",
+              "sector": "以申请版本/PHIP业务章节为准",
+              "sponsors": "以申请版本封面及参与方章节为准",
+              "businessSummary": "HKEX AP-only structured JSON 确认首次递表。",
+              "prospectusLink": "HKEX NEW AP 2026-08-28 5"
+            },
+            {
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "貝達藥業股份有限公司",
+              "nameEn": "Betta Pharmaceuticals Co., Ltd.",
+              "filingDate": "2026-08-28",
+              "structure": "主板上市申请",
+              "sector": "以申请版本/PHIP业务章节为准",
+              "sponsors": "以申请版本封面及参与方章节为准",
+              "businessSummary": "HKEX AP-only structured JSON 确认首次递表。",
+              "prospectusLink": "HKEX NEW AP 2026-08-28 6"
+            },
+            {
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "地中海度假集團",
+              "nameEn": "ClubMed Lifestyle Group",
+              "filingDate": "2026-08-28",
+              "structure": "主板上市申请",
+              "sector": "以申请版本/PHIP业务章节为准",
+              "sponsors": "以申请版本封面及参与方章节为准",
+              "businessSummary": "HKEX AP-only structured JSON 确认首次递表。",
+              "prospectusLink": "HKEX NEW AP 2026-08-28 7"
+            },
+            {
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "Exegenesis Bio Inc. - B",
+              "nameEn": "Exegenesis Bio Inc. - B",
+              "filingDate": "2026-08-28",
+              "structure": "主板上市申请",
+              "sector": "以申请版本/PHIP业务章节为准",
+              "sponsors": "以申请版本封面及参与方章节为准",
+              "businessSummary": "HKEX AP-only structured JSON 确认首次递表。",
+              "prospectusLink": "HKEX NEW AP 2026-08-28 8"
+            },
+            {
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "南京諾令生物科技股份有限公司 - B",
+              "nameEn": "Nanjing Novlead Biotechnology Co., Ltd. - B",
+              "filingDate": "2026-08-28",
+              "structure": "主板上市申请",
+              "sector": "以申请版本/PHIP业务章节为准",
+              "sponsors": "以申请版本封面及参与方章节为准",
+              "businessSummary": "HKEX AP-only structured JSON 确认首次递表。",
+              "prospectusLink": "HKEX NEW AP 2026-08-28 9"
+            }
+          ],
+          "links": [
+            "HKEX AP structured JSON",
+            "HKEX AP/PHIP structured JSON",
+            "HKEX NEW AP 2026-08-28 1",
+            "HKEX NEW AP 2026-08-28 2",
+            "HKEX NEW AP 2026-08-28 3",
+            "HKEX NEW AP 2026-08-28 4",
+            "HKEX NEW AP 2026-08-28 5",
+            "HKEX NEW AP 2026-08-28 6",
+            "HKEX NEW AP 2026-08-28 7",
+            "HKEX NEW AP 2026-08-28 8",
+            "HKEX NEW AP 2026-08-28 9"
+          ]
+        },
+        {
+          "id": "csrc-regulatory-20260828-1",
+          "section": "监管动态",
+          "type": "证监会境外上市监管更新",
+          "status": "官方列表更新",
+          "eventType": "csrcRegulatoryUpdate",
+          "countInMetrics": false,
+          "company": {
+            "zh": "中国证监会境外上市类监管更新",
+            "en": "CSRC overseas listing regulatory update",
+            "display": "境外发行上市备案补充材料要求公示（2026年8月24日—8月28日）",
+            "exchange": "CSRC",
+            "board": "境外上市类"
+          },
+          "business": {
+            "sector": "境外上市备案监管",
+            "summary": "境外发行上市备案补充材料要求公示（2026年8月24日—8月28日）；仅作监管更新展示，不计入 csrcCount。",
+            "source": "中国证监会官网"
+          },
+          "links": [
+            "CSRC regulatory 2026-08-28 1"
+          ]
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Securities Market Holiday Schedule 2026": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2025/ce_SEHK_CT_075_2025.pdf",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/new-listings/new-listing-information/main-board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml?mobile=2",
+    "CSRC Overseas Filing Progress": "https://www.csrc.gov.cn/csrc/c106251/c7656852/content.shtml",
+    "CSRC Overseas Filing Results": "https://www.csrc.gov.cn/csrc/c105984/common_list.shtml",
+    "SEC EDGAR Daily Index Directory": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/",
+    "HKEX NEW AP 2026-08-28 1": "https://www1.hkexnews.hk/app/sehk/2026/108824/documents/sehk26082802199.pdf",
+    "HKEX NEW AP 2026-08-28 2": "https://www1.hkexnews.hk/app/sehk/2026/108825/documents/sehk26082802477.pdf",
+    "HKEX NEW AP 2026-08-28 3": "https://www1.hkexnews.hk/app/sehk/2026/108826/documents/sehk26082803207.pdf",
+    "HKEX NEW AP 2026-08-28 4": "https://www1.hkexnews.hk/app/sehk/2026/108827/documents/sehk26082803557.pdf",
+    "HKEX NEW AP 2026-08-28 5": "https://www1.hkexnews.hk/app/sehk/2026/108828/documents/sehk26082803705.pdf",
+    "HKEX NEW AP 2026-08-28 6": "https://www1.hkexnews.hk/app/sehk/2026/108829/documents/sehk26082803861.pdf",
+    "HKEX NEW AP 2026-08-28 7": "https://www1.hkexnews.hk/app/sehk/2026/108831/documents/sehk26082803941.pdf",
+    "HKEX NEW AP 2026-08-28 8": "https://www1.hkexnews.hk/app/sehk/2026/108832/documents/sehk26082804043.pdf",
+    "HKEX NEW AP 2026-08-28 9": "https://www1.hkexnews.hk/app/sehk/2026/108833/documents/sehk26082804161.pdf",
+    "CSRC regulatory 2026-08-28 1": "https://www.csrc.gov.cn/csrc/c105983/c7655209/content.shtml"
+  }
+}
