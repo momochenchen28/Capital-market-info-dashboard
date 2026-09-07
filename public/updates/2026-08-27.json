@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-08-27T15:33:34+08:00",
+  "generatedAt": "2026-09-07T09:30:00+08:00",
   "dailyReports": {
     "2026-08-27": {
       "date": "2026-08-27",
       "reportType": "briefing",
       "title": "资本市场快报",
-      "subtitle": "港股正常交易日早盘；公司类 IPO 新挂牌 0 家，NEW AP 0 家，PHIP 0 家。",
-      "statusNote": "2026-08-27 为港股正常交易日。截至本次运行，HKEX AP-only 与 AP+PHIP structured JSON 均更新至 27/08/2026（app.length=343/9），当日 NEW AP=0、PHIP=0；Newly Listed Securities 当日仅 EASYKNIT INT'L 股份拆细安排，无公司类 IPO 新挂牌。证监会目标官方页面最新更新仍为 8 月 21 日的补充材料公示及备案情况表，未见当日单家公司备案通知书。SEC Q3 official daily-index 目录已发布至 8 月 26 日，8 月 27 日索引尚未发布。",
+      "subtitle": "港股正常交易日；公司类 IPO 新挂牌 0 家，NEW AP 2 家，PHIP 1 家，SEC 中概 F-1 系列 3 家。",
+      "statusNote": "2026-08-27 为港股正常交易日。HKEX structured JSON 已更新至 07/09/2026（AP-only app.length=362、AP+PHIP app.length=9）；按文件实际日期回扫，本日 公司类 IPO 新挂牌 0 家，NEW AP 2 家，PHIP 1 家，SEC 中概 F-1 系列 3 家。证监会未见本日单家公司新增《境外发行上市备案通知书》，csrcCount=0。SEC 以 EDGAR 官方全文检索按申报日筛选并按发行人去重。",
       "archiveNotice": "仅展示真实官方事件；无新增类别不创建占位公司卡。",
       "observations": [
         "港股交易日：2026-08-27 为周四正常交易日。",
-        "HKEX：公司类 IPO 新挂牌=0；NEW AP=0、PHIP=0。",
-        "证监会：未见本日目标更新，csrcCount=0。",
-        "SEC：8 月 27 日 official daily-index 尚未发布，后续按自然日回扫。"
+        "HKEX：公司类 IPO 新挂牌=0；NEW AP=2、PHIP=1。",
+        "证监会：单家公司备案通知书=0；监管列表更新 0 项，且均不计入 csrcCount。",
+        "SEC：中概 F-1/F-1/A 发行人=3。"
       ],
       "metrics": {
         "hkexNewListings": 0,
-        "apNewCount": 0,
-        "phipCount": 0,
+        "apNewCount": 2,
+        "phipCount": 1,
         "csrcCount": 0,
-        "usChinaIpoCount": 0
+        "usChinaIpoCount": 3
       },
       "officialSourceChecks": [
         {
@@ -30,25 +30,159 @@
         {
           "source": "HKEX Newly Listed Securities / New Listing Information",
           "dateRange": "2026-08-27",
-          "result": "仅 EASYKNIT INT'L 股份拆细安排，无公司类 IPO 新挂牌。"
+          "result": "无公司类 IPO 新挂牌。"
         },
         {
           "source": "HKEX AP-only / AP+PHIP structured JSON",
           "dateRange": "2026-08-27",
-          "result": "uDate=27/08/2026；AP-only app.length=343、AP+PHIP app.length=9；当日 NEW AP=0、PHIP=0。"
+          "result": "uDate=07/09/2026；按文档日期筛选 NEW AP=2、PHIP=1。"
         },
         {
           "source": "CSRC official filing pages",
           "dateRange": "2026-08-27",
-          "result": "未见本日单家公司备案通知书、补充材料公示或备案情况表更新。"
+          "result": "单家公司新增《境外发行上市备案通知书》=0；未见补充材料公示或备案情况表当日更新。"
         },
         {
-          "source": "SEC EDGAR official daily-index",
+          "source": "SEC EDGAR official full-text search / daily-index",
           "dateRange": "2026-08-27",
-          "result": "Q3 目录当前发布至 20260826，20260827 索引尚未发布。"
+          "result": "筛得中国内地/香港经营发行人 3 家。"
         }
       ],
-      "deals": []
+      "deals": [
+        {
+          "id": "hkex-ap-phip-20260827",
+          "section": "港股递表/聆讯",
+          "type": "AP / PHIP 更新",
+          "status": "2家递表 / 1家聆讯后资料集",
+          "eventType": "hkexApPhip",
+          "countInMetrics": true,
+          "company": {
+            "zh": "HKEX AP/PHIP 官方文件更新",
+            "en": "HKEX AP/PHIP official filing updates",
+            "display": "HKEX AP/PHIP 官方文件更新（2026-08-27）",
+            "exchange": "HKEX",
+            "board": "Main Board"
+          },
+          "business": {
+            "sector": "新上市申请文件",
+            "summary": "2 家首次递表；1 家刊发 PHIP。",
+            "source": "HKEX structured JSON"
+          },
+          "metrics": {
+            "apNewCount": 2,
+            "phipCount": 1
+          },
+          "apApplications": [
+            {
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "上海劇星傳媒股份有限公司",
+              "nameEn": "Shanghai Vision Star Media Co.,Ltd.",
+              "filingDate": "2026-08-27",
+              "structure": "主板上市申请",
+              "sector": "以申请版本/PHIP业务章节为准",
+              "sponsors": "以申请版本封面及参与方章节为准",
+              "businessSummary": "HKEX AP-only structured JSON 确认首次递表。",
+              "prospectusLink": "HKEX NEW AP 2026-08-27 1"
+            },
+            {
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "迪哲（江蘇）醫藥股份有限公司",
+              "nameEn": "Dizal Pharmaceutical Co., Ltd.",
+              "filingDate": "2026-08-27",
+              "structure": "主板上市申请",
+              "sector": "以申请版本/PHIP业务章节为准",
+              "sponsors": "以申请版本封面及参与方章节为准",
+              "businessSummary": "HKEX AP-only structured JSON 确认首次递表。",
+              "prospectusLink": "HKEX NEW AP 2026-08-27 2"
+            },
+            {
+              "status": "PHIP",
+              "documentType": "Post Hearing Information Pack (1st submission)",
+              "nameZh": "星環信息科技（上海）股份有限公司",
+              "nameEn": "Transwarp Technology (Shanghai) Co., Ltd.",
+              "filingDate": "2026-08-27",
+              "structure": "主板上市申请",
+              "sector": "以申请版本/PHIP业务章节为准",
+              "sponsors": "以 PHIP 封面页及参与方章节为准",
+              "businessSummary": "HKEX AP+PHIP structured JSON 确认刊发首次 PHIP。",
+              "prospectusLink": "HKEX PHIP 2026-08-27 3"
+            }
+          ],
+          "links": [
+            "HKEX AP structured JSON",
+            "HKEX AP/PHIP structured JSON",
+            "HKEX NEW AP 2026-08-27 1",
+            "HKEX NEW AP 2026-08-27 2",
+            "HKEX PHIP 2026-08-27 3"
+          ]
+        },
+        {
+          "id": "sec-china-ipo-filings-20260827",
+          "section": "美股中概 IPO",
+          "type": "SEC EDGAR IPO 文件更新",
+          "status": "F-1/A 3 家",
+          "eventType": "usChinaIpoFiling",
+          "countInMetrics": true,
+          "company": {
+            "zh": "SEC EDGAR 中国相关 IPO 文件监控",
+            "en": "SEC EDGAR China-related IPO Monitor",
+            "display": "SEC EDGAR 中国相关 IPO 文件监控（2026-08-27）",
+            "exchange": "SEC EDGAR",
+            "board": "F-1 / IPO related filings"
+          },
+          "business": {
+            "sector": "美股 IPO pipeline",
+            "summary": "Advance JV Group Ltd、Lianhe Sowell International Group Ltd、AM PM Group Ltd 提交 F-1/A。",
+            "source": "SEC EDGAR official full-text search"
+          },
+          "metrics": {
+            "usChinaIpoCount": 3
+          },
+          "secFilings": [
+            {
+              "company": "Advance JV Group Ltd",
+              "cik": "0002089447",
+              "form": "F-1/A",
+              "filingDate": "2026-08-27",
+              "accessionNumber": "0001493152-26-040360",
+              "businessLocation": "Hong Kong",
+              "sourceLinks": [
+                "SEC filing 2026-08-27 1"
+              ]
+            },
+            {
+              "company": "Lianhe Sowell International Group Ltd",
+              "cik": "0002004024",
+              "form": "F-1/A",
+              "filingDate": "2026-08-27",
+              "accessionNumber": "0001213900-26-094326",
+              "businessLocation": "Nanshan District, Shenzhen, China",
+              "sourceLinks": [
+                "SEC filing 2026-08-27 2"
+              ]
+            },
+            {
+              "company": "AM PM Group Ltd",
+              "cik": "0002049323",
+              "form": "F-1/A",
+              "filingDate": "2026-08-27",
+              "accessionNumber": "0001213900-26-094116",
+              "businessLocation": "Kowloon Bay, Hong Kong",
+              "sourceLinks": [
+                "SEC filing 2026-08-27 3"
+              ]
+            }
+          ],
+          "links": [
+            "SEC EDGAR search 20260827",
+            "SEC filing 2026-08-27 1",
+            "SEC filing 2026-08-27 2",
+            "SEC filing 2026-08-27 3"
+          ]
+        }
+      ]
     }
   },
   "linkMap": {
@@ -57,8 +191,16 @@
     "HKEX New Listing Information": "https://www2.hkexnews.hk/new-listings/new-listing-information/main-board?sc_lang=en",
     "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
     "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
-    "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
-    "CSRC Overseas Filing Progress": "https://www.csrc.gov.cn/csrc/c106251/common_list.shtml",
-    "SEC EDGAR Daily Index Directory": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/"
+    "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml?mobile=2",
+    "CSRC Overseas Filing Progress": "https://www.csrc.gov.cn/csrc/c106251/c7656852/content.shtml",
+    "CSRC Overseas Filing Results": "https://www.csrc.gov.cn/csrc/c105984/common_list.shtml",
+    "SEC EDGAR Daily Index Directory": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/",
+    "HKEX NEW AP 2026-08-27 1": "https://www1.hkexnews.hk/app/sehk/2026/108822/documents/sehk26082701844.pdf",
+    "HKEX NEW AP 2026-08-27 2": "https://www1.hkexnews.hk/app/sehk/2026/108823/documents/sehk26082702222.pdf",
+    "HKEX PHIP 2026-08-27 3": "https://www1.hkexnews.hk/app/sehk/2026/108331/documents/sehk26082702028.pdf",
+    "SEC EDGAR search 20260827": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-08-27&enddt=2026-08-27&forms=F-1%2CF-1%2FA&from=0&size=100",
+    "SEC filing 2026-08-27 1": "https://www.sec.gov/Archives/edgar/data/2089447/000149315226040360/0001493152-26-040360-index.htm",
+    "SEC filing 2026-08-27 2": "https://www.sec.gov/Archives/edgar/data/2004024/000121390026094326/0001213900-26-094326-index.htm",
+    "SEC filing 2026-08-27 3": "https://www.sec.gov/Archives/edgar/data/2049323/000121390026094116/0001213900-26-094116-index.htm"
   }
 }
