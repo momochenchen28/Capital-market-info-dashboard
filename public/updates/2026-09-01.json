@@ -1,0 +1,210 @@
+{
+  "generatedAt": "2026-09-07T09:30:00+08:00",
+  "dailyReports": {
+    "2026-09-01": {
+      "date": "2026-09-01",
+      "reportType": "briefing",
+      "title": "资本市场快报",
+      "subtitle": "港股正常交易日；公司类 IPO 新挂牌 2 家，NEW AP 0 家，PHIP 0 家，SEC 中概 F-1 系列 1 家。",
+      "statusNote": "2026-09-01 为港股正常交易日。HKEX structured JSON 已更新至 07/09/2026（AP-only app.length=362、AP+PHIP app.length=9）；按文件实际日期回扫，本日 公司类 IPO 新挂牌 2 家，NEW AP 0 家，PHIP 0 家，SEC 中概 F-1 系列 1 家。证监会未见本日单家公司新增《境外发行上市备案通知书》，csrcCount=0。SEC 以 EDGAR 官方全文检索按申报日筛选并按发行人去重。",
+      "archiveNotice": "仅展示真实官方事件；无新增类别不创建占位公司卡。",
+      "observations": [
+        "港股交易日：2026-09-01 为周二正常交易日。",
+        "HKEX：公司类 IPO 新挂牌=2；NEW AP=0、PHIP=0。",
+        "证监会：单家公司备案通知书=0；监管列表更新 0 项，且均不计入 csrcCount。",
+        "SEC：中概 F-1/F-1/A 发行人=1。"
+      ],
+      "metrics": {
+        "hkexNewListings": 2,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 1
+      },
+      "officialSourceChecks": [
+        {
+          "source": "HKEX Securities Market Holiday Schedule 2026",
+          "dateRange": "2026-09-01",
+          "result": "不在休市日期内，为正常交易日。"
+        },
+        {
+          "source": "HKEX Newly Listed Securities / New Listing Information",
+          "dateRange": "2026-09-01",
+          "result": "公司类 IPO 新挂牌 2 家：希音国际控股有限公司（00625）、梅卡曼德（雄安）机器人科技股份有限公司（09615）。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-09-01",
+          "result": "uDate=07/09/2026；按文档日期筛选 NEW AP=0、PHIP=0。"
+        },
+        {
+          "source": "CSRC official filing pages",
+          "dateRange": "2026-09-01",
+          "result": "单家公司新增《境外发行上市备案通知书》=0；未见补充材料公示或备案情况表当日更新。"
+        },
+        {
+          "source": "SEC EDGAR official full-text search / daily-index",
+          "dateRange": "2026-09-01",
+          "result": "筛得中国内地/香港经营发行人 1 家。"
+        }
+      ],
+      "deals": [
+        {
+          "id": "hkex-listing-00625-20260901",
+          "section": "港股新股",
+          "eventType": "hkexIpoListing",
+          "countInMetrics": true,
+          "company": "希音国际控股有限公司",
+          "companyEn": "SHEIN Global Holdings Limited",
+          "stockCode": "00625",
+          "status": "新挂牌",
+          "documentType": "New Listing",
+          "sector": "全球时尚与生活方式电商",
+          "businessSummary": "以按需时尚供应链和数字化零售平台服务全球消费者。",
+          "ipo": {
+            "offerPrice": "HK$48.56",
+            "sharesOffered": "279,992,500 股 B 类股份（超额配股权行使前）",
+            "publicOffer": "27,999,300 股；香港公开发售 5.63 倍认购，有效申请 35,751 份",
+            "internationalOffer": "251,993,200 股；国际发售 2.59 倍认购，承配人 106 名",
+            "cornerstoneInvestors": "7 名基石投资者合计获配 61,890,000 股：Exclusive Depot、Internet Fund IIIA、General Atlantic、Huang River、景林香港、泰康人寿、UBS AM Singapore"
+          },
+          "intermediaries": "联席保荐人及主要全球发售中介以招股章程封面及“董事及参与全球发售的各方”章节为准；稳定价格经办人为高盛（亚洲）。",
+          "timeline": [
+            "2026-07-10：中国证监会出具境外发行上市备案通知书（国合函〔2026〕1672号）",
+            "2026-07-26：HKEX 刊发首次 PHIP",
+            "2026-08-24：刊发招股章程并启动全球发售",
+            "2026-08-31：刊发最终发售价及配发结果公告",
+            "2026-09-01：B 类股份于港交所主板开始买卖（股份代号 00625）"
+          ],
+          "marketPerformance": {
+            "openPrice": "待官方行情源补充",
+            "closePrice": "待收盘/官方行情源补充",
+            "changePct": "待收盘/官方行情源补充"
+          },
+          "links": [
+            {
+              "label": "HKEX 配发结果公告",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0831/2026083102410_c.pdf"
+            },
+            {
+              "label": "HKEX 招股章程",
+              "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0824/2026082400033_c.htm"
+            },
+            {
+              "label": "证监会备案通知书",
+              "url": "https://www.csrc.gov.cn/csrc/c105984/c7644823/content.shtml"
+            },
+            {
+              "label": "HKEX New Listing Information",
+              "url": "https://www2.hkexnews.hk/new-listings/new-listing-information/main-board?sc_lang=en"
+            }
+          ]
+        },
+        {
+          "id": "hkex-listing-09615-20260901",
+          "section": "港股新股",
+          "eventType": "hkexIpoListing",
+          "countInMetrics": true,
+          "company": "梅卡曼德（雄安）机器人科技股份有限公司",
+          "companyEn": "Mech-Mind Robotics Technologies Co., Ltd.",
+          "stockCode": "09615",
+          "status": "新挂牌",
+          "documentType": "New Listing",
+          "sector": "智能机器人组件 / 具身智能",
+          "businessSummary": "提供基于 3D 视觉、深度学习与运动规划的机器人“眼脑手”软硬件组件。",
+          "ipo": {
+            "offerPrice": "HK$101.70",
+            "sharesOffered": "23,140,590 股 H 股（超额配股权行使前）",
+            "publicOffer": "最终 4,628,130 股；香港公开发售 3,835.36 倍认购，有效申请 252,461 份",
+            "internationalOffer": "最终 18,512,460 股；国际发售 13.39 倍认购，承配人 130 名",
+            "cornerstoneInvestors": "9 名基石投资者合计获配 14,351,310 股：Baillie Gifford、泰康人寿、Invus、Jane Street、Ghisallo、Ruihua、NGS Super Fund、易方达、Golden Link"
+          },
+          "intermediaries": "联席保荐人：中国证券（国际）企业融资、中信证券（香港）；主要承销中介包括中信里昂、大和资本市场香港、麦格理资本、富途证券国际及老虎证券（香港）。",
+          "timeline": [
+            "2026-07-16：中国证监会出具境外发行上市及“全流通”备案通知书（国合函〔2026〕1738号）",
+            "2026-08-16：HKEX 刊发首次 PHIP",
+            "2026-08-24：刊发招股章程并启动全球发售",
+            "2026-08-31：刊发最终发售价及配发结果公告",
+            "2026-09-01：H 股于港交所主板开始买卖（股份代号 09615）"
+          ],
+          "marketPerformance": {
+            "openPrice": "待官方行情源补充",
+            "closePrice": "待收盘/官方行情源补充",
+            "changePct": "待收盘/官方行情源补充"
+          },
+          "links": [
+            {
+              "label": "HKEX 配发结果公告",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0831/2026083102434_c.pdf"
+            },
+            {
+              "label": "HKEX PHIP",
+              "url": "https://www1.hkexnews.hk/app/sehk/2026/108796/2026081600025.htm"
+            },
+            {
+              "label": "证监会备案通知书",
+              "url": "https://www.csrc.gov.cn/csrc/c105984/c7650802/content.shtml"
+            },
+            {
+              "label": "HKEX New Listing Information",
+              "url": "https://www2.hkexnews.hk/new-listings/new-listing-information/main-board?sc_lang=en"
+            }
+          ]
+        },
+        {
+          "id": "sec-china-ipo-filings-20260901",
+          "section": "美股中概 IPO",
+          "type": "SEC EDGAR IPO 文件更新",
+          "status": "F-1/A 1 家",
+          "eventType": "usChinaIpoFiling",
+          "countInMetrics": true,
+          "company": {
+            "zh": "SEC EDGAR 中国相关 IPO 文件监控",
+            "en": "SEC EDGAR China-related IPO Monitor",
+            "display": "SEC EDGAR 中国相关 IPO 文件监控（2026-09-01）",
+            "exchange": "SEC EDGAR",
+            "board": "F-1 / IPO related filings"
+          },
+          "business": {
+            "sector": "美股 IPO pipeline",
+            "summary": "Elong Power Holding Ltd. 提交 F-1/A。",
+            "source": "SEC EDGAR official full-text search"
+          },
+          "metrics": {
+            "usChinaIpoCount": 1
+          },
+          "secFilings": [
+            {
+              "company": "Elong Power Holding Ltd.",
+              "cik": "0002015691",
+              "form": "F-1/A",
+              "filingDate": "2026-09-01",
+              "accessionNumber": "0001493152-26-040913",
+              "businessLocation": "Beijing, China",
+              "sourceLinks": [
+                "SEC filing 2026-09-01 1"
+              ]
+            }
+          ],
+          "links": [
+            "SEC EDGAR search 20260901",
+            "SEC filing 2026-09-01 1"
+          ]
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Securities Market Holiday Schedule 2026": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2025/ce_SEHK_CT_075_2025.pdf",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/new-listings/new-listing-information/main-board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml?mobile=2",
+    "CSRC Overseas Filing Progress": "https://www.csrc.gov.cn/csrc/c106251/c7656852/content.shtml",
+    "CSRC Overseas Filing Results": "https://www.csrc.gov.cn/csrc/c105984/common_list.shtml",
+    "SEC EDGAR Daily Index Directory": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/",
+    "SEC EDGAR search 20260901": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-09-01&enddt=2026-09-01&forms=F-1%2CF-1%2FA&from=0&size=100",
+    "SEC filing 2026-09-01 1": "https://www.sec.gov/Archives/edgar/data/2015691/000149315226040913/0001493152-26-040913-index.htm"
+  }
+}
