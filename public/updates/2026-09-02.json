@@ -1,0 +1,108 @@
+{
+  "generatedAt": "2026-09-07T09:30:00+08:00",
+  "dailyReports": {
+    "2026-09-02": {
+      "date": "2026-09-02",
+      "reportType": "briefing",
+      "title": "资本市场快报",
+      "subtitle": "港股正常交易日；公司类 IPO 新挂牌 0 家，NEW AP 0 家，PHIP 0 家，SEC 中概 F-1 系列 1 家。",
+      "statusNote": "2026-09-02 为港股正常交易日。HKEX structured JSON 已更新至 07/09/2026（AP-only app.length=362、AP+PHIP app.length=9）；按文件实际日期回扫，本日 公司类 IPO 新挂牌 0 家，NEW AP 0 家，PHIP 0 家，SEC 中概 F-1 系列 1 家。证监会未见本日单家公司新增《境外发行上市备案通知书》，csrcCount=0。SEC 以 EDGAR 官方全文检索按申报日筛选并按发行人去重。",
+      "archiveNotice": "仅展示真实官方事件；无新增类别不创建占位公司卡。",
+      "observations": [
+        "港股交易日：2026-09-02 为周三正常交易日。",
+        "HKEX：公司类 IPO 新挂牌=0；NEW AP=0、PHIP=0。",
+        "证监会：单家公司备案通知书=0；监管列表更新 0 项，且均不计入 csrcCount。",
+        "SEC：中概 F-1/F-1/A 发行人=1。"
+      ],
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 1
+      },
+      "officialSourceChecks": [
+        {
+          "source": "HKEX Securities Market Holiday Schedule 2026",
+          "dateRange": "2026-09-02",
+          "result": "不在休市日期内，为正常交易日。"
+        },
+        {
+          "source": "HKEX Newly Listed Securities / New Listing Information",
+          "dateRange": "2026-09-02",
+          "result": "无公司类 IPO 新挂牌。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-09-02",
+          "result": "uDate=07/09/2026；按文档日期筛选 NEW AP=0、PHIP=0。"
+        },
+        {
+          "source": "CSRC official filing pages",
+          "dateRange": "2026-09-02",
+          "result": "单家公司新增《境外发行上市备案通知书》=0；未见补充材料公示或备案情况表当日更新。"
+        },
+        {
+          "source": "SEC EDGAR official full-text search / daily-index",
+          "dateRange": "2026-09-02",
+          "result": "筛得中国内地/香港经营发行人 1 家。"
+        }
+      ],
+      "deals": [
+        {
+          "id": "sec-china-ipo-filings-20260902",
+          "section": "美股中概 IPO",
+          "type": "SEC EDGAR IPO 文件更新",
+          "status": "F-1/A 1 家",
+          "eventType": "usChinaIpoFiling",
+          "countInMetrics": true,
+          "company": {
+            "zh": "SEC EDGAR 中国相关 IPO 文件监控",
+            "en": "SEC EDGAR China-related IPO Monitor",
+            "display": "SEC EDGAR 中国相关 IPO 文件监控（2026-09-02）",
+            "exchange": "SEC EDGAR",
+            "board": "F-1 / IPO related filings"
+          },
+          "business": {
+            "sector": "美股 IPO pipeline",
+            "summary": "HengHong Technology Inc. 提交 F-1/A。",
+            "source": "SEC EDGAR official full-text search"
+          },
+          "metrics": {
+            "usChinaIpoCount": 1
+          },
+          "secFilings": [
+            {
+              "company": "HengHong Technology Inc.",
+              "cik": "0002050020",
+              "form": "F-1/A",
+              "filingDate": "2026-09-02",
+              "accessionNumber": "0001213900-26-096741",
+              "businessLocation": "Hainan, China",
+              "sourceLinks": [
+                "SEC filing 2026-09-02 1"
+              ]
+            }
+          ],
+          "links": [
+            "SEC EDGAR search 20260902",
+            "SEC filing 2026-09-02 1"
+          ]
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Securities Market Holiday Schedule 2026": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2025/ce_SEHK_CT_075_2025.pdf",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/new-listings/new-listing-information/main-board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml?mobile=2",
+    "CSRC Overseas Filing Progress": "https://www.csrc.gov.cn/csrc/c106251/c7656852/content.shtml",
+    "CSRC Overseas Filing Results": "https://www.csrc.gov.cn/csrc/c105984/common_list.shtml",
+    "SEC EDGAR Daily Index Directory": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/",
+    "SEC EDGAR search 20260902": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-09-02&enddt=2026-09-02&forms=F-1%2CF-1%2FA&from=0&size=100",
+    "SEC filing 2026-09-02 1": "https://www.sec.gov/Archives/edgar/data/2050020/000121390026096741/0001213900-26-096741-index.htm"
+  }
+}
