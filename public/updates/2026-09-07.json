@@ -1,0 +1,122 @@
+{
+  "generatedAt": "2026-09-07T09:30:00+08:00",
+  "dailyReports": {
+    "2026-09-07": {
+      "date": "2026-09-07",
+      "reportType": "briefing",
+      "title": "资本市场快报",
+      "subtitle": "港股正常交易日；公司类 IPO 新挂牌 1 家，NEW AP 0 家，PHIP 0 家，SEC 中概 F-1 系列 0 家。",
+      "statusNote": "2026-09-07 为港股正常交易日。HKEX structured JSON 已更新至 07/09/2026（AP-only app.length=362、AP+PHIP app.length=9）；按文件实际日期回扫，本日 公司类 IPO 新挂牌 1 家，NEW AP 0 家，PHIP 0 家，SEC 中概 F-1 系列 0 家。证监会未见本日单家公司新增《境外发行上市备案通知书》，csrcCount=0。SEC 9 月 7 日美国交易日尚未开始，日索引待后续回扫。",
+      "archiveNotice": "仅展示真实官方事件；无新增类别不创建占位公司卡。",
+      "observations": [
+        "港股交易日：2026-09-07 为周一正常交易日。",
+        "HKEX：公司类 IPO 新挂牌=1；NEW AP=0、PHIP=0。",
+        "证监会：单家公司备案通知书=0；监管列表更新 0 项，且均不计入 csrcCount。",
+        "SEC：中概 F-1/F-1/A 发行人=0；当日美国申报时段尚未开始。"
+      ],
+      "metrics": {
+        "hkexNewListings": 1,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "officialSourceChecks": [
+        {
+          "source": "HKEX Securities Market Holiday Schedule 2026",
+          "dateRange": "2026-09-07",
+          "result": "不在休市日期内，为正常交易日。"
+        },
+        {
+          "source": "HKEX Newly Listed Securities / New Listing Information",
+          "dateRange": "2026-09-07",
+          "result": "公司类 IPO 新挂牌 1 家：深圳麦科田生物医疗技术股份有限公司（02041）。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-09-07",
+          "result": "uDate=07/09/2026；按文档日期筛选 NEW AP=0、PHIP=0。"
+        },
+        {
+          "source": "CSRC official filing pages",
+          "dateRange": "2026-09-07",
+          "result": "单家公司新增《境外发行上市备案通知书》=0；未见补充材料公示或备案情况表当日更新。"
+        },
+        {
+          "source": "SEC EDGAR official full-text search / daily-index",
+          "dateRange": "2026-09-07",
+          "result": "香港时间 09:30 时美国申报时段尚未开始，留待后续自然日回扫。"
+        }
+      ],
+      "deals": [
+        {
+          "id": "hkex-listing-02041-20260907",
+          "section": "港股新股",
+          "eventType": "hkexIpoListing",
+          "countInMetrics": true,
+          "company": "深圳麦科田生物医疗技术股份有限公司",
+          "companyEn": "Medcaptain Medical Technology Co., Ltd.",
+          "stockCode": "02041",
+          "status": "新挂牌",
+          "documentType": "New Listing",
+          "sector": "医疗器械",
+          "businessSummary": "研发、制造及销售生命支持、微创介入和体外诊断医疗器械。",
+          "ipo": {
+            "offerPrice": "HK$15.42",
+            "sharesOffered": "38,910,600 股 H 股",
+            "publicOffer": "3,891,100 股；香港公开发售 436.37 倍认购，有效申请 57,305 份",
+            "internationalOffer": "35,019,500 股；国际发售 2.35 倍认购，承配人 95 名",
+            "cornerstoneInvestors": "配发结果公告未列基石投资者"
+          },
+          "intermediaries": "联席保荐人及整体协调人包括摩根士丹利亚洲、华泰金融控股（香港）；其他中介以招股章程封面及参与方章节为准。",
+          "timeline": [
+            "2026-02-13：中国证监会出具境外发行上市及“全流通”备案通知书（国合函〔2026〕472号）",
+            "2026-03-11：HKEX 刊发本轮申请版本及整体协调人公告",
+            "2026-08-20：HKEX 刊发首次 PHIP",
+            "2026-08-28：刊发招股章程并启动全球发售",
+            "2026-09-04：刊发配发结果公告",
+            "2026-09-07：H 股于港交所主板开始买卖（股份代号 02041）"
+          ],
+          "marketPerformance": {
+            "openPrice": "待开盘/官方行情源补充",
+            "closePrice": "待收盘/官方行情源补充",
+            "changePct": "待收盘/官方行情源补充"
+          },
+          "links": [
+            {
+              "label": "HKEX 配发结果公告",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0904/2026090401843_c.pdf"
+            },
+            {
+              "label": "HKEX 本轮申请版本",
+              "url": "https://www1.hkexnews.hk/app/sehk/2026/108289/2026031101256.htm"
+            },
+            {
+              "label": "HKEX PHIP",
+              "url": "https://www1.hkexnews.hk/app/sehk/2026/108289/2026082001643.htm"
+            },
+            {
+              "label": "证监会备案通知书",
+              "url": "https://www.csrc.gov.cn/csrc/c105984/c7618599/content.shtml"
+            },
+            {
+              "label": "HKEX New Listing Information",
+              "url": "https://www2.hkexnews.hk/new-listings/new-listing-information/main-board?sc_lang=en"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Securities Market Holiday Schedule 2026": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2025/ce_SEHK_CT_075_2025.pdf",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/new-listings/new-listing-information/main-board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml?mobile=2",
+    "CSRC Overseas Filing Progress": "https://www.csrc.gov.cn/csrc/c106251/c7656852/content.shtml",
+    "CSRC Overseas Filing Results": "https://www.csrc.gov.cn/csrc/c105984/common_list.shtml",
+    "SEC EDGAR Daily Index Directory": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/"
+  }
+}
