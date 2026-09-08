@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-07T09:30:00+08:00",
+  "generatedAt": "2026-09-08T08:44:26Z",
   "dailyReports": {
     "2026-09-07": {
       "date": "2026-09-07",
       "reportType": "briefing",
       "title": "资本市场快报",
-      "subtitle": "港股正常交易日；公司类 IPO 新挂牌 1 家，NEW AP 0 家，PHIP 0 家，SEC 中概 F-1 系列 0 家。",
-      "statusNote": "2026-09-07 为港股正常交易日。HKEX structured JSON 已更新至 07/09/2026（AP-only app.length=362、AP+PHIP app.length=9）；按文件实际日期回扫，本日 公司类 IPO 新挂牌 1 家，NEW AP 0 家，PHIP 0 家，SEC 中概 F-1 系列 0 家。证监会未见本日单家公司新增《境外发行上市备案通知书》，csrcCount=0。SEC 9 月 7 日美国交易日尚未开始，日索引待后续回扫。",
+      "subtitle": "港股交易日；公司类 IPO 新挂牌1家、NEW AP 0家、PHIP 2家；证监会及SEC已验证新增计数0。",
+      "statusNote": "9月8日回扫补录9月7日景旺电子、涛涛车业首次PHIP。HKEX中英文JSON uDate=08/09/2026，AP-only=360、AP+PHIP=10。补充材料公示及备案情况表最新为2026-09-04，未见目标日更新；单家公司备案通知书列表本次返回403，官方站点检索未找到目标日通知，已验证计数为0但完整性待列表恢复后回扫。SEC EFTS 分别查询 F-1 及 F-1/A，目标自然日返回0条；9月8日美国当日申报尚未完成，留待后续回扫。",
       "archiveNotice": "仅展示真实官方事件；无新增类别不创建占位公司卡。",
       "observations": [
-        "港股交易日：2026-09-07 为周一正常交易日。",
-        "HKEX：公司类 IPO 新挂牌=1；NEW AP=0、PHIP=0。",
-        "证监会：单家公司备案通知书=0；监管列表更新 0 项，且均不计入 csrcCount。",
-        "SEC：中概 F-1/F-1/A 发行人=0；当日美国申报时段尚未开始。"
+        "9月7日为港股正常交易日，保留麦科田02041新挂牌及固定发行资料。",
+        "按实际披露日期补入景旺电子、涛涛车业两家首次PHIP；NEW AP=0。",
+        "补充材料公示及备案情况表最新为2026-09-04，未见目标日更新；单家公司备案通知书列表本次返回403，官方站点检索未找到目标日通知，已验证计数为0但完整性待列表恢复后回扫。",
+        "SEC EFTS 分别查询 F-1 及 F-1/A，目标自然日返回0条；9月8日美国当日申报尚未完成，留待后续回扫。"
       ],
       "metrics": {
         "hkexNewListings": 1,
         "apNewCount": 0,
-        "phipCount": 0,
+        "phipCount": 2,
         "csrcCount": 0,
         "usChinaIpoCount": 0
       },
@@ -35,17 +35,17 @@
         {
           "source": "HKEX AP-only / AP+PHIP structured JSON",
           "dateRange": "2026-09-07",
-          "result": "uDate=07/09/2026；按文档日期筛选 NEW AP=0、PHIP=0。"
+          "result": "中英文JSON uDate=08/09/2026，AP-only=360、AP+PHIP=10；9月7日NEW AP=0、PHIP=2。"
         },
         {
           "source": "CSRC official filing pages",
           "dateRange": "2026-09-07",
-          "result": "单家公司新增《境外发行上市备案通知书》=0；未见补充材料公示或备案情况表当日更新。"
+          "result": "补充材料公示及备案情况表最新为2026-09-04，未见目标日更新；单家公司备案通知书列表本次返回403，官方站点检索未找到目标日通知，已验证计数为0但完整性待列表恢复后回扫。"
         },
         {
           "source": "SEC EDGAR official full-text search / daily-index",
           "dateRange": "2026-09-07",
-          "result": "香港时间 09:30 时美国申报时段尚未开始，留待后续自然日回扫。"
+          "result": "SEC EFTS 分别查询 F-1 及 F-1/A，目标自然日返回0条；9月8日美国当日申报尚未完成，留待后续回扫。"
         }
       ],
       "deals": [
@@ -104,8 +104,87 @@
               "url": "https://www2.hkexnews.hk/new-listings/new-listing-information/main-board?sc_lang=en"
             }
           ]
+        },
+        {
+          "id": "hkex-ap-phip-20260907",
+          "section": "港股递表/聆讯",
+          "type": "AP / PHIP 更新",
+          "status": "无新增递表 / 2家聆讯后资料集",
+          "eventType": "hkexApPhip",
+          "countInMetrics": true,
+          "company": {
+            "zh": "HKEX AP/PHIP 官方文件更新",
+            "en": "HKEX AP/PHIP official filing updates",
+            "display": "HKEX AP/PHIP 官方文件更新（2026-09-07）",
+            "exchange": "HKEX",
+            "board": "Main Board"
+          },
+          "business": {
+            "sector": "新上市申请文件",
+            "summary": "0家首次递表；2家首次PHIP",
+            "source": "HKEX structured JSON"
+          },
+          "metrics": {
+            "apNewCount": 0,
+            "phipCount": 2
+          },
+          "apApplications": [
+            {
+              "status": "PHIP",
+              "documentType": "Post Hearing Information Pack (1st submission)",
+              "nameZh": "深圳市景旺電子股份有限公司",
+              "nameEn": "Shenzhen Kinwong Electronic Co., Ltd.",
+              "filingDate": "2026-09-07",
+              "structure": "主板上市申请",
+              "sector": "印制电路板",
+              "sponsors": "中信证券（香港）、Merrill Lynch (Asia Pacific)、Guolian Securities International Capital Market",
+              "businessSummary": "研发、制造及销售印制电路板（PCB），提供多种板型及配套技术。",
+              "businessSource": "PHIP Summary / Directors and Parties Involved",
+              "prospectusLink": "深圳市景旺電子股份有限公司 PHIP 中文全文",
+              "links": [
+                "深圳市景旺電子股份有限公司 PHIP 中文全文",
+                "深圳市景旺電子股份有限公司 PHIP 英文全文",
+                "深圳市景旺電子股份有限公司 PHIP 中文多档案",
+                "深圳市景旺電子股份有限公司 PHIP 英文多档案"
+              ]
+            },
+            {
+              "status": "PHIP",
+              "documentType": "Post Hearing Information Pack (1st submission)",
+              "nameZh": "浙江濤濤車業股份有限公司",
+              "nameEn": "Zhejiang Taotao Vehicles Co., Ltd.",
+              "filingDate": "2026-09-07",
+              "structure": "主板上市申请",
+              "sector": "低速电动车及户外休闲交通产品",
+              "sponsors": "独家保荐人：中信证券（香港）",
+              "businessSummary": "设计、制造及分销户外休闲和电动出行产品，包括低速电动车。",
+              "businessSource": "PHIP Summary / Directors and Parties Involved",
+              "prospectusLink": "浙江濤濤車業股份有限公司 PHIP 中文全文",
+              "links": [
+                "浙江濤濤車業股份有限公司 PHIP 中文全文",
+                "浙江濤濤車業股份有限公司 PHIP 英文全文",
+                "浙江濤濤車業股份有限公司 PHIP 中文多档案",
+                "浙江濤濤車業股份有限公司 PHIP 英文多档案"
+              ]
+            }
+          ],
+          "links": [
+            "深圳市景旺電子股份有限公司 PHIP 中文全文",
+            "深圳市景旺電子股份有限公司 PHIP 英文全文",
+            "深圳市景旺電子股份有限公司 PHIP 中文多档案",
+            "深圳市景旺電子股份有限公司 PHIP 英文多档案",
+            "浙江濤濤車業股份有限公司 PHIP 中文全文",
+            "浙江濤濤車業股份有限公司 PHIP 英文全文",
+            "浙江濤濤車業股份有限公司 PHIP 中文多档案",
+            "浙江濤濤車業股份有限公司 PHIP 英文多档案"
+          ]
         }
-      ]
+      ],
+      "lastVerifiedAt": "2026-09-08T08:44:26Z",
+      "backscanRange": {
+        "from": "2026-09-07",
+        "to": "2026-09-08"
+      }
     }
   },
   "linkMap": {
@@ -117,6 +196,14 @@
     "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml?mobile=2",
     "CSRC Overseas Filing Progress": "https://www.csrc.gov.cn/csrc/c106251/c7656852/content.shtml",
     "CSRC Overseas Filing Results": "https://www.csrc.gov.cn/csrc/c105984/common_list.shtml",
-    "SEC EDGAR Daily Index Directory": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/"
+    "SEC EDGAR Daily Index Directory": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/",
+    "深圳市景旺電子股份有限公司 PHIP 中文全文": "https://www1.hkexnews.hk/app/sehk/2026/108714/documents/sehk26090701433_c.pdf",
+    "深圳市景旺電子股份有限公司 PHIP 英文全文": "https://www1.hkexnews.hk/app/sehk/2026/108714/documents/sehk26090701434.pdf",
+    "深圳市景旺電子股份有限公司 PHIP 中文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108714/2026090701364_c.htm",
+    "深圳市景旺電子股份有限公司 PHIP 英文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108714/2026090701363.htm",
+    "浙江濤濤車業股份有限公司 PHIP 中文全文": "https://www1.hkexnews.hk/app/sehk/2026/108575/documents/sehk26090701489_c.pdf",
+    "浙江濤濤車業股份有限公司 PHIP 英文全文": "https://www1.hkexnews.hk/app/sehk/2026/108575/documents/sehk26090701490.pdf",
+    "浙江濤濤車業股份有限公司 PHIP 中文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108575/2026090701486_c.htm",
+    "浙江濤濤車業股份有限公司 PHIP 英文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108575/2026090701485.htm"
   }
 }
