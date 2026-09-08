@@ -1,0 +1,145 @@
+{
+  "generatedAt": "2026-09-08T08:44:26Z",
+  "dailyReports": {
+    "2026-09-08": {
+      "date": "2026-09-08",
+      "reportType": "briefing",
+      "title": "资本市场快报",
+      "edition": "09:30早盘流程补跑",
+      "lastVerifiedAt": "2026-09-08T08:44:26Z",
+      "backscanRange": {
+        "from": "2026-09-07",
+        "to": "2026-09-08"
+      },
+      "subtitle": "港股交易日；江波龙（09976）新挂牌，NEW AP=0、PHIP=0。",
+      "statusNote": "按官方2026年休市表，9月8日为正常交易日。江波龙配发公告指定本日上市；HKEX新上市证券表可访问版本更新于9月7日仍带预计日期星号，结合当日经济通首日交易报道确认已挂牌。固定发行资料已从招股书及最终配发结果补齐。补充材料公示及备案情况表最新为2026-09-04，未见目标日更新；单家公司备案通知书列表本次返回403，官方站点检索未找到目标日通知，已验证计数为0但完整性待列表恢复后回扫。",
+      "archiveNotice": "仅展示真实官方事件；无新增类别不创建占位公司卡。",
+      "observations": [
+        "回扫覆盖上一港股交易日9月7日至9月8日两个自然日；期间没有周末或假日。",
+        "江波龙09976新挂牌，发行价236港元；发售股数采用扩大后29,989,450股口径。",
+        "9月7日两家PHIP已回补至9月7日独立文件，不并入今日。",
+        "HKEX中英文AP-only/AP+PHIP JSON均更新至08/09/2026，今日NEW AP=0、PHIP=0。",
+        "补充材料公示及备案情况表最新为2026-09-04，未见目标日更新；单家公司备案通知书列表本次返回403，官方站点检索未找到目标日通知，已验证计数为0但完整性待列表恢复后回扫。",
+        "SEC EFTS 分别查询 F-1 及 F-1/A，目标自然日返回0条；9月8日美国当日申报尚未完成，留待后续回扫。"
+      ],
+      "metrics": {
+        "hkexNewListings": 1,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "officialSourceChecks": [
+        {
+          "source": "HKEX Securities Market Holiday Schedule 2026",
+          "dateRange": "2026-09-07/2026-09-08",
+          "result": "两日均非周末或公布的休市日。"
+        },
+        {
+          "source": "HKEX Newly Listed Securities / New Listing Information / allotment results",
+          "dateRange": "2026-09-08",
+          "result": "江波龙09976指定本日上市；固定资料取最终配发及招股书。列表仍为9月7日版本，首日交易由经济通交叉确认。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-09-07/2026-09-08",
+          "result": "中英文uDate=08/09/2026，app.length=360/10；9月7日AP=0、PHIP=2；9月8日AP=0、PHIP=0。"
+        },
+        {
+          "source": "CSRC official filing pages",
+          "dateRange": "2026-09-07/2026-09-08",
+          "result": "补充材料公示及备案情况表最新为2026-09-04，未见目标日更新；单家公司备案通知书列表本次返回403，官方站点检索未找到目标日通知，已验证计数为0但完整性待列表恢复后回扫。"
+        },
+        {
+          "source": "SEC EDGAR EFTS",
+          "dateRange": "2026-09-07/2026-09-08",
+          "result": "SEC EFTS 分别查询 F-1 及 F-1/A，目标自然日返回0条；9月8日美国当日申报尚未完成，留待后续回扫。"
+        }
+      ],
+      "deals": [
+        {
+          "id": "hkex-listing-09976-20260908",
+          "section": "港股新股",
+          "eventType": "hkexIpoListing",
+          "countInMetrics": true,
+          "company": "深圳市江波龙电子股份有限公司",
+          "companyEn": "Shenzhen Longsys Electronics Co., Ltd.",
+          "stockCode": "09976",
+          "status": "新挂牌",
+          "documentType": "New Listing",
+          "sector": "半导体存储",
+          "businessSummary": "设计、研发、后端制造及销售面向消费、企业和工业应用的存储产品，涵盖控制器及存储芯片设计、固件开发、封装测试和组装；不从事晶圆制造。",
+          "ipo": {
+            "offerPrice": "HK$236.00",
+            "sharesOffered": "29,989,450股H股（含悉数行使发售量调整权增加3,911,650股；不含超额配股权）",
+            "publicOffer": "2,607,800股，占扩大后发售8.70%；认购40.32倍，有效申请36,285份，获配10,568份",
+            "internationalOffer": "27,381,650股，占91.30%；认购3.88倍（发售量调整前口径），承配人227名",
+            "cornerstoneInvestors": "14组基石合计5,022,000股；Transsion International 830,800股；YuFeng及YuFeng Project 1 LPF 664,600股；中信证券资产管理（香港） 635,550股；Admiralty Harbour Growth Opportunities SPC SP1 423,700股；联想集团 332,300股；蓝思科技（香港） 332,300股；北京君正集成电路（香港） 332,300股；巨源（香港）国际 332,300股；七彩虹科技 317,750股；宏芯宇电子 237,250股；Huadeng Tech Bright 166,150股；Wind Sabre Fund SPC 166,150股；香港常青科技 166,150股；华曦达科技（香港） 84,700股"
+          },
+          "intermediaries": "联席保荐人：中信证券（香港）、花旗环球金融亚洲；整体协调人：CLSA、花旗环球金融亚洲、中信建投（国际）融资。公司香港/美国律师：Latham & Watkins；中国律师：中伦；保荐人及承销商律师：Kirkland & Ellis、竞天公诚；审计师及申报会计师：安永；合规顾问：新百利融资。",
+          "timeline": [
+            "2025-09-09：中国证监会出具境外发行上市备案通知书（国合函〔2025〕1559号）",
+            "2026-05-29：HKEX刊发本轮首次申请版本",
+            "2026-08-23：HKEX刊发首次PHIP（聆讯后资料集披露日）",
+            "2026-08-31：刊发招股书并启动发售",
+            "2026-09-03：公开发售截止",
+            "2026-09-07：刊发最终配发结果，发行价HK$236",
+            "2026-09-08：H股上市，股份代号09976，每手50股；公告载明9:00开始买卖"
+          ],
+          "marketPerformance": {
+            "openPrice": "待官方行情源复核",
+            "closePrice": "待收盘官方行情源补充",
+            "changePct": "待收盘官方行情源补充"
+          },
+          "links": [
+            {
+              "label": "HKEX 招股书",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0831/2026083100047.pdf"
+            },
+            {
+              "label": "HKEX 配发结果",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0907/2026090701319.pdf"
+            },
+            {
+              "label": "HKEX 本轮申请版本",
+              "url": "https://www1.hkexnews.hk/app/sehk/2026/108594/2026052902002.htm"
+            },
+            {
+              "label": "HKEX PHIP",
+              "url": "https://www1.hkexnews.hk/app/sehk/2026/108594/2026082300057.htm"
+            },
+            {
+              "label": "证监会备案通知书",
+              "url": "https://www.csrc.gov.cn/csrc/c105984/c7583813/content.shtml"
+            },
+            {
+              "label": "HKEX New Listing Information",
+              "url": "https://www2.hkexnews.hk/new-listings/new-listing-information/main-board?sc_lang=en"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Securities Market Holiday Schedule 2026": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2025/ce_SEHK_CT_075_2025.pdf",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/new-listings/new-listing-information/main-board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml?mobile=2",
+    "CSRC Overseas Filing Progress": "https://www.csrc.gov.cn/csrc/c106251/c7656852/content.shtml",
+    "CSRC Overseas Filing Results": "https://www.csrc.gov.cn/csrc/c105984/common_list.shtml",
+    "SEC EDGAR Daily Index Directory": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/",
+    "深圳市景旺電子股份有限公司 PHIP 中文全文": "https://www1.hkexnews.hk/app/sehk/2026/108714/documents/sehk26090701433_c.pdf",
+    "深圳市景旺電子股份有限公司 PHIP 英文全文": "https://www1.hkexnews.hk/app/sehk/2026/108714/documents/sehk26090701434.pdf",
+    "深圳市景旺電子股份有限公司 PHIP 中文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108714/2026090701364_c.htm",
+    "深圳市景旺電子股份有限公司 PHIP 英文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108714/2026090701363.htm",
+    "浙江濤濤車業股份有限公司 PHIP 中文全文": "https://www1.hkexnews.hk/app/sehk/2026/108575/documents/sehk26090701489_c.pdf",
+    "浙江濤濤車業股份有限公司 PHIP 英文全文": "https://www1.hkexnews.hk/app/sehk/2026/108575/documents/sehk26090701490.pdf",
+    "浙江濤濤車業股份有限公司 PHIP 中文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108575/2026090701486_c.htm",
+    "浙江濤濤車業股份有限公司 PHIP 英文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108575/2026090701485.htm",
+    "LONGSYS 首日交易交叉核实（经济通）": "https://www.etnet.com.hk/www/eng/stocks/ci_ipo_news_detail.php?newsid=ETE360908302&page=1",
+    "SEC EDGAR EFTS": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-09-07&enddt=2026-09-08&forms=F-1"
+  }
+}
