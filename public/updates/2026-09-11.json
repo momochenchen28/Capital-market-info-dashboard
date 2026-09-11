@@ -1,0 +1,84 @@
+{
+  "generatedAt": "2026-09-11T02:44:28Z",
+  "dailyReports": {
+    "2026-09-11": {
+      "date": "2026-09-11",
+      "reportType": "briefing",
+      "title": "资本市场快报",
+      "archiveNotice": "无新增类别不创建占位公司卡。",
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "deals": [],
+      "edition": "09:30早盘流程补跑",
+      "lastVerifiedAt": "2026-09-11T02:44:28Z",
+      "backscanRange": {
+        "from": "2026-09-08",
+        "to": "2026-09-11"
+      },
+      "isTradingDay": true,
+      "statusNote": "本日为港股正常交易日，按自然日归档。证监会补充材料公示及备案情况表可访问版本最新为2026-09-04；单家公司备案通知书列表访问失败，定向检索未发现目标日期通知。csrcCount=0仅为已验证计数，完整性待列表恢复后回扫；补充材料及备案情况表不计数。",
+      "observations": [
+        "HKEX中英文AP-only/AP+PHIP JSON uDate=10/09/2026，app.length=359/9。按ls及ps文件实际日期回扫9月8日至11日，仅9月10日广东微电新能源为首次AP；剧星传媒及糖吉医疗为OC修订，不计NEW AP。9月11日来源尚未更新到当日，需后续回扫。",
+        "证监会补充材料公示及备案情况表可访问版本最新为2026-09-04；单家公司备案通知书列表访问失败，定向检索未发现目标日期通知。csrcCount=0仅为已验证计数，完整性待列表恢复后回扫；补充材料及备案情况表不计数。",
+        "SEC EFTS回扫F-1（含修订）8条，F-1/A子集5条，按accession去重。9月8日Jingrui Wang Pu F-1为中国经营发行人IPO，按官方Filing Date归档（Accepted为9月4日）。BTC Digital转售注册不计IPO；Prenetics为已上市发行人且文件名标记resale，正文访问受限，未计IPO。其他境外发行人排除。9月11日美国申报尚未完成。"
+      ],
+      "officialSourceChecks": [
+        {
+          "source": "HKEX Securities Market Holiday Schedule 2026",
+          "dateRange": "2026-09-11",
+          "result": "本日非周末/休市日；上一交易日9月10日，本次扩展回扫至上次运行9月8日。"
+        },
+        {
+          "source": "HKEX Newly Listed Securities / New Listing Information",
+          "dateRange": "2026-09-11",
+          "result": "无公司类IPO新挂牌；债券、合股及临时柜台排除。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-09-08/2026-09-11",
+          "result": "HKEX中英文AP-only/AP+PHIP JSON uDate=10/09/2026，app.length=359/9。按ls及ps文件实际日期回扫9月8日至11日，仅9月10日广东微电新能源为首次AP；剧星传媒及糖吉医疗为OC修订，不计NEW AP。9月11日来源尚未更新到当日，需后续回扫。"
+        },
+        {
+          "source": "CSRC official filing pages",
+          "dateRange": "2026-09-08/2026-09-11",
+          "result": "证监会补充材料公示及备案情况表可访问版本最新为2026-09-04；单家公司备案通知书列表访问失败，定向检索未发现目标日期通知。csrcCount=0仅为已验证计数，完整性待列表恢复后回扫；补充材料及备案情况表不计数。"
+        },
+        {
+          "source": "SEC EDGAR EFTS",
+          "dateRange": "2026-09-08/2026-09-11",
+          "result": "SEC EFTS回扫F-1（含修订）8条，F-1/A子集5条，按accession去重。9月8日Jingrui Wang Pu F-1为中国经营发行人IPO，按官方Filing Date归档（Accepted为9月4日）。BTC Digital转售注册不计IPO；Prenetics为已上市发行人且文件名标记resale，正文访问受限，未计IPO。其他境外发行人排除。9月11日美国申报尚未完成。"
+        }
+      ],
+      "subtitle": "港股交易日早盘；截至可访问官方资料未见当日目标新增事件，来源更新时间及核查限制见说明。"
+    }
+  },
+  "linkMap": {
+    "HKEX Securities Market Holiday Schedule 2026": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2025/ce_SEHK_CT_075_2025.pdf",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/new-listings/new-listing-information/main-board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml?mobile=2",
+    "CSRC Overseas Filing Progress": "https://www.csrc.gov.cn/csrc/c106251/c7656852/content.shtml",
+    "CSRC Overseas Filing Results": "https://www.csrc.gov.cn/csrc/c105984/common_list.shtml",
+    "SEC EDGAR Daily Index Directory": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/",
+    "深圳市景旺電子股份有限公司 PHIP 中文全文": "https://www1.hkexnews.hk/app/sehk/2026/108714/documents/sehk26090701433_c.pdf",
+    "深圳市景旺電子股份有限公司 PHIP 英文全文": "https://www1.hkexnews.hk/app/sehk/2026/108714/documents/sehk26090701434.pdf",
+    "深圳市景旺電子股份有限公司 PHIP 中文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108714/2026090701364_c.htm",
+    "深圳市景旺電子股份有限公司 PHIP 英文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108714/2026090701363.htm",
+    "浙江濤濤車業股份有限公司 PHIP 中文全文": "https://www1.hkexnews.hk/app/sehk/2026/108575/documents/sehk26090701489_c.pdf",
+    "浙江濤濤車業股份有限公司 PHIP 英文全文": "https://www1.hkexnews.hk/app/sehk/2026/108575/documents/sehk26090701490.pdf",
+    "浙江濤濤車業股份有限公司 PHIP 中文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108575/2026090701486_c.htm",
+    "浙江濤濤車業股份有限公司 PHIP 英文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108575/2026090701485.htm",
+    "LONGSYS 首日交易交叉核实（经济通）": "https://www.etnet.com.hk/www/eng/stocks/ci_ipo_news_detail.php?newsid=ETE360908302&page=1",
+    "SEC EDGAR EFTS": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-09-07&enddt=2026-09-08&forms=F-1",
+    "SEC Jingrui Wang Pu 2026-09-08": "https://www.sec.gov/Archives/edgar/data/1998284/000110465926105582/0001104659-26-105582-index.htm",
+    "广东微电新能源 AP 中文全文": "https://www1.hkexnews.hk/app/sehk/2026/108867/documents/sehk26091001725_c.pdf",
+    "广东微电新能源 AP 英文全文": "https://www1.hkexnews.hk/app/sehk/2026/108867/documents/sehk26091001726.pdf"
+  }
+}
