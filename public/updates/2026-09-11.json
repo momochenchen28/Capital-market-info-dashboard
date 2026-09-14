@@ -1,60 +1,163 @@
 {
-  "generatedAt": "2026-09-11T02:44:28Z",
+  "generatedAt": "2026-09-14T10:13:03.268Z",
   "dailyReports": {
     "2026-09-11": {
       "date": "2026-09-11",
-      "reportType": "briefing",
-      "title": "资本市场快报",
-      "archiveNotice": "无新增类别不创建占位公司卡。",
+      "title": "资本市场档案",
+      "reportType": "archive",
+      "edition": "自然日回扫补录",
+      "subtitle": "回补AP 1家、SEC F-1 1家及两项监管更新",
+      "isTradingDay": true,
+      "lastVerifiedAt": "2026-09-14T10:13:03.268Z",
+      "backscanRange": {
+        "from": "2026-09-11",
+        "to": "2026-09-14"
+      },
+      "statusNote": "按实际自然日归档。9/11补充材料要求公示及备案情况表已作为监管更新回补，均不计csrcCount。单家公司备案通知书列表访问失败；9/11至9/14定向检索未发现可验证通知，csrcCount=0仅为已验证计数，不能解释为完整确认无新增。",
+      "archiveNotice": "无新增事件类别由前端显示统一空状态，不创建占位公司卡。",
       "metrics": {
         "hkexNewListings": 0,
-        "apNewCount": 0,
+        "apNewCount": 1,
         "phipCount": 0,
         "csrcCount": 0,
-        "usChinaIpoCount": 0
+        "usChinaIpoCount": 1
       },
-      "deals": [],
-      "edition": "09:30早盘流程补跑",
-      "lastVerifiedAt": "2026-09-11T02:44:28Z",
-      "backscanRange": {
-        "from": "2026-09-08",
-        "to": "2026-09-11"
-      },
-      "isTradingDay": true,
-      "statusNote": "本日为港股正常交易日，按自然日归档。证监会补充材料公示及备案情况表可访问版本最新为2026-09-04；单家公司备案通知书列表访问失败，定向检索未发现目标日期通知。csrcCount=0仅为已验证计数，完整性待列表恢复后回扫；补充材料及备案情况表不计数。",
+      "deals": [
+        {
+          "id": "hkex-ap-phip-2026-09-11",
+          "section": "港股递表/聆讯",
+          "type": "AP / PHIP 更新",
+          "status": "官方文件更新",
+          "eventType": "hkexApPhip",
+          "countInMetrics": true,
+          "company": {
+            "zh": "HKEX AP/PHIP 官方文件更新",
+            "en": "HKEX AP/PHIP filings",
+            "display": "HKEX AP/PHIP 官方文件更新（2026-09-11）"
+          },
+          "apApplications": [
+            {
+              "id": "108868",
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "翱捷科技股份有限公司",
+              "nameEn": "ASR Microelectronics Co., Ltd.",
+              "filingDate": "2026-09-11",
+              "structure": "香港主板H股申请",
+              "industry": "半导体",
+              "sector": "无线连接芯片与SoC",
+              "subIndustry": "无线连接芯片与SoC",
+              "businessSummary": "设计无线连接芯片、智能终端SoC及定制ASIC，面向终端、边缘和云端的连接与计算需求。",
+              "businessSource": "HKEX AP Summary / Directors and Parties",
+              "sponsors": "Morgan Stanley Asia Limited；Haitong International Capital Limited",
+              "prospectusLink": "翱捷科技股份有限公司 AP 中文全文",
+              "links": [
+                "翱捷科技股份有限公司 AP 中文全文",
+                "翱捷科技股份有限公司 AP 英文全文",
+                "翱捷科技股份有限公司 AP 中文多档案",
+                "翱捷科技股份有限公司 AP 英文多档案"
+              ]
+            }
+          ],
+          "links": [
+            "翱捷科技股份有限公司 AP 中文全文",
+            "翱捷科技股份有限公司 AP 英文全文",
+            "翱捷科技股份有限公司 AP 中文多档案",
+            "翱捷科技股份有限公司 AP 英文多档案"
+          ]
+        },
+        {
+          "id": "csrc-supplement-2026-09-11",
+          "section": "证监会备案",
+          "type": "监管更新",
+          "status": "已发布",
+          "eventType": "csrcRegulatoryUpdate",
+          "countInMetrics": false,
+          "title": "境外发行上市备案补充材料要求公示（2026年9月7日—9月11日）",
+          "company": {
+            "display": "境外发行上市备案补充材料要求公示（2026年9月7日—9月11日）",
+            "zh": "境外发行上市备案补充材料要求公示（2026年9月7日—9月11日）"
+          },
+          "summary": "监管资料更新，不属于单家公司新增备案通知书，不计新增备案公司数。",
+          "links": [
+            "境外发行上市备案补充材料要求公示（2026年9月7日—9月11日）"
+          ]
+        },
+        {
+          "id": "csrc-progress-2026-09-11",
+          "section": "证监会备案",
+          "type": "监管更新",
+          "status": "已发布",
+          "eventType": "csrcRegulatoryUpdate",
+          "countInMetrics": false,
+          "title": "境内企业境外发行证券和上市备案情况表（截至2026年9月11日）",
+          "company": {
+            "display": "境内企业境外发行证券和上市备案情况表（截至2026年9月11日）",
+            "zh": "境内企业境外发行证券和上市备案情况表（截至2026年9月11日）"
+          },
+          "summary": "监管资料更新，不属于单家公司新增备案通知书，不计新增备案公司数。",
+          "links": [
+            "境内企业境外发行证券和上市备案情况表（截至2026年9月11日）"
+          ]
+        },
+        {
+          "id": "sec-2120204-20260911",
+          "section": "美股中概 IPO",
+          "type": "F-1",
+          "status": "公开注册申报",
+          "eventType": "secIpoFiling",
+          "countInMetrics": true,
+          "company": {
+            "zh": "Hao Feng Group Ltd.",
+            "en": "Hao Feng Group Ltd.",
+            "display": "Hao Feng Group Ltd."
+          },
+          "business": {
+            "sector": "教育服务（SEC SIC 8200）",
+            "summary": "业务细分待F-1正文复核；SEC登记经营地址为香港。",
+            "source": "SEC EFTS官方申报元数据；主文件访问403"
+          },
+          "secFilings": [
+            {
+              "form": "F-1",
+              "filingDate": "2026-09-11",
+              "accessionNumber": "0001185185-26-003939",
+              "cik": "0002120204",
+              "documentUrl": "https://www.sec.gov/Archives/edgar/data/2120204/000118518526003939/haofengf1082526.htm"
+            }
+          ],
+          "links": [
+            "https://www.sec.gov/Archives/edgar/data/2120204/000118518526003939/haofengf1082526.htm",
+            "SEC EDGAR EFTS"
+          ],
+          "verificationNote": "EFTS主文件命中精确短语initial public offering；未用文件描述FORM DRS/A1覆盖官方form=F-1。发行条款及详细业务待正文复核。"
+        }
+      ],
       "observations": [
-        "HKEX中英文AP-only/AP+PHIP JSON uDate=10/09/2026，app.length=359/9。按ls及ps文件实际日期回扫9月8日至11日，仅9月10日广东微电新能源为首次AP；剧星传媒及糖吉医疗为OC修订，不计NEW AP。9月11日来源尚未更新到当日，需后续回扫。",
-        "证监会补充材料公示及备案情况表可访问版本最新为2026-09-04；单家公司备案通知书列表访问失败，定向检索未发现目标日期通知。csrcCount=0仅为已验证计数，完整性待列表恢复后回扫；补充材料及备案情况表不计数。",
-        "SEC EFTS回扫F-1（含修订）8条，F-1/A子集5条，按accession去重。9月8日Jingrui Wang Pu F-1为中国经营发行人IPO，按官方Filing Date归档（Accepted为9月4日）。BTC Digital转售注册不计IPO；Prenetics为已上市发行人且文件名标记resale，正文访问受限，未计IPO。其他境外发行人排除。9月11日美国申报尚未完成。"
+        "HKEX中英文AP-only/AP+PHIP JSON均uDate=13/09/2026，app.length分别358/12；逐项检查ls及ps日期：9/11 AP=1、PHIP=0，9/12均0，9/13 AP=1、PHIP=3，9/14均0。海亮9/11仅OC委任，不计AP。9/14结构化来源尚未更新至当日，需后续回扫。",
+        "9/11补充材料要求公示及备案情况表已作为监管更新回补，均不计csrcCount。单家公司备案通知书列表访问失败；9/11至9/14定向检索未发现可验证通知，csrcCount=0仅为已验证计数，不能解释为完整确认无新增。",
+        "SEC EFTS分别核查F-1（含修订8条）、EFFECT（13条）、8-A12B（15条）和8-A12G（0条）。9/11 Hao Feng Group Ltd.为香港地址发行人F-1，主文件命中首次公开发行全文查询，计1；正文403，业务和发行条款待复核。丽翔教育F-1命中resale且为已上市发行人，不计IPO；其余F-1为新加坡、越南、沙特、瑞典等发行人或境外业务。EFFECT及8-A主要为已上市公司、基金及非IPO交易，未验证新增中概IPO；9/14美国申报时段未完成，需回扫。",
+        "9/14为港股交易日，上一交易日9/11；9/12—9/13为周末。HKEX证券表更新至9/14，9/11与9/14无公司类IPO；债券、拆合股及未来ETF上市排除。9/12未验证目标新增事件，不创建空周末文件。"
       ],
       "officialSourceChecks": [
         {
-          "source": "HKEX Securities Market Holiday Schedule 2026",
-          "dateRange": "2026-09-11",
-          "result": "本日非周末/休市日；上一交易日9月10日，本次扩展回扫至上次运行9月8日。"
-        },
-        {
-          "source": "HKEX Newly Listed Securities / New Listing Information",
-          "dateRange": "2026-09-11",
-          "result": "无公司类IPO新挂牌；债券、合股及临时柜台排除。"
+          "source": "HKEX calendar / Newly Listed Securities / New Listing Information",
+          "result": "9/11、9/14交易日；无公司类IPO新挂牌。",
+          "dateRange": "2026-09-11/2026-09-14"
         },
         {
           "source": "HKEX AP-only / AP+PHIP structured JSON",
-          "dateRange": "2026-09-08/2026-09-11",
-          "result": "HKEX中英文AP-only/AP+PHIP JSON uDate=10/09/2026，app.length=359/9。按ls及ps文件实际日期回扫9月8日至11日，仅9月10日广东微电新能源为首次AP；剧星传媒及糖吉医疗为OC修订，不计NEW AP。9月11日来源尚未更新到当日，需后续回扫。"
+          "result": "HKEX中英文AP-only/AP+PHIP JSON均uDate=13/09/2026，app.length分别358/12；逐项检查ls及ps日期：9/11 AP=1、PHIP=0，9/12均0，9/13 AP=1、PHIP=3，9/14均0。海亮9/11仅OC委任，不计AP。9/14结构化来源尚未更新至当日，需后续回扫。"
         },
         {
           "source": "CSRC official filing pages",
-          "dateRange": "2026-09-08/2026-09-11",
-          "result": "证监会补充材料公示及备案情况表可访问版本最新为2026-09-04；单家公司备案通知书列表访问失败，定向检索未发现目标日期通知。csrcCount=0仅为已验证计数，完整性待列表恢复后回扫；补充材料及备案情况表不计数。"
+          "result": "9/11补充材料要求公示及备案情况表已作为监管更新回补，均不计csrcCount。单家公司备案通知书列表访问失败；9/11至9/14定向检索未发现可验证通知，csrcCount=0仅为已验证计数，不能解释为完整确认无新增。"
         },
         {
           "source": "SEC EDGAR EFTS",
-          "dateRange": "2026-09-08/2026-09-11",
-          "result": "SEC EFTS回扫F-1（含修订）8条，F-1/A子集5条，按accession去重。9月8日Jingrui Wang Pu F-1为中国经营发行人IPO，按官方Filing Date归档（Accepted为9月4日）。BTC Digital转售注册不计IPO；Prenetics为已上市发行人且文件名标记resale，正文访问受限，未计IPO。其他境外发行人排除。9月11日美国申报尚未完成。"
+          "result": "SEC EFTS分别核查F-1（含修订8条）、EFFECT（13条）、8-A12B（15条）和8-A12G（0条）。9/11 Hao Feng Group Ltd.为香港地址发行人F-1，主文件命中首次公开发行全文查询，计1；正文403，业务和发行条款待复核。丽翔教育F-1命中resale且为已上市发行人，不计IPO；其余F-1为新加坡、越南、沙特、瑞典等发行人或境外业务。EFFECT及8-A主要为已上市公司、基金及非IPO交易，未验证新增中概IPO；9/14美国申报时段未完成，需回扫。"
         }
-      ],
-      "subtitle": "港股交易日早盘；截至可访问官方资料未见当日目标新增事件，来源更新时间及核查限制见说明。"
+      ]
     }
   },
   "linkMap": {
@@ -64,21 +167,31 @@
     "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
     "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
     "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml?mobile=2",
-    "CSRC Overseas Filing Progress": "https://www.csrc.gov.cn/csrc/c106251/c7656852/content.shtml",
+    "CSRC Overseas Filing Progress": "https://www.csrc.gov.cn/csrc/c106251/c7658245/content.shtml",
     "CSRC Overseas Filing Results": "https://www.csrc.gov.cn/csrc/c105984/common_list.shtml",
     "SEC EDGAR Daily Index Directory": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/",
-    "深圳市景旺電子股份有限公司 PHIP 中文全文": "https://www1.hkexnews.hk/app/sehk/2026/108714/documents/sehk26090701433_c.pdf",
-    "深圳市景旺電子股份有限公司 PHIP 英文全文": "https://www1.hkexnews.hk/app/sehk/2026/108714/documents/sehk26090701434.pdf",
-    "深圳市景旺電子股份有限公司 PHIP 中文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108714/2026090701364_c.htm",
-    "深圳市景旺電子股份有限公司 PHIP 英文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108714/2026090701363.htm",
-    "浙江濤濤車業股份有限公司 PHIP 中文全文": "https://www1.hkexnews.hk/app/sehk/2026/108575/documents/sehk26090701489_c.pdf",
-    "浙江濤濤車業股份有限公司 PHIP 英文全文": "https://www1.hkexnews.hk/app/sehk/2026/108575/documents/sehk26090701490.pdf",
-    "浙江濤濤車業股份有限公司 PHIP 中文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108575/2026090701486_c.htm",
-    "浙江濤濤車業股份有限公司 PHIP 英文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108575/2026090701485.htm",
-    "LONGSYS 首日交易交叉核实（经济通）": "https://www.etnet.com.hk/www/eng/stocks/ci_ipo_news_detail.php?newsid=ETE360908302&page=1",
-    "SEC EDGAR EFTS": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-09-07&enddt=2026-09-08&forms=F-1",
-    "SEC Jingrui Wang Pu 2026-09-08": "https://www.sec.gov/Archives/edgar/data/1998284/000110465926105582/0001104659-26-105582-index.htm",
-    "广东微电新能源 AP 中文全文": "https://www1.hkexnews.hk/app/sehk/2026/108867/documents/sehk26091001725_c.pdf",
-    "广东微电新能源 AP 英文全文": "https://www1.hkexnews.hk/app/sehk/2026/108867/documents/sehk26091001726.pdf"
+    "SEC EDGAR EFTS": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-09-11&enddt=2026-09-14&forms=F-1",
+    "翱捷科技股份有限公司 AP 中文全文": "https://www1.hkexnews.hk/app/sehk/2026/108868/documents/sehk26091101555_c.pdf",
+    "翱捷科技股份有限公司 AP 英文全文": "https://www1.hkexnews.hk/app/sehk/2026/108868/documents/sehk26091101556.pdf",
+    "翱捷科技股份有限公司 AP 中文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108868/2026091101554_c.htm",
+    "翱捷科技股份有限公司 AP 英文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108868/2026091101553.htm",
+    "境外发行上市备案补充材料要求公示（2026年9月7日—9月11日）": "https://www.csrc.gov.cn/csrc/c100098/c7658251/content.shtml",
+    "境内企业境外发行证券和上市备案情况表（截至2026年9月11日）": "https://www.csrc.gov.cn/csrc/c106251/c7658245/content.shtml",
+    "深圳市海柔創新智能科技集團股份有限公司 - W AP 中文全文": "https://www1.hkexnews.hk/app/sehk/2026/108870/documents/sehk26091300123_c.pdf",
+    "深圳市海柔創新智能科技集團股份有限公司 - W AP 英文全文": "https://www1.hkexnews.hk/app/sehk/2026/108870/documents/sehk26091300124.pdf",
+    "深圳市海柔創新智能科技集團股份有限公司 - W AP 中文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108870/2026091300120_c.htm",
+    "深圳市海柔創新智能科技集團股份有限公司 - W AP 英文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108870/2026091300119.htm",
+    "湖南軍信環保股份有限公司 PHIP 中文全文": "https://www1.hkexnews.hk/app/sehk/2026/108794/documents/sehk26091300039_c.pdf",
+    "湖南軍信環保股份有限公司 PHIP 英文全文": "https://www1.hkexnews.hk/app/sehk/2026/108794/documents/sehk26091300040.pdf",
+    "湖南軍信環保股份有限公司 PHIP 中文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108794/2026091300036_c.htm",
+    "湖南軍信環保股份有限公司 PHIP 英文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108794/2026091300035.htm",
+    "深圳市歡創科技股份有限公司 PHIP 中文全文": "https://www1.hkexnews.hk/app/sehk/2026/108431/documents/sehk26091300195_c.pdf",
+    "深圳市歡創科技股份有限公司 PHIP 英文全文": "https://www1.hkexnews.hk/app/sehk/2026/108431/documents/sehk26091300196.pdf",
+    "深圳市歡創科技股份有限公司 PHIP 中文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108431/2026091300192_c.htm",
+    "深圳市歡創科技股份有限公司 PHIP 英文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108431/2026091300191.htm",
+    "羅博特科智能科技股份有限公司 PHIP 中文全文": "https://www1.hkexnews.hk/app/sehk/2026/108535/documents/sehk26091300271_c.pdf",
+    "羅博特科智能科技股份有限公司 PHIP 英文全文": "https://www1.hkexnews.hk/app/sehk/2026/108535/documents/sehk26091300272.pdf",
+    "羅博特科智能科技股份有限公司 PHIP 中文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108535/2026091300268_c.htm",
+    "羅博特科智能科技股份有限公司 PHIP 英文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108535/2026091300267.htm"
   }
 }
