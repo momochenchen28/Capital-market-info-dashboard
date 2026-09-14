@@ -1,0 +1,87 @@
+{
+  "generatedAt": "2026-09-14T10:13:03.268Z",
+  "dailyReports": {
+    "2026-09-14": {
+      "date": "2026-09-14",
+      "title": "资本市场快报",
+      "reportType": "briefing",
+      "edition": "09:30早盘流程补跑",
+      "subtitle": "交易日早盘；已验证当日新增事件为0，核查限制见说明",
+      "isTradingDay": true,
+      "lastVerifiedAt": "2026-09-14T10:13:03.268Z",
+      "backscanRange": {
+        "from": "2026-09-11",
+        "to": "2026-09-14"
+      },
+      "statusNote": "按实际自然日归档。9/11补充材料要求公示及备案情况表已作为监管更新回补，均不计csrcCount。单家公司备案通知书列表访问失败；9/11至9/14定向检索未发现可验证通知，csrcCount=0仅为已验证计数，不能解释为完整确认无新增。",
+      "archiveNotice": "无新增事件类别由前端显示统一空状态，不创建占位公司卡。",
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "deals": [],
+      "observations": [
+        "HKEX中英文AP-only/AP+PHIP JSON均uDate=13/09/2026，app.length分别358/12；逐项检查ls及ps日期：9/11 AP=1、PHIP=0，9/12均0，9/13 AP=1、PHIP=3，9/14均0。海亮9/11仅OC委任，不计AP。9/14结构化来源尚未更新至当日，需后续回扫。",
+        "9/11补充材料要求公示及备案情况表已作为监管更新回补，均不计csrcCount。单家公司备案通知书列表访问失败；9/11至9/14定向检索未发现可验证通知，csrcCount=0仅为已验证计数，不能解释为完整确认无新增。",
+        "SEC EFTS分别核查F-1（含修订8条）、EFFECT（13条）、8-A12B（15条）和8-A12G（0条）。9/11 Hao Feng Group Ltd.为香港地址发行人F-1，主文件命中首次公开发行全文查询，计1；正文403，业务和发行条款待复核。丽翔教育F-1命中resale且为已上市发行人，不计IPO；其余F-1为新加坡、越南、沙特、瑞典等发行人或境外业务。EFFECT及8-A主要为已上市公司、基金及非IPO交易，未验证新增中概IPO；9/14美国申报时段未完成，需回扫。",
+        "9/14为港股交易日，上一交易日9/11；9/12—9/13为周末。HKEX证券表更新至9/14，9/11与9/14无公司类IPO；债券、拆合股及未来ETF上市排除。9/12未验证目标新增事件，不创建空周末文件。"
+      ],
+      "officialSourceChecks": [
+        {
+          "source": "HKEX calendar / Newly Listed Securities / New Listing Information",
+          "result": "9/11、9/14交易日；无公司类IPO新挂牌。",
+          "dateRange": "2026-09-11/2026-09-14"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "result": "HKEX中英文AP-only/AP+PHIP JSON均uDate=13/09/2026，app.length分别358/12；逐项检查ls及ps日期：9/11 AP=1、PHIP=0，9/12均0，9/13 AP=1、PHIP=3，9/14均0。海亮9/11仅OC委任，不计AP。9/14结构化来源尚未更新至当日，需后续回扫。"
+        },
+        {
+          "source": "CSRC official filing pages",
+          "result": "9/11补充材料要求公示及备案情况表已作为监管更新回补，均不计csrcCount。单家公司备案通知书列表访问失败；9/11至9/14定向检索未发现可验证通知，csrcCount=0仅为已验证计数，不能解释为完整确认无新增。"
+        },
+        {
+          "source": "SEC EDGAR EFTS",
+          "result": "SEC EFTS分别核查F-1（含修订8条）、EFFECT（13条）、8-A12B（15条）和8-A12G（0条）。9/11 Hao Feng Group Ltd.为香港地址发行人F-1，主文件命中首次公开发行全文查询，计1；正文403，业务和发行条款待复核。丽翔教育F-1命中resale且为已上市发行人，不计IPO；其余F-1为新加坡、越南、沙特、瑞典等发行人或境外业务。EFFECT及8-A主要为已上市公司、基金及非IPO交易，未验证新增中概IPO；9/14美国申报时段未完成，需回扫。"
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Securities Market Holiday Schedule 2026": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2025/ce_SEHK_CT_075_2025.pdf",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/new-listings/new-listing-information/main-board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml?mobile=2",
+    "CSRC Overseas Filing Progress": "https://www.csrc.gov.cn/csrc/c106251/c7658245/content.shtml",
+    "CSRC Overseas Filing Results": "https://www.csrc.gov.cn/csrc/c105984/common_list.shtml",
+    "SEC EDGAR Daily Index Directory": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/",
+    "SEC EDGAR EFTS": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-09-11&enddt=2026-09-14&forms=F-1",
+    "翱捷科技股份有限公司 AP 中文全文": "https://www1.hkexnews.hk/app/sehk/2026/108868/documents/sehk26091101555_c.pdf",
+    "翱捷科技股份有限公司 AP 英文全文": "https://www1.hkexnews.hk/app/sehk/2026/108868/documents/sehk26091101556.pdf",
+    "翱捷科技股份有限公司 AP 中文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108868/2026091101554_c.htm",
+    "翱捷科技股份有限公司 AP 英文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108868/2026091101553.htm",
+    "境外发行上市备案补充材料要求公示（2026年9月7日—9月11日）": "https://www.csrc.gov.cn/csrc/c100098/c7658251/content.shtml",
+    "境内企业境外发行证券和上市备案情况表（截至2026年9月11日）": "https://www.csrc.gov.cn/csrc/c106251/c7658245/content.shtml",
+    "深圳市海柔創新智能科技集團股份有限公司 - W AP 中文全文": "https://www1.hkexnews.hk/app/sehk/2026/108870/documents/sehk26091300123_c.pdf",
+    "深圳市海柔創新智能科技集團股份有限公司 - W AP 英文全文": "https://www1.hkexnews.hk/app/sehk/2026/108870/documents/sehk26091300124.pdf",
+    "深圳市海柔創新智能科技集團股份有限公司 - W AP 中文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108870/2026091300120_c.htm",
+    "深圳市海柔創新智能科技集團股份有限公司 - W AP 英文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108870/2026091300119.htm",
+    "湖南軍信環保股份有限公司 PHIP 中文全文": "https://www1.hkexnews.hk/app/sehk/2026/108794/documents/sehk26091300039_c.pdf",
+    "湖南軍信環保股份有限公司 PHIP 英文全文": "https://www1.hkexnews.hk/app/sehk/2026/108794/documents/sehk26091300040.pdf",
+    "湖南軍信環保股份有限公司 PHIP 中文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108794/2026091300036_c.htm",
+    "湖南軍信環保股份有限公司 PHIP 英文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108794/2026091300035.htm",
+    "深圳市歡創科技股份有限公司 PHIP 中文全文": "https://www1.hkexnews.hk/app/sehk/2026/108431/documents/sehk26091300195_c.pdf",
+    "深圳市歡創科技股份有限公司 PHIP 英文全文": "https://www1.hkexnews.hk/app/sehk/2026/108431/documents/sehk26091300196.pdf",
+    "深圳市歡創科技股份有限公司 PHIP 中文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108431/2026091300192_c.htm",
+    "深圳市歡創科技股份有限公司 PHIP 英文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108431/2026091300191.htm",
+    "羅博特科智能科技股份有限公司 PHIP 中文全文": "https://www1.hkexnews.hk/app/sehk/2026/108535/documents/sehk26091300271_c.pdf",
+    "羅博特科智能科技股份有限公司 PHIP 英文全文": "https://www1.hkexnews.hk/app/sehk/2026/108535/documents/sehk26091300272.pdf",
+    "羅博特科智能科技股份有限公司 PHIP 中文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108535/2026091300268_c.htm",
+    "羅博特科智能科技股份有限公司 PHIP 英文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108535/2026091300267.htm"
+  }
+}
