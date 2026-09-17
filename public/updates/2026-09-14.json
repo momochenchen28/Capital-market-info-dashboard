@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-14T10:13:03.268Z",
+  "generatedAt": "2026-09-17T03:31:15.715Z",
   "dailyReports": {
     "2026-09-14": {
       "date": "2026-09-14",
       "title": "资本市场快报",
       "reportType": "briefing",
-      "edition": "09:30早盘流程补跑",
-      "subtitle": "交易日早盘；已验证当日新增事件为0，核查限制见说明",
+      "edition": "09:30回扫确认",
+      "subtitle": "交易日回扫确认：五类目标事件均无新增",
       "isTradingDay": true,
-      "lastVerifiedAt": "2026-09-14T10:13:03.268Z",
+      "lastVerifiedAt": "2026-09-17T03:31:15.715Z",
       "backscanRange": {
-        "from": "2026-09-11",
-        "to": "2026-09-14"
+        "from": "2026-09-14",
+        "to": "2026-09-17"
       },
-      "statusNote": "按实际自然日归档。9/11补充材料要求公示及备案情况表已作为监管更新回补，均不计csrcCount。单家公司备案通知书列表访问失败；9/11至9/14定向检索未发现可验证通知，csrcCount=0仅为已验证计数，不能解释为完整确认无新增。",
+      "statusNote": "17/09/2026 版 HKEX 中英文 AP-only/AP+PHIP structured JSON 回扫确认 9/14 NEW AP=0、PHIP=0；Newly Listed Securities 9/14 无公司类 IPO 新挂牌。SEC EFTS 9/14 的 2 家 F-1 系列发行人分别位于瑞典及马来西亚，usChinaIpoCount=0。证监会补充材料公示最新仍为 9/11，单家公司备案通知书列表重定向至首页，csrcCount=0 仅代表当前可验证计数。",
       "archiveNotice": "无新增事件类别由前端显示统一空状态，不创建占位公司卡。",
       "metrics": {
         "hkexNewListings": 0,
@@ -24,28 +24,31 @@
       },
       "deals": [],
       "observations": [
-        "HKEX中英文AP-only/AP+PHIP JSON均uDate=13/09/2026，app.length分别358/12；逐项检查ls及ps日期：9/11 AP=1、PHIP=0，9/12均0，9/13 AP=1、PHIP=3，9/14均0。海亮9/11仅OC委任，不计AP。9/14结构化来源尚未更新至当日，需后续回扫。",
-        "9/11补充材料要求公示及备案情况表已作为监管更新回补，均不计csrcCount。单家公司备案通知书列表访问失败；9/11至9/14定向检索未发现可验证通知，csrcCount=0仅为已验证计数，不能解释为完整确认无新增。",
-        "SEC EFTS分别核查F-1（含修订8条）、EFFECT（13条）、8-A12B（15条）和8-A12G（0条）。9/11 Hao Feng Group Ltd.为香港地址发行人F-1，主文件命中首次公开发行全文查询，计1；正文403，业务和发行条款待复核。丽翔教育F-1命中resale且为已上市发行人，不计IPO；其余F-1为新加坡、越南、沙特、瑞典等发行人或境外业务。EFFECT及8-A主要为已上市公司、基金及非IPO交易，未验证新增中概IPO；9/14美国申报时段未完成，需回扫。",
-        "9/14为港股交易日，上一交易日9/11；9/12—9/13为周末。HKEX证券表更新至9/14，9/11与9/14无公司类IPO；债券、拆合股及未来ETF上市排除。9/12未验证目标新增事件，不创建空周末文件。"
+        "HKEX 四个中英文 structured JSON 均更新至 17/09/2026；回扫确认 9/14 NEW AP=0、PHIP=0。",
+        "HKEX Newly Listed Securities 9/14 仅股份拆细、股份合并及债务证券，无公司类 IPO 新挂牌。",
+        "SEC EFTS 9/14 共 2 家 F-1/F-1/A：Einride AB（瑞典）和 CCH Holdings（马来西亚），均不计中概 IPO。",
+        "证监会补充材料公示最新仍为 9/11；单家公司通知书列表不可访问，csrcCount=0 保留完整性限制。"
       ],
       "officialSourceChecks": [
         {
           "source": "HKEX calendar / Newly Listed Securities / New Listing Information",
-          "result": "9/11、9/14交易日；无公司类IPO新挂牌。",
-          "dateRange": "2026-09-11/2026-09-14"
+          "dateRange": "2026-09-14",
+          "result": "目标日为港股正常交易日；Newly Listed Securities 仅见 ETF、供股权、债务证券或交易安排，无公司类 IPO 新挂牌。"
         },
         {
           "source": "HKEX AP-only / AP+PHIP structured JSON",
-          "result": "HKEX中英文AP-only/AP+PHIP JSON均uDate=13/09/2026，app.length分别358/12；逐项检查ls及ps日期：9/11 AP=1、PHIP=0，9/12均0，9/13 AP=1、PHIP=3，9/14均0。海亮9/11仅OC委任，不计AP。9/14结构化来源尚未更新至当日，需后续回扫。"
+          "dateRange": "2026-09-14",
+          "result": "17/09/2026 版四个中英文 JSON 回扫确认 9/14 NEW AP=0、PHIP=0。"
         },
         {
           "source": "CSRC official filing pages",
-          "result": "9/11补充材料要求公示及备案情况表已作为监管更新回补，均不计csrcCount。单家公司备案通知书列表访问失败；9/11至9/14定向检索未发现可验证通知，csrcCount=0仅为已验证计数，不能解释为完整确认无新增。"
+          "dateRange": "2026-09-14",
+          "result": "补充材料公示最新仍为 2026-09-11；单家公司备案通知书列表重定向至首页，定向检索未发现可验证目标日通知。csrcCount=0 为已验证计数，保留完整性限制。"
         },
         {
-          "source": "SEC EDGAR EFTS",
-          "result": "SEC EFTS分别核查F-1（含修订8条）、EFFECT（13条）、8-A12B（15条）和8-A12G（0条）。9/11 Hao Feng Group Ltd.为香港地址发行人F-1，主文件命中首次公开发行全文查询，计1；正文403，业务和发行条款待复核。丽翔教育F-1命中resale且为已上市发行人，不计IPO；其余F-1为新加坡、越南、沙特、瑞典等发行人或境外业务。EFFECT及8-A主要为已上市公司、基金及非IPO交易，未验证新增中概IPO；9/14美国申报时段未完成，需回扫。"
+          "source": "SEC EDGAR EFTS / daily-index",
+          "dateRange": "2026-09-14",
+          "result": "9/14 F-1 系列共 2 家，均为非中国/香港发行人，usChinaIpoCount=0。"
         }
       ]
     }
@@ -82,6 +85,7 @@
     "羅博特科智能科技股份有限公司 PHIP 中文全文": "https://www1.hkexnews.hk/app/sehk/2026/108535/documents/sehk26091300271_c.pdf",
     "羅博特科智能科技股份有限公司 PHIP 英文全文": "https://www1.hkexnews.hk/app/sehk/2026/108535/documents/sehk26091300272.pdf",
     "羅博特科智能科技股份有限公司 PHIP 中文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108535/2026091300268_c.htm",
-    "羅博特科智能科技股份有限公司 PHIP 英文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108535/2026091300267.htm"
+    "羅博特科智能科技股份有限公司 PHIP 英文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108535/2026091300267.htm",
+    "SEC EDGAR EFTS 2026-09-14 to 2026-09-17": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-09-14&enddt=2026-09-17&forms=F-1"
   }
 }
