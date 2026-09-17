@@ -1,0 +1,171 @@
+{
+  "generatedAt": "2026-09-17T03:31:15.715Z",
+  "dailyReports": {
+    "2026-09-16": {
+      "date": "2026-09-16",
+      "title": "资本市场快报",
+      "reportType": "briefing",
+      "edition": "回扫补录",
+      "subtitle": "交易日回扫：PHIP 1 家、SEC 中概 F-1/A 2 家",
+      "isTradingDay": true,
+      "lastVerifiedAt": "2026-09-17T03:31:15.715Z",
+      "backscanRange": {
+        "from": "2026-09-14",
+        "to": "2026-09-17"
+      },
+      "statusNote": "按实际自然日归档。HKEX 四个中英文 AP-only/AP+PHIP structured JSON 已更新至 17/09/2026；证监会补充材料公示最新仍为 9 月 11 日，单家公司备案通知书列表本次重定向至首页，csrcCount=0 仅代表当前可验证计数，不应解释为完整确认无新增。",
+      "archiveNotice": "无新增事件类别由前端显示统一空状态，不创建占位公司卡。",
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 0,
+        "phipCount": 1,
+        "csrcCount": 0,
+        "usChinaIpoCount": 2
+      },
+      "deals": [
+        {
+          "id": "hkex-ap-phip-2026-09-16",
+          "section": "港股递表/聆讯",
+          "type": "AP / PHIP 更新",
+          "status": "官方文件更新",
+          "eventType": "hkexApPhip",
+          "countInMetrics": true,
+          "company": {
+            "zh": "HKEX AP/PHIP 官方文件更新",
+            "en": "HKEX AP/PHIP filings",
+            "display": "HKEX AP/PHIP 官方文件更新（2026-09-16）"
+          },
+          "apApplications": [
+            {
+              "id": "108810",
+              "status": "PHIP",
+              "documentType": "PHIP (1st submission)",
+              "nameZh": "彤程新材料集團股份有限公司",
+              "nameEn": "Red Avenue New Materials Group Co., Ltd.",
+              "filingDate": "2026-09-16",
+              "structure": "香港主板 H 股申请",
+              "industry": "新材料",
+              "sector": "先进化工材料",
+              "subIndustry": "轮胎橡胶助剂、电子材料及可生物降解材料",
+              "businessSummary": "综合新材料服务商，主要从事轮胎橡胶助剂及其他化工产品、电子材料和全生物降解材料的研发、生产、营销与销售。",
+              "businessSource": "HKEX PHIP Summary",
+              "sponsors": "Haitong International Capital Limited",
+              "prospectusLink": "彤程新材料 PHIP 中文全文",
+              "links": [
+                "彤程新材料 PHIP 中文全文",
+                "彤程新材料 PHIP 英文全文",
+                "彤程新材料 PHIP 中文多档案",
+                "彤程新材料 PHIP 英文多档案"
+              ]
+            }
+          ],
+          "links": [
+            "彤程新材料 PHIP 中文全文",
+            "彤程新材料 PHIP 英文全文",
+            "彤程新材料 PHIP 中文多档案",
+            "彤程新材料 PHIP 英文多档案"
+          ]
+        },
+        {
+          "id": "sec-china-ipo-filings-20260916",
+          "section": "美股中概 IPO",
+          "type": "SEC EDGAR IPO 文件更新",
+          "status": "F-1/A 2 家",
+          "eventType": "usChinaIpoFiling",
+          "countInMetrics": true,
+          "company": {
+            "zh": "SEC EDGAR 中国相关 IPO 文件监控",
+            "en": "SEC EDGAR China-related IPO Monitor",
+            "display": "SEC EDGAR 中国相关 IPO 文件监控（2026-09-16）",
+            "exchange": "SEC EDGAR",
+            "board": "F-1 / IPO related filings",
+            "listingStructure": "多家公司"
+          },
+          "business": {
+            "sector": "美股 IPO pipeline",
+            "summary": "SEC EFTS 命中 World Road 与 GLGHK 两家中国/香港经营发行人的 F-1/A，主文件均命中 initial public offering，按发行人去重计数。",
+            "source": "SEC EDGAR EFTS / official filing metadata"
+          },
+          "metrics": {
+            "usChinaIpoCount": 2
+          },
+          "secFilings": [
+            {
+              "company": "World Road Inc.",
+              "cik": "0002049348",
+              "form": "F-1/A",
+              "filingDate": "2026-09-16",
+              "accessionNumber": "0001829126-26-010133",
+              "businessLocation": "China operations; SEC business address New York",
+              "sourceLinks": [
+                "SEC World Road F-1/A"
+              ]
+            },
+            {
+              "company": "GLGHK Ltd",
+              "cik": "0002119287",
+              "form": "F-1/A",
+              "filingDate": "2026-09-16",
+              "accessionNumber": "0001493152-26-042799",
+              "businessLocation": "Hong Kong Island",
+              "sourceLinks": [
+                "SEC GLGHK F-1/A"
+              ]
+            }
+          ],
+          "links": [
+            "SEC EDGAR EFTS 2026-09-14 to 2026-09-17",
+            "SEC World Road F-1/A",
+            "SEC GLGHK F-1/A"
+          ]
+        }
+      ],
+      "observations": [
+        "HKEX 四个中英文 structured JSON 均更新至 17/09/2026；9/16 彤程新材料 PHIP=1，NEW AP=0。",
+        "彤程新材料 PHIP Summary 确认主营先进化工新材料，保荐人为海通国际资本。",
+        "HKEX Newly Listed Securities 9/16 仅见股份交易安排及债务证券，无公司类 IPO 新挂牌。",
+        "SEC EFTS 9/16 共 4 家 F-1/A；World Road 为中国运营发行人、GLGHK 为香港发行人，计 2；Koei（日本）与 ROZE AI（加拿大）不计。",
+        "证监会补充材料公示最新仍为 9/11；单家公司通知书列表不可访问，csrcCount=0 保留完整性限制。"
+      ],
+      "officialSourceChecks": [
+        {
+          "source": "HKEX calendar / Newly Listed Securities / New Listing Information",
+          "dateRange": "2026-09-16",
+          "result": "目标日为港股正常交易日；Newly Listed Securities 仅见 ETF、供股权、债务证券或交易安排，无公司类 IPO 新挂牌。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-09-16",
+          "result": "17/09/2026 版 JSON 确认彤程新材料 PHIP=1、NEW AP=0。"
+        },
+        {
+          "source": "CSRC official filing pages",
+          "dateRange": "2026-09-16",
+          "result": "补充材料公示最新仍为 2026-09-11；单家公司备案通知书列表重定向至首页，定向检索未发现可验证目标日通知。csrcCount=0 为已验证计数，保留完整性限制。"
+        },
+        {
+          "source": "SEC EDGAR EFTS / daily-index",
+          "dateRange": "2026-09-16",
+          "result": "9/16 F-1/A 共 4 家；World Road、GLGHK 两家中国/香港经营 IPO 发行人计入。"
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Securities Market Holiday Schedule 2026": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2025/ce_SEHK_CT_075_2025.pdf",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/new-listings/new-listing-information/main-board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml?mobile=2",
+    "CSRC Overseas Filing Results": "https://www.csrc.gov.cn/csrc/c105984/common_list.shtml",
+    "SEC EDGAR Daily Index Directory": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/",
+    "SEC EDGAR EFTS 2026-09-14 to 2026-09-17": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-09-14&enddt=2026-09-17&forms=F-1",
+    "彤程新材料 PHIP 中文全文": "https://www1.hkexnews.hk/app/sehk/2026/108810/documents/sehk26091601575_c.pdf",
+    "彤程新材料 PHIP 英文全文": "https://www1.hkexnews.hk/app/sehk/2026/108810/documents/sehk26091601576.pdf",
+    "彤程新材料 PHIP 中文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108810/2026091601506_c.htm",
+    "彤程新材料 PHIP 英文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108810/2026091601505.htm",
+    "SEC World Road F-1/A": "https://www.sec.gov/Archives/edgar/data/2049348/000182912626010133/worldroad_f1a.htm",
+    "SEC GLGHK F-1/A": "https://www.sec.gov/Archives/edgar/data/2119287/000149315226042799/formf-1a.htm"
+  }
+}
