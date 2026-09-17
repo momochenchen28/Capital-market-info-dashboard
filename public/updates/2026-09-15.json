@@ -1,0 +1,136 @@
+{
+  "generatedAt": "2026-09-17T03:31:15.715Z",
+  "dailyReports": {
+    "2026-09-15": {
+      "date": "2026-09-15",
+      "title": "资本市场快报",
+      "reportType": "briefing",
+      "edition": "回扫补录",
+      "subtitle": "交易日回扫：SEC 中概 F-1/A 3 家；其余目标类别无新增",
+      "isTradingDay": true,
+      "lastVerifiedAt": "2026-09-17T03:31:15.715Z",
+      "backscanRange": {
+        "from": "2026-09-14",
+        "to": "2026-09-17"
+      },
+      "statusNote": "按实际自然日归档。HKEX 四个中英文 AP-only/AP+PHIP structured JSON 已更新至 17/09/2026；证监会补充材料公示最新仍为 9 月 11 日，单家公司备案通知书列表本次重定向至首页，csrcCount=0 仅代表当前可验证计数，不应解释为完整确认无新增。",
+      "archiveNotice": "无新增事件类别由前端显示统一空状态，不创建占位公司卡。",
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 3
+      },
+      "deals": [
+        {
+          "id": "sec-china-ipo-filings-20260915",
+          "section": "美股中概 IPO",
+          "type": "SEC EDGAR IPO 文件更新",
+          "status": "F-1/A 3 家",
+          "eventType": "usChinaIpoFiling",
+          "countInMetrics": true,
+          "company": {
+            "zh": "SEC EDGAR 中国相关 IPO 文件监控",
+            "en": "SEC EDGAR China-related IPO Monitor",
+            "display": "SEC EDGAR 中国相关 IPO 文件监控（2026-09-15）",
+            "exchange": "SEC EDGAR",
+            "board": "F-1 / IPO related filings",
+            "listingStructure": "多家公司"
+          },
+          "business": {
+            "sector": "美股 IPO pipeline",
+            "summary": "SEC EFTS 命中 3 家香港经营发行人的 F-1/A，主文件均命中 initial public offering，按发行人去重计数。",
+            "source": "SEC EDGAR EFTS / official filing metadata"
+          },
+          "metrics": {
+            "usChinaIpoCount": 3
+          },
+          "secFilings": [
+            {
+              "company": "Yi Feng Holdings Ltd.",
+              "cik": "0002084038",
+              "form": "F-1/A",
+              "filingDate": "2026-09-15",
+              "accessionNumber": "0001213900-26-100091",
+              "businessLocation": "Hong Kong",
+              "sourceLinks": [
+                "SEC Yi Feng F-1/A"
+              ]
+            },
+            {
+              "company": "Law's Business Group Holding Ltd",
+              "cik": "0002075589",
+              "form": "F-1/A",
+              "filingDate": "2026-09-15",
+              "accessionNumber": "0001213900-26-099995",
+              "businessLocation": "Hong Kong",
+              "sourceLinks": [
+                "SEC Law's Business F-1/A"
+              ]
+            },
+            {
+              "company": "EvoNexus Group LTD",
+              "cik": "0002075036",
+              "form": "F-1/A",
+              "filingDate": "2026-09-15",
+              "accessionNumber": "0001185185-26-004022",
+              "businessLocation": "Kwun Tong, Hong Kong",
+              "sourceLinks": [
+                "SEC EvoNexus F-1/A"
+              ]
+            }
+          ],
+          "links": [
+            "SEC EDGAR EFTS 2026-09-14 to 2026-09-17",
+            "SEC Yi Feng F-1/A",
+            "SEC Law's Business F-1/A",
+            "SEC EvoNexus F-1/A"
+          ]
+        }
+      ],
+      "observations": [
+        "HKEX 四个中英文 structured JSON 均更新至 17/09/2026；逐项检查 9/15 文档日期，NEW AP=0、PHIP=0。",
+        "HKEX Newly Listed Securities 9/15 仅见 ETF 与股份交易安排，无公司类 IPO 新挂牌。",
+        "SEC EFTS 9/15 共 5 家 F-1/F-1/A；Yi Feng、Law's Business、EvoNexus 为香港经营发行人且主文件命中首次公开发行，计 3；LYC Healthcare（新加坡）及 Siyata PTT（加拿大）不计。",
+        "证监会补充材料公示最新仍为 9/11；单家公司通知书列表不可访问，csrcCount=0 保留完整性限制。"
+      ],
+      "officialSourceChecks": [
+        {
+          "source": "HKEX calendar / Newly Listed Securities / New Listing Information",
+          "dateRange": "2026-09-15",
+          "result": "目标日为港股正常交易日；Newly Listed Securities 仅见 ETF、供股权、债务证券或交易安排，无公司类 IPO 新挂牌。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-09-15",
+          "result": "17/09/2026 版四个中英文 JSON 确认 9/15 NEW AP=0、PHIP=0。"
+        },
+        {
+          "source": "CSRC official filing pages",
+          "dateRange": "2026-09-15",
+          "result": "补充材料公示最新仍为 2026-09-11；单家公司备案通知书列表重定向至首页，定向检索未发现可验证目标日通知。csrcCount=0 为已验证计数，保留完整性限制。"
+        },
+        {
+          "source": "SEC EDGAR EFTS / daily-index",
+          "dateRange": "2026-09-15",
+          "result": "9/15 F-1 系列共 5 家；3 家香港经营 IPO 发行人计入，2 家非中国/香港发行人排除。"
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Securities Market Holiday Schedule 2026": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2025/ce_SEHK_CT_075_2025.pdf",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/new-listings/new-listing-information/main-board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml?mobile=2",
+    "CSRC Overseas Filing Results": "https://www.csrc.gov.cn/csrc/c105984/common_list.shtml",
+    "SEC EDGAR Daily Index Directory": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/",
+    "SEC EDGAR EFTS 2026-09-14 to 2026-09-17": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-09-14&enddt=2026-09-17&forms=F-1",
+    "SEC Yi Feng F-1/A": "https://www.sec.gov/Archives/edgar/data/2084038/000121390026100091/ea0254251-10.htm",
+    "SEC Law's Business F-1/A": "https://www.sec.gov/Archives/edgar/data/2075589/000121390026099995/ea0231668-10.htm",
+    "SEC EvoNexus F-1/A": "https://www.sec.gov/Archives/edgar/data/2075036/000118518526004022/evonexusf1a3062326.htm"
+  }
+}
