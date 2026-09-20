@@ -1,0 +1,235 @@
+{
+  "generatedAt": "2026-09-20T06:08:57.600Z",
+  "dailyReports": {
+    "2026-09-18": {
+      "date": "2026-09-18",
+      "title": "资本市场快报",
+      "reportType": "briefing",
+      "edition": "09:30早盘快报（回扫补录）",
+      "subtitle": "交易日回扫：NEW AP 1 家、证监会备案通知 1 家、SEC 中概 F-1/A 1 家",
+      "isTradingDay": true,
+      "lastVerifiedAt": "2026-09-20T06:08:57.600Z",
+      "backscanRange": {
+        "from": "2026-09-17",
+        "to": "2026-09-20"
+      },
+      "statusNote": "按实际自然日归档。9/18 为港股正常交易日；HKEX 四个中英文 AP-only/AP+PHIP structured JSON 均更新至 18/09/2026。9/19—9/20 为周末，截至本次核验未见目标官方文件更新，故不创建空周末文件。",
+      "archiveNotice": "无新增事件类别由前端显示统一空状态，不创建占位公司卡。",
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 1,
+        "phipCount": 0,
+        "csrcCount": 1,
+        "usChinaIpoCount": 1
+      },
+      "deals": [
+        {
+          "id": "hkex-ap-phip-2026-09-18",
+          "section": "港股递表/聆讯",
+          "type": "AP / PHIP 更新",
+          "status": "NEW AP 1 家；PHIP 0 家",
+          "eventType": "hkexApPhip",
+          "countInMetrics": true,
+          "company": {
+            "zh": "HKEX AP/PHIP 官方文件更新",
+            "en": "HKEX AP/PHIP filings",
+            "display": "HKEX AP/PHIP 官方文件更新（2026-09-18）",
+            "exchange": "HKEX",
+            "board": "Main Board"
+          },
+          "business": {
+            "sector": "港股 IPO pipeline",
+            "summary": "浙江京新药业首次递交主板上市申请版本；无 PHIP。",
+            "source": "HKEX structured JSON / Application Proof"
+          },
+          "metrics": {
+            "apNewCount": 1,
+            "phipCount": 0
+          },
+          "apApplications": [
+            {
+              "id": "108886",
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "浙江京新藥業股份有限公司",
+              "nameEn": "Zhejiang Jingxin Pharmaceutical Co., Ltd.",
+              "filingDate": "2026-09-18",
+              "structure": "中国境内股份有限公司 / 香港主板 H 股申请",
+              "industry": "医药",
+              "sector": "药品、原料药及医疗设备",
+              "subIndustry": "中枢神经系统、心脑血管药物",
+              "businessSummary": "医药集团，战略聚焦中枢神经系统疾病及心脑血管疾病；收入主要来自药品（仿制药、创新药地达西尼、中药及生物制品）、原料药和医疗设备。",
+              "businessSource": "HKEX Application Proof Summary",
+              "sponsors": "CITIC Securities (Hong Kong) Limited",
+              "prospectusLink": "浙江京新药业 AP 中文全文",
+              "links": [
+                "浙江京新药业 AP 中文全文",
+                "浙江京新药业 AP 英文全文",
+                "浙江京新药业 AP 中文多档案",
+                "浙江京新药业 AP 英文多档案"
+              ]
+            }
+          ],
+          "links": [
+            "浙江京新药业 AP 中文全文",
+            "浙江京新药业 AP 英文全文",
+            "浙江京新药业 AP 中文多档案",
+            "浙江京新药业 AP 英文多档案"
+          ]
+        },
+        {
+          "id": "csrc-filing-changzhou-weiyi-20260918",
+          "section": "证监会备案",
+          "type": "境外发行上市及“全流通”备案通知书",
+          "status": "新增备案通知",
+          "eventType": "csrcFilingNotice",
+          "countInMetrics": true,
+          "company": {
+            "zh": "常州微亿智造科技股份有限公司",
+            "en": "Changzhou Weiyi Intelligent Manufacturing Technology Co., Ltd.",
+            "display": "常州微亿智造科技股份有限公司",
+            "exchange": "拟香港联交所上市"
+          },
+          "business": {
+            "sector": "智能制造",
+            "summary": "证监会网站新增单家公司备案通知：拟发行不超过 42,867,100 股境外上市普通股，并将 37 名股东合计 335,481,556 股境内未上市股份转为境外上市股份。",
+            "source": "证监会备案通知书"
+          },
+          "links": [
+            "CSRC Changzhou Weiyi Filing Notice"
+          ]
+        },
+        {
+          "id": "csrc-supplement-20260914-20260918",
+          "section": "证监会备案",
+          "type": "补充材料要求公示",
+          "status": "监管更新（不计入新增公司数量）",
+          "eventType": "csrcSupplementMaterialNotice",
+          "countInMetrics": false,
+          "company": {
+            "zh": "境外发行上市备案补充材料要求公示（2026年9月14日—2026年9月18日）",
+            "en": "CSRC supplementary-material notice",
+            "display": "境外发行上市备案补充材料要求公示（2026年9月14日—2026年9月18日）"
+          },
+          "business": {
+            "sector": "监管更新",
+            "summary": "补充材料要求汇总按 9/18 实际发布日期归档，仅展示，不计入 csrcCount。",
+            "source": "证监会补充材料要求公示"
+          },
+          "links": [
+            "CSRC Supplement Materials 2026-09-14 to 2026-09-18"
+          ]
+        },
+        {
+          "id": "csrc-progress-table-20260918",
+          "section": "证监会备案",
+          "type": "备案情况表更新",
+          "status": "监管更新（不计入新增公司数量）",
+          "eventType": "csrcFilingProgressUpdate",
+          "countInMetrics": false,
+          "company": {
+            "zh": "境内企业境外发行证券和上市备案情况表（截至2026年9月18日）",
+            "en": "CSRC overseas-listing filing progress table",
+            "display": "境内企业境外发行证券和上市备案情况表（截至2026年9月18日）"
+          },
+          "business": {
+            "sector": "监管更新",
+            "summary": "备案情况表于 9/18 更新，仅作为监管进度展示，不计入 csrcCount。",
+            "source": "证监会备案信息公示"
+          },
+          "links": [
+            "CSRC Overseas Filing Table 2026-09-18"
+          ]
+        },
+        {
+          "id": "sec-china-ipo-filings-20260918",
+          "section": "美股中概 IPO",
+          "type": "SEC EDGAR IPO 文件更新",
+          "status": "F-1/A 1 家",
+          "eventType": "usChinaIpoFiling",
+          "countInMetrics": true,
+          "company": {
+            "zh": "SEC EDGAR 中国相关 IPO 文件监控",
+            "en": "SEC EDGAR China-related IPO Monitor",
+            "display": "SEC EDGAR 中国相关 IPO 文件监控（2026-09-18）",
+            "exchange": "SEC EDGAR",
+            "board": "F-1 / IPO related filings",
+            "listingStructure": "单家公司"
+          },
+          "business": {
+            "sector": "美股 IPO pipeline",
+            "summary": "Transten Global Group Ltd 为深圳经营的跨境供应链服务商，本次 F-1/A 延续其纳斯达克首次公开发行注册，按发行人去重计入。",
+            "source": "SEC EDGAR EFTS / official filing metadata"
+          },
+          "metrics": {
+            "usChinaIpoCount": 1
+          },
+          "secFilings": [
+            {
+              "company": "Transten Global Group Ltd",
+              "cik": "0002018836",
+              "form": "F-1/A",
+              "filingDate": "2026-09-18",
+              "accessionNumber": "0001213900-26-101289",
+              "businessLocation": "Shenzhen, China",
+              "businessSummary": "跨境供应链服务商，提供中国至海外目的地的货物运输与交付服务。",
+              "sourceLinks": [
+                "SEC Transten Global F-1/A"
+              ]
+            }
+          ],
+          "links": [
+            "SEC EDGAR EFTS 2026-09-17 to 2026-09-20",
+            "SEC Transten Global F-1/A"
+          ]
+        }
+      ],
+      "observations": [
+        "9/18 为港股正常交易日；HKEX Newly Listed Securities 当日仅见供股权及债务证券，无公司类 IPO 新挂牌。",
+        "HKEX 中英文 AP-only JSON uDate=18/09/2026、app.length=357；浙江京新药业 NEW AP=1。AP+PHIP JSON app.length=14，当日 PHIP=0。",
+        "浙江京新药业申请版本确认其聚焦中枢神经系统及心脑血管疾病，收入来自药品、原料药和医疗设备；独家保荐人为中信证券（香港）。",
+        "证监会 9/18 新增可验证单家公司备案通知 1 家（常州微亿智造），csrcCount=1；同日补充材料公示和备案情况表更新均只作监管展示、不计数。",
+        "SEC EFTS 9/18 F-1 系列共 6 家发行人；Transten Global 为深圳经营的 IPO 发行人，计 1，其余为非中国/香港经营发行人。",
+        "9/19—9/20 为周末；HKEX structured JSON 仍截至 18/09/2026，证监会目标栏目未见周末新增，SEC 无周末 F-1/F-1A，故不创建空文件。"
+      ],
+      "officialSourceChecks": [
+        {
+          "source": "HKEX calendar / Newly Listed Securities / New Listing Information",
+          "dateRange": "2026-09-18",
+          "result": "9/18 为正常交易日；当日只有供股权及债务证券记录，无公司类 IPO 新挂牌。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-09-18 to 2026-09-20",
+          "result": "中英文 JSON 均 uDate=18/09/2026；9/18 浙江京新药业 NEW AP=1、PHIP=0；9/19—9/20 无新增。"
+        },
+        {
+          "source": "CSRC official filing pages",
+          "dateRange": "2026-09-18 to 2026-09-20",
+          "result": "9/18 验证常州微亿智造单家公司备案通知 1 家；补充材料公示和截至 9/18 备案情况表作为监管更新展示且不计数；周末未见目标更新。"
+        },
+        {
+          "source": "SEC EDGAR EFTS / daily-index",
+          "dateRange": "2026-09-18 to 2026-09-20",
+          "result": "9/18 F-1 系列 6 家；仅 Transten Global 属中国经营 IPO 管线并计入；9/19—9/20 无目标申报。"
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Securities Market Holiday Schedule 2026": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2025/ce_SEHK_CT_075_2025.pdf",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/new-listings/new-listing-information/main-board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "浙江京新药业 AP 中文全文": "https://www1.hkexnews.hk/app/sehk/2026/108886/documents/sehk26091801842.pdf",
+    "浙江京新药业 AP 英文全文": "https://www1.hkexnews.hk/app/sehk/2026/108886/documents/sehk26091801843.pdf",
+    "浙江京新药业 AP 中文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108886/2026091801771_c.htm",
+    "浙江京新药业 AP 英文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108886/2026091801770.htm",
+    "CSRC Changzhou Weiyi Filing Notice": "https://www.csrc.gov.cn/csrc/c105984/c7659699/content.shtml",
+    "CSRC Supplement Materials 2026-09-14 to 2026-09-18": "https://www.csrc.gov.cn/csrc/c100098/c7659653/content.shtml",
+    "CSRC Overseas Filing Table 2026-09-18": "https://neris.csrc.gov.cn/portal/portalHome/index?channelid=946eef8c82144bc5a964d8473ab06ddf",
+    "SEC EDGAR EFTS 2026-09-17 to 2026-09-20": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-09-17&enddt=2026-09-20&forms=F-1",
+    "SEC Transten Global F-1/A": "https://www.sec.gov/Archives/edgar/data/2018836/000121390026101289/ea0207170-09.htm"
+  }
+}
