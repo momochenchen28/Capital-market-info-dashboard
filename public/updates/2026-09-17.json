@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-09-17T03:31:15.715Z",
+  "generatedAt": "2026-09-20T06:08:57.600Z",
   "dailyReports": {
     "2026-09-17": {
       "date": "2026-09-17",
       "title": "资本市场快报",
       "reportType": "briefing",
-      "edition": "09:30早盘快报",
-      "subtitle": "交易日早盘：PHIP 1 家；其余目标类别暂无已验证新增",
+      "edition": "回扫补录",
+      "subtitle": "交易日回扫：PHIP 1 家、SEC 中概 F-1/A 1 家",
       "isTradingDay": true,
-      "lastVerifiedAt": "2026-09-17T03:31:15.715Z",
+      "lastVerifiedAt": "2026-09-20T06:08:57.600Z",
       "backscanRange": {
-        "from": "2026-09-14",
-        "to": "2026-09-17"
+        "from": "2026-09-17",
+        "to": "2026-09-20"
       },
-      "statusNote": "按实际自然日归档。HKEX 四个中英文 AP-only/AP+PHIP structured JSON 已更新至 17/09/2026；证监会补充材料公示最新仍为 9 月 11 日，单家公司备案通知书列表本次重定向至首页，csrcCount=0 仅代表当前可验证计数，不应解释为完整确认无新增。",
+      "statusNote": "按实际自然日归档。HKEX 四个中英文 AP-only/AP+PHIP structured JSON 已回扫至 18/09/2026；SEC 9/17 全日申报已补录。证监会 9/18 发布新一期补充材料公示及备案情况表，均归档于 9/18，不并入本日。",
       "archiveNotice": "无新增事件类别由前端显示统一空状态，不创建占位公司卡。",
       "metrics": {
         "hkexNewListings": 0,
         "apNewCount": 0,
         "phipCount": 1,
         "csrcCount": 0,
-        "usChinaIpoCount": 0
+        "usChinaIpoCount": 1
       },
       "deals": [
         {
@@ -65,13 +65,55 @@
             "本末动力 PHIP 中文多档案",
             "本末动力 PHIP 英文多档案"
           ]
+        },
+        {
+          "id": "sec-china-ipo-filings-20260917",
+          "section": "美股中概 IPO",
+          "type": "SEC EDGAR IPO 文件更新",
+          "status": "F-1/A 1 家",
+          "eventType": "usChinaIpoFiling",
+          "countInMetrics": true,
+          "company": {
+            "zh": "SEC EDGAR 中国相关 IPO 文件监控",
+            "en": "SEC EDGAR China-related IPO Monitor",
+            "display": "SEC EDGAR 中国相关 IPO 文件监控（2026-09-17）",
+            "exchange": "SEC EDGAR",
+            "board": "F-1 / IPO related filings",
+            "listingStructure": "单家公司"
+          },
+          "business": {
+            "sector": "美股 IPO pipeline",
+            "summary": "AM PM Group Ltd 为香港经营发行人，本次 F-1/A 延续其美国首次公开发行注册，按发行人去重计入。Star Fashion Culture 已于 2024 年完成 IPO，本次为上市后公开发行，不计入 IPO pipeline。",
+            "source": "SEC EDGAR EFTS / official filing metadata"
+          },
+          "metrics": {
+            "usChinaIpoCount": 1
+          },
+          "secFilings": [
+            {
+              "company": "AM PM Group Ltd",
+              "cik": "0002049323",
+              "form": "F-1/A",
+              "filingDate": "2026-09-17",
+              "accessionNumber": "0001213900-26-100862",
+              "businessLocation": "Kowloon Bay, Hong Kong",
+              "businessSummary": "通过香港营运子公司提供内容制作与设计、活动管理及装饰、IP 展览服务。",
+              "sourceLinks": [
+                "SEC AM PM Group F-1/A"
+              ]
+            }
+          ],
+          "links": [
+            "SEC EDGAR EFTS 2026-09-17 to 2026-09-20",
+            "SEC AM PM Group F-1/A"
+          ]
         }
       ],
       "observations": [
         "9/17 为港股正常交易日；HKEX Newly Listed Securities 仅见供股权、ETF 与债务证券拟上市，无公司类 IPO 新挂牌。",
         "HKEX 四个中英文 structured JSON 均 uDate=17/09/2026；本末动力 PHIP=1，NEW AP=0。",
         "本末动力 PHIP Summary 确认其以直驱技术为核心，主营机器人执行器模块及轮足机器人；独家保荐人为中信证券（香港）。",
-        "SEC EFTS 截至香港时间早盘 9/17 F-1/F-1/A=0，美国申报日尚未完成，后续运行需继续回扫。",
+        "SEC EFTS 回扫 9/17 F-1 系列共 8 家发行人；AM PM Group 为香港经营且仍处首次公开发行管线，计 1；Star Fashion Culture 已上市后的公开发行不计，其余为非中国/香港经营发行人。",
         "证监会补充材料公示最新仍为 9/11；单家公司通知书列表不可访问，csrcCount=0 保留完整性限制。"
       ],
       "officialSourceChecks": [
@@ -93,7 +135,7 @@
         {
           "source": "SEC EDGAR EFTS / daily-index",
           "dateRange": "2026-09-17",
-          "result": "截至香港时间早盘，9/17 F-1/F-1/A=0；美国申报日未完成，需后续回扫。"
+          "result": "9/17 F-1/F-1A 共 8 家发行人；AM PM Group（香港经营）计入 1 家；Star Fashion Culture 为已上市后融资，不计入 IPO pipeline。"
         }
       ]
     }
@@ -111,6 +153,8 @@
     "本末动力 PHIP 中文全文": "https://www1.hkexnews.hk/app/sehk/2026/108800/documents/sehk26091700201_c.pdf",
     "本末动力 PHIP 英文全文": "https://www1.hkexnews.hk/app/sehk/2026/108800/documents/sehk26091700202.pdf",
     "本末动力 PHIP 中文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108800/2026091700198_c.htm",
-    "本末动力 PHIP 英文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108800/2026091700197.htm"
+    "本末动力 PHIP 英文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108800/2026091700197.htm",
+    "SEC EDGAR EFTS 2026-09-17 to 2026-09-20": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-09-17&enddt=2026-09-20&forms=F-1",
+    "SEC AM PM Group F-1/A": "https://www.sec.gov/Archives/edgar/data/2049323/000121390026100862/ea0224186-19.htm"
   }
 }
