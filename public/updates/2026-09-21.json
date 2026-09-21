@@ -1,0 +1,134 @@
+{
+  "generatedAt": "2026-09-21T10:20:00.000Z",
+  "dailyReports": {
+    "2026-09-21": {
+      "date": "2026-09-21",
+      "title": "资本市场快报",
+      "reportType": "briefing",
+      "edition": "09:30早盘快报（延后执行）",
+      "subtitle": "星环科技06727新挂牌；AP=0、PHIP=0、证监会=0、SEC=0。",
+      "isTradingDay": true,
+      "lastVerifiedAt": "2026-09-21T10:20:00.000Z",
+      "backscanRange": {
+        "from": "2026-09-18",
+        "to": "2026-09-21"
+      },
+      "statusNote": "9/21 为港股正常交易日，按实际自然日归档。9/19—9/20 为周末；HKEX AP/PHIP、证监会目标栏目及 SEC F-1/F-1A 均未见周末新增，故不创建空周末文件。证监会单家公司备案通知书列表仍重定向至首页，csrcCount=0为官方栏目与定向检索下的已验证计数，后续继续回扫。",
+      "archiveNotice": "无新增事件类别由前端显示统一空状态，不创建占位公司卡。",
+      "metrics": {
+        "hkexNewListings": 1,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "deals": [
+        {
+          "id": "hkex-listing-06727-20260921",
+          "section": "港股新股",
+          "eventType": "hkexIpoListing",
+          "countInMetrics": true,
+          "company": "星环信息科技（上海）股份有限公司",
+          "companyEn": "Transwarp Technology (Shanghai) Co., Ltd.",
+          "stockCode": "06727",
+          "status": "新挂牌",
+          "documentType": "New Listing",
+          "sector": "企业级AI基础设施软件",
+          "businessSummary": "中国企业级AI基础设施软件提供商，产品覆盖数据集成、存储、治理、建模、分析、挖掘与流通，并提供大模型及AI应用平台；以主板18C章商业化特专科技公司身份完成A+H上市。",
+          "ipo": {
+            "offerPrice": "HK$49.00",
+            "sharesOffered": "14,010,800股H股",
+            "publicOffer": "认购73.86倍；经重新分配后最终配发2,802,200股（占全球发售20%）；有效申请20,485份，成功申请6,342份",
+            "internationalOffer": "认购1.42倍；经重新分配后最终配发11,208,600股（占全球发售80%）；承配人50名",
+            "cornerstoneInvestors": "Electronic Channel Limited获配714,200股；洛阳科创集团有限公司获配792,300股；合计1,506,500股，占发售股份10.75%，禁售期至2027-03-20"
+          },
+          "intermediaries": "独家保荐人：海通国际资本有限公司；保荐人兼整体协调人：海通国际证券有限公司。主要专业机构包括德勤（审计师及申报会计师）、君合（公司中国及香港法律顾问）、锦天城（保荐人中国法律顾问）、盛德（保荐人香港法律顾问）、弗若斯特沙利文（行业顾问）及光大融资（合规顾问）。",
+          "timeline": [
+            "2025-08-18：首次递交香港主板上市申请版本",
+            "2026-03-25：再次递交上市申请版本",
+            "2026-06-08：证监会出具国合函〔2026〕1343号境外发行上市备案通知书",
+            "2026-08-27：HKEX刊发聆讯后资料集（PHIP）",
+            "2026-09-11：刊发招股书并启动香港公开发售",
+            "2026-09-16：香港公开发售截止",
+            "2026-09-18：公布最终发售价及配发结果",
+            "2026-09-21：H股于香港联交所主板上市，股份代号06727，每手100股"
+          ],
+          "marketPerformance": {
+            "openPrice": "待官方行情源复核",
+            "closePrice": "待官方行情源复核",
+            "changePct": "待官方行情源复核"
+          },
+          "links": [
+            {
+              "label": "HKEX Newly Listed Securities",
+              "url": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en"
+            },
+            {
+              "label": "HKEX New Listing Information",
+              "url": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=zh-hk"
+            },
+            {
+              "label": "HKEX 招股文件",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100025_c.htm"
+            },
+            {
+              "label": "HKEX 配发结果",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0918/2026091801415_c.pdf"
+            },
+            {
+              "label": "HKEX 上市申请版本",
+              "url": "https://www.hkexnews.hk/app/sehk/2026/108331/2026032502119.htm"
+            },
+            {
+              "label": "证监会备案通知书",
+              "url": "https://www.csrc.gov.cn/csrc/c105984/c7640221/content.shtml"
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "9/21 为港股正常交易日；HKEX Newly Listed Securities 确认 TRANSWARP（06727）公司类 IPO 新挂牌，另两项为供股权及并行交易安排，不计新股。",
+        "HKEX 中英文 AP-only 与 AP+PHIP structured JSON 均 uDate=21/09/2026；9/19—9/21 NEW AP=0、PHIP=0。9/18 浙江京新药业 AP 已在原日报计入，无重复计数。",
+        "星环科技最终发售价49.00港元，全球发售14,010,800股；公开发售认购73.86倍、国际发售认购1.42倍；两名基石最终获配合计1,506,500股。",
+        "证监会补充材料公示最新为9/18；单家公司备案通知书列表仍重定向至首页，定向检索未发现9/19—9/21可验证新增。csrcCount=0仅代表本次已验证计数。",
+        "SEC EDGAR EFTS 回扫9/18—9/21共6家F-1系列发行人，均为9/18文件；Transten Global已在9/18日报计入，其余不属于中国/香港经营IPO。9/19—9/21无新增。"
+      ],
+      "officialSourceChecks": [
+        {
+          "source": "HKEX calendar / Newly Listed Securities / New Listing Information",
+          "dateRange": "2026-09-18 to 2026-09-21",
+          "result": "9/21为正常交易日；TRANSWARP 06727为当日公司类IPO新挂牌。9/19—9/20为周末。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-09-18 to 2026-09-21",
+          "result": "中英文JSON均uDate=21/09/2026；9/19—9/21 NEW AP=0、PHIP=0。"
+        },
+        {
+          "source": "CSRC official filing pages",
+          "dateRange": "2026-09-18 to 2026-09-21",
+          "result": "补充材料公示最新为9/18；单家公司通知书列表重定向至首页，定向检索未见9/19—9/21可验证新增，csrcCount=0为已验证计数。"
+        },
+        {
+          "source": "SEC EDGAR EFTS",
+          "dateRange": "2026-09-18 to 2026-09-21",
+          "result": "F-1系列共6家且均为9/18文件；9/19—9/21无新增。9/18中国经营发行人已在原日报计入。"
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Securities Market Holiday Schedule 2026": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2025/ce_SEHK_CT_075_2025.pdf",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=zh-hk",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml?mobile=2",
+    "CSRC Overseas Filing Results": "https://www.csrc.gov.cn/csrc/c105984/common_list.shtml",
+    "SEC EDGAR EFTS 2026-09-18 to 2026-09-21": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-09-18&enddt=2026-09-21&forms=F-1",
+    "TRANSWARP HKEX Listing Documents": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100025_c.htm",
+    "TRANSWARP HKEX Allotment Results": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0918/2026091801415_c.pdf",
+    "TRANSWARP HKEX Application Proof": "https://www.hkexnews.hk/app/sehk/2026/108331/2026032502119.htm",
+    "TRANSWARP CSRC Filing Notice": "https://www.csrc.gov.cn/csrc/c105984/c7640221/content.shtml"
+  }
+}
