@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-09-21T10:20:00.000Z",
+  "generatedAt": "2026-09-22T03:31:13.491Z",
   "dailyReports": {
     "2026-09-21": {
       "date": "2026-09-21",
       "title": "资本市场快报",
       "reportType": "briefing",
       "edition": "09:30早盘快报（延后执行）",
-      "subtitle": "星环科技06727新挂牌；AP=0、PHIP=0、证监会=0、SEC=0。",
+      "subtitle": "星环科技06727新挂牌；回补 NEW AP 1 家、PHIP 1 家；证监会=0、SEC=0。",
       "isTradingDay": true,
-      "lastVerifiedAt": "2026-09-21T10:20:00.000Z",
+      "lastVerifiedAt": "2026-09-22T03:31:13.491Z",
       "backscanRange": {
-        "from": "2026-09-18",
-        "to": "2026-09-21"
+        "from": "2026-09-21",
+        "to": "2026-09-22"
       },
-      "statusNote": "9/21 为港股正常交易日，按实际自然日归档。9/19—9/20 为周末；HKEX AP/PHIP、证监会目标栏目及 SEC F-1/F-1A 均未见周末新增，故不创建空周末文件。证监会单家公司备案通知书列表仍重定向至首页，csrcCount=0为官方栏目与定向检索下的已验证计数，后续继续回扫。",
+      "statusNote": "9/21 为港股正常交易日，按实际自然日归档。HKEX 22/09/2026 版 structured JSON 回扫确认，9/21 超颖电子电路首次递表、奕斯伟计算刊发 PHIP；海柔创新仅修订整体协调人公告，不计 NEW AP。证监会单家公司备案通知书列表仍重定向至首页，csrcCount=0为官方栏目与定向检索下的已验证计数。",
       "archiveNotice": "无新增事件类别由前端显示统一空状态，不创建占位公司卡。",
       "metrics": {
         "hkexNewListings": 1,
-        "apNewCount": 0,
-        "phipCount": 0,
+        "apNewCount": 1,
+        "phipCount": 1,
         "csrcCount": 0,
         "usChinaIpoCount": 0
       },
@@ -84,35 +84,113 @@
               "url": "https://www.csrc.gov.cn/csrc/c105984/c7640221/content.shtml"
             }
           ]
+        },
+        {
+          "id": "hkex-ap-phip-2026-09-21",
+          "section": "港股递表/聆讯",
+          "type": "AP / PHIP 更新",
+          "status": "NEW AP 1 家；PHIP 1 家",
+          "eventType": "hkexApPhip",
+          "countInMetrics": true,
+          "company": {
+            "zh": "HKEX AP/PHIP 官方文件更新",
+            "en": "HKEX AP/PHIP filings",
+            "display": "HKEX AP/PHIP 官方文件更新（2026-09-21）",
+            "exchange": "HKEX",
+            "board": "Main Board"
+          },
+          "business": {
+            "sector": "港股 IPO pipeline",
+            "summary": "超颖电子电路首次递交主板上市申请版本；北京奕斯伟计算技术刊发聆讯后资料集。海柔创新当日仅修订整体协调人公告，不计 NEW AP。",
+            "source": "HKEX structured JSON / Application Proof / PHIP"
+          },
+          "metrics": {
+            "apNewCount": 1,
+            "phipCount": 1
+          },
+          "apApplications": [
+            {
+              "id": "108887",
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameZh": "超穎電子電路股份有限公司",
+              "nameEn": "Dynamic Electronics Co., Ltd.",
+              "filingDate": "2026-09-21",
+              "structure": "中国境内股份有限公司 / A+H 申请",
+              "industry": "电子元件",
+              "sector": "高端印制电路板（PCB）",
+              "subIndustry": "车载 PCB、HDI 板、数据存储、通信及 AI 服务器 PCB",
+              "businessSummary": "全球高端印制电路板制造商及领先车载 PCB 供应商，产品包括双面板、多层板及高密度互连板，主要生产基地位于黄石、昆山及泰国。",
+              "businessSource": "HKEX Application Proof",
+              "sponsors": "China International Capital Corporation Hong Kong Securities Limited；Guolian Securities International Capital Limited",
+              "prospectusLink": "超颖电子 AP 中文全文",
+              "links": [
+                "超颖电子 AP 中文全文",
+                "超颖电子 AP 英文全文",
+                "超颖电子 AP 中文多档案",
+                "超颖电子 AP 英文多档案"
+              ]
+            },
+            {
+              "id": "108777",
+              "status": "PHIP",
+              "documentType": "Post Hearing Information Pack (1st submission)",
+              "nameZh": "北京奕斯偉計算技術股份有限公司",
+              "nameEn": "Beijing ESWIN Computing Technology Co., Ltd.",
+              "filingDate": "2026-09-21",
+              "structure": "中国境内股份有限公司 / 香港主板申请",
+              "industry": "半导体",
+              "sector": "智能终端及具身智能解决方案",
+              "subIndustry": "RISC-V 主控芯片、智能终端人机交互芯片",
+              "businessSummary": "从事智能终端解决方案与具身智能解决方案的设计、研发及销售；按 2025 年收入为中国最大的国产智能终端人机交互芯片产品提供商。",
+              "businessSource": "HKEX PHIP",
+              "sponsors": "CITIC Securities (Hong Kong) Limited；China Securities (International) Corporate Finance Company Limited",
+              "prospectusLink": "奕斯伟计算 PHIP 中文全文",
+              "links": [
+                "奕斯伟计算 PHIP 中文全文",
+                "奕斯伟计算 PHIP 英文全文",
+                "奕斯伟计算 PHIP 中文多档案",
+                "奕斯伟计算 PHIP 英文多档案"
+              ]
+            }
+          ],
+          "links": [
+            "超颖电子 AP 中文全文",
+            "超颖电子 AP 英文全文",
+            "奕斯伟计算 PHIP 中文全文",
+            "奕斯伟计算 PHIP 英文全文",
+            "HKEX AP structured JSON",
+            "HKEX AP/PHIP structured JSON"
+          ]
         }
       ],
       "observations": [
         "9/21 为港股正常交易日；HKEX Newly Listed Securities 确认 TRANSWARP（06727）公司类 IPO 新挂牌，另两项为供股权及并行交易安排，不计新股。",
-        "HKEX 中英文 AP-only 与 AP+PHIP structured JSON 均 uDate=21/09/2026；9/19—9/21 NEW AP=0、PHIP=0。9/18 浙江京新药业 AP 已在原日报计入，无重复计数。",
+        "HKEX 中英文 AP-only 与 AP+PHIP structured JSON 均于 9/22 更新至 uDate=22/09/2026；回扫确认 9/21 超颖电子电路 NEW AP=1、奕斯伟计算 PHIP=1。海柔创新仅为整体协调人公告修订，不计 NEW AP。",
         "星环科技最终发售价49.00港元，全球发售14,010,800股；公开发售认购73.86倍、国际发售认购1.42倍；两名基石最终获配合计1,506,500股。",
-        "证监会补充材料公示最新为9/18；单家公司备案通知书列表仍重定向至首页，定向检索未发现9/19—9/21可验证新增。csrcCount=0仅代表本次已验证计数。",
-        "SEC EDGAR EFTS 回扫9/18—9/21共6家F-1系列发行人，均为9/18文件；Transten Global已在9/18日报计入，其余不属于中国/香港经营IPO。9/19—9/21无新增。"
+        "证监会补充材料公示最新为9/18；单家公司备案通知书列表仍重定向至首页，定向检索未发现9/21可验证新增。csrcCount=0仅代表本次已验证计数。",
+        "SEC EDGAR EFTS 9/21 共检出4家F-1系列发行人：KNOREX为新加坡经营，CCH为马来西亚经营，Green Circle虽为香港经营但已于2026年1月上市、本次不属IPO，Sprout Red官方元数据及申报全文检索未显示中国/香港经营地；因此中概IPO新增计0。"
       ],
       "officialSourceChecks": [
         {
           "source": "HKEX calendar / Newly Listed Securities / New Listing Information",
-          "dateRange": "2026-09-18 to 2026-09-21",
-          "result": "9/21为正常交易日；TRANSWARP 06727为当日公司类IPO新挂牌。9/19—9/20为周末。"
+          "dateRange": "2026-09-21",
+          "result": "9/21为正常交易日；TRANSWARP 06727为当日公司类IPO新挂牌。"
         },
         {
           "source": "HKEX AP-only / AP+PHIP structured JSON",
-          "dateRange": "2026-09-18 to 2026-09-21",
-          "result": "中英文JSON均uDate=21/09/2026；9/19—9/21 NEW AP=0、PHIP=0。"
+          "dateRange": "2026-09-21 to 2026-09-22",
+          "result": "中英文JSON均uDate=22/09/2026；回扫9/21 NEW AP=1、PHIP=1；9/22截至核验时AP/PHIP=0。"
         },
         {
           "source": "CSRC official filing pages",
-          "dateRange": "2026-09-18 to 2026-09-21",
-          "result": "补充材料公示最新为9/18；单家公司通知书列表重定向至首页，定向检索未见9/19—9/21可验证新增，csrcCount=0为已验证计数。"
+          "dateRange": "2026-09-21 to 2026-09-22",
+          "result": "补充材料公示最新为9/18；单家公司通知书列表重定向至首页，定向检索未见目标日可验证新增，csrcCount=0为已验证计数。"
         },
         {
           "source": "SEC EDGAR EFTS",
-          "dateRange": "2026-09-18 to 2026-09-21",
-          "result": "F-1系列共6家且均为9/18文件；9/19—9/21无新增。9/18中国经营发行人已在原日报计入。"
+          "dateRange": "2026-09-21 to 2026-09-22",
+          "result": "9/21共4家F-1系列发行人，经经营地与IPO属性筛选无新增中概IPO；9/22香港早盘未见目标申报。"
         }
       ]
     }
@@ -129,6 +207,15 @@
     "TRANSWARP HKEX Listing Documents": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100025_c.htm",
     "TRANSWARP HKEX Allotment Results": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0918/2026091801415_c.pdf",
     "TRANSWARP HKEX Application Proof": "https://www.hkexnews.hk/app/sehk/2026/108331/2026032502119.htm",
-    "TRANSWARP CSRC Filing Notice": "https://www.csrc.gov.cn/csrc/c105984/c7640221/content.shtml"
+    "TRANSWARP CSRC Filing Notice": "https://www.csrc.gov.cn/csrc/c105984/c7640221/content.shtml",
+    "超颖电子 AP 中文全文": "https://www1.hkexnews.hk/app/sehk/2026/108887/documents/sehk26092101145_c.pdf",
+    "超颖电子 AP 英文全文": "https://www1.hkexnews.hk/app/sehk/2026/108887/documents/sehk26092101146.pdf",
+    "超颖电子 AP 中文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108887/2026092101142_c.htm",
+    "超颖电子 AP 英文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108887/2026092101141.htm",
+    "奕斯伟计算 PHIP 中文全文": "https://www1.hkexnews.hk/app/sehk/2026/108777/documents/sehk26092101737_c.pdf",
+    "奕斯伟计算 PHIP 英文全文": "https://www1.hkexnews.hk/app/sehk/2026/108777/documents/sehk26092101738.pdf",
+    "奕斯伟计算 PHIP 中文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108777/2026092101670_c.htm",
+    "奕斯伟计算 PHIP 英文多档案": "https://www1.hkexnews.hk/app/sehk/2026/108777/2026092101669.htm",
+    "SEC EDGAR EFTS 2026-09-21 to 2026-09-22": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-09-21&enddt=2026-09-22&forms=F-1"
   }
 }
