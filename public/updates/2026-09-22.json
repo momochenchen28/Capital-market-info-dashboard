@@ -1,0 +1,133 @@
+{
+  "generatedAt": "2026-09-22T03:31:13.491Z",
+  "dailyReports": {
+    "2026-09-22": {
+      "date": "2026-09-22",
+      "title": "资本市场快报",
+      "reportType": "briefing",
+      "edition": "09:30早盘快报（延后执行）",
+      "subtitle": "纳真科技09856新挂牌；AP=0、PHIP=0、证监会=0、SEC=0。",
+      "isTradingDay": true,
+      "lastVerifiedAt": "2026-09-22T03:31:13.491Z",
+      "backscanRange": {
+        "from": "2026-09-21",
+        "to": "2026-09-22"
+      },
+      "statusNote": "9/22 为港股正常交易日。HKEX 中英文 AP-only 与 AP+PHIP structured JSON 均更新至 22/09/2026；当天 NEW AP=0、PHIP=0。Newly Listed Securities 确认纳真科技（09856）公司类 IPO 新挂牌；其他当日记录为供股权、股份合并及债务证券，不计新股。证监会单家公司备案通知书列表仍重定向至首页，csrcCount=0为已验证计数；SEC 当日美国申报时段尚未完成，后续继续回扫。",
+      "archiveNotice": "无新增事件类别由前端显示统一空状态，不创建占位公司卡。",
+      "metrics": {
+        "hkexNewListings": 1,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "deals": [
+        {
+          "id": "hkex-listing-09856-20260922",
+          "section": "港股新股",
+          "eventType": "hkexIpoListing",
+          "countInMetrics": true,
+          "company": "納真科技公司",
+          "companyEn": "Ligent Technologies, Inc.",
+          "stockCode": "09856",
+          "status": "新挂牌",
+          "documentType": "New Listing",
+          "sector": "光通信与光连接解决方案",
+          "businessSummary": "全球光通信与光连接解决方案全栈式供应商，研发、制造及销售光模块、光芯片和光网络终端产品，并为AI算力网络提供关键光通信产品。",
+          "ipo": {
+            "offerPrice": "HK$32.96",
+            "sharesOffered": "172,014,700股（超额配股权行使前）",
+            "publicOffer": "认购35.16倍；最终配发17,201,500股（占全球发售10%）；有效申请37,594份，成功申请13,561份",
+            "internationalOffer": "认购4.67倍；最终配发154,813,200股（占全球发售90%）；承配人192名",
+            "cornerstoneInvestors": "24组基石投资者最终获配合计80,876,700股，占发售股份47.02%及上市后股本8.23%。包括Primavera Investment Fund、GBAHIL（Mega Prime及Poly Platinum）、CFTC Paragon SP、HK BVF I LPF、Orient Asset Management、Mount Altai、Peak View Capital、Sinofortune International、Ambre Lau Trade、SCV Delta、Mirae Asset Securities HK、PAG Capital Structure Opportunity Fund、Turquoise Hime（ORIX）、GF Fund、E Fund、CSC OTC Swap、First Seafront、GaoTeng、GigaDevice、Amlogic Hong Kong、Atlas Venture、Alphahill Capital、ODI Trust及Barings。"
+          },
+          "intermediaries": "联席保荐人：花旗环球金融亚洲有限公司、中信证券（香港）有限公司；保荐人兼整体协调人包括花旗环球金融亚洲、中信证券（香港）及中信里昂证券；稳定价格操作人：中信里昂证券有限公司。",
+          "timeline": [
+            "2025-08-25：首次递交香港主板上市申请版本",
+            "2026-03-05：再次递交上市申请版本",
+            "2026-08-04：证监会完成境外发行上市备案",
+            "2026-08-30：HKEX刊发聆讯后资料集（PHIP）",
+            "2026-09-14：刊发招股书并启动香港公开发售",
+            "2026-09-17：香港公开发售截止",
+            "2026-09-21：公布最终发售价及配发结果",
+            "2026-09-22：股份于香港联交所主板上市，股份代号09856，每手100股"
+          ],
+          "marketPerformance": {
+            "openPrice": "待官方行情源复核",
+            "closePrice": "待收盘后补充",
+            "changePct": "待收盘后补充"
+          },
+          "links": [
+            {
+              "label": "HKEX Newly Listed Securities",
+              "url": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en"
+            },
+            {
+              "label": "HKEX New Listing Information",
+              "url": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en"
+            },
+            {
+              "label": "HKEX 招股文件",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0914/2026091400017_c.htm"
+            },
+            {
+              "label": "HKEX 配发结果",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092101567.pdf"
+            },
+            {
+              "label": "HKEX 上市申请版本",
+              "url": "https://www1.hkexnews.hk/app/sehk/2026/108264/documents/sehk26030502134_c.pdf"
+            },
+            {
+              "label": "证监会备案通知书栏目",
+              "url": "https://www.csrc.gov.cn/csrc/c105984/common_list.shtml"
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "9/22 为港股正常交易日；HKEX Newly Listed Securities 确认 LIGENT（09856）公司类 IPO 新挂牌。供股权、股份合并及债务证券记录不计新股。",
+        "HKEX 中英文 AP-only JSON uDate=22/09/2026、app.length=357；AP+PHIP JSON app.length=13；9/22 NEW AP=0、PHIP=0。9/21 的超颖电子 AP 与奕斯伟计算 PHIP 已按实际自然日回补，不并入今日。",
+        "纳真科技最终发售价32.96港元，全球发售172,014,700股；公开发售认购35.16倍、国际发售认购4.67倍；24组基石最终获配合计80,876,700股。",
+        "证监会补充材料公示最新为9/18；单家公司备案通知书列表仍重定向至首页，定向检索未见9/22可验证新增。csrcCount=0仅代表本次已验证计数。",
+        "SEC EDGAR EFTS 回扫9/21—9/22共4家F-1系列发行人，均为9/21文件；经经营地与IPO属性筛选无新增中国/香港经营IPO。9/22美国申报时段尚未完成，后续继续回扫。"
+      ],
+      "officialSourceChecks": [
+        {
+          "source": "HKEX calendar / Newly Listed Securities / New Listing Information",
+          "dateRange": "2026-09-22",
+          "result": "9/22为正常交易日；LIGENT 09856为当日公司类IPO新挂牌。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-09-21 to 2026-09-22",
+          "result": "中英文JSON均uDate=22/09/2026；9/22 NEW AP=0、PHIP=0；9/21晚间事件已回补至9/21日报。"
+        },
+        {
+          "source": "CSRC official filing pages",
+          "dateRange": "2026-09-21 to 2026-09-22",
+          "result": "补充材料公示最新为9/18；单家公司通知书列表重定向至首页，定向检索未见目标日可验证新增，csrcCount=0为已验证计数。"
+        },
+        {
+          "source": "SEC EDGAR EFTS",
+          "dateRange": "2026-09-21 to 2026-09-22",
+          "result": "共4家F-1系列发行人且均为9/21文件；无新增中国/香港经营IPO。9/22美国申报时段未完成。"
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Securities Market Holiday Schedule 2026": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2025/ce_SEHK_CT_075_2025.pdf",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml?mobile=2",
+    "CSRC Overseas Filing Results": "https://www.csrc.gov.cn/csrc/c105984/common_list.shtml",
+    "SEC EDGAR EFTS 2026-09-21 to 2026-09-22": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-09-21&enddt=2026-09-22&forms=F-1",
+    "LIGENT HKEX Prospectus": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0914/2026091400017_c.htm",
+    "LIGENT HKEX Allotment Results": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092101567.pdf",
+    "LIGENT HKEX Application Proof": "https://www1.hkexnews.hk/app/sehk/2026/108264/documents/sehk26030502134_c.pdf"
+  }
+}
