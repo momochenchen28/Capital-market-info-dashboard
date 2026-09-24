@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-09-24T01:34:50.164Z",
+  "dailyReports": {
+    "2026-09-24": {
+      "date": "2026-09-24",
+      "title": "资本市场快报",
+      "reportType": "briefing",
+      "edition": "09:30早盘快报",
+      "subtitle": "港股交易日；截至早盘核验，未见可确认的公司类 IPO 新挂牌，其他官方文件类别待完整回扫。",
+      "isTradingDay": true,
+      "lastVerifiedAt": "2026-09-24T01:34:50.164Z",
+      "backscanRange": {
+        "from": "2026-09-23",
+        "to": "2026-09-24"
+      },
+      "statusNote": "9/24 为港股交易日。HKEX Newly Listed Securities 于 9/23 更新，列示 9/24 拟上市的 BOS HKKRSEMI ETF 和四项人民币债券，未列公司类 IPO。HKEX AP-only/AP+PHIP 结构化端点在当前环境受阻，9/23 晚间及 9/24 文件未能完整核验。证监会补充材料公示最新可见仍为 9/18，单家公司备案通知书及备案情况表未能完整核对。SEC Q3 daily-index 目录已列 9/22 索引但正文不可读，9/23 索引截至香港早盘尚未列出，9/24 美国申报日尚未开始。五项 0 指标仅表示本次可核实新增数，后续需继续逐自然日回扫。",
+      "archiveNotice": "无新增事件类别由前端显示统一空状态，不创建占位公司卡。",
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "deals": [],
+      "observations": [
+        "HKEX Newly Listed Securities 标注 Updated 23 Sep 2026；9/24 暂列一只 ETF 与四项人民币债券拟上市，未列公司类 IPO。",
+        "HKEX AP-only 和 AP+PHIP 官方结构化端点访问受阻；9/23—9/24 的 AP、PHIP 为已验证新增数 0，不能据此断言完全无新增。",
+        "证监会境外发行上市备案补充材料公示最新可见为 9/18；单家公司《境外发行上市备案通知书》未完整核对，csrcCount=0 只计已核实新增通知书。",
+        "SEC EDGAR Q3 daily-index 目录可见 9/22 索引，但正文受阻；9/23 索引尚未发布至目录，9/24 美国申报时段尚未开始。SEC 计数待回扫。"
+      ],
+      "officialSourceChecks": [
+        {
+          "source": "HKEX Securities Market Holiday Schedule / Newly Listed Securities / New Listing Information",
+          "dateRange": "2026-09-23 to 2026-09-24",
+          "result": "9/24 为港股交易日；HKEX 新证券表仅列 ETF 和债券拟上市，公司类 IPO 为 0；页面 Updated 23 Sep 2026。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-09-23 to 2026-09-24",
+          "result": "官方端点在本环境受阻，未能完整核验两日文件；AP/PHIP 计数为已验证新增数，后续回扫。"
+        },
+        {
+          "source": "CSRC official overseas filing pages",
+          "dateRange": "2026-09-23 to 2026-09-24",
+          "result": "补充材料公示最新可见为 9/18；单家公司通知书与备案情况表未能完整核验，csrcCount 为已验证计数。"
+        },
+        {
+          "source": "SEC EDGAR daily-index / EFTS",
+          "dateRange": "2026-09-22 to 2026-09-24",
+          "result": "9/22 索引已列入目录但正文不可读；9/23 索引尚未列出，9/24 美国申报日尚未开始，后续回扫。"
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Securities Market Holiday Schedule 2026": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2025/ce_SEHK_CT_075_2025.pdf",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing Supplement Materials": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml?mobile=2",
+    "CSRC Overseas Filing Status": "https://www.csrc.gov.cn/csrc/c106251/common_list.shtml",
+    "CSRC Overseas Filing Results": "https://www.csrc.gov.cn/csrc/c105984/common_list.shtml",
+    "SEC EDGAR Daily Index 2026 Q3": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR3/",
+    "SEC EDGAR EFTS 2026-09-22 to 2026-09-23": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-09-22&enddt=2026-09-23&forms=F-1",
+    "SEC EDGAR EFTS 2026-09-23 to 2026-09-24": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-09-23&enddt=2026-09-24&forms=F-1"
+  }
+}
