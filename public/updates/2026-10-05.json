@@ -1,0 +1,109 @@
+{
+  "generatedAt": "2026-10-08T01:30:00.000Z",
+  "dailyReports": {
+    "2026-10-05": {
+      "date": "2026-10-05",
+      "title": "资本市场快报",
+      "reportType": "briefing",
+      "edition": "09:30早盘快报（自然日回扫）",
+      "subtitle": "港股交易日；HKEX NEW AP=0、PHIP=1；公司类IPO新挂牌=0。",
+      "isTradingDay": true,
+      "lastVerifiedAt": "2026-10-08T01:30:00.000Z",
+      "backscanRange": {
+        "from": "2026-09-28",
+        "to": "2026-10-08"
+      },
+      "statusNote": "10/5为港股交易日；HKEX刊发广州天赐材料PHIP。",
+      "archiveNotice": "无新增事件类别由前端显示统一空状态，不创建占位公司卡。",
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 0,
+        "phipCount": 1,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "deals": [
+        {
+          "id": "hkex-ap-phip-2026-10-05",
+          "section": "港股递表/聆讯",
+          "eventType": "hkexApPhip",
+          "countInMetrics": true,
+          "company": {
+            "zh": "HKEX AP/PHIP 官方文件更新",
+            "en": "HKEX AP/PHIP filings",
+            "display": "HKEX AP/PHIP 官方文件更新（2026-10-05）",
+            "exchange": "HKEX",
+            "board": "Main Board"
+          },
+          "business": {
+            "sector": "港股 IPO pipeline",
+            "summary": "NEW AP 0家；PHIP 1家。",
+            "source": "HKEX structured JSON"
+          },
+          "metrics": {
+            "apNewCount": 0,
+            "phipCount": 1
+          },
+          "apApplications": [
+            {
+              "id": "108340",
+              "status": "PHIP",
+              "documentType": "PHIP (1st submission)",
+              "nameEn": "Guangzhou Tinci Materials Technology Co., Ltd.",
+              "filingDate": "2026-10-05",
+              "structure": "香港主板申请",
+              "industry": "待以公开申请文件核验",
+              "sector": "待以公开申请文件核验",
+              "businessSummary": "锂电池电解液及材料企业。",
+              "businessSource": "HKEX official structured JSON",
+              "sponsors": "待以公开申请文件核验",
+              "prospectusLink": "HKEX official filing",
+              "links": [
+                "HKEX official filing"
+              ]
+            }
+          ],
+          "links": [
+            "HKEX AP structured JSON",
+            "HKEX AP/PHIP structured JSON"
+          ]
+        }
+      ],
+      "observations": [
+        "HKEX official structured JSON（uDate=07/10/2026）按实际文件日期回扫：10/5为港股交易日；HKEX刊发广州天赐材料PHIP。",
+        "证监会单家公司备案通知书栏目本环境未能完整读取；csrcCount=0仅为已验证新增通知书计数，补充材料和备案情况表不计入该指标。",
+        "SEC Q4目录已可见至2026-10-06；原始日索引在本环境返回403，usChinaIpoCount=0为已验证计数，后续继续逐自然日回扫。"
+      ],
+      "officialSourceChecks": [
+        {
+          "source": "HKEX Newly Listed Securities / New Listing Information",
+          "dateRange": "2026-10-05",
+          "result": "已按公司类IPO口径排除ETF、债务证券及公司行动。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-09-28 to 2026-10-07",
+          "result": "uDate=07/10/2026；本日NEW AP=0、PHIP=1。"
+        },
+        {
+          "source": "CSRC official overseas filing pages",
+          "dateRange": "2026-10-05",
+          "result": "csrcCount仅计单家公司新增备案通知书；本次已验证计数为0。"
+        },
+        {
+          "source": "SEC EDGAR daily-index / EFTS",
+          "dateRange": "2026-10-05",
+          "result": "日索引读取受403限制；本次未确认新增中国/香港经营IPO，留待回扫。"
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing Results": "https://www.csrc.gov.cn/csrc/c105984/common_list.shtml",
+    "SEC EDGAR Daily Index 2026 Q4": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR4/"
+  }
+}
