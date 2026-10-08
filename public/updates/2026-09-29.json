@@ -1,0 +1,282 @@
+{
+  "generatedAt": "2026-10-08T01:30:00.000Z",
+  "dailyReports": {
+    "2026-09-29": {
+      "date": "2026-09-29",
+      "title": "资本市场快报",
+      "reportType": "briefing",
+      "edition": "09:30早盘快报（自然日回扫）",
+      "subtitle": "港股交易日；HKEX NEW AP=2、PHIP=0；公司类IPO新挂牌=4。",
+      "isTradingDay": true,
+      "lastVerifiedAt": "2026-10-08T01:30:00.000Z",
+      "backscanRange": {
+        "from": "2026-09-28",
+        "to": "2026-10-08"
+      },
+      "statusNote": "9/29为港股交易日；HKEX新证券表确认四家公司类IPO新挂牌，AP-only确认两家首次递表。",
+      "archiveNotice": "无新增事件类别由前端显示统一空状态，不创建占位公司卡。",
+      "metrics": {
+        "hkexNewListings": 4,
+        "apNewCount": 2,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "deals": [
+        {
+          "id": "hkex-listing-03228-20260929",
+          "section": "港股新股",
+          "eventType": "hkexIpoListing",
+          "countInMetrics": true,
+          "company": "深圳市景旺电子股份有限公司",
+          "companyEn": "Shenzhen Kinwong Electronic Co., Ltd.",
+          "stockCode": "03228",
+          "status": "新挂牌",
+          "documentType": "New Listing",
+          "sector": "待以HKEX招股书核验",
+          "businessSummary": "已由HKEX Newly Listed Securities确认于2026-09-29挂牌；固定发行字段将继续以招股书及配发结果公告逐项回扫补强。",
+          "ipo": {
+            "offerPrice": "HK$69.88",
+            "sharesOffered": "72,944,300股H股",
+            "publicOffer": "认购约94倍（待以HKEX配发结果复核）",
+            "internationalOffer": "待以HKEX配发结果复核",
+            "cornerstoneInvestors": "待以HKEX最终配发结果公告核验"
+          },
+          "intermediaries": "待以HKEX招股书核验",
+          "timeline": [
+            "2026-09-29：HKEX主板新挂牌"
+          ],
+          "marketPerformance": {
+            "openPrice": "待官方行情源复核",
+            "closePrice": "待官方行情源复核",
+            "changePct": "待官方行情源复核"
+          },
+          "links": [
+            {
+              "label": "HKEX Newly Listed Securities",
+              "url": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en"
+            },
+            {
+              "label": "HKEX New Listing Information",
+              "url": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en"
+            }
+          ]
+        },
+        {
+          "id": "hkex-listing-03757-20260929",
+          "section": "港股新股",
+          "eventType": "hkexIpoListing",
+          "countInMetrics": true,
+          "company": "罗博特科智能科技股份有限公司",
+          "companyEn": "RoboTechnik Intelligent Technology Co., Ltd.",
+          "stockCode": "03757",
+          "status": "新挂牌",
+          "documentType": "New Listing",
+          "sector": "待以HKEX招股书核验",
+          "businessSummary": "已由HKEX Newly Listed Securities确认于2026-09-29挂牌；固定发行字段将继续以招股书及配发结果公告逐项回扫补强。",
+          "ipo": {
+            "offerPrice": "HK$436.00",
+            "sharesOffered": "11,876,000股H股",
+            "publicOffer": "认购7.65倍",
+            "internationalOffer": "认购4.97倍",
+            "cornerstoneInvestors": "待以HKEX最终配发结果公告核验"
+          },
+          "intermediaries": "待以HKEX招股书核验",
+          "timeline": [
+            "2026-09-29：HKEX主板新挂牌"
+          ],
+          "marketPerformance": {
+            "openPrice": "待官方行情源复核",
+            "closePrice": "待官方行情源复核",
+            "changePct": "待官方行情源复核"
+          },
+          "links": [
+            {
+              "label": "HKEX Newly Listed Securities",
+              "url": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en"
+            },
+            {
+              "label": "HKEX New Listing Information",
+              "url": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en"
+            }
+          ]
+        },
+        {
+          "id": "hkex-listing-06731-20260929",
+          "section": "港股新股",
+          "eventType": "hkexIpoListing",
+          "countInMetrics": true,
+          "company": "本末动力（北京）科技股份有限公司",
+          "companyEn": "Direct Drive Tech Limited",
+          "stockCode": "06731",
+          "status": "新挂牌",
+          "documentType": "New Listing",
+          "sector": "待以HKEX招股书核验",
+          "businessSummary": "已由HKEX Newly Listed Securities确认于2026-09-29挂牌；固定发行字段将继续以招股书及配发结果公告逐项回扫补强。",
+          "ipo": {
+            "offerPrice": "HK$21.60",
+            "sharesOffered": "50,000,000股",
+            "publicOffer": "认购208.56倍",
+            "internationalOffer": "待以HKEX配发结果复核",
+            "cornerstoneInvestors": "待以HKEX最终配发结果公告核验"
+          },
+          "intermediaries": "待以HKEX招股书核验",
+          "timeline": [
+            "2026-09-29：HKEX主板新挂牌"
+          ],
+          "marketPerformance": {
+            "openPrice": "待官方行情源复核",
+            "closePrice": "待官方行情源复核",
+            "changePct": "待官方行情源复核"
+          },
+          "links": [
+            {
+              "label": "HKEX Newly Listed Securities",
+              "url": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en"
+            },
+            {
+              "label": "HKEX New Listing Information",
+              "url": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en"
+            }
+          ]
+        },
+        {
+          "id": "hkex-listing-09607-20260929",
+          "section": "港股新股",
+          "eventType": "hkexIpoListing",
+          "countInMetrics": true,
+          "company": "稀土材料科技股份有限公司",
+          "companyEn": "Rare Earth Materials Technology Co., Ltd.",
+          "stockCode": "09607",
+          "status": "新挂牌",
+          "documentType": "New Listing",
+          "sector": "待以HKEX招股书核验",
+          "businessSummary": "已由HKEX Newly Listed Securities确认于2026-09-29挂牌；固定发行字段将继续以招股书及配发结果公告逐项回扫补强。",
+          "ipo": {
+            "offerPrice": "待以HKEX配发结果核验",
+            "sharesOffered": "待以HKEX配发结果核验",
+            "publicOffer": "待以HKEX配发结果核验",
+            "internationalOffer": "待以HKEX配发结果核验",
+            "cornerstoneInvestors": "待以HKEX最终配发结果公告核验"
+          },
+          "intermediaries": "待以HKEX招股书核验",
+          "timeline": [
+            "2026-09-29：HKEX主板新挂牌"
+          ],
+          "marketPerformance": {
+            "openPrice": "待官方行情源复核",
+            "closePrice": "待官方行情源复核",
+            "changePct": "待官方行情源复核"
+          },
+          "links": [
+            {
+              "label": "HKEX Newly Listed Securities",
+              "url": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en"
+            },
+            {
+              "label": "HKEX New Listing Information",
+              "url": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en"
+            }
+          ]
+        },
+        {
+          "id": "hkex-ap-phip-2026-09-29",
+          "section": "港股递表/聆讯",
+          "eventType": "hkexApPhip",
+          "countInMetrics": true,
+          "company": {
+            "zh": "HKEX AP/PHIP 官方文件更新",
+            "en": "HKEX AP/PHIP filings",
+            "display": "HKEX AP/PHIP 官方文件更新（2026-09-29）",
+            "exchange": "HKEX",
+            "board": "Main Board"
+          },
+          "business": {
+            "sector": "港股 IPO pipeline",
+            "summary": "NEW AP 2家；PHIP 0家。",
+            "source": "HKEX structured JSON"
+          },
+          "metrics": {
+            "apNewCount": 2,
+            "phipCount": 0
+          },
+          "apApplications": [
+            {
+              "id": "108908",
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameEn": "DataCanvas Co., Ltd.",
+              "filingDate": "2026-09-29",
+              "structure": "香港主板申请",
+              "industry": "待以公开申请文件核验",
+              "sector": "待以公开申请文件核验",
+              "businessSummary": "数据智能与AI软件企业。",
+              "businessSource": "HKEX official structured JSON",
+              "sponsors": "待以公开申请文件核验",
+              "prospectusLink": "HKEX official filing",
+              "links": [
+                "HKEX official filing"
+              ]
+            },
+            {
+              "id": "108909",
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameEn": "YUDO HOLDINGS CO., LIMITED",
+              "filingDate": "2026-09-29",
+              "structure": "香港主板申请",
+              "industry": "待以公开申请文件核验",
+              "sector": "待以公开申请文件核验",
+              "businessSummary": "工业装备企业。",
+              "businessSource": "HKEX official structured JSON",
+              "sponsors": "待以公开申请文件核验",
+              "prospectusLink": "HKEX official filing",
+              "links": [
+                "HKEX official filing"
+              ]
+            }
+          ],
+          "links": [
+            "HKEX AP structured JSON",
+            "HKEX AP/PHIP structured JSON"
+          ]
+        }
+      ],
+      "observations": [
+        "HKEX official structured JSON（uDate=07/10/2026）按实际文件日期回扫：9/29为港股交易日；HKEX新证券表确认四家公司类IPO新挂牌，AP-only确认两家首次递表。",
+        "证监会单家公司备案通知书栏目本环境未能完整读取；csrcCount=0仅为已验证新增通知书计数，补充材料和备案情况表不计入该指标。",
+        "SEC Q4目录已可见至2026-10-06；原始日索引在本环境返回403，usChinaIpoCount=0为已验证计数，后续继续逐自然日回扫。"
+      ],
+      "officialSourceChecks": [
+        {
+          "source": "HKEX Newly Listed Securities / New Listing Information",
+          "dateRange": "2026-09-29",
+          "result": "已按公司类IPO口径排除ETF、债务证券及公司行动。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-09-28 to 2026-10-07",
+          "result": "uDate=07/10/2026；本日NEW AP=2、PHIP=0。"
+        },
+        {
+          "source": "CSRC official overseas filing pages",
+          "dateRange": "2026-09-29",
+          "result": "csrcCount仅计单家公司新增备案通知书；本次已验证计数为0。"
+        },
+        {
+          "source": "SEC EDGAR daily-index / EFTS",
+          "dateRange": "2026-09-29",
+          "result": "日索引读取受403限制；本次未确认新增中国/香港经营IPO，留待回扫。"
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing Results": "https://www.csrc.gov.cn/csrc/c105984/common_list.shtml",
+    "SEC EDGAR Daily Index 2026 Q4": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR4/"
+  }
+}
