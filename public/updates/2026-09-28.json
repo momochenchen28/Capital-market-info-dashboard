@@ -6,24 +6,88 @@
       "title": "资本市场快报",
       "reportType": "briefing",
       "edition": "09:30早盘快报",
-      "subtitle": "港股交易日；截至早盘核验，未见可确认的公司类 IPO 新挂牌，其他官方文件类别待完整回扫。",
+      "subtitle": "港股交易日；回补 NEW AP 1 家、PHIP 1 家；公司类 IPO 新挂牌=0。",
       "isTradingDay": true,
-      "lastVerifiedAt": "2026-09-28T01:30:00.000Z",
+      "lastVerifiedAt": "2026-10-08T01:30:00.000Z",
       "backscanRange": {
-        "from": "2026-09-24",
-        "to": "2026-09-28"
+        "from": "2026-09-28",
+        "to": "2026-10-08"
       },
-      "statusNote": "9/28 为港股交易日。HKEX Newly Listed Securities 列示多只 ETF 及一项股份合并等非公司类证券事项，未见公司类 IPO 新挂牌；HKEX AP-only/AP+PHIP 结构化端点在当前环境受阻。证监会补充材料公示最新可见仍为 9/18；SEC 9/26—9/28 文件尚待后续自然日回扫。五项 0 指标仅表示本次可核实新增数，后续继续逐自然日回扫。",
+      "statusNote": "9/28为港股交易日。HKEX 07/10/2026版结构化JSON回扫确认山东力诺医药包装首次递表及安徽中磁科技刊发PHIP；无公司类IPO新挂牌。",
       "archiveNotice": "无新增事件类别由前端显示统一空状态，不创建占位公司卡。",
       "metrics": {
         "hkexNewListings": 0,
-        "apNewCount": 0,
-        "phipCount": 0,
+        "apNewCount": 1,
+        "phipCount": 1,
         "csrcCount": 0,
         "usChinaIpoCount": 0
       },
-      "deals": [],
+      "deals": [
+        {
+          "id": "hkex-ap-phip-2026-09-28",
+          "section": "港股递表/聆讯",
+          "eventType": "hkexApPhip",
+          "countInMetrics": true,
+          "company": {
+            "zh": "HKEX AP/PHIP 官方文件更新",
+            "en": "HKEX AP/PHIP filings",
+            "display": "HKEX AP/PHIP 官方文件更新（2026-09-28）",
+            "exchange": "HKEX",
+            "board": "Main Board"
+          },
+          "business": {
+            "sector": "港股IPO pipeline",
+            "summary": "NEW AP 1家；PHIP 1家。",
+            "source": "HKEX structured JSON"
+          },
+          "metrics": {
+            "apNewCount": 1,
+            "phipCount": 1
+          },
+          "apApplications": [
+            {
+              "id": "108907",
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameEn": "Shandong Linuo Pharmaceutical Packaging Co.,Ltd.",
+              "filingDate": "2026-09-28",
+              "structure": "香港主板申请",
+              "industry": "待以公开申请文件核验",
+              "sector": "药品包装材料",
+              "businessSummary": "药品包装材料企业。",
+              "businessSource": "HKEX official structured JSON",
+              "sponsors": "待以HKEX Application Proof核验",
+              "prospectusLink": "HKEX official filing",
+              "links": [
+                "HKEX official filing"
+              ]
+            },
+            {
+              "id": "108258",
+              "status": "PHIP",
+              "documentType": "PHIP (1st submission)",
+              "nameEn": "Anhui Sinomags Technology Co., Ltd",
+              "filingDate": "2026-09-28",
+              "structure": "香港主板申请",
+              "industry": "待以公开申请文件核验",
+              "sector": "磁性材料",
+              "businessSummary": "磁性材料企业。",
+              "businessSource": "HKEX official structured JSON",
+              "sponsors": "待以HKEX PHIP核验",
+              "prospectusLink": "HKEX official filing",
+              "links": [
+                "HKEX official filing"
+              ]
+            }
+          ],
+          "links": [
+            "HKEX AP structured JSON",
+            "HKEX AP/PHIP structured JSON"
+          ]
+        }
+      ],
       "observations": [
+        "HKEX 07/10/2026版AP-only/AP+PHIP structured JSON回扫确认：9/28 NEW AP=1、PHIP=1；两类均放入apApplications[]并以status/documentType区分。",
         "HKEX Newly Listed Securities 已更新并显示目标日期附近的证券；非公司类 ETF、债务证券及公司行动不计公司类 IPO。",
         "HKEX AP-only 和 AP+PHIP 官方结构化端点在当前运行环境受阻；AP/PHIP 0 为已验证新增数，不能据此断言完全无新增。",
         "证监会境外上市类补充材料公示最新可见仍为 9/18；单家公司《境外发行上市备案通知书》与备案情况表未能完整核对，csrcCount=0 仅计已核实新增通知书。",
@@ -38,7 +102,7 @@
         {
           "source": "HKEX AP-only / AP+PHIP structured JSON",
           "dateRange": "2026-09-25 to 2026-09-28",
-          "result": "官方端点在本环境受阻；AP/PHIP 计数为已验证新增数，后续逐自然日回扫。"
+          "result": "uDate=07/10/2026；回扫确认9/28 NEW AP=1、PHIP=1。"
         },
         {
           "source": "CSRC official overseas filing pages",
