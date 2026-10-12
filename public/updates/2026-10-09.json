@@ -1,0 +1,159 @@
+{
+  "generatedAt": "2026-10-12T01:30:00.000Z",
+  "dailyReports": {
+    "2026-10-09": {
+      "date": "2026-10-09",
+      "title": "资本市场快报",
+      "reportType": "briefing",
+      "edition": "09:30早盘快报（自然日回扫）",
+      "subtitle": "港股交易日；HKEX NEW AP=0、PHIP=1；公司类IPO新挂牌=1。",
+      "isTradingDay": true,
+      "lastVerifiedAt": "2026-10-12T01:30:00.000Z",
+      "backscanRange": {
+        "from": "2026-10-08",
+        "to": "2026-10-12"
+      },
+      "statusNote": "10/9为港股交易日；HKEX新证券表确认北京奕斯伟计算技术（01256）公司类IPO新挂牌，结构化源确认PHIP 1家。",
+      "archiveNotice": "无新增事件类别由前端显示统一空状态，不创建占位公司卡。",
+      "metrics": {
+        "hkexNewListings": 1,
+        "apNewCount": 0,
+        "phipCount": 1,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "deals": [
+        {
+          "id": "hkex-listing-01256-20261009",
+          "section": "港股新股",
+          "eventType": "hkexIpoListing",
+          "countInMetrics": true,
+          "company": "北京奕斯伟计算技术股份有限公司",
+          "companyEn": "Beijing ESWIN Computing Technology Co., Ltd.",
+          "stockCode": "01256",
+          "status": "新挂牌",
+          "documentType": "New Listing",
+          "sector": "半导体",
+          "businessSummary": "基于RISC-V架构提供芯片产品与软硬件解决方案，覆盖智能终端、汽车、机器人和工业应用。",
+          "ipo": {
+            "offerPrice": "HK$1.55",
+            "sharesOffered": "1,617,310,000股H股（含部分行使发售量调整权）",
+            "publicOffer": "认购9.09倍",
+            "internationalOffer": "认购1.95倍",
+            "cornerstoneInvestors": "11名基石投资人合计获配749,354,000股（46.33%）"
+          },
+          "intermediaries": "中信证券（香港）及中国证券（国际）企业融资（联席保荐人）",
+          "timeline": [
+            "2026-01-30：上市申请（HKEX AP）",
+            "2026-06-18：获中国证监会境外发行上市备案通知书（公开披露）",
+            "2026-07-31：递交更新上市申请（公开披露）",
+            "2026-09-21：通过HKEX上市聆讯（公开披露）",
+            "2026-09-28：招股书刊发及公开发售开始",
+            "2026-10-06：公开发售截止",
+            "2026-10-08：最终发售价及配发结果公告",
+            "2026-10-09：HKEX主板挂牌"
+          ],
+          "marketPerformance": {
+            "openPrice": "待官方行情源复核",
+            "closePrice": "待官方行情源复核",
+            "changePct": "待官方行情源复核"
+          },
+          "links": [
+            {
+              "label": "HKEX Newly Listed Securities",
+              "url": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en"
+            },
+            {
+              "label": "HKEX New Listing Information",
+              "url": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en"
+            },
+            {
+              "label": "HKEX Allotment Results",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1008/2026100801417.pdf"
+            }
+          ]
+        },
+        {
+          "id": "hkex-ap-phip-2026-10-09",
+          "section": "港股递表/聆讯",
+          "eventType": "hkexApPhip",
+          "countInMetrics": true,
+          "company": {
+            "zh": "HKEX AP/PHIP 官方文件更新",
+            "en": "HKEX AP/PHIP filings",
+            "display": "HKEX AP/PHIP 官方文件更新（2026-10-09）",
+            "exchange": "HKEX",
+            "board": "Main Board"
+          },
+          "business": {
+            "sector": "港股 IPO pipeline",
+            "summary": "NEW AP 0家；PHIP 1家。",
+            "source": "HKEX structured JSON"
+          },
+          "metrics": {
+            "apNewCount": 0,
+            "phipCount": 1
+          },
+          "apApplications": [
+            {
+              "id": "108374",
+              "status": "PHIP",
+              "documentType": "PHIP (1st submission)",
+              "nameEn": "Changzhou Microintelligence Co., Ltd",
+              "filingDate": "2026-10-09",
+              "structure": "香港主板申请",
+              "industry": "待以公开申请文件核验",
+              "sector": "待以公开申请文件核验",
+              "businessSummary": "具身智能工业机器人及解决方案提供商。",
+              "businessSource": "HKEX official structured JSON",
+              "sponsors": "Orient Securities (Hong Kong) Limited（独家保荐人）",
+              "prospectusLink": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+              "links": [
+                "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json"
+              ]
+            }
+          ],
+          "links": [
+            "HKEX AP structured JSON",
+            "HKEX AP/PHIP structured JSON"
+          ]
+        }
+      ],
+      "observations": [
+        "HKEX官方结构化JSON（uDate=11/10/2026）按实际文件日期回扫；10/9为港股交易日；HKEX新证券表确认北京奕斯伟计算技术（01256）公司类IPO新挂牌，结构化源确认PHIP 1家。",
+        "证监会单家公司备案通知书栏目本环境未能完整读取；csrcCount=0仅为已验证新增通知书计数，补充材料和备案情况表不计入该指标。",
+        "SEC EDGAR原始日索引读取受403限制；usChinaIpoCount=0为已验证计数，后续继续逐自然日回扫。"
+      ],
+      "officialSourceChecks": [
+        {
+          "source": "HKEX Newly Listed Securities / New Listing Information",
+          "dateRange": "2026-10-09",
+          "result": "已按公司类IPO口径排除ETF、债务证券及公司行动。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-10-08 to 2026-10-12",
+          "result": "uDate=11/10/2026；已按实际文件日期核对本日NEW AP/PHIP。"
+        },
+        {
+          "source": "CSRC official overseas filing pages",
+          "dateRange": "2026-10-09",
+          "result": "csrcCount仅计单家公司新增备案通知书；本次已验证计数为0。"
+        },
+        {
+          "source": "SEC EDGAR daily-index / EFTS",
+          "dateRange": "2026-10-09",
+          "result": "日索引读取受403限制；本次未确认新增中国/香港经营IPO，留待回扫。"
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing Results": "https://www.csrc.gov.cn/csrc/c105984/common_list.shtml",
+    "SEC EDGAR Daily Index 2026 Q4": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR4/"
+  }
+}
