@@ -6,25 +6,71 @@
       "title": "资本市场快报",
       "reportType": "briefing",
       "edition": "09:30早盘快报（自然日回扫）",
-      "subtitle": "港股交易日；HKEX NEW AP=0、PHIP=0；公司类IPO新挂牌=0。",
+      "subtitle": "港股交易日；HKEX NEW AP=1、PHIP=0；公司类IPO新挂牌=0。",
       "isTradingDay": true,
-      "lastVerifiedAt": "2026-10-08T01:30:00.000Z",
+      "lastVerifiedAt": "2026-10-12T01:30:00.000Z",
       "backscanRange": {
-        "from": "2026-09-28",
-        "to": "2026-10-08"
+        "from": "2026-10-08",
+        "to": "2026-10-12"
       },
-      "statusNote": "10/8为港股交易日早盘；HKEX结构化源最新仅至10/7，10/8新增事项留待下一轮自然日回扫。",
+      "statusNote": "10/8为港股交易日；HKEX结构化源现已更新至10/11，回补Pinnacle Marine Holdings Ltd首次递表1家。",
       "archiveNotice": "无新增事件类别由前端显示统一空状态，不创建占位公司卡。",
       "metrics": {
         "hkexNewListings": 0,
-        "apNewCount": 0,
+        "apNewCount": 1,
         "phipCount": 0,
         "csrcCount": 0,
         "usChinaIpoCount": 0
       },
-      "deals": [],
+      "deals": [
+        {
+          "id": "hkex-ap-phip-2026-10-08",
+          "section": "港股递表/聆讯",
+          "eventType": "hkexApPhip",
+          "countInMetrics": true,
+          "company": {
+            "zh": "HKEX AP/PHIP 官方文件更新",
+            "en": "HKEX AP/PHIP filings",
+            "display": "HKEX AP/PHIP 官方文件更新（2026-10-08）",
+            "exchange": "HKEX",
+            "board": "Main Board"
+          },
+          "business": {
+            "sector": "港股 IPO pipeline",
+            "summary": "NEW AP 1家；PHIP 0家。",
+            "source": "HKEX structured JSON"
+          },
+          "metrics": {
+            "apNewCount": 1,
+            "phipCount": 0
+          },
+          "apApplications": [
+            {
+              "id": "108926",
+              "status": "NEW AP",
+              "documentType": "Application Proof (1st submission)",
+              "nameEn": "Pinnacle Marine Holdings Ltd",
+              "filingDate": "2026-10-08",
+              "structure": "香港主板申请",
+              "industry": "待以公开申请文件核验",
+              "sector": "待以公开申请文件核验",
+              "businessSummary": "新加坡一站式海事服务商，覆盖铝制工作船建造及租赁、航运代理、船舶物资和机械配件销售。",
+              "businessSource": "HKEX official structured JSON",
+              "sponsors": "Altus Capital Limited（独家保荐人）",
+              "prospectusLink": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+              "links": [
+                "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json"
+              ]
+            }
+          ],
+          "links": [
+            "HKEX AP structured JSON",
+            "HKEX AP/PHIP structured JSON"
+          ]
+        }
+      ],
       "observations": [
-        "HKEX official structured JSON（uDate=07/10/2026）按实际文件日期回扫：10/8为港股交易日早盘；HKEX结构化源最新仅至10/7，10/8新增事项留待下一轮自然日回扫。",
+        "HKEX官方结构化JSON（uDate=11/10/2026）按实际文件日期回扫：10/8为港股交易日，NEW AP=1（Pinnacle Marine Holdings Ltd）、PHIP=0；公司类IPO新挂牌=0。",
         "证监会单家公司备案通知书栏目本环境未能完整读取；csrcCount=0仅为已验证新增通知书计数，补充材料和备案情况表不计入该指标。",
         "SEC Q4目录已可见至2026-10-06；原始日索引在本环境返回403，usChinaIpoCount=0为已验证计数，后续继续逐自然日回扫。"
       ],
@@ -36,8 +82,8 @@
         },
         {
           "source": "HKEX AP-only / AP+PHIP structured JSON",
-          "dateRange": "2026-09-28 to 2026-10-07",
-          "result": "uDate=07/10/2026；本日NEW AP=0、PHIP=0。"
+          "dateRange": "2026-10-08",
+          "result": "uDate=11/10/2026；本日NEW AP=1、PHIP=0。"
         },
         {
           "source": "CSRC official overseas filing pages",
