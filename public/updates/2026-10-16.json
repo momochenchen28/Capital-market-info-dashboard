@@ -1,0 +1,64 @@
+{
+  "generatedAt": "2026-10-16T01:30:00.000Z",
+  "dailyReports": {
+    "2026-10-16": {
+      "date": "2026-10-16",
+      "title": "资本市场快报",
+      "reportType": "briefing",
+      "edition": "09:30早盘快报（自然日回扫）",
+      "subtitle": "港股交易日；公司类IPO新挂牌=0；HKEX AP/PHIP、证监会及SEC按自然日回扫。",
+      "isTradingDay": true,
+      "lastVerifiedAt": "2026-10-16T01:30:00.000Z",
+      "backscanRange": {
+        "from": "2026-10-15",
+        "to": "2026-10-16"
+      },
+      "statusNote": "10/16为港股交易日；HKEX Newly Listed Securities仅列示DEEPZERO（02947）股份拆细的暂定交易安排，非公司类IPO新挂牌。",
+      "archiveNotice": "无新增事件类别由前端显示统一空状态，不创建占位公司卡。",
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "deals": [],
+      "observations": [
+        "HKEX Newly Listed Securities（10/16）列示DEEPZERO（02947）股份拆细安排（暂定），并非公司类IPO，已排除。",
+        "HKEX AP-only/AP+PHIP结构化JSON在本运行环境受访问限制；AP与PHIP均保留为已验证新增计数0，待后续按实际自然日回扫。",
+        "证监会单家公司境外发行上市备案通知书栏目未能完整读取；csrcCount=0仅为已验证新增通知书计数，补充材料公示和备案情况表不计入该指标。",
+        "SEC EDGAR Q4日索引官方目录目前可见至10/09；10/16尚无可读日索引，usChinaIpoCount=0为已验证计数，留待回扫。"
+      ],
+      "officialSourceChecks": [
+        {
+          "source": "HKEX Newly Listed Securities / New Listing Information",
+          "dateRange": "2026-10-16",
+          "result": "已核对；DEEPZERO（02947）为股份拆细安排，非公司类IPO，已排除。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-10-15 to 2026-10-16",
+          "result": "官方结构化端点在本运行环境受访问限制；AP与PHIP为已验证新增计数0，留待逐自然日回扫。"
+        },
+        {
+          "source": "CSRC official overseas filing pages",
+          "dateRange": "2026-10-15 to 2026-10-16",
+          "result": "csrcCount仅计单家公司新增备案通知书；栏目未完整读取，本次已验证计数为0。"
+        },
+        {
+          "source": "SEC EDGAR daily-index / EFTS",
+          "dateRange": "2026-10-15 to 2026-10-16",
+          "result": "Q4官方目录目前可见至10/09；本次未确认新增中国/香港经营IPO，留待回扫。"
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing Results": "https://www.csrc.gov.cn/csrc/c105984/common_list.shtml",
+    "SEC EDGAR Daily Index 2026 Q4": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR4/"
+  }
+}
