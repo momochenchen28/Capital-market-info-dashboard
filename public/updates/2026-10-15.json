@@ -1,0 +1,118 @@
+{
+  "generatedAt": "2026-10-16T01:30:00.000Z",
+  "dailyReports": {
+    "2026-10-15": {
+      "date": "2026-10-15",
+      "title": "资本市场快报",
+      "reportType": "briefing",
+      "edition": "09:30早盘快报（自然日回扫）",
+      "subtitle": "港股交易日；公司类IPO新挂牌=1（传音控股）；HKEX AP/PHIP、证监会及SEC按自然日回扫。",
+      "isTradingDay": true,
+      "lastVerifiedAt": "2026-10-16T01:30:00.000Z",
+      "backscanRange": {
+        "from": "2026-10-15",
+        "to": "2026-10-16"
+      },
+      "statusNote": "10/15为港股交易日；HKEX Newly Listed Securities确认传音控股（02636）主板公司类IPO新挂牌。其余同日证券为供股权、每手股数变更、股份合并或衍生权证，已按口径排除。",
+      "archiveNotice": "无新增事件类别由前端显示统一空状态，不创建占位公司卡。",
+      "metrics": {
+        "hkexNewListings": 1,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "deals": [
+        {
+          "id": "hkex-listing-02636-20261015",
+          "section": "港股新股",
+          "eventType": "hkexIpoListing",
+          "countInMetrics": true,
+          "company": "深圳传音控股股份有限公司",
+          "companyEn": "Shenzhen Transsion Holdings Co., Ltd.",
+          "stockCode": "02636",
+          "status": "新挂牌",
+          "documentType": "New Listing",
+          "sector": "智能终端及移动互联网",
+          "businessSummary": "面向新兴市场提供智能手机、数码配件、家用电器、储能及移动互联网服务。",
+          "ipo": {
+            "offerPrice": "HK$35.30",
+            "sharesOffered": "86,648,300股H股",
+            "publicOffer": "认购4.46倍（13,981份有效申请）",
+            "internationalOffer": "认购2.55倍（51名承配人）",
+            "cornerstoneInvestors": "GIC、易方达基金/易方达香港、Golden Link、Millennium、Brilliance、CloudAlpha Capital、BOC Wealth、LONGSYS、Digimoc、HOSIN HK及KEYSIDA；合计35,282,900股（40.72%）"
+          },
+          "intermediaries": "中信证券（香港）（独家保荐人及保荐人兼整体协调人）；整体协调人/联席全球协调人包括摩根大通、中金公司、海通国际、德意志银行、交银国际、民银资本、广发证券及大和资本市场；联席账簿管理人另包括富途及老虎证券。",
+          "timeline": [
+            "2026-06-18：首次递交上市申请（HKEX AP）",
+            "上市聆讯：公开AP/PHIP页面未载明精确日期，待HKEX公开文件进一步核验",
+            "2026-10-07：招股书刊发及公开发售开始",
+            "2026-10-12：香港公开发售截止",
+            "2026-10-13：厘定最终发售价HK$35.30",
+            "2026-10-14：最终发售价及配发结果公告",
+            "2026-10-15：HKEX主板挂牌"
+          ],
+          "marketPerformance": {
+            "openPrice": "待官方行情源复核",
+            "closePrice": "待官方行情源复核",
+            "changePct": "待官方行情源复核"
+          },
+          "links": [
+            {
+              "label": "HKEX Newly Listed Securities",
+              "url": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en"
+            },
+            {
+              "label": "HKEX New Listing Information",
+              "url": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en"
+            },
+            {
+              "label": "HKEX Global Offering Prospectus",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1007/2026100700096.htm"
+            },
+            {
+              "label": "HKEX Allotment Results",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1014/2026101401159.pdf"
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "HKEX Newly Listed Securities（10/15）确认传音控股（02636）为公司类IPO新挂牌；已从HKEX招股书及配发结果公告补齐发行与配售资料。",
+        "HKEX AP-only/AP+PHIP结构化JSON在本运行环境受访问限制；AP与PHIP均为已验证新增计数0，留待逐自然日回扫。",
+        "证监会单家公司境外发行上市备案通知书栏目未能完整读取；csrcCount=0仅为已验证新增通知书计数，补充材料公示和备案情况表不计入该指标。",
+        "SEC EDGAR Q4日索引官方目录目前可见至10/09；10/15未确认新增中国/香港经营IPO，留待回扫。"
+      ],
+      "officialSourceChecks": [
+        {
+          "source": "HKEX Newly Listed Securities / New Listing Information",
+          "dateRange": "2026-10-15",
+          "result": "已核对；传音控股（02636）为公司类IPO新挂牌；同日其他记录已按证券类型及公司行动口径排除。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-10-15",
+          "result": "官方结构化端点在本运行环境受访问限制；AP与PHIP为已验证新增计数0，留待逐自然日回扫。"
+        },
+        {
+          "source": "CSRC official overseas filing pages",
+          "dateRange": "2026-10-15",
+          "result": "csrcCount仅计单家公司新增备案通知书；栏目未完整读取，本次已验证计数为0。"
+        },
+        {
+          "source": "SEC EDGAR daily-index / EFTS",
+          "dateRange": "2026-10-15",
+          "result": "Q4官方目录目前可见至10/09；本次未确认新增中国/香港经营IPO，留待回扫。"
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing Results": "https://www.csrc.gov.cn/csrc/c105984/common_list.shtml",
+    "SEC EDGAR Daily Index 2026 Q4": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR4/"
+  }
+}
