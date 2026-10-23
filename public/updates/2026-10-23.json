@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2026-10-23T01:31:52.000Z",
+  "dailyReports": {
+    "2026-10-23": {
+      "date": "2026-10-23",
+      "title": "资本市场快报",
+      "reportType": "briefing",
+      "edition": "09:30早盘快报（自然日回扫）",
+      "subtitle": "港股交易日；公司类IPO新挂牌=0；HKEX AP/PHIP、证监会及SEC按自然日回扫。",
+      "isTradingDay": true,
+      "lastVerifiedAt": "2026-10-23T01:31:52.000Z",
+      "backscanRange": {
+        "from": "2026-10-22",
+        "to": "2026-10-23"
+      },
+      "statusNote": "10/23为港股交易日。截至09:30，HKEX Newly Listed Securities所列当日条目均以星号标注为暂定日期，且为ETF、衍生品或公司行动；未确认公司类IPO实际开始交易。",
+      "archiveNotice": "无新增事件类别由前端显示统一空状态，不创建占位公司卡。",
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "deals": [],
+      "observations": [
+        "回扫10/22至10/23全部自然日；10/22既有日报已归档。本次未确认应以10/22或10/23单独归档的新增公司类IPO挂牌或单家公司境外发行上市备案通知书。",
+        "HKEX Newly Listed Securities已核对：10/23条目均标注为暂定日期；A VP PCB及CUAM CNGBL SEMI为ETF，CINDA20为衍生品，TR INTERIORS为股份合并，均不计入公司IPO新挂牌。",
+        "HKEX AP-only及AP+PHIP英文/中文结构化JSON均已尝试读取；运行环境不能取得可检查的完整原始app数组，故未把不可验证记录计入。AP与PHIP分开展示，均为0，且无对应公司明细。",
+        "证监会境外上市类官方页已核对；未发现归属10/22或10/23的单家公司《境外发行上市备案通知书》。补充材料公示及备案情况表即使出现，也只作监管更新展示而不计入csrcCount。",
+        "SEC EDGAR Q4官方日索引现可见至10/21；10/22及10/23日索引尚未发布。10/21主索引未在本运行中解析为新增中国/香港经营IPO，后续回扫。"
+      ],
+      "officialSourceChecks": [
+        {
+          "source": "HKEX calendar",
+          "dateRange": "2026-10-23",
+          "result": "已核对；10/23为港股交易日。"
+        },
+        {
+          "source": "HKEX Newly Listed Securities / New Listing Information",
+          "dateRange": "2026-10-22 to 2026-10-23",
+          "result": "已核对；10/23显示的当日条目均标注暂定，且为ETF、衍生品或股份合并，未确认公司类IPO实际开始交易。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-10-22 to 2026-10-23",
+          "result": "英文/中文AP-only及AP+PHIP端点均已尝试；运行环境未提供可检查的完整原始app数组。AP=0、PHIP=0为未确认计数，未生成公司明细。"
+        },
+        {
+          "source": "CSRC official overseas filing pages",
+          "dateRange": "2026-10-22 to 2026-10-23",
+          "result": "已核对境外上市类页面；未发现此区间单家公司备案通知书。csrcCount仅计该类通知书。"
+        },
+        {
+          "source": "SEC EDGAR daily-index / EFTS",
+          "dateRange": "2026-10-22 to 2026-10-23",
+          "result": "Q4目录当前可见至10/21；10/22及10/23尚无日索引。10/21主索引未在本运行中解析为新增中国/香港经营IPO，留待回扫。"
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Calendar": "https://www.hkex.com.hk/news/hkex-calendar?sc_lang=en",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing Results": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "SEC EDGAR Daily Index 2026 Q4": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR4/"
+  }
+}
