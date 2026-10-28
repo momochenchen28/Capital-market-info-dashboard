@@ -1,0 +1,126 @@
+{
+  "generatedAt": "2026-10-28T01:30:00.000Z",
+  "dailyReports": {
+    "2026-10-28": {
+      "date": "2026-10-28",
+      "title": "资本市场快报",
+      "reportType": "briefing",
+      "edition": "09:30早盘快报（自然日回扫）",
+      "subtitle": "港股交易日；公司类IPO新挂牌=1（东山精密）；HKEX AP/PHIP、证监会及SEC按自然日回扫。",
+      "isTradingDay": true,
+      "lastVerifiedAt": "2026-10-28T01:30:00.000Z",
+      "backscanRange": {
+        "from": "2026-10-27",
+        "to": "2026-10-28"
+      },
+      "statusNote": "10/28为港股交易日。HKEX Newly Listed Securities将东山精密（02384，DSBJ）列作公司类新上市，标注为暂定挂牌日；HKEX配发结果公告载明在条件达成时于09:00开始买卖。",
+      "archiveNotice": "无新增事件类别由前端显示统一空状态，不创建占位公司卡。",
+      "metrics": {
+        "hkexNewListings": 1,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "deals": [
+        {
+          "id": "hkex-listing-02384-20261028",
+          "section": "港股新股",
+          "eventType": "hkexIpoListing",
+          "countInMetrics": true,
+          "company": "苏州东山精密制造股份有限公司",
+          "companyEn": "Suzhou Dongshan Precision Manufacturing Co., Ltd.",
+          "stockCode": "02384",
+          "status": "新挂牌（暂定）",
+          "documentType": "New Listing",
+          "sector": "PCB、光互连及智能制造",
+          "businessSummary": "A+H上市制造商，业务涵盖PCB、精密组件、触控面板及液晶显示模组和光模块。",
+          "ipo": {
+            "offerPrice": "HK$86.80",
+            "sharesOffered": "113,783,200股H股（不含超额配股权）",
+            "publicOffer": "认购0.52倍（4,484份有效申请；最终5,905,500股，占全球发售5.19%）",
+            "internationalOffer": "认购3.17倍（81名承配人；最终107,877,700股，占全球发售94.81%）",
+            "cornerstoneInvestors": "Aurora SF、永联投资、摩根资产管理（亚太）、Alibaba Investment、CPE Bodhi、LMR、睿远基金、Montage HK、东方资产管理、Spring River、Jane Street、晶合集成香港、保银、飞速创新、天弘基金、新华资产管理、Ghisallo、Jump Trading、一村资本及罗仲立；合计56,891,100股（占发售股份50.00%）"
+          },
+          "intermediaries": "联席保荐人：UBS Securities Hong Kong Limited、海通国际资本有限公司、广发融资（香港）有限公司及中信证券（香港）有限公司；稳定价格操作人：UBS AG Hong Kong Branch。",
+          "timeline": [
+            "2026-05-19：向HKEX主板递交上市申请（公开AP）",
+            "2026-09：完成上市聆讯（以最终招股书及HKEX新上市文件为准）",
+            "2026-10-20：招股书刊发及公开发售开始",
+            "2026-10-23：香港公开发售截止",
+            "2026-10-27：厘定最终发售价HK$86.80并刊发配发结果公告",
+            "2026-10-28：HKEX主板暂定挂牌；公告指在条件达成时09:00开始买卖"
+          ],
+          "marketPerformance": {
+            "openPrice": "待开盘后官方行情源复核",
+            "closePrice": "待收盘后官方行情源复核",
+            "changePct": "待开盘后官方行情源复核"
+          },
+          "links": [
+            {
+              "label": "HKEX Newly Listed Securities",
+              "url": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en"
+            },
+            {
+              "label": "HKEX New Listing Information",
+              "url": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en"
+            },
+            {
+              "label": "HKEX Global Offering Prospectus",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1020/2026102000060.htm"
+            },
+            {
+              "label": "HKEX Allotment Results",
+              "url": "https://www.iporesults.hkex.com.hk/listedco/listconews/sehk/2026/1027/2026102701391.pdf"
+            }
+          ]
+        }
+      ],
+      "apApplications": [],
+      "observations": [
+        "回扫10/27至10/28全部自然日；10/27既有日报已归档。未发现10/27须补建的单独官方事件。",
+        "HKEX Newly Listed Securities和New Listing Information确认东山精密（02384）为10/28公司类新上市；同日其余记录为股份合并、买卖单位变更及结构性产品，均不计入公司IPO新挂牌。",
+        "已依据HKEX招股书和配发结果公告补齐发行价、发售股份数、公开发售及国际配售认购、基石投资者、主要中介和申请/招股/配发/上市时间线；开盘和收盘表现待官方行情复核。",
+        "HKEX AP-only及AP+PHIP结构化JSON英文/中文端点均已尝试读取；运行环境未提供可检查的完整原始app数组。apApplications为空；AP与PHIP均为0且以status/documentType预留独立展示口径。",
+        "证监会官方境外上市类及备案信息页已回扫；10/27—10/28未见新增单家公司《境外发行上市备案通知书》。补充材料公示和备案情况表仅作监管更新，不计入csrcCount。",
+        "SEC EDGAR Q4官方日索引目录此前可见至10/22；10/23、10/26、10/27及10/28日索引截至早盘未确认可用，故本次未确认新增中国/香港经营IPO，后续回扫。"
+      ],
+      "officialSourceChecks": [
+        {
+          "source": "HKEX calendar",
+          "dateRange": "2026-10-28",
+          "result": "已核对；10/28为港股交易日。"
+        },
+        {
+          "source": "HKEX Newly Listed Securities / New Listing Information",
+          "dateRange": "2026-10-27 to 2026-10-28",
+          "result": "已核对；东山精密（02384）列为10/28暂定公司类新上市，且HKEX新上市资料页、招股书及配发结果公告均可查。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-10-27 to 2026-10-28",
+          "result": "英文/中文AP-only及AP+PHIP端点均已尝试；运行环境未提供可检查的完整原始app数组。apApplications=[]；AP=0、PHIP=0为未确认计数，未生成公司明细。"
+        },
+        {
+          "source": "CSRC official overseas filing pages",
+          "dateRange": "2026-10-27 to 2026-10-28",
+          "result": "已回扫境外上市类及备案信息页；未发现此区间单家公司备案通知书。csrcCount仅计该类通知书。"
+        },
+        {
+          "source": "SEC EDGAR daily-index / EFTS",
+          "dateRange": "2026-10-27 to 2026-10-28",
+          "result": "Q4官方日索引尚未确认覆盖至本回扫区间；本次未确认新增中国/香港经营IPO，留待后续回扫。"
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Calendar": "https://www.hkex.com.hk/news/hkex-calendar?sc_lang=en",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing Results": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "SEC EDGAR Daily Index 2026 Q4": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR4/"
+  }
+}
