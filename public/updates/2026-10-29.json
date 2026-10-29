@@ -1,0 +1,72 @@
+{
+  "generatedAt": "2026-10-29T01:30:00.000Z",
+  "dailyReports": {
+    "2026-10-29": {
+      "date": "2026-10-29",
+      "title": "资本市场快报",
+      "reportType": "briefing",
+      "edition": "09:30早盘快报（自然日回扫）",
+      "subtitle": "港股交易日；未确认公司类IPO新挂牌；HKEX AP/PHIP、证监会及SEC按自然日回扫。",
+      "isTradingDay": true,
+      "lastVerifiedAt": "2026-10-29T01:30:00.000Z",
+      "backscanRange": {
+        "from": "2026-10-28",
+        "to": "2026-10-29"
+      },
+      "statusNote": "10/29为港股交易日。HKEX Newly Listed Securities当前两周清单最新公司类IPO为10/28东山精密（02384）；截至09:30未见10/29公司类IPO新挂牌记录。",
+      "archiveNotice": "无新增事件类别由前端显示统一空状态，不创建占位公司卡。",
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "deals": [],
+      "apApplications": [],
+      "observations": [
+        "回扫10/28至10/29全部自然日；10/28既有日报已归档。本次未发现须以实际自然日单独创建或更新的周末/假日官方事件。",
+        "HKEX Newly Listed Securities和New Listing Information已核对：截至09:30，当前清单未列10/29公司类IPO新挂牌。页面现有东山精密（02384）配发结果及其他待后续上市资料，不将其误计为10/29事件。",
+        "HKEX AP-only及AP+PHIP结构化JSON英文/中文端点均已尝试读取；运行环境未提供可检查的完整原始app数组。apApplications为空；AP与PHIP分别以status/documentType预留独立展示口径，均不编造公司记录。",
+        "证监会境外上市类官方列表已回扫；公开列表最新相关监管更新为10/23补充材料要求，未见10/28—10/29新增单家公司《境外发行上市备案通知书》。补充材料和备案情况表不计入csrcCount。",
+        "SEC EDGAR Q4官方目录已确认日索引覆盖至10/27；10/28—10/29截至早盘尚未见对应日索引。23、26、27日索引可用但本轮无法从原始索引中完成中国/香港经营IPO分类，未计入新增，后续继续回扫。"
+      ],
+      "officialSourceChecks": [
+        {
+          "source": "HKEX calendar",
+          "dateRange": "2026-10-29",
+          "result": "已核对；10/29为港股交易日。"
+        },
+        {
+          "source": "HKEX Newly Listed Securities / New Listing Information",
+          "dateRange": "2026-10-28 to 2026-10-29",
+          "result": "已核对；当前两周清单未见10/29公司类IPO新挂牌；新上市资料页可见02384等既有或待后续上市资料。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-10-28 to 2026-10-29",
+          "result": "英文/中文AP-only及AP+PHIP端点均已尝试；运行环境未提供可检查的完整原始app数组。apApplications=[]；AP=0、PHIP=0为未确认计数，未生成公司明细。"
+        },
+        {
+          "source": "CSRC official overseas filing pages",
+          "dateRange": "2026-10-28 to 2026-10-29",
+          "result": "已回扫境外上市类及备案信息页；未发现此区间单家公司备案通知书。csrcCount仅计该类通知书。"
+        },
+        {
+          "source": "SEC EDGAR daily-index / EFTS",
+          "dateRange": "2026-10-23 to 2026-10-29",
+          "result": "Q4官方目录已确认company/master日索引至10/27；10/28—10/29截至早盘尚未确认可用。已公开索引未在本轮形成可核验的中国/香港经营IPO新增记录。"
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Calendar": "https://www.hkex.com.hk/news/hkex-calendar?sc_lang=en",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing Results": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "SEC EDGAR Daily Index 2026 Q4": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR4/"
+  }
+}
