@@ -1,0 +1,115 @@
+{
+  "generatedAt": "2026-11-04T01:30:00.000Z",
+  "dailyReports": {
+    "2026-11-02": {
+      "date": "2026-11-02",
+      "title": "资本市场快报",
+      "reportType": "briefing",
+      "edition": "09:30早盘快报（自然日回扫）",
+      "subtitle": "港股交易日；SEC 录得 1 家中国境内经营发行人 F-1；HKEX 未见公司类 IPO 新挂牌。",
+      "isTradingDay": true,
+      "lastVerifiedAt": "2026-11-04T01:30:00.000Z",
+      "backscanRange": {
+        "from": "2026-10-31",
+        "to": "2026-11-04"
+      },
+      "statusNote": "11/02为港股交易日。HKEX Newly Listed Securities仅见债务证券新上市及并股，未见公司类IPO首日上市；SEC EDGAR 20261102 日索引显示 Eastern International Ltd. 提交F-1，其主要经营活动在中国杭州，计入中概IPO文件更新。",
+      "archiveNotice": "按实际自然日回扫归档；无新增事件类别由前端显示统一空状态，不创建占位公司卡。",
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 1
+      },
+      "deals": [
+        {
+          "id": "sec-china-ipo-filings-20261102",
+          "section": "美股中概 IPO",
+          "type": "SEC EDGAR IPO 文件更新",
+          "status": "F-1 1 家",
+          "eventType": "usChinaIpoFiling",
+          "countInMetrics": true,
+          "company": {
+            "zh": "SEC EDGAR 中国相关 IPO 文件监控",
+            "en": "SEC EDGAR China-related IPO Monitor",
+            "display": "SEC EDGAR 中国相关 IPO 文件监控（2026-11-02）",
+            "exchange": "SEC EDGAR",
+            "board": "F-1 / IPO related filings"
+          },
+          "business": {
+            "sector": "美股 IPO pipeline",
+            "summary": "Eastern International Ltd. 提交 F-1；文件披露其主要经营业务由中国杭州子公司开展。",
+            "source": "SEC EDGAR official daily index and filing"
+          },
+          "metrics": {
+            "usChinaIpoCount": 1
+          },
+          "secFilings": [
+            {
+              "company": "Eastern International Ltd.",
+              "cik": "0002013320",
+              "form": "F-1",
+              "filingDate": "2026-11-02",
+              "accessionNumber": "0001493152-26-049615",
+              "businessLocation": "Hangzhou, Zhejiang, China",
+              "sourceLinks": [
+                "SEC filing 2026-11-02 1"
+              ]
+            }
+          ],
+          "links": [
+            "SEC EDGAR Daily Index 2026 Q4",
+            "SEC filing 2026-11-02 1"
+          ]
+        }
+      ],
+      "apApplications": [],
+      "observations": [
+        "港股交易日判断：2026-11-02为周一，且不在香港公众假期内。",
+        "HKEX Newly Listed Securities回扫：当日仅见BAUHINIA系列债务证券新上市及BRIGHT FUTURE并股，非公司类IPO，hkexNewListings=0。",
+        "HKEX AP-only与AP+PHIP structured JSON（uDate=03/11/2026）按11/02文档日期筛选，NEW AP=0、PHIP=0。",
+        "证监会11/02发布2026年10月26日至10月30日证券市场快报及10月统计数据，属监管/统计更新；未见单家公司新增《境外发行上市备案通知书》，csrcCount=0。",
+        "SEC EDGAR官方20261102日索引已发布；Eastern International Ltd. F-1披露主要业务在中国杭州，usChinaIpoCount=1。"
+      ],
+      "officialSourceChecks": [
+        {
+          "source": "HKEX calendar",
+          "dateRange": "2026-11-02",
+          "result": "已核对；为港股交易日。"
+        },
+        {
+          "source": "HKEX Newly Listed Securities / New Listing Information",
+          "dateRange": "2026-11-02",
+          "result": "仅债务证券新上市及并股；未见公司类IPO新挂牌。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-11-02",
+          "result": "uDate=03/11/2026；按文档日期筛选，NEW AP=0、PHIP=0。"
+        },
+        {
+          "source": "CSRC official filing pages",
+          "dateRange": "2026-11-02",
+          "result": "发布市场快报及月度统计；未见单家公司境外发行上市备案通知书，csrcCount=0。"
+        },
+        {
+          "source": "SEC EDGAR daily-index",
+          "dateRange": "2026-11-02",
+          "result": "Eastern International Ltd. F-1为中国境内经营发行人，usChinaIpoCount=1。"
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Calendar": "https://www.hkex.com.hk/news/hkex-calendar?sc_lang=en",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing Results": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "CSRC Securities Market Brief": "https://www.csrc.gov.cn/csrc/c100119/c7668423/content.shtml",
+    "SEC EDGAR Daily Index 2026 Q4": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR4/",
+    "SEC filing 2026-11-02 1": "https://www.sec.gov/Archives/edgar/data/2013320/000149315226049615/0001493152-26-049615-index.htm"
+  }
+}
