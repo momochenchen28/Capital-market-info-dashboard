@@ -1,0 +1,75 @@
+{
+  "generatedAt": "2026-11-04T01:30:00.000Z",
+  "dailyReports": {
+    "2026-11-04": {
+      "date": "2026-11-04",
+      "title": "资本市场快报",
+      "reportType": "briefing",
+      "edition": "09:30早盘快报（自然日回扫）",
+      "subtitle": "港股交易日；截至早盘未确认公司类 IPO 新挂牌；HKEX AP/PHIP、证监会及SEC已按自然日回扫。",
+      "isTradingDay": true,
+      "lastVerifiedAt": "2026-11-04T01:30:00.000Z",
+      "backscanRange": {
+        "from": "2026-10-31",
+        "to": "2026-11-04"
+      },
+      "statusNote": "11/04为港股交易日。截至09:30，HKEX Newly Listed Securities最近可用页面更新至11/03，未提供11/04公司类IPO首日上市记录；AP-only/AP+PHIP最新结构化文件uDate=03/11/2026，未出现11/04条目。",
+      "archiveNotice": "无新增事件类别由前端显示统一空状态，不创建占位公司卡。",
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "deals": [],
+      "apApplications": [],
+      "observations": [
+        "回扫2026-10-31至2026-11-04全部自然日：10/31和11/01为周末，未发现须单独建档的官方更新。",
+        "港股交易日判断：2026-11-04为周三，且不在香港公众假期内。",
+        "HKEX Newly Listed Securities / New Listing Information截至核验时最近页面更新至11/03；未提供11/04公司类IPO新挂牌记录，hkexNewListings=0。",
+        "HKEX AP-only与AP+PHIP structured JSON最新uDate=03/11/2026；按11/04筛选无条目，NEW AP=0、PHIP=0。",
+        "证监会境外上市及备案公开列表回扫未见11/04单家公司新增《境外发行上市备案通知书》，csrcCount=0。",
+        "SEC EDGAR Q4官方目录截至本轮仅可见20261102日索引；11/03—11/04尚无可核验日索引，usChinaIpoCount=0待后续回扫。"
+      ],
+      "officialSourceChecks": [
+        {
+          "source": "HKEX calendar",
+          "dateRange": "2026-11-04",
+          "result": "已核对；为港股交易日。"
+        },
+        {
+          "source": "HKEX Newly Listed Securities / New Listing Information",
+          "dateRange": "2026-11-04",
+          "result": "早盘最近可用页面更新至11/03；未提供11/04公司类IPO新挂牌记录。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-11-04",
+          "result": "最新uDate=03/11/2026；11/04无条目，NEW AP=0、PHIP=0。"
+        },
+        {
+          "source": "CSRC official filing pages",
+          "dateRange": "2026-11-04",
+          "result": "未见单家公司境外发行上市备案通知书，csrcCount=0。"
+        },
+        {
+          "source": "SEC EDGAR daily-index",
+          "dateRange": "2026-11-03 to 2026-11-04",
+          "result": "截至核验时官方Q4目录仅至20261102；后续流程应继续回扫。"
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Calendar": "https://www.hkex.com.hk/news/hkex-calendar?sc_lang=en",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing Results": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "CSRC Securities Market Brief": "https://www.csrc.gov.cn/csrc/c100119/c7668423/content.shtml",
+    "SEC EDGAR Daily Index 2026 Q4": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR4/",
+    "SEC filing 2026-11-02 1": "https://www.sec.gov/Archives/edgar/data/2013320/000149315226049615/0001493152-26-049615-index.htm"
+  }
+}
