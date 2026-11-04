@@ -1,0 +1,87 @@
+{
+  "generatedAt": "2026-11-04T01:30:00.000Z",
+  "dailyReports": {
+    "2026-11-03": {
+      "date": "2026-11-03",
+      "title": "资本市场快报",
+      "reportType": "briefing",
+      "edition": "09:30早盘快报（自然日回扫）",
+      "subtitle": "港股交易日；HKEX AP-only 披露 1 项既有申请文件更新；无公司类 IPO 新挂牌。",
+      "isTradingDay": true,
+      "lastVerifiedAt": "2026-11-04T01:30:00.000Z",
+      "backscanRange": {
+        "from": "2026-10-31",
+        "to": "2026-11-04"
+      },
+      "statusNote": "11/03为港股交易日。HKEX AP-only JSON新增CSG Smart Science & Technology Co., Ltd.的修订整体协调人委任公告；该公司首次申请证明书日期为10/22，故本次作为既有AP文件更新展示，不计入NEW AP。",
+      "archiveNotice": "AP与PHIP统一置于apApplications[]，以status/documentType区分；无新增事件类别不创建占位公司卡。",
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "deals": [],
+      "apApplications": [
+        {
+          "id": "108966-20261103",
+          "company": "CSG Smart Science & Technology Co., Ltd.",
+          "status": "AP 文件更新",
+          "documentType": "OC Announcement - Appointment (Revised)",
+          "filingDate": "2026-11-03",
+          "initialApplicationDate": "2026-10-22",
+          "source": "HKEX AP-only structured JSON",
+          "sourceLinks": [
+            "HKEX AP structured JSON"
+          ]
+        }
+      ],
+      "observations": [
+        "港股交易日判断：2026-11-03为周二，且不在香港公众假期内。",
+        "HKEX Newly Listed Securities回扫：仅见SPD BK N2911-R债务证券新上市，非公司类IPO，hkexNewListings=0。",
+        "HKEX AP-only JSON（uDate=03/11/2026）命中CSG Smart Science & Technology Co., Ltd.的OC Announcement - Appointment (Revised)；其Application Proof (1st submission)为10/22，故不计NEW AP。AP+PHIP JSON同日PHIP=0。",
+        "证监会境外上市及备案公开列表回扫未见11/03单家公司新增《境外发行上市备案通知书》，csrcCount=0。",
+        "SEC EDGAR Q4官方目录截至本轮仅可见20261102日索引；11/03尚无可核验索引，usChinaIpoCount=0待后续回扫。"
+      ],
+      "officialSourceChecks": [
+        {
+          "source": "HKEX calendar",
+          "dateRange": "2026-11-03",
+          "result": "已核对；为港股交易日。"
+        },
+        {
+          "source": "HKEX Newly Listed Securities / New Listing Information",
+          "dateRange": "2026-11-03",
+          "result": "仅债务证券新上市；未见公司类IPO新挂牌。"
+        },
+        {
+          "source": "HKEX AP-only / AP+PHIP structured JSON",
+          "dateRange": "2026-11-03",
+          "result": "AP-only命中1项既有申请的修订OC公告，NEW AP=0；AP+PHIP PHIP=0。"
+        },
+        {
+          "source": "CSRC official filing pages",
+          "dateRange": "2026-11-03",
+          "result": "未见单家公司境外发行上市备案通知书，csrcCount=0。"
+        },
+        {
+          "source": "SEC EDGAR daily-index",
+          "dateRange": "2026-11-03",
+          "result": "截至核验时官方Q4目录未提供本日索引，留待后续回扫。"
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Calendar": "https://www.hkex.com.hk/news/hkex-calendar?sc_lang=en",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing Results": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "CSRC Securities Market Brief": "https://www.csrc.gov.cn/csrc/c100119/c7668423/content.shtml",
+    "SEC EDGAR Daily Index 2026 Q4": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR4/",
+    "SEC filing 2026-11-02 1": "https://www.sec.gov/Archives/edgar/data/2013320/000149315226049615/0001493152-26-049615-index.htm"
+  }
+}
