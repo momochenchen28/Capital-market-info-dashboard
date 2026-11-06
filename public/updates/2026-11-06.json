@@ -1,0 +1,106 @@
+{
+  "generatedAt": "2026-11-06T01:34:19Z",
+  "dailyReports": {
+    "2026-11-06": {
+      "date": "2026-11-06",
+      "title": "资本市场快报",
+      "reportType": "briefing",
+      "edition": "09:30早盘快报（自然日回扫）",
+      "subtitle": "港股交易日；未发现公司IPO新挂牌、NEW AP、PHIP或单家公司新增备案通知；SEC分类仍待复核。",
+      "isTradingDay": true,
+      "lastVerifiedAt": "2026-11-06T01:34:19Z",
+      "cutoffAt": "2026-11-06T01:34:19Z",
+      "backscanRange": {
+        "from": "2026-11-04",
+        "to": "2026-11-06"
+      },
+      "statusNote": "2026-11-06为港股交易日。已按实际自然日核查官方披露；HKEX AP/PHIP最新文件日期仍为11/03。SEC日索引正文读取受限，美股中概计数为已核实事件数0，不能视为穷尽确认无事件。",
+      "archiveNotice": "无新增事件类别统一由前端显示“该类别当日暂无新增事件”，不创建占位公司卡。SEC未完成分类的披露继续回扫。",
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "deals": [],
+      "apApplications": [],
+      "regulatoryUpdates": [],
+      "observations": [
+        "本轮逐日回扫2026-11-04至2026-11-06，包含上次早盘尚未完成覆盖的11/04；三日均为工作日且香港政府2026假期表无11月假期。",
+        "HKEX的11/06暂定条目为绿色电能集团供股权、嘉实科创芯片ETF双币柜台、浙江联合投资股份合并，均不属于公司IPO首日挂牌；远信储能09621预期11/09上市，不提前计入。",
+        "已交叉核查HKEX New Listing Information；本日没有公司IPO首日挂牌，故不存在需补齐发行价、认购、基石、中介及上市时间线的当日新股卡。",
+        "AP：AP-only中英文JSON均成功解析；最新uDate=03/11/2026，按申请人及文档实际发布日期筛选11/04—11/06均无条目，NEW AP=0。",
+        "PHIP：AP+PHIP中英文JSON均成功解析；最新uDate=03/11/2026，按文档实际发布日期筛选11/04—11/06均无条目，PHIP=0。AP和PHIP分别核查；后续明细统一置于apApplications[]并用status/documentType区分。",
+        "证监会结果公示真实JSON列表最新发布日期为10/30，补充材料栏目亦最新10/30；未见11/04—11/06单家公司新增《境外发行上市备案通知书》，csrcCount=0。备案情况表及补充材料公示只作为监管更新展示，不计入csrcCount。",
+        "SEC EDGAR Q4官方目录目前列有11/03与11/04日索引，尚未列11/05和11/06。11/03—11/04索引正文因HTTP 403/工具不支持octet-stream未完成发行人及中国业务分类；usChinaIpoCount=0仅代表已核实事件，后续须重扫这些日期，不将事件归入下一交易日。"
+      ],
+      "officialSourceChecks": [
+        {
+          "source": "HK calendar / government holiday list",
+          "dateRange": "2026-11-04 to 2026-11-06",
+          "status": "verified",
+          "result": "周三至周五，假期表无11月假期；均为港股交易日。"
+        },
+        {
+          "source": "HKEX Newly Listed Securities / New Listing Information",
+          "dateRange": "2026-11-06",
+          "status": "verified",
+          "result": "HKEX的11/06暂定条目为绿色电能集团供股权、嘉实科创芯片ETF双币柜台、浙江联合投资股份合并，均不属于公司IPO首日挂牌；远信储能09621预期11/09上市，不提前计入。"
+        },
+        {
+          "source": "HKEX AP-only structured JSON (EN/CN)",
+          "dateRange": "2026-11-04 to 2026-11-06",
+          "status": "verified",
+          "feedUpdatedDate": "2026-11-03",
+          "result": "AP-only英文336申请人；双语原始JSON已解析；区间内申请及文档日期匹配0。"
+        },
+        {
+          "source": "HKEX AP+PHIP structured JSON (EN/CN)",
+          "dateRange": "2026-11-04 to 2026-11-06",
+          "status": "verified",
+          "feedUpdatedDate": "2026-11-03",
+          "result": "英文21申请人；双语原始JSON已解析；区间内文档日期匹配0。"
+        },
+        {
+          "source": "CSRC filing results JSON / supplementary materials",
+          "dateRange": "2026-11-04 to 2026-11-06",
+          "status": "verified",
+          "result": "结果公示JSON首条2026-10-30 17:45:54；补充材料最新10/30；未见区间内目标文件。"
+        },
+        {
+          "source": "SEC EDGAR daily-index",
+          "dateRange": "2026-11-03 to 2026-11-06",
+          "status": "partial",
+          "result": "目录最新11/04；11/03—11/04正文读取受限，11/05—11/06目录未见。分类未完成，不认定穷尽无事件。"
+        }
+      ],
+      "pendingVerification": [
+        {
+          "source": "SEC EDGAR",
+          "dates": [
+            "2026-11-03",
+            "2026-11-04",
+            "2026-11-05",
+            "2026-11-06"
+          ],
+          "reason": "11/03—11/04正文受限；11/05—11/06日索引尚未在目录出现。按SEC实际披露日期补回原日期。"
+        }
+      ]
+    }
+  },
+  "linkMap": {
+    "HKEX Calendar": "https://www.hkex.com.hk/news/hkex-calendar?sc_lang=en",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Filing Results": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
+    "SEC EDGAR Daily Index 2026 Q4": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR4/",
+    "HK Public Holidays 2026": "https://www.gov.hk/en/about/abouthk/holiday/2026.htm",
+    "CSRC Filing Results": "https://www.csrc.gov.cn/csrc/c105984/zfxxgk_zdgk.shtml",
+    "CSRC Filing Results JSON": "https://www.csrc.gov.cn/searchList/6fad680f380e411a96e88dd0a6f3f36a?_isAgg=true&_isJson=true&_pageSize=30&_template=index&_rangeTimeGte=&_channelName=&page=1",
+    "HKEX AP Chinese JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_c.json",
+    "HKEX AP/PHIP Chinese JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_c.json"
+  }
+}
