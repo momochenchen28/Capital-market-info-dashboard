@@ -1,28 +1,75 @@
 {
-  "generatedAt": "2026-11-04T01:30:00.000Z",
+  "generatedAt": "2026-11-06T01:38:45Z",
   "dailyReports": {
     "2026-11-03": {
       "date": "2026-11-03",
       "title": "资本市场快报",
       "reportType": "briefing",
       "edition": "09:30早盘快报（自然日回扫）",
-      "subtitle": "港股交易日；HKEX AP-only 披露 1 项既有申请文件更新；无公司类 IPO 新挂牌。",
+      "subtitle": "港股交易日；补录Fitness Fanatics IPO F-1/A；科大智能修订OC公告不计NEW AP。",
       "isTradingDay": true,
-      "lastVerifiedAt": "2026-11-04T01:30:00.000Z",
+      "lastVerifiedAt": "2026-11-06T01:38:45Z",
       "backscanRange": {
         "from": "2026-10-31",
         "to": "2026-11-04"
       },
-      "statusNote": "11/03为港股交易日。HKEX AP-only JSON新增CSG Smart Science & Technology Co., Ltd.的修订整体协调人委任公告；该公司首次申请证明书日期为10/22，故本次作为既有AP文件更新展示，不计入NEW AP。",
+      "statusNote": "11/03为港股交易日。HKEX AP-only JSON新增CSG Smart Science & Technology Co., Ltd.的修订整体协调人委任公告；该公司首次申请证明书日期为10/22，故本次作为既有AP文件更新展示，不计入NEW AP。 本轮回扫补录SEC于11/03公开的Fitness Fanatics Limited IPO注册修订，按11/03自然日归档。",
       "archiveNotice": "AP与PHIP统一置于apApplications[]，以status/documentType区分；无新增事件类别不创建占位公司卡。",
       "metrics": {
         "hkexNewListings": 0,
         "apNewCount": 0,
         "phipCount": 0,
         "csrcCount": 0,
-        "usChinaIpoCount": 0
+        "usChinaIpoCount": 1
       },
-      "deals": [],
+      "deals": [
+        {
+          "id": "fitness-fanatics-f1a-20261103",
+          "section": "美股中概 IPO",
+          "type": "SEC IPO注册修订 F-1/A",
+          "status": "IPO申请修订；尚未定价或上市",
+          "eventType": "usChinaIpoFiling",
+          "countInMetrics": true,
+          "company": {
+            "zh": "Fitness Fanatics Limited",
+            "en": "Fitness Fanatics Limited",
+            "display": "Fitness Fanatics Limited（拟用代码FIT）",
+            "ticker": "FIT（拟用）",
+            "exchange": "Nasdaq Capital Market（拟申请）",
+            "listingStructure": "开曼控股公司；主要在香港经营，并有内地和马来西亚子公司"
+          },
+          "business": {
+            "sector": "消费",
+            "subIndustry": "运动营养品分销及零售",
+            "summary": "通过健身房、零售及电商渠道在香港、内地和马来西亚销售运动营养产品，并提供配套营销服务。",
+            "source": "SEC F-1/A Business / Overview章节"
+          },
+          "secFilings": [
+            {
+              "company": "Fitness Fanatics Limited",
+              "cik": "0002065232",
+              "form": "F-1/A",
+              "filingDate": "2026-11-03",
+              "accessionNumber": "0001493152-26-049736",
+              "registrationNumber": "333-298340",
+              "amendmentNumber": 2,
+              "businessLocation": "Hong Kong; Mainland China; Malaysia",
+              "sourceLinks": [
+                "Fitness Fanatics F-1/A 2026-11-03"
+              ]
+            }
+          ],
+          "ipoDetails": {
+            "offerShares": "拟发售7,000,000股普通股",
+            "offerPrice": "初步区间US$4.00–6.00；尚未最终定价",
+            "listingDate": "尚未公布确定上市日期"
+          },
+          "links": [
+            "Fitness Fanatics F-1/A 2026-11-03",
+            "SEC EFTS 2026-11-03 to 2026-11-05"
+          ]
+        }
+      ],
       "apApplications": [
         {
           "id": "108966-20261103",
@@ -34,6 +81,19 @@
           "source": "HKEX AP-only structured JSON",
           "sourceLinks": [
             "HKEX AP structured JSON"
+          ],
+          "nameZh": "科大智能科技股份有限公司",
+          "nameEn": "CSG Smart Science & Technology Co., Ltd.",
+          "countInMetrics": false,
+          "sources": [
+            {
+              "label": "修订OC公告 中文全文",
+              "url": "https://www1.hkexnews.hk/app/sehk/2026/108966/documents/sehk26110301414_c.pdf"
+            },
+            {
+              "label": "修订OC公告 英文全文",
+              "url": "https://www1.hkexnews.hk/app/sehk/2026/108966/documents/sehk26110301415.pdf"
+            }
           ]
         }
       ],
@@ -42,7 +102,7 @@
         "HKEX Newly Listed Securities回扫：仅见SPD BK N2911-R债务证券新上市，非公司类IPO，hkexNewListings=0。",
         "HKEX AP-only JSON（uDate=03/11/2026）命中CSG Smart Science & Technology Co., Ltd.的OC Announcement - Appointment (Revised)；其Application Proof (1st submission)为10/22，故不计NEW AP。AP+PHIP JSON同日PHIP=0。",
         "证监会境外上市及备案公开列表回扫未见11/03单家公司新增《境外发行上市备案通知书》，csrcCount=0。",
-        "SEC EDGAR Q4官方目录截至本轮仅可见20261102日索引；11/03尚无可核验索引，usChinaIpoCount=0待后续回扫。"
+        "本轮SEC官方EFTS回扫11/03—11/05共4份F-1/A；Fitness Fanatics的11/03文件封面确认属IPO、主要在香港经营，计1家公司；其余文件未新增符合本日报口径的IPO发行人。"
       ],
       "officialSourceChecks": [
         {
@@ -66,11 +126,12 @@
           "result": "未见单家公司境外发行上市备案通知书，csrcCount=0。"
         },
         {
-          "source": "SEC EDGAR daily-index",
+          "source": "SEC official EFTS and issuer F-1/A",
           "dateRange": "2026-11-03",
-          "result": "截至核验时官方Q4目录未提供本日索引，留待后续回扫。"
+          "result": "补录Fitness Fanatics Limited IPO F-1/A，usChinaIpoCount=1；文件为第二次修订，并非已挂牌。"
         }
-      ]
+      ],
+      "additionalBackscanAt": "2026-11-06T01:38:45Z"
     }
   },
   "linkMap": {
@@ -82,6 +143,17 @@
     "CSRC Overseas Filing Results": "https://www.csrc.gov.cn/csrc/c100098/common_list.shtml",
     "CSRC Securities Market Brief": "https://www.csrc.gov.cn/csrc/c100119/c7668423/content.shtml",
     "SEC EDGAR Daily Index 2026 Q4": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR4/",
-    "SEC filing 2026-11-02 1": "https://www.sec.gov/Archives/edgar/data/2013320/000149315226049615/0001493152-26-049615-index.htm"
+    "SEC filing 2026-11-02 1": "https://www.sec.gov/Archives/edgar/data/2013320/000149315226049615/0001493152-26-049615-index.htm",
+    "HKEX 2026 Securities Market Holidays": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2025/ce_SEHK_CT_075_2025.pdf",
+    "HKEX AP 中文 JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_c.json",
+    "HKEX PHIP 中文 JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_c.json",
+    "CSRC Overseas Securities Official List": "https://www.csrc.gov.cn/csrc/c101935/zfxxgk_zdgk.shtml?channelid=8f3f0d4be56b4f8aa8183b3234b88ede",
+    "CSRC Overseas Securities JSON": "https://www.csrc.gov.cn/searchList/8f3f0d4be56b4f8aa8183b3234b88ede?_isAgg=true&_isJson=true&_pageSize=20&_template=index&page=1",
+    "SEC EFTS 2026-11-03 to 2026-11-05": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-11-03&enddt=2026-11-05&forms=F-1%2CF-1%2FA%2C424B4%2C8-A12B%2CEFFECT",
+    "SEC EFTS 2026-11-04 to 2026-11-06": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-11-04&enddt=2026-11-06&forms=F-1%2CF-1%2FA%2C424B4%2C8-A%2CEFFECT",
+    "Fitness Fanatics F-1/A 2026-11-03": "https://www.sec.gov/Archives/edgar/data/2065232/000149315226049736/formf-1a.htm",
+    "707 Cayman F-1/A 2026-11-05": "https://www.sec.gov/Archives/edgar/data/2018222/000149315226050177/formf-1a.htm",
+    "707 Cayman same registration prior amendment": "https://www.sec.gov/Archives/edgar/data/2018222/000149315226049083/formf-1a.htm",
+    "HGI STAR CHIP Prospectus": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1028/2026102800684.pdf"
   }
 }
