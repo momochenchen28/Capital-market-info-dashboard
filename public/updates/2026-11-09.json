@@ -1,0 +1,168 @@
+{
+  "generatedAt": "2026-11-09T01:30:00Z",
+  "dailyReports": {
+    "2026-11-09": {
+      "date": "2026-11-09",
+      "title": "资本市场快报",
+      "reportType": "briefing",
+      "edition": "09:30早盘快报（实际核验时间见lastVerifiedAt）",
+      "subtitle": "港股交易日；RelyEZ Energy Storage（09621）今日开始买卖；AP、PHIP及单家公司证监会备案通知书无当日新增。",
+      "isTradingDay": true,
+      "lastVerifiedAt": "2026-11-09T01:30:00Z",
+      "cutoffAt": "2026-11-09T01:30:00Z",
+      "backscanRange": {
+        "from": "2026-11-06",
+        "to": "2026-11-09"
+      },
+      "statusNote": "按官方发布自然日归档；周末11/07–11/08未检出需单独归档的官方更新。当天交易进程字段（开盘价、收盘价、涨跌幅）留待后续时点补齐。",
+      "archiveNotice": "无新增事件不创建占位公司卡，依赖前端统一显示“该类别当日暂无新增事件”。AP/PHIP均使用apApplications[]，分别以status/documentType区分。",
+      "metrics": {
+        "hkexNewListings": 1,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "deals": [
+        {
+          "id": "relyez-energy-9621-20261109",
+          "section": "港股新上市",
+          "type": "主板H股IPO",
+          "status": "今日开始买卖；交易进程待后续补齐",
+          "eventType": "hkexNewListing",
+          "countInMetrics": true,
+          "company": {
+            "zh": "深圳市远信储能技术股份有限公司",
+            "en": "RelyEZ Energy Storage Technology Co., Ltd.",
+            "display": "RelyEZ Energy Storage（09621）",
+            "ticker": "09621",
+            "exchange": "香港联合交易所主板",
+            "listingStructure": "H股"
+          },
+          "business": {
+            "sector": "新能源",
+            "subIndustry": "储能系统",
+            "summary": "综合储能系统解决方案提供商。",
+            "source": "HKEX招股书 / 配发结果公告"
+          },
+          "ipoDetails": {
+            "offerPrice": "HK$9.78/股（最终发售价）",
+            "offerShares": "57,540,500股H股",
+            "hongKongOffer": "5,754,500股；认购1,388.75倍；60,687份有效申请、11,467份成功申请",
+            "internationalOffer": "51,786,000股；97名承配人；认购1.30倍",
+            "cornerstoneInvestors": "CDH Global Frontier Ventures Limited获配3,209,500股，占发售股份5.58%",
+            "grossProceeds": "约HK$562.7百万",
+            "netProceeds": "约HK$501.7百万",
+            "listingDate": "2026-11-09"
+          },
+          "intermediaries": {
+            "soleSponsor": "CMB International Capital Limited",
+            "roles": "独家保荐人、独家保荐人兼整体协调人、整体协调人、联席全球协调人、联席账簿管理人及联席牵头经办人（以HKEX文件披露为准）"
+          },
+          "timeline": [
+            {
+              "date": "2026-01-09",
+              "event": "HKEX披露整体协调人委任公告；CMB International Capital Limited获委任。"
+            },
+            {
+              "date": "2026-08-09",
+              "event": "HKEX Application Proof首次刊登。"
+            },
+            {
+              "date": "2026-10-30",
+              "event": "招股书日期。"
+            },
+            {
+              "date": "2026-11-06",
+              "event": "最终发售价及配发结果公告。"
+            },
+            {
+              "date": "2026-11-09",
+              "event": "股份开始买卖。"
+            }
+          ],
+          "links": [
+            "RelyEZ allotment results",
+            "RelyEZ AP",
+            "RelyEZ OC announcement"
+          ]
+        }
+      ],
+      "apApplications": [],
+      "regulatoryUpdates": [],
+      "observations": [
+        "2026-11-09为周一，且不在HKEX 2026证券市场假期表中，按港股交易日处理。",
+        "HKEX新上市资料和配发结果公告确认RelyEZ Energy Storage Technology Co., Ltd.（09621）于11/09开始买卖；发行、认购、基石及中介资料已按已公开文件补齐。",
+        "HKEX AP-only及AP+PHIP英文/中文JSON均更新至09/11/2026；按自然日文档日期筛选，NEW AP=0、PHIP=0。AP和PHIP分开核验并通过status/documentType区分。",
+        "回扫11/06–11/09：11/07–11/08为周末，未见需要单独归档的HKEX、CSRC或SEC官方更新。11/06收市后发布的两份CSRC单家公司备案通知书已归入11/06文件。",
+        "SEC官方EFTS检索11/06–11/09仅返回5份11/06 F-1/A，业务地点分别为新加坡、乌兰巴托、多伦多、New Romney及Baar，未见符合本快报口径的中港发行人IPO文件。"
+      ],
+      "officialSourceChecks": [
+        {
+          "source": "HKEX 2026 securities market holiday circular",
+          "dateRange": "2026-11-09",
+          "result": "港股交易日；11月无表列证券市场公众假期。"
+        },
+        {
+          "source": "HKEX Newly Listed Securities / New Listing Information / allotment results",
+          "dateRange": "2026-11-09",
+          "sourceUpdatedAt": "2026-11-09",
+          "result": "RelyEZ Energy Storage Technology Co., Ltd.（09621）于11/09开始买卖；固定IPO资料已补齐。"
+        },
+        {
+          "source": "HKEX AP-only English and Chinese JSON",
+          "dateRange": "2026-11-06 to 2026-11-09",
+          "sourceUpdatedAt": "2026-11-09",
+          "result": "完整文档按自然日筛选无匹配NEW AP。"
+        },
+        {
+          "source": "HKEX AP+PHIP English and Chinese JSON",
+          "dateRange": "2026-11-06 to 2026-11-09",
+          "sourceUpdatedAt": "2026-11-09",
+          "result": "完整文档按自然日筛选无匹配PHIP。"
+        },
+        {
+          "source": "CSRC overseas securities official JSON and supplementary notices",
+          "dateRange": "2026-11-07 to 2026-11-09",
+          "sourceUpdatedAt": "2026-11-06",
+          "result": "最新官方条目仍为11/06；11/07–11/09未见新增单家公司备案通知书。"
+        },
+        {
+          "source": "SEC EDGAR EFTS official full-text search",
+          "dateRange": "2026-11-06 to 2026-11-09",
+          "result": "5项命中均为11/06 F-1/A，未见符合本快报口径的中港发行人IPO。"
+        }
+      ],
+      "pendingVerification": [
+        {
+          "source": "HKEX trading prices",
+          "dates": [
+            "2026-11-09"
+          ],
+          "reason": "09:30早盘快报不填入开盘价、收盘价或涨跌幅；由后续时点按官方市场数据补齐。"
+        }
+      ],
+      "coverageStatus": {
+        "hkexListings": "verified_current_page",
+        "ap": "verified_current_feed",
+        "phip": "verified_current_feed",
+        "csrc": "official_list_no_target_date_entries",
+        "sec": "official_efts_checked"
+      }
+    }
+  },
+  "linkMap": {
+    "HKEX Calendar": "https://www.hkex.com.hk/news/hkex-calendar?sc_lang=en",
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "HKEX AP Chinese JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_c.json",
+    "HKEX AP/PHIP Chinese JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_c.json",
+    "CSRC Overseas Securities JSON": "https://www.csrc.gov.cn/searchList/8f3f0d4be56b4f8aa8183b3234b88ede?_isAgg=true&_isJson=true&_pageSize=20&_template=index&page=1",
+    "SEC EDGAR EFTS 2026-11-06 to 2026-11-09": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-11-06&enddt=2026-11-09&forms=F-1%2CF-1%2FA%2C424B4%2C8-A%2CEFFECT",
+    "RelyEZ allotment results": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1106/2026110601520.pdf",
+    "RelyEZ AP": "https://www1.hkexnews.hk/app/sehk/2026/108790/2026080900115.htm",
+    "RelyEZ OC announcement": "https://www1.hkexnews.hk/app/sehk/2026/108062/documents/sehk26010901566.pdf"
+  }
+}
