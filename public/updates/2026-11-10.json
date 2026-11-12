@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-11-12T01:30:00Z",
+  "dailyReports": {
+    "2026-11-10": {
+      "date": "2026-11-10",
+      "title": "资本市场快报",
+      "reportType": "briefing",
+      "edition": "09:30早盘快报（实际核验时间见lastVerifiedAt）",
+      "subtitle": "港股交易日；芯德半导体（07672）及登临科技－P（09917）开始买卖；AP、PHIP及证监会单家公司备案通知书无当日新增。",
+      "isTradingDay": true,
+      "lastVerifiedAt": "2026-11-12T01:30:00Z",
+      "cutoffAt": "2026-11-12T01:30:00Z",
+      "backscanRange": {
+        "from": "2026-11-09",
+        "to": "2026-11-12"
+      },
+      "statusNote": "按官方发布自然日归档；无新增事件不创建占位公司卡。开盘价、收盘价及涨跌幅等交易进程字段留待后续时点补齐。",
+      "archiveNotice": "AP 与 PHIP 均使用 apApplications[]，以 status/documentType 区分；metrics 与可计数明细严格一致。",
+      "metrics": {
+        "hkexNewListings": 2,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "deals": [
+        {
+          "id": "xinde-semi-7672-20261110",
+          "section": "港股新上市",
+          "type": "主板H股IPO",
+          "status": "今日开始买卖；交易进程待后续补齐",
+          "eventType": "hkexNewListing",
+          "countInMetrics": true,
+          "company": {
+            "zh": "江苏芯德半导体科技股份有限公司",
+            "en": "Jiangsu Xinde Semiconductor Technology Co., Ltd.",
+            "display": "XINDE SEMI（07672）",
+            "ticker": "07672",
+            "exchange": "香港联合交易所主板",
+            "listingStructure": "H股"
+          },
+          "business": {
+            "sector": "半导体",
+            "subIndustry": "半导体封测",
+            "summary": "半导体技术公司。",
+            "source": "HKEX招股书 / 配发结果公告"
+          },
+          "ipoDetails": {
+            "offerPrice": "HK$8.88/股",
+            "offerShares": "106,562,500股H股",
+            "hongKongOffer": "10,656,500股；认购9.84倍；6,276份有效申请、5,588份成功申请",
+            "internationalOffer": "95,906,000股；83名承配人；认购1.13倍",
+            "cornerstoneInvestors": "GF Fund Management 13,256,000股、Guohui HK 8,837,500股、Maxwell 13,152,500股；合计35,246,000股（发售股份33.08%）",
+            "grossProceeds": "约HK$946.28百万",
+            "netProceeds": "约HK$881.62百万",
+            "listingDate": "2026-11-10"
+          },
+          "intermediaries": {
+            "roles": "独家保荐人兼整体协调人、整体协调人、联席全球协调人、联席账簿管理人及联席牵头经办人（以HKEX文件披露为准）"
+          },
+          "timeline": [
+            {
+              "date": "2026-10-30",
+              "event": "招股书日期。"
+            },
+            {
+              "date": "2026-11-09",
+              "event": "最终发售价及配发结果公告。"
+            },
+            {
+              "date": "2026-11-10",
+              "event": "股份开始买卖。"
+            }
+          ],
+          "links": [
+            "Xinde allotment results"
+          ]
+        },
+        {
+          "id": "denglin-tech-9917-20261110",
+          "section": "港股新上市",
+          "type": "主板18C特专科技公司H股IPO",
+          "status": "今日开始买卖；交易进程待后续补齐",
+          "eventType": "hkexNewListing",
+          "countInMetrics": true,
+          "company": {
+            "zh": "苏州登临科技股份有限公司",
+            "en": "Suzhou Denglin Technology Co., Ltd.",
+            "display": "DENGLIN TECH-P（09917）",
+            "ticker": "09917",
+            "exchange": "香港联合交易所主板",
+            "listingStructure": "H股（18C）"
+          },
+          "business": {
+            "sector": "半导体",
+            "subIndustry": "GPU及高性能计算芯片",
+            "summary": "特专科技公司。",
+            "source": "HKEX招股书 / 配发结果公告"
+          },
+          "ipoDetails": {
+            "offerPrice": "HK$231.00/股",
+            "offerShares": "6,125,000股H股（可超额配售）",
+            "hongKongOffer": "306,250股",
+            "internationalOffer": "5,818,750股（可超额配售）",
+            "cornerstoneInvestors": "Hua Yuan 1,516,450股、Sky Giant 1,000,875股、Chinese Consortium 151,625股、ZGD Capital 67,925股、Everbright Wealth Management 61,150股；合计2,798,025股（发售股份45.68%）",
+            "grossProceeds": "约HK$1,414.9百万",
+            "netProceeds": "约HK$1,312.4百万",
+            "listingDate": "2026-11-10"
+          },
+          "intermediaries": {
+            "roles": "联席保荐人、整体协调人、联席全球协调人、联席账簿管理人及联席牵头经办人（以HKEX文件披露为准）"
+          },
+          "timeline": [
+            {
+              "date": "2026-10-30",
+              "event": "招股书日期。"
+            },
+            {
+              "date": "2026-11-09",
+              "event": "最终发售价及配发结果公告。"
+            },
+            {
+              "date": "2026-11-10",
+              "event": "股份开始买卖。"
+            }
+          ],
+          "links": [
+            "Denglin allotment results"
+          ]
+        }
+      ],
+      "apApplications": [],
+      "regulatoryUpdates": [],
+      "observations": [
+        "10/11为港股交易日。HKEX新增列表中的07772为交易所买卖产品、85510为债务证券，均不作为公司IPO计数。",
+        "AP-only官方源uDate=12/11/2026，10–12/11无新增AP；AP+PHIP同源于11/11披露1份PHIP，归属11/11。",
+        "CSRC最新结构化公开条目仍为11/06，10–12/11未见单家公司备案通知书；SEC EFTS对应范围无命中。"
+      ],
+      "officialSourceChecks": [
+        {
+          "source": "HKEX Newly Listed Securities / New Listing Information / allotment results",
+          "dateRange": "2026-11-10",
+          "sourceUpdatedAt": "2026-11-11",
+          "result": "07672、09917于11/10开始买卖；07772为交易所买卖产品，85510为债务证券，均不计公司IPO。"
+        },
+        {
+          "source": "HKEX AP-only English JSON",
+          "dateRange": "2026-11-10 to 2026-11-12",
+          "sourceUpdatedAt": "2026-11-12",
+          "applicantCountPerLanguage": 331,
+          "result": "按文件自然日筛选，无10–12/11新增 AP。"
+        },
+        {
+          "source": "HKEX AP+PHIP English JSON",
+          "dateRange": "2026-11-10 to 2026-11-12",
+          "sourceUpdatedAt": "2026-11-12",
+          "applicantCountPerLanguage": 16,
+          "result": "11/11有1份 PHIP 首次提交；以 apApplications[] 的 status/documentType 区分。"
+        },
+        {
+          "source": "CSRC overseas securities official JSON",
+          "dateRange": "2026-11-10 to 2026-11-12",
+          "sourceUpdatedAt": "2026-11-06",
+          "result": "未见当日单家公司《境外发行上市备案通知书》；csrcCount=0。"
+        },
+        {
+          "source": "SEC EDGAR EFTS official full-text search",
+          "dateRange": "2026-11-10 to 2026-11-12",
+          "result": "官方检索 F-1、F-1/A、424B4、8-A、EFFECT 未返回命中；未新增符合本快报口径的中港发行人 IPO 文件。"
+        }
+      ],
+      "pendingVerification": [
+        {
+          "source": "HKEX trading prices",
+          "dates": [
+            "2026-11-10"
+          ],
+          "reason": "09:30早盘快报不填入开盘价、收盘价或涨跌幅；由后续时点按官方市场数据补齐。"
+        }
+      ],
+      "coverageStatus": {
+        "hkexListings": "verified_current_page",
+        "ap": "verified_current_feed",
+        "phip": "verified_current_feed",
+        "csrc": "official_list_no_target_date_entries",
+        "sec": "official_efts_checked"
+      }
+    }
+  },
+  "linkMap": {
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Securities JSON": "https://www.csrc.gov.cn/searchList/8f3f0d4be56b4f8aa8183b3234b88ede?_isAgg=true&_isJson=true&_pageSize=50&_template=index&page=1",
+    "SEC EDGAR EFTS 2026-11-10 to 2026-11-12": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-11-10&enddt=2026-11-12&forms=F-1%2CF-1%2FA%2C424B4%2C8-A%2CEFFECT",
+    "Xinde allotment results": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1109/2026110901273.pdf",
+    "Denglin allotment results": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1109/2026110901211.pdf",
+    "Neautus allotment results": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1110/2026111000975.pdf",
+    "Kazakhstan Temir Zholy PHIP": "https://www1.hkexnews.hk/app/sehk/2026/108706/2026111101187.htm"
+  }
+}
