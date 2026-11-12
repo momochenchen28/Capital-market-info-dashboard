@@ -1,0 +1,166 @@
+{
+  "generatedAt": "2026-11-12T01:30:00Z",
+  "dailyReports": {
+    "2026-11-11": {
+      "date": "2026-11-11",
+      "title": "资本市场快报",
+      "reportType": "briefing",
+      "edition": "09:30早盘快报（实际核验时间见lastVerifiedAt）",
+      "subtitle": "港股交易日；四川新荷花中药饮片（02206）开始买卖；HKEX PHIP新增1份。",
+      "isTradingDay": true,
+      "lastVerifiedAt": "2026-11-12T01:30:00Z",
+      "cutoffAt": "2026-11-12T01:30:00Z",
+      "backscanRange": {
+        "from": "2026-11-09",
+        "to": "2026-11-12"
+      },
+      "statusNote": "按官方发布自然日归档；无新增事件不创建占位公司卡。开盘价、收盘价及涨跌幅等交易进程字段留待后续时点补齐。",
+      "archiveNotice": "AP 与 PHIP 均使用 apApplications[]，以 status/documentType 区分；metrics 与可计数明细严格一致。",
+      "metrics": {
+        "hkexNewListings": 1,
+        "apNewCount": 0,
+        "phipCount": 1,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "deals": [
+        {
+          "id": "neautus-2206-20261111",
+          "section": "港股新上市",
+          "type": "主板H股IPO",
+          "status": "今日开始买卖；交易进程待后续补齐",
+          "eventType": "hkexNewListing",
+          "countInMetrics": true,
+          "company": {
+            "zh": "四川新荷花中药饮片股份有限公司",
+            "en": "Sichuan Neautus Traditional Chinese Medicine Co., Ltd.",
+            "display": "NEAUTUS（02206）",
+            "ticker": "02206",
+            "exchange": "香港联合交易所主板",
+            "listingStructure": "H股"
+          },
+          "business": {
+            "sector": "医药",
+            "subIndustry": "中药饮片",
+            "summary": "中药饮片公司。",
+            "source": "HKEX招股书 / 配发结果公告"
+          },
+          "ipoDetails": {
+            "offerPrice": "HK$40.20/股",
+            "offerShares": "6,517,300股H股",
+            "hongKongOffer": "651,750股；认购2,190.99倍；58,843份有效申请、12,729份成功申请",
+            "internationalOffer": "5,865,550股；117名承配人；认购1.25倍",
+            "cornerstoneInvestors": "配发结果公告未列示基石投资人；无基石配发披露。",
+            "grossProceeds": "约HK$262.00百万",
+            "netProceeds": "约HK$197.46百万",
+            "listingDate": "2026-11-11"
+          },
+          "intermediaries": {
+            "roles": "联席保荐人、保荐人兼整体协调人、整体协调人、联席全球协调人、联席账簿管理人及联席牵头经办人（以HKEX文件披露为准）"
+          },
+          "timeline": [
+            {
+              "date": "2026-10-30",
+              "event": "招股书日期。"
+            },
+            {
+              "date": "2026-11-10",
+              "event": "最终发售价及配发结果公告。"
+            },
+            {
+              "date": "2026-11-11",
+              "event": "股份开始买卖。"
+            }
+          ],
+          "links": [
+            "Neautus allotment results"
+          ]
+        }
+      ],
+      "apApplications": [
+        {
+          "id": "kazakhstan-temir-zholy-phip-20261111",
+          "section": "港股上市申请",
+          "eventType": "phip",
+          "countInMetrics": true,
+          "status": "A",
+          "documentType": "PHIP (1st submission)",
+          "company": {
+            "en": "Joint Stock Company National Company Kazakhstan Temir Zholy",
+            "display": "Joint Stock Company National Company Kazakhstan Temir Zholy"
+          },
+          "publishedAt": "2026-11-11",
+          "source": "HKEX AP+PHIP English JSON",
+          "url": "https://www1.hkexnews.hk/app/sehk/2026/108706/2026111101187.htm"
+        }
+      ],
+      "regulatoryUpdates": [],
+      "observations": [
+        "11/11为港股交易日。02206为唯一公司IPO新挂牌；其余同日新列表项为供股权、并股/平行买卖及债务证券，不计公司IPO。",
+        "AP-only官方源uDate=12/11/2026，未见新增AP；AP+PHIP源新增 Kazakhstan Temir Zholy 的PHIP首次提交，已单独计入phipCount。",
+        "CSRC和SEC核验结果同本次回扫范围，无新增可计数事项。"
+      ],
+      "officialSourceChecks": [
+        {
+          "source": "HKEX Newly Listed Securities / New Listing Information / allotment results",
+          "dateRange": "2026-11-11",
+          "sourceUpdatedAt": "2026-11-11",
+          "result": "02206于11/11开始买卖；其余同日条目非公司IPO。"
+        },
+        {
+          "source": "HKEX AP-only English JSON",
+          "dateRange": "2026-11-10 to 2026-11-12",
+          "sourceUpdatedAt": "2026-11-12",
+          "applicantCountPerLanguage": 331,
+          "result": "按文件自然日筛选，无10–12/11新增 AP。"
+        },
+        {
+          "source": "HKEX AP+PHIP English JSON",
+          "dateRange": "2026-11-10 to 2026-11-12",
+          "sourceUpdatedAt": "2026-11-12",
+          "applicantCountPerLanguage": 16,
+          "result": "11/11有1份 PHIP 首次提交；以 apApplications[] 的 status/documentType 区分。"
+        },
+        {
+          "source": "CSRC overseas securities official JSON",
+          "dateRange": "2026-11-10 to 2026-11-12",
+          "sourceUpdatedAt": "2026-11-06",
+          "result": "未见当日单家公司《境外发行上市备案通知书》；csrcCount=0。"
+        },
+        {
+          "source": "SEC EDGAR EFTS official full-text search",
+          "dateRange": "2026-11-10 to 2026-11-12",
+          "result": "官方检索 F-1、F-1/A、424B4、8-A、EFFECT 未返回命中；未新增符合本快报口径的中港发行人 IPO 文件。"
+        }
+      ],
+      "pendingVerification": [
+        {
+          "source": "HKEX trading prices",
+          "dates": [
+            "2026-11-11"
+          ],
+          "reason": "09:30早盘快报不填入开盘价、收盘价或涨跌幅；由后续时点按官方市场数据补齐。"
+        }
+      ],
+      "coverageStatus": {
+        "hkexListings": "verified_current_page",
+        "ap": "verified_current_feed",
+        "phip": "verified_current_feed",
+        "csrc": "official_list_no_target_date_entries",
+        "sec": "official_efts_checked"
+      }
+    }
+  },
+  "linkMap": {
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Securities JSON": "https://www.csrc.gov.cn/searchList/8f3f0d4be56b4f8aa8183b3234b88ede?_isAgg=true&_isJson=true&_pageSize=50&_template=index&page=1",
+    "SEC EDGAR EFTS 2026-11-10 to 2026-11-12": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-11-10&enddt=2026-11-12&forms=F-1%2CF-1%2FA%2C424B4%2C8-A%2CEFFECT",
+    "Xinde allotment results": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1109/2026110901273.pdf",
+    "Denglin allotment results": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1109/2026110901211.pdf",
+    "Neautus allotment results": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1110/2026111000975.pdf",
+    "Kazakhstan Temir Zholy PHIP": "https://www1.hkexnews.hk/app/sehk/2026/108706/2026111101187.htm"
+  }
+}
