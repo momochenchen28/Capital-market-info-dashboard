@@ -1,0 +1,97 @@
+{
+  "generatedAt": "2026-11-12T01:30:00Z",
+  "dailyReports": {
+    "2026-11-12": {
+      "date": "2026-11-12",
+      "title": "资本市场快报",
+      "reportType": "briefing",
+      "edition": "09:30早盘快报（实际核验时间见lastVerifiedAt）",
+      "subtitle": "港股交易日；截至09:30未有公司IPO开始买卖的确认记录；AP、PHIP及单家公司证监会备案通知书无当日新增。",
+      "isTradingDay": true,
+      "lastVerifiedAt": "2026-11-12T01:30:00Z",
+      "cutoffAt": "2026-11-12T01:30:00Z",
+      "backscanRange": {
+        "from": "2026-11-09",
+        "to": "2026-11-12"
+      },
+      "statusNote": "按官方发布自然日归档；无新增事件不创建占位公司卡。开盘价、收盘价及涨跌幅等交易进程字段留待后续时点补齐。",
+      "archiveNotice": "AP 与 PHIP 均使用 apApplications[]，以 status/documentType 区分；metrics 与可计数明细严格一致。",
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "deals": [],
+      "apApplications": [],
+      "regulatoryUpdates": [],
+      "observations": [
+        "12/11为港股交易日。HKEX新上市列表中AMICRO（02065）及HOSIN ELEC（02681）标注为暂定上市日期，09:30不提前计入新挂牌；其余交易进程字段亦待后续官方资料确认。",
+        "AP-only和AP+PHIP官方源uDate均为12/11/2026；当日未见新增AP或PHIP。",
+        "CSRC最新官方结构化条目仍为11/06；SEC EFTS 10–12/11官方检索无命中。"
+      ],
+      "officialSourceChecks": [
+        {
+          "source": "HKEX Newly Listed Securities / New Listing Information / allotment results",
+          "dateRange": "2026-11-12",
+          "sourceUpdatedAt": "2026-11-11",
+          "result": "02065及02681为暂定上市日期，09:30不提前计入；无确认公司IPO开始买卖。"
+        },
+        {
+          "source": "HKEX AP-only English JSON",
+          "dateRange": "2026-11-10 to 2026-11-12",
+          "sourceUpdatedAt": "2026-11-12",
+          "applicantCountPerLanguage": 331,
+          "result": "按文件自然日筛选，无10–12/11新增 AP。"
+        },
+        {
+          "source": "HKEX AP+PHIP English JSON",
+          "dateRange": "2026-11-10 to 2026-11-12",
+          "sourceUpdatedAt": "2026-11-12",
+          "applicantCountPerLanguage": 16,
+          "result": "11/11有1份 PHIP 首次提交；以 apApplications[] 的 status/documentType 区分。"
+        },
+        {
+          "source": "CSRC overseas securities official JSON",
+          "dateRange": "2026-11-10 to 2026-11-12",
+          "sourceUpdatedAt": "2026-11-06",
+          "result": "未见当日单家公司《境外发行上市备案通知书》；csrcCount=0。"
+        },
+        {
+          "source": "SEC EDGAR EFTS official full-text search",
+          "dateRange": "2026-11-10 to 2026-11-12",
+          "result": "官方检索 F-1、F-1/A、424B4、8-A、EFFECT 未返回命中；未新增符合本快报口径的中港发行人 IPO 文件。"
+        }
+      ],
+      "pendingVerification": [
+        {
+          "source": "HKEX trading prices",
+          "dates": [
+            "2026-11-12"
+          ],
+          "reason": "09:30早盘快报不填入开盘价、收盘价或涨跌幅；由后续时点按官方市场数据补齐。"
+        }
+      ],
+      "coverageStatus": {
+        "hkexListings": "verified_current_page",
+        "ap": "verified_current_feed",
+        "phip": "verified_current_feed",
+        "csrc": "official_list_no_target_date_entries",
+        "sec": "official_efts_checked"
+      }
+    }
+  },
+  "linkMap": {
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Securities JSON": "https://www.csrc.gov.cn/searchList/8f3f0d4be56b4f8aa8183b3234b88ede?_isAgg=true&_isJson=true&_pageSize=50&_template=index&page=1",
+    "SEC EDGAR EFTS 2026-11-10 to 2026-11-12": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-11-10&enddt=2026-11-12&forms=F-1%2CF-1%2FA%2C424B4%2C8-A%2CEFFECT",
+    "Xinde allotment results": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1109/2026110901273.pdf",
+    "Denglin allotment results": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1109/2026110901211.pdf",
+    "Neautus allotment results": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1110/2026111000975.pdf",
+    "Kazakhstan Temir Zholy PHIP": "https://www1.hkexnews.hk/app/sehk/2026/108706/2026111101187.htm"
+  }
+}
