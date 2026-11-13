@@ -1,0 +1,147 @@
+{
+  "generatedAt": "2026-11-13T01:30:00Z",
+  "dailyReports": {
+    "2026-11-13": {
+      "date": "2026-11-13",
+      "title": "资本市场快报",
+      "reportType": "briefing",
+      "edition": "09:30早盘快报（实际核验时间见lastVerifiedAt）",
+      "subtitle": "港股交易日；成都国星宇航科技（06935）开始买卖；AP、PHIP及单家公司证监会备案通知书无当日新增。",
+      "isTradingDay": true,
+      "lastVerifiedAt": "2026-11-13T01:30:00Z",
+      "cutoffAt": "2026-11-13T01:30:00Z",
+      "backscanRange": {
+        "from": "2026-11-12",
+        "to": "2026-11-13"
+      },
+      "statusNote": "按官方发布自然日归档；无新增事件不创建占位公司卡。开盘价、收盘价及涨跌幅等交易进程字段留待后续时点补齐。",
+      "archiveNotice": "AP 与 PHIP 均使用 apApplications[]，以 status/documentType 区分；metrics 与可计数明细严格一致。",
+      "metrics": {
+        "hkexNewListings": 1,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "deals": [
+        {
+          "id": "adaspace-6935-20261113",
+          "section": "港股新上市",
+          "type": "主板H股IPO",
+          "status": "今日开始买卖；交易进程待后续补齐",
+          "eventType": "hkexNewListing",
+          "countInMetrics": true,
+          "company": {
+            "zh": "成都国星宇航科技股份有限公司",
+            "en": "Adaspace Technology Co., Ltd.",
+            "display": "ADASPACE（06935）",
+            "ticker": "06935",
+            "exchange": "香港联合交易所主板",
+            "listingStructure": "H股"
+          },
+          "business": {
+            "sector": "商业航天",
+            "subIndustry": "卫星制造",
+            "summary": "商业航天公司。",
+            "source": "HKEX招股书 / 配发结果公告"
+          },
+          "ipoDetails": {
+            "offerPrice": "HK$24.90/股",
+            "offerShares": "30,121,000股H股",
+            "hongKongOffer": "3,012,100股；认购3.43倍；5,638份有效申请、4,470份成功申请",
+            "internationalOffer": "27,108,900股；60名承配人；认购1.79倍",
+            "cornerstoneInvestors": "JinkoSolar Investment 200,800股、Kamshin 2,208,800股；合计2,409,600股（8.00%）",
+            "grossProceeds": "约HK$750.01百万",
+            "netProceeds": "约HK$651.76百万",
+            "listingDate": "2026-11-13"
+          },
+          "intermediaries": {
+            "roles": "独家保荐人：国泰君安融资；保荐人兼整体协调人及稳定价格经办人：国泰君安证券（香港）；整体协调人：国泰君安证券（香港）及建银国际融资。"
+          },
+          "timeline": [
+            {
+              "date": "2026-11-05",
+              "event": "招股书日期。"
+            },
+            {
+              "date": "2026-11-12",
+              "event": "最终发售价及配发结果公告。"
+            },
+            {
+              "date": "2026-11-13",
+              "event": "股份开始买卖。"
+            }
+          ],
+          "links": [
+            "ADASPACE allotment results"
+          ]
+        }
+      ],
+      "apApplications": [],
+      "regulatoryUpdates": [],
+      "observations": [
+        "13/11为港股交易日。HKEX Newly Listed Securities确认06935为公司IPO新挂牌；同日其余条目为债券、结构性产品或公司行动，不计公司IPO。",
+        "AP-only及AP+PHIP官方源uDate均为13/11/2026；按文件自然日筛选，11/12–13无新增AP或PHIP。",
+        "CSRC最新官方结构化条目仍为11/06；SEC EFTS于11/12检出5项F-1/A，未完成中港IPO口径确认，故不作计数。"
+      ],
+      "officialSourceChecks": [
+        {
+          "source": "HKEX Newly Listed Securities / New Listing Information / allotment results",
+          "dateRange": "2026-11-13",
+          "sourceUpdatedAt": "2026-11-13",
+          "result": "06935于11/13开始买卖；固定发行资料来自11/12配发结果公告。"
+        },
+        {
+          "source": "HKEX AP-only English JSON",
+          "dateRange": "2026-11-12 to 2026-11-13",
+          "sourceUpdatedAt": "2026-11-13",
+          "applicantCountPerLanguage": 332,
+          "result": "按文件自然日筛选，无11/12–13新增AP。"
+        },
+        {
+          "source": "HKEX AP+PHIP English JSON",
+          "dateRange": "2026-11-12 to 2026-11-13",
+          "sourceUpdatedAt": "2026-11-13",
+          "applicantCountPerLanguage": 15,
+          "result": "按文件自然日筛选，无11/12–13新增PHIP。"
+        },
+        {
+          "source": "CSRC overseas securities official JSON",
+          "dateRange": "2026-11-12 to 2026-11-13",
+          "sourceUpdatedAt": "2026-11-06",
+          "result": "未见当日单家公司《境外发行上市备案通知书》；csrcCount=0。"
+        },
+        {
+          "source": "SEC EDGAR EFTS official full-text search",
+          "dateRange": "2026-11-12 to 2026-11-13",
+          "result": "官方检索返回5项11/12 F-1/A；均未完成中港发行人IPO口径确认，未新增计数。"
+        }
+      ],
+      "pendingVerification": [
+        {
+          "source": "HKEX trading prices",
+          "dates": [
+            "2026-11-13"
+          ],
+          "reason": "09:30早盘快报不填入开盘价、收盘价或涨跌幅；由后续时点按官方市场数据补齐。"
+        }
+      ],
+      "coverageStatus": {
+        "hkexListings": "verified_current_page",
+        "ap": "verified_current_feed",
+        "phip": "verified_current_feed",
+        "csrc": "official_list_no_target_date_entries",
+        "sec": "official_efts_checked"
+      }
+    }
+  },
+  "linkMap": {
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Securities JSON": "https://www.csrc.gov.cn/searchList/8f3f0d4be56b4f8aa8183b3234b88ede?_isAgg=true&_isJson=true&_pageSize=50&_template=index&page=1",
+    "SEC EDGAR EFTS 2026-11-12 to 2026-11-13": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-11-12&enddt=2026-11-13&forms=F-1%2CF-1%2FA%2C424B4%2C8-A%2CEFFECT",
+    "ADASPACE allotment results": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1112/2026111201542.pdf"
+  }
+}
