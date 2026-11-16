@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-11-13T01:30:00Z",
+  "generatedAt": "2026-11-16T01:30:00Z",
   "dailyReports": {
     "2026-11-13": {
       "date": "2026-11-13",
       "title": "资本市场快报",
       "reportType": "briefing",
       "edition": "09:30早盘快报（实际核验时间见lastVerifiedAt）",
-      "subtitle": "港股交易日；成都国星宇航科技（06935）开始买卖；AP、PHIP及单家公司证监会备案通知书无当日新增。",
+      "subtitle": "港股交易日；成都国星宇航科技（06935）开始买卖；证监会新增两家单家公司境外发行上市备案通知书。",
       "isTradingDay": true,
-      "lastVerifiedAt": "2026-11-13T01:30:00Z",
-      "cutoffAt": "2026-11-13T01:30:00Z",
+      "lastVerifiedAt": "2026-11-16T01:30:00Z",
+      "cutoffAt": "2026-11-16T01:30:00Z",
       "backscanRange": {
-        "from": "2026-11-12",
-        "to": "2026-11-13"
+        "from": "2026-11-13",
+        "to": "2026-11-16"
       },
       "statusNote": "按官方发布自然日归档；无新增事件不创建占位公司卡。开盘价、收盘价及涨跌幅等交易进程字段留待后续时点补齐。",
       "archiveNotice": "AP 与 PHIP 均使用 apApplications[]，以 status/documentType 区分；metrics 与可计数明细严格一致。",
@@ -20,7 +20,7 @@
         "hkexNewListings": 1,
         "apNewCount": 0,
         "phipCount": 0,
-        "csrcCount": 0,
+        "csrcCount": 2,
         "usChinaIpoCount": 0
       },
       "deals": [
@@ -75,46 +75,104 @@
           "links": [
             "ADASPACE allotment results"
           ]
+        },
+        {
+          "id": "csrc-sunwoda-20261113",
+          "section": "境内监管更新",
+          "type": "境外发行上市备案通知书",
+          "status": "中国证监会于11/13发布",
+          "eventType": "csrcFilingNotice",
+          "countInMetrics": true,
+          "company": {
+            "zh": "深圳新宙邦科技股份有限公司",
+            "display": "深圳新宙邦科技"
+          },
+          "business": {
+            "source": "中国证监会"
+          },
+          "links": [
+            "CSRC Sunwoda filing notice"
+          ]
+        },
+        {
+          "id": "csrc-zheneng-greentech-20261113",
+          "section": "境内监管更新",
+          "type": "境外发行上市备案通知书",
+          "status": "中国证监会于11/13发布",
+          "eventType": "csrcFilingNotice",
+          "countInMetrics": true,
+          "company": {
+            "zh": "浙江浙能迈领绿航科技股份有限公司",
+            "display": "浙江浙能迈领绿航科技"
+          },
+          "business": {
+            "source": "中国证监会"
+          },
+          "links": [
+            "CSRC Zheneng Green Navigation filing notice"
+          ]
         }
       ],
       "apApplications": [],
-      "regulatoryUpdates": [],
+      "regulatoryUpdates": [
+        {
+          "date": "2026-11-13",
+          "type": "境外发行上市备案通知书",
+          "company": "深圳新宙邦科技股份有限公司",
+          "countInMetrics": true,
+          "link": "CSRC Sunwoda filing notice"
+        },
+        {
+          "date": "2026-11-13",
+          "type": "境外发行上市备案通知书",
+          "company": "浙江浙能迈领绿航科技股份有限公司",
+          "countInMetrics": true,
+          "link": "CSRC Zheneng Green Navigation filing notice"
+        },
+        {
+          "date": "2026-11-13",
+          "type": "境内企业境外发行证券和上市备案情况表（首次公开发行及全流通）",
+          "countInMetrics": false,
+          "link": "CSRC filing status table"
+        }
+      ],
       "observations": [
-        "13/11为港股交易日。HKEX Newly Listed Securities确认06935为公司IPO新挂牌；同日其余条目为债券、结构性产品或公司行动，不计公司IPO。",
-        "AP-only及AP+PHIP官方源uDate均为13/11/2026；按文件自然日筛选，11/12–13无新增AP或PHIP。",
-        "CSRC最新官方结构化条目仍为11/06；SEC EFTS于11/12检出5项F-1/A，未完成中港IPO口径确认，故不作计数。"
+        "13/11为港股交易日；16/11为周日，非港股交易日。HKEX Newly Listed Securities确认06935为公司IPO新挂牌；同日其余条目为债券、结构性产品或公司行动，不计公司IPO。",
+        "HKEX AP-only及AP+PHIP官方源uDate均为13/11/2026；按文件自然日筛选，11/13–16无新增AP或PHIP，二者仍分别以status/documentType口径管理。",
+        "中国证监会于11/13发布深圳新宙邦科技、浙江浙能迈领绿航科技两项单家公司《境外发行上市备案通知书》，均计入csrcCount；同日备案情况表仅作监管更新，不计数。",
+        "SEC EDGAR EFTS在11/13–16对F-1、F-1/A、424B4、8-A、EFFECT检索无结果；无新增中港IPO计数。"
       ],
       "officialSourceChecks": [
         {
           "source": "HKEX Newly Listed Securities / New Listing Information / allotment results",
-          "dateRange": "2026-11-13",
+          "dateRange": "2026-11-13 to 2026-11-16",
           "sourceUpdatedAt": "2026-11-13",
-          "result": "06935于11/13开始买卖；固定发行资料来自11/12配发结果公告。"
+          "result": "06935于11/13开始买卖；固定发行资料来自11/12配发结果公告。16/11为周日，未形成公司IPO开市事件。"
         },
         {
           "source": "HKEX AP-only English JSON",
-          "dateRange": "2026-11-12 to 2026-11-13",
+          "dateRange": "2026-11-13 to 2026-11-16",
           "sourceUpdatedAt": "2026-11-13",
-          "applicantCountPerLanguage": 332,
-          "result": "按文件自然日筛选，无11/12–13新增AP。"
+          "applicantCountPerLanguage": 331,
+          "result": "按文件自然日筛选，无新增AP。"
         },
         {
           "source": "HKEX AP+PHIP English JSON",
-          "dateRange": "2026-11-12 to 2026-11-13",
+          "dateRange": "2026-11-13 to 2026-11-16",
           "sourceUpdatedAt": "2026-11-13",
           "applicantCountPerLanguage": 15,
-          "result": "按文件自然日筛选，无11/12–13新增PHIP。"
+          "result": "按文件自然日筛选，无新增PHIP。"
         },
         {
           "source": "CSRC overseas securities official JSON",
-          "dateRange": "2026-11-12 to 2026-11-13",
-          "sourceUpdatedAt": "2026-11-06",
-          "result": "未见当日单家公司《境外发行上市备案通知书》；csrcCount=0。"
+          "dateRange": "2026-11-13 to 2026-11-16",
+          "sourceUpdatedAt": "2026-11-13",
+          "result": "11/13有两项单家公司《境外发行上市备案通知书》，csrcCount=2；同日备案情况表仅作监管更新，不计入csrcCount。"
         },
         {
           "source": "SEC EDGAR EFTS official full-text search",
-          "dateRange": "2026-11-12 to 2026-11-13",
-          "result": "官方检索返回5项11/12 F-1/A；均未完成中港发行人IPO口径确认，未新增计数。"
+          "dateRange": "2026-11-13 to 2026-11-16",
+          "result": "官方检索无F-1、F-1/A、424B4、8-A或EFFECT结果；无新增中港IPO计数。"
         }
       ],
       "pendingVerification": [
@@ -130,8 +188,8 @@
         "hkexListings": "verified_current_page",
         "ap": "verified_current_feed",
         "phip": "verified_current_feed",
-        "csrc": "official_list_no_target_date_entries",
-        "sec": "official_efts_checked"
+        "csrc": "official_list_two_target_date_filing_notices",
+        "sec": "official_efts_checked_no_target_date_hits"
       }
     }
   },
@@ -142,6 +200,10 @@
     "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
     "CSRC Overseas Securities JSON": "https://www.csrc.gov.cn/searchList/8f3f0d4be56b4f8aa8183b3234b88ede?_isAgg=true&_isJson=true&_pageSize=50&_template=index&page=1",
     "SEC EDGAR EFTS 2026-11-12 to 2026-11-13": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-11-12&enddt=2026-11-13&forms=F-1%2CF-1%2FA%2C424B4%2C8-A%2CEFFECT",
-    "ADASPACE allotment results": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1112/2026111201542.pdf"
+    "ADASPACE allotment results": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1112/2026111201542.pdf",
+    "CSRC Sunwoda filing notice": "https://www.csrc.gov.cn/csrc/c105984/c7670813/content.shtml",
+    "CSRC Zheneng Green Navigation filing notice": "https://www.csrc.gov.cn/csrc/c105984/c7670807/content.shtml",
+    "CSRC filing status table": "https://www.csrc.gov.cn/csrc/c106251/c7670804/content.shtml",
+    "SEC EDGAR EFTS 2026-11-13 to 2026-11-16": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-11-13&enddt=2026-11-16&forms=F-1%2CF-1%2FA%2C424B4%2C8-A%2CEFFECT"
   }
 }
