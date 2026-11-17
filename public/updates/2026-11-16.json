@@ -1,0 +1,149 @@
+{
+  "generatedAt": "2026-11-17T01:40:39.391Z",
+  "dailyReports": {
+    "2026-11-16": {
+      "title": "资本市场快报",
+      "reportType": "briefing",
+      "edition": "09:30早盘快报（实际核验时间见lastVerifiedAt）",
+      "lastVerifiedAt": "2026-11-17T01:40:39.391Z",
+      "cutoffAt": "2026-11-17T01:40:39.391Z",
+      "backscanRange": {
+        "from": "2026-11-13",
+        "to": "2026-11-17"
+      },
+      "statusNote": "按官方发布自然日归档；无新增事件不创建占位公司卡。开盘价、收盘价及涨跌幅等交易进程字段留待后续时点补齐。",
+      "archiveNotice": "AP 与 PHIP 均使用 apApplications[]，以 status/documentType 区分；metrics 与可计数明细严格一致。",
+      "date": "2026-11-16",
+      "subtitle": "非港股交易日；HKEX AP申请人更新1项终止公告；SEC披露Gold Stone Technical香港运营公司F-1/A，拟在OTCQB进行首次公开发行。",
+      "isTradingDay": false,
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 1
+      },
+      "deals": [
+        {
+          "id": "gold-stone-technical-sec-f1a-20261116",
+          "section": "美股中港IPO",
+          "type": "F-1/A（拟首次公开发行）",
+          "status": "SEC于11/16披露；尚未生效、未上市",
+          "eventType": "usChinaIpo",
+          "countInMetrics": true,
+          "company": {
+            "en": "Gold Stone Technical Inc.",
+            "display": "Gold Stone Technical Inc.",
+            "exchange": "拟申请OTCQB Market",
+            "listingStructure": "Cayman holding company / Hong Kong operating subsidiary"
+          },
+          "business": {
+            "sector": "信息技术服务",
+            "subIndustry": "技术服务",
+            "summary": "集团通过香港运营子公司Merry International Technical Services (Hong Kong) Limited开展全部业务。",
+            "source": "SEC F-1/A"
+          },
+          "ipoDetails": {
+            "offerPrice": "US$4.00/股（固定价）",
+            "offerShares": "公司拟发行750,000股A类普通股；另有16,288,778股股东转售登记",
+            "hongKongOffer": "不适用（美国OTCQB拟上市）",
+            "internationalOffer": "自承销、尽力而为，无最低募资额",
+            "cornerstoneInvestors": "招股书未披露基石投资人",
+            "listingDate": "待SEC注册生效及OTCQB最终批准"
+          },
+          "intermediaries": {
+            "roles": "无承销商或其他人士受聘促成发售；服务代理人：Cogency Global Inc.；美国法律顾问：Jun He Law Offices LLC。"
+          },
+          "timeline": [
+            {
+              "date": "2026-11-16",
+              "event": "SEC提交F-1/A（Amendment No. 2）及初步招股书。"
+            },
+            {
+              "date": "待定",
+              "event": "待注册声明生效及OTCQB最终批准后完成发售及交易。"
+            }
+          ],
+          "links": [
+            "Gold Stone Technical F-1/A"
+          ]
+        }
+      ],
+      "apApplications": [
+        {
+          "id": "jinan-janbon-ap-termination-20261116",
+          "section": "港股上市申请",
+          "eventType": "apUpdate",
+          "countInMetrics": false,
+          "status": "A / Terminated",
+          "documentType": "Application Proof (1st submission)；OC Announcement - Termination",
+          "company": {
+            "en": "Jinan Janbon Metallic Materials Co., Ltd. (formerly known as Janbon Materials Co., Ltd.)",
+            "display": "Jinan Janbon Metallic Materials Co., Ltd."
+          },
+          "publishedAt": "2026-11-16",
+          "source": "HKEX AP-only English JSON",
+          "url": "https://www1.hkexnews.hk/app/sehk/2026/108735/2026111601588.htm"
+        }
+      ],
+      "regulatoryUpdates": [],
+      "observations": [
+        "11/16为周一但港股市场无交易日；HKEX Newly Listed Securities仅出现BRIGHT FUT RTS供股权买卖及OCEAN STAR TECH并股，均非公司IPO首挂。",
+        "HKEX AP-only官方源uDate=16/11/2026，济南金邦金属材料的OC终止公告于11/16发布；其原始Application Proof日期为7/14，故仅作为申请更新展示，不计apNewCount。AP+PHIP源同日无新增PHIP文件。",
+        "中国证监会官方境外发行上市列表未见11/14–16新条目。",
+        "SEC EDGAR EFTS检出Gold Stone Technical的11/16 F-1/A；其所有业务经香港运营子公司开展，拟发行750,000股、每股US$4.00并申请OTCQB，计入usChinaIpoCount。"
+      ],
+      "officialSourceChecks": [
+        {
+          "source": "HKEX Newly Listed Securities / New Listing Information",
+          "dateRange": "2026-11-16",
+          "sourceUpdatedAt": "2026-11-17",
+          "result": "无公司IPO新挂牌；页面项目为供股权交易及并股。"
+        },
+        {
+          "source": "HKEX AP-only English JSON",
+          "dateRange": "2026-11-14 to 2026-11-16",
+          "sourceUpdatedAt": "2026-11-16",
+          "applicantCountPerLanguage": 331,
+          "result": "11/16有1项OC终止公告；原始AP为7/14，作为非计数申请更新展示。"
+        },
+        {
+          "source": "HKEX AP+PHIP English JSON",
+          "dateRange": "2026-11-14 to 2026-11-16",
+          "sourceUpdatedAt": "2026-11-16",
+          "applicantCountPerLanguage": 15,
+          "result": "无新增PHIP文件。"
+        },
+        {
+          "source": "CSRC overseas securities official JSON",
+          "dateRange": "2026-11-14 to 2026-11-16",
+          "sourceUpdatedAt": "2026-11-13",
+          "result": "未见目标自然日的单家公司备案通知书或其他监管更新。"
+        },
+        {
+          "source": "SEC EDGAR EFTS official full-text search",
+          "dateRange": "2026-11-14 to 2026-11-16",
+          "result": "11/16检出Gold Stone Technical F-1/A；经原文核验为香港运营公司的拟首次公开发行，计入1项。"
+        }
+      ],
+      "pendingVerification": [],
+      "coverageStatus": {
+        "hkexListings": "verified_current_page",
+        "ap": "verified_current_feed",
+        "phip": "verified_current_feed",
+        "csrc": "official_list_no_target_date_entries",
+        "sec": "official_efts_f1a_verified"
+      }
+    }
+  },
+  "linkMap": {
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Securities JSON": "https://www.csrc.gov.cn/searchList/8f3f0d4be56b4f8aa8183b3234b88ede?_isAgg=true&_isJson=true&_pageSize=50&_template=index&page=1",
+    "SEC EDGAR EFTS 2026-11-14 to 2026-11-17": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-11-14&enddt=2026-11-17&forms=F-1%2CF-1%2FA%2C424B4%2C8-A%2CEFFECT",
+    "Gold Stone Technical F-1/A": "https://www.sec.gov/Archives/edgar/data/2095509/000121390026120404/ea0268448-12.htm",
+    "Jinan Janbon AP termination": "https://www1.hkexnews.hk/app/sehk/2026/108735/2026111601588.htm"
+  }
+}
