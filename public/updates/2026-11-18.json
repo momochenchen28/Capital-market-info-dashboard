@@ -1,36 +1,85 @@
 {
-  "generatedAt": "2026-11-18T01:45:42.843Z",
+  "generatedAt": "2026-11-19T01:55:00.000Z",
   "dailyReports": {
     "2026-11-18": {
       "title": "资本市场快报",
       "reportType": "briefing",
       "edition": "09:30早盘快报（实际核验时间见lastVerifiedAt）",
-      "lastVerifiedAt": "2026-11-18T01:45:42.843Z",
-      "cutoffAt": "2026-11-18T01:45:42.843Z",
+      "lastVerifiedAt": "2026-11-19T01:55:00.000Z",
+      "cutoffAt": "2026-11-19T01:55:00.000Z",
       "backscanRange": {
         "from": "2026-11-17",
-        "to": "2026-11-18"
+        "to": "2026-11-19"
       },
       "statusNote": "按官方发布自然日归档；无新增事件不创建占位公司卡。开盘价、收盘价及涨跌幅等交易进程字段留待后续时点补齐。",
       "archiveNotice": "AP 与 PHIP 均使用 apApplications[]，以 status/documentType 区分；metrics 与可计数明细严格一致。",
       "date": "2026-11-18",
-      "subtitle": "港股交易日；HKEX当日无公司IPO首挂；AP、PHIP、证监会及SEC均无新增可归档事项。",
+      "subtitle": "港股交易日；HKEX当日无公司IPO首挂；SEC披露Boundless Group中国运营公司F-1/A拟首次公开发行。",
       "isTradingDay": true,
       "metrics": {
         "hkexNewListings": 0,
         "apNewCount": 0,
         "phipCount": 0,
         "csrcCount": 0,
-        "usChinaIpoCount": 0
+        "usChinaIpoCount": 1
       },
-      "deals": [],
+      "deals": [
+        {
+          "id": "boundless-group-sec-f1a-20261118",
+          "section": "美股中港IPO",
+          "type": "F-1/A（拟首次公开发行）",
+          "status": "SEC于11/18披露；尚未生效、未上市",
+          "eventType": "usChinaIpo",
+          "countInMetrics": true,
+          "company": {
+            "en": "Boundless Group",
+            "display": "Boundless Group",
+            "exchange": "拟申请Nasdaq Capital Market（BLTG）",
+            "listingStructure": "Cayman holding company / PRC operating subsidiaries"
+          },
+          "business": {
+            "sector": "科技与贸易服务",
+            "subIndustry": "技术与商品贸易",
+            "summary": "公司通过中国境内运营子公司开展绝大部分业务，主要运营地址位于江苏南京。",
+            "source": "SEC F-1/A"
+          },
+          "ipoDetails": {
+            "offerPrice": "预计US$4.00/股",
+            "offerShares": "公司拟发行6,650,000股A类普通股；承销商超额配售选择权997,500股",
+            "hongKongOffer": "不适用（美国拟上市）",
+            "internationalOffer": "包销发行；招股书同时登记1,909,313股股东转售股份",
+            "cornerstoneInvestors": "招股书未披露基石投资人",
+            "listingDate": "待SEC注册生效及Nasdaq批准"
+          },
+          "intermediaries": {
+            "roles": "招股书披露为承销发行；完整承销与顾问名单以SEC F-1/A原文为准。"
+          },
+          "timeline": [
+            {
+              "date": "2025-03-18",
+              "event": "公司向中国证监会提交境外发行上市备案材料（按F-1/A披露）。"
+            },
+            {
+              "date": "2026-11-18",
+              "event": "SEC提交F-1/A及初步招股书。"
+            },
+            {
+              "date": "待定",
+              "event": "待SEC注册生效及Nasdaq批准后完成发行及开始交易。"
+            }
+          ],
+          "links": [
+            "Boundless Group F-1/A"
+          ]
+        }
+      ],
       "apApplications": [],
       "regulatoryUpdates": [],
       "observations": [
         "11/18为港股交易日。HKEX Newly Listed Securities当日无公司IPO首挂；页面仅显示11/19预告的权利交易及结构性产品，未作为11/18事项归档。",
         "HKEX AP-only与AP+PHIP官方JSON源uDate均为16/11/2026；按文件自然日筛选，11/17–11/18未见新增AP或PHIP文件。",
         "中国证监会官方境外发行上市列表未见11/17–11/18单家公司《境外发行上市备案通知书》、补充材料或备案情况表更新。",
-        "SEC EDGAR EFTS在11/18无F-1、F-1/A、424B4、8-A或EFFECT命中；无新增中港IPO计数。"
+        "SEC EDGAR EFTS在11/18检出Boundless Group的F-1/A；原文确认其通过中国境内子公司开展绝大部分业务，拟发行6,650,000股A类普通股、预计US$4.00/股并申请Nasdaq Capital Market，计入usChinaIpoCount。"
       ],
       "officialSourceChecks": [
         {
@@ -61,8 +110,8 @@
         },
         {
           "source": "SEC EDGAR EFTS official full-text search",
-          "dateRange": "2026-11-18",
-          "result": "无目标表格命中；无新增中港IPO计数。"
+          "dateRange": "2026-11-17 to 2026-11-19",
+          "result": "11/18检出Boundless Group F-1/A；原文核验为中国运营公司的拟首次公开发行，计入1项；另一宗EuroEV/Aiways F-1/A主要业务地点为德国，未计入。"
         }
       ],
       "pendingVerification": [],
@@ -71,7 +120,7 @@
         "ap": "verified_current_feed",
         "phip": "verified_current_feed",
         "csrc": "official_list_no_target_date_entries",
-        "sec": "official_efts_checked_no_target_date_hits"
+        "sec": "official_efts_f1a_verified"
       }
     }
   },
@@ -81,6 +130,7 @@
     "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
     "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
     "CSRC Overseas Securities JSON": "https://www.csrc.gov.cn/searchList/8f3f0d4be56b4f8aa8183b3234b88ede?_isAgg=true&_isJson=true&_pageSize=50&_template=index&page=1",
-    "SEC EDGAR EFTS 2026-11-18": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-11-18&enddt=2026-11-18&forms=F-1%2CF-1%2FA%2C424B4%2C8-A%2CEFFECT"
+    "SEC EDGAR EFTS 2026-11-18 to 2026-11-19": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-11-18&enddt=2026-11-19&forms=F-1%2CF-1%2FA%2C424B4%2C8-A%2CEFFECT",
+    "Boundless Group F-1/A": "https://www.sec.gov/Archives/edgar/data/2045873/000121390026121817/ea0233217-08.htm"
   }
 }
