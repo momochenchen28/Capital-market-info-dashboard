@@ -1,0 +1,86 @@
+{
+  "generatedAt": "2026-11-19T01:55:00.000Z",
+  "dailyReports": {
+    "2026-11-19": {
+      "title": "资本市场快报",
+      "reportType": "briefing",
+      "edition": "09:30早盘快报（实际核验时间见lastVerifiedAt）",
+      "lastVerifiedAt": "2026-11-19T01:55:00.000Z",
+      "cutoffAt": "2026-11-19T01:55:00.000Z",
+      "backscanRange": {
+        "from": "2026-11-18",
+        "to": "2026-11-19"
+      },
+      "statusNote": "按官方发布自然日归档；无新增事件不创建占位公司卡。开盘价、收盘价及涨跌幅等交易进程字段留待后续时点补齐。",
+      "archiveNotice": "AP 与 PHIP 均使用 apApplications[]，以 status/documentType 区分；metrics 与可计数明细严格一致。",
+      "date": "2026-11-19",
+      "subtitle": "港股交易日；HKEX当日无公司IPO首挂；AP、PHIP、证监会及SEC均无新增可归档事项。",
+      "isTradingDay": true,
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "deals": [],
+      "apApplications": [],
+      "regulatoryUpdates": [],
+      "observations": [
+        "11/19为港股交易日。HKEX Newly Listed Securities页面仅显示FLOWING CLO RTS供股权交易及EASTAIR B2911-R结构性产品，均非公司IPO首挂。",
+        "HKEX AP-only与AP+PHIP官方JSON源uDate均为18/11/2026；按文件自然日筛选，11/19未见新增AP或PHIP文件。",
+        "中国证监会官方境外发行上市列表未见11/19单家公司《境外发行上市备案通知书》、补充材料或备案情况表更新。",
+        "SEC EDGAR EFTS在11/19无F-1、F-1/A、424B4、8-A或EFFECT命中；无新增中港IPO计数。"
+      ],
+      "officialSourceChecks": [
+        {
+          "source": "HKEX Newly Listed Securities / New Listing Information",
+          "dateRange": "2026-11-19",
+          "sourceUpdatedAt": "2026-11-19",
+          "result": "无公司IPO首挂；页面项目为供股权交易及结构性产品。"
+        },
+        {
+          "source": "HKEX AP-only English JSON",
+          "dateRange": "2026-11-19",
+          "sourceUpdatedAt": "2026-11-18",
+          "applicantCountPerLanguage": 330,
+          "result": "暂未见目标日新增AP文件。"
+        },
+        {
+          "source": "HKEX AP+PHIP English JSON",
+          "dateRange": "2026-11-19",
+          "sourceUpdatedAt": "2026-11-18",
+          "applicantCountPerLanguage": 15,
+          "result": "暂未见目标日新增PHIP文件。"
+        },
+        {
+          "source": "CSRC overseas securities official list",
+          "dateRange": "2026-11-19",
+          "sourceUpdatedAt": "2026-11-13",
+          "result": "未见目标自然日更新。"
+        },
+        {
+          "source": "SEC EDGAR EFTS official full-text search",
+          "dateRange": "2026-11-19",
+          "result": "无目标表格命中；无新增中港IPO计数。"
+        }
+      ],
+      "pendingVerification": [],
+      "coverageStatus": {
+        "hkexListings": "verified_current_page",
+        "ap": "verified_current_feed",
+        "phip": "verified_current_feed",
+        "csrc": "official_list_no_target_date_entries",
+        "sec": "official_efts_checked_no_target_date_hits"
+      }
+    }
+  },
+  "linkMap": {
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Securities JSON": "https://www.csrc.gov.cn/searchList/8f3f0d4be56b4f8aa8183b3234b88ede?_isAgg=true&_isJson=true&_pageSize=50&_template=index&page=1",
+    "SEC EDGAR EFTS 2026-11-18 to 2026-11-19": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-11-18&enddt=2026-11-19&forms=F-1%2CF-1%2FA%2C424B4%2C8-A%2CEFFECT"
+  }
+}
