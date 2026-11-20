@@ -1,57 +1,137 @@
 {
-  "generatedAt": "2026-11-19T01:55:00.000Z",
+  "generatedAt": "2026-11-20T01:30:00.000Z",
   "dailyReports": {
     "2026-11-19": {
       "title": "资本市场快报",
       "reportType": "briefing",
       "edition": "09:30早盘快报（实际核验时间见lastVerifiedAt）",
-      "lastVerifiedAt": "2026-11-19T01:55:00.000Z",
-      "cutoffAt": "2026-11-19T01:55:00.000Z",
+      "lastVerifiedAt": "2026-11-20T01:30:00.000Z",
+      "cutoffAt": "2026-11-20T01:30:00.000Z",
       "backscanRange": {
-        "from": "2026-11-18",
-        "to": "2026-11-19"
+        "from": "2026-11-19",
+        "to": "2026-11-20"
       },
       "statusNote": "按官方发布自然日归档；无新增事件不创建占位公司卡。开盘价、收盘价及涨跌幅等交易进程字段留待后续时点补齐。",
       "archiveNotice": "AP 与 PHIP 均使用 apApplications[]，以 status/documentType 区分；metrics 与可计数明细严格一致。",
       "date": "2026-11-19",
-      "subtitle": "港股交易日；HKEX当日无公司IPO首挂；AP、PHIP、证监会及SEC均无新增可归档事项。",
+      "subtitle": "港股交易日；HKEX当日无公司IPO首挂；新增1宗PHIP首次递交及1宗香港运营公司SEC F-1/A。",
       "isTradingDay": true,
       "metrics": {
         "hkexNewListings": 0,
         "apNewCount": 0,
-        "phipCount": 0,
+        "phipCount": 1,
         "csrcCount": 0,
-        "usChinaIpoCount": 0
+        "usChinaIpoCount": 1
       },
-      "deals": [],
-      "apApplications": [],
+      "deals": [
+        {
+          "id": "am-pm-group-sec-f1a-20261119",
+          "section": "美股中港IPO",
+          "type": "F-1/A（拟首次公开发行）",
+          "status": "SEC于11/19披露；尚未生效、未上市",
+          "eventType": "usChinaIpo",
+          "countInMetrics": true,
+          "company": {
+            "en": "AM PM Group Ltd",
+            "display": "AM PM Group Ltd",
+            "exchange": "拟在美国市场上市（最终交易场所待注册声明披露/批准）",
+            "listingStructure": "境外控股公司 / 香港运营实体"
+          },
+          "business": {
+            "sector": "休闲娱乐服务",
+            "subIndustry": "娱乐与休闲服务",
+            "summary": "SEC发行人资料载明主要营业地址位于香港九龙湾。",
+            "source": "SEC EDGAR F-1/A及发行人资料"
+          },
+          "ipoDetails": {
+            "offerPrice": "以最新SEC F-1/A初步招股书为准",
+            "offerShares": "以最新SEC F-1/A初步招股书为准",
+            "hongKongOffer": "不适用（美国拟上市）",
+            "internationalOffer": "以最新SEC F-1/A初步招股书为准",
+            "cornerstoneInvestors": "招股书未披露基石投资人",
+            "listingDate": "待SEC注册生效及交易场所批准"
+          },
+          "intermediaries": {
+            "roles": "以最新SEC F-1/A原文披露为准。"
+          },
+          "timeline": [
+            {
+              "date": "2025-06-26",
+              "event": "SEC公开提交F-1注册声明。"
+            },
+            {
+              "date": "2026-11-19",
+              "event": "SEC提交F-1/A（Registration Statement）。"
+            },
+            {
+              "date": "待定",
+              "event": "待SEC注册生效及完成发行后开始交易。"
+            }
+          ],
+          "links": [
+            "AM PM Group F-1/A"
+          ]
+        }
+      ],
+      "apApplications": [
+        {
+          "id": "glorysoft-ap-termination-20261119",
+          "section": "港股上市申请",
+          "eventType": "apUpdate",
+          "countInMetrics": false,
+          "status": "A / Terminated",
+          "documentType": "OC Announcement - Termination",
+          "company": {
+            "en": "Glorysoft (Shanghai) Co., Ltd.",
+            "display": "Glorysoft (Shanghai) Co., Ltd."
+          },
+          "publishedAt": "2026-11-19",
+          "source": "HKEX AP+PHIP English JSON",
+          "url": "https://www1.hkexnews.hk/ncms/ccs/hk/listedco/listconews/sehk/2026/1119/2026111901062.pdf"
+        },
+        {
+          "id": "yuen-kee-food-phip-20261119",
+          "section": "港股上市申请",
+          "eventType": "phip",
+          "countInMetrics": true,
+          "status": "A / PHIP",
+          "documentType": "PHIP (1st submission)；Full Version",
+          "company": {
+            "en": "YUEN KEE FOOD GROUP CO., LTD.",
+            "display": "YUEN KEE FOOD GROUP CO., LTD."
+          },
+          "publishedAt": "2026-11-19",
+          "source": "HKEX AP+PHIP English JSON",
+          "url": "https://www1.hkexnews.hk/ncms/ccs/hk/listedco/listconews/sehk/2026/1119/2026111901400.pdf"
+        }
+      ],
       "regulatoryUpdates": [],
       "observations": [
         "11/19为港股交易日。HKEX Newly Listed Securities页面仅显示FLOWING CLO RTS供股权交易及EASTAIR B2911-R结构性产品，均非公司IPO首挂。",
-        "HKEX AP-only与AP+PHIP官方JSON源uDate均为18/11/2026；按文件自然日筛选，11/19未见新增AP或PHIP文件。",
+        "HKEX AP-only官方JSON于11/19更新（329名申请人），无当日新增AP；AP+PHIP官方JSON同日更新（16名申请人），Glorysoft (Shanghai)的终止公告作为非计数申请更新展示，YUEN KEE FOOD GROUP CO., LTD.的PHIP首次递交计入phipCount=1。",
         "中国证监会官方境外发行上市列表未见11/19单家公司《境外发行上市备案通知书》、补充材料或备案情况表更新。",
-        "SEC EDGAR EFTS在11/19无F-1、F-1/A、424B4、8-A或EFFECT命中；无新增中港IPO计数。"
+        "SEC EDGAR EFTS在11/19检出AM PM Group Ltd的F-1/A；发行人资料显示其营业地址在香港九龙湾，注册声明尚未生效，计入1项中港IPO待发行披露；TFP Group Ltd主要业务地点为伦敦，未计入。"
       ],
       "officialSourceChecks": [
         {
           "source": "HKEX Newly Listed Securities / New Listing Information",
           "dateRange": "2026-11-19",
-          "sourceUpdatedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-11-20",
           "result": "无公司IPO首挂；页面项目为供股权交易及结构性产品。"
         },
         {
           "source": "HKEX AP-only English JSON",
           "dateRange": "2026-11-19",
-          "sourceUpdatedAt": "2026-11-18",
-          "applicantCountPerLanguage": 330,
-          "result": "暂未见目标日新增AP文件。"
+          "sourceUpdatedAt": "2026-11-19",
+          "applicantCountPerLanguage": 329,
+          "result": "未见目标日新增AP文件。"
         },
         {
           "source": "HKEX AP+PHIP English JSON",
           "dateRange": "2026-11-19",
-          "sourceUpdatedAt": "2026-11-18",
-          "applicantCountPerLanguage": 15,
-          "result": "暂未见目标日新增PHIP文件。"
+          "sourceUpdatedAt": "2026-11-19",
+          "applicantCountPerLanguage": 16,
+          "result": "1项PHIP首次递交（YUEN KEE FOOD GROUP CO., LTD.）计数；另有1项终止公告仅作非计数申请更新。"
         },
         {
           "source": "CSRC overseas securities official list",
@@ -62,7 +142,7 @@
         {
           "source": "SEC EDGAR EFTS official full-text search",
           "dateRange": "2026-11-19",
-          "result": "无目标表格命中；无新增中港IPO计数。"
+          "result": "2宗F-1/A命中；AM PM Group为香港运营公司尚未生效的注册声明，计入1项；TFP Group主要业务地点伦敦，不计入。"
         }
       ],
       "pendingVerification": [],
@@ -71,7 +151,7 @@
         "ap": "verified_current_feed",
         "phip": "verified_current_feed",
         "csrc": "official_list_no_target_date_entries",
-        "sec": "official_efts_checked_no_target_date_hits"
+        "sec": "official_efts_f1a_verified"
       }
     }
   },
@@ -81,6 +161,9 @@
     "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
     "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
     "CSRC Overseas Securities JSON": "https://www.csrc.gov.cn/searchList/8f3f0d4be56b4f8aa8183b3234b88ede?_isAgg=true&_isJson=true&_pageSize=50&_template=index&page=1",
-    "SEC EDGAR EFTS 2026-11-18 to 2026-11-19": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-11-18&enddt=2026-11-19&forms=F-1%2CF-1%2FA%2C424B4%2C8-A%2CEFFECT"
+    "SEC EDGAR EFTS 2026-11-19 to 2026-11-20": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-11-19&enddt=2026-11-20&forms=F-1%2CF-1%2FA%2C424B4%2C8-A%2CEFFECT",
+    "AM PM Group F-1/A": "https://www.sec.gov/Archives/edgar/data/2049323/000121390026122098/ea0224186-23.htm",
+    "Glorysoft AP termination": "https://www1.hkexnews.hk/ncms/ccs/hk/listedco/listconews/sehk/2026/1119/2026111901062.pdf",
+    "YUEN KEE FOOD GROUP PHIP": "https://www1.hkexnews.hk/ncms/ccs/hk/listedco/listconews/sehk/2026/1119/2026111901400.pdf"
   }
 }
