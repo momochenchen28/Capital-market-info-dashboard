@@ -1,36 +1,106 @@
 {
-  "generatedAt": "2026-11-20T01:30:00.000Z",
+  "generatedAt": "2026-11-23T01:30:00.000Z",
   "dailyReports": {
     "2026-11-20": {
       "title": "资本市场快报",
       "reportType": "briefing",
       "edition": "09:30早盘快报（实际核验时间见lastVerifiedAt）",
-      "lastVerifiedAt": "2026-11-20T01:30:00.000Z",
-      "cutoffAt": "2026-11-20T01:30:00.000Z",
+      "lastVerifiedAt": "2026-11-23T01:30:00.000Z",
+      "cutoffAt": "2026-11-23T01:30:00.000Z",
       "backscanRange": {
-        "from": "2026-11-19",
-        "to": "2026-11-20"
+        "from": "2026-11-20",
+        "to": "2026-11-23"
       },
       "statusNote": "按官方发布自然日归档；无新增事件不创建占位公司卡。开盘价、收盘价及涨跌幅等交易进程字段留待后续时点补齐。",
       "archiveNotice": "AP 与 PHIP 均使用 apApplications[]，以 status/documentType 区分；metrics 与可计数明细严格一致。",
       "date": "2026-11-20",
-      "subtitle": "港股交易日；HKEX当日无公司IPO首挂；AP、PHIP、证监会及SEC均无新增可归档事项。",
+      "subtitle": "港股交易日；HKEX当日无公司IPO首挂；证监会新增两家单家公司境外发行上市备案通知书。",
       "isTradingDay": true,
       "metrics": {
         "hkexNewListings": 0,
         "apNewCount": 0,
         "phipCount": 0,
-        "csrcCount": 0,
+        "csrcCount": 2,
         "usChinaIpoCount": 0
       },
-      "deals": [],
+      "deals": [
+        {
+          "id": "csrc-shanghai-xingsi-semiconductor-20261120",
+          "section": "境内监管更新",
+          "type": "境外发行上市及全流通备案通知书",
+          "status": "中国证监会于11/20发布",
+          "eventType": "csrcFilingNotice",
+          "countInMetrics": true,
+          "company": {
+            "zh": "上海星思半导体股份有限公司",
+            "display": "上海星思半导体"
+          },
+          "business": {
+            "source": "中国证监会"
+          },
+          "ipoDetails": {
+            "offerShares": "拟发行不超过387,540,000股境外上市普通股并在香港联合交易所上市"
+          },
+          "links": [
+            "CSRC Shanghai Xingsi filing notice"
+          ]
+        },
+        {
+          "id": "csrc-shanghai-putailai-20261120",
+          "section": "境内监管更新",
+          "type": "境外发行上市备案通知书",
+          "status": "中国证监会于11/20发布",
+          "eventType": "csrcFilingNotice",
+          "countInMetrics": true,
+          "company": {
+            "zh": "上海璞泰来新能源科技集团股份有限公司",
+            "display": "上海璞泰来"
+          },
+          "business": {
+            "source": "中国证监会"
+          },
+          "ipoDetails": {
+            "offerShares": "拟发行不超过269,330,400股境外上市普通股并在香港联合交易所上市"
+          },
+          "links": [
+            "CSRC Shanghai Putailai filing notice"
+          ]
+        }
+      ],
       "apApplications": [],
-      "regulatoryUpdates": [],
+      "regulatoryUpdates": [
+        {
+          "date": "2026-11-20",
+          "type": "境外发行上市及全流通备案通知书",
+          "company": "上海星思半导体股份有限公司",
+          "countInMetrics": true,
+          "link": "CSRC Shanghai Xingsi filing notice"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "境外发行上市备案通知书",
+          "company": "上海璞泰来新能源科技集团股份有限公司",
+          "countInMetrics": true,
+          "link": "CSRC Shanghai Putailai filing notice"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "境内企业境外发行证券和上市备案情况表（首次公开发行及全流通）",
+          "countInMetrics": false,
+          "link": "CSRC filing status table 2026-11-20"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "境外发行上市备案补充材料要求公示（2026年11月16日—11月20日）",
+          "countInMetrics": false,
+          "link": "CSRC supplementary materials 2026-11-20"
+        }
+      ],
       "observations": [
-        "11/20为港股交易日。HKEX Newly Listed Securities仅列EASYHOLD GP RTS、ZJ UNITED I RTS两项供股权交易，GT BTC及GT BTC-U ETF双柜台及SPD BK N2911B-R结构性产品，均非公司IPO首挂。",
-        "HKEX AP-only与AP+PHIP官方JSON源最新uDate均为19/11/2026；按文件自然日筛选，11/20暂未见新增AP或PHIP文件。",
-        "中国证监会官方境外发行上市列表未见11/20单家公司《境外发行上市备案通知书》、补充材料或备案情况表更新。",
-        "SEC EDGAR EFTS以11/19–11/20查询，11/20无F-1、F-1/A、424B4、8-A或EFFECT目标表格命中；无新增中港IPO计数。"
+        "11/20为港股交易日。HKEX Newly Listed Securities仅列供股权交易、ETF双柜台及结构性产品，均非公司IPO首挂。",
+        "HKEX AP-only与AP+PHIP官方JSON按文件自然日筛选，11/20无新增AP或PHIP。",
+        "中国证监会于11/20发布上海星思半导体、上海璞泰来两项单家公司备案通知书，均计入csrcCount；同日备案情况表与补充材料公示仅作监管更新，不计数。",
+        "SEC EDGAR EFTS在11/20目标表格仅命中Akanda Corp. F-1/A，业务地点不在中国或香港，未计入中港IPO。"
       ],
       "officialSourceChecks": [
         {
@@ -42,27 +112,27 @@
         {
           "source": "HKEX AP-only English JSON",
           "dateRange": "2026-11-20",
-          "sourceUpdatedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-11-22",
           "applicantCountPerLanguage": 329,
-          "result": "暂未见目标日新增AP文件。"
+          "result": "按文件自然日筛选，无新增AP。"
         },
         {
           "source": "HKEX AP+PHIP English JSON",
           "dateRange": "2026-11-20",
-          "sourceUpdatedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-11-22",
           "applicantCountPerLanguage": 16,
-          "result": "暂未见目标日新增PHIP文件。"
+          "result": "按文件自然日筛选，无新增PHIP。"
         },
         {
-          "source": "CSRC overseas securities official list",
+          "source": "CSRC overseas securities official JSON",
           "dateRange": "2026-11-20",
-          "sourceUpdatedAt": "2026-11-13",
-          "result": "未见目标自然日更新。"
+          "sourceUpdatedAt": "2026-11-20",
+          "result": "两项单家公司备案通知书计入csrcCount=2；备案情况表及补充材料公示仅作监管更新。"
         },
         {
           "source": "SEC EDGAR EFTS official full-text search",
           "dateRange": "2026-11-20",
-          "result": "无目标表格命中；无新增中港IPO计数。"
+          "result": "Akanda Corp. F-1/A业务地点不在中国或香港；无新增中港IPO计数。"
         }
       ],
       "pendingVerification": [],
@@ -70,8 +140,8 @@
         "hkexListings": "verified_current_page",
         "ap": "verified_current_feed",
         "phip": "verified_current_feed",
-        "csrc": "official_list_no_target_date_entries",
-        "sec": "official_efts_checked_no_target_date_hits"
+        "csrc": "official_list_two_target_date_filing_notices",
+        "sec": "official_efts_checked_no_qualifying_target_date_hits"
       }
     }
   },
@@ -80,7 +150,11 @@
     "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en",
     "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
     "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
-    "CSRC Overseas Securities JSON": "https://www.csrc.gov.cn/searchList/8f3f0d4be56b4f8aa8183b3234b88ede?_isAgg=true&_isJson=true&_pageSize=50&_template=index&page=1",
-    "SEC EDGAR EFTS 2026-11-19 to 2026-11-20": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-11-19&enddt=2026-11-20&forms=F-1%2CF-1%2FA%2C424B4%2C8-A%2CEFFECT"
+    "CSRC Overseas Securities JSON": "https://www.csrc.gov.cn/searchList/8f3f0d4be56b4f8aa8183b3234b88ede?_isAgg=true&_isJson=true&_pageSize=100&_template=index&page=1",
+    "SEC EDGAR EFTS 2026-11-20 to 2026-11-23": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-11-20&enddt=2026-11-23&forms=F-1%2CF-1%2FA%2C424B4%2C8-A%2CEFFECT",
+    "CSRC Shanghai Xingsi filing notice": "https://www.csrc.gov.cn/csrc/c105984/c7672176/content.shtml",
+    "CSRC Shanghai Putailai filing notice": "https://www.csrc.gov.cn/csrc/c105984/c7672122/content.shtml",
+    "CSRC filing status table 2026-11-20": "https://www.csrc.gov.cn/csrc/c106251/c7672139/content.shtml",
+    "CSRC supplementary materials 2026-11-20": "https://www.csrc.gov.cn/csrc/c105983/c7672136/content.shtml"
   }
 }
