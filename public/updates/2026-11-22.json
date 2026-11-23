@@ -1,0 +1,97 @@
+{
+  "generatedAt": "2026-11-23T01:30:00.000Z",
+  "dailyReports": {
+    "2026-11-22": {
+      "title": "资本市场快报",
+      "reportType": "briefing",
+      "edition": "09:30早盘快报（实际核验时间见lastVerifiedAt）",
+      "lastVerifiedAt": "2026-11-23T01:30:00.000Z",
+      "cutoffAt": "2026-11-23T01:30:00.000Z",
+      "backscanRange": {
+        "from": "2026-11-20",
+        "to": "2026-11-23"
+      },
+      "statusNote": "按官方发布自然日归档；无新增事件不创建占位公司卡。开盘价、收盘价及涨跌幅等交易进程字段留待后续时点补齐。",
+      "archiveNotice": "AP 与 PHIP 均使用 apApplications[]，以 status/documentType 区分；metrics 与可计数明细严格一致。",
+      "date": "2026-11-22",
+      "subtitle": "非港股交易日；HKEX新增1宗PHIP首次递交，按实际自然日独立归档。",
+      "isTradingDay": false,
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 0,
+        "phipCount": 1,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "deals": [],
+      "apApplications": [
+        {
+          "id": "kunlun-new-energy-materials-phip-20261122",
+          "section": "港股上市申请",
+          "eventType": "phip",
+          "countInMetrics": true,
+          "status": "A / PHIP",
+          "documentType": "PHIP (1st submission)；Full Version",
+          "company": {
+            "en": "Kunlun New Energy Materials Technology (Yichang) Co., Ltd.",
+            "display": "Kunlun New Energy Materials Technology (Yichang) Co., Ltd."
+          },
+          "publishedAt": "2026-11-22",
+          "source": "HKEX AP+PHIP English JSON",
+          "url": "https://www1.hkexnews.hk/ncms/eds/appactive_appphip_sehk_e.json"
+        }
+      ],
+      "regulatoryUpdates": [],
+      "observations": [
+        "11/22为周日，非港股交易日；不创建公司IPO首挂卡。",
+        "HKEX AP+PHIP官方JSON uDate为22/11/2026，Kunlun New Energy Materials Technology (Yichang) Co., Ltd. 于该日PHIP首次递交，计入phipCount=1；AP-only无新增AP。",
+        "中国证监会列表在该自然日未见新增单家公司备案通知书、备案情况表或补充材料公示。",
+        "SEC EDGAR EFTS在11/22无目标表格命中。"
+      ],
+      "officialSourceChecks": [
+        {
+          "source": "HKEX AP-only English JSON",
+          "dateRange": "2026-11-22",
+          "sourceUpdatedAt": "2026-11-22",
+          "applicantCountPerLanguage": 329,
+          "result": "按文件自然日筛选，无新增AP。"
+        },
+        {
+          "source": "HKEX AP+PHIP English JSON",
+          "dateRange": "2026-11-22",
+          "sourceUpdatedAt": "2026-11-22",
+          "applicantCountPerLanguage": 16,
+          "result": "1项PHIP首次递交，计入phipCount=1。"
+        },
+        {
+          "source": "CSRC overseas securities official JSON",
+          "dateRange": "2026-11-22",
+          "sourceUpdatedAt": "2026-11-20",
+          "result": "未见目标自然日更新。"
+        },
+        {
+          "source": "SEC EDGAR EFTS official full-text search",
+          "dateRange": "2026-11-22",
+          "result": "无目标表格命中；无新增中港IPO计数。"
+        }
+      ],
+      "pendingVerification": [],
+      "coverageStatus": {
+        "hkexListings": "non_trading_day",
+        "ap": "verified_current_feed",
+        "phip": "verified_current_feed",
+        "csrc": "official_list_no_target_date_entries",
+        "sec": "official_efts_checked_no_target_date_hits"
+      }
+    }
+  },
+  "linkMap": {
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Securities JSON": "https://www.csrc.gov.cn/searchList/8f3f0d4be56b4f8aa8183b3234b88ede?_isAgg=true&_isJson=true&_pageSize=100&_template=index&page=1",
+    "SEC EDGAR EFTS 2026-11-20 to 2026-11-23": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-11-20&enddt=2026-11-23&forms=F-1%2CF-1%2FA%2C424B4%2C8-A%2CEFFECT",
+    "Kunlun New Energy Materials Technology PHIP": "https://www1.hkexnews.hk/ncms/eds/appactive_appphip_sehk_e.json"
+  }
+}
