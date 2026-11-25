@@ -1,79 +1,181 @@
 {
-  "generatedAt": "2026-11-24T10:42:51+08:00",
+  "generatedAt": "2026-11-25T09:30:00+08:00",
   "dailyReports": {
     "2026-11-24": {
       "title": "资本市场快报",
       "reportType": "briefing",
       "edition": "09:30早盘快报（实际核验时间见lastVerifiedAt）",
-      "lastVerifiedAt": "2026-11-24T10:42:51+08:00",
-      "cutoffAt": "2026-11-24T10:42:51+08:00",
-      "backscanRange": {"from": "2026-11-20", "to": "2026-11-24"},
+      "lastVerifiedAt": "2026-11-25T09:30:00+08:00",
+      "cutoffAt": "2026-11-25T09:30:00+08:00",
+      "backscanRange": {
+        "from": "2026-11-20",
+        "to": "2026-11-25"
+      },
       "statusNote": "按官方发布自然日归档；无新增事件不创建占位公司卡。开盘价、收盘价及涨跌幅等交易进程字段留待后续时点补齐。",
       "archiveNotice": "AP 与 PHIP 均使用 apApplications[]，以 status/documentType 区分；metrics 与可计数明细严格一致。",
       "date": "2026-11-24",
-      "subtitle": "港股交易日；先通医药－B（09941）开始买卖；固定发行资料已按官方招股书及配发结果公告补齐。",
+      "subtitle": "港股交易日；先通医药－B（09941）开始买卖；HKEX延迟可见的合肥酷芯微电子11/24 PHIP已按实际自然日补归档。",
       "isTradingDay": true,
-      "metrics": {"hkexNewListings": 1, "apNewCount": 0, "phipCount": 0, "csrcCount": 0, "usChinaIpoCount": 0},
-      "deals": [{
-        "id": "sinotau-9941-20261124",
-        "section": "港股新上市",
-        "type": "主板18A生物科技H股IPO",
-        "status": "今日开始买卖；交易进程待后续补齐",
-        "eventType": "hkexNewListing",
-        "countInMetrics": true,
-        "company": {
-          "zh": "北京先通国际医药科技股份有限公司",
-          "en": "Beijing Sinotau International Pharmaceutical Technology Co., Ltd. - B",
-          "display": "先通医药－B（09941）",
-          "ticker": "09941",
-          "exchange": "香港联合交易所主板",
-          "listingStructure": "H股；18A生物科技公司"
-        },
-        "business": {
-          "sector": "医药生物",
-          "subIndustry": "放射性药物",
-          "summary": "放射性药物开发公司。",
-          "source": "HKEX招股书 / 配发结果公告"
-        },
-        "ipoDetails": {
-          "offerPrice": "HK$52.00/股",
-          "offerShares": "6,561,000股H股",
-          "hongKongOffer": "656,100股；认购5,228.77倍；129,458份有效申请、13,122份成功申请",
-          "internationalOffer": "5,904,900股；61名承配人；认购3.01倍",
-          "cornerstoneInvestors": "官方招股书及配发结果公告未披露基石投资人",
-          "grossProceeds": "约HK$341.2百万",
-          "netProceeds": "约HK$276.6百万",
-          "listingDate": "2026-11-24"
-        },
-        "intermediaries": {
-          "roles": "联席保荐人、整体协调人、联席全球协调人、联席账簿管理人及联席牵头经办人：广发证券（独立保荐人）、中金公司、 中信证券；整体协调人/联席全球协调人/联席账簿管理人/联席牵头经办人：招银国际；联席全球协调人、联席账簿管理人及联席牵头经办人：DBS、银河国际。"
-        },
-        "timeline": [
-          {"date": "2025-05-26", "event": "HKEX首次刊发申请版本；该轮申请后续失效。"},
-          {"date": "2026-10-28", "event": "HKEX刊发后聆讯资料集（PHIP）。"},
-          {"date": "2026-11-16", "event": "招股书刊发及香港公开发售开始。"},
-          {"date": "2026-11-23", "event": "最终发售价及配发结果公告。"},
-          {"date": "2026-11-24", "event": "H股开始买卖。"}
-        ],
-        "links": ["Sinotau prospectus", "Sinotau allotment results"]
-      }],
-      "apApplications": [],
+      "metrics": {
+        "hkexNewListings": 1,
+        "apNewCount": 0,
+        "phipCount": 1,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "deals": [
+        {
+          "id": "sinotau-9941-20261124",
+          "section": "港股新上市",
+          "type": "主板18A生物科技H股IPO",
+          "status": "今日开始买卖；交易进程待后续补齐",
+          "eventType": "hkexNewListing",
+          "countInMetrics": true,
+          "company": {
+            "zh": "北京先通国际医药科技股份有限公司",
+            "en": "Beijing Sinotau International Pharmaceutical Technology Co., Ltd. - B",
+            "display": "先通医药－B（09941）",
+            "ticker": "09941",
+            "exchange": "香港联合交易所主板",
+            "listingStructure": "H股；18A生物科技公司"
+          },
+          "business": {
+            "sector": "医药生物",
+            "subIndustry": "放射性药物",
+            "summary": "放射性药物开发公司。",
+            "source": "HKEX招股书 / 配发结果公告"
+          },
+          "ipoDetails": {
+            "offerPrice": "HK$52.00/股",
+            "offerShares": "6,561,000股H股",
+            "hongKongOffer": "656,100股；认购5,228.77倍；129,458份有效申请、13,122份成功申请",
+            "internationalOffer": "5,904,900股；61名承配人；认购3.01倍",
+            "cornerstoneInvestors": "官方招股书及配发结果公告未披露基石投资人",
+            "grossProceeds": "约HK$341.2百万",
+            "netProceeds": "约HK$276.6百万",
+            "listingDate": "2026-11-24"
+          },
+          "intermediaries": {
+            "roles": "联席保荐人、整体协调人、联席全球协调人、联席账簿管理人及联席牵头经办人：广发证券（独立保荐人）、中金公司、 中信证券；整体协调人/联席全球协调人/联席账簿管理人/联席牵头经办人：招银国际；联席全球协调人、联席账簿管理人及联席牵头经办人：DBS、银河国际。"
+          },
+          "timeline": [
+            {
+              "date": "2025-05-26",
+              "event": "HKEX首次刊发申请版本；该轮申请后续失效。"
+            },
+            {
+              "date": "2026-10-28",
+              "event": "HKEX刊发后聆讯资料集（PHIP）。"
+            },
+            {
+              "date": "2026-11-16",
+              "event": "招股书刊发及香港公开发售开始。"
+            },
+            {
+              "date": "2026-11-23",
+              "event": "最终发售价及配发结果公告。"
+            },
+            {
+              "date": "2026-11-24",
+              "event": "H股开始买卖。"
+            }
+          ],
+          "links": [
+            "Sinotau prospectus",
+            "Sinotau allotment results"
+          ]
+        }
+      ],
+      "apApplications": [
+        {
+          "id": "hefei-kuxin-microelectronics-phip-20261124",
+          "section": "港股递表/聆讯",
+          "eventType": "phip",
+          "countInMetrics": true,
+          "status": "A / PHIP",
+          "documentType": "PHIP (1st submission)",
+          "company": {
+            "zh": "合肥酷芯微电子股份有限公司",
+            "en": "Hefei Kuxin Microelectronics Co., Ltd.",
+            "display": "合肥酷芯微电子"
+          },
+          "nameZh": "合肥酷芯微电子股份有限公司",
+          "nameEn": "Hefei Kuxin Microelectronics Co., Ltd.",
+          "filingDate": "2026-11-24",
+          "publishedAt": "2026-11-24",
+          "sector": "半导体",
+          "industry": "半导体",
+          "subIndustry": "SoC芯片设计",
+          "structure": "H股主板申请",
+          "sponsors": "待以PHIP封面及参与方章节复核",
+          "businessSummary": "公司及其附属公司主要从事系统级芯片（SoC）产品的设计、研发及销售。",
+          "businessSource": "HKEX Application Proof 摘要（2026-01-28）",
+          "source": "HKEX AP+PHIP structured JSON",
+          "url": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+          "sourceLinks": {
+            "phipEnglishFullVersion": "https://www1.hkexnews.hk/app/sehk/2026/109046/documents/warn26112401390.pdf",
+            "phipChineseFullVersion": "https://www1.hkexnews.hk/app/sehk/2026/109046/documents/warn26112401389_c.pdf",
+            "applicationProofEnglish": "https://www1.hkexnews.hk/app/sehk/2026/108153/documents/sehk26012801309.pdf"
+          }
+        }
+      ],
       "regulatoryUpdates": [],
       "observations": [
         "11/24为港股交易日；HKEX Newly Listed Securities与New Listing Information确认先通医药－B（09941）为公司IPO新挂牌。",
         "发行价HK$52.00；全球发售6,561,000股H股。公开发售认购5,228.77倍，国际发售认购3.01倍；固定资料已从官方招股书、配发结果公告与新上市资料页补齐。",
         "HKEX AP-only及AP+PHIP官方JSON uDate均为24/11/2026；按文件自然日筛选，11/24无新增AP或PHIP。",
-        "中国证监会官方境外发行上市列表最新目标相关发布仍为11/20，11/24无新增单家公司备案通知书；SEC EDGAR EFTS在11/24无目标表格命中。"
+        "中国证监会官方境外发行上市列表最新目标相关发布仍为11/20，11/24无新增单家公司备案通知书；SEC EDGAR EFTS在11/24无目标表格命中。",
+        "HKEX AP+PHIP官方JSON本次显示24/11/2026新增合肥酷芯微电子股份有限公司PHIP首次递交；已补入apApplications[]并令phipCount=1，AP仍为0。"
       ],
       "officialSourceChecks": [
-        {"source": "HKEX Newly Listed Securities / New Listing Information / prospectus / allotment results", "dateRange": "2026-11-24", "sourceUpdatedAt": "2026-11-24", "result": "09941于11/24开始买卖；发行及时间线固定资料来自官方文件。"},
-        {"source": "HKEX AP-only English JSON", "dateRange": "2026-11-24", "sourceUpdatedAt": "2026-11-24", "applicantCountPerLanguage": 326, "result": "按文件自然日筛选，无新增AP。"},
-        {"source": "HKEX AP+PHIP English JSON", "dateRange": "2026-11-24", "sourceUpdatedAt": "2026-11-24", "applicantCountPerLanguage": 17, "result": "按文件自然日筛选，无新增PHIP。"},
-        {"source": "CSRC overseas securities official JSON", "dateRange": "2026-11-24", "sourceUpdatedAt": "2026-11-20", "result": "未见目标自然日更新。"},
-        {"source": "SEC EDGAR EFTS official full-text search", "dateRange": "2026-11-24", "result": "无目标表格命中；无新增中港IPO计数。"}
+        {
+          "source": "HKEX Newly Listed Securities / New Listing Information / prospectus / allotment results",
+          "dateRange": "2026-11-24",
+          "sourceUpdatedAt": "2026-11-24",
+          "result": "09941于11/24开始买卖；发行及时间线固定资料来自官方文件。"
+        },
+        {
+          "source": "HKEX AP-only English JSON",
+          "dateRange": "2026-11-24",
+          "sourceUpdatedAt": "2026-11-24",
+          "applicantCountPerLanguage": 326,
+          "result": "按文件自然日筛选，无新增AP。"
+        },
+        {
+          "source": "HKEX AP+PHIP English JSON",
+          "dateRange": "2026-11-24",
+          "sourceUpdatedAt": "2026-11-24",
+          "applicantCountPerLanguage": 18,
+          "result": "1项PHIP首次递交（合肥酷芯微电子股份有限公司），计入phipCount=1。"
+        },
+        {
+          "source": "CSRC overseas securities official JSON",
+          "dateRange": "2026-11-24",
+          "sourceUpdatedAt": "2026-11-20",
+          "result": "未见目标自然日更新。"
+        },
+        {
+          "source": "SEC EDGAR EFTS official full-text search",
+          "dateRange": "2026-11-24",
+          "result": "无目标表格命中；无新增中港IPO计数。"
+        }
       ],
-      "pendingVerification": [{"source": "HKEX trading prices", "dates": ["2026-11-24"], "reason": "09:30早盘快报不填入开盘价、收盘价或涨跌幅；由后续时点按官方市场数据补齐。"}],
-      "coverageStatus": {"hkexListings": "verified_current_page", "ap": "verified_current_feed", "phip": "verified_current_feed", "csrc": "official_list_no_target_date_entries", "sec": "official_efts_checked_no_target_date_hits"}
+      "pendingVerification": [
+        {
+          "source": "HKEX trading prices",
+          "dates": [
+            "2026-11-24"
+          ],
+          "reason": "09:30早盘快报不填入开盘价、收盘价或涨跌幅；由后续时点按官方市场数据补齐。"
+        }
+      ],
+      "coverageStatus": {
+        "hkexListings": "verified_current_page",
+        "ap": "verified_current_feed",
+        "phip": "verified_current_feed",
+        "csrc": "official_list_no_target_date_entries",
+        "sec": "official_efts_checked_no_target_date_hits"
+      }
     }
   },
   "linkMap": {
@@ -86,6 +188,8 @@
     "Sinotau prospectus": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1116/2026111600011.pdf",
     "Sinotau allotment results": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1123/2026112301691.pdf",
     "Sinotau 2026 PHIP": "https://www1.hkexnews.hk/app/sehk/2026/109006/a136487/sehk26102801550.pdf",
-    "Sinotau 2025 Application Proof": "https://www.hkexnews.hk/app/sehk/2025/107395/a123307/sehk25052600985.pdf"
+    "Sinotau 2025 Application Proof": "https://www.hkexnews.hk/app/sehk/2025/107395/a123307/sehk25052600985.pdf",
+    "Hefei Kuxin PHIP English Full Version": "https://www1.hkexnews.hk/app/sehk/2026/109046/documents/warn26112401390.pdf",
+    "Hefei Kuxin PHIP Chinese Full Version": "https://www1.hkexnews.hk/app/sehk/2026/109046/documents/warn26112401389_c.pdf"
   }
 }
