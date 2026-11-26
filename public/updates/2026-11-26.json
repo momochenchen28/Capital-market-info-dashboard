@@ -1,0 +1,89 @@
+{
+  "generatedAt": "2026-11-26T09:30:00+08:00",
+  "dailyReports": {
+    "2026-11-26": {
+      "title": "资本市场快报",
+      "reportType": "briefing",
+      "edition": "09:30早盘快报",
+      "lastVerifiedAt": "2026-11-26T09:30:00+08:00",
+      "cutoffAt": "2026-11-26T09:30:00+08:00",
+      "backscanRange": {
+        "from": "2026-11-20",
+        "to": "2026-11-26"
+      },
+      "statusNote": "按官方发布自然日归档；无新增事件不创建占位公司卡。",
+      "archiveNotice": "AP 与 PHIP 均使用 apApplications[]，以 status/documentType 区分；metrics 与可计数明细严格一致。",
+      "date": "2026-11-26",
+      "subtitle": "港股交易日；截至09:30未见可计数公司IPO首挂或新增官方申请/备案事件。",
+      "isTradingDay": true,
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "deals": [],
+      "apApplications": [],
+      "regulatoryUpdates": [],
+      "observations": [
+        "11/26为港股交易日。HKEX Newly Listed Securities页面的26/11项目均标示“*”为待生效记录，包含CTG HKM新上市、基金/票据、供股权及每手股数变更；截至09:30不作为已确认公司IPO首挂计入。",
+        "HKEX AP-only与AP+PHIP英中JSON当前uDate均为26/11/2026，分别含325及18项；按26/11自然日筛选，未见新增首次AP或PHIP。",
+        "中国证监会境外证券发行官方列表未见11/26单家公司《境外发行上市备案通知书》；SEC EFTS的11/25—26检索无11/26文件。"
+      ],
+      "officialSourceChecks": [
+        {
+          "source": "HKEX Newly Listed Securities / New Listing Information",
+          "dateRange": "2026-11-26",
+          "sourceUpdatedAt": "2026-11-26",
+          "result": "页面26/11项目均带“*”待生效标记；截至09:30未确认公司IPO首挂。"
+        },
+        {
+          "source": "HKEX AP-only English and Chinese JSON",
+          "dateRange": "2026-11-26",
+          "sourceUpdatedAt": "2026-11-26",
+          "applicantCountPerLanguage": 325,
+          "result": "无26/11新增首次AP。"
+        },
+        {
+          "source": "HKEX AP+PHIP English and Chinese JSON",
+          "dateRange": "2026-11-26",
+          "sourceUpdatedAt": "2026-11-26",
+          "applicantCountPerLanguage": 18,
+          "result": "无26/11新增PHIP。"
+        },
+        {
+          "source": "CSRC overseas securities official JSON",
+          "dateRange": "2026-11-26",
+          "sourceUpdatedAt": "2026-09-30",
+          "result": "未见目标自然日单家公司备案通知书。"
+        },
+        {
+          "source": "SEC EDGAR EFTS official full-text search",
+          "dateRange": "2026-11-25 to 2026-11-26",
+          "result": "无11/26文件命中。"
+        }
+      ],
+      "pendingVerification": [],
+      "coverageStatus": {
+        "hkexListings": "verified_current_page",
+        "ap": "verified_current_feed",
+        "phip": "verified_current_feed",
+        "csrc": "official_list_no_target_date_entries",
+        "sec": "official_efts_checked"
+      }
+    }
+  },
+  "linkMap": {
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Securities JSON": "https://www.csrc.gov.cn/searchList/8f3f0d4be56b4f8aa8183b3234b88ede?_isAgg=true&_isJson=true&_pageSize=100&_template=index&page=1",
+    "SEC EDGAR EFTS 2026-11-25 to 2026-11-26": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-11-25&enddt=2026-11-26&forms=F-1%2CF-1%2FA%2C424B4%2C8-A%2CEFFECT",
+    "Konfoong Materials revised OC": "https://www1.hkexnews.hk/ncms/ccs/hk/listedco/listconews/sehk/2026/109026/documents/sehk26112501682.pdf",
+    "Rayson HI-TECH PHIP": "https://www1.hkexnews.hk/ncms/ccs/hk/listedco/listconews/sehk/2026/108385/documents/sehk26112501532.pdf",
+    "Timwood Holdings F-1/A": "https://www.sec.gov/Archives/edgar/data/2092291/000118518526005610/timwoodf1a4112026.htm",
+    "Guitar Group F-1/A": "https://www.sec.gov/Archives/edgar/data/2127447/000118518526005604/guitarf1a1111726.htm"
+  }
+}
