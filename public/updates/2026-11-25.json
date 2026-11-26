@@ -1,68 +1,188 @@
 {
-  "generatedAt": "2026-11-25T09:30:00+08:00",
+  "generatedAt": "2026-11-26T09:30:00+08:00",
   "dailyReports": {
     "2026-11-25": {
       "title": "资本市场快报",
       "reportType": "briefing",
-      "edition": "09:30早盘快报",
-      "lastVerifiedAt": "2026-11-25T09:30:00+08:00",
-      "cutoffAt": "2026-11-25T09:30:00+08:00",
+      "edition": "09:30早盘快报（回扫修正）",
+      "lastVerifiedAt": "2026-11-26T09:30:00+08:00",
+      "cutoffAt": "2026-11-26T09:30:00+08:00",
       "backscanRange": {
         "from": "2026-11-20",
-        "to": "2026-11-25"
+        "to": "2026-11-26"
       },
       "statusNote": "按官方发布自然日归档；无新增事件不创建占位公司卡。",
       "archiveNotice": "AP 与 PHIP 均使用 apApplications[]，以 status/documentType 区分；metrics 与可计数明细严格一致。",
       "date": "2026-11-25",
-      "subtitle": "港股交易日；截至09:30未见可计数公司IPO首挂或新增官方申请/备案事件。",
+      "subtitle": "港股交易日；回扫新增1宗PHIP首次递交及2宗香港运营公司SEC F-1/A待发行披露。",
       "isTradingDay": true,
       "metrics": {
         "hkexNewListings": 0,
         "apNewCount": 0,
-        "phipCount": 0,
+        "phipCount": 1,
         "csrcCount": 0,
-        "usChinaIpoCount": 0
+        "usChinaIpoCount": 2
       },
-      "deals": [],
-      "apApplications": [],
+      "deals": [
+        {
+          "id": "timwood-sec-f1a-20261125",
+          "section": "美股中港IPO",
+          "type": "F-1/A（拟首次公开发行）",
+          "status": "SEC于11/25披露；尚未生效、未上市",
+          "eventType": "usChinaIpo",
+          "countInMetrics": true,
+          "company": {
+            "en": "Timwood Holdings Ltd",
+            "display": "Timwood Holdings Ltd",
+            "exchange": "拟在美国市场上市（待SEC注册生效及交易场所批准）",
+            "listingStructure": "境外控股公司 / 香港运营主体"
+          },
+          "business": {
+            "sector": "物流与运输服务",
+            "subIndustry": "货运与物流",
+            "summary": "SEC EDGAR EFTS发行人元数据列示业务地点为香港九龙长沙湾。",
+            "source": "SEC EDGAR EFTS F-1/A"
+          },
+          "ipoDetails": {
+            "offerPrice": "以最新SEC F-1/A披露为准",
+            "offerShares": "以最新SEC F-1/A披露为准",
+            "hongKongOffer": "不适用（美国拟上市）",
+            "internationalOffer": "以最新SEC F-1/A披露为准",
+            "cornerstoneInvestors": "招股书未披露基石投资人",
+            "listingDate": "待SEC注册生效及交易场所批准"
+          },
+          "intermediaries": {
+            "roles": "以最新SEC F-1/A原文披露为准。"
+          },
+          "timeline": [
+            {
+              "date": "2026-11-25",
+              "event": "SEC提交F-1/A注册声明。"
+            },
+            {
+              "date": "待定",
+              "event": "待SEC注册生效及完成发行后开始交易。"
+            }
+          ],
+          "links": [
+            "Timwood Holdings F-1/A"
+          ]
+        },
+        {
+          "id": "guitar-group-sec-f1a-20261125",
+          "section": "美股中港IPO",
+          "type": "F-1/A（拟首次公开发行）",
+          "status": "SEC于11/25披露；尚未生效、未上市",
+          "eventType": "usChinaIpo",
+          "countInMetrics": true,
+          "company": {
+            "en": "Guitar Group Ltd",
+            "display": "Guitar Group Ltd",
+            "exchange": "拟在美国市场上市（待SEC注册生效及交易场所批准）",
+            "listingStructure": "境外控股公司 / 香港运营主体"
+          },
+          "business": {
+            "sector": "休闲娱乐服务",
+            "subIndustry": "音乐与娱乐服务",
+            "summary": "SEC EDGAR EFTS发行人元数据列示业务地点为香港九龙。",
+            "source": "SEC EDGAR EFTS F-1/A"
+          },
+          "ipoDetails": {
+            "offerPrice": "以最新SEC F-1/A披露为准",
+            "offerShares": "以最新SEC F-1/A披露为准",
+            "hongKongOffer": "不适用（美国拟上市）",
+            "internationalOffer": "以最新SEC F-1/A披露为准",
+            "cornerstoneInvestors": "招股书未披露基石投资人",
+            "listingDate": "待SEC注册生效及交易场所批准"
+          },
+          "intermediaries": {
+            "roles": "以最新SEC F-1/A原文披露为准。"
+          },
+          "timeline": [
+            {
+              "date": "2026-11-25",
+              "event": "SEC提交F-1/A注册声明。"
+            },
+            {
+              "date": "待定",
+              "event": "待SEC注册生效及完成发行后开始交易。"
+            }
+          ],
+          "links": [
+            "Guitar Group F-1/A"
+          ]
+        }
+      ],
+      "apApplications": [
+        {
+          "id": "konfoong-materials-ap-update-20261125",
+          "section": "港股上市申请",
+          "eventType": "apUpdate",
+          "countInMetrics": false,
+          "status": "A / Active",
+          "documentType": "OC Announcement - Appointment (Revised)",
+          "company": {
+            "en": "Konfoong Materials International Co., Ltd.",
+            "display": "Konfoong Materials International Co., Ltd."
+          },
+          "publishedAt": "2026-11-25",
+          "source": "HKEX AP-only English JSON",
+          "url": "https://www1.hkexnews.hk/ncms/ccs/hk/listedco/listconews/sehk/2026/109026/documents/sehk26112501682.pdf"
+        },
+        {
+          "id": "rayson-hitech-phip-20261125",
+          "section": "港股上市申请",
+          "eventType": "phip",
+          "countInMetrics": true,
+          "status": "A / PHIP",
+          "documentType": "PHIP (1st submission)；Full Version",
+          "company": {
+            "en": "Rayson HI-TECH(SZ) Co., Ltd.",
+            "display": "Rayson HI-TECH(SZ) Co., Ltd."
+          },
+          "publishedAt": "2026-11-25",
+          "source": "HKEX AP+PHIP English JSON",
+          "url": "https://www1.hkexnews.hk/ncms/ccs/hk/listedco/listconews/sehk/2026/108385/documents/sehk26112501532.pdf"
+        }
+      ],
       "regulatoryUpdates": [],
       "observations": [
-        "11/25为港股交易日。HKEX Newly Listed Securities页面标示的三项25/11记录均带未来生效标记“*”，且分别为每手股数变更/并行买卖、票据新上市及股份合并；均非公司IPO首挂。",
-        "HKEX AP-only与AP+PHIP英中JSON当前uDate均为24/11/2026：AP-only原始app数组326项、AP+PHIP原始app数组18项；按25/11自然日筛选，AP及PHIP均无新增。",
-        "中国证监会境外证券发行官方列表本轮未见11/25单家公司《境外发行上市备案通知书》、补充材料公示或备案情况表更新。",
-        "SEC EDGAR EFTS按11/21—11/25检索F-1、F-1/A、424B4、8-A及EFFECT，命中均为11/24；未识别出新增中港IPO可计数事件。"
+        "11/25为港股交易日；HKEX Newly Listed Securities无公司IPO首挂。",
+        "HKEX AP-only英中JSON于11/26更新至uDate 26/11/2026（325项）；Konfoong Materials的11/25经修订OC委任公告并非首次AP，保留为非计数更新。",
+        "HKEX AP+PHIP英中JSON于11/26更新至uDate 26/11/2026（18项）；Rayson HI-TECH(SZ)于11/25的PHIP首次递交计入phipCount=1。",
+        "CSRC官方境外证券发行列表未见11/25单家公司备案通知书；SEC EFTS在11/25检出3宗F-1/A，其中Timwood Holdings及Guitar Group的业务地点分别为香港九龙长沙湾及九龙，计入2宗中港IPO待发行披露；ROZE AI业务地点温哥华，不计入。"
       ],
       "officialSourceChecks": [
         {
           "source": "HKEX Newly Listed Securities / New Listing Information",
           "dateRange": "2026-11-25",
-          "sourceUpdatedAt": "2026-11-25",
-          "result": "无公司IPO首挂；3项25/11记录均为带*的非IPO或未来生效事项。"
+          "sourceUpdatedAt": "2026-11-26",
+          "result": "无公司IPO首挂。"
         },
         {
           "source": "HKEX AP-only English and Chinese JSON",
           "dateRange": "2026-11-25",
-          "sourceUpdatedAt": "2026-11-24",
-          "applicantCountPerLanguage": 326,
-          "result": "原始app数组已核验；无25/11新增AP。"
+          "sourceUpdatedAt": "2026-11-26",
+          "applicantCountPerLanguage": 325,
+          "result": "1项经修订OC委任公告，非首次AP，不计入apNewCount。"
         },
         {
           "source": "HKEX AP+PHIP English and Chinese JSON",
           "dateRange": "2026-11-25",
-          "sourceUpdatedAt": "2026-11-24",
+          "sourceUpdatedAt": "2026-11-26",
           "applicantCountPerLanguage": 18,
-          "result": "原始app数组已核验；无25/11新增PHIP。"
+          "result": "1项PHIP首次递交，计入phipCount。"
         },
         {
           "source": "CSRC overseas securities official JSON",
           "dateRange": "2026-11-25",
-          "sourceUpdatedAt": "2026-11-20",
-          "result": "未见目标自然日更新。"
+          "sourceUpdatedAt": "2026-09-30",
+          "result": "未见目标自然日单家公司备案通知书。"
         },
         {
           "source": "SEC EDGAR EFTS official full-text search",
-          "dateRange": "2026-11-21 to 2026-11-25",
-          "result": "3项命中均为11/24 F-1/A；未新增中港IPO计数。"
+          "dateRange": "2026-11-25 to 2026-11-26",
+          "result": "3宗11/25 F-1/A命中；2宗香港业务地点发行人计数，1宗温哥华发行人不计数。"
         }
       ],
       "pendingVerification": [],
@@ -71,7 +191,7 @@
         "ap": "verified_current_feed",
         "phip": "verified_current_feed",
         "csrc": "official_list_no_target_date_entries",
-        "sec": "official_efts_checked"
+        "sec": "official_efts_f1a_verified"
       }
     }
   },
@@ -81,6 +201,10 @@
     "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
     "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
     "CSRC Overseas Securities JSON": "https://www.csrc.gov.cn/searchList/8f3f0d4be56b4f8aa8183b3234b88ede?_isAgg=true&_isJson=true&_pageSize=100&_template=index&page=1",
-    "SEC EDGAR EFTS 2026-11-21 to 2026-11-25": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-11-21&enddt=2026-11-25&forms=F-1%2CF-1%2FA%2C424B4%2C8-A%2CEFFECT"
+    "SEC EDGAR EFTS 2026-11-25 to 2026-11-26": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-11-25&enddt=2026-11-26&forms=F-1%2CF-1%2FA%2C424B4%2C8-A%2CEFFECT",
+    "Konfoong Materials revised OC": "https://www1.hkexnews.hk/ncms/ccs/hk/listedco/listconews/sehk/2026/109026/documents/sehk26112501682.pdf",
+    "Rayson HI-TECH PHIP": "https://www1.hkexnews.hk/ncms/ccs/hk/listedco/listconews/sehk/2026/108385/documents/sehk26112501532.pdf",
+    "Timwood Holdings F-1/A": "https://www.sec.gov/Archives/edgar/data/2092291/000118518526005610/timwoodf1a4112026.htm",
+    "Guitar Group F-1/A": "https://www.sec.gov/Archives/edgar/data/2127447/000118518526005604/guitarf1a1111726.htm"
   }
 }
