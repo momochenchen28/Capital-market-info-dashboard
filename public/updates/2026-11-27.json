@@ -1,0 +1,85 @@
+{
+  "generatedAt": "2026-11-27T09:30:00+08:00",
+  "dailyReports": {
+    "2026-11-27": {
+      "title": "资本市场快报",
+      "reportType": "briefing",
+      "edition": "09:30早盘快报",
+      "lastVerifiedAt": "2026-11-27T09:30:00+08:00",
+      "cutoffAt": "2026-11-27T09:30:00+08:00",
+      "backscanRange": {
+        "from": "2026-11-20",
+        "to": "2026-11-27"
+      },
+      "statusNote": "按官方发布自然日归档；无新增事件不创建占位公司卡。",
+      "archiveNotice": "AP 与 PHIP 均使用 apApplications[]，以 status/documentType 区分；metrics 与可计数明细严格一致。",
+      "date": "2026-11-27",
+      "subtitle": "港股交易日；截至09:30未见可计数公司IPO首挂或新增官方申请/备案事件。",
+      "isTradingDay": true,
+      "metrics": {
+        "hkexNewListings": 0,
+        "apNewCount": 0,
+        "phipCount": 0,
+        "csrcCount": 0,
+        "usChinaIpoCount": 0
+      },
+      "deals": [],
+      "apApplications": [],
+      "regulatoryUpdates": [],
+      "observations": [
+        "11/27为港股交易日。HKEX Newly Listed Securities的27/11项目均标示“*”为待生效记录，分别为两项股份合并及两项结构性产品新上市；截至09:30不作为公司IPO首挂计入。",
+        "HKEX AP-only与AP+PHIP英中JSON当前uDate均为26/11/2026，分别含324及18项；按11/20—27自然日回扫，未见11/27新增首次AP或PHIP。已披露的11/22—25 PHIP及11/25非首次AP更新均已按其实际自然日归档。",
+        "中国证监会境外证券发行官方列表最新目标相关单家公司备案通知书仍为11/20，未见11/21—27新增单家公司《境外发行上市备案通知书》；SEC EFTS于11/20—27检出记录均落在11/20、11/24或11/25，11/27无文件命中。"
+      ],
+      "officialSourceChecks": [
+        {
+          "source": "HKEX Newly Listed Securities / New Listing Information",
+          "dateRange": "2026-11-27",
+          "sourceUpdatedAt": "2026-11-27",
+          "result": "27/11项目均带“*”待生效标记；两项股份合并及两项结构性产品，不构成已确认公司IPO首挂。"
+        },
+        {
+          "source": "HKEX AP-only English and Chinese JSON",
+          "dateRange": "2026-11-20 to 2026-11-27",
+          "sourceUpdatedAt": "2026-11-26",
+          "applicantCountPerLanguage": 324,
+          "result": "无11/27新增首次AP；11/25经修订OC委任公告为非首次AP更新，已归档且不计入apNewCount。"
+        },
+        {
+          "source": "HKEX AP+PHIP English and Chinese JSON",
+          "dateRange": "2026-11-20 to 2026-11-27",
+          "sourceUpdatedAt": "2026-11-26",
+          "applicantCountPerLanguage": 18,
+          "result": "无11/27新增PHIP；已披露的11/22、11/23、11/24及11/25 PHIP首次递交均已按实际自然日归档。"
+        },
+        {
+          "source": "CSRC overseas securities official JSON",
+          "dateRange": "2026-11-20 to 2026-11-27",
+          "sourceUpdatedAt": "2026-11-20",
+          "result": "未见目标区间新增单家公司《境外发行上市备案通知书》；仅该类通知计入csrcCount。"
+        },
+        {
+          "source": "SEC EDGAR EFTS official full-text search",
+          "dateRange": "2026-11-20 to 2026-11-27",
+          "result": "7宗F-1/A命中均为11/20、11/24或11/25；11/27无目标表格命中。"
+        }
+      ],
+      "pendingVerification": [],
+      "coverageStatus": {
+        "hkexListings": "verified_current_page",
+        "ap": "verified_feed_as_of_2026-11-26",
+        "phip": "verified_feed_as_of_2026-11-26",
+        "csrc": "official_list_no_target_date_entries",
+        "sec": "official_efts_checked"
+      }
+    }
+  },
+  "linkMap": {
+    "HKEX Newly Listed Securities": "https://www.hkex.com.hk/Services/Trading/Securities/Trading-News/Newly-Listed-Securities?sc_lang=en",
+    "HKEX New Listing Information": "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en",
+    "HKEX AP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_app_sehk_e.json",
+    "HKEX AP/PHIP structured JSON": "https://www1.hkexnews.hk/ncms/json/eds/appactive_appphip_sehk_e.json",
+    "CSRC Overseas Securities JSON": "https://www.csrc.gov.cn/searchList/8f3f0d4be56b4f8aa8183b3234b88ede?_isAgg=true&_isJson=true&_pageSize=100&_template=index&page=1",
+    "SEC EDGAR EFTS 2026-11-20 to 2026-11-27": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-11-20&enddt=2026-11-27&forms=F-1%2CF-1%2FA%2C424B4%2C8-A%2CEFFECT"
+  }
+}
